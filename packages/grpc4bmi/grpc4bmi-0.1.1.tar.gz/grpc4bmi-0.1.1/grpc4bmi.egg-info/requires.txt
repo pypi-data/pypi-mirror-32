@@ -1,0 +1,5 @@
+grpcio
+protobuf
+numpy
+futures
+docker
