@@ -1,0 +1,8 @@
+Jinja2
+astral
+coloredlogs
+mypy_extensions
+psutil
+pyyaml
+requests
+watchdog
