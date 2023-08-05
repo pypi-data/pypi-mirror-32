@@ -1,0 +1,7 @@
+README.md
+setup.py
+pig_latin.egg-info/PKG-INFO
+pig_latin.egg-info/SOURCES.txt
+pig_latin.egg-info/dependency_links.txt
+pig_latin.egg-info/not-zip-safe
+pig_latin.egg-info/top_level.txt
