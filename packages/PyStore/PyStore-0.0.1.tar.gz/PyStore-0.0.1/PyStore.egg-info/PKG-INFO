@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: PyStore
+Version: 0.0.1
+Summary: Flat-file datastore for timeseries data
+Home-page: https://github.com/ranaroussi/pystore
+Author: Ran Aroussi
+Author-email: ran@aroussi.com
+License: LGPL
+Description: PyStore is a Pythonic, flat-file datastore for timeseries data,
+        that provide an easy to use datastore for Python developers that
+        can easily query millions of rows per second per client.
+Keywords: dask,datastore,flatfile,pystore
+Platform: linux
+Platform: unix
+Platform: macOS
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2)
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Database
+Classifier: Topic :: Database :: Database Engines/Servers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
