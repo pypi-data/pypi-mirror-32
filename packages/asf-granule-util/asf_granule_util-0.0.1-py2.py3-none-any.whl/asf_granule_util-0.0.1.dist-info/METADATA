@@ -1,0 +1,19 @@
+Metadata-Version: 2.0
+Name: asf-granule-util
+Version: 0.0.1
+Summary: Library for handling sential granules
+Home-page: https://github.com/asfadmin/hyp3-time-series-lib
+Author: ASF Student Development Team 2017
+Author-email: eng.accts@asf.alaska.edu
+License: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Keywords: granule asf sential util
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+
+Utility classes for making working with sential granule strings easier and more readable.
+
+
