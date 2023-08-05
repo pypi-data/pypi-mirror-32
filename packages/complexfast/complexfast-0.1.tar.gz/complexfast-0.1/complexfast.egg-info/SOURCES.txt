@@ -1,0 +1,6 @@
+README.md
+setup.py
+complexfast.egg-info/PKG-INFO
+complexfast.egg-info/SOURCES.txt
+complexfast.egg-info/dependency_links.txt
+complexfast.egg-info/top_level.txt
