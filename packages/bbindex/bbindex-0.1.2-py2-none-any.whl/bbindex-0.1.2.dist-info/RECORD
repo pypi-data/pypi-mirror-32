@@ -1,0 +1,11 @@
+bbindex/__init__.py,sha256=9v7xSX_GIb_Q-LNHrw94PgL0Ee0-ttKQoqKGU4rkaW8,235
+bbindex/authorize.py,sha256=VzIL13BorjthWyu48p7nBDBJxJ7VBWHpHmSTaiW-uDM,3226
+bbindex/base.py,sha256=-oHU80Hy1fQFWJgfZKePUMOFOgqaBxVSaWsUBcMSJLc,5365
+bbindex/dataapi.py,sha256=ZyZxoVMmyWB4j9rBCPc-oIIvhuyEQ59mAjDFDuPj0yI,4238
+bbindex/vars.py,sha256=mbXgjQiGwIAnhGPgaT13iRPHkwdR51CCY1z7grUoU84,553
+bbindex-0.1.2.dist-info/DESCRIPTION.rst,sha256=DgCv05AsmUEa3tw0bD9PjMf4w_f7jmzP3HVhx0LQ1WE,5622
+bbindex-0.1.2.dist-info/METADATA,sha256=nMruzyfyqrjN6fSSWLAFumK3QIqK59yKzW1TtuA3yP0,6348
+bbindex-0.1.2.dist-info/RECORD,,
+bbindex-0.1.2.dist-info/WHEEL,sha256=90z-L1FjHEv_g8pMPaPbaXuhBIvSlvYObRaa122x8ag,97
+bbindex-0.1.2.dist-info/metadata.json,sha256=eVmLcPBBnX59jhMjahoXhBWeQHqf_vD5uLnrBAlD5_g,760
+bbindex-0.1.2.dist-info/top_level.txt,sha256=XskaQIBlgmKrC9XSXhqvH0OaidKMqVrLZvi1ZK_jzU8,8
