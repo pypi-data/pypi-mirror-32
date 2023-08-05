@@ -1,0 +1,42 @@
+Metadata-Version: 1.2
+Name: unix-elf
+Version: 1.0.0
+Summary: An ELF binary parser
+Home-page: https://github.com/statueofmike/Elf-Parser
+Author: Michael Stewart
+Author-email: statueofmike@gmail.com
+License: MIT
+Download-URL: https://github.com/statueofmike/Elf-Parser/archive/1.0.0.tar.gz
+Description: 
+        =============
+         elf Package
+        =============
+        
+        Parse Executable-Linking Files (Unix ELF binary files). See https://en.wikipedia.org/wiki/Executable_and_Linkable_Format for general reference.
+        
+        Script Usage
+        
+            elf.py <input ELF filename>
+        
+        ==========
+         Features
+        ==========
+        
+        * 32- and 64-bit ELF parsing
+        * ELF class for convenient abstraction
+        * ElfBytes class for byte-level operations
+        * Summary inspection
+        * Dynamic linking dependency lookup
+        
+        
+Keywords: elf binary
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Compilers
+Classifier: Topic :: Software Development :: Disassemblers
+Requires-Python: >=2.6

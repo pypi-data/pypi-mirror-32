@@ -1,0 +1,8 @@
+MANIFEST.in
+README.rst
+setup.py
+unix-elf/__init__.py
+unix_elf.egg-info/PKG-INFO
+unix_elf.egg-info/SOURCES.txt
+unix_elf.egg-info/dependency_links.txt
+unix_elf.egg-info/top_level.txt
