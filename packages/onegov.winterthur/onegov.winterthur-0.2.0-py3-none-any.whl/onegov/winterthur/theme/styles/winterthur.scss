@@ -1,0 +1,158 @@
+/*
+    General tweaks
+*/
+.small {
+    font-size: 17px;
+}
+
+.header {
+    height: 5rem;
+}
+
+.page-lead {
+    font-size: 23px;
+    line-height: 1.3;
+}
+
+input[data-street-search] {
+    background: $input-bg-color;
+    border: 0 inset $input-border-color;
+    border-radius: 2px;
+    box-shadow: $input-box-shadow;
+    font-size: 1.1rem;
+    font-weight: bold;
+    height: 50px;
+    padding: 10px;
+}
+
+form input[type="radio"] {
+    margin: .55rem .5rem 0 0 !important;
+}
+
+input[data-street-search]::placeholder {
+    color: $input-placeholder-color;
+}
+
+/*
+    Sidepanel
+*/
+.side-panel.highlighted {
+    &.without-title {
+        > ul li:first-child {
+            background: $gray-light;
+            color: $body-font-color;
+            font-weight: bold;
+            margin-bottom: 0;
+            padding: .75rem 1rem 0 1rem;
+            text-transform: none;
+        }
+    }
+}
+
+/*
+    Streets view
+*/
+.streetname {
+    font-size: $h3-font-size - $h3-font-reduction;
+    margin-bottom: 1rem;
+}
+
+.streetlist {
+    @media #{$small-up} {
+        @include prefix(column-count, 1);
+    }
+
+    @media #{$medium-up} {
+        @include prefix(column-count, 3);
+    }
+
+    @media #{$large-up} {
+        @include prefix(column-count, 4);
+    }
+
+    list-style-position: inside;
+
+    li {
+        list-style-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3IiBoZWlnaHQ9IjkiIHZpZXdCb3g9IjAgMCA3IDkiPgogIDxjaXJjbGUgY3g9IjMuNSIgY3k9IjMuNSIgcj0iMi41IiBmaWxsPSIjNDQ0NDNGIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz4KPC9zdmc+Cg==");
+        overflow: hidden;
+        padding-bottom: .273em;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}
+
+.streettable {
+    width: 100%;
+
+    thead th {
+        background: $table-head-bg;
+        border-color: $table-head-border-color;
+        font-size: 20px;
+    }
+
+    tbody td {
+        border: 0;
+        font-size: 20px;
+    }
+
+    tbody tr:nth-fo-type(even) {
+        background: $table-even-bg-color;
+    }
+}
+
+/*
+    Views inside iFrames
+*/
+.framed-only {
+    display: none;
+}
+
+.framed {
+    .framed-only {
+        display: block;
+    }
+
+    .unframed-only {
+        display: none;
+    }
+
+    #inner-body {
+        height: auto;
+        min-height: 1px;
+    }
+
+    .globals,
+    .header,
+    .locals,
+    .main-title,
+    .push,
+    footer {
+        display: none;
+    }
+
+    &.directory-entry-layout .main-title {
+        display: block;
+        font-size: $h2-font-size;
+        margin-top: 0;
+    }
+
+    .content {
+        margin: 0;
+        max-width: 100%;
+
+        > .columns {
+            padding: 0;
+        }
+    }
+}
+
+/*
+    Limit hierarchy fieldset to one specific directory
+*/
+#fieldset-hierarchy {
+    display: none;
+}
+
+#page-directories-vollzugsbehoerden-edit #fieldset-hierarchy {
+    display: block;
+}
