@@ -1,0 +1,6 @@
+setup.py
+sonm/__init__.py
+sonm.egg-info/PKG-INFO
+sonm.egg-info/SOURCES.txt
+sonm.egg-info/dependency_links.txt
+sonm.egg-info/top_level.txt
