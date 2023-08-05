@@ -1,0 +1,10 @@
+setup.py
+pyeos_client.egg-info/PKG-INFO
+pyeos_client.egg-info/SOURCES.txt
+pyeos_client.egg-info/dependency_links.txt
+pyeos_client.egg-info/requires.txt
+pyeos_client.egg-info/top_level.txt
+scripts/EOSChainApi.py
+scripts/EOSWalletApi.py
+scripts/NodeosConnect.py
+scripts/__init__.py
