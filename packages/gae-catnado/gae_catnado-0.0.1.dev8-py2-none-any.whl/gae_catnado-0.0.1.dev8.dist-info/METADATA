@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: gae-catnado
+Version: 0.0.1.dev8
+Summary: Google App Engine datastore properties and helpers
+Home-page: https://github.com/tylertrussell/gae-catnado
+Author: Tyler Trussell
+Author-email: tigertrussell+pip@gmail.com
+License: UNKNOWN
+Keywords: google app engine helpers datastore properties
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# gae-catnado
+
+A collection of useful properties and helpers for use with Google App Engine.
+
+Install with pip: `pip install gae-catnado`.
+
+See the [docs on GitHub](https://tylertrussell.github.io/gae-catnado).
+
+# Changelog
+
+Work in progress, subject to sudden change. Someday there will be a real changelog.
+
+
