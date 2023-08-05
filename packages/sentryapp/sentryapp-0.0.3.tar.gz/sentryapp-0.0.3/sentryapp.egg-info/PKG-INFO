@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: sentryapp
+Version: 0.0.3
+Summary: server client for Sentry.app
+Home-page: https://sentry.app
+Author: Hepochen
+Author-email: hepochen@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: linux
