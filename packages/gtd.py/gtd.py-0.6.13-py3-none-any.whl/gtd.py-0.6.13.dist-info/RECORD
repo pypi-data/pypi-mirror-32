@@ -1,0 +1,16 @@
+gtd.py,sha256=m1fRc0CezpF6uf0RktnDOJxU3owaGbgIPxK8Ysi8DiU,24613
+gtd.py-0.6.13.dist-info/DESCRIPTION.rst,sha256=dwImRfcbODu5QPxsBxsGEiFIZ8ZT6RsMjPcgNwDYl6U,6931
+gtd.py-0.6.13.dist-info/METADATA,sha256=a08Hw6cbzk-3ssJaah8eINxeATWpFV3ASFk1ZlKt-D0,8097
+gtd.py-0.6.13.dist-info/RECORD,,
+gtd.py-0.6.13.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+gtd.py-0.6.13.dist-info/entry_points.txt,sha256=m96BR7vGo1oqeaOxx2BkcCNx8PjvXallko6pmssLk0k,34
+gtd.py-0.6.13.dist-info/metadata.json,sha256=sI-4bFSxnO5PaHafpLnWmxrBxxc373HktnFaDb53PzU,1383
+gtd.py-0.6.13.dist-info/top_level.txt,sha256=UOIeTsJNSL5laO1fv5aeU_fNyl37q2SRLZpPIKVm2QE,9
+todo/__init__.py,sha256=cFSDl40HxAeclz9y5A42ebsORN0JOPLzFxf6UOt2Y04,60
+todo/click_repl.py,sha256=1DXfZKMQxStudWhDfYxOqTD_4BhSshGaTNOd6Cqerdg,7902
+todo/configuration.py,sha256=ujM09a2xJLmAVAQ_M7vEYaXPsGRfg3yXkugmYX3TvW8,3719
+todo/connection.py,sha256=sj4FREpqkoxXdNVak_thTemFjeHtc2XVNIg7CXgfXvg,1965
+todo/display.py,sha256=KpCZIRB7qiBOhm_8mq_oZfq-TDWn4ver0JxVVvfMpjk,8855
+todo/exceptions.py,sha256=LuV3lfG8MKxRPxAsCi3DKLahs3h3IxKsOf8oD8aO-S8,241
+todo/input.py,sha256=1YER5AdnM7MZ4z0t4zIriggpZ71zritJZv1nU-c7yac,19459
+todo/misc.py,sha256=SyGTWIepqSOyaWkdljYnnATa_vnAei5p-f1SRN3WcvI,6678
