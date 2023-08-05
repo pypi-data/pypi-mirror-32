@@ -1,0 +1,14 @@
+ogh/__init__.py,sha256=i3yxPG9fxgIlDDTTOHJhQ602M2PgW-2fjScSDWhW2rY,345
+ogh/_version.py,sha256=UFSrFmZNhKVPZKELYrJ6dydFZ5THq6T2XjbqGrCw71U,503
+ogh/ogh.py,sha256=Swi0MkZodFv-cIaoQJ3aqruAi6kAYwhO5FuoQc-Ku6g,109926
+ogh/ogh_meta.py,sha256=e1wp6iJbqmp2UKBv7beeSjuyf8oPfM-YyBtRsLQ0B7w,25039
+ogh-0.1.8a0.dist-info/METADATA,sha256=LwoGsSszJrVgdQfTOLWFPHjj-Ibf8buJA0-IrOzGTMU,5330
+ogh-0.1.8a0.dist-info/RECORD,,
+ogh-0.1.8a0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+ogh-0.1.8a0.dist-info/top_level.txt,sha256=fOjf095O7sQQWsKmahuaSxLn5zcHobXR9YWIFSaTVDU,20
+tests/__init__.py,sha256=qoEJdqFxZJGhB10M5FsefgyDxzWHkat-cYmKSZY-74o,157
+tests/test_ogh.py,sha256=SIDgG9rh6GSzXgc0RsBH0ynnLEEK0Q6aG28RfCXIa6A,89058
+tutorials/__init__.py,sha256=i3yxPG9fxgIlDDTTOHJhQ602M2PgW-2fjScSDWhW2rY,345
+tutorials/_version.py,sha256=6TNJvylYHILGkXQ6WoypPQihuCSXVDsXE_YIWhjAhBc,18441
+tutorials/ogh.py,sha256=2O1EoEOSevx0J5-NtqH7QfO_Np5tcgXV1q0ZxlSuygw,109878
+tutorials/ogh_meta.py,sha256=e1wp6iJbqmp2UKBv7beeSjuyf8oPfM-YyBtRsLQ0B7w,25039
