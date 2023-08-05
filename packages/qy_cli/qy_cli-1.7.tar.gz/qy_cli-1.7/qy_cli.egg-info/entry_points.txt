@@ -1,0 +1,3 @@
+[console_scripts]
+qy_cli = cli.agrparse_cli:test
+
