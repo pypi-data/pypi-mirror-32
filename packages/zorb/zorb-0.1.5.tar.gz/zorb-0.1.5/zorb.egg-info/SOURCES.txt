@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+zorb/__init__.py
+zorb/constants.py
+zorb/identifiers.py
+zorb/zorb.py
+zorb.egg-info/PKG-INFO
+zorb.egg-info/SOURCES.txt
+zorb.egg-info/dependency_links.txt
+zorb.egg-info/top_level.txt
