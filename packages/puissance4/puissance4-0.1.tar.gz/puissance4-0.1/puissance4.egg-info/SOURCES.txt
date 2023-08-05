@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+puissance4/__init__.py
+puissance4/play.py
+puissance4/training.py
+puissance4.egg-info/PKG-INFO
+puissance4.egg-info/SOURCES.txt
+puissance4.egg-info/dependency_links.txt
+puissance4.egg-info/top_level.txt
