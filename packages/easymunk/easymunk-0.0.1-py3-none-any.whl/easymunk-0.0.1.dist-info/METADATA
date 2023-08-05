@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: easymunk
+Version: 0.0.1
+Summary: An easy, versatile interface and processing handler for the munkres module.
+Home-page: https://github.com/Andrew-Hogan/easymunk
+Author: Andrew M. Hogan
+Author-email: drewthedruid@gmail.com
+License: UNKNOWN
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+Requires-Dist: munkres
+
+# EasyMunk Python extension for Munkres
+EasyMunk provides a versatile interface alternative to the Munkres module for score-based (Hungarian algorithm) assignments.
+
+
+## Purpose
+The EasyMunk module interfaces with the Munkres module to:
+1. Provide an easy and adaptable method of pair assignment.
+2. Reduce the amount of pre-processing required for munkres.
+3. Automatically account for some special-case munkres decisions.
+4. Do all of the above without reducing munkres' functionality.
+
+See this module's easymunk.py for use instructions, or the [munkres documentation][] for more algorithm details.
+
+[munkres documentation]: https://github.com/bmc/munkres
+
+## Copyright
+
+EasyMunk module by Andrew M. Hogan. (EasyMunk &copy; 2018 Hogan Consulting Group)
+
+## License
+
+Licensed under the Apache License.
+
+
