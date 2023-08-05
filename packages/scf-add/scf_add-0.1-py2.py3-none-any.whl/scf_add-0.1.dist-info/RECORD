@@ -1,0 +1,11 @@
+scf_add/__init__.py,sha256=LciY7BOtnWXM7UiiBK6yAwKtbYyPoJDEA77qy1x0xCw,25
+scf_add/__version__.py,sha256=AJGTlw30F_QTE98SUeELCd9L_bnVmyQndgeNJetzANs,17
+scf_add/command.py,sha256=A6dGmLphM9bREW1HPCty27ajGFr9Rie4MNHPhY2Cad0,404
+scf_add/utils.py,sha256=PeamdD5Pw8ky4OpMkWz6GWDBxTIzlT7Lke4lP0hNO78,1311
+scf_add-0.1.dist-info/DESCRIPTION.rst,sha256=QEaeFPXELhTd6qH8-AGJGb2zAuB1jOpK2bevY3i5SpE,173
+scf_add-0.1.dist-info/METADATA,sha256=SxACrXpMmLC6Sw1SpLAvN4Hg4pYB8h_51E65MzuQ7lA,776
+scf_add-0.1.dist-info/RECORD,,
+scf_add-0.1.dist-info/WHEEL,sha256=BTHHj6QhsHpWhRUrxioIvCAgjx81u-a8gkPTO6bi_A0,116
+scf_add-0.1.dist-info/entry_points.txt,sha256=QUVGUwF9mT7_SZ-bOHSt16GbHbBGq_1jlL2MY8HyH44,42
+scf_add-0.1.dist-info/metadata.json,sha256=hAzPOb2dI1QNIWBCb-z2RYoRewJLvGIBmqp5PyAT7BA,988
+scf_add-0.1.dist-info/top_level.txt,sha256=lk5peQeBTtC63lQ5eN49fAefCUiwQixq03yRU-kAQTg,8
