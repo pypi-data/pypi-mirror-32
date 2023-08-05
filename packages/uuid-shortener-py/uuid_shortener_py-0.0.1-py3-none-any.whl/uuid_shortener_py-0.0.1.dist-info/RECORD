@@ -1,0 +1,8 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_shortener.py,sha256=guwoI3Ez4nOP-BbsGIFAFCooNT0lJXrYO7HAUgy8aR8,645
+uuid_shortener/__init__.py,sha256=ca38dw8ePRWEkp3hjPhXfCXdDRvCWxdfjQGrK6u_Fwk,65
+uuid_shortener/shortener.py,sha256=xcOKdODghLuNZv3_oKkjaW9lSgc4l6v5dx-Swk8A5_E,1794
+uuid_shortener_py-0.0.1.dist-info/METADATA,sha256=KCgabC23D2PSmsErvofq2LNcEHn5eiWhxlijxB3toY0,2815
+uuid_shortener_py-0.0.1.dist-info/RECORD,,
+uuid_shortener_py-0.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+uuid_shortener_py-0.0.1.dist-info/top_level.txt,sha256=nQ9ci2mG8HH6pQ36nFxuM6U9T-IGrsmjTR8Z161tFTE,21
