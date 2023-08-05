@@ -1,0 +1,6 @@
+django_steamauth-1.1.1.dist-info/METADATA,sha256=5Pp7PCsSKpv2MWX0vDCedo_-2SXYGufGAigq72HOGBw,786
+django_steamauth-1.1.1.dist-info/RECORD,,
+django_steamauth-1.1.1.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+django_steamauth-1.1.1.dist-info/top_level.txt,sha256=TYehjHbKmU-ChKeKd91iyE_KVa1ZgONHGnE5w9Q7chw,10
+steamauth/__init__.py,sha256=9FrSsgqzAD-VgniaiTHQrUlGqbiv1fPCPniL0Ur74IQ,58
+steamauth/steamauth.py,sha256=EY_wG3pcgaoUrC8_Jh9bPYhX-Ygs1EUF1f7BFRaZNU4,2841
