@@ -1,0 +1,8 @@
+README.rst
+setup.py
+collectdir/command.py
+django_collectdir.egg-info/PKG-INFO
+django_collectdir.egg-info/SOURCES.txt
+django_collectdir.egg-info/dependency_links.txt
+django_collectdir.egg-info/requires.txt
+django_collectdir.egg-info/top_level.txt
