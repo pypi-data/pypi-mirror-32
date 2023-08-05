@@ -1,0 +1,58 @@
+{% extends "pretixcontrol/event/base.html" %}
+{% load staticfiles %}
+{% load i18n %}
+{% load bootstrap3 %}
+{% block title %} {% trans "Mabel Stickers" %} {% endblock %}
+{% block content %}
+	<h1>{% trans "Mabel Stickers" %}</h1>
+
+    <p>
+        It can take a little while to generate stickers, so it is sometimes helpful to 
+        break down the generation into several batches. Use the form below to choose 
+        which tickets to generate stickers for, then click "Update selection" until 
+        a reasonable number of tickets are selected.
+    </p>
+
+    <p>
+        When you are ready to generate the tickets, click the "Generate" button, and 
+        your browser will start generating a PDF containing all stickers. When it's complete,
+        the "Download" button will activate, allowing you to download the PDF.
+    </p>
+
+
+    <p>
+        N.B. Only orders with a status of "Paid" or "Pending" are included for generation.
+    </p>
+
+    <p>
+    </p>
+
+ 
+    <form action="" method="get" class="form-horizontal">
+        {% csrf_token %}
+        <fieldset>
+            <legend>
+                    <strong>{{ ticket_count }}</strong> tickets selected.
+            </legend>
+            {% bootstrap_form sticker_form layout="horizontal" %}
+        </fieldset>
+        <input type="submit" class="btn btn-primary btn-lg" value="Update selection" />
+    </form> 
+
+    <hr />
+    <button id="pdf-generator" type="button" class="btn btn-primary btn-lg">Click to generate stickers</button>
+
+    <a href="#" id="pdf">
+        <button type="button" class="btn btn-primary btn-lg" disabled>Download Sticker Sheet</button>
+    </a>
+
+
+
+    <script type="text/json" id="ticket-data">{{ tickets | safe }}</script>
+	<script type="text/javascript" src="{% static "pretix_mabel/js/pdfkit-0.7.1.js" %}"></script>
+	<script type="text/javascript" src="{% static "pretix_mabel/js/qrcode.min.js" %}"></script>
+	<script type="text/javascript" src="{% static "pretix_mabel/js/blob-stream-v0.1.2.js" %}"></script>
+	<script type="text/javascript" src="{% static "pretix_mabel/js/underscore-min.js" %}"></script>
+	<script type="text/javascript" src="{% static "pretix_mabel/js/mabel-barcode.js" %}"></script>
+    {% comment %} <script type="text/javascript" src="/js/admin/barcode.controller.js"></script> {% endcomment %}
+{% endblock %}
