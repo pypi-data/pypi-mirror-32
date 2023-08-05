@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: trythatagain
+Version: 0.1.0
+Summary: Decorators for functions that you wish to retry
+Home-page: https://github.com/angstwad/trythatagain
+Author: Paul Durivage
+Author-email: pauldurivage@gmail.com
+License: LGPL
+Platform: UNKNOWN
+Classifier: Topic :: Utilities
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Provides-Extra: test
+Provides-Extra: test
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: pytest-mock; extra == 'test'
+Requires-Dist: flake8; extra == 'test'
+
+UNKNOWN
+
+
