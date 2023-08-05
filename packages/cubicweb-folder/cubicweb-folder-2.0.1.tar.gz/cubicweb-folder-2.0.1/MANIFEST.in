@@ -1,0 +1,8 @@
+include setup.py
+include README
+include *.ini
+recursive-include test *
+recursive-include cubicweb_folder *
+recursive-include cubicweb_folder/wdoc *
+recursive-include cubicweb_folder/data *.gif *.png *.ico *.css *.js
+recursive-include cubicweb_folder/i18n *.po
