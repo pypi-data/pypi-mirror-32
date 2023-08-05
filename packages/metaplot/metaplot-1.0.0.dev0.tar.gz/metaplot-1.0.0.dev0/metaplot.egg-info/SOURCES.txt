@@ -1,0 +1,7 @@
+README.rst
+setup.py
+metaplot.egg-info/PKG-INFO
+metaplot.egg-info/SOURCES.txt
+metaplot.egg-info/dependency_links.txt
+metaplot.egg-info/requires.txt
+metaplot.egg-info/top_level.txt
