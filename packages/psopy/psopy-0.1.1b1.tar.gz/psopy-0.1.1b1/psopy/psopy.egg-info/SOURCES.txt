@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+psopy/__init__.py
+psopy/constraints.py
+psopy/minimize.py
+psopy/psopy.egg-info/PKG-INFO
+psopy/psopy.egg-info/SOURCES.txt
+psopy/psopy.egg-info/dependency_links.txt
+psopy/psopy.egg-info/not-zip-safe
+psopy/psopy.egg-info/requires.txt
+psopy/psopy.egg-info/top_level.txt
