@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+opedia_dataset_validator/__init__.py
+opedia_dataset_validator/_version.py
+opedia_dataset_validator/cli.py
+opedia_dataset_validator/dataset_file_def.yaml
+opedia_dataset_validator/error.py
+opedia_dataset_validator/printer.py
+opedia_dataset_validator/validator.py
+opedia_dataset_validator.egg-info/PKG-INFO
+opedia_dataset_validator.egg-info/SOURCES.txt
+opedia_dataset_validator.egg-info/dependency_links.txt
+opedia_dataset_validator.egg-info/entry_points.txt
+opedia_dataset_validator.egg-info/requires.txt
+opedia_dataset_validator.egg-info/top_level.txt
