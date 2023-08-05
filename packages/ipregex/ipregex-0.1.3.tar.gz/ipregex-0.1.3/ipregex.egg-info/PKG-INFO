@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: ipregex
+Version: 0.1.3
+Summary: Regular expression generator for IPv4/IPv6 addresses.
+Home-page: https://github.com/netmes/ipregex
+Author: Omer Ozarslan
+Author-email: omer@utdallas.edu
+License: Apache 2.0
+Description: =======
+        ipregex
+        =======
+        
+        .. image:: https://badge.fury.io/py/ipregex.svg
+            :target: https://badge.fury.io/py/ipregex
+        
+        .. image:: https://travis-ci.org/netmes/ipregex.svg?branch=master
+            :target: https://travis-ci.org/netmes/ipregex
+        
+        **Disclaimer: This library is currently under development.**
+        
+        Python library to create regular expressions matching IPv4/IPv6 strings.
+        
+        There are different regular expressions for matching IPv4/IPv6 addresses on the
+        web. This project aims to provide a stable regular expression library for ease
+        of use.
+        
+        ------------
+        Contributors
+        ------------
+        
+        - Omer Ozarslan (`@ozars <https://github.com/ozars/>`_)
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: System :: Networking
+Requires-Python: >=2.6, !=3.0.*, !=3.1.*, !=3.2.*
+Description-Content-Type: text/x-rst
