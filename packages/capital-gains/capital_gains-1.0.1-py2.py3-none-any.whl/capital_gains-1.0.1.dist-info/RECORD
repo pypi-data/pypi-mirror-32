@@ -1,0 +1,11 @@
+capital_gains/__init__.py,sha256=e3S0EcDGJlWIp2hddSFjvt633jfeZ4W7VyAeLpfTWVM,37
+capital_gains/__version__.py,sha256=3KXfAcA5rzzQXMtfwpHphgbJNZdA0XWaW96kdWVSZJw,22
+capital_gains/argument_parser.py,sha256=Yt65BE4V4NHdmAeS4g5ekSm6UjOUtBwUOHIPm1j11fc,569
+capital_gains/capital_gains.py,sha256=WQoeiGjt3xinFG9TnBERP7aPmvyZl7jZ8yN0re7gTtM,4408
+capital_gains/format_util.py,sha256=xOOSijtLHZg7LISYlHJjRSmPR11ZabtJ3yePNqFQxNM,2123
+capital_gains/model.py,sha256=M5mCUyNGoUCZ0LX1vAk30ccQAJNZWL6QWYkU5A_DfcE,1579
+capital_gains-1.0.1.dist-info/METADATA,sha256=sLxUIIeGBE9DHoeS7nR6ZSc-yWXxjA8t1hl_vMvGs1k,1433
+capital_gains-1.0.1.dist-info/RECORD,,
+capital_gains-1.0.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+capital_gains-1.0.1.dist-info/entry_points.txt,sha256=3L9R272flJhMiK8jAvMqusz0GTRjUv1LrU7VV939uVM,68
+capital_gains-1.0.1.dist-info/top_level.txt,sha256=awxH3E4_uUL30lONWPitNQo5oCtPYdAmujLjkRMAYvg,14
