@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: cynetworkx
+Version: 2.2rc1.dev20180527181709
+Summary: Cython package for creating and manipulating graphs and networks
+Home-page: https://github.com/pattern-inc/cynetworkx
+Author: Pattern, Inc.
+Author-email: cynetworkx@pattern-inc.com
+Maintainer: cyNetworkX Developers
+Maintainer-email: cynetworkx@pattern-inc.com
+License: BSD
+Download-URL: https://pypi.python.org/pypi/cynetworkx/
+Description: 
+        cyNetworkX is a Cython port of the NetworkX package for the creation, manipulation, and
+        study of the structure, dynamics, and functions of complex networks.
+        
+        
+Keywords: Networks,Graph Theory,Mathematics,network,graph,discrete mathematics,math
+Platform: Linux
+Platform: Mac OSX
+Platform: Windows
+Platform: Unix
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Physics
+Provides-Extra: all
