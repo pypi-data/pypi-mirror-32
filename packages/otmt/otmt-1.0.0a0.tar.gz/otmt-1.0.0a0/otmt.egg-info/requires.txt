@@ -1,0 +1,14 @@
+requests_futures
+bs4
+html5lib
+justext
+nltk
+scikit-learn
+distance
+warcio
+requests
+numpy
+scipy
+simhash
+gensim
+lxml
