@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: toclo
+Version: 1.0.8
+Summary: A todo list command line program in Python.
+Home-page: https://github.com/Verssae/toclo
+Author: Verssae
+Author-email: sparky@hanynag.ac.kr
+License: MIT
+Download-URL: https://github.com/Verssae/toclo.git
+Keywords: todolist
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Requires-Dist: docopt
+Requires-Dist: colorama
+
+UNKNOWN
+
+
