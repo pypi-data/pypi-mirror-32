@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: quayadmin
+Version: 0.1
+Summary: Do administrative stuff on quay.io.
+Home-page: https://github.com/jml/quay-admin
+License: UNKNOWN
+Author: Jonathan M. Lange
+Author-email: jml@mumak.net
+Classifier: License :: OSI Approved :: Apache Software License
