@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+FigmaPy/__init__.py
+FigmaPy/figmapy.py
+FigmaPy/models.py
+FigmaPy.egg-info/PKG-INFO
+FigmaPy.egg-info/SOURCES.txt
+FigmaPy.egg-info/dependency_links.txt
+FigmaPy.egg-info/requires.txt
+FigmaPy.egg-info/top_level.txt
+test/test.py
