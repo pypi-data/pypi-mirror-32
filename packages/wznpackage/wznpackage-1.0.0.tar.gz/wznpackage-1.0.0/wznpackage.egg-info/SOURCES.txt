@@ -1,0 +1,7 @@
+setup.py
+wznpackage.py
+wznpackage.egg-info/PKG-INFO
+wznpackage.egg-info/SOURCES.txt
+wznpackage.egg-info/dependency_links.txt
+wznpackage.egg-info/requires.txt
+wznpackage.egg-info/top_level.txt
