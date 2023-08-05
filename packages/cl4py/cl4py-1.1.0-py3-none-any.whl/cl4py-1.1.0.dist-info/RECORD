@@ -1,0 +1,10 @@
+cl4py/__init__.py,sha256=tp5X9dGkHAOT7hPlQ3NRffwnFZ4acecWhaBeDdmuUYk,68
+cl4py/data.py,sha256=pRqzMQJ4h8ZZ3qW8KfKWJ6p7iwhNJfOKvyqmM6RJUXo,4738
+cl4py/lisp.py,sha256=8d8do5aDqQVGauRRf19l0UDzc8t-oIEkz5OruIKD3gg,2353
+cl4py/read.py,sha256=ruryJDAx4WX-jg1YUsxzmTqIjbkWhQEuJzjLqS19MUU,7414
+cl4py-1.1.0.dist-info/DESCRIPTION.rst,sha256=YG-3pV5-Cvbo1tZTzNX8Gv1SXHOErnJswxW3kM-rQa8,3635
+cl4py-1.1.0.dist-info/METADATA,sha256=pbjN-JasiQ5za0FJd3CrW2hxr2ZmzuWMyzWEZdefNTQ,4261
+cl4py-1.1.0.dist-info/RECORD,,
+cl4py-1.1.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+cl4py-1.1.0.dist-info/metadata.json,sha256=PXtgWU9lr-pxVC2Zl5wRbyLQlQZc38HUt8m_AsrfadA,770
+cl4py-1.1.0.dist-info/top_level.txt,sha256=3N9azXPy1xd--ZkTb9zfT-iPVFt28RAf5-51ITNjb6o,6
