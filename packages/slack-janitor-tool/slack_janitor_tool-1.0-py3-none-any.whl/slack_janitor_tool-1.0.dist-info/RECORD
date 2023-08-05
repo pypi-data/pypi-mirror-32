@@ -1,0 +1,7 @@
+slack_janitor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slack_janitor/main.py,sha256=OZIM0apTTd9S7MuV0lkmvQsAaGQUKv2qyLKJq51AT1E,4756
+slack_janitor_tool-1.0.dist-info/METADATA,sha256=PxsttRzLZ0YitffxtWjLN9Cehb6nFVrFa0cBbtx7b0E,287
+slack_janitor_tool-1.0.dist-info/RECORD,,
+slack_janitor_tool-1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+slack_janitor_tool-1.0.dist-info/entry_points.txt,sha256=kYj1TA04xCOcE9T35xmWCb4IbdaciWS7z_bH4W0vJIc,59
+slack_janitor_tool-1.0.dist-info/top_level.txt,sha256=DlhM8Oqz3lziknwCeLXnXltKX241xfYJDs95PEG9C8s,14
