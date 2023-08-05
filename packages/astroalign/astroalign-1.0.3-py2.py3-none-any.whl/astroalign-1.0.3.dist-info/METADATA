@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: astroalign
+Version: 1.0.3
+Summary: Astrometric Alignment of Images
+Home-page: https://github.com/toros-astro/astroalign
+Author: Martin Beroiz
+Author-email: martinberoiz@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy (>=1.6.2)
+Requires-Dist: scipy (>=0.15)
+Requires-Dist: scikit-image
+Requires-Dist: sep
+
+UNKNOWN
+
+
