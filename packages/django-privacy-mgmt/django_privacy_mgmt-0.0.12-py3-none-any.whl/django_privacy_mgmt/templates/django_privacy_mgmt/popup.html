@@ -1,0 +1,146 @@
+{% load staticfiles sekizai_tags i18n %}
+
+{% addtoblock "js" %}
+    <script src="{% static 'js/libs/jquery.fancybox.js' %}"></script>
+{% endaddtoblock %}
+
+{% addtoblock "css" %}
+    <link rel="stylesheet" href="{% static 'css/libs/jquery.fancybox.css' %}"/>
+{% endaddtoblock %}
+
+
+{% addtoblock "js" %}
+    <script>
+
+
+        jQuery(document).ready(function () {
+            jQuery("body").on('click', '.gdpr-trigger-modal', function () {
+
+                console.log('update django privacy modal settings');
+
+                jQuery(".gdpr-optin").each(function () {
+                    // initialize on modal load
+                    var el = jQuery(this);
+                    var name = el.data('gdpr-category-name');
+                    var preference = django_privacy_mgmt.getPreference(name);
+                    el.prop('checked', preference);
+                    console.log('checkbox for ' + name + " is " + preference);
+                });
+
+                // fancybox 3
+                jQuery.fancybox.open({
+                    src: '#gdpr-banner-modal',
+                    type: 'inline'
+                }, {
+                    // modal: true
+                    smallBtn: true,
+                    toolbar: false,
+                    hideScrollbar: false,
+                    backFocus: false
+                });
+            });
+
+            jQuery(".gdpr-optin").change(function () {
+                var el = jQuery(this);
+                var name = el.data('gdpr-category-name');
+                if (el.prop('checked')) {
+                    django_privacy_mgmt.setPreference(name, true);
+                    console.log(name + ": true")
+                } else {
+                    django_privacy_mgmt.setPreference(name, false);
+                    console.log(name + ": false")
+                }
+            });
+
+        });
+
+    </script>
+{% endaddtoblock %}
+
+
+<div class="gdpr-banner">
+    <div id="gdpr-banner-modal" style="display: none;">
+
+        <h1>
+            {% trans 'Privacy Settings' %}
+        </h1>
+
+        <p>{% blocktrans %}Note: websites cannot fully control the cookies that are set by various 3rd-party scripts at
+            any give time. If you would like to see a detailed state of cookies and manage them individually
+            then please go to the privacy settings of your browser.{% endblocktrans %}
+        </p>
+
+        <div class="category essentials">
+            <h2>{% trans 'Essentials' %}</h2>
+            <p>{% trans 'These cookies and scripts cannot be deactivated as they are needed to correctly render this website.' %}</p>
+            {% if essentials %}
+                <ul class="items">
+                    {% for item in essentials %}
+                        <li>
+                            {{ item.name }}
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <p>{% trans 'No essential items' %}</p>
+            {% endif %}
+        </div>
+
+        <div class="category analytics">
+            <h2>
+                {% trans 'Statistics' %}
+                <span class="small">
+                    {% trans 'Opt-In:' %} <input class="gdpr-optin" data-gdpr-category-name="STATISTICS" id="statistics"
+                                                 type="checkbox" name="statistics"/>
+                </span>
+            </h2>
+            <p>
+                {% trans 'These tools are used to collect statistics about user behaviour that helps us to improve our website and services. No personal data is collected. Please note that the current state of GDPR legislation approves of default opt-in for statistical tools.' %}
+            </p>
+            {% if statistics %}
+                <ul class="items">
+                    {% for item in statistics %}
+                        <li>
+                            {{ item.name }}
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <p>{% trans 'No statistics items' %}</p>
+            {% endif %}
+        </div>
+
+        <div class="category marketing">
+            <h2>
+                {% trans 'Marketing' %}
+                <span class="small">
+                    {% trans 'Opt-In:' %} <input class="gdpr-optin" data-gdpr-category-name="MARKETING" id="marketing"
+                                                 type="checkbox" name="marketing"/>
+                </span>
+            </h2>
+
+            <p>
+                {% trans 'These tools are used to optimize our marketing campaigns.' %}
+            </p>
+
+
+            {% if marketing %}
+                <ul class="items">
+
+                    {% for item in marketing %}
+                        <li>
+                            {{ item.name }}
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <p>{% trans 'No marketing items' %}</p>
+            {% endif %}
+        </div>
+
+    </div>
+</div>
+
+
+
+
