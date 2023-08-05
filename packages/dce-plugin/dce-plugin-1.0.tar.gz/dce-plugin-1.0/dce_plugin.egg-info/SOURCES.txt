@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+dce_plugin/__init__.py
+dce_plugin/docker_client.py
+dce_plugin.egg-info/PKG-INFO
+dce_plugin.egg-info/SOURCES.txt
+dce_plugin.egg-info/dependency_links.txt
+dce_plugin.egg-info/not-zip-safe
+dce_plugin.egg-info/top_level.txt
