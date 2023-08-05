@@ -1,0 +1,9 @@
+clinance/__init__.py,sha256=g9M5D-wrRNJ8qXtKPzjKxWgRr9YlTWh60hSgIAXi1bY,411
+clinance/cli.py,sha256=GhE4xlGH_X4rNIzm-zaGq_gu5-yIx6p0gvrxEr8bcc0,6425
+clinance/commands.py,sha256=-yYBDkgMDSHYf_F_uX23wZsDSjrudhppJvm34su8_I4,23
+clinance-0.1.0.dist-info/METADATA,sha256=H92ZEc5CY1mIkU_pqIsc6mS534wnAWR_Bfq2vQ0BHSA,787
+clinance-0.1.0.dist-info/RECORD,,
+clinance-0.1.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+clinance-0.1.0.dist-info/dependency_links.txt,sha256=nudM1cEzKwEMC823owajaDf4PTgEnS_j0Ssx3SBeOoc,68
+clinance-0.1.0.dist-info/entry_points.txt,sha256=2VlyI-jkQwqKTRDKgl6bNp4VJyNryoEiCYkqZZ7cSCs,48
+clinance-0.1.0.dist-info/top_level.txt,sha256=62E7UqItB0oP5sJ4XmY6E9sZjTl6sBRGZ5iWnxiGN14,9
