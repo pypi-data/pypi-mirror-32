@@ -1,0 +1,9 @@
+react_pages/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+react_pages/react_pages_cli.py,sha256=ON9y1vOoJM21net_q-CAWPouOyhYYO6G3ImbAYP0DsE,8610
+react_pages/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+react_pages/templatetags/react_pages.py,sha256=s6gUx2UhFJ1ZMNXLW-VGcaIXlSyk55fgUpnxFLLMEW8,2107
+react_pages-0.0.4.dist-info/METADATA,sha256=EUJ6b1EnW3-9ZleQ4QbgiCZAtUL2fllOpeXy2DdSPi0,2742
+react_pages-0.0.4.dist-info/RECORD,,
+react_pages-0.0.4.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+react_pages-0.0.4.dist-info/entry_points.txt,sha256=Nv551ekurCx8j7WLxqYHNsSjb5-jkH-DmlfJQljNhm0,65
+react_pages-0.0.4.dist-info/top_level.txt,sha256=F4JrbLkyUT-kbP5UX8XEFMbi4YLHihlFroFn97dsyvo,12
