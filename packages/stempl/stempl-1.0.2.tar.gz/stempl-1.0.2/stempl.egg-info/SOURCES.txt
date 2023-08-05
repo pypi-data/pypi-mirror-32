@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+stempl/__init__.py
+stempl/stempl.py
+stempl/tests.py
+stempl.egg-info/PKG-INFO
+stempl.egg-info/SOURCES.txt
+stempl.egg-info/dependency_links.txt
+stempl.egg-info/not-zip-safe
+stempl.egg-info/top_level.txt
