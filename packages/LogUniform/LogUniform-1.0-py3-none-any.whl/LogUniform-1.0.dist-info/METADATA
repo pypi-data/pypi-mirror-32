@@ -1,0 +1,16 @@
+Metadata-Version: 2.0
+Name: LogUniform
+Version: 1.0
+Summary: Implementation of the log-uniform and modified log-uniform distributions
+Home-page: https://github.com/j-faria/LogUniform
+Author: João Faria
+Author-email: joao.faria@astro.up.pt
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+UNKNOWN
+
+
