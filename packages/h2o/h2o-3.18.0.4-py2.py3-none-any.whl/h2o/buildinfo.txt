@@ -1,0 +1,1 @@
+versionFromGradle='3.18.0',projectVersion='3.18.0.4',branch='rel-wolpert',lastCommitHash='6903ba4b4cfcd912f15cf61965f88bb13bbc4890',gitDescribe='jenkins-3.18.0.3-6-g6903ba4',compiledOn='2018-03-08 19:17:57',compiledBy='jenkins'
