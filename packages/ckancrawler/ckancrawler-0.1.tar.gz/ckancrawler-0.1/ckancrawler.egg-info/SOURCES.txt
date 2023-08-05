@@ -1,0 +1,10 @@
+README.md
+setup.py
+ckancrawler/__init__.py
+ckancrawler/__main__.py
+ckancrawler/crawler.py
+ckancrawler.egg-info/PKG-INFO
+ckancrawler.egg-info/SOURCES.txt
+ckancrawler.egg-info/dependency_links.txt
+ckancrawler.egg-info/requires.txt
+ckancrawler.egg-info/top_level.txt

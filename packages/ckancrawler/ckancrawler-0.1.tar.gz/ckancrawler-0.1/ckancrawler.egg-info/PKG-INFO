@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: ckancrawler
+Version: 0.1
+Summary: Simple framework for iterating through CKAN datasets
+Home-page: https://github.com/davidmegginson/ckancrawler
+Author: David Megginson
+Author-email: contact@megginson.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
