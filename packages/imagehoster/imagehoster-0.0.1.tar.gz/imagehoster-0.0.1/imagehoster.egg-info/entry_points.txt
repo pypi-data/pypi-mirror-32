@@ -1,0 +1,3 @@
+[console_scripts]
+imagehoster = imagehoster.upload:cli
+
