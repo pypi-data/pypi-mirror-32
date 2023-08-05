@@ -1,0 +1,29 @@
+Metadata-Version: 1.1
+Name: aiovcf
+Version: 0.1.0
+Summary: aiovcf
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT license
+Description: aiovcf
+        ======
+        
+        AsyncIO enabled Variant Call Format parser.
+        
+        
+        todo
+        ----
+        
+        * Quick Start
+        * Explain Asynchronous Generators
+        * Explain Antlr4 Grammar
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
