@@ -1,0 +1,3 @@
+[console_scripts]
+onelinerizer = onelinerizer.__main__:main
+
