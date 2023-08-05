@@ -1,0 +1,14 @@
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+bin/templatio
+templatio/__init__.py
+templatio/templatiofun.py
+templatio/test_templatiofun.py
+templatio.egg-info/PKG-INFO
+templatio.egg-info/SOURCES.txt
+templatio.egg-info/dependency_links.txt
+templatio.egg-info/requires.txt
+templatio.egg-info/top_level.txt
