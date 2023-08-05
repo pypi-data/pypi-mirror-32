@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: myml
+Version: 0.0.1
+Summary: Test implementations of Machine Learning algorithms.
+Home-page: https://github.com/clarkbab/myml
+Author: Brett Clark
+Author-email: clarkbab@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/clarkbab/myml/archive/0.0.1.tar.gz
+Description: # MyML
+Keywords: machine learning
+Platform: UNKNOWN
