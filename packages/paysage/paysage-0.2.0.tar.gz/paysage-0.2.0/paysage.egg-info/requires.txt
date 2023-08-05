@@ -1,0 +1,10 @@
+matplotlib
+numexpr
+numpy
+pandas
+pytest
+scipy
+seaborn
+tables
+torchvision
+cytoolz
