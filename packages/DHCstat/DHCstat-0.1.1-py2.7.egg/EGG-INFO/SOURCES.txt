@@ -1,0 +1,12 @@
+setup.py
+DHCstat/__init__.py
+DHCstat/_version.py
+DHCstat/datamining.py
+DHCstat/statistics.py
+DHCstat.egg-info/PKG-INFO
+DHCstat.egg-info/SOURCES.txt
+DHCstat.egg-info/dependency_links.txt
+DHCstat.egg-info/entry_points.txt
+DHCstat.egg-info/requires.txt
+DHCstat.egg-info/top_level.txt
+DHCstat.egg-info/zip-safe
