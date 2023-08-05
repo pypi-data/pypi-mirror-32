@@ -1,0 +1,16 @@
+ci_scripts/__init__.py,sha256=AI4GMcptKWSw-v1jNqoP2DB7KfroOyM4p37OUjnOznE,716
+ci_scripts/release_upload_common.py,sha256=VDZnkrnt52YCMELoPhZiZ43wQkhtruhj5ovTELxG1Xo,2688
+ci_scripts-1.1.0.data/scripts/changelog-reader,sha256=I6FsFmy4fudt6onhweHlVRs9sBCS2HJrT3TRS5I0jxM,4454
+ci_scripts-1.1.0.data/scripts/github-release-upload,sha256=uiA-s2mE-7cjQVOPQitSW-edhiD0FkZ2gGiNY1zQPJ8,4808
+ci_scripts-1.1.0.data/scripts/gitlab-release-upload,sha256=p1sbWoMLtIJ8ANBZSb3cy3c-Jt57pXCDnwoV_uSUFH8,4298
+ci_scripts-1.1.0.data/scripts/gitstats-gen,sha256=_bJCGtWritssU7oKIedDj-80jfWm88qojpvAz2nvOBU,1722
+ci_scripts-1.1.0.data/scripts/play-upload,sha256=FhU-ETyv8J-CfBlVvYT3sPyvk8bHQyez6AfaCqqO5jU,6592
+ci_scripts-1.1.0.data/scripts/pypi-upload,sha256=nfei0uEqoCaouIGwoiWfp0PJkngArjdP11go2V_SYk0,1530
+ci_scripts-1.1.0.data/scripts/python-unittest,sha256=gDwh-XOcfkLiHZRU0A2KjZDIki5qgmUcqCs5FAsMcuc,1674
+ci_scripts-1.1.0.data/scripts/sphinx-docgen,sha256=ecRemAmCce0k_ZgzyhPlNuxDRkGlNrotsBqv1MCctM0,1966
+ci_scripts-1.1.0.dist-info/METADATA,sha256=_6jlS1GMeEUbgWpWfpgBCK4ooA_0LUZn70hfSmn8GqA,1308
+ci_scripts-1.1.0.dist-info/RECORD,,
+ci_scripts-1.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+ci_scripts-1.1.0.dist-info/top_level.txt,sha256=AmSzVWVmG_50uKPs_3lTRP7KSO3TlnCTWhdlF6ioO90,16
+test/__init__.py,sha256=5kubbNDpk91mIaV_h_1fjcHz-Sv1F-N9ENyfGIVRh0o,694
+test/test_dummy.py,sha256=Prlhf0td4x828VjOUehfGV6MRkHUOrnZdtnbLPX9wgc,932
