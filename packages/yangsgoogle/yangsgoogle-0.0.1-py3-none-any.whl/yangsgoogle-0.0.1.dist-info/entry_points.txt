@@ -1,0 +1,3 @@
+[console_scripts]
+yangsgoogle = yangsgoogle.generator:main
+

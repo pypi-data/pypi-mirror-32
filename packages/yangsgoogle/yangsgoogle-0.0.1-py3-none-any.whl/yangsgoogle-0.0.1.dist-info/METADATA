@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: yangsgoogle
+Version: 0.0.1
+Summary: Google API Wrapper
+Home-page: https://github.com/seiren87/yangsgoogle
+Author: seiren87
+Author-email: seiren87dev@gmail.com
+License: MIT
+Keywords: util,google
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.5
+Requires-Dist: google-api-python-client (==1.6.7)
+Requires-Dist: yangsutil (==0.1.0)
+
+Google API Wrapper
+
+
