@@ -1,0 +1,3 @@
+pychrome
+six
+colorama
