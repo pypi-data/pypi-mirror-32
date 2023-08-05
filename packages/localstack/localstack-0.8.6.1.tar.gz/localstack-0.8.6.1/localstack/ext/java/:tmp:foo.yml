@@ -1,0 +1,21 @@
+
+pipelines:
+
+  - name: train_and_deploy
+    tasks:
+      - name: Train Model
+        _type: modelops.plugins.model_training.RunTrainingDLaaS
+        model: fashion_convolutional
+        manifest_state: demo-fashion.code_tarball
+      - name: Harden Model
+        _type: modelops.plugins.model_hardening.RobustnessCheck
+        model: fashion_convolutional
+        defenses: '{"FGSM":{"epsilon":0.1}}'
+      - name: Deploy Model in App
+        _type: modelops.plugins.model_deployment.TravisTrigger
+        github_token: {{credentials.travis_ci.github_token}}
+        deploy_apps: [fashion_backend]
+      - name: Send Slack Notification
+        _type: modelops.plugins.slack.PostMessage
+        channel: '#modelops-alerts'
+        text: 'Trigger application deployment: Demo App'
