@@ -1,0 +1,12 @@
+sidekick~=0.4.0
+
+[dev]
+invoke~=0.21
+flake8~=3.5
+manuel~=1.8
+pytest~=3.2
+pytest-cov~=2.5
+
+[docs]
+docutils~=0.14
+sphinx-autobuild~=0.7
