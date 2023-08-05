@@ -1,0 +1,12 @@
+assemblyai/__init__.py,sha256=5jnKmCH95bra4NAa5akNYslQs38IqD-ST0KucE6POMg,141
+assemblyai/cli.py,sha256=KjDHDeEnUGpBigwT9LHsOk-1I3E9foTyi8uh8ZYTfeA,228
+assemblyai/client.py,sha256=6WZHiiSfp6cp_waKhtHoSVL6UwgJZ-IVyEnw7EVaFfY,1693
+assemblyai/config.py,sha256=526jjx0AVS3v4D1CIUdZh_GcGUrCCCtYcGcwRpT9KVQ,162
+assemblyai/exceptions.py,sha256=By5VndESnLIb7idzBIGMtLT7CNfk82VJaY0fAUx9jKc,783
+assemblyai/model.py,sha256=qJF3VwA9BYytSX-9HoDnrc7ZHKr2b-inas2lhtKjwoQ,2205
+assemblyai/transcript.py,sha256=_aulAJaDi373DOj9khxG14fN9--EkEkDQ4IKJxzTkuc,4312
+assemblyai-0.2.1.dist-info/METADATA,sha256=tPQSqX8VLTW5BffsaIJG_3FMGlDblRqsw3Jq6H-7y34,4847
+assemblyai-0.2.1.dist-info/RECORD,,
+assemblyai-0.2.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+assemblyai-0.2.1.dist-info/entry_points.txt,sha256=_fSlLYccEvPnAzLHvMO1fI1cLgjlzcIa2z1azNWCdsI,52
+assemblyai-0.2.1.dist-info/top_level.txt,sha256=NVN58zfhMzl9LIUI6C1fvfIqnWON6uHRKtlRfW6w_QU,11
