@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: branch_bound
+Version: 0.1.1
+Summary: Utility for reducing practical runtime in NP problems
+Home-page: https://github.com/jskeet314/branch_bound_helper/tree/0.1.1
+Author: John Skeet
+Author-email: jskeet314@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/jskeet314/branch_bound_helper/archive/0.1.1.tar.gz
+Description: UNKNOWN
+Keywords: tag1,tag2
+Platform: UNKNOWN
