@@ -1,0 +1,10 @@
+django_debug_toolbar_requests-1.0.5.dist-info/METADATA,sha256=ijoxx_h9q0bMnhY7jcXhEtWGigNOs_tdqc9C5tQomz0,4056
+django_debug_toolbar_requests-1.0.5.dist-info/RECORD,,
+django_debug_toolbar_requests-1.0.5.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+django_debug_toolbar_requests-1.0.5.dist-info/top_level.txt,sha256=W_FMZkO92wcZqXBiC3ZQLCcr52YiEy7XJ6xi00ruPVg,17
+requests_toolbar/__init__.py,sha256=0QC4NC_0zQZIC0Kwe8fObHXipzK82bvzGgG6CKi3gV4,88
+requests_toolbar/operation_tracker.py,sha256=IfgspcDfPSjDF2y5SkMNEauj2WgkUh2C9chl9w9COME,4394
+requests_toolbar/panels.py,sha256=9b9us1sirfK7UsZ_6-aBwM1XNE5830PuhomZRAv3lmQ,1116
+requests_toolbar/templates/requests_toolbar/panels/requests.html,sha256=5fdxI4yUsTx4vUsXwj5njmt1gAsdf-pMK8-q8urRbNA,3284
+requests_toolbar/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+requests_toolbar/templatetags/requests_toolbar_tags.py,sha256=kOjm4oPLVz4ofVQkJUrxU5PY5brW2IAGEE4wUezK62w,1939
