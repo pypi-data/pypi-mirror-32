@@ -1,0 +1,11 @@
+head_pose/__init__.py,sha256=2CFgBTEOnMKpHOBjiSIVnRweDZtuUz5D59OcvPaKPlU,189
+head_pose/face.py,sha256=Me_XniEPncTLGrjOwxtmjD5wQzAPPVUQDuT2tB3kAcs,2047
+head_pose/head_pose_estimator.py,sha256=aLjwQvKFAri8LbtW-Vm5CqZrTP69MNOVOLBDa6Y5Nn8,3977
+head_pose/model_loader.py,sha256=1mHti6q_TSAlxoHq-b1yM5OgeJQeyp2Wq0y1bbio7aw,5068
+head_pose/utils.py,sha256=KdAm5DTEskdytv2_uFrqo2_npoWftnQuBlz-TubuZ0M,333
+head_pose/models/model_3D_68.txt,sha256=VDDKwWO35f7uW0JNz6tQi4RnesJtF193C3Em5YlOuSQ,2084
+head_pose-0.0.4.dist-info/METADATA,sha256=9nMgvgBN1pboVP7gGJCDsccq-37_MKSF5kv3GxalNao,505
+head_pose-0.0.4.dist-info/RECORD,,
+head_pose-0.0.4.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+head_pose-0.0.4.dist-info/top_level.txt,sha256=h5ffk6fnrbhcvAT-lWczXcXy5ZGT0YDDejhmfVvXM0c,10
+head_pose-0.0.4.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
