@@ -1,0 +1,10 @@
+README.md
+setup.py
+AWS_MFA_Helper.egg-info/PKG-INFO
+AWS_MFA_Helper.egg-info/SOURCES.txt
+AWS_MFA_Helper.egg-info/dependency_links.txt
+AWS_MFA_Helper.egg-info/entry_points.txt
+AWS_MFA_Helper.egg-info/requires.txt
+AWS_MFA_Helper.egg-info/top_level.txt
+aws_mfa_helper/__init__.py
+aws_mfa_helper/cli.py
