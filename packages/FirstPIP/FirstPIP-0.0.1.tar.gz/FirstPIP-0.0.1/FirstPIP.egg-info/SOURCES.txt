@@ -1,0 +1,8 @@
+README.md
+setup.py
+FirstPIP/__init__.py
+FirstPIP/greet.py
+FirstPIP.egg-info/PKG-INFO
+FirstPIP.egg-info/SOURCES.txt
+FirstPIP.egg-info/dependency_links.txt
+FirstPIP.egg-info/top_level.txt
