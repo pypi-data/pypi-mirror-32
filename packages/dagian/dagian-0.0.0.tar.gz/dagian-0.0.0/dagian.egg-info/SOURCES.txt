@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+dagian/__init__.py
+dagian.egg-info/PKG-INFO
+dagian.egg-info/SOURCES.txt
+dagian.egg-info/dependency_links.txt
+dagian.egg-info/requires.txt
+dagian.egg-info/top_level.txt
