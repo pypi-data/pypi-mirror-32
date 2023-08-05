@@ -1,0 +1,13 @@
+AUTHORS.md
+HISTORY.md
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+desdeo/__init__.py
+desdeo.egg-info/PKG-INFO
+desdeo.egg-info/SOURCES.txt
+desdeo.egg-info/dependency_links.txt
+desdeo.egg-info/requires.txt
+desdeo.egg-info/top_level.txt
