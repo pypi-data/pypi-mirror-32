@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: pytwoch
+Version: 0.0.5
+Summary: A simple Python wrapper for 2ch.hk API
+Home-page: https://github.com/TheUnravelGhoul/py2ch
+Author: TheUnravelGhoul
+Author-email: densmorgon@gmail.com
+License: UNKNOWN
+Description: Pytwoch
+        
+        pytwoch is a simple Python wrapper for 2ch(http://2ch.hk) API. 
+        
+        Requirements: 
+        1. requests
+        2. Python 3.5+ 
+        
+        Features: 
+        1. Get all threads from the board.
+        2. Get specific threads with all the posts and files. 
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
