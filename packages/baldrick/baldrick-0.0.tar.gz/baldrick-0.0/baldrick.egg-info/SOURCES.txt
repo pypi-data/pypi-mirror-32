@@ -1,0 +1,6 @@
+setup.py
+baldrick/__init__.py
+baldrick.egg-info/PKG-INFO
+baldrick.egg-info/SOURCES.txt
+baldrick.egg-info/dependency_links.txt
+baldrick.egg-info/top_level.txt
