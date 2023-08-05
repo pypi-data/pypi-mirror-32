@@ -1,0 +1,25 @@
+Metadata-Version: 2.0
+Name: metal-cli
+Version: 0.0.1
+Summary: Docker wrapper: Forget about your bare-metal and get started right away.
+Home-page: https://github.com/noeldemartin/metal
+Author: Noel De Martin
+Author-email: noeldemartin@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: Click
+Requires-Dist: docker
+Requires-Dist: docker-compose
+
+# Metal 🤘
+
+Docker wrapper: Forget about your bare-metal and get started right away.
+
+## Installation
+`pip install metal`
+
+## Development
+
+Run tests by using `python tests` command.
+
+
