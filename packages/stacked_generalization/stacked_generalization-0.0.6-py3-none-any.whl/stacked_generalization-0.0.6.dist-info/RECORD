@@ -1,0 +1,11 @@
+stacked_generalization/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stacked_generalization/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stacked_generalization/lib/joblibed.py,sha256=MnCVfQX3q4q73gtyBXXMS7P53axVe7-jLygwxAarMaE,3678
+stacked_generalization/lib/stacking.py,sha256=2HAFSggCMnNXBZ8fXddmRDtd4bKDYoHM3_F2cPyt-pk,16668
+stacked_generalization/lib/util.py,sha256=jaKhDIb8APrsBBttH3cHTKGNtj2DueEy2O6_pj3lzXo,3896
+stacked_generalization-0.0.6.dist-info/DESCRIPTION.rst,sha256=Rn3WGiXdJabtMHn0wc9n10JvOthYrypx9a54M6bMJr8,13
+stacked_generalization-0.0.6.dist-info/METADATA,sha256=FHocvjj6h9_DclWBwOg3GHdGomE6igXbGt8ZZbSdxOE,431
+stacked_generalization-0.0.6.dist-info/RECORD,,
+stacked_generalization-0.0.6.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+stacked_generalization-0.0.6.dist-info/metadata.json,sha256=8U0-QkHeHCLopn8JSrCOSHWALcxVS3HY-9cF7pcRsIU,634
+stacked_generalization-0.0.6.dist-info/top_level.txt,sha256=Jnbw_HUbSuEPEc8N_RWu4ZFvseaOVxmFF1PexCiE83I,23
