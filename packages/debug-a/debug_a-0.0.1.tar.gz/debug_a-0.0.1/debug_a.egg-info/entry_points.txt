@@ -1,0 +1,3 @@
+[console_scripts]
+da = debug_a.cli:debug_a
+
