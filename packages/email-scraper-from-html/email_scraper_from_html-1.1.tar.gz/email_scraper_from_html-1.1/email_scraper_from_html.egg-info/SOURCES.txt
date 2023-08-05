@@ -1,0 +1,12 @@
+.gitignore
+README.md
+setup.py
+bin/scrape
+email_scraper_from_html/__init__.py
+email_scraper_from_html/email_scraping.py
+email_scraper_from_html.egg-info/PKG-INFO
+email_scraper_from_html.egg-info/SOURCES.txt
+email_scraper_from_html.egg-info/dependency_links.txt
+email_scraper_from_html.egg-info/not-zip-safe
+email_scraper_from_html.egg-info/requires.txt
+email_scraper_from_html.egg-info/top_level.txt
