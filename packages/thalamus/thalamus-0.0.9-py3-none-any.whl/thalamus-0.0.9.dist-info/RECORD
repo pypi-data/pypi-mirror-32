@@ -1,0 +1,9 @@
+thalamus/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+thalamus/thalamus.py,sha256=gH--42R2AmScetsn82jn8xcyehfmqMIOvOSKDezxEec,8714
+thalamus/etc/gunicorn.cfg,sha256=VykTBbLyNVkbYXjZzABWM1B6gLST4CnAuR5Kh5xTRlY,121
+thalamus/etc/roles.cfg,sha256=TTzZOr_vyxJSTjklkzfRlUBP1zd59_-67AW5ZFqPaK0,644
+thalamus/etc/thalamus.cfg,sha256=3KPXRkb_DyvtQoJU4sJqgsoCvcz2uhkyjp5Om-pO19g,250
+thalamus-0.0.9.dist-info/METADATA,sha256=Sx4FP1wlp5NNMBE-7z9J17wcOtrXr5_J1z-fjx7qwXE,7361
+thalamus-0.0.9.dist-info/RECORD,,
+thalamus-0.0.9.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+thalamus-0.0.9.dist-info/top_level.txt,sha256=6d7d-7Tgg85aSODh8FA4DsTA72ykD0GqeOLVyJ70oY8,9
