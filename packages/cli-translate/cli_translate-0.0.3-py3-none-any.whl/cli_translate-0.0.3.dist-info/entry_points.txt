@@ -1,0 +1,3 @@
+[console_scripts]
+itranslate = cli_translate.core:main
+
