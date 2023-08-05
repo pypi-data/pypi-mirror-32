@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+fixerio3/__init__.py
+fixerio3/exceptions.py
+fixerio3/fixerio.py
+fixerio3/utils.py
+fixerio3.egg-info/PKG-INFO
+fixerio3.egg-info/SOURCES.txt
+fixerio3.egg-info/dependency_links.txt
+fixerio3.egg-info/not-zip-safe
+fixerio3.egg-info/requires.txt
+fixerio3.egg-info/top_level.txt
