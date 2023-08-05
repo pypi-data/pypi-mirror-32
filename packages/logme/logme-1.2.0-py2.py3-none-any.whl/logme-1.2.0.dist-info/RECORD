@@ -1,0 +1,17 @@
+logme/__init__.py,sha256=UPbKYWOBuMiOMTRmOqOWWZ4B9JR4FdEjT2nxrLhKtbM,2160
+logme/__version__.py,sha256=U3f_Jgr3zpgiYG2kLcvcT05TQsVzN9Kktg_f3Q9OZFA,22
+logme/cli.py,sha256=37DEK84wsa6KbrSr-eh9GovKuKd6L6CDpeV35HLLwd4,8140
+logme/color_provider.py,sha256=RexNS_ZPuOHeDhCwQP80abwoNCTlhzTrwjOsxCyZNaw,2838
+logme/config.py,sha256=rRir6j_KwVonn2RCooU55aMkDV05W7EumxLQQry69Zo,3021
+logme/exceptions.py,sha256=0MTR9-NqB0uqlY7b0oj0ki-PW5z2L-n51b1xf7R5kKg,561
+logme/providers.py,sha256=xY-370fJ6LghvmQkgIXDKJZOVK3SAGyfLHPTG6BcBsM,14526
+logme/utils.py,sha256=5XWC9yDL2_3DBz2lzI5x2FIWytMUVrL0U9xut1ej8aQ,4726
+logme/cli/__init__.py,sha256=Da_-T-HCHbNHyRJ-BFG6XUra0rIv3zTTo8o9HTlSRiE,21
+logme/cli/_cli.py,sha256=JljWMXY5gcdDMa2ydjAyS4R2L3LkWP9w1FMcek4nLRo,5307
+logme/cli/_cli_utils.py,sha256=yJAr5HpiUzLBeZiZL_q7JsRJpdy-oN64-iw-ihQFTD8,4059
+logme/cli/_upgrade_utils.py,sha256=v4PgyUZc7eI_5Mwko1de4U5ru1tn5nLpxndExMfOCq0,2290
+logme-1.2.0.dist-info/METADATA,sha256=ooLDHr9sh_i7BwEtIibAPB4ET08yUueXElTCWF14Joc,2297
+logme-1.2.0.dist-info/RECORD,,
+logme-1.2.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+logme-1.2.0.dist-info/entry_points.txt,sha256=Ssf-gTZ2otsNz_EnpPlOtnlhkfQVj_o6WRe7unQkQz0,37
+logme-1.2.0.dist-info/top_level.txt,sha256=iKzxH48wF56zrPx8wfovspeQDpFN-vd126ld8M9cYI4,6
