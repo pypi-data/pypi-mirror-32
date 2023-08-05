@@ -1,0 +1,8 @@
+setup.py
+geekberry/__init__.py
+geekberry.egg-info/PKG-INFO
+geekberry.egg-info/SOURCES.txt
+geekberry.egg-info/dependency_links.txt
+geekberry.egg-info/top_level.txt
+geekberry/sqdict/__init__.py
+geekberry/sqdict/sqdict.py

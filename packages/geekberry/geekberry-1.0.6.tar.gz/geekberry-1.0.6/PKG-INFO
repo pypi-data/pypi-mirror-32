@@ -1,0 +1,14 @@
+Metadata-Version: 1.0
+Name: geekberry
+Version: 1.0.6
+Summary: Some tools.
+Home-page: https://github.com/GeekBerry/geekberry
+Author: GeekBerry
+Author-email: GeekBerry@qq.com
+License: MIT Licence
+Description: 
+        一些常用工具:
+            1.结构化查询字典(SQDict)
+        
+Keywords: pip,geekberry,database
+Platform: any
