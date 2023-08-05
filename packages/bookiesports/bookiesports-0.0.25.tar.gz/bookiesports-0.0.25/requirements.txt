@@ -1,0 +1,6 @@
+peerplays
+bookied-sync
+pyyaml
+jsonschema
+colorlog
+strict_rfc3339
