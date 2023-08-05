@@ -1,0 +1,10 @@
+onelinerizer/__init__.py,sha256=WGGoZToCF4qqtLs9XnoUDQKPml16Lyx7vXapxQDNvMM,38
+onelinerizer/__main__.py,sha256=p9tzP2Xj8zFOPpdo_wcRIbckTCNLYs_Htso5hf23Mwo,2186
+onelinerizer/onelinerizer.py,sha256=MZe7ZoSPvddnQlOfGojF6KN0rmLvmF_yMZqtlzPb_zs,32849
+onelinerizer/runtests.py,sha256=ADb-SJxNQntuC-AHBLZ-e4fbtlgutXF-sjMZsRNuPbo,2067
+onelinerizer/template.py,sha256=r1w3g3qOyyIArSyGK8zJzDpCXBW7ej6QEKqUsBV7Raw,2490
+onelinerizer-1.0.3.dist-info/METADATA,sha256=OzMMgun5O554UnXO_KmCrifFmUbQ49rMBXtzw9swu8Y,6920
+onelinerizer-1.0.3.dist-info/RECORD,,
+onelinerizer-1.0.3.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+onelinerizer-1.0.3.dist-info/entry_points.txt,sha256=r8B8ptz8It_GUpPoa1ZIU_zT3Ba9ma2K6rvnP8BY308,61
+onelinerizer-1.0.3.dist-info/top_level.txt,sha256=Ul5qR551Ouafr23tvht_inhS8IZL8SbP-EmkHZvPRWQ,13
