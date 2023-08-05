@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+dictmatching/__init__.py
+dictmatching/_dis.py
+dictmatching/dictmatching.py
+dictmatching.egg-info/PKG-INFO
+dictmatching.egg-info/SOURCES.txt
+dictmatching.egg-info/dependency_links.txt
+dictmatching.egg-info/requires.txt
+dictmatching.egg-info/top_level.txt

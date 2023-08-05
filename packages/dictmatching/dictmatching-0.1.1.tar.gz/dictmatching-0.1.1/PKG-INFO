@@ -1,0 +1,37 @@
+Metadata-Version: 1.2
+Name: dictmatching
+Version: 0.1.1
+Summary: Unpacking dicts is now easier than ever
+Home-page: https://github.com/yehonatanz/dictmatching
+Author: yehonatanz
+License: UNKNOWN
+Description: dictmatching
+        =============
+        .. image:: https://travis-ci.com/yehonatanz/dictmatching.svg?branch=master
+            :target: https://travis-ci.com/yehonatanz/dictmatching
+        .. image:: https://codecov.io/gh/yehonatanz/dictmatching/branch/master/graph/badge.svg
+            :target: https://codecov.io/gh/yehonatanz/dictmatching
+        
+        Unpacking dicts is now easier than ever:
+        
+        .. code-block:: python
+            
+            from dictmatching import unpack
+            
+            d1 = dict(a=1, b=2)
+            d2 = dict(x=3, y=4)
+            with unpack(d1) as b, unpack(d2) as (x, y):
+                assert b == 2
+                assert x == 3
+                assert y == 4
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*
