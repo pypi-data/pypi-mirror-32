@@ -1,0 +1,7 @@
+README.md
+ai_eye.py
+setup.py
+ai_eye.egg-info/PKG-INFO
+ai_eye.egg-info/SOURCES.txt
+ai_eye.egg-info/dependency_links.txt
+ai_eye.egg-info/top_level.txt
