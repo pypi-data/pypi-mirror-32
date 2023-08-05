@@ -1,0 +1,11 @@
+s3tree/__init__.py,sha256=0r2plLc5orKXWRjY9Ts46bxiRp3b2SgazvcIDztsgV4,240
+s3tree/__version__.py,sha256=K8mjRffLdbJcXql_nH9PVtPLVvz0_2P-CVC46x35f-s,69
+s3tree/core.py,sha256=PL16yyRodaYyEibL_egEnfzu6tFuQHQXsqJqMH9lM9k,4622
+s3tree/exceptions.py,sha256=1s4UnVMvDN0Q2jzi8fgLLb5dqFXeG9yPpgj5hZ--Lt8,1416
+s3tree/models.py,sha256=os_JQ-eiaZntdllgvbMKiFyIJvnJ1Jcwf1ClVEHOpog,2039
+s3tree/types.py,sha256=LTK1Y7wT3ByUxV1-CTAv_cz01jMnlG46Qv3JeMQ895g,657
+s3tree/utils.py,sha256=YAfKkTd7lxC2UkUjG4a1Nz9AhGRoV1hd07-TgpHiTnQ,1584
+s3tree-0.1.0.dist-info/METADATA,sha256=UPpaxSBzv9S6JNah24F15mhUIFmEw6JhGJP1fEgc4lA,1523
+s3tree-0.1.0.dist-info/RECORD,,
+s3tree-0.1.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+s3tree-0.1.0.dist-info/top_level.txt,sha256=3OpEXCMGl3IB5BThdTWl1QHCG-Co-NmvoZvpz7IR2A4,7
