@@ -1,0 +1,8 @@
+README.md
+setup.py
+GTquant/GTquant.py
+GTquant/__init__.py
+GTquant.egg-info/PKG-INFO
+GTquant.egg-info/SOURCES.txt
+GTquant.egg-info/dependency_links.txt
+GTquant.egg-info/top_level.txt
