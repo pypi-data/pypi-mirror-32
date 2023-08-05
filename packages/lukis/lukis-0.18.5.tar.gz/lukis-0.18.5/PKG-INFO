@@ -1,0 +1,62 @@
+Metadata-Version: 1.2
+Name: lukis
+Version: 0.18.5
+Summary: Generate a device independent vector graphic stream that can be converted to pdf, svg, or other vector graphic format.
+Home-page: UNKNOWN
+Author: CHEN, Lee Chuin
+Author-email: leechuin@gmail.com
+License: MIT
+Description: =====
+        Lukis
+        =====
+        
+        Description:
+        ~~~~~~~~~~~~
+        * Generate device independent vector graphic stream
+          that can be converted to pdf, svg, or other vector graphic format.
+        
+        * The output stream is in pure txt, and csv format.
+        
+        * A simple stream looks like this::
+        
+            MoveTo,50,50
+            LineTo,150,150
+            Stroke
+        
+        * "Lukis" is the Malay word for "Draw"
+        
+        * show(GStream) converts the graphic stream to pdf, svg or other
+          graphic file, and open it using the default viewer.
+        
+        Example:
+        --------
+        ::
+        
+            #To make a line from (0,0) to (300,300) and display the graphics:
+            S = moveto(0,0)\\
+              + lineto(300,300)\\
+              + stroke()
+            show(S)
+        
+        
+        Installation
+        ~~~~~~~~~~~~
+        Python 3 as default Python::
+        
+        	pip install lukis
+        
+        Python as Python3::
+        
+        	pip3 install kopi
+        
+Keywords: lukis vector graphic pdf svg
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Requires-Python: >=3
