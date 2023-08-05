@@ -1,0 +1,126 @@
+{% load i18n static cosinnus_tags widget_tweaks %}
+
+
+{% if notes %}
+    {% for note in notes %}
+        <div type="button" class="btn btn-emphasized btn-headline">
+            <ul class="media-list">
+                <li class="media">
+                    <a class="pull-left" href="{{ note.creator|profile_url }}">
+                        {% include "cosinnus/user/user_avatar_image.html" with user=note.creator %}
+                    </a>
+                    <div class="media-body">
+                         <a href="{{ note.creator|profile_url }}">{{ note.creator|full_name }}</a> 
+                         {% if note.get_facebook_post_url %}
+                            <a target="_blank" href="{{ note.get_facebook_post_url }}"
+                            ><i class="fa fa-facebook-square"></i> 
+                            </a>
+                         {% endif %}
+                         
+                         {% if user|has_write_access:note %}
+                             <a data-toggle="modal" data-target="#deleteNote_{{note.pk}}" href="#" title="{% trans "Delete note" %}"><i class="fa fa-times"></i></a>
+                             <a href="{% group_url 'cosinnus:note:update' group=note.group slug=note.slug %}">
+                                 <i class="fa fa-pencil"></i>
+                                 {% trans "Edit" %}
+                             </a>
+                         {% endif %}
+                         <div class="group-annotation">
+                             {% include 'cosinnus/common/reflect/reflected_group_display_link.html' %}
+                             
+                             <a class="light-link" target="_blank" href="{{ note.get_absolute_url }}{% if group != note.group %}?reflected_item_redirect=1{% endif %}">
+                                <span class="moment-data-date" data-date="{{ note.created|date:'c' }}" title="{{ note.created|date:'r' }}"></span>
+                                <i class="fa fa-external-link"></i>
+                             </a>
+                         </div>
+                    </div>
+                </li>
+            </ul>
+        </div><!-- btn -->
+        
+        {% if user|has_write_access:note %}
+            {% captureas modal_id %}deleteNote_{{note.pk}}{% endcaptureas %}
+            {% captureas title %}{% trans "Delete note" %}{% endcaptureas %}
+            {% captureas label %}{% trans "Do you really want to delete this note?" %}{% endcaptureas %}
+            {% captureas action %}{% group_url 'cosinnus:note:delete' group=note.group slug=note.slug%}{% endcaptureas %}
+            {% include "cosinnus/modal_box.html" with id=modal_id label=label title=title form_action=action %}
+        {% endif %}
+        
+        <div type="button" class="btn btn-default dashboard-appwidget-contentline-indented">
+            <ul class="media-list fine-space">
+                <li class="media">
+                    <div class="media-body">
+                        <div class="well textfield">
+                            {% with note_text=note.text|textfield note_id=note.id %}
+                                {% if note.title and not note.title == '---' %}
+                                    <p class="regular-space"><strong>{{ note.title|urlizetrunc:25|url_target_blank }}</strong></p>
+                                {% endif %}
+                                {% if note.text|length|intify < 200 %}
+                                    {{ note_text }}
+                                {% else %}
+                                    <div class="hidden_text_shown" data-hidden-text-id="note_{{ note_id }}" >
+                                        {{ note.text|truncatechars:200|textfield }}
+                                        <p>
+                                            <a class="hidden_text_button" data-hidden-text-id="note_{{ note_id }}">{% trans "Read more..." %}</a>
+                                        </p>
+                                    </div>
+                                    <div class="hidden_text_hidden" data-hidden-text-id="note_{{ note_id }}" style="display:none;">
+                                        {{ note_text}}
+                                    </div>
+                                    <script type="text/javascript">
+									    $.cosinnus.hidden_text();
+									</script>
+                                {% endif %}
+                            {% endwith %}
+                        </div>
+                        {% if note.attached_images %}
+                            {% include 'cosinnus/common/attached_images_gallery_single.html' with object=note %}
+                        {% endif %}
+                        {% if note.video %}
+                            {% include 'cosinnus/common/embed_youtube.html' with video_id=note.video_id %}
+                        {% endif %}
+                    </div>
+                </li>
+            </ul>
+        </div><!-- btn -->
+        
+        {% if may_reflect and not reflectable_groups %}
+        {# Simplification so we don't overload the page with modals: For reflecting in lists we link to the detail page and open the modal #}
+	        <div class="btn btn-default dashboard-appwidget-contentline-indented">
+	            <ul class="media-list fine-space">
+	                <li class="media">
+	                    <div class="media-body no-vertical-padding">
+	                        <ol class="input-area">
+	                            <li class="w100 font11px no-vertical-padding no-horizontal-padding">
+	                                <i class="fa fa-fw fa-share"></i>
+		                            <a href="{{ note.get_absolute_url }}?select_reflect=1">
+		                                {% trans "Show in my projects..." %}
+		                            </a>
+	                            </li>
+	                        </ol>
+	                    </div>
+	                </li>
+	            </ul>
+	        </div>
+        {% endif %}
+        
+        {% include 'cosinnus/media_tags_readonly.html' with object=note %}
+
+        {% include 'cosinnus_note/note_comments.html' with note=note %}
+
+    {% endfor %}
+  
+{% else %}
+    <div type="button" class="btn btn-emphasized dashboard-appwidget-contentline fine-space">
+        <ul class="media-list">
+            <li class="media">
+                <a class="pull-left" href="#">
+                    <i class="fa fa-tasks"></i>
+                </a>
+                <div class="media-body">
+                    {% trans "There are no news posts yet" %}
+                </div>
+            </li>
+        </ul>
+    </div><!-- btn -->
+{% endif %}
+
