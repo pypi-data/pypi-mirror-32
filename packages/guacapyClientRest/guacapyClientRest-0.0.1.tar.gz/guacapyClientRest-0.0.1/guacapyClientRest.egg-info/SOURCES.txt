@@ -1,0 +1,10 @@
+setup.py
+guacapyClientRest/__init__.py
+guacapyClientRest/client.py
+guacapyClientRest/errors.py
+guacapyClientRest/templates.py
+guacapyClientRest.egg-info/PKG-INFO
+guacapyClientRest.egg-info/SOURCES.txt
+guacapyClientRest.egg-info/dependency_links.txt
+guacapyClientRest.egg-info/requires.txt
+guacapyClientRest.egg-info/top_level.txt
