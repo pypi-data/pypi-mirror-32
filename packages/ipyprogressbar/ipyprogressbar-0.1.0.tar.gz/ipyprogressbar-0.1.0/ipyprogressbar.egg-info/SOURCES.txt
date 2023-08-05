@@ -1,0 +1,8 @@
+README.md
+setup.py
+ipyprogressbar/__init__.py
+ipyprogressbar/ipyprogressbar.py
+ipyprogressbar.egg-info/PKG-INFO
+ipyprogressbar.egg-info/SOURCES.txt
+ipyprogressbar.egg-info/dependency_links.txt
+ipyprogressbar.egg-info/top_level.txt
