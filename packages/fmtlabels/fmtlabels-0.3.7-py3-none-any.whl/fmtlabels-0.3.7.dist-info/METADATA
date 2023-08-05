@@ -1,0 +1,16 @@
+Metadata-Version: 2.0
+Name: fmtlabels
+Version: 0.3.7
+Summary: labels formatting from csv/xlsx to json
+Home-page: http://bitbucket.org/yimian/fmtlabels
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: tablib (>=0.12)
+Requires-Dist: requests (>=2.18)
+
+UNKNOWN
+
+
