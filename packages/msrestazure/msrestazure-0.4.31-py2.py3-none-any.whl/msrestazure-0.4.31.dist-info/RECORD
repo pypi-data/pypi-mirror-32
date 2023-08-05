@@ -1,0 +1,14 @@
+msrestazure/__init__.py,sha256=j1F_UoeZumCvs07iLwMFMaM_o2LVxwC3En-PoOcU7lU,1470
+msrestazure/azure_active_directory.py,sha256=uSsOJuegZ5cG1BcW5ewK0nu4A8Lc46z8GHJApYbgt4A,32446
+msrestazure/azure_cloud.py,sha256=FEC-2Su1y9Hvd171cJPC2Gys4OUnkJx2W_RRXDxV0QI,11437
+msrestazure/azure_configuration.py,sha256=14AWqYTkXwo13cXgLfK49JFkev_xVzx2ctdpLpJkxWM,3875
+msrestazure/azure_exceptions.py,sha256=297JtQUQL3P01h_03rQvi7k6q8oIHElA3CFbRFksXdk,8141
+msrestazure/azure_operation.py,sha256=Zzf1wzyJ_liNFrloBrl5_A8Dufz6yn6D1mD8sxQ88Yo,19359
+msrestazure/tools.py,sha256=l96F4cx8EVj6q-r1XpNtPkw98nC6dOQ0r7l89g8AQfY,10817
+msrestazure/version.py,sha256=P9WJmnK6addBCvV78t4YiHmX892gHUx6Ry6dcQ2-VJk,1402
+msrestazure/polling/__init__.py,sha256=7sBh1XwAYMsyVWFDzAK-qZ19PmB8ZdEWpwl1FZJq-TI,1303
+msrestazure/polling/arm_polling.py,sha256=QKFXaOapW2JSEfO1a3t_pq1mCl86ikZcRVYVT9Wn7rk,15414
+msrestazure-0.4.31.dist-info/METADATA,sha256=Euigx_8sUTVlNTem7-nFMnRQhhKSghTQs118r3udtvM,12336
+msrestazure-0.4.31.dist-info/RECORD,,
+msrestazure-0.4.31.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+msrestazure-0.4.31.dist-info/top_level.txt,sha256=VTVe3Z2VhGYqmnagxQN__92nbaitL4BSqIq_4GXvRhc,12
