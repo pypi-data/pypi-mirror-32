@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: simtables
+Version: 0.0.3
+Summary: Simple tables
+Home-page: https://github.com/achambers8472/simtables
+Author: Alexander Chambers
+Author-email: alexander.chambers8472@gmail.com
+License: UNKNOWN
+Description-Content-Type: text/markdown
+Description: # Simple Tables
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
