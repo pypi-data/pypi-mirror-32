@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: afk-time
+Version: 0.0.0
+Summary: get afk time in seconds
+Home-page: https://github.com/looking-for-a-job/afk-time
+License: UNKNOWN
+Description: ### Install
+        
+        ```bash
+        $ [sudo] pip install afk-time
+        ```
+        
+        ### Features
+        
+        +   get afk time in seconds
+        
+        ### Usage
+        
+        ```bash
+        usage: afk-time
+        ```
+        
+        ### Examples
+        
+        ```bash
+        $ sleep 3 && afk-time
+        3
+        ```
+Keywords: afk
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Unix Shell
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
