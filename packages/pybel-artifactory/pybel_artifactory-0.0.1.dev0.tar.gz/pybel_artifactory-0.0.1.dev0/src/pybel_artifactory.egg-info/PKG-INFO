@@ -1,0 +1,48 @@
+Metadata-Version: 1.2
+Name: pybel-artifactory
+Version: 0.0.1.dev0
+Summary: A PyBEL extension for handling BEL resources with Artifactory
+Home-page: https://github.com/pybel/pybel-artifactory
+Author: Charles Tapley Hoyt
+Author-email: charles.hoyt@scai.fraunhofer.de
+Maintainer: Charles Tapley Hoyt
+Maintainer-email: charles.hoyt@scai.fraunhofer.de
+License: MIT License
+Description: PyBEL Artifactory
+        =================
+        An extension for handling BEL resources with Artifactory.
+        
+        Installation
+        ------------
+        Get the Latest
+        ~~~~~~~~~~~~~~~
+        Download the most recent code from `GitHub <https://github.com/pybel/pybel-artifactory>`_ with:
+        
+        .. code-block:: sh
+        
+           $ python3 -m pip install git+https://github.com/pybel/pybel-artifactory.git
+        
+        For Developers
+        ~~~~~~~~~~~~~~
+        Clone the repository from `GitHub <https://github.com/pybel/pybel-artifactory>`_ and install in editable mode with:
+        
+        .. code-block:: sh
+        
+           $ git clone https://github.com/pybel/pybel-artifactory.git
+           $ cd bio2bel
+           $ python3 -m pip install -e .
+        
+Keywords: Biological Expression Language,BEL,Systems Biology,Networks Biology
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
