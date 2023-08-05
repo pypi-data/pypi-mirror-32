@@ -1,0 +1,12 @@
+sfqlib/__init__.py,sha256=vpKER_MYNNb-mj6burtvIbrnRHw9wo6dTV86ShfuUuM,378
+sfqlib/_sfqQubitLegacy.py,sha256=0Yj7-7jkJKKPcHZntgA3QSysBsY7j2JFz99zEiCOEb4,10671
+sfqlib/bloch.py,sha256=ETmrt8zCpiyadf9KDYhgyn8LdU04CdsAMTxBKRAV1M4,9244
+sfqlib/euler_angle.py,sha256=TahaBZ4nuBL1Gm5Hdb1Qus1eX3Uk-0Jl9ivZiXHMSe4,2456
+sfqlib/sfqQubit.py,sha256=gcbleM73oM9DkbKZBkP9TehbAgkNEJ4G21E-OcTFlyU,13068
+sfqlib/sweep.py,sha256=e813_nP6HkzoGfa7XZx2k6GHWZ15Ey_cs2Vh_b8qlX8,5483
+sfqlib-0.1.3.dist-info/DESCRIPTION.rst,sha256=H0dCXaset8dxI6X6WJ5jcyxbK2mH5zkyScjNvPtpkTg,165
+sfqlib-0.1.3.dist-info/METADATA,sha256=t_VxK5w95iohbXX3CRtGGdinW8gzIu9ArRGtLAjCp10,473
+sfqlib-0.1.3.dist-info/RECORD,,
+sfqlib-0.1.3.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+sfqlib-0.1.3.dist-info/metadata.json,sha256=DbJiIEz-jMfF9ijeTIVQ8FKheLGqI4Egf8cyLwnlf10,533
+sfqlib-0.1.3.dist-info/top_level.txt,sha256=81M0glMA1npQGgwFSNjCnSKJsoEEDJdFK4zkVwn_V3c,7
