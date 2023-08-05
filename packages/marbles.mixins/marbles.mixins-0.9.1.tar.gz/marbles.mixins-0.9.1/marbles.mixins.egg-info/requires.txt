@@ -1,0 +1,6 @@
+pandas<0.21,>=0.19.1
+
+[dev]
+flake8-per-file-ignores
+flake8
+coverage
