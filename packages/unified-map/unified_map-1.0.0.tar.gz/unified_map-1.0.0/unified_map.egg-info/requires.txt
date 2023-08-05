@@ -1,0 +1,13 @@
+
+[complete]
+dask[complete]
+joblib
+
+[dev]
+dask[complete]
+joblib
+pytest
+pytest-benchmark
+pytest-cov
+sphinx
+sphinx-rtd-theme
