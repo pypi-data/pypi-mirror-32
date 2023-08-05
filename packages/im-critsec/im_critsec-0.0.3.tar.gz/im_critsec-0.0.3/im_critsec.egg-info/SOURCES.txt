@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+im_critsec/__init__.py
+im_critsec.egg-info/PKG-INFO
+im_critsec.egg-info/SOURCES.txt
+im_critsec.egg-info/dependency_links.txt
+im_critsec.egg-info/requires.txt
+im_critsec.egg-info/top_level.txt
