@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: pyj
+Version: 0.0
+Summary: clojure-like functionality for python
+Home-page: https://github.com/zcaudate/pyj
+Author: Chris Zheng
+Author-email: z@caudate.me
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: clojure python functional
+Platform: UNKNOWN
