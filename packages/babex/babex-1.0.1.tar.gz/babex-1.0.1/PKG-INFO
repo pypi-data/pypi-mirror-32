@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: babex
+Version: 1.0.1
+Summary: Имплементация протокола общения между сервисами, через очередь сообщений RabbitMQ.
+Home-page: https://github.com/spyzhov/babex-py
+Author: Stepan Pyzhov
+Maintainer: Stepan Pyzhov
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
