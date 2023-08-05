@@ -1,0 +1,7 @@
+README.md
+setup.py
+canonicalwebteam.snapstoreapi.egg-info/PKG-INFO
+canonicalwebteam.snapstoreapi.egg-info/SOURCES.txt
+canonicalwebteam.snapstoreapi.egg-info/dependency_links.txt
+canonicalwebteam.snapstoreapi.egg-info/requires.txt
+canonicalwebteam.snapstoreapi.egg-info/top_level.txt
