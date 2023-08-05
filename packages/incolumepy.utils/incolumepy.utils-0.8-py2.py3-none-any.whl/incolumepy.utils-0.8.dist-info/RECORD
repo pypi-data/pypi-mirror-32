@@ -1,0 +1,13 @@
+incolumepy.utils-0.8-py3.5-nspkg.pth,sha256=1nytAwfntDaNNrzCnNqrlOeAOOCvKs8SpsXQrEHxOQ4,367
+incolumepy/utils/__init__.py,sha256=faCepkdDLHLh_TV_0RjQZUydOjrlY_blSVMHUNcA9_w,243
+incolumepy/utils/fake_cpf.py,sha256=LKY8HRKrw2A9D5ZNuYcA4f9C0dqep8LmUGycaOmny7c,690
+incolumepy/utils/files.py,sha256=AW1lyPK0XSD7-zhRPAGmUPh8-VDHPJkyJib2rsI4q3U,4677
+incolumepy/utils/sequencia.py,sha256=aJt6u_pLGtYojXzpnOW-Ce3fw6LzuHjiKqA29IoTbdI,2533
+incolumepy/utils/utils.py,sha256=N3MFxz1sP5G-i6PTZnQeaVxpe16vlY5atP9sRqbOt5o,1355
+incolumepy/utils/version.txt,sha256=_fJ28Bg8cXQoI7Bh9zQtWB5W3grxBkgzm1JSSeJu6U8,4
+incolumepy.utils-0.8.dist-info/METADATA,sha256=bHU27bJt7Q80ZnutD9g3njj2e0M6AZUFoage5qdXYvM,5120
+incolumepy.utils-0.8.dist-info/RECORD,,
+incolumepy.utils-0.8.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+incolumepy.utils-0.8.dist-info/entry_points.txt,sha256=xfXPV-lke3A3BnJ2L8H8J9oQWjU7Dmf6FS1Z-ZK_1wQ,181
+incolumepy.utils-0.8.dist-info/namespace_packages.txt,sha256=STwKwQu53K4ScQYivL7-JM3oJwpuFZ9ml_fbjiwMykM,11
+incolumepy.utils-0.8.dist-info/top_level.txt,sha256=STwKwQu53K4ScQYivL7-JM3oJwpuFZ9ml_fbjiwMykM,11
