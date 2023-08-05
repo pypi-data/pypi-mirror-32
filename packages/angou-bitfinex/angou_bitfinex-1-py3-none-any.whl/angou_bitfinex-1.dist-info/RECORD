@@ -1,0 +1,8 @@
+angou_bitfinex/__init__.py,sha256=Dt35m02jcphvZE23SCSIYigg8RETB-KWihBsRhDIHo4,44
+angou_bitfinex/auth_utils.py,sha256=crOSkNOLDtbWuw1WaMycjHsS_i5z_UlwmalXRSLKtu0,322
+angou_bitfinex/rest.py,sha256=GftC5QTUw7VBfdFYPD15gWx9ec1K4jZZPGEqjU0ul7c,4082
+angou_bitfinex-1.dist-info/LICENSE.txt,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+angou_bitfinex-1.dist-info/METADATA,sha256=wMkt-3_H-VaXUQ0I9_heFYc2788KoRw0DtMYLRtUMg0,750
+angou_bitfinex-1.dist-info/RECORD,,
+angou_bitfinex-1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+angou_bitfinex-1.dist-info/top_level.txt,sha256=oVfFytBMWo48fXFld8fP-ZYdyErhxErS6jdbs89-hAY,15
