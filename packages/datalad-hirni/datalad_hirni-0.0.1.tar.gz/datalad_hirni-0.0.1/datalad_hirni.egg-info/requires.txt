@@ -1,0 +1,7 @@
+datalad-neuroimaging
+datalad-container
+
+[devel-docs]
+pypandoc
+sphinx
+sphinx-rtd-theme
