@@ -1,0 +1,12 @@
+README.rst
+setup.py
+src/sftpd/__init__.py
+src/sftpd/application.py
+src/sftpd/server.py
+src/sftpd/simple.py
+src/sftpd.egg-info/PKG-INFO
+src/sftpd.egg-info/SOURCES.txt
+src/sftpd.egg-info/dependency_links.txt
+src/sftpd.egg-info/entry_points.txt
+src/sftpd.egg-info/requires.txt
+src/sftpd.egg-info/top_level.txt
