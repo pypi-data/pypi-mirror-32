@@ -1,0 +1,15 @@
+amicleaner/__init__.py,sha256=0jKp_2pnt8dGpNb2LOodof4FL2MeOp2QegUGNww-5E4,228
+amicleaner/cli.py,sha256=rSQbijcr6wGVtM5IWPvkhoHLW791x_Nmks-DuDPmQBY,5864
+amicleaner/core.py,sha256=7OXRw1YEJ5aT9A6qFaIngt9Off3BjIn9K2ASl-EQGrU,7860
+amicleaner/fetch.py,sha256=oGaw2oEbmZFMX985jYYxDrogrbRyeq_CZHD40kR6-ek,2922
+amicleaner/utils.py,sha256=KcLg9dFElAsQyDTQaio7JKq6WPo9dqp5_eFkSaTtEIY,4260
+amicleaner/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+amicleaner/resources/config.py,sha256=BGhh9xSEiLVfWmL74tjVg9l6-TJVtWj2R2XYaqomY9M,900
+amicleaner/resources/models.py,sha256=0FEp7hzZoRaMqfuSGg5fiFs1Zbu0vltqTIFrz3XiY5s,4921
+aws_amicleaner-0.2.2.dist-info/DESCRIPTION.rst,sha256=oKxFB1YbHOPXjeXyn4MSLA4IRuEVPPS2VFr3o0Pk-mc,4211
+aws_amicleaner-0.2.2.dist-info/METADATA,sha256=05yQRRcup9SSzahVEmRMkwaGnOd42HPk7PWEPjIL5DE,5491
+aws_amicleaner-0.2.2.dist-info/RECORD,,
+aws_amicleaner-0.2.2.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+aws_amicleaner-0.2.2.dist-info/entry_points.txt,sha256=2Jtdx1wHBlabqQjKV7TQYZk0l-1vNFV-EGJ6bDzzE1k,52
+aws_amicleaner-0.2.2.dist-info/metadata.json,sha256=masGeU9xMzYDS0U-Efmc6AoZNDgMIjgDeWD_Ix7tYvQ,1547
+aws_amicleaner-0.2.2.dist-info/top_level.txt,sha256=0pWz53-FGiWbFh-Hj-BbZ3uDQ3AVQhj634nvnv4ugQU,11
