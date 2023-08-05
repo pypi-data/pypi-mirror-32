@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+{ set +x; } 2>/dev/null
+
+usage="usage: ${BASH_SOURCE[0]} path ..."
+
+[[ $# == 0 ]] || [[ $1 == "--help" ]] && {
+    echo "$usage"
+    [[ $1 == "--help" ]]; exit # exit 0 if --help
+}
+
+IFS=
+find="$(find "$@" -name '.*' -prune -mindepth 1 -type f)" || exit
+
+# path/to/file.py: a python script text executable
+# path/to/file.sh: a bash script text executable
+# path/to/file.txt: ASCII text
+
+[[ -n "$find" ]] && while IFS= read f; do
+    [[ "${f##*/}" == .* ]] && continue # .basename
+    [ -e "$f" ] || continue # difficult filename?
+    file="$(file "$f")" || exit
+    type="${file:${#f}}"
+    [[ "$type" == *"script"* ]] && [[ "${f##*/}" != .* ]] && echo "$f"
+done <<< "$find";:

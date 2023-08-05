@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: find-scripts
+Version: 1.0.0
+Summary: find scripts
+Home-page: https://github.com/looking-for-a-job/find-scripts
+License: UNKNOWN
+Description: ### Install
+        
+        ```bash
+        $ [sudo] pip install find-scripts
+        ```
+        
+        ### Features
+        
+        +   find scripts
+        +   ignore .hidden folders and files
+        
+        ### Usage
+        
+        ```
+        usage: find-scripts path ...
+        ```
+        
+        ### Examples
+        
+        ```bash
+        $ cd path/to/repo
+        $ find-scripts ./examples
+        ./examples/example1.sh
+        ./examples/example2.py
+        
+        $ find-scripts ./tests
+        ./tests/run.sh
+        ```
+Keywords: scripts
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Unix Shell
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
