@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: genius-trending.py
+Version: 1.0.0.1
+Summary: Unofficial Python API for accessing Genius top 10 trending songs
+Home-page: https://www.github.com/kennyrozario/genius-trending
+Author: Kenny Rozario
+Author-email: kmrozario98@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Requires-Dist: beautifulsoup4 (>=4.6.0)
+Requires-Dist: requests (>=2.18.4)
+
+UNKNOWN
+
+
