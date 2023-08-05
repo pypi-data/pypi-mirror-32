@@ -1,0 +1,11 @@
+perceval_mozilla-0.1.13-py3.5-nspkg.pth,sha256=RgJJWGhWjBZgt4XoGh2NKje_Xj0QBl5S1E7sV3yqMqY,1748
+perceval/backends/mozilla/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+perceval/backends/mozilla/crates.py,sha256=y1tqniY24r5bpZqF-jlaUem_lqICIPnt1YfXCuwlC-s,10589
+perceval/backends/mozilla/kitsune.py,sha256=iU8Er1Ym47iGCcq7QRqb8spOTBJnV5-avKBQodV8qhw,10386
+perceval/backends/mozilla/mozillaclub.py,sha256=nj8AyTeOlxlQo8i7XEL6cCwt60tINCnqVTY4DthTHao,11099
+perceval/backends/mozilla/remo.py,sha256=Vlp4rvGvJF13-IEa_QsKEl6DPrUNbIDhNrKSr_N22bg,10473
+perceval_mozilla-0.1.13.dist-info/METADATA,sha256=3g0AQXN8j5HuGzf_J-Br8cvMjWEdzGDuVgj24NzJLeg,2227
+perceval_mozilla-0.1.13.dist-info/RECORD,,
+perceval_mozilla-0.1.13.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+perceval_mozilla-0.1.13.dist-info/namespace_packages.txt,sha256=shroxg7iw5lZwyHTT3v6XEVlaUq_8ykOK3wQmzacZGg,27
+perceval_mozilla-0.1.13.dist-info/top_level.txt,sha256=NpQ-l8ZE65zY_3lNupbvvJAmxl_sdWgyVEYLmfZY-us,9
