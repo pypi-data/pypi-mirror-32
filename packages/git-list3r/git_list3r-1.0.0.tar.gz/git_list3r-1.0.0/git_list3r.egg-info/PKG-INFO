@@ -1,0 +1,39 @@
+Metadata-Version: 1.1
+Name: git-list3r
+Version: 1.0.0
+Summary: Search for repo files on a website, and guess the last commit version
+Home-page: https://github.com/Antonin-Deniau/git_list3r
+Author: DENIAU Antonin
+Author-email: antonin.deniau@protonmail.com
+License: GNU General Public License v3 or later (GPLv3+)
+Description: GIT LIST3R
+        ##########
+        
+        This tools compare websites against a git repo, then try to guess the last commit date.
+        
+        Installation
+        ============
+        
+        To install the application:
+        
+        .. code:: bash
+        
+            pip install git_list3r
+        
+        Usage
+        =====
+        
+        Example for a website named example.com:
+        
+        .. code:: bash
+        
+            git_list3r test example_folder http://example.com
+            git_list3r version example_folder
+        
+Keywords: git enumeration framework
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: System
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3.6

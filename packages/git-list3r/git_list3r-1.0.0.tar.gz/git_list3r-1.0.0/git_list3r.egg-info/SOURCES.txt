@@ -1,0 +1,8 @@
+README.rst
+setup.py
+git_list3r.egg-info/PKG-INFO
+git_list3r.egg-info/SOURCES.txt
+git_list3r.egg-info/dependency_links.txt
+git_list3r.egg-info/entry_points.txt
+git_list3r.egg-info/requires.txt
+git_list3r.egg-info/top_level.txt
