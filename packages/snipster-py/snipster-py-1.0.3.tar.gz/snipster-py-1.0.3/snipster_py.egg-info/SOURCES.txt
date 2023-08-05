@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+snipster/Snippet.py
+snipster/SnippetList.py
+snipster/Sourcer.py
+snipster/__main__.py
+snipster/globalVars.py
+snipster_py.egg-info/PKG-INFO
+snipster_py.egg-info/SOURCES.txt
+snipster_py.egg-info/dependency_links.txt
+snipster_py.egg-info/entry_points.txt
+snipster_py.egg-info/not-zip-safe
+snipster_py.egg-info/requires.txt
+snipster_py.egg-info/top_level.txt
