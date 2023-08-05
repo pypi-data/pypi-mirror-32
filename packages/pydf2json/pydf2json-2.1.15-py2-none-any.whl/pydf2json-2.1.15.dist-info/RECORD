@@ -1,0 +1,11 @@
+pydf2json/__init__.py,sha256=ku8LgtVlrpK7AWl6v5ZttQ-sKrHE0czSPLzGJKja95A,23
+pydf2json/pydf2json.py,sha256=9eqfpMXPZNefXzsCOmSlaAlb1R67hJ726WIflb77CZI,165183
+pydf2json/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydf2json/scripts/pydf.py,sha256=-TjbLu6wDSXDXuQiWpZz7NM4JZnYASfsAopbzfbvpP4,8659
+pydf2json-2.1.15.dist-info/DESCRIPTION.rst,sha256=eCEWv4d9vry2iUl2K9_vtbR6Nyu09gTEr4M0qz8YMbg,4973
+pydf2json-2.1.15.dist-info/METADATA,sha256=sUKw8cftWjNSp4bO3DQ6egl1M3Nub3px4ppCxfb6xIM,6005
+pydf2json-2.1.15.dist-info/RECORD,,
+pydf2json-2.1.15.dist-info/WHEEL,sha256=lzUwEtFmyjU_FlAT-CjHEe8XSsfe5tSQOHZ9I1rYDgo,97
+pydf2json-2.1.15.dist-info/entry_points.txt,sha256=YOcd4DWIwMp9PwzGOlz2Lbfxh23-mUzU9y1hs0ighBM,57
+pydf2json-2.1.15.dist-info/metadata.json,sha256=AKMcLdEiWEOw02cQbTr3kcSj5wncUS7G6Z8uZETcP2Y,1195
+pydf2json-2.1.15.dist-info/top_level.txt,sha256=Qc--yZMjDznHZkLmIO-HJqdPc16-17b3UzQeTO3e_80,10
