@@ -1,0 +1,8 @@
+cgroupspy
+click
+clint
+colorama
+python-gnupg
+python
+requests
+tmsyscall
