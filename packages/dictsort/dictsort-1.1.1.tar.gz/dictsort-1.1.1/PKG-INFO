@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: dictsort
+Version: 1.1.1
+Summary: sort dict data
+Home-page: https://github.com/danyubaoqi/dictsort
+Author: danyubaoqi
+Author-email: 1600093003@pku.edu.cn
+License: MIT
+Description: UNKNOWN
+Keywords: pip
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
