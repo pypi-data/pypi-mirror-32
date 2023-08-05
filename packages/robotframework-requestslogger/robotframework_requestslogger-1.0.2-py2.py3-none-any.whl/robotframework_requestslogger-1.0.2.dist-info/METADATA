@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: robotframework-requestslogger
+Version: 1.0.2
+Summary: Robot Framework Requests Logging Library
+Home-page: https://github.com/peterservice-rnd/robotframework-requestslogger
+Author: Nexign
+Author-email: mf_aist_all@nexign-systems.com
+License: Apache License 2.0
+Requires-Dist: robotframework
+Requires-Dist: six
+Requires-Dist: functools32 (>=3.2.3-2); python_version<"3.2"
+Requires-Dist: future (>=0.16.0); python_version<="2.7"
+
+RobotFramework Requests Logging Library
+
+
