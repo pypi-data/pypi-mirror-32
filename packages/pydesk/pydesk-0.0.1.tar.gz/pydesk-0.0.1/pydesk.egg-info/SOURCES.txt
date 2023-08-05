@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+Makefile
+setup.cfg
+setup.py
+tox.ini
+pydesk/__init__.py
+pydesk/desktop.py
+pydesk.egg-info/PKG-INFO
+pydesk.egg-info/SOURCES.txt
+pydesk.egg-info/dependency_links.txt
+pydesk.egg-info/entry_points.txt
+pydesk.egg-info/not-zip-safe
+pydesk.egg-info/requires.txt
+pydesk.egg-info/top_level.txt
