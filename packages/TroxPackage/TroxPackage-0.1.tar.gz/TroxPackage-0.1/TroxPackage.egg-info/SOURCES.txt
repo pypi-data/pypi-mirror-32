@@ -1,0 +1,5 @@
+setup.py
+TroxPackage.egg-info/PKG-INFO
+TroxPackage.egg-info/SOURCES.txt
+TroxPackage.egg-info/dependency_links.txt
+TroxPackage.egg-info/top_level.txt
