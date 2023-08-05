@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+python_generators.egg-info/PKG-INFO
+python_generators.egg-info/SOURCES.txt
+python_generators.egg-info/dependency_links.txt
+python_generators.egg-info/entry_points.txt
+python_generators.egg-info/top_level.txt
+tay_say_test/__init__.py

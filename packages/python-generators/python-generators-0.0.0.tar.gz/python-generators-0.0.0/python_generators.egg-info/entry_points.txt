@@ -1,0 +1,3 @@
+[console_scripts]
+tay_say_test = tay_say_test:print_lyric
+
