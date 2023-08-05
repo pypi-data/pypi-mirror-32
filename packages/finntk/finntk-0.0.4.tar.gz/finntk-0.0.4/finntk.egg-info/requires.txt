@@ -1,0 +1,12 @@
+more_itertools>=4.1.0
+
+[dev]
+pytest
+twine
+
+[docs]
+sphinx_autodoc_typehints
+sphinx>=1.5
+sphinx_rtd_theme
+pytest_check_links
+recommonmark
