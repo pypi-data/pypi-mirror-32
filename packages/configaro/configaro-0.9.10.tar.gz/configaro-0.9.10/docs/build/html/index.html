@@ -1,0 +1,309 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>configaro documentation &mdash; configaro 0.9.8 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Usage" href="usage.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="#" class="icon icon-home"> configaro
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.9.8
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api.html">API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changes.html">Changes</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">configaro</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="#">Docs</a> &raquo;</li>
+        
+      <li>configaro documentation</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="configaro-documentation">
+<span id="configaro-docs"></span><h1>configaro documentation<a class="headerlink" href="#configaro-documentation" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="what-is-it">
+<h3>What is it?<a class="headerlink" href="#what-is-it" title="Permalink to this headline">¶</a></h3>
+<p><strong>configaro</strong> is a Python 3 configuration library that’s music to your ears.</p>
+</div>
+<div class="section" id="why-should-i-care">
+<h3>Why should I care?<a class="headerlink" href="#why-should-i-care" title="Permalink to this headline">¶</a></h3>
+<p><strong>configaro</strong> has been created with the following design goals in mind:</p>
+<blockquote>
+<div><ul class="simple">
+<li>provide a single file library with minimal dependencies</li>
+<li>provide one with a simple, expressive API that is easy to use and gets out of your way</li>
+<li>provide one that allows for hierarchical config data supporting dot-addressable access</li>
+<li>provide one that allows for defaults and locals config modules</li>
+<li>provide one with complete test coverage</li>
+<li>provide one with complete documentation</li>
+</ul>
+</div></blockquote>
+<p>If this sounds appealing to you, take a look.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">configaro</span> <span class="kn">as</span> <span class="nn">cfg</span>
+
+<span class="c1"># Initialize the library with the name of the package containing your defaults.py config module</span>
+<span class="n">cfg</span><span class="o">.</span><span class="n">init</span><span class="p">(</span><span class="s1">&#39;myprj.config&#39;</span><span class="p">)</span>
+
+<span class="c1"># Get the entire config object</span>
+<span class="n">config</span> <span class="o">=</span> <span class="n">cfg</span><span class="o">.</span><span class="n">get</span><span class="p">()</span>
+<span class="k">print</span><span class="p">(</span><span class="n">config</span><span class="p">)</span>  <span class="c1"># prints &quot;{&#39;greeting&#39;: &#39;Hello&#39;, &#39;subject&#39;: &#39;World&#39;}&quot;</span>
+
+<span class="c1"># Config object provide attribute access style in addition to dict access style.</span>
+<span class="k">print</span><span class="p">(</span><span class="s1">&#39;f{config.greeting}, {config.subject}!&#39;</span><span class="p">)</span>  <span class="c1"># prints &quot;Hello, World!&quot;</span>
+
+<span class="c1"># Config objects may be updated quite flexibly as well.</span>
+<span class="n">cfg</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="n">greeting</span><span class="o">=</span><span class="s1">&#39;Goodbye&#39;</span><span class="p">,</span> <span class="n">subject</span><span class="o">=</span><span class="s1">&#39;Folks&#39;</span><span class="p">}</span>
+<span class="n">cfg</span><span class="o">.</span><span class="n">put</span><span class="p">({</span><span class="s1">&#39;greeting&#39;</span><span class="p">:</span> <span class="s1">&#39;Goodbye&#39;</span><span class="p">,</span> <span class="s1">&#39;subject&#39;</span><span class="p">:</span> <span class="s1">&#39;Folks&#39;</span><span class="p">})</span>
+<span class="n">cfg</span><span class="o">.</span><span class="n">put</span><span class="p">(</span><span class="s1">&#39;greeting=Goodbye subject=Folks&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="what-about-python-2">
+<h3>What about Python 2?<a class="headerlink" href="#what-about-python-2" title="Permalink to this headline">¶</a></h3>
+<p>I have zero interest in supporting Python 2 at this point.  If you are still
+using Python 2 then move along – there’s nothing to see here.</p>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="usage.html#understand-configaro">Understand configaro</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usage.html#add-configaro-to-your-project">Add configaro to your project</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usage.html#add-defaults-config-module">Add defaults config module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usage.html#initialize-the-library">Initialize the library</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usage.html#query-configuration">Query configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usage.html#modify-configuration">Modify configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usage.html#add-locals-config-module">Add locals config module</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api.html">API</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api.html#functions">Functions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api.html#errors">Errors</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="changes.html">Changes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="changes.html#configaro-release-0-9-8">0.9.8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes.html#configaro-release-0-9-7">0.9.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes.html#configaro-release-0-9-6">0.9.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes.html#configaro-release-0-9-5">0.9.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes.html#configaro-release-0-9-4">0.9.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes.html#configaro-release-0-9-3">0.9.3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes.html#configaro-release-0-9-2">0.9.2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes.html#configaro-release-0-9-1">0.9.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="changes.html#configaro-release-0-9-0">0.9.0</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="indices-and-tables">
+<h2>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></li>
+<li><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></li>
+<li><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="usage.html" class="btn btn-neutral float-right" title="Usage" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright .
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.9.8',
+            LANGUAGE:'None',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
