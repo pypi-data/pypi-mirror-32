@@ -1,0 +1,7 @@
+fem/__init__.py,sha256=MGhr-lDJyxk9A9FrKdSZwt4LGSqj41FaJ0c58zDE4Z8,57
+fem/fem.py,sha256=oLQ8Am6H5t8TbJcEvwt4vTQ5tmA48c0wNFm4AHKAsmU,105
+fem/simulation.py,sha256=a81qLG2nYL34RXRu0sv38B0XZma7VJvdTnkT4rxxCn0,2256
+fem-0.0.1.dist-info/METADATA,sha256=dLB79x4zIgCSMdVco8-nEreb25bp2AvCKkC-RzD2hTU,594
+fem-0.0.1.dist-info/RECORD,,
+fem-0.0.1.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+fem-0.0.1.dist-info/top_level.txt,sha256=XGO9Fj3tjUTsQ2IMxrKpXjgbQ-hvIRekwPT-9IXW5MA,4

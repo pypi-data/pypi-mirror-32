@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: fem
+Version: 0.0.1
+Summary: Free Energy Minimization
+Home-page: https://github.com/joepatmckenna/fem
+Author: Joseph P. McKenna
+Author-email: joseph.mckenna@nih.gov
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](http://https://guides.github.com/features/mastering-markdown/)
+to write your content.
+
+
