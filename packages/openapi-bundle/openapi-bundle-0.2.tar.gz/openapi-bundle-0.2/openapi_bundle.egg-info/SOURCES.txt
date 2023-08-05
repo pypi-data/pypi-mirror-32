@@ -1,0 +1,9 @@
+README.rst
+openapi_bundle.py
+setup.py
+openapi_bundle.egg-info/PKG-INFO
+openapi_bundle.egg-info/SOURCES.txt
+openapi_bundle.egg-info/dependency_links.txt
+openapi_bundle.egg-info/entry_points.txt
+openapi_bundle.egg-info/requires.txt
+openapi_bundle.egg-info/top_level.txt
