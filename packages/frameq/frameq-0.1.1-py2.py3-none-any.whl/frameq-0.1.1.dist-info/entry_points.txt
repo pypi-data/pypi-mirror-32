@@ -1,0 +1,4 @@
+[console_scripts]
+frameq-html = frameq.HTML.cmd:cli
+frameq-project = frameq.Django.cmd:cli
+
