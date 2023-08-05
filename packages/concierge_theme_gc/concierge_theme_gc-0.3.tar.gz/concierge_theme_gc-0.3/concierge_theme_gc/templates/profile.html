@@ -1,0 +1,64 @@
+{% extends "base_account.html" %}
+{% load i18n %}
+{% load include_asset
+
+{% block page_title %}{% trans "Account Settings" %}{% endblock %}
+
+{% block page_header %}{% trans "Account Settings" %}{% endblock %}
+
+{% block content %}
+    <h2 class="ui header">{% trans "Profile" %}</h2>
+
+    {% if messages %}
+    <ul class="message_success" style="list-style:none; padding:0;">
+        {% for message in messages %}
+        <li{% if message.tags %} class="ui {{ message.tags }} message"{% endif %}>
+            {% if 'safe' in message.tags %}{{ message|safe }}{% else %}{{ message }}{% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+
+    <form enctype="multipart/form-data" method="post" action="." class="ui form">
+        <div class="account__cards ui cards">
+            <div class="card ___nopadding ui card">
+		<div class="content">
+                {% csrf_token %}
+                <h3 class="card__title ___addpadding-side header">{% trans "Your details" %}</h3>
+                <fieldset class="___addpadding-side">
+                    <div class="field">
+                        <label for="id_name">{% trans "Name" %}</label>
+                        {{ form.errors.name }}
+                        {{ form.name }}
+                    </div>
+                    <div class="field">
+                        <label for="id_email">{% trans "Email" %}</label>
+                        {{ form.errors.email }}
+                        {{ form.email }}
+                        <!--<span class="badge green __uppercase ui label"><i class="icon">{% include_asset "icons/check.svg" %}</i>{% trans "Government" %}</span>-->
+                    </div>
+                    <div class="field">
+                        <label for="id_receives_newsletter">{% trans "Receive Suspicious Sign In Emails" %}</label>
+                        {{ form.errors.receives_newsletter }}
+                        {{ form.receives_newsletter }}
+                    </div>
+                    {% if text_change_pending %}
+                        <div>
+                            {{ text_change_pending }}<b>{{ text_email }}</b><br>
+                            {% trans "Please check your inbox to validate the change." %}<br> 
+                            {% trans "Click " %}<a href="{% url 'change_email' %}"><b>{% trans "here" %}</b></a> {% trans "to resend the confirmation e-mail." %}
+                        </div>
+                    {% endif %}
+                </fieldset>
+		</div>
+                <div class="card__action ___addpadding-side extra content">
+                    <button name="update" class="button ___clear ui button right floated primary" type="submit">{% trans "Save" %}</button>
+                </div>
+
+            </div>
+        </div>
+
+
+    </form>
+
+{% endblock %}
