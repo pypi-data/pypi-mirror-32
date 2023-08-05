@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: smartbill-sdk
+Version: 0.2.6
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: CyberAmz.com
+Author-email: office@cyberamz.com
+License: UNKNOWN
+Keywords: smartbill api client wrapper
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: requests (>=2.18)
+Requires-Dist: dicttoxml (>=1.7.4)
+Requires-Dist: simplejson (>=3.15.0)
+
+UNKNOWN
+
+
