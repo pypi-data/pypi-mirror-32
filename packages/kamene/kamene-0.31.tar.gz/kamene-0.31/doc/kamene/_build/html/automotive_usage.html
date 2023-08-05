@@ -1,0 +1,474 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Automotive usage &#8212; kamene 3.0.0 documentation</title>
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '3.0.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Build your own tools" href="extending.html" />
+    <link rel="prev" title="Advanced usage" href="advanced_usage.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="automotive-usage">
+<h1>Automotive usage<a class="headerlink" href="#automotive-usage" title="Permalink to this headline">¶</a></h1>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">All automotive related features are only supported on linux systems, yet. CAN and ISOTP sockets in kamene are based on linux kernel modules.
+This guide explains the hardware setup on a BeagleBone Black. The BeagleBone Black was chosen because of its two CAN interfaces on the main processor.
+The presence of two CAN interfaces in one device gives the possibility of CAN MITM attacks and session hijacking.
+The Cannelloni framework turns a BeagleBone Black into a CAN-to-UDP interface, which gives you the freedom to run kamene
+on a more powerful machine.</p>
+</div>
+<div class="section" id="setup">
+<h2>Setup<a class="headerlink" href="#setup" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="hardware-setup">
+<h3>Hardware Setup<a class="headerlink" href="#hardware-setup" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="beagle-bone-black-operating-system-setup">
+<h4>Beagle Bone Black Operating System Setup<a class="headerlink" href="#beagle-bone-black-operating-system-setup" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic">
+<li><div class="first line-block">
+<div class="line"><strong>Download an Image</strong></div>
+<div class="line">The latest Debian Linux image can be found at the website</div>
+<div class="line"><code class="docutils literal"><span class="pre">https://beagleboard.org/latest-images</span></code>. Choose the BeagleBone
+Black IoT version and download it.</div>
+</div>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">wget</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">debian</span><span class="o">.</span><span class="n">beagleboard</span><span class="o">.</span><span class="n">org</span><span class="o">/</span><span class="n">images</span><span class="o">/</span><span class="n">bone</span><span class="o">-</span><span class="n">debian</span><span class="o">-</span><span class="mf">8.7</span>\
+<span class="o">-</span><span class="n">iot</span><span class="o">-</span><span class="n">armhf</span><span class="o">-</span><span class="mi">2017</span><span class="o">-</span><span class="mi">03</span><span class="o">-</span><span class="mi">19</span><span class="o">-</span><span class="mi">4</span><span class="n">gb</span><span class="o">.</span><span class="n">img</span><span class="o">.</span><span class="n">xz</span>
+</pre></div>
+</div>
+<p>After the download, copy it to an SD-Card with minimum 4 GB storage.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">xzcat</span> <span class="n">bone</span><span class="o">-</span><span class="n">debian</span><span class="o">-</span><span class="mf">8.7</span><span class="o">-</span><span class="n">iot</span><span class="o">-</span><span class="n">armhf</span><span class="o">-</span><span class="mi">2017</span><span class="o">-</span><span class="mi">03</span><span class="o">-</span><span class="mi">19</span><span class="o">-</span><span class="mi">4</span><span class="n">gb</span><span class="o">.</span><span class="n">img</span><span class="o">.</span><span class="n">xz</span> <span class="o">|</span> \
+<span class="n">sudo</span> <span class="n">dd</span> <span class="n">of</span><span class="o">=/</span><span class="n">dev</span><span class="o">/</span><span class="n">xvdj</span>
+</pre></div>
+</div>
+</li>
+<li><div class="first line-block">
+<div class="line"><strong>Enable WiFi</strong></div>
+<div class="line">USB-WiFi dongles are well supported by Debian Linux. Login over SSH
+on the BBB and add the WiFi network credentials to the file
+<code class="docutils literal"><span class="pre">/var/lib/connman/wifi.config</span></code>. If a USB-WiFi dongle is not
+available, it is also possible to share the host’s internet
+connection with the Ethernet connection of the BBB emulated over
+USB. A tutorial to share the host network connection can be found
+on this page:</div>
+<div class="line"><code class="docutils literal"><span class="pre">https://elementztechblog.wordpress.com/2014/12/22/sharing-internet</span> <span class="pre">-using-network-over-usb-in-beaglebone-black/</span></code>.</div>
+<div class="line">Login as root onto the BBB:</div>
+</div>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">ssh</span> <span class="n">debian</span><span class="nd">@192</span><span class="o">.</span><span class="mf">168.7</span><span class="o">.</span><span class="mi">2</span>
+<span class="n">sudo</span> <span class="n">su</span>
+</pre></div>
+</div>
+<p>Provide the WiFi login credentials to connman:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">echo</span> <span class="s2">&quot;[service_home]</span>
+<span class="n">Type</span> <span class="o">=</span> <span class="n">wifi</span>
+<span class="n">Name</span> <span class="o">=</span> <span class="n">ssid</span>
+<span class="n">Security</span> <span class="o">=</span> <span class="n">wpa</span>
+<span class="n">Passphrase</span> <span class="o">=</span> <span class="n">xxxxxxxxxxxxx</span><span class="s2">&quot; </span><span class="se">\</span>
+<span class="s2">&gt; /var/lib/connman/wifi.config</span>
+</pre></div>
+</div>
+<p>Restart the connman service:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">systemctl</span> <span class="n">restart</span> <span class="n">connman</span><span class="o">.</span><span class="n">service</span>
+</pre></div>
+</div>
+</li>
+<li><div class="first line-block">
+<div class="line"><strong>Install Required Packages</strong></div>
+<div class="line">This step is required to install all necessary software packages to
+continue with the modification of the BBB device tree overlay.</div>
+</div>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">update</span>
+<span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="o">-</span><span class="n">y</span> <span class="n">upgrade</span>
+<span class="n">exit</span>
+<span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">beagleboard</span><span class="o">/</span><span class="n">bb</span><span class="o">.</span><span class="n">org</span><span class="o">-</span><span class="n">overlays</span>
+<span class="n">cd</span> <span class="o">./</span><span class="n">bb</span><span class="o">.</span><span class="n">org</span><span class="o">-</span><span class="n">overlays</span>
+</pre></div>
+</div>
+<p>Verify the installed DTC1 version to ensure that the DTC1 is suitable
+for the downloaded overlays. Version 1.4.1 or higher is required.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">dtc</span> <span class="o">--</span><span class="n">version</span>
+</pre></div>
+</div>
+<p>Update the installed DTC1 with an update script in the cloned
+repository.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">./</span><span class="n">dtc</span><span class="o">-</span><span class="n">overlay</span><span class="o">.</span><span class="n">sh</span>
+</pre></div>
+</div>
+<p>Compile all delivered DTS files and install the DTBO onto the current
+system. Again, a delivered script simplifies this job.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">./</span><span class="n">install</span><span class="o">.</span><span class="n">sh</span>
+</pre></div>
+</div>
+<p>Now, the operating system and the device tree are ready for
+modifications.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="dual-can-setup">
+<h4>Dual-CAN Setup<a class="headerlink" href="#dual-can-setup" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic">
+<li><div class="first line-block">
+<div class="line"><strong>Create a CAN0 Overlay</strong></div>
+<div class="line">Inside the DTS folder, create a file with the content of the
+following listing.</div>
+</div>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">~/</span><span class="n">bb</span><span class="o">.</span><span class="n">org</span><span class="o">-</span><span class="n">overlays</span><span class="o">/</span><span class="n">src</span><span class="o">/</span><span class="n">arm</span>
+<span class="n">cat</span> <span class="o">&lt;&lt;</span><span class="n">EOF</span> <span class="o">&gt;</span> <span class="n">BB</span><span class="o">-</span><span class="n">CAN0</span><span class="o">-</span><span class="mi">00</span><span class="n">A0</span><span class="o">.</span><span class="n">dts</span>
+
+<span class="o">/</span><span class="n">dts</span><span class="o">-</span><span class="n">v1</span><span class="o">/</span><span class="p">;</span>
+<span class="o">/</span><span class="n">plugin</span><span class="o">/</span><span class="p">;</span>
+
+<span class="c1">#include &lt;dt-bindings/board/am335x-bbw-bbb-base.h&gt;</span>
+<span class="c1">#include &lt;dt-bindings/pinctrl/am33xx.h&gt;</span>
+
+<span class="o">/</span> <span class="p">{</span>
+    <span class="n">compatible</span> <span class="o">=</span> <span class="s2">&quot;ti,beaglebone&quot;</span><span class="p">,</span> \
+    <span class="s2">&quot;ti,beaglebone-black&quot;</span><span class="p">,</span> <span class="s2">&quot;ti,beaglebone-green&quot;</span><span class="p">;</span>
+
+    <span class="o">/*</span> <span class="n">identification</span> <span class="o">*/</span>
+    <span class="n">part</span><span class="o">-</span><span class="n">number</span> <span class="o">=</span> <span class="s2">&quot;BB-CAN0&quot;</span><span class="p">;</span>
+    <span class="n">version</span> <span class="o">=</span> <span class="s2">&quot;00A0&quot;</span><span class="p">;</span>
+
+    <span class="o">/*</span> <span class="n">state</span> <span class="n">the</span> <span class="n">resources</span> <span class="n">this</span> <span class="n">cape</span> <span class="n">uses</span> <span class="o">*/</span>
+    <span class="n">exclusive</span><span class="o">-</span><span class="n">use</span> <span class="o">=</span>
+    <span class="o">/*</span> <span class="n">the</span> <span class="n">pin</span> <span class="n">header</span> <span class="n">uses</span> <span class="o">*/</span>
+    <span class="s2">&quot;P9.19&quot;</span><span class="p">,</span> <span class="o">/*</span> <span class="n">can0_rx</span> <span class="o">*/</span>
+    <span class="s2">&quot;P9.20&quot;</span><span class="p">,</span> <span class="o">/*</span> <span class="n">can0_tx</span> <span class="o">*/</span>
+    <span class="o">/*</span> <span class="n">the</span> <span class="n">hardware</span> <span class="n">ip</span> <span class="n">uses</span> <span class="o">*/</span>
+    <span class="s2">&quot;dcan0&quot;</span><span class="p">;</span>
+
+    <span class="n">fragment</span><span class="nd">@0</span> <span class="p">{</span>
+        <span class="n">target</span> <span class="o">=</span> <span class="o">&lt;&amp;</span><span class="n">am33xx_pinmux</span><span class="o">&gt;</span><span class="p">;</span>
+        <span class="n">__overlay__</span> <span class="p">{</span>
+         <span class="n">bb_dcan0_pins</span><span class="p">:</span> <span class="n">pinmux_dcan0_pins</span> <span class="p">{</span>
+            <span class="n">pinctrl</span><span class="o">-</span><span class="n">single</span><span class="p">,</span><span class="n">pins</span> <span class="o">=</span> <span class="o">&lt;</span>
+             <span class="mh">0x178</span> <span class="mh">0x12</span> <span class="o">/*</span> <span class="n">d_can0_tx</span> <span class="o">*/</span>
+             <span class="mh">0x17C</span> <span class="mh">0x32</span> <span class="o">/*</span> <span class="n">d_can0_rx</span> <span class="o">*/</span>
+             <span class="o">&gt;</span><span class="p">;</span>
+            <span class="p">};</span>
+        <span class="p">};</span>
+    <span class="p">};</span>
+
+    <span class="n">fragment</span><span class="nd">@1</span> <span class="p">{</span>
+        <span class="n">target</span> <span class="o">=</span> <span class="o">&lt;&amp;</span><span class="n">dcan0</span><span class="o">&gt;</span><span class="p">;</span>
+        <span class="n">__overlay__</span> <span class="p">{</span>
+         <span class="n">status</span> <span class="o">=</span> <span class="s2">&quot;okay&quot;</span><span class="p">;</span>
+         <span class="n">pinctrl</span><span class="o">-</span><span class="n">names</span> <span class="o">=</span> <span class="s2">&quot;default&quot;</span><span class="p">;</span>
+         <span class="n">pinctrl</span><span class="o">-</span><span class="mi">0</span> <span class="o">=</span> <span class="o">&lt;&amp;</span><span class="n">bb_dcan0_pins</span><span class="o">&gt;</span><span class="p">;</span>
+        <span class="p">};</span>
+    <span class="p">};</span>
+<span class="p">};</span>
+<span class="n">EOF</span>
+</pre></div>
+</div>
+<p>Compile the generated file with the delivered Makefile from the
+repository.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">../../</span>
+<span class="n">make</span>
+<span class="n">sudo</span> <span class="n">make</span> <span class="n">install</span>
+</pre></div>
+</div>
+</li>
+<li><div class="first line-block">
+<div class="line"><strong>Modify the Boot Device Tree Blob</strong></div>
+<div class="line">Backup and decompile the current device tree blob.</div>
+</div>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cp</span> <span class="o">/</span><span class="n">boot</span><span class="o">/</span><span class="n">dtbs</span><span class="o">/</span><span class="mf">4.4</span><span class="o">.</span><span class="mi">54</span><span class="o">-</span><span class="n">ti</span><span class="o">-</span><span class="n">r93</span><span class="o">/</span><span class="n">am335x</span><span class="o">-</span><span class="n">boneblack</span><span class="o">.</span><span class="n">dtb</span> <span class="o">~/</span>
+<span class="n">dtc</span> <span class="o">-</span><span class="n">I</span> <span class="n">dtb</span> <span class="o">-</span><span class="n">O</span> <span class="n">dts</span> <span class="o">~/</span><span class="n">am335x</span><span class="o">-</span><span class="n">boneblack</span><span class="o">.</span><span class="n">dtb</span> <span class="o">&gt;</span> <span class="o">~/</span><span class="n">am335x</span><span class="o">-</span><span class="n">boneblack</span><span class="o">.</span><span class="n">dts</span>
+</pre></div>
+</div>
+<p>To free the CAN0 pins of the BBB, used I2C2 pins need to be disabled.
+This can be done by commenting out the appropriate lines in the DTS
+file. Search for the pinmux_i2c2_pins section and save the modified
+file with a new name. The BeagleBone community uses the I2C2
+peripheral module for the communication and identification of
+extension modules, so called capes. This modification disables the
+compatibility to any of these capes.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">vim</span> <span class="n">am335x</span><span class="o">-</span><span class="n">boneblack</span><span class="o">.</span><span class="n">dts</span>
+
+<span class="mi">895</span> <span class="o">/*</span> <span class="n">pinmux_i2c2_pins</span> <span class="p">{</span>
+<span class="mi">896</span>     <span class="n">pinctrl</span><span class="o">-</span><span class="n">single</span><span class="p">,</span><span class="n">pins</span> <span class="o">=</span> <span class="o">&lt;</span><span class="mh">0x178</span> <span class="mh">0x33</span> <span class="mh">0x17c</span> <span class="mh">0x33</span><span class="o">&gt;</span><span class="p">;</span>
+<span class="mi">897</span>     <span class="n">linux</span><span class="p">,</span><span class="n">phandle</span> <span class="o">=</span> <span class="o">&lt;</span><span class="mh">0x35</span><span class="o">&gt;</span><span class="p">;</span>
+<span class="mi">898</span>     <span class="n">phandle</span> <span class="o">=</span> <span class="o">&lt;</span><span class="mh">0x35</span><span class="o">&gt;</span><span class="p">;</span>
+<span class="mi">899</span> <span class="p">};</span><span class="o">*/</span>
+
+<span class="p">:</span> <span class="n">wq</span> <span class="n">am335x</span><span class="o">-</span><span class="n">boneblack_new</span><span class="o">.</span><span class="n">dts</span>
+</pre></div>
+</div>
+<p>Compile the modified DTS file and replace the original file in the
+boot partition of the BBB. Reboot the BBB after the replacement.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">dtc</span> <span class="o">-</span><span class="n">O</span> <span class="n">dtb</span> <span class="o">-</span><span class="n">o</span> <span class="o">~/</span><span class="n">am335x</span><span class="o">-</span><span class="n">boneblack_new</span><span class="o">.</span><span class="n">dtb</span> <span class="o">-</span><span class="n">b</span> <span class="mi">0</span> <span class="o">~/</span><span class="n">am335x</span><span class="o">-</span><span class="n">boneblack_new</span><span class="o">.</span><span class="n">dts</span>
+
+<span class="n">cp</span> <span class="o">~/</span><span class="n">am335x</span><span class="o">-</span><span class="n">boneblack_new</span><span class="o">.</span><span class="n">dtb</span> <span class="o">/</span><span class="n">boot</span><span class="o">/</span><span class="n">dtbs</span><span class="o">/</span><span class="mf">4.4</span><span class="o">.</span><span class="mi">54</span><span class="o">-</span><span class="n">ti</span><span class="o">-</span><span class="n">r93</span><span class="o">/</span><span class="n">am335x</span><span class="o">-</span><span class="n">boneblack</span><span class="o">.</span><span class="n">dtb</span>
+
+<span class="n">reboot</span>
+</pre></div>
+</div>
+</li>
+<li><div class="first line-block">
+<div class="line"><strong>Test the Dual-CAN Setup</strong></div>
+<div class="line">Load the CAN kernel modules and the overlays.</div>
+</div>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">su</span>
+<span class="n">modprobe</span> <span class="n">can</span>
+<span class="n">modprobe</span> <span class="n">can</span><span class="o">-</span><span class="n">dev</span>
+<span class="n">modprobe</span> <span class="n">can</span><span class="o">-</span><span class="n">raw</span>
+
+<span class="n">echo</span> <span class="n">BB</span><span class="o">-</span><span class="n">CAN0</span> <span class="o">&gt;</span> <span class="o">/</span><span class="n">sys</span><span class="o">/</span><span class="n">devices</span><span class="o">/</span><span class="n">platform</span><span class="o">/</span><span class="n">bone_capemgr</span><span class="o">/</span><span class="n">slots</span>
+<span class="n">echo</span> <span class="n">BB</span><span class="o">-</span><span class="n">CAN1</span> <span class="o">&gt;</span> <span class="o">/</span><span class="n">sys</span><span class="o">/</span><span class="n">devices</span><span class="o">/</span><span class="n">platform</span><span class="o">/</span><span class="n">bone_capemgr</span><span class="o">/</span><span class="n">slots</span>
+</pre></div>
+</div>
+<p>Check the output of the Capemanager if both CAN interfaces have been
+loaded.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">cat</span> <span class="o">/</span><span class="n">sys</span><span class="o">/</span><span class="n">devices</span><span class="o">/</span><span class="n">platform</span><span class="o">/</span><span class="n">bone_capemgr</span><span class="o">/</span><span class="n">slots</span>
+
+<span class="mi">0</span><span class="p">:</span> <span class="n">PF</span><span class="o">----</span>  <span class="o">-</span><span class="mi">1</span>
+<span class="mi">1</span><span class="p">:</span> <span class="n">PF</span><span class="o">----</span>  <span class="o">-</span><span class="mi">1</span>
+<span class="mi">2</span><span class="p">:</span> <span class="n">PF</span><span class="o">----</span>  <span class="o">-</span><span class="mi">1</span>
+<span class="mi">3</span><span class="p">:</span> <span class="n">PF</span><span class="o">----</span>  <span class="o">-</span><span class="mi">1</span>
+<span class="mi">4</span><span class="p">:</span> <span class="n">P</span><span class="o">-</span><span class="n">O</span><span class="o">-</span><span class="n">L</span><span class="o">-</span>   <span class="mi">0</span> <span class="n">Override</span> <span class="n">Board</span> <span class="n">Name</span><span class="p">,</span><span class="mi">00</span><span class="n">A0</span><span class="p">,</span><span class="n">Override</span> <span class="n">Manuf</span><span class="p">,</span> <span class="n">BB</span><span class="o">-</span><span class="n">CAN0</span>
+<span class="mi">5</span><span class="p">:</span> <span class="n">P</span><span class="o">-</span><span class="n">O</span><span class="o">-</span><span class="n">L</span><span class="o">-</span>   <span class="mi">1</span> <span class="n">Override</span> <span class="n">Board</span> <span class="n">Name</span><span class="p">,</span><span class="mi">00</span><span class="n">A0</span><span class="p">,</span><span class="n">Override</span> <span class="n">Manuf</span><span class="p">,</span> <span class="n">BB</span><span class="o">-</span><span class="n">CAN1</span>
+</pre></div>
+</div>
+<p>If something went wrong, <code class="docutils literal"><span class="pre">dmesg</span></code> provides kernel messages to
+analyze the root of failure.</p>
+</li>
+<li><p class="first"><strong>Optional: Enable Dual-CAN Setup at Boot</strong></p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">echo</span> <span class="s2">&quot;modprobe can </span><span class="se">\</span>
+<span class="s2">modprobe can-dev </span><span class="se">\</span>
+<span class="s2">modprobe can-raw&quot;</span> <span class="o">&gt;&gt;</span> <span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">modules</span>
+
+<span class="n">echo</span> <span class="s2">&quot;cape_enable=bone_capemgr.enable_partno=BB-CAN0,BB-CAN1&quot;</span> <span class="o">&gt;&gt;</span> <span class="o">/</span><span class="n">boot</span><span class="o">/</span><span class="n">uEnv</span><span class="o">.</span><span class="n">txt</span>
+
+<span class="n">update</span><span class="o">-</span><span class="n">initramfs</span> <span class="o">-</span><span class="n">u</span>
+</pre></div>
+</div>
+</li>
+</ol>
+</div>
+<div class="section" id="iso-tp-kernel-module-installation">
+<h4>ISO-TP Kernel Module Installation<a class="headerlink" href="#iso-tp-kernel-module-installation" title="Permalink to this headline">¶</a></h4>
+<p>A Linux ISO-TP kernel module can be downloaded from this website:
+<code class="docutils literal"><span class="pre">https://github.com/</span> <span class="pre">hartkopp/can-isotp.git</span></code>. The file
+<code class="docutils literal"><span class="pre">README.isotp</span></code> in this repository provides all information and
+necessary steps for downloading and building this kernel module. The
+ISO-TP kernel module should also be added to the <code class="docutils literal"><span class="pre">/etc/modules</span></code> file,
+to load this module automatically at system boot of the BBB.</p>
+</div>
+<div class="section" id="can-interface-setup">
+<h4>CAN-Interface Setup<a class="headerlink" href="#can-interface-setup" title="Permalink to this headline">¶</a></h4>
+<p>As final step to prepare the BBB’s CAN interfaces for usage, these
+interfaces have to be setup through some terminal commands. The bitrate
+can be chosen to fit the bitrate of a CAN bus under test.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">ip</span> <span class="n">link</span> <span class="nb">set</span> <span class="n">can0</span> <span class="n">up</span> <span class="nb">type</span> <span class="n">can</span> <span class="n">bitrate</span> <span class="mi">500000</span>
+<span class="n">ip</span> <span class="n">link</span> <span class="nb">set</span> <span class="n">can1</span> <span class="n">up</span> <span class="nb">type</span> <span class="n">can</span> <span class="n">bitrate</span> <span class="mi">500000</span>
+<span class="n">ifconfig</span> <span class="n">can0</span> <span class="n">up</span>
+<span class="n">ifconfig</span> <span class="n">can1</span> <span class="n">up</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="software-setup">
+<h3>Software Setup<a class="headerlink" href="#software-setup" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="cannelloni-framework-installation">
+<h4>Cannelloni Framework Installation<a class="headerlink" href="#cannelloni-framework-installation" title="Permalink to this headline">¶</a></h4>
+<p>The Cannelloni framework is a small application written in C++ to
+transfer CAN data over UDP. In this way, a researcher can map the CAN
+communication of a remote device to its workstation, or even combine
+multiple remote CAN devices on his machine. The framework can be
+downloaded from this website:
+<code class="docutils literal"><span class="pre">https://github.com/mguentner/cannelloni.git</span></code>. The <code class="docutils literal"><span class="pre">README.md</span></code> file
+explains the installation and usage in detail. Cannelloni needs virtual
+CAN interfaces on the operators machine. The next listing shows the
+setup of virtual CAN interfaces.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">modprobe</span> <span class="n">vcan</span>
+
+<span class="n">ip</span> <span class="n">link</span> <span class="n">add</span> <span class="n">name</span> <span class="n">vcan0</span> <span class="nb">type</span> <span class="n">vcan</span>
+<span class="n">ip</span> <span class="n">link</span> <span class="n">add</span> <span class="n">name</span> <span class="n">vcan1</span> <span class="nb">type</span> <span class="n">vcan</span>
+
+<span class="n">ip</span> <span class="n">link</span> <span class="nb">set</span> <span class="n">dev</span> <span class="n">vcan0</span> <span class="n">up</span>
+<span class="n">ip</span> <span class="n">link</span> <span class="nb">set</span> <span class="n">dev</span> <span class="n">vcan1</span> <span class="n">up</span>
+
+<span class="n">tc</span> <span class="n">qdisc</span> <span class="n">add</span> <span class="n">dev</span> <span class="n">vcan0</span> <span class="n">root</span> <span class="n">tbf</span> <span class="n">rate</span> <span class="mi">300</span><span class="n">kbit</span> <span class="n">latency</span> <span class="mi">100</span><span class="n">ms</span> <span class="n">burst</span> <span class="mi">1000</span>
+<span class="n">tc</span> <span class="n">qdisc</span> <span class="n">add</span> <span class="n">dev</span> <span class="n">vcan1</span> <span class="n">root</span> <span class="n">tbf</span> <span class="n">rate</span> <span class="mi">300</span><span class="n">kbit</span> <span class="n">latency</span> <span class="mi">100</span><span class="n">ms</span> <span class="n">burst</span> <span class="mi">1000</span>
+
+<span class="n">cannelloni</span> <span class="o">-</span><span class="n">I</span> <span class="n">vcan0</span> <span class="o">-</span><span class="n">R</span> <span class="o">&lt;</span><span class="n">remote</span><span class="o">-</span><span class="n">IP</span><span class="o">&gt;</span> <span class="o">-</span><span class="n">r</span> <span class="mi">20000</span> <span class="o">-</span><span class="n">l</span> <span class="mi">20000</span> <span class="o">&amp;</span>
+<span class="n">cannelloni</span> <span class="o">-</span><span class="n">I</span> <span class="n">vcan1</span> <span class="o">-</span><span class="n">R</span> <span class="o">&lt;</span><span class="n">remote</span><span class="o">-</span><span class="n">IP</span><span class="o">&gt;</span> <span class="o">-</span><span class="n">r</span> <span class="mi">20001</span> <span class="o">-</span><span class="n">l</span> <span class="mi">20001</span> <span class="o">&amp;</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="examples">
+<h2>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="can-layer">
+<h3>CAN Layer<a class="headerlink" href="#can-layer" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id1">
+<h4>Setup<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
+<p>This commands enable a virtual CAN interface on your machine</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">kamene.layers.can</span> <span class="k">import</span> <span class="o">*</span>
+<span class="kn">import</span> <span class="nn">os</span>
+
+<span class="n">bashCommand</span> <span class="o">=</span> <span class="s2">&quot;/bin/bash -c &#39;sudo modprobe vcan; sudo ip link add name vcan0 type vcan; sudo ip link set dev vcan0 up&#39;&quot;</span>
+<span class="n">os</span><span class="o">.</span><span class="n">system</span><span class="p">(</span><span class="n">bashCommand</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>If it’s required, the CAN interface can be set into an listen-only or loop back mode with ip link set commands:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">ip</span> <span class="n">link</span> <span class="nb">set</span> <span class="n">vcan0</span> <span class="nb">type</span> <span class="n">can</span> <span class="n">help</span>  <span class="c1"># shows additional information</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="can-frame">
+<h4>CAN Frame<a class="headerlink" href="#can-frame" title="Permalink to this headline">¶</a></h4>
+<p>Creating a standard CAN frame:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">frame</span> <span class="o">=</span> <span class="n">CAN</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="mh">0x200</span><span class="p">,</span> <span class="n">dlc</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="sa">b</span><span class="s1">&#39;</span><span class="se">\x01\x02\x03\x04\x05\x06\x07\x08</span><span class="s1">&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Creating an extended CAN frame:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">frame</span> <span class="o">=</span> <span class="n">CAN</span><span class="p">(</span><span class="n">flags</span><span class="o">=</span><span class="s1">&#39;EFF&#39;</span><span class="p">,</span> <span class="nb">id</span><span class="o">=</span><span class="mh">0x10010000</span><span class="p">,</span> <span class="n">dlc</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="sa">b</span><span class="s1">&#39;</span><span class="se">\x01\x02\x03\x04\x05\x06\x07\x08</span><span class="s1">&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Writing and reading to pcap files:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">CAN</span><span class="p">(</span><span class="nb">id</span><span class="o">=</span><span class="mh">0x7ff</span><span class="p">,</span><span class="n">dlc</span><span class="o">=</span><span class="mi">8</span><span class="p">,</span><span class="n">data</span><span class="o">=</span><span class="sa">b</span><span class="s1">&#39;</span><span class="se">\x01\x02\x03\x04\x05\x06\x07\x08</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="n">wrpcap</span><span class="p">(</span><span class="s1">&#39;/tmp/scapyPcapTest.pcap&#39;</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">append</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">rdpcap</span><span class="p">(</span><span class="s1">&#39;/tmp/scapyPcapTest.pcap&#39;</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="can-socket">
+<h4>CAN Socket<a class="headerlink" href="#can-socket" title="Permalink to this headline">¶</a></h4>
+<p>Ways of creating a CAN socket:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="c1"># Simple Socket</span>
+<span class="n">socket</span> <span class="o">=</span> <span class="n">CANSocket</span><span class="p">(</span><span class="n">iface</span><span class="o">=</span><span class="s2">&quot;vcan0&quot;</span><span class="p">)</span>
+<span class="c1"># Socket only listen for messages with Id == 0x200</span>
+<span class="n">socket</span> <span class="o">=</span> <span class="n">CANSocket</span><span class="p">(</span><span class="n">iface</span><span class="o">=</span><span class="s2">&quot;vcan0&quot;</span><span class="p">,</span> <span class="nb">filter</span><span class="o">=</span><span class="p">[{</span><span class="s1">&#39;can_id&#39;</span><span class="p">:</span> <span class="mh">0x200</span><span class="p">,</span> <span class="s1">&#39;can_mask&#39;</span><span class="p">:</span> <span class="mh">0x7FF</span><span class="p">}])</span>
+<span class="c1"># Socket only listen for messages with Id &gt;= 0x200 and Id &lt;= 0x2ff</span>
+<span class="n">socket</span> <span class="o">=</span> <span class="n">CANSocket</span><span class="p">(</span><span class="n">iface</span><span class="o">=</span><span class="s2">&quot;vcan0&quot;</span><span class="p">,</span> <span class="nb">filter</span><span class="o">=</span><span class="p">[{</span><span class="s1">&#39;can_id&#39;</span><span class="p">:</span> <span class="mh">0x200</span><span class="p">,</span> <span class="s1">&#39;can_mask&#39;</span><span class="p">:</span> <span class="mh">0x700</span><span class="p">}])</span>
+<span class="c1"># Socket only listen for messages with Id != 0x200</span>
+<span class="n">socket</span> <span class="o">=</span> <span class="n">CANSocket</span><span class="p">(</span><span class="n">iface</span><span class="o">=</span><span class="s2">&quot;vcan0&quot;</span><span class="p">,</span> <span class="nb">filter</span><span class="o">=</span><span class="p">[{</span><span class="s1">&#39;can_id&#39;</span><span class="p">:</span> <span class="mh">0x200</span> <span class="o">|</span> <span class="n">CAN_INV_FILTER</span><span class="p">,</span> <span class="s1">&#39;can_mask&#39;</span><span class="p">:</span> <span class="mh">0x7FF</span><span class="p">}])</span>
+<span class="c1"># Socket with multiple filters</span>
+<span class="n">socket</span> <span class="o">=</span> <span class="n">CANSocket</span><span class="p">(</span><span class="n">iface</span><span class="o">=</span><span class="s1">&#39;vcan0&#39;</span><span class="p">,</span> <span class="nb">filter</span><span class="o">=</span><span class="p">[{</span><span class="s1">&#39;can_id&#39;</span><span class="p">:</span> <span class="mh">0x200</span><span class="p">,</span> <span class="s1">&#39;can_mask&#39;</span><span class="p">:</span> <span class="mh">0x7ff</span><span class="p">},</span>
+                                                 <span class="p">{</span><span class="s1">&#39;can_id&#39;</span><span class="p">:</span> <span class="mh">0x400</span><span class="p">,</span> <span class="s1">&#39;can_mask&#39;</span><span class="p">:</span> <span class="mh">0x7ff</span><span class="p">},</span>
+                                                 <span class="p">{</span><span class="s1">&#39;can_id&#39;</span><span class="p">:</span> <span class="mh">0x600</span><span class="p">,</span> <span class="s1">&#39;can_mask&#39;</span><span class="p">:</span> <span class="mh">0x7ff</span><span class="p">},</span>
+                                                 <span class="p">{</span><span class="s1">&#39;can_id&#39;</span><span class="p">:</span> <span class="mh">0x7ff</span><span class="p">,</span> <span class="s1">&#39;can_mask&#39;</span><span class="p">:</span> <span class="mh">0x7ff</span><span class="p">}])</span>
+<span class="c1"># Socket which also receives its own messages</span>
+<span class="n">socket</span> <span class="o">=</span> <span class="n">CANSocket</span><span class="p">(</span><span class="n">iface</span><span class="o">=</span><span class="s2">&quot;vcan0&quot;</span><span class="p">,</span> <span class="n">receive_own_messages</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Automotive usage</a><ul>
+<li><a class="reference internal" href="#setup">Setup</a><ul>
+<li><a class="reference internal" href="#hardware-setup">Hardware Setup</a><ul>
+<li><a class="reference internal" href="#beagle-bone-black-operating-system-setup">Beagle Bone Black Operating System Setup</a></li>
+<li><a class="reference internal" href="#dual-can-setup">Dual-CAN Setup</a></li>
+<li><a class="reference internal" href="#iso-tp-kernel-module-installation">ISO-TP Kernel Module Installation</a></li>
+<li><a class="reference internal" href="#can-interface-setup">CAN-Interface Setup</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#software-setup">Software Setup</a><ul>
+<li><a class="reference internal" href="#cannelloni-framework-installation">Cannelloni Framework Installation</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#examples">Examples</a><ul>
+<li><a class="reference internal" href="#can-layer">CAN Layer</a><ul>
+<li><a class="reference internal" href="#id1">Setup</a></li>
+<li><a class="reference internal" href="#can-frame">CAN Frame</a></li>
+<li><a class="reference internal" href="#can-socket">CAN Socket</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="advanced_usage.html" title="previous chapter">Advanced usage</a></li>
+      <li>Next: <a href="extending.html" title="next chapter">Build your own tools</a></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/automotive_usage.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2008, 2009 Philippe Biondi and the Scapy community.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.7</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      
+      |
+      <a href="_sources/automotive_usage.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
