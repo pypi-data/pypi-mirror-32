@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: tinycolor.py
+Version: 0.1.0
+Summary: tinycolor.py 是一个用于 Python 的颜色操作和转换的库。它支持多种形式的输入，同时提供颜色转换和一些其他的实用功能。
+Home-page: https://github.com/WenryXu/tinycolor.py
+Author: WenryXu
+Author-email: wenryxu@outlook.com
+License: MIT License
+Description: tinycolor.py 是一个用于 Python 的颜色操作和转换的库。它支持多种形式的输入，同时提供颜色转换和一些其他的实用功能。
+Keywords: Python TinyColor Color
+Platform: MacOS Linux Windows

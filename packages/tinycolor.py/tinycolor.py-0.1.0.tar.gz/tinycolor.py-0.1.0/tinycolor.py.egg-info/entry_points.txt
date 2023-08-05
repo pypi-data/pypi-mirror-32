@@ -1,0 +1,3 @@
+[console_scripts]
+tinycolor.py = tinycolor.__main__:main
+

@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+tinycolor/__init__.py
+tinycolor/__main__.py
+tinycolor.py.egg-info/PKG-INFO
+tinycolor.py.egg-info/SOURCES.txt
+tinycolor.py.egg-info/dependency_links.txt
+tinycolor.py.egg-info/entry_points.txt
+tinycolor.py.egg-info/top_level.txt
