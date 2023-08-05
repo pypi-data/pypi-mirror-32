@@ -1,0 +1,3 @@
+[console_scripts]
+snfs = standardnotes_fs.standardnotes_fs:main
+
