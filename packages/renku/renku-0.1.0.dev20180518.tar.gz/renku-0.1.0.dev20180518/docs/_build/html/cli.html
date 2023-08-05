@@ -1,0 +1,233 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Renga Command Line &#8212; Renga 0.1.0.dev20171123 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Projects" href="projects.html" />
+    <link rel="prev" title="Renga CLI and SDK for Python" href="index.html" />
+  
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900,300italic,400italic" rel="stylesheet" type="text/css">
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  </head><body>
+  <div class="git-ribbon">
+    <a href="http://github.com/SwissDataScienceCenter" rel="me">Join us on GitHub</a>
+  </div>
+  
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-renga.cli">
+<span id="renga-command-line"></span><h1>Renga Command Line<a class="headerlink" href="#module-renga.cli" title="Permalink to this headline">¶</a></h1>
+<p>The base command for interacting with the Renga platform.</p>
+<div class="section" id="renga-base-command">
+<h2><code class="docutils literal notranslate"><span class="pre">renga</span></code> (base command)<a class="headerlink" href="#renga-base-command" title="Permalink to this headline">¶</a></h2>
+<p>To list the available commands, either run <code class="docutils literal notranslate"><span class="pre">renga</span></code> with no parameters or
+execute <code class="docutils literal notranslate"><span class="pre">renga</span> <span class="pre">help</span></code>:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> renga <span class="nb">help</span>
+<span class="go">Usage: renga [OPTIONS] COMMAND [ARGS]...</span>
+
+<span class="go">Check common Renga commands used in various situations.</span>
+
+<span class="go">Options:</span>
+<span class="go">  --version            Print version number.</span>
+<span class="go">  --config PATH        Location of client config files.</span>
+<span class="go">  --config-path        Print application config path.</span>
+<span class="go">  --path &lt;path&gt;        Location of a Renga repository.  [default: .]</span>
+<span class="go">  --renga-home &lt;path&gt;  Location of Renga directory.  [default: .renga]</span>
+<span class="go">  -h, --help           Show this message and exit.</span>
+
+<span class="go">Commands:</span>
+<span class="gp">  #</span> <span class="o">[</span>...<span class="o">]</span>
+</pre></div>
+</div>
+<div class="section" id="configuration-files">
+<h3>Configuration files<a class="headerlink" href="#configuration-files" title="Permalink to this headline">¶</a></h3>
+<p>Depending on your system, you may find the configuration files used by Renga
+command line in a different folder. By default, the following rules are used:</p>
+<dl class="docutils">
+<dt>MacOS:</dt>
+<dd><code class="docutils literal notranslate"><span class="pre">~/Library/Application</span> <span class="pre">Support/Renga</span></code></dd>
+<dt>Unix:</dt>
+<dd><code class="docutils literal notranslate"><span class="pre">~/.config/renga</span></code></dd>
+<dt>Windows:</dt>
+<dd><code class="docutils literal notranslate"><span class="pre">C:\Users\&lt;user&gt;\AppData\Roaming\Renga</span></code></dd>
+</dl>
+<p>If in doubt where to look for the configuration file, you can display its path
+by running <code class="docutils literal notranslate"><span class="pre">renga</span> <span class="pre">--config-path</span></code>.</p>
+<p>You can specify a different location via the <code class="docutils literal notranslate"><span class="pre">RENGA_CONFIG</span></code> environment
+variable or the <code class="docutils literal notranslate"><span class="pre">--config</span></code> command line option. If both are specified, then
+the <code class="docutils literal notranslate"><span class="pre">--config</span></code> option value is used. For example:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> renga --config ~/renga/config/ init
+</pre></div>
+</div>
+<p>instructs Renga to store the configuration files in your <code class="docutils literal notranslate"><span class="pre">~/renga/config/</span></code>
+directory when running the <code class="docutils literal notranslate"><span class="pre">init</span></code> command.</p>
+</div>
+</div>
+<div class="section" id="module-renga.cli.init">
+<span id="renga-init"></span><h2><code class="docutils literal notranslate"><span class="pre">renga</span> <span class="pre">init</span></code><a class="headerlink" href="#module-renga.cli.init" title="Permalink to this headline">¶</a></h2>
+<p>Create an empty Renga project or reinitialize an existing one.</p>
+<div class="section" id="starting-a-renga-project">
+<h3>Starting a Renga project<a class="headerlink" href="#starting-a-renga-project" title="Permalink to this headline">¶</a></h3>
+<p>If you have an existing directory which you want to turn into a Renga project,
+you can type:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> <span class="nb">cd</span> ~/my_project
+<span class="gp">$</span> renga init
+</pre></div>
+</div>
+<p>or:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> renga init ~/my_project
+</pre></div>
+</div>
+<p>This creates a new subdirectory named <code class="docutils literal notranslate"><span class="pre">.renga</span></code> that contains all the
+necessary files for managing the project configuration.</p>
+</div>
+</div>
+<div class="section" id="module-renga.cli.dataset">
+<span id="renga-datasets"></span><h2><code class="docutils literal notranslate"><span class="pre">renga</span> <span class="pre">datasets</span></code><a class="headerlink" href="#module-renga.cli.dataset" title="Permalink to this headline">¶</a></h2>
+<p>Work with datasets in the current repository.</p>
+<div class="section" id="manipulating-datasets">
+<h3>Manipulating datasets<a class="headerlink" href="#manipulating-datasets" title="Permalink to this headline">¶</a></h3>
+<p>Creating an empty dataset inside a Renga project:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> renga dataset create my-dataset
+</pre></div>
+</div>
+<p>Adding data to the dataset:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> renga dataset add my-dataset http://data-url
+</pre></div>
+</div>
+<p>This will copy the contents of <code class="docutils literal notranslate"><span class="pre">data-url</span></code> to the dataset and add it
+to the dataset metadata.</p>
+</div>
+</div>
+<div class="section" id="module-renga.cli.run">
+<span id="renga-run"></span><h2><code class="docutils literal notranslate"><span class="pre">renga</span> <span class="pre">run</span></code><a class="headerlink" href="#module-renga.cli.run" title="Permalink to this headline">¶</a></h2>
+<p>Track provenance of data created by executing programs.</p>
+</div>
+<div class="section" id="module-renga.cli.log">
+<span id="renga-log"></span><h2><code class="docutils literal notranslate"><span class="pre">renga</span> <span class="pre">log</span></code><a class="headerlink" href="#module-renga.cli.log" title="Permalink to this headline">¶</a></h2>
+<p>Show provenance of data created by executing programs.</p>
+</div>
+<div class="section" id="module-renga.cli.workflow">
+<span id="renga-workflow"></span><h2><code class="docutils literal notranslate"><span class="pre">renga</span> <span class="pre">workflow</span></code><a class="headerlink" href="#module-renga.cli.workflow" title="Permalink to this headline">¶</a></h2>
+<p>Workflow operations.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><p class="logo">
+  <a href="index.html">
+    <h1 class="logo logo-name">
+      Renga
+      <span class="renga">連歌</span>
+    </h1>
+  </a>
+</p>
+
+
+<p class="blurb">Python API and CLI for the Renga platform.</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Renga Command Line</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#renga-base-command"><code class="docutils literal notranslate"><span class="pre">renga</span></code> (base command)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-renga.cli.init"><code class="docutils literal notranslate"><span class="pre">renga</span> <span class="pre">init</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-renga.cli.dataset"><code class="docutils literal notranslate"><span class="pre">renga</span> <span class="pre">datasets</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-renga.cli.run"><code class="docutils literal notranslate"><span class="pre">renga</span> <span class="pre">run</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-renga.cli.log"><code class="docutils literal notranslate"><span class="pre">renga</span> <span class="pre">log</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-renga.cli.workflow"><code class="docutils literal notranslate"><span class="pre">renga</span> <span class="pre">workflow</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="projects.html">Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="datasets.html">Datasets</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cwl.html">Tools and Workflows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="client.html">Client</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api.html">Low-level API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="changes.html">Changes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="license.html">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="authors.html">Authors</a></li>
+</ul>
+
+
+<hr />
+<ul>
+    
+    <li class="toctree-l1"><a href="https://github.com/SwissDataScienceCenter/renga-python">renga-python@GitHub</a></li>
+    
+    <li class="toctree-l1"><a href="https://pypi.python.org/pypi/renga/">renga-python@PyPI</a></li>
+    
+    <li class="toctree-l1"><a href="https://github.com/SwissDataScienceCenter/renga">renga@GitHub</a></li>
+    
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Renga CLI and SDK for Python</a></li>
+      <li>Next: <a href="projects.html" title="next chapter">Projects</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, Swiss Data Science Center.
+      
+      |
+      <a href="_sources/cli.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
