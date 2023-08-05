@@ -1,0 +1,11 @@
+README.md
+setup.py
+bin/fmtlbl
+fmtlabels/__init__.py
+fmtlabels/fmt.py
+fmtlabels.egg-info/PKG-INFO
+fmtlabels.egg-info/SOURCES.txt
+fmtlabels.egg-info/dependency_links.txt
+fmtlabels.egg-info/not-zip-safe
+fmtlabels.egg-info/requires.txt
+fmtlabels.egg-info/top_level.txt
