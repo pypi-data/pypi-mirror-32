@@ -1,0 +1,9 @@
+README.md
+setup.py
+dployr/__init__.py
+dployr.egg-info/PKG-INFO
+dployr.egg-info/SOURCES.txt
+dployr.egg-info/dependency_links.txt
+dployr.egg-info/entry_points.txt
+dployr.egg-info/requires.txt
+dployr.egg-info/top_level.txt

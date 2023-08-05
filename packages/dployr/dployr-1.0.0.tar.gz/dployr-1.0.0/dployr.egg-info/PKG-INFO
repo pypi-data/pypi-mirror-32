@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: dployr
+Version: 1.0.0
+Summary: Blog deployment script
+Home-page: https://github.com/dutch/dployr
+Author: Chris Lamberson
+Author-email: clamberson@gmail.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/dutch/dployr/issues
+Description: # Dployr
+        
+        This shit is insane.
+        
+Keywords: development
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
