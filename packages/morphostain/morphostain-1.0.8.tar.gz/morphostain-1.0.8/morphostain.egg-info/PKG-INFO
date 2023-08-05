@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: morphostain
+Version: 1.0.8
+Summary: DAB-chromagen analysis tool
+Home-page: https://github.com/meklon/morphostain
+Author: Ivan Gumenyuk
+Author-email: meklon@gmail.com
+License: GPLv3
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Console
