@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: mini-api
+Version: 0.1.2
+Summary: Minimalistic HTTP API with no frills
+Home-page: https://github.com/mellon85/mini-api
+Author: Dario Meloni
+Author-email: mellon85@gmail.com
+License: BSD 3-Clause
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# mini-api
+
+Python minimalistic HTTP(S) server
+
+Some small long running utilities don't need fancy webframeworks to offer
+simple APIs over HTTP without any additional dependency that this module.
+
+It spawns a thread to process incoming requests.
+
+```python
+import mini_api
+
+server = mini_api.Server(server_address=('localhost', 8888))
+
+@server.route('aaa')
+def route(args):
+    return 200, 'All good'
+
+server.start()
+
+...
+
+server.stop()
+```
+
+
