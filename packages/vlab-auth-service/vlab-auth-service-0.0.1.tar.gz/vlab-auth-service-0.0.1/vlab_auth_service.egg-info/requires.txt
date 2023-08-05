@@ -1,0 +1,8 @@
+flask
+ldap3
+pyjwt
+uwsgi
+vlab-api-common
+ujson
+cryptography
+redis
