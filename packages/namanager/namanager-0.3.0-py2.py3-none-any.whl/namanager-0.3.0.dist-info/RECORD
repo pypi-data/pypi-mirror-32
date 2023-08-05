@@ -1,0 +1,12 @@
+namanager/__init__.py,sha256=3wVEs2QD_7OcTlD97cZdCeizd2hUbJJ0GeIO8wQIjrk,22
+namanager/archieve_manager.py,sha256=38w50f08KK8PxhBrPn48DzY2qQa1Von8IbSi9_sxM2Q,4192
+namanager/core.py,sha256=eD6kjTB5jAgFu2mw-qrmSKLjajOxc55xV2hSzBS7nD8,13865
+namanager/enums.py,sha256=qRwb3h1d6zMcODYHywLpGsvMfAY7zkjcBfkdJS3yoho,1743
+namanager/logger.py,sha256=aIKelO-65Txhk3plNGXUXc6Gf5VvVCgZrJxF3JG7S0c,419
+namanager/main.py,sha256=rhxl2pHzjEOX1jJ8OFXzlckHnjb4vlHHiHSpuO1lTR4,9593
+namanager/util.py,sha256=OzCIHg8v8QT3rIWEZBnr-iBx1ZyQd9nYr332VCthuMk,3621
+namanager-0.3.0.data/scripts/namanager,sha256=BWfT5t16vXOQQELyVUm15SK0Uuo5g_K9vDaZjIMsXtA,4239
+namanager-0.3.0.dist-info/METADATA,sha256=NNdiJoM3BVtzlWmc4O-JTpiOqGq14gAw2xHypiFJ5rw,3562
+namanager-0.3.0.dist-info/RECORD,,
+namanager-0.3.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+namanager-0.3.0.dist-info/top_level.txt,sha256=lRvf26eATcT2uuKr_gQgcyn0ghM2dsi1eDFhE6i5aZ4,10
