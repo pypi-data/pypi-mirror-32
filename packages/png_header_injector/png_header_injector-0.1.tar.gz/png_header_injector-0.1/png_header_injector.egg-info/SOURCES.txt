@@ -1,0 +1,9 @@
+README.md
+setup.py
+png_header_injector/__init__.py
+png_header_injector/replacer.py
+png_header_injector.egg-info/PKG-INFO
+png_header_injector.egg-info/SOURCES.txt
+png_header_injector.egg-info/dependency_links.txt
+png_header_injector.egg-info/not-zip-safe
+png_header_injector.egg-info/top_level.txt
