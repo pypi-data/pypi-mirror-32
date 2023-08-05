@@ -1,0 +1,3 @@
+[console_scripts]
+ksu = ksu.EntryPoint:main
+
