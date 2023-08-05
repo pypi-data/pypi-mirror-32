@@ -1,0 +1,17 @@
+numpy
+netCDF4
+boto3
+uncertainties
+
+[build_structures]
+xmltodict
+bs4
+
+[hdc]
+pyhdc
+
+[imas]
+imas
+
+[ual]
+pyual
