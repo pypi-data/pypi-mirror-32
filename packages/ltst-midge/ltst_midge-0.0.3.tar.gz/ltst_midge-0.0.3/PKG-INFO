@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: ltst_midge
+Version: 0.0.3
+Summary: midge
+Home-page: UNKNOWN
+Author: midge
+Author-email: UNKNOWN
+License: MIT
+Description: Midge
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
