@@ -1,0 +1,12 @@
+README.rst
+setup.py
+make_gtfs/__init__.py
+make_gtfs/_version.py
+make_gtfs/cli.py
+make_gtfs/main.py
+make_gtfs.egg-info/PKG-INFO
+make_gtfs.egg-info/SOURCES.txt
+make_gtfs.egg-info/dependency_links.txt
+make_gtfs.egg-info/entry_points.txt
+make_gtfs.egg-info/requires.txt
+make_gtfs.egg-info/top_level.txt
