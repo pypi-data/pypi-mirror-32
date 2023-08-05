@@ -1,0 +1,9 @@
+dmarc/__init__.py,sha256=RsZjRjMprNcDm97wqRRSk6rTLgTX8N0GyicZyZ8OsBQ,22
+dmarc/rua.xsd,sha256=s0sz7h9cpNHHh-jV3Cc_D3o_ggDq9QS1nsQdYEaT1Ig,9026
+dmarc/rua_mod.xsd,sha256=XJr5iVoABhtnkjorKNOivxqsPDOl_x6-wSJw0vAoKZ8,10370
+dmarc/s3.py,sha256=7iGgVq2x4RDdZsGF2nKwuSFm5K0LQXPcdR1RRHFIQ0k,23579
+dmarc_import-1.0.0.dist-info/METADATA,sha256=cWyOX24yB9l5w_WtxzlFZZJN_MH6Eo-qZiFi6Qn2bZs,5967
+dmarc_import-1.0.0.dist-info/RECORD,,
+dmarc_import-1.0.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+dmarc_import-1.0.0.dist-info/entry_points.txt,sha256=M3S0Qn4mIGL08B8-pwL_YO3M_1-EQUTuPwKTWOkRSWU,51
+dmarc_import-1.0.0.dist-info/top_level.txt,sha256=5JBkkA4cwgwTa2Xa4kiP5fN1XOWmZvfTkr8WqFocE2Y,6
