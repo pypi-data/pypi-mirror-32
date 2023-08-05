@@ -1,0 +1,44 @@
+Metadata-Version: 1.1
+Name: quantorxs
+Version: 0.1
+Summary: XANES quantification of functional group abundances
+Home-page: https://github.com/corentinlg/quantorxs
+Author: Corentin Le Guillou
+Author-email: corentin.le-guillou@univ-lille1.fr
+License: GPLv3
+Description: 
+        QUANTORXS : QUANTification of ORganics by X-ray Spectrosocopy
+        =============================================================
+        
+        QUANTORXS is an opensource program to automatically analyze X-ray
+        spectroscopy spectra of Carbon, Nitrogen and Oxygen K-edges edges to
+        quantify the concentration of functional groups and the elemental ratios
+        N/C and O/C using a novel quantification method that will soon be
+        pusblished in a peer-reviewed scientific article.
+        
+        QUANTORXS performs the following tasks automatically:
+        
+        -  Load the data from the file(s)
+        -  Remove background
+        -  Normalize the spectra
+        -  Generate a model of the fine structure a fit it to the experimental
+           data
+        -  Calculate the functional groups abundances and elemental rations from
+           the results of the fit
+        -  Generate an Excel file and multiple figures with the results and
+           normalised spectra files.
+        
+        For the full documentation go to `QuantORXS' GitHub
+        repository <https://github.com/CorentinLG/QuantORXS>`__.
+        
+Keywords: XANES abundance quantification
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
