@@ -1,0 +1,13 @@
+README.md
+setup.py
+requests_crawler/__about__.py
+requests_crawler/__init__.py
+requests_crawler/core.py
+requests_crawler/core_bak.py
+requests_crawler/default_config.py
+requests_crawler.egg-info/PKG-INFO
+requests_crawler.egg-info/SOURCES.txt
+requests_crawler.egg-info/dependency_links.txt
+requests_crawler.egg-info/entry_points.txt
+requests_crawler.egg-info/requires.txt
+requests_crawler.egg-info/top_level.txt
