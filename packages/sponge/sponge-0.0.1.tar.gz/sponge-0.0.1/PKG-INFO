@@ -1,0 +1,29 @@
+Metadata-Version: 1.1
+Name: sponge
+Version: 0.0.1
+Summary: An elegant cache library for python
+Home-page: https://github.com/IamBusy/sponge
+Author: William Wei
+Author-email: 1342247033@qq.com
+License: GNU Lesser General Public License v3 (LGPLv3)
+Description-Content-Type: UNKNOWN
+Description: # sponge
+        An elegent  cache library for python
+        
+        # TODO
+        [  ]
+        
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
