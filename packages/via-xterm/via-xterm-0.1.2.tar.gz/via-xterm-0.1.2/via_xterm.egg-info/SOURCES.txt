@@ -1,0 +1,7 @@
+README.rst
+setup.py
+via-xterm
+via_xterm.egg-info/PKG-INFO
+via_xterm.egg-info/SOURCES.txt
+via_xterm.egg-info/dependency_links.txt
+via_xterm.egg-info/top_level.txt
