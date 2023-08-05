@@ -1,0 +1,12 @@
+azure/cli/command_modules/container/__init__.py,sha256=_zzCUtcXW3I3vIWBZthrFMOCcmUZti1mBr_ddsU-amY,1372
+azure/cli/command_modules/container/_client_factory.py,sha256=HPBJPJGX_D-E2BODJ5HzGKhxpbe9xuICwlGs3olHCAg,967
+azure/cli/command_modules/container/_format.py,sha256=3931kKK72twyD5rYUPAbkMwr_KszmFEAwUmZYuqNyc0,2538
+azure/cli/command_modules/container/_help.py,sha256=vLXC0LTh7JI0ODVbPEazALEkyOo90V3lnWYE5Msin3U,5034
+azure/cli/command_modules/container/_params.py,sha256=oAQ7R5QFQW9ThREyjQNjQGv2Vqx5_QUdqR0XD_D5cKc,6386
+azure/cli/command_modules/container/_validators.py,sha256=46h8kHdaNdMDdfMVI7cxS_XLHgQG454w404c-HI1drA,1400
+azure/cli/command_modules/container/commands.py,sha256=TwuDQyyLypZOagw5FOHEQCnFGjjj-UWP5r1RTZhiaus,1333
+azure/cli/command_modules/container/custom.py,sha256=XwTMt0amrfAIU7ZZrey6KgS6T_4vtTTUYDaY6z4hZ98,25071
+azure_cli_container-0.1.24.dist-info/METADATA,sha256=p4zTRMk5jU0g74NamUDd-fPu64y6Oyx1IJUY7qurmtY,13312
+azure_cli_container-0.1.24.dist-info/RECORD,,
+azure_cli_container-0.1.24.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+azure_cli_container-0.1.24.dist-info/top_level.txt,sha256=S7DhWV9m80TBzAhOFjxDUiNbKszzoThbnrSz5MpbHSQ,6
