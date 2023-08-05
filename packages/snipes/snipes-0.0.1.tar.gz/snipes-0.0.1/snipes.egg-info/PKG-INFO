@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: snipes
+Version: 0.0.1
+Summary: A wrapper for SWIFT (http://www.swiftsim.com) in python.
+Home-page: https://gitlab.cosma.dur.ac.uk/jborrow/snipes
+Author: Josh Borrow, Bert Vandenbroucke
+Author-email: joshua.borrow@durham.ac.uk
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

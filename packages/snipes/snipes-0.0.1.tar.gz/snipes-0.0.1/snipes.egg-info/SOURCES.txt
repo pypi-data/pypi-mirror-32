@@ -1,0 +1,8 @@
+README.md
+setup.py
+snipes/__init__.py
+snipes.egg-info/PKG-INFO
+snipes.egg-info/SOURCES.txt
+snipes.egg-info/dependency_links.txt
+snipes.egg-info/not-zip-safe
+snipes.egg-info/top_level.txt
