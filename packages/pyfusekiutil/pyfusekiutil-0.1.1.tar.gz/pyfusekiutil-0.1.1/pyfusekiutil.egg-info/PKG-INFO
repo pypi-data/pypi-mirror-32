@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pyfusekiutil
+Version: 0.1.1
+Summary: Manage a Fuseki-Triple Store
+Home-page: https://github.com/bartoc-basel/fuseki-update
+Author: Jonas Waeber
+License: UNKNOWN
+Description: ### Fuseki CLI Tool
+        A small cli to manage a fuseki triple store. 
+        The main update [-all] loads data from a google spreadsheet and then updates them.
+        
+        Requires a default.cfg and credentials to the google spreadsheet for this to work.
+        
+        
+        
+        
+        
+        
+Keywords: fuseki triple-store skos skosmos skosify
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
