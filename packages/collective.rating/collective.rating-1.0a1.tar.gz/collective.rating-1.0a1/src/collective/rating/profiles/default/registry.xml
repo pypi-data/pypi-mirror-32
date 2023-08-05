@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<registry>
+
+  <records interface="collective.rating.browser.settings.ISettingsSchema" />
+
+  <records prefix="plone.resources/rating"
+          interface='Products.CMFPlone.interfaces.IResourceRegistry'>
+    <value key="js">++plone++collective.rating/scripts/src/rating.js</value>
+    <value key="css">
+      <element>++plone++collective.rating/star-rating-svg.css</element>
+    </value>
+  </records>
+  <records prefix="plone.bundles/rating"
+          interface='Products.CMFPlone.interfaces.IBundleRegistry'>
+    <value key="resources" purge="false">
+      <element>rating</element>
+    </value>
+    <value key="enabled">True</value>
+    <value key="jscompilation">++plone++collective.rating/scripts/rating-compile.min.js</value>
+    <value key="csscompilation">++plone++collective.rating/star-rating-svg.css</value>
+    <value key="compile">True</value>
+  </records>
+
+</registry>
