@@ -1,0 +1,9 @@
+README.md
+setup.py
+syncme.py
+syncme.egg-info/PKG-INFO
+syncme.egg-info/SOURCES.txt
+syncme.egg-info/dependency_links.txt
+syncme.egg-info/entry_points.txt
+syncme.egg-info/requires.txt
+syncme.egg-info/top_level.txt
