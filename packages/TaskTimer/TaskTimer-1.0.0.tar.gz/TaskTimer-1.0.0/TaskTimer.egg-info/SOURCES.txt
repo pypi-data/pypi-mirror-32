@@ -1,0 +1,7 @@
+README.rst
+setup.py
+TaskTimer.egg-info/PKG-INFO
+TaskTimer.egg-info/SOURCES.txt
+TaskTimer.egg-info/dependency_links.txt
+TaskTimer.egg-info/requires.txt
+TaskTimer.egg-info/top_level.txt
