@@ -1,0 +1,8 @@
+NAT_PMP-1.1.dist-info/LICENSE.txt,sha256=YVZziud5lkiiFY3cm8akHZAk6M1xBLG8Ti6agDScMZU,1428
+NAT_PMP-1.1.dist-info/METADATA,sha256=y70iSbRUq_o_0Tx6jJ76RD4vJZX8qwGdUNiZbu9z-L8,4776
+NAT_PMP-1.1.dist-info/RECORD,,
+NAT_PMP-1.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+NAT_PMP-1.1.dist-info/namespace_packages.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+NAT_PMP-1.1.dist-info/top_level.txt,sha256=c2z5_mp5GvGONpT_pP2cKnahgeKFRiu5asbmUQjP1IU,7
+natpmp/__init__.py,sha256=jb80KKRSRhN3N_je1ut93cIvYWe8F6NDgUed4MTEP6I,15051
+natpmp/client.py,sha256=t9-zNmpg-Tov9cqUeCayK6lzlkegigHR9RwV1fyoLOo,857
