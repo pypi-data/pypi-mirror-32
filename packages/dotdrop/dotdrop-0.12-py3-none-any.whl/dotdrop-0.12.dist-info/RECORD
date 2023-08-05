@@ -1,0 +1,17 @@
+dotdrop/__init__.py,sha256=uoahC_9qotPQ5iMo0W6DKRlS51MkRdLZyQc7TtCeNok,229
+dotdrop/action.py,sha256=MSTnPMhcyxErxQJ0iW_8LJKAttaY5_ObWNg5mZymMdU,1473
+dotdrop/config.py,sha256=h-Icoqhtto3fe2cTYc8QGCf_VmS4q3ub8Pcfshw9IDI,9747
+dotdrop/dotdrop.py,sha256=Y00WKLK3wLM8dWWUcRRLqa1pmg664w1EBhGMMi6K4Qk,11696
+dotdrop/dotfile.py,sha256=6oRHPL2xNagRfsN3GgO6prKfNhJDmNbGXRD4Rk6g3YA,902
+dotdrop/installer.py,sha256=IX6G7-LO9c_shc1HDKJhvXpipGMbTZfNdOu32ulIeak,7681
+dotdrop/logger.py,sha256=solfKINXYDjCLa0j1O54Kw0ITzMBlxooWVGR63Jc2LM,2234
+dotdrop/templategen.py,sha256=okx1LtWlupGWB-K-COgQZ1ygTbw0BelbNujvM-Ud0uY,2461
+dotdrop/utils.py,sha256=1P_wHssHurmmrXeaCLr-CnSgT1ApUt8YDDGRnPlklVg,1265
+dotdrop-0.12.dist-info/DESCRIPTION.rst,sha256=vjzwDZn2E0eo21DgxZ4uA-VuRwjYNQ6HGT1WRMWIAnU,19560
+dotdrop-0.12.dist-info/LICENSE.txt,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+dotdrop-0.12.dist-info/METADATA,sha256=cw2442qHszkAAl6ZOZhOYLp3KOCRXl2HJB0TveAEiKM,20547
+dotdrop-0.12.dist-info/RECORD,,
+dotdrop-0.12.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+dotdrop-0.12.dist-info/entry_points.txt,sha256=3nMGyQ0sLrtKcxth-OJlj706H2AFiAuzVP_1tpQj_tY,42
+dotdrop-0.12.dist-info/metadata.json,sha256=no4XW_9qM_LpOeQIrt2pDD3ptCmhFH1NkTFZw0WIHW8,1204
+dotdrop-0.12.dist-info/top_level.txt,sha256=siSArtAqFloX4PSUQi5Z8z-XLPO3ECS7p-r8yO7sJLg,8
