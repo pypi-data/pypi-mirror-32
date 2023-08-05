@@ -1,0 +1,6 @@
+pyserial
+esptool
+requests
+scons
+python-geoip
+python-geoip-geolite2
