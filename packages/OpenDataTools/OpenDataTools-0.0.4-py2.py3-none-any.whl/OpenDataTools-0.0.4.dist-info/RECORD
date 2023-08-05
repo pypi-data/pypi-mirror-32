@@ -1,0 +1,13 @@
+OpenDataTools-0.0.4.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+OpenDataTools-0.0.4.dist-info/METADATA,sha256=rPLcJ1VfI0cOtRQxaVujauf8sCM5OoSMp1f8x6jYdqk,1022
+OpenDataTools-0.0.4.dist-info/RECORD,,
+OpenDataTools-0.0.4.dist-info/WHEEL,sha256=BTHHj6QhsHpWhRUrxioIvCAgjx81u-a8gkPTO6bi_A0,116
+OpenDataTools-0.0.4.dist-info/metadata.json,sha256=DoglavraN4vZ3NprGDFtqW9J_KZRKrbYvmdJ2Oo1rhg,1094
+OpenDataTools-0.0.4.dist-info/top_level.txt,sha256=WQGkkZsiK8-ZQdRtn6jCSw8EcsQThuVqztpExbDGiYY,14
+opendatatools/__init__.py,sha256=fJqjjX0u2TMaa-ZSV27GGkyPxJ9feP3uJLJ_u99Yr1s,271
+opendatatools/aqi/__init__.py,sha256=Sbp8RyUmL_17RHTpjhFbIicWRdDfjm9P_CIr9iIsLuw,156
+opendatatools/aqi/aqi_agent.py,sha256=zXkHN-b_jzrRjGOL0WOR5_fUCll8QlGWdR72-d9lZ6Q,8019
+opendatatools/aqi/aqi_interface.py,sha256=CvJxZuKpPEdZGssd48W9J5HHi9a81TMtYJtDvgSKw8w,334
+opendatatools/aqi/constant.py,sha256=gc-q5LFbjak5Gp2Pg1tFYMjnSFesmHVzyhJFl8sDfM8,8663
+opendatatools/common/__init__.py,sha256=KEsDuYD9c4brlB-nUgtHTodn9I6uUBjFOVWZ6Fx_fSg,75
+opendatatools/common/rest_agent.py,sha256=Xny5WA8bzs7DGXaKa8HdOG51LZ2sH_v5xE89N3fdPdE,2225
