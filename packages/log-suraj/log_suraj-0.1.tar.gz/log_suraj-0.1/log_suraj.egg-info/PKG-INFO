@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: log-suraj
+Version: 0.1
+Summary: using logger to store logs in /var/log folder
+Home-page: https://github.com/SURAJTHEGREAT/logger.git
+Author: Suraj
+Author-email: suraj.iot257@gmail.com
+License: Apache License (2.0)
+Download-URL: https://github.com/SURAJTHEGREAT/logger.git
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
