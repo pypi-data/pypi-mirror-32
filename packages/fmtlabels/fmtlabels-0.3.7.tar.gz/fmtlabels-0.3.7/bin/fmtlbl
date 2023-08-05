@@ -1,0 +1,34 @@
+#!python3
+
+import sys
+import os
+from fmtlabels.fmt import fmtjson
+import tablib
+import csv
+
+if len(sys.argv) < 2:
+    raise Exception('Usage: fmtlbl <category> [input, intput...]')
+
+category = sys.argv[1]
+input = open(sys.argv[2], 'r') if len(sys.argv) >= 3 else sys.stdin
+
+if len(sys.argv) == 2:
+    rows = csv.DictReader(sys.stdout)
+else:
+    rows = []
+    for inputfile in sys.argv[2:]:
+        ext = os.path.splitext(inputfile)[1]
+        if ext == '.csv':
+            f = open(inputfile, 'r')
+            for row in csv.DictReader(f):
+                rows.append(row)
+        elif ext == '.xlsx':
+            bytes = open(inputfile, 'rb').read()
+            book = tablib.Databook().load('xlsx', bytes)
+            for dataset in book.sheets():
+                for row in dataset.dict:
+                    rows.append(row)
+        else:
+            raise Exception('unknown file ext:' + ext)
+
+fmtjson(category, rows, sys.stdout)
