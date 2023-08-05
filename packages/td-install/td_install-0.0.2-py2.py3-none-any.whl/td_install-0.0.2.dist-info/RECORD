@@ -1,0 +1,14 @@
+td_install/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+td_install/__main__.py,sha256=US0SubDdHl5bPWSb2F_3cRuu5_frabrFaREp-R1lPf0,1118
+td_install/imagepig.py,sha256=OyebCqaG5LDV-aV5V0_JbkO7e2BC168ezpolJ0IgxvU,3291
+td_install/install.py,sha256=J17Tbet7HOGA-MgzeDWvWN1V9GkocLdBWPwK_7gkl7s,2691
+td_install/nwjs.py,sha256=6Bz2ZryN8dE5UhjJZkdGVR3oCO7q6mpJnQMrpr4Tp98,1495
+td_install/steam.py,sha256=H__hXUzYM34eA4Dr9hx_yLSFn4tUVh_LZQy8M_R8_JE,3476
+td_install/task.py,sha256=BGOnrxjvzERmR-r4Mim9I8gEAzKW8VpaeYGxdaMdxY8,762
+td_install/test.patch,sha256=5xuvNWmcASUgKJHnJnr5jWG_N9tX4GXPrln9WU6i2l0,734
+td_install-0.0.2.dist-info/LICENSE.txt,sha256=up30b-4wwaG2yb77HVcLOQT6Jwk7iBq_cYI0E1ywgWU,1074
+td_install-0.0.2.dist-info/METADATA,sha256=m6PdIfco7-FaW8pUG6Q2NDIqI3txc4WtGGsJHLjlM2M,3109
+td_install-0.0.2.dist-info/RECORD,,
+td_install-0.0.2.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+td_install-0.0.2.dist-info/entry_points.txt,sha256=BmqG_bIuU_M8xWEiM7trp-O8ZdAT_TKzYp8oJnzHZ7c,94
+td_install-0.0.2.dist-info/top_level.txt,sha256=L0UGn1b4XG8gsnXyR9qle5za5YXp46DQUG4rIgxOhh0,11
