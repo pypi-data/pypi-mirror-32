@@ -1,0 +1,10 @@
+README.md
+setup.py
+sanic_openapi3/__init__.py
+sanic_openapi3/main.py
+sanic_openapi3/openapi.py
+sanic_openapi3/types.py
+sanic_openapi3.egg-info/PKG-INFO
+sanic_openapi3.egg-info/SOURCES.txt
+sanic_openapi3.egg-info/dependency_links.txt
+sanic_openapi3.egg-info/top_level.txt
