@@ -1,0 +1,3 @@
+[console_scripts]
+bigmatrix_repack = ratschlab_common.scripts.bigmatrix_repack:main
+
