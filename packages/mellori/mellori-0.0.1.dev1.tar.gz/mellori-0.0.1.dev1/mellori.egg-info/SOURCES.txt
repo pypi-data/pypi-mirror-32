@@ -1,0 +1,6 @@
+setup.py
+mellori/__init__.py
+mellori.egg-info/PKG-INFO
+mellori.egg-info/SOURCES.txt
+mellori.egg-info/dependency_links.txt
+mellori.egg-info/top_level.txt
