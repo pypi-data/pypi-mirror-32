@@ -1,0 +1,3 @@
+[console_scripts]
+rabbit_rpc = rabbit_rpc:main
+
