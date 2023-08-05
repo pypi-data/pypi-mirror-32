@@ -1,0 +1,17 @@
+[paths]
+source =
+   src/kitovu
+   */site-packages/kitovu
+
+[run]
+branch = true
+source =
+    kitovu
+    tests
+parallel = true
+
+[report]
+exclude_lines =
+    pragma: no cover
+    raise NotImplementedError
+    raise AssertionError

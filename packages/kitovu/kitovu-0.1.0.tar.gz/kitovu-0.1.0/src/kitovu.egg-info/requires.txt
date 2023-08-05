@@ -1,0 +1,9 @@
+attrs
+click
+pysmb
+keyring
+pyyaml
+stevedore
+appdirs
+requests
+jsonschema
