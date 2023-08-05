@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: traces
+Version: 0.4.0
+Summary: A library for unevenly-spaced time series analysis.
+Home-page: https://github.com/datascopeanalytics/traces
+Author: Mike Stringer
+Author-email: mike.stringer@datascopeanalytics.com
+License: MIT license
+Keywords: traces
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Provides-Extra: dev
+Provides-Extra: pandas
+Provides-Extra: doc
+Provides-Extra: test
+Requires-Dist: sortedcontainers
+Requires-Dist: arrow
+Requires-Dist: future
+Requires-Dist: intervals
+Provides-Extra: dev
+Requires-Dist: cprofilev; extra == 'dev'
+Requires-Dist: pip; extra == 'dev'
+Requires-Dist: bumpversion; extra == 'dev'
+Requires-Dist: wheel; extra == 'dev'
+Requires-Dist: tox; extra == 'dev'
+Requires-Dist: flake8; extra == 'dev'
+Requires-Dist: coverage; extra == 'dev'
+Requires-Dist: cryptography; extra == 'dev'
+Requires-Dist: PyYAML; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: Sphinx; extra == 'doc'
+Requires-Dist: sphinxcontrib-napoleon; extra == 'doc'
+Requires-Dist: recommonmark; extra == 'doc'
+Requires-Dist: sphinx-autobuild; extra == 'doc'
+Provides-Extra: pandas
+Requires-Dist: pandas; extra == 'pandas'
+Provides-Extra: test
+Requires-Dist: pycodestyle (<2.4.0); extra == 'test'
+Requires-Dist: coveralls; extra == 'test'
+Requires-Dist: nose; extra == 'test'
+Requires-Dist: numpy; extra == 'test'
+Requires-Dist: scipy; extra == 'test'
+Requires-Dist: pandas; extra == 'test'
+
+View on github: https://github.com/datascopeanalytics/traces
+
+
