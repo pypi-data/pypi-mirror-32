@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+gpapi/__init__.py
+gpapi/config.py
+gpapi/device.properties
+gpapi/googleplay.py
+gpapi/googleplay_pb2.py
+gpapi/utils.py
+rwgpapi.egg-info/PKG-INFO
+rwgpapi.egg-info/SOURCES.txt
+rwgpapi.egg-info/dependency_links.txt
+rwgpapi.egg-info/requires.txt
+rwgpapi.egg-info/top_level.txt

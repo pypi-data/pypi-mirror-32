@@ -1,0 +1,3 @@
+pycryptodome
+protobuf>=3.5.2
+requests
