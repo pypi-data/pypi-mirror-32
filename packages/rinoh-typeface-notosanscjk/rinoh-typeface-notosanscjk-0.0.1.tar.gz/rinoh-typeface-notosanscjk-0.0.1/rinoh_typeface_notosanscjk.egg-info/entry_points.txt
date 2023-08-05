@@ -1,0 +1,3 @@
+[rinoh.typefaces]
+noto sans cjk = rinoh_typeface_notosanscjk:typeface
+

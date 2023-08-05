@@ -1,0 +1,13 @@
+README.rst
+setup.py
+rinoh_typeface_notosanscjk/README-Noto-Sans-CJK-JP.txt
+rinoh_typeface_notosanscjk/SIL-OPEN-FONT-LICENSE.txt
+rinoh_typeface_notosanscjk/__init__.py
+rinoh_typeface_notosanscjk/notosanscjkjp-bold.otf
+rinoh_typeface_notosanscjk/notosanscjkjp-regular.otf
+rinoh_typeface_notosanscjk.egg-info/PKG-INFO
+rinoh_typeface_notosanscjk.egg-info/SOURCES.txt
+rinoh_typeface_notosanscjk.egg-info/dependency_links.txt
+rinoh_typeface_notosanscjk.egg-info/entry_points.txt
+rinoh_typeface_notosanscjk.egg-info/requires.txt
+rinoh_typeface_notosanscjk.egg-info/top_level.txt
