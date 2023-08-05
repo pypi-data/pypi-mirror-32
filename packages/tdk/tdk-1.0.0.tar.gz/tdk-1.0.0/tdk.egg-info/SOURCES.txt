@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+tdk/__init__.py
+tdk/__version__.py
+tdk/cli.py
+tdk/constants.py
+tdk/core.py
+tdk/exceptions.py
+tdk.egg-info/PKG-INFO
+tdk.egg-info/SOURCES.txt
+tdk.egg-info/dependency_links.txt
+tdk.egg-info/entry_points.txt
+tdk.egg-info/requires.txt
+tdk.egg-info/top_level.txt
