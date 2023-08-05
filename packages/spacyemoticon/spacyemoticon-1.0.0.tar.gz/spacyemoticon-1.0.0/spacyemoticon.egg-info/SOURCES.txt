@@ -1,0 +1,11 @@
+README.rst
+setup.py
+spacyemoticon/__init__.py
+spacyemoticon/about.py
+spacyemoticon/emoticons.py
+spacyemoticon.egg-info/PKG-INFO
+spacyemoticon.egg-info/SOURCES.txt
+spacyemoticon.egg-info/dependency_links.txt
+spacyemoticon.egg-info/not-zip-safe
+spacyemoticon.egg-info/requires.txt
+spacyemoticon.egg-info/top_level.txt
