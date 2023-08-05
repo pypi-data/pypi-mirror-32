@@ -1,0 +1,10 @@
+CHANGES
+=======
+
+* Fix badge url in README
+* Add travis deploy
+* Rename reset\_chmod to chmod\_reset
+* Add main entry point
+* Change tests-requirements
+* Add tests
+* Inital commit
