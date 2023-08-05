@@ -1,0 +1,3 @@
+[console_scripts]
+amphc = amplifyhealthcheck.cli:init_cli
+
