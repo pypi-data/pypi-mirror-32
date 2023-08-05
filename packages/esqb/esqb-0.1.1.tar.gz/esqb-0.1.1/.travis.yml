@@ -1,0 +1,17 @@
+language: python
+python:
+- '3.6'
+install:
+- pip install -r requirements_dev.txt
+- pip install tox-travis
+script:
+- tox
+deploy:
+  provider: pypi
+  user: openshine
+  password:
+    secure: X7iLqPF9quKWOJhYboOVn/UT4R4a9xxZXCf7BP68kL6Yi5FhrLmZ+cJv2gT2IO3IqpffBq/U9sULwIKwHlVRcpQzU6yjdgqreP58du2Vv5YZNclw1yUjFdgJAcvyc0D8YWfq1YAC21uCKy0p5J0hQNnozF0Lvlndjth2IlK8j6sA6C+dbm1B7GBilomkXj20eUplum9tkoEuonjhwWGk3fBYJdqx9hM99gDeCVyMO2laZw4CewojdNPpn2FlBs6p1cN/Fuu1TZM7CagX4fHgG82VRxtW4L9jO1Crm2EYE1P2iy322L3QVE3fCyw2G41/Kv/XgcLdmuBemR8pnQcOs3mb8zFE/8mHGthBSKztW8Vrt9zC5EqYSxfMela9s3/A93R52Ditc5ctJSzZoex7c+hiIj0qNfhVeDINWDTtazd2WyfU1szVQIcO833Yh94dyNMKD2IOSA4YoL0Cz51Ht5F347Yc2Qpylu0EStBfmW6M/9oS18RTAFWt3ng3mbncDtv4/k50JUUSEjHPXJOHbB6iIJgRy5yTByGw5sm+5aHMwjfgse3LGTXxYmCa+XYzxbTb++A1Z7DeOGUtf/cX17W/FkR86QW48YtPmZzZ9k8Y+jnRqpY8gcGf/IrTSJDIvjeCf7qx1SflDKNtUhE2WVTBnEqvWMk9xrh7XSQc1Kg=
+  on:
+    tags: true
+    distributions: sdist
+    repo: openshine/python-esqb
