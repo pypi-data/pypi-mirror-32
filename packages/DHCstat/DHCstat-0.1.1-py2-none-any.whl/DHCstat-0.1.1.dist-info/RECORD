@@ -1,0 +1,12 @@
+DHCstat/__init__.py,sha256=d1CtnOcVBUGP7D252gqZssEFMNzlGYujlcf53VZ2LUo,221
+DHCstat/_version.py,sha256=_zBiLLbGwqm2Qe9coGfiH4bJkg8BY4XUHtezOSGAu_A,83
+DHCstat/datamining.py,sha256=6TBajJheJimBkE9hycYyZOBjQ1hehFn640ceovXLdBc,6379
+DHCstat/statistics.py,sha256=5RTyds86ZvT6K6l55QKCX7B8MhYDI4Q6oBAskovw4ew,24385
+DHCstat-0.1.1.dist-info/DESCRIPTION.rst,sha256=EcLszjkCjmUddgF2rox0ycQG1IFD51xEIvP7gee-pPs,70
+DHCstat-0.1.1.dist-info/METADATA,sha256=4wUXDCQQIE0FY3dUeY-AGHHPyqvvRPl-TaUPHsAfrA8,986
+DHCstat-0.1.1.dist-info/RECORD,,
+DHCstat-0.1.1.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+DHCstat-0.1.1.dist-info/entry_points.txt,sha256=7majIT6goB4ZsKauKuQCgJZULoj87YJnnNmlo5YXFV8,42
+DHCstat-0.1.1.dist-info/metadata.json,sha256=nr4Y-AIR6mXPmvP8TqOLJDlAaD1S8IuS013lE1ftvSY,1125
+DHCstat-0.1.1.dist-info/top_level.txt,sha256=3Tuz3LtOLlSGWTOKRCANan-b1KNvYjRivSnXuB4uUuA,8
+DHCstat-0.1.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1

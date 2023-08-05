@@ -1,0 +1,3 @@
+[console_scripts]
+DHCstat = DHCstat:main
+

@@ -1,0 +1,30 @@
+Metadata-Version: 2.0
+Name: DHCstat
+Version: 0.1.1
+Summary: DHC Python tool that automatically analysis.
+Home-page: UNKNOWN
+Author: Eddie Huang
+Author-email: huangyi@dhcc.com.cn
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Keywords: statistics,csv,machine learning,data analysis,data engineering
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Utilities
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: statsmodels
+
+A cool Python package that automatically does statistical analysis.
+
+
