@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: common-ops
+Version: 1.3.0
+Summary: Ops Common libraries
+Home-page: http://git.patsnap.com/devops/ops-libraries
+Author: ZhangLei
+Author-email: zhanglei@patsnap.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: python,common-libraries
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
