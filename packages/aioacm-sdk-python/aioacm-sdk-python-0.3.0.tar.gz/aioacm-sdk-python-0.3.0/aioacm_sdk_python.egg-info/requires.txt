@@ -1,0 +1,2 @@
+aiohttp
+aliyunsdkcorealiyun-python-sdk-kms
