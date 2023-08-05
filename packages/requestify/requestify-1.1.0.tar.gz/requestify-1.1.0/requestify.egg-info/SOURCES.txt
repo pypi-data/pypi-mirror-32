@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+requestify/1.py
+requestify/__init__.py
+requestify/test.py
+requestify.egg-info/PKG-INFO
+requestify.egg-info/SOURCES.txt
+requestify.egg-info/dependency_links.txt
+requestify.egg-info/requires.txt
+requestify.egg-info/top_level.txt
