@@ -1,0 +1,6 @@
+click
+watchdog
+crayons
+
+[django integration]
+django
