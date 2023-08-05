@@ -1,0 +1,8 @@
+setup.py
+spamme/__init__.py
+spamme/trash.py
+spamme.egg-info/PKG-INFO
+spamme.egg-info/SOURCES.txt
+spamme.egg-info/dependency_links.txt
+spamme.egg-info/not-zip-safe
+spamme.egg-info/top_level.txt
