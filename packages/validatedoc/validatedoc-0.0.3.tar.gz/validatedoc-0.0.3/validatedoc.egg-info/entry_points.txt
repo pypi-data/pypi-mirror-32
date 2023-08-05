@@ -1,0 +1,3 @@
+[console_scripts]
+validatedoc = validatedoc.validatedoc:main
+
