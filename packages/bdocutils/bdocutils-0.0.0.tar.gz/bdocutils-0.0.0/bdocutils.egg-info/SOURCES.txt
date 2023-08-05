@@ -1,0 +1,11 @@
+README.rst
+setup.cfg
+setup.py
+bdocutils/__init__.py
+bdocutils/files.py
+bdocutils.egg-info/PKG-INFO
+bdocutils.egg-info/SOURCES.txt
+bdocutils.egg-info/dependency_links.txt
+bdocutils.egg-info/requires.txt
+bdocutils.egg-info/top_level.txt
+bdocutils/configs/__init__.py
