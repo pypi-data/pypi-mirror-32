@@ -1,0 +1,24 @@
+{% load i18n cosinnus_tags %}
+
+{% with topics=object.media_tag_object.topics %}
+    {% if topics %}
+		<p class="">
+		<b>{% trans "Topics we are involved with" %}</b>
+		    <i class="fa fa-fw fa-lightbulb-o"></i>
+            {% render_cosinnus_topics topics %}
+		</p>
+	{% endif %}
+{% endwith %}
+
+{% for tag in object.media_tag_object.tags.all %}
+    {% if forloop.first %} 
+    <p class="">
+    <b>{% trans "Activities and interests" %}</b>
+        <i class="fa fa-fw fa-bolt"></i> 
+    {% endif %}
+    {% if not forloop.first %}, {% endif %}
+    {{ tag }}
+    {% if forloop.last %}
+    </p>
+    {% endif %}
+{% endfor %}

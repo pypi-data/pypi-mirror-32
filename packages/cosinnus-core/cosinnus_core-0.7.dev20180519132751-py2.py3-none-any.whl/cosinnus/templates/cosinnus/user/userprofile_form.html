@@ -1,0 +1,125 @@
+{% extends "cosinnus/base.html" %}
+{% load i18n static cosinnus_tags widget_tweaks %}
+
+{% block extrahead %}
+    {{ block.super }}
+    {% include 'cosinnus/common/simplemde_dependencies.html' with element_id=form.forms.obj.description.id_for_label %}
+{% endblock %}
+
+{% block page_title %}
+	   {% trans "Edit Your Profile" %}
+{% endblock %}
+
+{% block breadcrumb %}
+        <li class="active"><a href="{% url 'cosinnus:profile-detail' %}">{% trans "Your Profile" %}</a></li>
+        <li class="active">{% trans "Edit Profile" %}</li>
+{% endblock %}
+
+{% block leftnav %}
+    {% include 'cosinnus/user/leftnav.html' with view="edit_profile" %}
+    
+    {% include 'cosinnus/common/help_button_leftnav_for_popup.html' with help_text_id="helptext_4_profile" %}
+{% endblock leftnav %}
+
+
+{% block content %}
+
+    {% if form.forms.obj.errors or form.forms.media_tag.errors %}
+        <div class="alert alert-danger alert-dismissable">
+            <i class="fa fa-exclamation-triangle fa-3x"></i>
+            <p>{% trans "There was an error in one of the fields you entered. Please correct it before saving!" %}</p>
+        </div>
+    {% endif %}
+    
+    <form action="" method="post" enctype="multipart/form-data" class="cosinnus-form form-horizontal" role="form">
+    {% csrf_token %}
+    {{ form.forms.obj.media }}
+    
+        <!-- a box with semi transparent background -->
+        <div class="content-box">
+	        {{ form.forms.obj.non_field_errors }}
+		    {{ form.forms.user.non_field_errors }}
+            {{ form.forms.media_tag.non_field_errors }}
+		    
+                {% trans "Basic data" as basic_label %}
+                {% include 'cosinnus/fields/default_field.html' with label=basic_label first=True %}
+                
+                {% block user_info %}
+                    <div class="row">
+                        <div class="col-sm-6 regular-space">
+                            {# Regular Field #}
+							{% trans "First name" as first_name_label %}
+							{% trans "First name" as  first_name_placeholder %}
+							{% include 'cosinnus/fields/default_field.html' with field=form.forms.user.first_name label=first_name_label placeholder=first_name_placeholder %}
+                        </div>
+                        <div class="col-sm-6 regular-space">
+                            {# Regular Field #}
+							{% trans "Last name" as last_name_label %}
+							{% trans "Last name" as  last_name_placeholder %}
+							{% include 'cosinnus/fields/default_field.html' with field=form.forms.user.last_name label=last_name_label placeholder=last_name_placeholder %}
+                        </div>
+                    </div><!-- row -->
+                
+                {% endblock user_info %}
+                
+                
+                {# email Field #}
+				{% trans "E-Mail" as email_label %}
+				{% trans "E-Mail" as  email_placeholder %}
+				{% include 'cosinnus/fields/default_field.html' with field=form.forms.user.email label=email_label placeholder=email_placeholder %}
+				                
+
+                {# Avatar Field #}
+				{% trans "Profile avatar" as avatar_label %}
+				{% captureas avatar_legend %}{% trans "A picture for better recognition." %} {% trans "File Size" %}: {% trans "max. 10 MB" %}{% endcaptureas %}
+				{% captureas preview_html %}
+				    {% captureas preview_style %}width:{{SETTINGS.AWESOME_AVATAR.width}}px;height:{{SETTINGS.AWESOME_AVATAR.height}}px{% endcaptureas %}
+                    <div id="id_avatar-preview" class="awesome-avatar-preview" style="{{ preview_style }}">
+                        {% include "cosinnus/user/user_avatar_image.html" with user=request.user extra_style=preview_style image_size="medium-large" %}
+                    </div>
+				{% endcaptureas %}
+				{% include 'cosinnus/fields/avatar_field.html' with avatar_field=form.forms.obj.avatar label=avatar_label legend=avatar_legend preview_html=preview_html %}
+
+
+                {% block userprofile_about_fields %}
+                    
+                    {# SimpleMDE Description Field (gets initialized in extrahead) #}
+                    {# Large Field #}
+					{% trans "Who are you and what motivates you?" as description_label %}
+					{% trans "Tell others something about you!" as  description_placeholder %}
+					{% include 'cosinnus/fields/default_field.html' with field=form.forms.obj.description label=description_label placeholder=description_placeholder large_field=True %}
+					                    
+                    {# Regular Field #}
+					{% trans "Website" as website_label %}
+					{% trans "Example: http://mywebsite.com" as  website_placeholder %}
+					{% include 'cosinnus/fields/default_field.html' with field=form.forms.obj.website label=website_label placeholder=website_placeholder %}
+					                    
+               {% endblock userprofile_about_fields %}
+                    
+                    
+               
+                {% include "cosinnus/media_tags_userprofile.html" %} 
+    
+	    </div>
+	    
+	    <button type="submit" class="btn btn-emphasized">
+	        <ul class="media-list">
+	            <li class="media">
+	                <a class="pull-left" href="#">
+	                    <i class="fa fa-check"></i>
+	                </a>
+	                <div class="media-body">
+                        {% trans "Save" %}
+	                </div>
+	            </li>
+	        </ul>
+	    </button>
+    
+    
+    </form>
+    
+
+{% endblock %}
+
+
+

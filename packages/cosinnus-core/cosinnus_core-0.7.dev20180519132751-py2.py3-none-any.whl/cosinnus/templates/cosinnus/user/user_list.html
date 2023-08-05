@@ -1,0 +1,94 @@
+{% extends "cosinnus/base.html" %}
+{% load i18n thumbnail cosinnus_tags cosinnus_map_tags static %}
+
+{% block page_title %}{% trans "Users" %}{% endblock %}
+
+{% block extrahead %}
+    {{ block.super }}
+    <script src="{% static 'endless_pagination/js/endless-pagination.js' %}"></script>
+    <script>$(function(){$.endlessPaginate({
+					paginateOnScroll: true, 
+					paginateOnScrollMargin: 250, 
+					onCompleted: $.cosinnus.fadedown
+				});
+			});
+	</script>
+	{% include 'cosinnus/map/static_dependencies.html' %}
+{% endblock extrahead %}
+
+{% block leftnav %}
+    {% include "cosinnus/group/leftnav_all_groups.html"  with current_page="userlist" %}
+{% endblock leftnav %}
+
+
+{% block breadcrumb %}
+    <li><a href="{% url 'cosinnus:user-list' %}">{% trans "User overview" %}</a></li>
+    <li class="active">{% trans "Overview" %}</li>
+{% endblock %}
+
+{% block content %}
+    
+    <!-- a box with semi transparent background -->
+    <div class="content-box">
+    	{% include 'cosinnus/common/internet_explorer_not_supported.html' %}
+    
+		<div class="map-root"></div>
+		{% captureas map_settings %}{"activeFilters": {"groups": false, "events": false, "projects": false, "people": true}, "availableFilters": {"groups": true, "events": true, "projects": true, "people": true}, "topicsHtml": "{% render_cosinnus_topics_field "escape" %}", "markerIcons": {% render_map_marker_icon_json %}}{% endcaptureas %}
+		{% include 'cosinnus/common/init_client_module.html' with module='map' id=""|add_uuid height=400 settings=map_settings %}
+        <div class="clearfix"></div>
+    </div>
+    
+    <!-- a box with semi transparent background -->
+    <div class="content-box">
+        
+        <!-- hidden as long as create link is in the leftnav
+        {% if user|is_superuser %}
+	        <div type="button" class="btn btn-default w100 large-space">
+                <ul class="media-list">
+                    <li class="media">
+                        <a class="pull-left" href="#">
+                            <i class="fa fa-plus"></i>
+                        </a>
+                        <div class="media-body media-body-form-control">
+                            <input class="form-control next-button-is-for-sending"
+                                placeholder="Gib den Titel für eine neue Gruppe ein."
+                                value="" />
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <button type="button" class="btn btn-emphasized large-space" style="display: none;">
+                <ul class="media-list">
+                    <li class="media">
+                        <a class="pull-left" href="#">
+                            <i class="fa fa-pencil"></i>
+                        </a>
+                        <div class="media-body">
+                            Erstellen
+                        </div>
+                    </li>
+                </ul>
+            </button>
+        {% endif %}
+        -->
+        {% include 'cosinnus/user/user_list_items.html' %}
+        
+		{% if hidden_user_count > 0 %}
+            <div class="btn btn-default w100">
+                <ul class="media-list">
+                    <li class="media">
+                        <a class="pull-left" href="#">
+                            <img src="{% static 'images/jane-doe.png' %}" />
+                        </a>
+                        <div class="media-body">
+                            {% blocktrans with hidden_count=hidden_user_count %}And {{ hidden_count }} private users...{% endblocktrans %}
+                        </div>
+                    </li>
+                </ul>
+            </div>
+		{% endif %}
+
+    </div>
+    
+{% endblock %}
+

@@ -1,0 +1,60 @@
+{% load i18n static cosinnus_tags thumbnail %}
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">{% trans "Toggle navigation" %}</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            {% include 'cosinnus/brand_link.html' %}
+        </div><!-- navbar-header -->
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-left">
+            	{% include 'cosinnus/navbar_buttons.html' %}
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                {% include 'cosinnus/navbar_icon_buttons.html' %}
+                
+                {% if request.user.is_authenticated %}
+	                <li class="dropdown">
+	                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="{{ request.user|full_name }}">
+	                        {% include "cosinnus/user/user_avatar_image.html" with user=request.user image_size="mini" %}
+	                        <i class="fa fa-caret-down"></i>
+	                    </a>
+	                    <ul class="dropdown-menu">
+                            {% comment %}  
+                            <li><a href="{% url 'cosinnus:my_stream' %}">{% trans "My Stream" %}</a></li>
+                            {% endcomment %}
+                            {% if not SETTINGS.COSINNUS_IS_INTEGRATED_PORTAL %}
+                            	<li><a href="{% url 'cosinnus:profile-detail' %}">{% trans "My Profile" %}</a></li>
+                            {% endif %}
+                            <li><a href="{% url 'cosinnus:notifications' %}">{% trans "Notification Preferences" %}</a></li>
+                            {% if not SETTINGS.COSINNUS_IS_INTEGRATED_PORTAL %}
+		                        <li class="divider"></li>
+								<li><a href="{% url 'logout' %}">{% trans "Logout" %}</a></li>
+							{% endif %}
+	                    </ul>
+	                </li>
+                {% else %}
+                	{% url 'login' as login_url %}
+                	{% if not SETTINGS.COSINNUS_IS_INTEGRATED_PORTAL and login_url %}
+	                    <li>
+	                        <a href="{{ login_url }}{% if request.path != "/" %}?next={{ request.path }}{% endif %}">
+	                            {% trans "Login" %}
+	                        </a>
+	                    </li>
+                    {% endif %}
+		        {% endif %}
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+
+
+

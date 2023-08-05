@@ -1,0 +1,14 @@
+{% load i18n cosinnus_tags %}{% autoescape off %}
+
+{% blocktrans %}Hi, {{ user_name }}!
+
+Your membership request for {{ team_name }} has been accepted!{% endblocktrans %}
+
+{% trans "Follow this link to get active:" %}
+{{ protocol }}://{{ site.domain }}{% group_url 'cosinnus:group-dashboard' group=group %}
+
+
+
+{% blocktrans %}The {{ site_name }} team{% endblocktrans %}
+
+{% endautoescape %}

@@ -1,0 +1,392 @@
+body {
+  padding-top: 70px;
+
+	// works in IE 9+: http://css-tricks.com/perfect-full-page-background-image/
+	// background: no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body.body-no-nav {
+    padding-top: 17px !important;
+}
+
+/* Navbar at top of page */
+
+.navbar-fixed-top {
+	background-color:fadeout(@app-neutral-color-white, 35);
+	border-bottom-width:2px;
+
+	.fa {
+		// Icons
+		font-size: 17px;
+		font-weight: normal;
+	}
+
+	.navbar-brand {
+		height: 53px;
+
+		.fa {
+			// The house looks so tiny!
+			font-size: 20px;
+		}
+	}
+
+	.navbar-nav > li > a {
+		line-height: 20px;
+	}
+
+	#messageCounter {
+		position: absolute;
+		right: 5px;
+		top: 10px;
+		background-color: @app-neutral-color-white;
+		border-radius: 1em;
+		padding: 0 0.5em;
+		font-size: 0.8em;
+	}
+
+	.navbar-collapse {
+		@media(max-width:767px){
+			background-color: @app-neutral-color-white;
+				ul {
+					margin-top: 0;
+					margin-bottom: 0;
+					padding-top: 0;
+					padding-bottom: 0;
+
+					li {
+						a:hover {
+							background-color: @app-neutral-color-light !important;
+						}
+						border-bottom: 1px solid @app-neutral-color;
+						&.divider {
+							margin-top: 0;
+						}
+						&#searchbar {
+							width: 100%;
+							padding: 3px 40px 3px 10px;
+							input {
+								margin-top: 0;
+								width: 100%;
+								color: @app-neutral-color-dark;
+								box-shadow: none;
+							}
+
+							&:hover {
+								background-color: @app-neutral-color-light !important;
+							}
+						}
+					}
+				}
+
+		}
+	}
+}
+
+
+.row {
+	position: relative;
+}
+
+.breadcrumb a {
+	text-decoration: underline;
+	color: @app-neutral-color-light;
+}
+.breadcrumb a:hover {
+	color: @app-neutral-color-white;
+}
+
+// .form-control is a Bootstrap class for INPUT elements.
+// Center some placeholders but align the content left.
+.form-control {
+	border-width: 0;
+	padding: 0;
+	text-align: left;
+	line-height: inherit;
+	min-height: 40px;
+	background-color: inherit;
+	color: @app-neutral-color-dark;
+}
+.form-control:focus {
+	box-shadow: none;
+}
+
+
+.content-box .form-control {
+	text-align: left;
+}
+.content-box .form-control::-webkit-input-placeholder { text-align: left; }
+.content-box .form-control:-moz-placeholder { text-align: left; }
+.content-box .form-control::-moz-placeholder { text-align: left; }
+.content-box .form-control:-ms-input-placeholder { text-align: left; }
+
+// Simple text
+p, .white-content, .textfield, .CodeMirror .editor-preview {
+	margin-bottom: 0;
+    padding: 8px;
+	background-color: @app-neutral-color-white;
+	color: @app-neutral-color-dark;
+
+	a {
+		color: @app-main-color-dark;
+		font-weight: bold;
+
+		&:focus, &:active, &:hover {
+			color: @app-main-color-dark;
+			font-weight: bold;
+			text-decoration: underline;
+		}
+	}
+	
+	/* no further left/right padding on nested boxes */
+	p, .white-content {
+		padding: 8px 0;
+	}
+	
+	/* Hide linebreaks in sublists (those linebreaks are some markdown glitch) */
+	ul br, ol br, ul br {
+	    display: none;
+	}
+	
+}
+.textfield {
+    font-size: 14px;
+    word-break: break-word;
+    
+    img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
+.media-body .textfield {
+    padding-top: 0;
+    padding-left: 0;
+}
+.media-body .textfield p {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.textfield p:first-child {
+    padding-top: 0;    
+}
+.textfield p:last-child {
+    padding-bottom: 0;    
+}
+.media-body .textfield ul, .media-body .textfield ol {
+    padding-bottom: 8px;
+    
+    ul, ol, li {
+        padding-bottom: 0px;
+    }
+}
+/* Needed especially so text looks fine in .media-body */
+.textfield, .textfield p, .textfield ul, .textfield li {
+    white-space: normal !important;
+    line-height: 1.5em !important;
+}
+
+.white-content {
+	background-color: @app-neutral-color-white !important;
+}
+p.transparent, .white-content.transparent, .transparent-p p, .textfield.transparent, .textfield.transparent p {
+	background-color: transparent !important;
+	padding: 0;
+	margin: -4px 0 8px 0;
+
+	a {
+		color: @app-neutral-color-dark;
+		text-decoration: underline;
+	}
+}
+
+textarea {
+	width: 100%;
+	border-width: 0;
+	margin: 0;
+	background-color: @app-neutral-color-white;
+	color: @app-neutral-color-dark;
+	resize: vertical;
+	height: 10em;
+	line-height: 1.5em;
+	padding-top: 9px;
+
+	&.form-control {
+		padding: 8px;
+		line-height: 1.4em;
+		height: 10em;
+	}
+	&.oneline {
+		height: 2em;
+	}
+}
+
+
+.alert {
+	border-width: 0;
+	padding: 15px 15px 15px 70px;
+	position: relative;
+	min-height: 62px;
+
+	&.alert-success {
+		color: @app-neutral-color-white;
+		background-color: @app-main-color-yes;
+	}
+	&.alert-info {
+		color: @app-neutral-color-dark;
+		background-color:fadeout(@app-neutral-color-light, 70);
+	}
+	&.alert-warning {
+		color: @app-neutral-color-white;
+		background-color: @app-main-color-maybe;
+	}
+	&.alert-danger {
+		color: @app-neutral-color-white;
+		background-color: @app-main-color-no;
+	}
+
+	h4 {
+		margin: 0 0 0 0;
+	}
+
+	p {
+		background-color: transparent;
+		padding: 0;
+		margin: 5px 0 0 0;
+		color: inherit;
+	}
+
+	.close {
+		color: inherit;
+		opacity: 1;
+		font-size: 16px;
+		font-weight: normal;
+		right: 0;
+	}
+
+	a {
+		color: inherit;
+		font-weight: bold;
+	}
+
+	i {
+		position: absolute;
+		top: 15px;
+		left: 18px;
+ }
+}
+
+
+ul.pagination {
+	margin-bottom: 0;
+
+	li {
+		background-color: @app-neutral-color-white;
+		border-width: 0;
+		margin-right: 5px;
+		display: inline-block;
+
+		a {
+			color: @app-neutral-color-dark;
+			border-width: 0;
+		}
+		a:hover {
+			color: @app-neutral-color-white;
+			background-color: @app-neutral-color-dark;
+		}
+	}
+	li.active {
+		> a {
+			background-color: @app-neutral-color-white;
+			color: @app-neutral-color-dark;
+			font-weight: bold;
+			border-width: 0;
+		}
+		> a:hover {
+			color: @app-neutral-color-white;
+			background-color: @app-neutral-color-dark;
+		}
+
+	}
+}
+
+
+// Box with content from WYSIWYG-Editor
+.well {
+	border-width: 0;
+	background-color: @app-neutral-color-white;
+	margin: 8px 0 8px 0;
+	font-size: 14px;
+	padding: 0;
+}
+
+
+// FIELDSET LEGEND LABEL
+legend {
+	margin-top: 10px;
+	margin-bottom: 3px;
+	border-bottom-width: 0;
+	font-size: 15px;
+	font-weight: bold;
+	color: @app-neutral-color-white;
+}
+.content-box legend {
+	color: @app-neutral-color-dark;
+}
+
+label {
+	color: @app-neutral-color-dark;
+	font-weight: normal;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	font-size: 14px;
+
+	&.label-soft {
+		color: @app-neutral-color;
+	}
+}
+.content-box .dropdown {
+	margin-bottom: 13px;
+	margin-left: 5px;
+
+	button {
+		text-align: right;
+		color: @app-neutral-color-dark;
+		font-size: 14px;
+
+		&:hover, &:active, &:focus {
+			color: @app-neutral-color-dark;
+			background-color: @app-neutral-color-light;
+		}
+
+		width: 10em;
+	}
+
+	&.open {
+		button.btn-default.dropdown-toggle {
+			color: @app-neutral-color-dark;
+			background-color: @app-neutral-color-light;
+		}
+	}
+
+	ul.dropdown-menu {
+		padding: 0;
+
+		li {
+			border-bottom: 1px solid @app-neutral-color-light;
+
+			a {
+				padding: 10px 0 10px 7px;
+				font-size: 14px;
+				color: @app-neutral-color-dark;
+			}
+
+			&:last-child {
+				border-width: 0;
+			}
+		}
+	}
+}

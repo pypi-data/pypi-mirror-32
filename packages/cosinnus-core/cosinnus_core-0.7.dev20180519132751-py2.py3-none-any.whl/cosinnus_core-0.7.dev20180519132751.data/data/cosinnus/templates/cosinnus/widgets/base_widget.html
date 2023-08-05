@@ -1,0 +1,76 @@
+{% load i18n cosinnus_tags %}
+
+{% comment %} 
+    WARNING: It is extremely important that this contains only one parent div, 
+    and that this div has the  data-type="widget" attribute!
+{% endcomment %}
+
+<div class="dashboard-widget large-space clearfix" {% if widget_conf_id %}data-widget-id="{{ widget_conf_id }}"{% endif %} data-type="widget" data-widget-priority="{% if sort_field %}{{ sort_field }}{% else %}1000{% endif %}"><!-- left column -->
+    <div class="{% if widget_class %}{{widget_class}}{% else %}{% if app_name == 'todo' %}app-todos{% elif app_name == 'note' %}app-main{% elif app_name == 'file' %}app-files{% elif app_name == 'event' %}app-calendar{% elif app_name == 'cosinnus' %}app-main{% elif app_name %}app-{{ app_name }}{% else %}app-main{% endif %}{% endif %}"  >
+        
+        {% block base_widget_content %}
+            {% comment %} 
+            The refresh/edit/delete button, left out for now
+            <div class="btn-group pull-right">
+                <a href="#" class="btn darker btn-xs" title="{% trans "Refresh" %}" data-type="refresh"><span class="glyphicon glyphicon-refresh"></span></a>
+                {% if user|has_write_access:object %}
+                  <a href="#" class="btn darker btn-xs" title="{% trans "Configure" %}" data-type="edit"><span class="glyphicon glyphicon-wrench"></span></a>
+                  <a href="#" class="btn darker btn-xs" title="{% trans "Delete" %}" data-type="delete"><span class="glyphicon glyphicon-remove"></span></a>
+                {% endif %}
+              </div>
+            {% endcomment %}
+            <div type="button" class="btn btn-emphasized btn-headline" href="" data-target="widget-title-url">
+            
+                <ul class="media-list">
+                    <li class="media">
+                        <a class="pull-left btn-extra-emphasized" href="#"></a>
+                        {% block widget_icon %}
+	                        {% if widget_icon or widget_icon_content %}
+		                        <a class="pull-left" href="#">
+		                            {% if widget_icon_content %}
+		                                {{ widget_icon_content }}
+		                            {% else %}
+		                                <i class="fa {% if widget_icon %}{{ widget_icon }}{% else %}fa-question{% endif %}"></i>
+		                            {% endif %}
+		                        </a>
+	                        {% endif %}
+                        {% endblock widget_icon %}
+                        {% if edit_mode and edit_mode != False and group and request.user|is_group_admin:group or edit_mode != False and request.user.is_authenticaed and not group %}
+                            <a class="pull-right" href="#" data-type="delete" title="{% trans "Delete" %}">
+                                <i class="fa fa-trash-o"></i>
+                            </a>
+                            <a class="pull-right" href="#" data-type="edit" title="{% trans "Edit" %}">
+                                <i class="fa fa-cogs"></i>
+                            </a>
+                        {% endif %}
+                        <div class="media-body">
+			                {% block header_content %}
+                                <span {% if not widget_title %}data-target="widget-title"{% endif %}>{% block widget_title %}{% if widget_title %}{{ widget_title }}{% endif %}{% endblock widget_title %}</span>
+			                {% endblock %}
+                        </div>
+                    </li>
+                </ul>
+            </div><!-- btn -->
+            
+            {% block override_widget_content %}
+                <div data-target="widget-content">{% block widget_content %}{% endblock widget_content %}</div>
+            {% endblock override_widget_content %}
+            
+            {% block widget_button %}
+                <button type="button" class="btn btn-emphasized dashboard-appwidget-morebutton" data-target="widget-reload-button">
+                    <ul class="media-list">
+                        <li class="media">
+                            <a class="pull-right btn-extra-emphasized" href="#">
+                                <i class="fa {% if is_spare %}fa-floppy-o{% else %}fa-refresh{% endif %}"></i>
+                            </a>
+                            <div class="media-body">
+                                {% if link_label %}{{ link_label }}{% else %}{% trans "More" %}{% endif %}
+                            </div>
+                        </li>
+                    </ul>
+                </button><!-- btn -->
+            {% endblock widget_button %}
+        {% endblock base_widget_content %}
+    
+    </div><!-- app-widget -->
+</div>

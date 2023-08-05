@@ -1,0 +1,386 @@
+.item-header {
+    font-size: 20px;
+    padding: 15px 15px 15px 10px;
+}
+
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+/* Wagtail images responsive */
+
+.block-image img {
+	display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.richtext-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.richtext-image.right {
+    float: right;
+}
+
+/* Better text alignments for Wagtail */
+.rich-text *:first-child {
+	margin-top: 0;
+}
+.rich-text *:last-child {
+	margin-bottom: 0;
+}
+
+.block-paragraph {
+	margin-bottom: 15px;
+}
+
+.group-microsite-header {
+    position: relative;
+}
+
+.group-microsite-avatar {
+    width: 130px;
+    top: -30px;
+    position: relative;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: -30px;
+}
+
+.group-microsite-login-box {
+    padding: 10px;
+}
+.group-microsite-login-box {
+    @media(min-width:768px) {
+        max-width: 420px;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
+
+    h2 {
+        color: #333;
+        margin-top: 1px;
+        margin-bottom: 15px;
+        font-size: 20px;
+    }
+    
+    > .btn, > span > .btn {
+    	float: none;
+        margin: 0;
+    }
+    span + .btn {
+        margin-left: 8px;
+    }
+
+    @media(max-width:767px) {
+        .btn {
+            width: 100%;
+            margin: 0 0 15px 0;
+        }
+        span + .btn {
+            margin-left: 0px;
+        }
+    }
+}
+
+.group-microsite-box {
+    background-color: rgba(255, 255, 255, 0.7);
+    min-height: 130px;
+}
+
+.group-microsite-box h2 {
+    margin-top: 0px;
+    padding-top: 15px;
+    color: #333;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.group-microsite-details {
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+@media (max-width: 767px) {
+    .group-microsite-avatar {
+        width: 130px;
+        top: -30px;
+    }
+    .group-microsite-box {
+        min-height: 130px;
+    }
+}
+
+@media (min-width: 992px) {
+    .group-microsite-avatar {
+        width: 160px;
+        top: -30px;
+        margin-bottom: -30px;
+    }
+    .group-microsite-box {
+        min-height: 130px;
+    }
+    .group-microsite-box h2 {
+        font-size: 24px;
+    }
+    .group-microsite-details {
+        font-size: 14px;
+    }
+    .group-microsite-subheader {
+        font-size: 14px;
+    }
+}
+
+
+.group-microsite-subheader {
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+.group-microsite-subheader-container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.group-microsite-subheader-container {
+    display: inline-block;
+}
+
+.group-microsite-subheader-item {
+    color: #333;
+    float: left;
+    text-align: center;
+    line-height: 1em;
+    cursor: default;
+}
+
+.group-microsite-subheader-item + .group-microsite-subheader-item {
+}
+
+
+.group-microsite-subheader-item header {
+    text-transform: uppercase;
+    padding: 8px 8px 3px 8px;
+    font-size: 11px;
+}
+
+.group-microsite-subheader-item-value {
+    padding: 0 8px 3px 8px;
+    font-size: 18px;
+}
+
+
+.nav-tabs, .nav-tabs > li, .nav-tabs > li.active, 
+.nav-tabs > li > a, .nav-tabs > li.active > a,
+.nav-tabs > li > a:focus, .nav-tabs > li.active > a:focus,
+.nav-tabs > li > a:hover, .nav-tabs > li.active > a:hover {
+    border-color: #104a59;
+}
+
+.nav-tabs > li > a {
+    background-color: #16778d;
+    color: white;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus {
+    background-color: #104a59;
+    color: white;
+}
+
+.nav-tabs > li > a:hover, .nav-tabs > li.active > a:hover {
+    background-color: #104a59;
+    color: white;
+}
+
+
+.btn-no-interact {
+    cursor: default !important;
+}
+
+.app-main .btn-no-interact:hover .media, .app-main .btn-no-interact:hover .media > .media-body {
+    background-color: #16778d;
+}
+
+.icon-align-left:before           { content: "\f036"; font-family: "FontAwesome" !important; }
+.icon-align-center:before         { content: "\f037"; font-family: "FontAwesome" !important; }
+.icon-align-right:before          { content: "\f038"; font-family: "FontAwesome" !important; }
+.icon-align-justify:before        { content: "\f039"; font-family: "FontAwesome" !important; }
+
+
+
+.v-offset-s {
+    margin-top: 10px;
+}
+.v-offset-m {
+    margin-top: 15px;
+}
+.v-offset-l {
+    margin-top: 30px;
+}
+.v-spacer-s {
+    margin-bottom: 10px;
+}
+.v-spacer-m {
+    margin-bottom: 15px;
+}
+.v-spacer-l {
+    margin-bottom: 30px;
+}
+
+.widget-footer {
+	margin-top: 60px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	
+	p {
+		background-color: inherit;
+		color: #000000;
+	}
+}
+
+.footer-spacer {
+	height: 250px;
+}
+
+#wagtail-userbar {
+	margin-top: 55px;
+	opacity: 1 !important;
+}
+
+.popover-button {
+	cursor: pointer;
+}
+.popover {
+	color: @app-neutral-color-dark;
+
+	a {
+		color: @app-neutral-color-dark;
+		text-decoration: underline;
+	}
+}
+
+.no-margin {
+	margin: 0;
+}
+
+.no-padding {
+	padding: 0;
+}
+
+.noselect, .no-select {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */
+  cursor: default;
+}
+
+.select-disabled, .select-disabled a, .select-disabled input, .select-disabled button {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */
+  cursor: not-allowed;
+  opacity: 0.75;
+}
+
+.media-tag-warning-area {
+	background: @warning-color;
+	
+	> li {
+		color: #FFF !important;
+		white-space: normal;
+    	line-height: inherit;
+    	font-size: 1em;
+	}
+}
+
+.group-public-warning-area {
+	background: @warning-color;
+	color: #FFF !important;
+	
+	padding: 10px;
+	white-space: normal;
+	line-height: inherit;
+	font-size: 1.1em;
+}
+
+.cursor-pointer-input, .cursor-pointer, .cursor-pointer-input input {
+    cursor: pointer;
+}
+
+.cursor-zoom {
+    cursor: -moz-zoom-in; 
+    cursor: -webkit-zoom-in; 
+    cursor: zoom-in;
+}
+
+.list-link-panel {
+    float: left;
+    padding-left: 3px;
+    
+    a {
+        color: @app-neutral-color-dark;
+    }
+}
+
+/* SimpleMDE Editor fixes */
+.CodeMirror {
+    font-size: 14px !important;
+}
+
+.CodeMirror .editor-preview {
+    white-space: normal;
+}
+.CodeMirror .editor-preview p, .CodeMirror .editor-preview ul,
+.CodeMirror .editor-preview ol, .CodeMirror .editor-preview li,
+.CodeMirror .editor-preview pre, .CodeMirror .editor-preview h1,
+.CodeMirror .editor-preview h2, .CodeMirror .editor-preview h3 {
+    background-color: @app-neutral-color-light;
+}
+
+.CodeMirror-scroll {
+    cursor: text;
+}
+
+.cursor-text {
+    cursor: text;
+}
+
+/** Anchors with nicer offset */
+a.anchor {
+    display: block;
+    position: relative;
+    top: -150px;
+    visibility: hidden;
+}
+
+/** Siblings with .comma get proper commas inserted between them */
+.comma:not(:first-child) {
+  margin-left: -.3em;  
+}
+.comma:empty {
+  display: none;
+}
+.comma:not(:first-child):before {
+  content: ", ";
+}

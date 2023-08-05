@@ -1,0 +1,700 @@
+{% extends "cosinnus/base.html" %}
+{% load i18n cosinnus_tags thumbnail %}
+{% load static from staticfiles %}
+
+{% block page_title %}{{ group.name }} {{ block.super }}{% endblock page_title %}
+
+{% block extrahead %}
+  <link href="{% static "css/cosinnus.dashboard.css" %}" rel="stylesheet">
+{% endblock extrahead %}
+
+{% block og_meta_attributes %}
+	{% include 'cosinnus/group/group_og_meta_attributes.html' with group=group %}
+{% endblock og_meta_attributes %}
+
+{% block body_attributes %}{% if not user.is_authenticated %}class="body-no-nav"{% endif %}{% endblock body_attributes %}
+
+{% block cosinnus_navbar %}
+	{% if user.is_authenticated %}
+		{{ block.super }}
+	{% endif %}
+{% endblock cosinnus_navbar %}
+
+
+{% block main_page_header %}
+    <a name="microsite"></a>
+    
+	{% if user.is_authenticated %}
+		{% comment %} Combobox dropdown and breadcrumb {% endcomment %}
+	    <div class="row">
+	        <!-- start with left navigation -->
+	        <div class="col-lg-3 col-md-3"><!-- left column -->
+	            {% if group %}
+	                {% cosinnus_menu "cosinnus/appsmenu.html" %}
+	            {% endif %}
+	        </div><!-- left column -->
+	        <!-- now the content -->
+	        <div class="col-lg-9 col-md-9"><!-- right column -->
+	            <ol class="breadcrumb">
+	                {% include 'cosinnus/breadcrumb.html' %}
+	                <li class="active">{% trans "Microsite" %}</li>
+	            </ol>
+	        </div><!-- right column -->
+	    </div><!-- row -->
+    {% endif %}
+    
+    {% include 'cosinnus/messages.html' %}
+{% endblock main_page_header %}
+            
+
+{% block main_page %}
+    
+    {% if user.is_authenticated and user.pk in group.admins %}
+	    <div class="alert alert-warning alert-dismissable">
+            <i class="fa fa-heart fa-3x"></i>
+	        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&#215;</button>
+	        <p>
+	        	{% trans "Not happy with how your Microsite looks?" %}
+	        	<a href="{% group_url 'cosinnus:group-edit' group=group %}?tab=microsite">{% trans "Change it here..." %}</a>
+	        </p>
+	    </div>
+    {% endif %}
+    
+    {% block microsite_header %}
+	<div class="group-microsite-header">
+		<div class="group-microsite-login-box overlay-box-gray">
+		
+			{% if not user.is_authenticated %}
+			
+				{% if request.GET.invited == "1" %}
+					<h2>{% trans "You have been invited to collaborate!" %}</h2> {#  Jetzt anmelden und mitgestalten #}
+					{% if SETTINGS.COSINNUS_IS_SSO_PORTAL %}
+                        {% include 'cosinnus/registration/sso_login_button.html' with next=group.get_absolute_url|addstr:'join/?direct=1' %}
+                    {% else %}   
+						<span class="app-calendar"> {# Hacky green color #}
+			                <button href="{% url 'cosinnus:user-add' %}?next={{ group.get_absolute_url }}join/?direct=1" style="width: 100% !important;" type="button" class="btn btn-emphasized">
+			                    <ul class="media-list">
+			                        <li class="media">
+			                            <a class="pull-left" href="#">
+			                                <i class="fa fa-user-plus"></i>
+			                            </a>
+			                            <div class="media-body">
+											{% trans "Register and join!" %}
+			                            </div>
+			                        </li>
+			                    </ul>
+			                </button>
+		                </span>
+		            {% endif %}
+				{% else %}
+					<h2>{% trans "Join now and collaborate!" %}</h2> {#  Jetzt anmelden und mitgestalten #}
+					{% if SETTINGS.COSINNUS_IS_SSO_PORTAL %}
+                        {% include 'cosinnus/registration/sso_login_button.html' with next=group.get_absolute_url %}   
+                    {% else %}
+						<span class="app-calendar"> {# Hacky green color #}
+			                <button href="{% url 'cosinnus:user-add' %}?next={{ group.get_absolute_url }}" type="button" class="btn btn-emphasized">
+			                    <ul class="media-list">
+			                        <li class="media">
+			                            <a class="pull-left" href="#">
+			                                <i class="fa fa-user-plus"></i>
+			                            </a>
+			                            <div class="media-body">
+				                                {% trans "Register" %}
+			                            </div>
+			                        </li>
+			                    </ul>
+			                </button>
+		                </span>
+						<button href="{% url 'login' %}?next={{ group.get_absolute_url }}" type="button" class="btn btn-emphasized">
+		                    <ul class="media-list">
+		                        <li class="media">
+		                            <a class="pull-left" href="#">
+		                                <i class="fa fa-sign-in"></i>
+		                            </a>
+		                            <div class="media-body">
+		                                {% trans "Login" %}
+		                            </div>
+		                        </li>
+		                    </ul>
+		                </button>
+		            {% endif %}
+				{% endif %}
+	    		
+                
+	    	{% elif user.pk in group.members %}
+	    		<h2>{% trans "You are a member!" %}</h2>
+	    	
+	            <button href="{{ group.get_absolute_url }}" type="button" class="btn btn-emphasized">
+                    <ul class="media-list">
+                        <li class="media">
+                            <a class="pull-left" href="#">
+                                <i class="fa fa-sign-in"></i>
+                            </a>
+                            <div class="media-body">
+                                {% if group.type == 0 %}
+                                	{% trans "View Project" %}
+                                {% else %}
+                                	{% trans "View Group" %}
+                                {% endif %}
+                            </div>
+                        </li>
+                    </ul>
+                </button>
+	        {% elif user.pk in group.pendings %}
+	        	<h2>{% trans "Membership request pending..." %}</h2>
+	        	
+	        	<span class="app-etherpad">
+		            <button type="button" class="btn btn-emphasized" data-toggle="modal" data-target="#join_withdraw_modal">
+	                    <ul class="media-list">
+	                        <li class="media">
+	                            <a class="pull-left" href="#">
+	                                <i class="fa fa-sign-out"></i>
+	                            </a>
+	                            <div class="media-body">
+	                                {% trans "Withdraw" %}</span>
+	                            </div>
+	                        </li>
+	                    </ul>
+	                </button>
+                </span>
+	            {% captureas label %}{% blocktrans with title=group.name %}Do you really want to withdraw your join request to „{{ title }}“?{% endblocktrans %}{% endcaptureas %}
+	            {% captureas title %}{% trans "Withdraw Join Request" %}{% endcaptureas %}
+	            {% captureas action %}{% group_url 'cosinnus:group-user-withdraw' group=group %}{% endcaptureas %}
+	            {% include "cosinnus/modal_box.html" with id="join_withdraw_modal" label=label title=title form_action=action title_icon="fa-group" %}
+	            
+	        {% elif user.pk in group.invited_pendings %}
+	        	<h2>{% trans "You are invited!" %}</h2>
+	        	
+                <span class="app-calendar"> {# Hacky green color #}
+		            <button type="button" class="btn btn-emphasized" onclick="$('#accept-group-invitation-form').submit();">
+		                <ul class="media-list">
+		                    <li class="media">
+		                        <a class="pull-left" href="#">
+		                            <i class="fa fa-sign-in"></i>
+		                        </a>
+		                        <div class="media-body">
+		                    		{% trans "Accept Invitation" %}
+		                        </div>
+		                    </li>
+		                </ul>
+		            </button>
+                </span>
+                
+                {% captureas modal_decline_invitation_id %}userModal_decline_invitation_{{member.pk}}{% endcaptureas %}
+                <span class="app-etherpad">
+		            <button type="button" class="btn btn-emphasized" data-toggle="modal" data-target="#{{modal_decline_invitation_id}}">
+	                    <ul class="media-list">
+	                        <li class="media">
+	                            <a class="pull-left" href="#">
+	                                <i class="fa fa-close"></i>
+	                            </a>
+	                            <div class="media-body">
+	                                {% trans "Decline Invitation" %}</span>
+	                            </div>
+	                        </li>
+	                    </ul>
+	                </button>
+                </span>
+                
+                {# hidden form, triggered by accept-button JS #}
+        		<form id="accept-group-invitation-form" action="{% group_url 'cosinnus:group-user-accept' group=group %}" method="post" style="display: none;" >{% csrf_token %}
+                </form>
+                
+                {% captureas label %}{% blocktrans %}Do you really want to decline the invitation?{% endblocktrans %}{% endcaptureas %}
+                {% captureas title %}{% trans "Decline Invitation" %}{% endcaptureas %}
+                {% captureas action %}{% group_url 'cosinnus:group-user-decline' group=group %}{% endcaptureas %}
+                {% include "cosinnus/modal_box.html" with id=modal_decline_invitation_id label=label title=title form_action=action %}
+	        
+	        {% else %} {# User authenticated but not a members #}
+	        	<h2>{% trans "Collaborate!" %}</h2>
+	        	
+	        	<span class="app-calendar"> {# Hacky green color #}
+		            <button type="button" class="btn btn-emphasized" data-toggle="modal" data-target="#join_withdraw_modal">
+		                <ul class="media-list">
+		                    <li class="media">
+		                        <a class="pull-left" href="#">
+		                            <i class="fa fa-sign-in"></i>
+		                        </a>
+		                        <div class="media-body">
+		                    		{% trans "Join now!" %}
+		                        </div>
+		                    </li>
+		                </ul>
+		            </button>
+                </span>
+	            {% captureas label %}{% blocktrans with title=group.name %}Do you wish to request to join „{{ title }}“?{% endblocktrans %}{% endcaptureas %}
+	            {% captureas title %}{% trans "Join" %}{% endcaptureas %}
+	            {% captureas action %}{% group_url 'cosinnus:group-user-join' group=group %}{% endcaptureas %}
+	            
+	            {% include "cosinnus/modal_box.html" with id="join_withdraw_modal" label=label title=title form_action=action title_icon="fa-group" %}
+	        
+			{% endif %}
+			
+			{% if group.public and user.is_authenticated and not user.pk in group.members and not user.pk in group.invited_pendings %}
+	    		<button href="{{ group.get_absolute_url }}?browse=true" type="button" class="btn btn-emphasized">
+                    <ul class="media-list">
+                        <li class="media">
+                            <a class="pull-left" href="#">
+                                <i class="fa fa-sign-in"></i>
+                            </a>
+                            <div class="media-body">
+                                {% trans "Browse" %}
+                            </div>
+                        </li>
+                    </ul>
+                </button>
+	    	{% endif %}
+			
+		</div>
+		
+		{% include "cosinnus/group/group_microsite_header_image.html" %}
+		
+		<div class="group-microsite-box">
+			<div class="group-microsite-avatar">
+				{% include "cosinnus/group/group_avatar_image.html" with group=group extra_classes="image" %}
+			</div>
+			
+			{% block microsite_main_content %}
+				<h2>{{ group.name }}</h2>
+				
+				
+				<div class="group-microsite-details">
+					
+					<p class="transparent">
+		            	{% if group.public %}
+		            		<i>{% if group.type == 0 %}{% trans "Public Project" %}{% else %}{% trans "Public Group" %}{% endif %}</i>
+		            	{% else %}
+		            		<i>{% if group.type == 0 %}{% trans "Project" %}{% else %}{% trans "Group" %}{% endif %}</i> 
+		            	{% endif %}
+		            </p>
+		            
+		            {% with parent=group.get_parent_typed %}
+		                {% if parent %}
+		                    <p class="transparent">
+		                    	{% trans "Group" %}: <a href="{{ parent.get_absolute_url }}">{{ parent.name }}</a>
+		                    	{% comment %} Other Projects (siblings) link out for now.
+		                    	{% with siblings=group.get_siblings %}
+		                    		{% if siblings %}
+		                    			| {% trans "Other Projects" %}: 
+		                    			{% for sibling in siblings %}
+		                    				<a href="{{ sibling.get_absolute_url }}">{{ sibling.name }}</a>
+		                    				{% if not forloop.last %}, {% endif %}
+		                    			{% endfor %}
+		                    		{% endif %}
+		                    	{% endwith %}
+		                    	{% endcomment %}
+		                    </p>
+		                {% else %}
+				            {% with children=group.get_children %}
+				        		{% if children %}
+				        			<p class="transparent">
+					        			{% trans "Projects" %}: 
+					        			{% for child in children %}
+					        				<a href="{{ child.get_absolute_url }}">{{ child.name }}</a>{% if not forloop.last %}, {% endif %}
+					        			{% endfor %}
+				        			</p>
+				        		{% endif %}
+				        	{% endwith %}
+		                {% endif %}
+		            {% endwith %}
+	            
+	            {% endblock microsite_main_content %}
+			</div>
+			
+			
+		</div>
+	</div>
+	{% endblock microsite_header %}
+	
+	{% block microsite_subheader %}
+	<div class="group-microsite-subheader">
+		<div class="group-microsite-subheader-container">
+			<div class="group-microsite-subheader-item">
+				<header>{% trans "Members" %}</header>
+				<div class="group-microsite-subheader-item-value">{{ group.member_count }}</div>
+			</div>
+			<div class="group-microsite-subheader-item">
+				<header>{% trans "News posts" %}</header>
+				<div class="group-microsite-subheader-item-value">{{ object_counts.note }}</div>
+			</div>
+			
+			<div class="group-microsite-subheader-item">
+				<header>{% trans "Events" %}</header>
+				<div class="group-microsite-subheader-item-value">{{ object_counts.event }}</div>
+			</div>
+		</div>
+	</div>
+	{% endblock microsite_subheader %}
+	
+	
+	
+	{% block microsite_content %}
+	
+	
+	<div class="row">
+		<div class="col-xs-12">
+			
+			{# About Project box #}
+			<div type="button" class="btn btn-emphasized btn-headline v-offset-l btn-no-interact">
+	            <ul class="media-list">
+	                <li class="media">
+	                    <a class="pull-left btn-extra-emphasized" href="#"></a>
+	                    <div class="media-body">
+	                        {% if group.type == 0 %}{% trans "About the Project" %}{% else %}{% trans "About the Group" %}{% endif %}
+	                    </div>
+	                </li>
+	            </ul>
+	        </div><!-- btn -->
+	        
+	        <div class="white-content">
+	        	{% block microsite_group_description %}
+	        		
+	        		<div class="textfield">
+		        	{% if group.description_long and group.description_long|length > 0 %}
+			            {{ group.description_long|textfield }}
+			        {% elif group.description and group.description|length > 0 %}
+			            {{ group.description|textfield }}
+			        {% else %}
+			        	<i>
+			        		{% if group.type == 0 %}
+			        			{% trans "There is no description for this project yet." %}
+			        		{% else %}
+			        			{% trans "There is no description for this group yet." %}
+			        		{% endif %}
+		        		</i>
+			        {% endif %}
+			        </div>
+			        
+			        		{% comment %}  
+			        <div class="row">
+			        	<div class="col-xs-12">
+			        			https://www.flickr.com/photos/moopus/sets/72157601996566901
+			        			flashvars="offsite=true&amp;lang=de-de&amp;page_show_url=photos%2Fmoopus%2Fsets%2F72157601996566901%2Fshow%2F&amp;page_show_back_url=photos%2Fmoopus%2Fsets%2F72157601996566901%2Fshow%2F&amp;set_id=72157601996566901&amp"
+		        			<embed type="application/x-shockwave-flash" src="http://www.flickr.com/apps/slideshow/show.swf?v=124984" 
+		        				allowfullscreen="true" 
+		        				flashvars="offsite=true&amp;lang=de-de&amp;page_show_url=photos%2F{{ flickruser }}%2Fsets%2F{{ setid }}%2Fshow%2F&amp;page_show_back_url=photos%2F{{ flickruser }}%2Fsets%2F{{ setid }}%2Fshow%2F&amp;set_id={{ setid }};" 
+		        				height="250px" width="100%">
+		        		</div>
+		        		{# flashvars="offsite=true&amp;lang=de-de&amp;page_show_url=%2Fphotos%2Fmitosthh%2Fsets%2F72157627537987744%2Fshow%2Fwith%2F6088857705%2F&amp;page_show_back_url=%2Fphotos%2Fmitosthh%2Fsets%2F72157627537987744%2Fwith%2F6088857705%2F&amp;set_id=72157627537987744&amp;jump_to=6088857705" #}
+			        	<div class="col-xs-3">
+							smal
+			        	</div>
+			        </div>
+			        		{% endcomment %}
+			        
+			        {% with gallery_images=group.gallery_images.all  %}
+			        	{% if group.video or gallery_images %} {# todo: check for video #}
+					        <div class="row" style="padding: 0 15px;">
+						        
+						        {% if group.video %}
+							        <div class="col-md-6">
+								    	<div class="row">
+							        		{{ group.render_video_embed }}
+							        	</div>
+							        </div>
+						        {% endif %}
+						        
+						        {# check for existing group video, if exists, make the gallery a full row, otherwise a lg-6  #}
+							    <div class="{% if group.video %}col-md-6{% else %}col-xs-12{% endif %}">
+							    	<div class="row">
+							    		{% for gallery_image in gallery_images %}
+							    			{# up to 3 images side by side in video view , or 6 in non-video. xs always gets 2 images next to each other #}
+							    			<div class="{% if group.video %}col-xs-6 col-md-4{% else %}col-xs-6 col-sm-3 col-md-2{% endif %} regular-space">
+								                <a href="{{ gallery_image.static_image_url }}" data-lightbox-download="{{ gallery_image.static_image_url }}" data-lightbox="microsite-image-gallery" data-title="{{ gallery_image.title }}">
+								                    <img class="image" src="{% thumbnail gallery_image.image 300x300 crop=1 upscale=1 %}" title='{{ gallery_image.title }}'/>
+								                </a>
+							    			</div>
+							    		{% endfor %}
+							    	</div>
+							    </div>     
+					        </div>
+					    {% endif %}
+					{% endwith %}
+					
+					<p>
+						{% block microsite_metadata %}
+					        {% with tags=group.media_tag_object.tags.all topics=group.media_tag_object.topics %}
+						        {% if tags %}
+						        	<b>{% trans "Tags" %}:</b>
+									{% for tag in tags %}
+									    {{ tag }}{% if not forloop.last %}, {% endif %}
+								    {% endfor %}
+									<br/>
+								{% endif %}
+								{% if topics %}
+									<b>{% trans "Topics" %}:</b>
+                                    {% render_cosinnus_topics topics %}
+									<br/>
+								{% endif %}
+								
+							{% endwith %}
+						{% endblock microsite_metadata %}
+					</p>
+					
+	                {% with related_groups=group.related_groups.all %}
+		        		{% if related_groups %}
+		        			<p class="transparent">
+			        			{% trans "Related Projects/Groups" %}: 
+			        			{% for related_group in related_groups %}
+			        				<a href="{{ related_group.get_absolute_url }}">{{ related_group.name }}</a>{% if not forloop.last %}, {% endif %}
+			        			{% endfor %}
+		        			</p>
+		        		{% endif %}
+		        	{% endwith %}
+					
+					<p>
+						<b>{% trans "Share" %}:</b>&nbsp;
+						<a href="https://www.facebook.com/sharer/sharer.php?u={{ group.get_absolute_url|escape }}" target="_blank" title="{% trans "Share on Facebook" %}">
+							<i class="fa fa-2x fa-facebook-square"></i
+						></a>&nbsp;
+						<a href="https://twitter.com/intent/tweet?text=Check out {{ group.get_absolute_url|escape }}" target="_blank">
+							<i class="fa fa-2x fa-twitter-square"></i
+						></a>&nbsp;
+						<a href="https://plus.google.com/share?url={{ group.get_absolute_url|escape }}" target="_blank">
+							<i class="fa fa-2x fa-google-plus-square"></i
+						></a>
+					</p>
+					
+				{% endblock microsite_group_description %}
+	        </div>
+		</div> <!-- col-xs-12 -->
+	</div> <!-- row -->
+	
+	<div class="row">
+		<div class="col-md-6">
+			{% block microsite_left_column %}
+				
+				{# Contact box #}
+				<div type="button" class="btn btn-emphasized btn-headline v-offset-l btn-no-interact">
+		            <ul class="media-list">
+		                <li class="media">
+		                    <a class="pull-left btn-extra-emphasized" href="#"></a>
+		                    <div class="media-body">
+		                        {% trans "Contact" %}
+		                    </div>
+		                </li>
+		            </ul>
+		        </div><!-- btn -->
+		        
+	        	{# Little hack to show an empty message, because a render-time empty check is complex due to extendable blocks #}
+	        	<script type="text/javascript"> 
+	        		$(function() {
+	        			var box = $('#microsite_contact_content');
+		        		if (box.text().replace(/\s/g, '').length == 0) {
+		        			box.html("<p><i>{% trans "No contact data has been added yet." %}</i></p>");
+		        		}
+	        		});
+	        	</script>
+		        <div id="microsite_contact_content" class="white-content">
+					
+		        	{% if group.contact_info and group.contact_info|length > 0 %}
+			            <div class="textfield">
+			            	{{ group.contact_info|textfield }}
+		            	</div>
+			        {% endif %}
+		        	
+		        	<p>
+			        	{% block microsite_group_contact %}
+			        		{% if group.website %}
+			        			<b>{% trans "Website" %}:</b>
+			        			<a href="{{ group.website }}" target="_blank">{{ group.website }}</a>
+			        			<br/>
+			        		{% endif %}
+			        		{% with group_locations=group.locations.all %}
+			        			{% if group_locations %}
+			        				<b>{% trans "Location" %}:</b>
+						        	{% for group_location in group.locations.all %}
+							        	<a href="{{ group_location.location_url }}" target="_blank">{{ group_location.location }}</a>{% if not forloop.last %}, {% endif %}
+									{% endfor %}
+									<br/>
+								{% endif %}
+							{% endwith %}
+						{% endblock microsite_group_contact %}
+		        	</p>
+				</div>
+				{% with group_admins=group.actual_admins %}
+				    {% if group_admins %}
+						<div class="white-content">
+						    <p>
+						        <b>{% if group.type == 0 %}{% trans "Project Administrator" %}{% else %}{% trans "Group Administrator" %}{% endif %}:</b>&nbsp;
+						        {% for admin in group_admins %}
+						            <a href="{{ admin|profile_url }}" >{{ admin|full_name }}</a>
+						            {% if not forloop.last %}, {% endif %}
+						        {% endfor %}
+						    </p>
+						    {% with contact_url=group.get_admin_contact_url %}
+							    <button href="{% if user.is_authenticated %}{{ contact_url }}{% else %}{% url 'login' %}?next={{ contact_url|urlencode }}{% endif %}" type="button" class="btn btn-emphasized" style="float: none; margin-left: 0px;">
+			                        <ul class="media-list">
+			                            <li class="media">
+			                                <a class="pull-left" href="#">
+			                                    <i class="fa fa-envelope"></i>
+			                                </a>
+			                                <div class="media-body">
+			                                    {% trans "Contact" %}
+			                                </div>
+			                            </li>
+			                        </ul>
+			                    </button>
+		                    {% endwith %}
+						</div>
+				    {% endif %}
+				{% endwith %}
+				
+				{# Public objects box #}
+				{% if public_objects %}
+					{% for app_name, public_object_list in public_objects.items %}
+					    {% if not app_name == 'note' %} {% comment %} Fix "MICROSITE_DOUBLE_NEWSBOX": hide note box {% endcomment %}
+							<div type="button" class="btn btn-emphasized btn-headline v-offset-l btn-no-interact">
+					            <ul class="media-list">
+					                <li class="media">
+					                    <a class="pull-left btn-extra-emphasized" href="#"></a>
+					                    <div class="media-body">
+					                        {% trans app_name context "the_app" %}
+					                    </div>
+					                </li>
+					            </ul>
+					        </div><!-- btn -->
+					        <div class="" style="background-color: #ffffff !important;">
+					        	{% with user=anonymous_user %}
+						        	{% for public_object in public_object_list %}
+						        		{% cosinnus_render_single_object public_object hide_group_name=True no_space=True %}
+						        	{% endfor %}
+					        	{% endwith %}
+							</div>
+					    {% endif %}
+					{% endfor %}
+				{% endif %}
+				
+				
+			{% endblock microsite_left_column %}
+		</div> <!-- col-md-6 -->
+		
+		<div class="col-md-6">
+			{% block microsite_right_column %}
+			
+				{# News box #}
+				{% if not group|is_app_deactivated:'cosinnus_note' %}
+					<div type="button" class="btn btn-emphasized btn-headline v-offset-l btn-no-interact">
+			            <ul class="media-list">
+			                <li class="media">
+			                    <a class="pull-left btn-extra-emphasized" href="#"></a>
+			                    <div class="media-body">
+			                        {% trans "News" %}
+			                    </div>
+			                </li>
+			            </ul>
+			        </div><!-- btn -->
+			        <div class="white-content no-padding">
+			        	<iframe src="{% group_url 'cosinnus:note:embed' group=group %}" style="width: 100%; height: 350px;" frameborder=0></iframe>
+					</div>
+				{% endif %}
+				
+				{% if group.twitter_username %}
+					{# Twitter username feed box #}
+					<div type="button" class="btn btn-emphasized btn-headline v-offset-l btn-no-interact">
+			            <ul class="media-list">
+			                <li class="media">
+			                    <a class="pull-left btn-extra-emphasized" href="#"></a>
+			                    <div class="media-body">
+			                        {% trans "Tweets" %}
+			                    </div>
+			                </li>
+			            </ul>
+			        </div><!-- btn -->
+			        <div class="white-content no-padding">
+			        	{% include 'cosinnus/common/embed_twitter_field.html' with twitter_username=group.twitter_username %}
+					</div>
+				{% endif %}
+				
+				{% if group.twitter_widget_id %}
+					{# Twitter custom feed box #}
+					<div type="button" class="btn btn-emphasized btn-headline v-offset-l btn-no-interact">
+			            <ul class="media-list">
+			                <li class="media">
+			                    <a class="pull-left btn-extra-emphasized" href="#"></a>
+			                    <div class="media-body">
+			                        {% trans "Tweets" %}
+			                    </div>
+			                </li>
+			            </ul>
+			        </div><!-- btn -->
+			        <div class="white-content no-padding">
+			        	{% include 'cosinnus/common/embed_twitter_field.html' with twitter_widget_id=group.twitter_widget_id %}
+					</div>
+				{% endif %}
+				
+				
+				{% if group.flickr_url %}
+					{# Flickr custom feed box #}
+					<div type="button" class="btn btn-emphasized btn-headline v-offset-l btn-no-interact">
+			            <ul class="media-list">
+			                <li class="media">
+			                    <a class="pull-left btn-extra-emphasized" href="#"></a>
+			                    <div class="media-body">
+			                        {% trans "Flickr Gallery" %}
+			                    </div>
+			                </li>
+			            </ul>
+			        </div><!-- btn -->
+			        <div class="white-content no-padding">
+			        	{% include 'cosinnus/common/embed_flickr_field.html' with data=group.get_flickr_properties %}
+					</div>
+				{% endif %}
+				
+				{% with call_to_action_buttons=group.call_to_action_buttons.all  %}
+					{% if group.call_to_action_active %}
+					    {% if call_to_action_buttons or group.call_to_action_description %}
+						    {# Call to Action box #}
+						    <div type="button" class="btn btn-emphasized btn-headline v-offset-l btn-no-interact">
+		                        <ul class="media-list">
+		                            <li class="media">
+		                                <a class="pull-left btn-extra-emphasized" href="#"></a>
+		                                <div class="media-body">
+		                                    {% if group.call_to_action_title %}
+		                                        {{ group.call_to_action_title }}
+		                                    {% else %}
+		                                        {% trans "Call to Action" %}
+		                                    {% endif %}
+		                                </div>
+		                            </li>
+		                        </ul>
+		                    </div><!-- btn -->
+		                    <div class="white-content">
+		                        {% if group.call_to_action_description %}
+		                            <div class="textfield">
+		                                {{ group.call_to_action_description|textfield }}
+		                            </div>
+		                        {% endif %}
+		                        {% for cta_button in call_to_action_buttons %}
+		                            <button href="{{ cta_button.url }}" target="_blank" type="button" class="btn btn-emphasized" style="float: none; margin-left: 0px;">
+	                                    <ul class="media-list">
+	                                        <li class="media">
+	                                            <a class="pull-left" href="#">
+	                                                <i class="fa fa-external-link"></i>
+	                                            </a>
+	                                            <div class="media-body">
+	                                                {{ cta_button.label }}
+	                                            </div>
+	                                        </li>
+	                                    </ul>
+	                                </button>
+		                        {% endfor %}
+		                    </div>
+		                {% endif %}
+					{% endif %}
+				{% endwith %}
+				
+				
+			{% endblock microsite_right_column %}
+		</div> <!-- col-md-6 -->
+	</div> <!-- row -->
+	
+	{% endblock microsite_content %}
+	
+
+{% endblock main_page %}
+
+
+{% block extrafooter %}
+  {{ block.super }}
+{% endblock %}
