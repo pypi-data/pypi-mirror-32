@@ -1,0 +1,3 @@
+[console_scripts]
+sheepdog-exporter = sheepdog_exporter.sheepdog_exporter:main
+
