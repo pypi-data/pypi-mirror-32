@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+bin/grm
+git_remote_manager.egg-info/PKG-INFO
+git_remote_manager.egg-info/SOURCES.txt
+git_remote_manager.egg-info/dependency_links.txt
+git_remote_manager.egg-info/requires.txt
+git_remote_manager.egg-info/top_level.txt
+grm/__init__.py
+grm/api.py
+grm/core.py
+grm/macro.py
+grm/utils.py

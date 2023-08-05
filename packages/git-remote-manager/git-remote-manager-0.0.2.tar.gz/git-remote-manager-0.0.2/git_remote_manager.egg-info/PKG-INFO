@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: git-remote-manager
+Version: 0.0.2
+Summary: Git Remote Manager
+Home-page: https://github.com/FloydaGithub/git-remote-manager
+Author: Floyda
+Author-email: floyda@163.com
+License: MIT
+Description: Git Remote Manager
+Keywords: git remote private server
+Platform: UNKNOWN
