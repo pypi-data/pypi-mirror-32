@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: geomstats
+Version: 1.9
+Summary: Geometric statistics on manifolds
+Home-page: http://github.com/ninamiolane/geomstats
+Author: Nina Miolane
+Author-email: ninamio78@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: codecov
+Requires-Dist: coverage
+Requires-Dist: matplotlib
+Requires-Dist: nose2
+Requires-Dist: numpy (>=1.14.1)
+Requires-Dist: scipy
+Requires-Dist: tensorflow (>=1.8)
+
+UNKNOWN
+
+
