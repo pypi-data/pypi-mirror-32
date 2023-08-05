@@ -1,0 +1,37 @@
+Metadata-Version: 1.0
+Name: sokery
+Version: 0.3.1.post2
+Summary: Socket testing with web interface
+Home-page: https://github.com/gamikun/sokery
+Author: Gamaliel Espinoza
+Author-email: gamaliel.espinoza@gmail.com
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Description: # Running the service
+        
+        ## Simplest way
+        
+            sokery run
+            # or
+            python -m sokery run
+        
+        Once the service is running, you can access the interface by the common url:
+        
+            http://localhost:4991
+        
+        ## Limiting the ports that can be used
+        
+            sokery run -a 1500-1600,35101
+            # You can use ranges and alone ports
+        
+        ## Pre-running ports
+        
+            sokery run -l 35100,35101
+        
+        # Dependencies
+        
+        * tornado
+        * requests
+        
+Keywords: sokery
+Platform: UNKNOWN
