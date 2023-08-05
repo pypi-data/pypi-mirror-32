@@ -1,0 +1,2 @@
+import sys; exec('\ntry:\n    import both\nexcept ImportError:\n    pass\nelse:\n    both.register()\n')
+
