@@ -1,0 +1,2 @@
+flask-logging-decorator
+flask_logging_decorator
