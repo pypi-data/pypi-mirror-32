@@ -1,0 +1,11 @@
+prune doc
+prune util
+include *.txt
+include LICENSE
+include *.rst
+include tox.ini
+exclude .gitmodules
+recursive-include tests *.py
+recursive-include claimchain *.py
+prune cc
+prune rousseau
