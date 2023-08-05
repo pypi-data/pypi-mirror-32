@@ -1,0 +1,10 @@
+simple_amqp/__init__.py,sha256=gz4INFO2b1q-ap4mrGP_7GBDfQjrk6BYjQakpFIikSI,315
+simple_amqp/actions.py,sha256=xJKDs_GnRiQSA2o3Tyur5p4GrBgAD3CFivyRKLluo-w,1840
+simple_amqp/asyncio.py,sha256=K4GlHFf8v1sR5mYRqWKulJWcfhZSKs4ABN-DfJenUZM,14130
+simple_amqp/base.py,sha256=rhim-x1UVpTFnSOEs6YME5T6BYgoTqcy5Pj_jSkoNlY,8381
+simple_amqp/data.py,sha256=J1ZR4W5ZNTvQYySmhJbdQHZXoIjOmKAuYaHNPHtTZhk,795
+simple_amqp/gevent.py,sha256=8mjj7kCHgWXyI0-K-CttRpD0MwYBlsX_-ZuuU9KxWAo,14924
+simple_amqp-0.1.0.dist-info/METADATA,sha256=wni8U7PLVLmbycMvHSsCOg5vr5D5jtyeG75rClu4lt0,2522
+simple_amqp-0.1.0.dist-info/RECORD,,
+simple_amqp-0.1.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+simple_amqp-0.1.0.dist-info/top_level.txt,sha256=mPxm2sFOv1F-NozGB8I3Q8GwwCl_FPsbXtYlIpOyhLQ,12
