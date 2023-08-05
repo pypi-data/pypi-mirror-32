@@ -1,0 +1,4 @@
+include hatshufflepy/hatshufflepy.pxd
+include hatshufflepy/hatshufflepy.pyx
+recursive-include hatshufflepy/libhatshuffle/include *
+recursive-include hatshufflepy/libhatshuffle/lib *
