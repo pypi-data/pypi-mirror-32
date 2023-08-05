@@ -1,0 +1,10 @@
+stocksdashboard/__init__.py,sha256=EIaF9gjlU0IugHu2GPh96E1RuyqyHlO645KtTNFMo-Q,771
+stocksdashboard/dashboard_with_widgets.py,sha256=Le2I3MNURJWEmuTbmUgbWod63BhccYqFLzr9KtetBcw,6181
+stocksdashboard/formatter.py,sha256=tYXJ53RejD_gBDuR_8ZC_C_uHX8XJJ7iu_8SpfkRowM,14045
+stocksdashboard/main.py,sha256=dKWNOURBztMmMu2f9VVCibI1IfyjUN56hdAkLKzIoKw,976
+stocksdashboard/setup.py,sha256=0TFlD87NA7VbNhc2seuemoEyKGQM9BREBkYTZDRlLBs,608
+stocksdashboard/stocksdashboard.py,sha256=IZU1d2Tah8ExFszR53igEPrb4nqIjr26nLWeMfVDCWs,17249
+stocksdashboard-0.23.dev0.dist-info/METADATA,sha256=0jr8pz4IGR8FSABaoHGv0p8FraXEHjxh9VDPitBluyU,582
+stocksdashboard-0.23.dev0.dist-info/RECORD,,
+stocksdashboard-0.23.dev0.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+stocksdashboard-0.23.dev0.dist-info/top_level.txt,sha256=sGiJ7rAx-bYdqm5YrET9GvP_yUL1WoCNq8Q_XVdEmZ4,16
