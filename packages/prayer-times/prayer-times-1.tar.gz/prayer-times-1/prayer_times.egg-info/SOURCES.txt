@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+prayer-times/__init__.py
+prayer_times.egg-info/PKG-INFO
+prayer_times.egg-info/SOURCES.txt
+prayer_times.egg-info/dependency_links.txt
+prayer_times.egg-info/not-zip-safe
+prayer_times.egg-info/requires.txt
+prayer_times.egg-info/top_level.txt
