@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: dariah_topics
+Version: 1.0.0.dev0
+Summary: DARIAH Topic Modeling
+Home-page: https://dariah-de.github.io/Topics
+Author: DARIAH-DE Wuerzburg Group
+Author-email: pielstroem@biozentrum.uni-wuerzburg.de
+License: Apache 2.0
+Description: UNKNOWN
+Keywords: topic modeling,lda,natural language processing,digital humanities
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
