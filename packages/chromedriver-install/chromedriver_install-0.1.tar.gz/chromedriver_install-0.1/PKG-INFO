@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: chromedriver_install
+Version: 0.1
+Summary: Package for installing the latest chromedriver automatically.
+Home-page: http://github.com/shadowmoose/chrome_driver
+Author: ShadowMoose
+Author-email: shadowmoose@github.com
+License: MIT
+Description: Call the chrome_driver.install() method to install the driver file!
+Platform: UNKNOWN
