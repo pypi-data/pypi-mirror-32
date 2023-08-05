@@ -1,0 +1,12 @@
+channels_irc/__init__.py,sha256=qBs4HqYsPn6yUHWEuCN4rGUC05gABbl800d8LBd8h9w,22
+channels_irc/cli.py,sha256=774r9HJzp7Y9gdwPSyGLiT6qwgr8lsNHQLJEMcHWZ0Y,5564
+channels_irc/client.py,sha256=Vo-SGtAis0xGB8vEQ6ntujNlvIwcqffo40BbWAnWK_A,9078
+channels_irc/consumers.py,sha256=EvhL1Wskyo-iNewUppoGZ-e5Wg1xwcu7AFn0wCf3TRs,5539
+channels_irc/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+channels_irc/tests/test_client.py,sha256=-l3SaSQ7o1_IM4EKz8rUEl9ShLrU4WwXf5UhvlUDfP0,6760
+channels_irc/tests/utils.py,sha256=DKKSOwP8Lplo6PmMXXaLHTJOP8mADLJWs5nOQxyayqs,291
+channels_irc-0.4.1.dist-info/METADATA,sha256=fD2Qu0JDLZCjJc6w6sYvjRcU3PcQKZWe0FyiBq1euGo,2440
+channels_irc-0.4.1.dist-info/RECORD,,
+channels_irc-0.4.1.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+channels_irc-0.4.1.dist-info/entry_points.txt,sha256=ANVhtJyjpelTrvng0Ix1T6sBFyOOML0dgQHfGtaoIUk,66
+channels_irc-0.4.1.dist-info/top_level.txt,sha256=ZdpUY-rxlq7vwNhrL21I7H064jyhIO1spETtJ_LL43Q,13
