@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: nwapp
+Version: 1.4
+Summary: This CLI tool is to manage freelance works
+Home-page: http://www.example.com/~cschultz/bvote/
+Author: Naseef Ummer
+Author-email: naseefo@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: Click
+Requires-Dist: pymongo
+Requires-Dist: pandas
+Requires-Dist: forex-python
+Requires-Dist: re
+Requires-Dist: colorama
+Requires-Dist: datetime
+Requires-Dist: requests
+
+UNKNOWN
+
+
