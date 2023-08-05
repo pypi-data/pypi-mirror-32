@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+angou_bitfinex/__init__.py
+angou_bitfinex/auth_utils.py
+angou_bitfinex/rest.py
+angou_bitfinex.egg-info/PKG-INFO
+angou_bitfinex.egg-info/SOURCES.txt
+angou_bitfinex.egg-info/dependency_links.txt
+angou_bitfinex.egg-info/not-zip-safe
+angou_bitfinex.egg-info/requires.txt
+angou_bitfinex.egg-info/top_level.txt
