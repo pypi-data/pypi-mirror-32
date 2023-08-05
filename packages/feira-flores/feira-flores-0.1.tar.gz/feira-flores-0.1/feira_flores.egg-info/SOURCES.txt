@@ -1,0 +1,10 @@
+README.md
+setup.py
+feira_flores/__init__.py
+feira_flores/github_api.py
+feira_flores.egg-info/PKG-INFO
+feira_flores.egg-info/SOURCES.txt
+feira_flores.egg-info/dependency_links.txt
+feira_flores.egg-info/not-zip-safe
+feira_flores.egg-info/requires.txt
+feira_flores.egg-info/top_level.txt
