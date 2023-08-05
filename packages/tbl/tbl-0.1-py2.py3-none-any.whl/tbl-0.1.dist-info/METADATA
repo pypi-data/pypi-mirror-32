@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: tbl
+Version: 0.1
+Summary: Simple table printing for Python CLI tools
+Home-page: https://github.com/AstromechZA/tbl
+Author: Ben Meier
+Author-email: ben@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: User Interfaces
+Provides-Extra: test
+Provides-Extra: test
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Requires-Dist: flake8; extra == 'test'
+
+UNKNOWN
+
+
