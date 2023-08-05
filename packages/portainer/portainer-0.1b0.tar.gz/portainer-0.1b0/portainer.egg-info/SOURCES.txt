@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+portainer/__init__.py
+portainer.egg-info/PKG-INFO
+portainer.egg-info/SOURCES.txt
+portainer.egg-info/dependency_links.txt
+portainer.egg-info/requires.txt
+portainer.egg-info/top_level.txt
