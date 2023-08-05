@@ -1,0 +1,12 @@
+kumlog/__init__.py,sha256=MlerfUK1NvLo7TvYDEH-8bDl6hlv8IWPhgT-NNlKKms,24
+kumlog/logformat.py,sha256=7CwKlsCAW3eKHlfToLMmu6AYSdbNHBhYtq3n1tQl7d0,2269
+kummis/__init__.py,sha256=MlerfUK1NvLo7TvYDEH-8bDl6hlv8IWPhgT-NNlKKms,24
+kummis/logformat.py,sha256=7CwKlsCAW3eKHlfToLMmu6AYSdbNHBhYtq3n1tQl7d0,2269
+kummis-0.0.1.dist-info/DESCRIPTION.rst,sha256=jkArUqxuEVhCJt-Ev0VM9KWJTRMZslaHnynhT6pzcKY,910
+kummis-0.0.1.dist-info/METADATA,sha256=QCWUiXaIkrd_eSzeZxYcpaOPL5AzxIsjy3Y6uO8fGMs,1577
+kummis-0.0.1.dist-info/RECORD,,
+kummis-0.0.1.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+kummis-0.0.1.dist-info/metadata.json,sha256=zuC3Pv6dVA9JCQ1kgdAZ7FjEgIuwqhloeeY9M-i2zAU,803
+kummis-0.0.1.dist-info/top_level.txt,sha256=KC84w1708eN7zwQleC86BME0Zi5iBYAz9NDgp8Vsf5I,7
+logformat/__init__.py,sha256=MlerfUK1NvLo7TvYDEH-8bDl6hlv8IWPhgT-NNlKKms,24
+logformat/logformat.py,sha256=7CwKlsCAW3eKHlfToLMmu6AYSdbNHBhYtq3n1tQl7d0,2269
