@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+jsondispatch.egg-info/PKG-INFO
+jsondispatch.egg-info/SOURCES.txt
+jsondispatch.egg-info/dependency_links.txt
+jsondispatch.egg-info/entry_points.txt
+jsondispatch.egg-info/requires.txt
+jsondispatch.egg-info/top_level.txt
