@@ -1,0 +1,8 @@
+Python_Lambda_Logistics-0.0.2b0.dist-info/METADATA,sha256=yrWM1WcUX3X5ZGiZFu5moi_Srx5aY4f1prcIjC0vePA,3401
+Python_Lambda_Logistics-0.0.2b0.dist-info/RECORD,,
+Python_Lambda_Logistics-0.0.2b0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+Python_Lambda_Logistics-0.0.2b0.dist-info/top_level.txt,sha256=Sa-6c5DApKBJOrOUVaWVFhBQ0Y9QV-dEQPF8-Q0bmo0,4
+pll/__about__.py,sha256=N1e5EkcSxR4Mjp-Vn4L6Iv0jNaNhoo1vZgb6VAi8cGI,105
+pll/__init__.py,sha256=0XUgYRFCQblP9WNChsPeKgYqU9IQLXnCk_CMrvdpE5M,1560
+pll/__main__.py,sha256=rGc-jSjXJr0g_a86fcg2cGY5GCcbJOH_5Wzu0i0tbOM,283
+pll/templates/cli.j2,sha256=sH8Jg2lGGwajskGv-BKgxLp7sE2Mpc7yrBYVssM-ZNk,159
