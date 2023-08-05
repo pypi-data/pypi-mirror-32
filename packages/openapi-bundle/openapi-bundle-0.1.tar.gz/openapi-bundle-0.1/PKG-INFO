@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: openapi-bundle
+Version: 0.1
+Summary: Combine multiple json or yaml files into a single readable OpenAPI specification.
+Home-page: https://github.com/windtail/openapi-bundle
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
