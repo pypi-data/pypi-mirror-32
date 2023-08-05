@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: house_webscraper
+Version: 0.1
+Summary: A class for scraping data from various house properties sites 
+Home-page: https://github.com/EliasCode2015/House-Price-Prediction-Model
+Author: Elias Altrabsheh and Ben Busby
+Author-email: elias.altrabsheh@gmail.com
+License: MIT
+Description: A class for scraping data and data anylytics from house properties sites
+        
+        The package is intended for use by data analysts/scientists who require easy access to download property listing data in nicely formatted Pandas DataFrames ready for analysis.
+        
+Keywords: webscraping,rightmove,data
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6

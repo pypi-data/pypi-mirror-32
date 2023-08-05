@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+house_webscraper/__init__.py
+house_webscraper.egg-info/PKG-INFO
+house_webscraper.egg-info/SOURCES.txt
+house_webscraper.egg-info/dependency_links.txt
+house_webscraper.egg-info/requires.txt
+house_webscraper.egg-info/top_level.txt
