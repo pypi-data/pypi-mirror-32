@@ -1,0 +1,17 @@
+koicore/__init__.py,sha256=fMVgjfktNb7vw4ZFqUQQhwhPr-WirMMBwDPTENTK3Vs,168
+koicore/koi_object.py,sha256=ogxn0xdxt4iyPULiacOxQ3Mb5dgSThYLA5VXwbN4GBY,854
+koicore/koi_reference.py,sha256=fXaQFCS0PDu3Vdkazgk0PAddVN-4AUbc46zyxx7CWkQ,490
+koicore/koi_value.py,sha256=-r3s8q2n-qVP4jT5kJl1N6IYmjE8teMTpNEE4kH4sPk,486
+koicore/other/__init__.py,sha256=JlQquDgRZb__XKmZteG-rNVvJoBZIh_hOpkNhrLZfSA,98
+koicore/other/koi_variable.py,sha256=KA0M0Z_Q36F8lNPIf1iybBEa4zPOm_qcLZDeb6z-DiI,546
+koicore/types/__init__.py,sha256=UKcgXhBi9DAEYKVhupRS7lJcXSC_sn4o6DYP0ZXPCRk,209
+koicore/types/koi_boolean.py,sha256=EaTcM976H803--yG9XFV_08QmXhxbLWAWR3k8OiD-6E,290
+koicore/types/koi_character.py,sha256=8l0SDZIOL2IEpS8PziwhUo99MuorbNUnSoQUNxR9Ry8,298
+koicore/types/koi_integer.py,sha256=xPHtId8o8wotyvo-ogV_v-foorWMFqU9m728JfPsPAQ,289
+koicore/types/koi_string.py,sha256=crElVFH8CA7-bTSrQNltDfMGwxk8ySGctWLTR5Yemz8,286
+koicore-1.0.2.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+koicore-1.0.2.dist-info/METADATA,sha256=_eYjcCipRLN51fERFK2KT4Y4WYGGV8WyWx3h-ns5i3w,538
+koicore-1.0.2.dist-info/RECORD,,
+koicore-1.0.2.dist-info/WHEEL,sha256=Vlaj2XNMTTJ893zWX-JvKeZUIs7q5E7d7Gise2Vouzc,97
+koicore-1.0.2.dist-info/metadata.json,sha256=_d8-Uatf0B-_L8iXOfvCLzsHJqe4qCgF1UHd24I0oQo,685
+koicore-1.0.2.dist-info/top_level.txt,sha256=XE5dPOinKPT-Mq16JQfZy6Q5feUYF3AZFBHvpApNglY,36
