@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: morpheus-game-framework
+Version: 0.8.5
+Summary: Framework for developing games for the Morpheus platform
+Home-page: UNKNOWN
+Author: morpheus team
+Author-email: mihael@morpheuszone.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
