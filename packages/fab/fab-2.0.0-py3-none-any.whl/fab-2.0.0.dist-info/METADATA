@@ -1,0 +1,16 @@
+Metadata-Version: 2.0
+Name: fab
+Version: 2.0.0
+Summary: Wrapper around Phabricator API
+Home-page: https://github.com/legoktm/fab
+Author: Kunal Mehta
+Author-email: legoktm@member.fsf.org
+License: GPL-3.0-or-later
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.4
+Requires-Dist: requests
+
+UNKNOWN
+
+
