@@ -1,0 +1,8 @@
+README.md
+setup.py
+numpycnn/__init__.py
+numpycnn/example.py
+numpycnn.egg-info/PKG-INFO
+numpycnn.egg-info/SOURCES.txt
+numpycnn.egg-info/dependency_links.txt
+numpycnn.egg-info/top_level.txt
