@@ -1,0 +1,5 @@
+python-ucam-webauth
+setuptools
+
+[flask_glue]
+Flask
