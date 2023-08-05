@@ -1,0 +1,3 @@
+[gui_scripts]
+launcher = staff_info:__main__
+
