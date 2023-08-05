@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: tensorframes
+Version: 0.2.9
+Summary: Integration tools for running deep learning on Spark
+Home-page: https://github.com/databricks/tensorframes
+Author: Joseph Bradley
+Author-email: joseph@databricks.com
+Maintainer: Tim Hunter
+Maintainer-email: timhunter@databricks.com
+License: Apache 2.0
+Keywords: spark,deep learning,distributed computing,machine learning
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+
+UNKNOWN
+
+

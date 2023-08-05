@@ -1,0 +1,9 @@
+tensorframes/__init__.py,sha256=V2GBjlpAeEMcnKerDsHze7aT34zHfcwa-ZLJKVSJQl0,1495
+tensorframes/core.py,sha256=5xSfuPIyLNMq7BylczuX0WyPN5FgJ-Sbe3bDlHkqk0o,21996
+tensorframes/core_test.py,sha256=STL_9Su3iyw3QyOb-KCU7mWfcLB51zW69226uV2d1HA,10393
+tensorframes/setup.py,sha256=5fA30LE_ThITFESUdiHZoWnT1iVsvytdZAC7zCjqI2Y,2166
+tensorframes/shape_infer.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tensorframes-0.2.9.dist-info/METADATA,sha256=dMv5gjx7DjvoFKqSRRXSNo2lE6zvgicWsV5QTk8x2pc,889
+tensorframes-0.2.9.dist-info/RECORD,,
+tensorframes-0.2.9.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+tensorframes-0.2.9.dist-info/top_level.txt,sha256=bXgu25Dsq7AcMUf1BOyYuVQ1Ws1ILsaPEtFAzfnUyWM,13
