@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: ocmpy
+Version: 0.1.2
+Summary: Python API wrapper for the Open Charge Map for EV charging stations
+Home-page: https://gitlab.com/loredous/ocmpy
+Author: Jeremy Banker
+Author-email: loredous@loredous.net
+License: UNKNOWN
+Description: # OCMpy
+        
+        OCMpy is a python wrapper for the Open Charge Map API for EV charging stations. Details on the API and project can be found at https://openchargemap.org/site/develop
+        
+        ## Getting Started
+        
+        To install
+        ```
+        pip install ocmpy
+        ```
+        To run
+        ```
+        import ocmpy
+        
+        ocmpyInstance = Ocmpy()
+        ocmpyInstance.open()
+        stations = ocmpyInstance.getstationsbylocation(40.027435, -105.251945)
+        [print(x) for x in stations]
+        
+        Station ID: 102790, Title: COMM VITALITY
+        Station ID: 80295, Title: BOULDER
+        Station ID: 8333, Title: 2285 28TH St
+        Station ID: 72265, Title: NATURE CONSVNCY
+        Station ID: 71506, Title: UCAR & NCAR
+        Station ID: 80294, Title: 3223 ARAPAHOE
+        Station ID: 89605, Title: BVSD
+        Station ID: 28231, Title: City of Boulder - Municipal Service Center
+        Station ID: 89601, Title: Gold Run Health Club 1
+        Station ID: 89600, Title: UNIV. OF COL
+        ```
+        
+        ### Prerequisites
+        
+        The only non-standard module required at this time is 'requests'
+        
+        ```
+        pip install -r requirements.txt
+        ```
+        
+        ## Running the tests
+        
+        ```
+        python3 -m unittest test/test_ocmpy.py
+        ```
+        
+        ## Deployment
+        
+        ```
+        pip install ocmpy
+        ```
+        
+        ## Authors
+        
+        * **Jeremy Banker** - *Initial work* - [Loredous](https://gitlab.com/loredous)
+        
+        ## License
+        
+        This project is licensed under the GPLv3 - see the [LICENSE](LICENSE) file for details
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
