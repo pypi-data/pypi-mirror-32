@@ -1,0 +1,7 @@
+README.md
+setup.py
+iex_api_python.egg-info/PKG-INFO
+iex_api_python.egg-info/SOURCES.txt
+iex_api_python.egg-info/dependency_links.txt
+iex_api_python.egg-info/not-zip-safe
+iex_api_python.egg-info/top_level.txt
