@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: mpop
+Version: 1.5.1
+Summary: Meteorological post processing package
+Home-page: https://github.com/mraspaud/mpop
+Author: Martin Raspaud
+Author-email: martin.raspaud@smhi.se
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Provides-Extra: hdf_eos
+Provides-Extra: xRIT
+Provides-Extra: viirs
+Provides-Extra: nc
+Provides-Extra: proj
+Provides-Extra: pyorbital
+Provides-Extra: gac_lac
+Provides-Extra: pyspectral
