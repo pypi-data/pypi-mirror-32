@@ -1,0 +1,16 @@
+csharpy/__init__.py,sha256=zqltMAu0kA1P5eW-d4kfDTyldgQyz-dL4xUuZv_mzSk,1665
+csharpy/binaries/CSharPyExtension.dll,sha256=79CeiW3hVsyCu1ja7e4xTfqF-48-WP6zWoGfPvI6jA4,4096
+csharpy/binaries/DynamicCS.dll,sha256=zYOvuz8KCu7qIwoRQaTNSqQcWERS7NzwUNg_j3gjJ3E,6656
+csharpy/binaries/__init__.py,sha256=-6WV5CH4kFbaqGiuNiOwP0efNDAwXffADGS8xyT-KnQ,113
+csharpy/binaries/add_reference.py,sha256=53pObe1PpZyzTqrCjvH9Qlzlb5XP8PZCOrzl4wKJlBg,1613
+csharpy/cparts/__init__.py,sha256=HUzLpDrVkwtUo-kzDQJloc-0_WC500gTBNBRNbP4A3k,82
+csharpy/notebook/__init__.py,sha256=38ESwyN1vrnQJOm3xCcp8paQxHWxmbQCU5GpLgizn4U,150
+csharpy/notebook/csmagics.py,sha256=uRmI_z72Eprqbg4p5Aj6_x3Sa0AiAcaKnpgSdKwSuCc,4351
+csharpy/runtime/__init__.py,sha256=m_JCuXUP6-72kNJvGfXT_iXbv69xR2UIpxbyKg_yJog,92
+csharpy/runtime/compile.py,sha256=S5nfuaLcLUjB1gVIfdM6Ly_PHRGM0R6RcJovrdpuwM4,2538
+csharpy-0.1.53.dist-info/METADATA,sha256=baJE547suDRj3wMA9yjTg_u9l9bk0K7kWWOeRdlOkxg,3116
+csharpy-0.1.53.dist-info/RECORD,,
+csharpy-0.1.53.dist-info/WHEEL,sha256=xq3J6sB2oJqjv0tDC7tGUGvne1fOugw1JUmk86QA7UM,106
+csharpy-0.1.53.dist-info/top_level.txt,sha256=VGk6HaaKsmufbR2v_Nozke3JM4fZwDCl9EXbwPQGgu4,12
+src/cpyquickhelper/cparts/cmodule.cp36-win_amd64.pyd,sha256=4GzT6XzdB9XJvob4AIE3jgjSc3OZyvnNmA7fLVFxyHk,14336
+src/csharpy/cparts/cmodule.cp36-win_amd64.pyd,sha256=W_qS1x1Kiuy_Eif5LqTJdNY59JqZVOKEqHS-ASCKYW8,14336
