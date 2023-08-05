@@ -1,0 +1,7 @@
+README.md
+setup.py
+altcompare/__init__.py
+altcompare.egg-info/PKG-INFO
+altcompare.egg-info/SOURCES.txt
+altcompare.egg-info/dependency_links.txt
+altcompare.egg-info/top_level.txt
