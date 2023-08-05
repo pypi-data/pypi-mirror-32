@@ -1,0 +1,5 @@
+include *.md
+include *.txt
+include docs/Makefile
+recursive-include docs *.rst conf.py
+prune docs/_build
