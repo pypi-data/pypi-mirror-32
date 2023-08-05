@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: markdown-fenced-code-tabs
+Version: 1.0.3
+Summary: Generates a html estructure for consecutive fenced code blocks content
+Home-page: https://github.com/yacir/markdown-fenced-code-tabs
+Author: Yassir Barchi
+Author-email: github@yassir.fr
+License: MIT
+Description:  Markdown extension who generates HTML tabs for consecutive fenced code blocks in markdown syntax 
+Keywords: fenced code blocks,code,fenced,tabs,mkdocs,markdown
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Text Processing
