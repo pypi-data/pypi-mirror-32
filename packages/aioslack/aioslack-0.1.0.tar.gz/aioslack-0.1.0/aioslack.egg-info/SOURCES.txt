@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+aioslack/__init__.py
+aioslack.egg-info/PKG-INFO
+aioslack.egg-info/SOURCES.txt
+aioslack.egg-info/dependency_links.txt
+aioslack.egg-info/requires.txt
+aioslack.egg-info/top_level.txt
