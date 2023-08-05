@@ -1,0 +1,24 @@
+Metadata-Version: 2.0
+Name: icon-resizer
+Version: 0.0.1
+Summary: iOS app icon resizing tool
+Home-page: https://github.com/LordDarkula/icon-resizer
+Author: Aubhro Sengupta
+Author-email: aubhrosengupta@gmail.com
+License: MIT
+Platform: MacOS X
+Platform: Windows
+Platform: Linux
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: Click
+Requires-Dist: Pillow
+
+icon-resizer
+============
+
+iOS app icon resizing tool
+
+
