@@ -1,0 +1,13 @@
+skoopy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+skoopy/controller.py,sha256=X5689i2_Lc_Sao_AO4uyVkZfusig5jGKnsn3avncHNs,6652
+skoopy/registry.py,sha256=wVIMuP_M80Ayo4v6prEA6yhkRk2if8Qo4vbD7pfjwc8,6235
+skoopy/scanner.py,sha256=yxE4gsDEQ6W0l8fBONjngBxrRhWxEKkZQVOquZGe0dM,1164
+skoopy/transport.py,sha256=Jxf7eOi2biU6_GPVMAK3aoVJOWdirI1BurDvSl_VX9U,3121
+skoopy-0.1.0.dev1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+skoopy-0.1.0.dev1.dist-info/LICENSE.txt,sha256=h1a7igeX_nF4i_q77JDuhI3C5IfeQKvpy7i-2HVY85Q,1052
+skoopy-0.1.0.dev1.dist-info/METADATA,sha256=uVkoDSnWCN5Rbyc33Rm0FmgNVhGz-W-Q-7DaUtMqzzA,258
+skoopy-0.1.0.dev1.dist-info/RECORD,,
+skoopy-0.1.0.dev1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+skoopy-0.1.0.dev1.dist-info/entry_points.txt,sha256=lRRW5tJRXs2INhock1bqDdRBbTmzAtBG49bjaoOFMoQ,90
+skoopy-0.1.0.dev1.dist-info/metadata.json,sha256=LvUaFfASyRtrerkNdD_WlMlfFEMiMB95-U58muos9bU,729
+skoopy-0.1.0.dev1.dist-info/top_level.txt,sha256=sCHICIO2PjmJlJqJGn88baSkMHykKTOEzT04PiLImFE,7
