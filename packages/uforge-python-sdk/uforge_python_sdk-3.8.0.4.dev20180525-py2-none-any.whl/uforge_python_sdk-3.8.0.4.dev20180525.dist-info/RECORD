@@ -1,0 +1,11 @@
+uforge/__init__.py,sha256=Voxp6VxXkhYXYR16vQXdil1hxgsqDYXSRSwYHjwnq4U,43
+uforge/application.py,sha256=epkmowicTf2NZQ-9XO67q8bm_MGqJyzteK2l38vCMeI,245272
+uforge/config/config.cfg,sha256=xd4yBJ9s0GbsaN6jn1lYLZqp1j6_kz96E15oRrpeVqo,45
+uforge/objects/__init__.py,sha256=692d9PiSoArOIXKHYGAie6Q-3jrKoo2XQe_BRagZFfk,33
+uforge/objects/uforge.py,sha256=4eQdoxj_1Xc1NgKE7jQQwt6u8l7Z-2YEOqiIBhwByso,11405078
+uforge_python_sdk-3.8.0.4.dev20180525.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+uforge_python_sdk-3.8.0.4.dev20180525.dist-info/METADATA,sha256=-rPfBW5M7vdFw6SdIj0QIUrd8vxqQcviCkywXUob8pE,912
+uforge_python_sdk-3.8.0.4.dev20180525.dist-info/RECORD,,
+uforge_python_sdk-3.8.0.4.dev20180525.dist-info/WHEEL,sha256=hZvi-8L6mc2COqhOUWREM_h2lvnJbaHycZt8eohtmso,92
+uforge_python_sdk-3.8.0.4.dev20180525.dist-info/metadata.json,sha256=zT9xxr1AtnSLQfB2caQdAC7o0QMgFpA_xNJJJ5qnXTo,972
+uforge_python_sdk-3.8.0.4.dev20180525.dist-info/top_level.txt,sha256=4cn0Rqsht5GEbWupDOu-x2L5Yy5b0dYm6br64zvF2jI,7
