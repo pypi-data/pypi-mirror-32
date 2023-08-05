@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+netils/__init__.py
+netils/netils.py
+netils.egg-info/PKG-INFO
+netils.egg-info/SOURCES.txt
+netils.egg-info/dependency_links.txt
+netils.egg-info/top_level.txt

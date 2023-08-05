@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: netils
+Version: 0.0.1
+Summary: Some functions for networking in Python
+Home-page: https://github.com/samrussell/netils
+Author: Sam Russell
+Author-email: sam.h.russell@gmail.com
+License: Apache2
+Description: 
+            A very small collection of functions that are useful for networking in Python
+        
+            More information at https://github.com/samrussell/netils
+        
+Keywords: routing sdn networking
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
