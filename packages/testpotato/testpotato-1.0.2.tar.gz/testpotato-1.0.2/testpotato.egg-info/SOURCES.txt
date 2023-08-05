@@ -1,0 +1,17 @@
+setup.py
+potatodata/__init__.py
+potatodata/category.py
+potatodata/db.py
+potatodata/detail.py
+potatodata/find.py
+potatodata/make.py
+potatodata/modify.py
+potatodata/page.py
+potatodata/plan.py
+potatodata/potato.py
+potatodata/remove.py
+testpotato.egg-info/PKG-INFO
+testpotato.egg-info/SOURCES.txt
+testpotato.egg-info/dependency_links.txt
+testpotato.egg-info/entry_points.txt
+testpotato.egg-info/top_level.txt
