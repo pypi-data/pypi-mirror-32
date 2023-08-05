@@ -1,0 +1,4 @@
+construct==2.8.22
+pycryptodomex
+tinyec
+cryptography
