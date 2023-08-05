@@ -1,0 +1,11 @@
+setup.py
+rg51318locationsfromwebservices/__init__.py
+rg51318locationsfromwebservices/core_functions.py
+rg51318locationsfromwebservices/gui_main.py
+rg51318locationsfromwebservices/gui_newshapefile.py
+rg51318locationsfromwebservices/main.py
+rg51318locationsfromwebservices.egg-info/PKG-INFO
+rg51318locationsfromwebservices.egg-info/SOURCES.txt
+rg51318locationsfromwebservices.egg-info/dependency_links.txt
+rg51318locationsfromwebservices.egg-info/not-zip-safe
+rg51318locationsfromwebservices.egg-info/top_level.txt
