@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+frameq.egg-info/PKG-INFO
+frameq.egg-info/SOURCES.txt
+frameq.egg-info/dependency_links.txt
+frameq.egg-info/entry_points.txt
+frameq.egg-info/requires.txt
+frameq.egg-info/top_level.txt
