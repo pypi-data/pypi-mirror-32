@@ -1,0 +1,7 @@
+tvdb_api
+beautifulsoup4
+typing
+requests
+xdcc_dl
+colorama
+malscraper
