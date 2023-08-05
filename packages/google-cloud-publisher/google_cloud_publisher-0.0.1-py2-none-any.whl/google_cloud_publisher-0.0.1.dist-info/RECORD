@@ -1,0 +1,10 @@
+google-cloud-publisher/__init__.py,sha256=XtWpUe8G2YXp_taRlf-wypSM_k7z44d6JELrbyJSQfA,32
+google-cloud-publisher/publisher.py,sha256=OebvTbiq4x0PqgyIzyJy3kVAKPyIHkwCkeZWATotcXw,2044
+google-cloud-publisher/test_publisher.py,sha256=WTvx8SY3uXFMvTVIGDsudyZNZPjRFMIY_-83Lh2h9Iw,271
+google_cloud_publisher/__init__.py,sha256=8sI70gb2lCBmVYyBKJuoJRQ9IhDM80SVsSdr0WFuAFE,64
+google_cloud_publisher/publisher.py,sha256=OebvTbiq4x0PqgyIzyJy3kVAKPyIHkwCkeZWATotcXw,2044
+google_cloud_publisher/test_publisher.py,sha256=WTvx8SY3uXFMvTVIGDsudyZNZPjRFMIY_-83Lh2h9Iw,271
+google_cloud_publisher-0.0.1.dist-info/METADATA,sha256=NdnVQGOVZG6eKKSCRq_-WSXVkVNCU1qyXfyPMtFdQos,699
+google_cloud_publisher-0.0.1.dist-info/RECORD,,
+google_cloud_publisher-0.0.1.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+google_cloud_publisher-0.0.1.dist-info/top_level.txt,sha256=O3T4zmKe-PU87Lk3uDIF9kSIkJgdTrr3vNuJ1wb2zpg,23
