@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gooh
+Version: 1.0.8
+Summary: Language agnostic semantic versioner using git tags
+Home-page: http://github.com/lxhunter/gooh
+Author: Alexander Jaeger
+Author-email: alexander.jaeger@me.com
+License: MIT
+Download-URL: http://github.com/lxhunter/gooh/tarball/1.0.6
+Platform: UNKNOWN
+Requires-Dist: semantic-version
+Requires-Dist: sh
+Requires-Dist: PyYAML
+
+UNKNOWN
+
+
