@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+angou_poloniex/__init__.py
+angou_poloniex/auth_utils.py
+angou_poloniex/rest.py
+angou_poloniex.egg-info/PKG-INFO
+angou_poloniex.egg-info/SOURCES.txt
+angou_poloniex.egg-info/dependency_links.txt
+angou_poloniex.egg-info/not-zip-safe
+angou_poloniex.egg-info/requires.txt
+angou_poloniex.egg-info/top_level.txt
