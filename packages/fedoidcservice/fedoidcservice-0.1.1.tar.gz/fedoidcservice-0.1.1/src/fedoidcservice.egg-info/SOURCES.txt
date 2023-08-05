@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/fedoidcservice/__init__.py
+src/fedoidcservice/service.py
+src/fedoidcservice.egg-info/PKG-INFO
+src/fedoidcservice.egg-info/SOURCES.txt
+src/fedoidcservice.egg-info/dependency_links.txt
+src/fedoidcservice.egg-info/not-zip-safe
+src/fedoidcservice.egg-info/requires.txt
+src/fedoidcservice.egg-info/top_level.txt
