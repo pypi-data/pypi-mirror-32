@@ -1,0 +1,4 @@
+[console_scripts]
+sjb-cheatsheet = sjb.cs.main:main
+sjb-todo = sjb.td.main:main
+
