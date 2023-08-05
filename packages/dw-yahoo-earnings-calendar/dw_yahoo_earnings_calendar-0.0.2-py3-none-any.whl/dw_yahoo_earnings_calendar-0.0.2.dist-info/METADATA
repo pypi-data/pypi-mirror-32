@@ -1,0 +1,16 @@
+Metadata-Version: 2.0
+Name: dw-yahoo-earnings-calendar
+Version: 0.0.2
+Summary: Scrapes data from Yahoo! Finance earnings calendar
+Home-page: UNKNOWN
+Author: Daniel Wang
+Author-email: danielwpz@gmail.com
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Keywords: stock,earnings,yahoo,scrape,finance
+Platform: UNKNOWN
+Requires-Dist: requests
+
+UNKNOWN
+
+
