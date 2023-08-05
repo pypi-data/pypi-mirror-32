@@ -1,0 +1,9 @@
+dataframe_mapper-0.0.2.dist-info/METADATA,sha256=tvEail43A_OxJuURWsJLwpBVZBCs5BglmIgOu50B7dM,2079
+dataframe_mapper-0.0.2.dist-info/RECORD,,
+dataframe_mapper-0.0.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+dataframe_mapper-0.0.2.dist-info/top_level.txt,sha256=hczVl46bblhya_MRXsO6i_sx9Bfwx_JMfyjLt9dgF2E,9
+dfmapper/__init__.py,sha256=OHXtMlcosnK3VyARlQdy8DJvCfja0bMIndG4Z53uhfk,816
+dfmapper/column.py,sha256=Uurwh-Ox3PfiQDRF0bOGufjFOeiqba1Oe5lF_JMSCJM,3617
+dfmapper/exceptions.py,sha256=N4mmHk9ko7q0938k-irG3ZYe_QDiwEnMW4fKCDAB7zo,795
+dfmapper/mapper.py,sha256=onme_EmDj4ph6nDEWoCWkWY1ZXmhKM98wVmXV2IL6BI,2975
+dfmapper/validator.py,sha256=7QGfBQMkhwceb7ZAclpQPs6QeF7N_dbX1J4RjoUaZCQ,3887
