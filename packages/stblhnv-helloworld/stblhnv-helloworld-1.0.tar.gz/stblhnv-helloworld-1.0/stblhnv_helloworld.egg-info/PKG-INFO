@@ -1,0 +1,24 @@
+Metadata-Version: 1.0
+Name: stblhnv-helloworld
+Version: 1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Stanislav Balahonov
+Author-email: stanislav.balahonov@simbirsoft.com
+License: UNKNOWN
+Description: # Вывод сообщения синего цвета в консоль
+        
+        Проект представляет собой простой скрипт, который при запуске выводит 
+        сообщение `'Hello, Simbirsoft!'` синего цвета в консоль.
+        
+        ## Требования к среде
+        * Python>=3.6.2
+        
+        ## Запуск программы
+        Чтобы запустить проект, наберите команду в консоли, находясь в каталоге 
+        с проектом:
+        ```
+        python main.py
+        ```
+        
+Platform: UNKNOWN
