@@ -1,0 +1,10 @@
+parver/__init__.py,sha256=TKOsC91UncCBsgy2UpdrRoAKC2HvTLTygARtoHC6l6g,294
+parver/_about.py,sha256=qOtM304HB59rxjavMAyJmYRgfdMOfJFQvgMO5CuTJ4E,254
+parver/_helpers.py,sha256=kp9Ct6LkZ7Zqv3VLB7VyZXv1eaHe-ytdgyv9D51AvYA,1817
+parver/_parse.py,sha256=_utkW0TmcZ12Bcmy7PYd6l9rA9nRWsSXRtTxZFj0ip0,5777
+parver/_segments.py,sha256=B9aMHJuIFiE08Ds0KGGrY_Zuci5wrc5aXFWccFkXoVo,732
+parver/_version.py,sha256=G0Jkl5EQBCvjq5j0xZAj5wEmib04xyOAq-I7UeaHA50,26527
+parver-0.1.0.dist-info/METADATA,sha256=qIOx0B3J2mdk06MwHbFlwNlRhGcOgOs10IOcvGJwSC8,2215
+parver-0.1.0.dist-info/RECORD,,
+parver-0.1.0.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+parver-0.1.0.dist-info/top_level.txt,sha256=kDYxWHvilbtfOuZPkEplGxIP-JJ21Lmnp1LOsxc9SN8,7
