@@ -1,0 +1,3 @@
+include readme.rst
+include gameOfFifteen/*.png
+include gameOfFifteen/*.txt
