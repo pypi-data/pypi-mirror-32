@@ -1,0 +1,12 @@
+setup.py
+diskcleaner/__init__.py
+diskcleaner/cleaner.py
+diskcleaner/main.py
+diskcleaner.egg-info/PKG-INFO
+diskcleaner.egg-info/SOURCES.txt
+diskcleaner.egg-info/dependency_links.txt
+diskcleaner.egg-info/entry_points.txt
+diskcleaner.egg-info/requires.txt
+diskcleaner.egg-info/top_level.txt
+test/__init__.py
+test/test_cleaner.py
