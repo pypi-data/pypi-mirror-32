@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: reedmuller
+Version: 1.1.1
+Summary: Reed-Muller encoding and decoding
+Home-page: https://github.com/sraaphorst/reedmuller
+Author: Sebastian Raaphorst
+Author-email: srcoding@gmail.com
+License: Apache 2.0
+Description-Content-Type: text/markdown
+Description: # Reed-Muller in Python
+        
+        This is a research project I completed for a course at Carleton University, "Finite Fields and Coding Theory."
+        
+        This comprises a paper that attempts to present Reed-Muller codes in a simplistic way, and includes a Python implementation of
+        encoding and decoding (using majority logic) using Reed-Muller codes.
+        
+        Code now works on both Python 2 and Python 3.
+        
+Keywords: mathematics combinatorics codes reedmuller
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Mathematics
