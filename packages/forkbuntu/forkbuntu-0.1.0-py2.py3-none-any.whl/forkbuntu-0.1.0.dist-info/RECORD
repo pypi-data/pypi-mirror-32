@@ -1,0 +1,16 @@
+forkbuntu-0.1.0.dist-info/METADATA,sha256=q3g247cWMybwA2lFPNQe3UvQWp8OH5KlDPBuWU0L-ew,3852
+forkbuntu-0.1.0.dist-info/RECORD,,
+forkbuntu-0.1.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+forkbuntu-0.1.0.dist-info/entry_points.txt,sha256=C-234BJeYyxs_u6OE7W8PIM__eBJN6w3dCQVtRwtmQI,49
+forkbuntu-0.1.0.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+src/__init__.py,sha256=eLipV3ZTfPIxWyeg_ycUhv8kZ7ylWJ9toUhihq4rSJA,1436
+src/__main__.py,sha256=5MTZW1l7EwoPB1Se5slhSy-BmLpBqO0ZP4f1Rq6B5eo,191
+src/controllers/__init__.py,sha256=JZ_d7_M3w7r18m0oqZj-ac1eYaAWf3UfhaYVJpm2nBc,23
+src/controllers/base.py,sha256=NzmR4o5b0PP3uXDr5cvoxHOuOOeX4_L3Wvrqp70Wiis,3064
+src/services/__init__.py,sha256=cZRTyCXxgpW6mDj4hfGxU0hUuJwCdC6MD10klTeRH60,154
+src/services/clean.py,sha256=A_qkn9TPpIv6PW8PFu6ENXuBymbMohaAcX5h4xKLfFA,149
+src/services/configure.py,sha256=QeEy52OV7X_n0FS5DqCZTG0TVLyed8lvTNLsONTT4-U,4186
+src/services/gpg.py,sha256=-gmcLzY2I3wn135X_WoLTAa1fIUr54ztCKx9ZfEbtvw,225
+src/services/pack.py,sha256=ps3u6MTkD374c2NR_m6BxaNf5gwz5o3lhagB5C-QpYg,1863
+src/services/setup.py,sha256=XbbHBPG8UVZCXiA7G4JdWmndxUL_TTm9Nuy4b8MGwzs,251
+src/services/unpack.py,sha256=LQXuQ9WR_sYjDvYZuZ3f9QeEzkPZM4e10EeVwK4gdjk,2689
