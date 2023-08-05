@@ -1,0 +1,5 @@
+Click>=6.7
+networkx==2.1
+numpy==1.14.2
+PyQt5==5.10.1
+scipy==1.0.1
