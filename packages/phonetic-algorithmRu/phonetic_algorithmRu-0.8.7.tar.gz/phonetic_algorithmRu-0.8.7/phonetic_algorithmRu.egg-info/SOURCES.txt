@@ -1,0 +1,17 @@
+MANIFEST.in
+setup.py
+phonetic_algorithmRu/__init__.py
+phonetic_algorithmRu/transcription.py
+phonetic_algorithmRu.egg-info/PKG-INFO
+phonetic_algorithmRu.egg-info/SOURCES.txt
+phonetic_algorithmRu.egg-info/dependency_links.txt
+phonetic_algorithmRu.egg-info/not-zip-safe
+phonetic_algorithmRu.egg-info/requires.txt
+phonetic_algorithmRu.egg-info/top_level.txt
+phonetic_algorithmRu/phon_data/.DS_Store
+phonetic_algorithmRu/phon_data/aff_.csv
+phonetic_algorithmRu/phon_data/cons_.csv
+phonetic_algorithmRu/phon_data/data_all.csv
+phonetic_algorithmRu/phon_data/distance_matrix.csv
+phonetic_algorithmRu/phon_data/stress_data.csv
+phonetic_algorithmRu/phon_data/vows.csv
