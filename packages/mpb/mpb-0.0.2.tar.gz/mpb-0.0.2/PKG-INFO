@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: mpb
+Version: 0.0.2
+Summary: A prettier progressbar library
+Home-page: https://github.com/meain/mpb
+Author: Abin Simon
+Author-email: abinsimon10@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: progressbar,spinner,loader
+Platform: UNKNOWN
