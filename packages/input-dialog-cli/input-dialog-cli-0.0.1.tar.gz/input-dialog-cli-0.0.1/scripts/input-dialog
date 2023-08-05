@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+{ set +x; } 2>/dev/null
+
+usage="usage: ${BASH_SOURCE[0]##*/} title [answer]"
+
+[[ $1 == "--help" ]] || [[ $# == 0 ]] || [[ $# -gt 2 ]] && {
+    echo "$usage"; [[ $1 == "--help" ]]; exit
+}
+
+path="${BASH_SOURCE[0]%/*}"/input-dialog.applescript
+osascript "$path" "$1" "$2"

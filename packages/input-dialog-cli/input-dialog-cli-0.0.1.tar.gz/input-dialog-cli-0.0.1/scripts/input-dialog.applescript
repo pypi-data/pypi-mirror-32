@@ -1,0 +1,13 @@
+#!/usr/bin/osascript
+
+-- input-dialog title [answer]
+
+on run argv
+    tell application "System Events" to key code 103
+    delay 0.5
+    set input_title to (item 1 of argv)
+    set input_answer to (item 2 of argv)
+    try
+        text returned of (display dialog (input_title) default answer (input_answer))
+    end try
+end run
