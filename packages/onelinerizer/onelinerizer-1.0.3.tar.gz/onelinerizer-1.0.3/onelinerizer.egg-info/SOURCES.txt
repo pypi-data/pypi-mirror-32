@@ -1,0 +1,12 @@
+README.md
+setup.py
+onelinerizer/__init__.py
+onelinerizer/__main__.py
+onelinerizer/onelinerizer.py
+onelinerizer/runtests.py
+onelinerizer/template.py
+onelinerizer.egg-info/PKG-INFO
+onelinerizer.egg-info/SOURCES.txt
+onelinerizer.egg-info/dependency_links.txt
+onelinerizer.egg-info/entry_points.txt
+onelinerizer.egg-info/top_level.txt
