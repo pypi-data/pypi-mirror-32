@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+{ set +x; } 2>/dev/null
+
+ps -ax | grep "ScreenSaverEngine.app" | grep -v grep | awk '{print $1}'

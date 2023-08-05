@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: screensaver-cli
+Version: 0.0.0
+Summary: start/stop screensaver
+Home-page: https://github.com/looking-for-a-job/screensaver-cli
+License: UNKNOWN
+Description: ### Install
+        
+        ```bash
+        $ [sudo] pip install screensaver-cli
+        ```
+        
+        ### Features
+        
+        +   start/stop screensaver
+        
+        ### Examples
+        
+        ```bash
+        # start default screensaver
+        $ screensaver start
+        
+        # start screensaver by name
+        $ screensaver start "Flurry"
+        ```
+        
+        ```bash
+        $ screensaver stop
+        ```
+        
+        system screensavers `/System/Library/Screen Savers`, `/System/Library/Frameworks/ScreenSaver.framework/Resources`:
+        ```
+        Arabesque
+        Flurry
+        Shell
+        iLifeslideshows
+        Word of the Day
+        iTunes Artwork
+        Computer Name
+        ```
+Keywords: screensaver
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Environment :: MacOS X
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Other
+Classifier: Programming Language :: Unix Shell
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown

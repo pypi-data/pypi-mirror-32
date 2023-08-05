@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+{ set +x; } 2>/dev/null
+
+usage="usage: ${BASH_SOURCE[0]##*/} [name]"
+
+[[ $1 == "--help" ]] && {
+    echo "$usage"
+    [[ $1 == "--help" ]]; exit # exit 0 if --help
+}
+
+# open default screensaver
+[[ $# == 0 ]] && {
+    # High Sierra
+    path="/System/Library/CoreServices/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine"
+    [ -e "$path" ] && { ( set -x; "$path" ); exit; }
+    # Sierra or lower
+    app="/System/Library/Frameworks/ScreenSaver.framework/Versions/A/Resources/ScreenSaverEngine.app"
+    ( set -x; open -a "$app" ); exit;
+}
+
+# Arabesque
+# Flurry
+# Shell
+# iLifeslideshows
+# Word of the Day
+# iTunes Artwork
+# Computer Name
+osascript "${BASH_SOURCE[0]}".applescript "$@"
