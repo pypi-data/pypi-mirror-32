@@ -1,0 +1,8 @@
+README.md
+gh_stars_export.py
+setup.py
+gh_stars_export.egg-info/PKG-INFO
+gh_stars_export.egg-info/SOURCES.txt
+gh_stars_export.egg-info/dependency_links.txt
+gh_stars_export.egg-info/requires.txt
+gh_stars_export.egg-info/top_level.txt
