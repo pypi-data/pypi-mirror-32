@@ -1,0 +1,6 @@
+setup.py
+guacamole_client_rest.egg-info/PKG-INFO
+guacamole_client_rest.egg-info/SOURCES.txt
+guacamole_client_rest.egg-info/dependency_links.txt
+guacamole_client_rest.egg-info/requires.txt
+guacamole_client_rest.egg-info/top_level.txt
