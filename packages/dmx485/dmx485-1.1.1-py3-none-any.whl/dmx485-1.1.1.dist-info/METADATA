@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: dmx485
+Version: 1.1.1
+Summary: Simple DMX driver using an RS485 adapter
+Home-page: https://github.com/bitbyt3r/dmx
+Author: Mark Murnane
+Author-email: mark@hackafe.net
+License: MIT
+Keywords: dmx
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Dist: pyserial
+Requires-Dist: numpy
+
+Simple DMX driver using an RS485 adapter
+
+
