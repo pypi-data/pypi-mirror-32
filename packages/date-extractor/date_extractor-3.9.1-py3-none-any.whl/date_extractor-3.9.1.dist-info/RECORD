@@ -1,0 +1,13 @@
+date_extractor/__init__.py,sha256=kNdjCsnQqhiC9mR98D2z68yI7i_4JsK-dv_KwrUReCk,11552
+date_extractor/arabic.py,sha256=a5429jVos23i6sG-kI03jd4dTuE6J2jQ8s__O_kxDQY,518
+date_extractor/enumerations.py,sha256=AVSW7GVhQNCiJJia6CttlKRB8VPbGXD4XW4_DsvQ_HI,5470
+date_extractor/data/months_verbose/arabic.txt,sha256=cs_OwoT5QDgMLkdBQaPU_5NxjECu4bwGwsgXQ3_1eOE,2279
+date_extractor/data/months_verbose/french.txt,sha256=ejMEEtKifi0ni5AKlrvy1MF2Ss9XmzK5Uq-wm-1Flp8,174
+date_extractor/data/months_verbose/sorani.txt,sha256=I3Rlz5JxYgFlZvpnOSPFxQmH9NXmSyH110vbDF0_VCE,191
+date_extractor/data/months_verbose/turkish.txt,sha256=ipWiYoTjVP2lu6qdou7l7TBI9U--2gHRY1s4IjCOHqM,197
+date_extractor/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+date_extractor/tests/test.py,sha256=5cjzamwbv1TpLneNgnWTkp4_ieKKVud8-SAgemPBK0s,6205
+date_extractor-3.9.1.dist-info/METADATA,sha256=fpcda-0QXQqBKkDuLXsJ6eDRN3wTkB-NSt885Umsd68,2241
+date_extractor-3.9.1.dist-info/RECORD,,
+date_extractor-3.9.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+date_extractor-3.9.1.dist-info/top_level.txt,sha256=t7cEiQcw4I3QpQvcAwZYyI26D1rOqoyz3qaR1Mdq5z0,15
