@@ -1,0 +1,11 @@
+README.md
+setup.py
+crycompare/__init__.py
+crycompare/history.py
+crycompare/price.py
+crycompare/social.py
+crycompare.egg-info/PKG-INFO
+crycompare.egg-info/SOURCES.txt
+crycompare.egg-info/dependency_links.txt
+crycompare.egg-info/requires.txt
+crycompare.egg-info/top_level.txt

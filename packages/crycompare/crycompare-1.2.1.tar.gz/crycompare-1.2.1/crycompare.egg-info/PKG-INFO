@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: crycompare
+Version: 1.2.1
+Summary: Python wrapper for CryptoCompare public API
+Home-page: https://github.com/stefs304/cryCompare
+Author: Stefan Stojanovic
+Author-email: stefs304@gmail.com
+License: UNKNOWN
+Description: # cryCompare
+        Python wrapper for CryptoCompare public API (https://www.cryptocompare.com/api)
+        
+        
+        Following API requests are supported:
+        - CoinList
+        - Price
+        - PriceMulti
+        - PriceMultiFull
+        - PriceHistorical
+        - generateAvg
+        - dayAvg
+        - CoinSnapshot
+        - CoinSnapshotFullById
+        - HistoMinute
+        - HistoHour
+        - HistoDay
+        - topPairs
+        - socialStats
+        - miningEquipment
+        
+        Installation
+        
+        ```
+        pip install crycompare
+        ```
+        
+        Usage
+        
+        ```
+        from crycompare import price as p
+        print(p.coin_snapshot('btc', 'usd'))
+        ```
+        
+        price submodule: price, price_multi, price_multi_full, generate_avg, day_avg, price_historical, coin_snapshot, coin_snahpshot_id, top_pairs.
+        history submodule: histo_minute, histo_hour, histo_day.
+        social submodule: social_stats, mining_equipment
+        
+        For detailed documentation visit CryptoCompare API website.
+        CryptoCompare API Documentation can be found at https://www.cryptocompare.com/api/#introduction
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
