@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: rhubarbe
+Version: 2.0.0
+Summary: Testbed Management Framework for R2Lab
+Home-page: https://github.com/parmentelat/rhubarbe/
+Author: Thierry Parmentelat
+Author-email: thierry.parmentelat@inria.fr
+License: CC BY-SA 4.0
+Description: See https://github.com/parmentelat/rhubarbe/blob/master/README.md
+Keywords: R2lab,networking testbed
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Information Technology
+Classifier: Programming Language :: Python :: 3.5
