@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: euclv
+Version: 0.1
+Summary: Face emotion detection for affective computing
+Home-page: https://github.com/g-soto/uclvfeel.git
+Author: GG
+Author-email: gsoto@uclv.cu
+License: GPL
+Platform: UNKNOWN
+Requires-Dist: markdown
+Requires-Dist: opencv-contrib-python
+Requires-Dist: dlib
+Requires-Dist: sklearn
+Requires-Dist: numpy
+
+UNKNOWN
+
+
