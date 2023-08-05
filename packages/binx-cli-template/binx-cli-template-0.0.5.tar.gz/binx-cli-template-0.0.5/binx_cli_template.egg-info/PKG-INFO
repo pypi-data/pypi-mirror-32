@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: binx-cli-template
+Version: 0.0.5
+Summary: This is just a template to create a new cli
+Home-page: https://github.com/binxio/pipy-cli-template
+Author: Martijn van Dongen
+Author-email: martijnvandongen@binx.io
+License: UNKNOWN
+Description: PiPY CLI Template
+Platform: any
+Provides-Extra: test

@@ -1,0 +1,14 @@
+README.md
+README.rst
+setup.py
+binx/__init__.py
+binx/__main__.py
+binx/binx.py
+binx/cli.py
+binx_cli_template.egg-info/PKG-INFO
+binx_cli_template.egg-info/SOURCES.txt
+binx_cli_template.egg-info/dependency_links.txt
+binx_cli_template.egg-info/entry_points.txt
+binx_cli_template.egg-info/not-zip-safe
+binx_cli_template.egg-info/requires.txt
+binx_cli_template.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+[console_scripts]
+binx-cli-template = binx.cli:main
+
