@@ -1,0 +1,32 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+aiofiles = "*"
+related = "*"
+"antlr4-python3-runtime" = "*"
+
+
+[dev-packages]
+
+"pytest-flake8" = "*"
+black = "*"
+ipython = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-mccabe = "*"
+white = "*"
+pytest-asyncio = "*"
+aioconsole = "*"
+mypy = "*"
+tox = "*"
+
+
+[requires]
+
+python_version = "3.6"
