@@ -1,0 +1,6 @@
+[wishbone_external.function.module]
+grandtotal = test_wishbone.grandtotal:GrandTotal
+
+[wishbone_external.function.template]
+uptime = test_wishbone.uptime:Uptime
+
