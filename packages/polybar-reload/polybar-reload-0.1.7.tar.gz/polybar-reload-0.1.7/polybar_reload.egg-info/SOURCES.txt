@@ -1,0 +1,9 @@
+README.md
+setup.py
+bin/polybar-reload
+polybar-reload/__init__.py
+polybar_reload.egg-info/PKG-INFO
+polybar_reload.egg-info/SOURCES.txt
+polybar_reload.egg-info/dependency_links.txt
+polybar_reload.egg-info/requires.txt
+polybar_reload.egg-info/top_level.txt
