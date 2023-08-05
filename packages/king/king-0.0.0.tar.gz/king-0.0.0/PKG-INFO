@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: king
+Version: 0.0.0
+Summary: Vinayak Kaniyarakkal crowning himself king of python
+Home-page: https://github.com/vinayak-kaniyarakkal/vinayak
+Author: Vinayak Kaniyarakkal
+Author-email: vinayak.programmer@gmail.com
+License: UNKNOWN
+Description: # King of Python
+        
+        Found out the crown of python and claimed for myself.
+        
+        --
+        Regards and Thanks
+        Vinayak Kaniyarakkal
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
