@@ -1,0 +1,8 @@
+custom_conda_create/__init__.py,sha256=N2hFFIFvJ4EgIRywb1ILcEDRhrbEx6XJWuSwXlLmI-I,177
+custom_conda_create/cli.py,sha256=zqFBWdOFRiDjSf15W8m75H50xHCO864xSsWUkoDoqd0,527
+custom_conda_create/custom_conda_create.py,sha256=yEokasgccMPhYhC9xGIXW3mvzr84opM93XTTt4aYbM4,1453
+custom_conda_create-0.1.0.dist-info/METADATA,sha256=4ipUDTENc-UbYkxDrEzSGDA83nOZ5IB6x_m2KxUdYoQ,1808
+custom_conda_create-0.1.0.dist-info/RECORD,,
+custom_conda_create-0.1.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+custom_conda_create-0.1.0.dist-info/entry_points.txt,sha256=wfcu4_i6OinJ9r-fClJmZtKRr3Ik9qZdhyJp1b9Eo1s,54
+custom_conda_create-0.1.0.dist-info/top_level.txt,sha256=7F_IwKNj-hF7tGcI8UqiFAd7UY1AjNxIER5ckOhj9Cg,20
