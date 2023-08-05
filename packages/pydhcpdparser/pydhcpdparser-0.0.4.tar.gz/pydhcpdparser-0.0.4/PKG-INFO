@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: pydhcpdparser
+Version: 0.0.4
+Summary: Pythonic access to DHCPD configuration; syntax parser
+Home-page: https://github.com/jay-g-mehta/pydhcpdparser
+Author: Jay Mehta
+Author-email: jay87.mehta@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
