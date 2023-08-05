@@ -1,0 +1,3798 @@
+Metadata-Version: 1.2
+Name: magi
+Version: 0.0.16
+Summary: high level wrapper for parallel univariate time series forecasting
+Home-page: http://github.com/DavisTownsend/forecast
+Author: Davis Townsend
+Author-email: dtownsend@ea.com
+License: MIT
+Description: =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        
+        
+         
+        m
+        a
+        g
+        i
+        
+        
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        
+        
+        
+        
+        .
+        .
+         
+        i
+        m
+        a
+        g
+        e
+        :
+        :
+         
+        h
+        t
+        t
+        p
+        s
+        :
+        /
+        /
+        i
+        m
+        g
+        .
+        s
+        h
+        i
+        e
+        l
+        d
+        s
+        .
+        i
+        o
+        /
+        p
+        y
+        p
+        i
+        /
+        v
+        /
+        m
+        a
+        g
+        i
+        .
+        s
+        v
+        g
+        
+        
+         
+         
+         
+        :
+        t
+        a
+        r
+        g
+        e
+        t
+        :
+         
+        h
+        t
+        t
+        p
+        s
+        :
+        /
+        /
+        p
+        y
+        p
+        i
+        .
+        p
+        y
+        t
+        h
+        o
+        n
+        .
+        o
+        r
+        g
+        /
+        p
+        y
+        p
+        i
+        /
+        m
+        a
+        g
+        i
+        
+        
+         
+         
+         
+        :
+        a
+        l
+        t
+        :
+         
+        P
+        y
+        p
+        i
+         
+        V
+        e
+        r
+        s
+        i
+        o
+        n
+        
+        
+         
+         
+         
+        
+        
+        .
+        .
+         
+        i
+        m
+        a
+        g
+        e
+        :
+        :
+         
+        h
+        t
+        t
+        p
+        s
+        :
+        /
+        /
+        i
+        m
+        g
+        .
+        s
+        h
+        i
+        e
+        l
+        d
+        s
+        .
+        i
+        o
+        /
+        p
+        y
+        p
+        i
+        /
+        p
+        y
+        v
+        e
+        r
+        s
+        i
+        o
+        n
+        s
+        /
+        m
+        a
+        g
+        i
+        .
+        s
+        v
+        g
+        
+        
+         
+         
+         
+         
+        :
+        t
+        a
+        r
+        g
+        e
+        t
+        :
+         
+        h
+        t
+        t
+        p
+        s
+        :
+        /
+        /
+        p
+        y
+        p
+        i
+        .
+        o
+        r
+        g
+        /
+        p
+        r
+        o
+        j
+        e
+        c
+        t
+        /
+        m
+        a
+        g
+        i
+        /
+        
+        
+         
+         
+         
+         
+        
+        
+        .
+        .
+         
+        i
+        m
+        a
+        g
+        e
+        :
+        :
+         
+        h
+        t
+        t
+        p
+        s
+        :
+        /
+        /
+        r
+        e
+        a
+        d
+        t
+        h
+        e
+        d
+        o
+        c
+        s
+        .
+        o
+        r
+        g
+        /
+        p
+        r
+        o
+        j
+        e
+        c
+        t
+        s
+        /
+        m
+        a
+        g
+        i
+        -
+        d
+        o
+        c
+        s
+        /
+        b
+        a
+        d
+        g
+        e
+        /
+        ?
+        v
+        e
+        r
+        s
+        i
+        o
+        n
+        =
+        l
+        a
+        t
+        e
+        s
+        t
+        
+        
+         
+         
+         
+        :
+        t
+        a
+        r
+        g
+        e
+        t
+        :
+         
+        h
+        t
+        t
+        p
+        s
+        :
+        /
+        /
+        m
+        a
+        g
+        i
+        -
+        d
+        o
+        c
+        s
+        .
+        r
+        e
+        a
+        d
+        t
+        h
+        e
+        d
+        o
+        c
+        s
+        .
+        i
+        o
+        
+        
+         
+         
+         
+        
+        
+        .
+        .
+         
+        i
+        m
+        a
+        g
+        e
+        :
+        :
+         
+        h
+        t
+        t
+        p
+        s
+        :
+        /
+        /
+        i
+        m
+        g
+        .
+        s
+        h
+        i
+        e
+        l
+        d
+        s
+        .
+        i
+        o
+        /
+        p
+        y
+        p
+        i
+        /
+        l
+        /
+        m
+        a
+        g
+        i
+        .
+        s
+        v
+        g
+        
+        
+         
+         
+         
+        :
+        t
+        a
+        r
+        g
+        e
+        t
+        :
+         
+        h
+        t
+        t
+        p
+        s
+        :
+        /
+        /
+        p
+        y
+        p
+        i
+        .
+        p
+        y
+        t
+        h
+        o
+        n
+        .
+        o
+        r
+        g
+        /
+        p
+        y
+        p
+        i
+        /
+        m
+        a
+        g
+        i
+        /
+        
+        
+         
+         
+         
+        :
+        a
+        l
+        t
+        :
+         
+        L
+        i
+        c
+        e
+        n
+        s
+        e
+        
+        
+         
+         
+         
+        
+        
+        .
+        .
+         
+        i
+        m
+        a
+        g
+        e
+        :
+        :
+         
+        h
+        t
+        t
+        p
+        s
+        :
+        /
+        /
+        b
+        a
+        d
+        g
+        e
+        s
+        .
+        g
+        i
+        t
+        t
+        e
+        r
+        .
+        i
+        m
+        /
+        m
+        a
+        g
+        i
+        -
+        g
+        i
+        t
+        t
+        e
+        r
+        /
+        L
+        o
+        b
+        b
+        y
+        .
+        s
+        v
+        g
+        
+        
+         
+         
+         
+        :
+        a
+        l
+        t
+        :
+         
+        J
+        o
+        i
+        n
+         
+        t
+        h
+        e
+         
+        c
+        h
+        a
+        t
+         
+        a
+        t
+         
+        h
+        t
+        t
+        p
+        s
+        :
+        /
+        /
+        g
+        i
+        t
+        t
+        e
+        r
+        .
+        i
+        m
+        /
+        m
+        a
+        g
+        i
+        -
+        g
+        i
+        t
+        t
+        e
+        r
+        /
+        L
+        o
+        b
+        b
+        y
+        
+        
+         
+         
+         
+        :
+        t
+        a
+        r
+        g
+        e
+        t
+        :
+         
+        h
+        t
+        t
+        p
+        s
+        :
+        /
+        /
+        g
+        i
+        t
+        t
+        e
+        r
+        .
+        i
+        m
+        /
+        m
+        a
+        g
+        i
+        -
+        g
+        i
+        t
+        t
+        e
+        r
+        /
+        L
+        o
+        b
+        b
+        y
+        ?
+        u
+        t
+        m
+        _
+        s
+        o
+        u
+        r
+        c
+        e
+        =
+        b
+        a
+        d
+        g
+        e
+        &
+        u
+        t
+        m
+        _
+        m
+        e
+        d
+        i
+        u
+        m
+        =
+        b
+        a
+        d
+        g
+        e
+        &
+        u
+        t
+        m
+        _
+        c
+        a
+        m
+        p
+        a
+        i
+        g
+        n
+        =
+        p
+        r
+        -
+        b
+        a
+        d
+        g
+        e
+        &
+        u
+        t
+        m
+        _
+        c
+        o
+        n
+        t
+        e
+        n
+        t
+        =
+        b
+        a
+        d
+        g
+        e
+        
+        
+         
+         
+         
+        
+        
+        .
+        .
+         
+        i
+        m
+        a
+        g
+        e
+        :
+        :
+         
+        h
+        t
+        t
+        p
+        s
+        :
+        /
+        /
+        b
+        e
+        e
+        r
+        p
+        a
+        y
+        .
+        i
+        o
+        /
+        D
+        a
+        v
+        i
+        s
+        T
+        o
+        w
+        n
+        s
+        e
+        n
+        d
+        /
+        m
+        a
+        g
+        i
+        /
+        m
+        a
+        k
+        e
+        -
+        w
+        i
+        s
+        h
+        .
+        s
+        v
+        g
+        ?
+        s
+        t
+        y
+        l
+        e
+        =
+        p
+        l
+        a
+        s
+        t
+        i
+        c
+        
+        
+         
+         
+         
+         
+        :
+        t
+        a
+        r
+        g
+        e
+        t
+        :
+         
+        h
+        t
+        t
+        p
+        s
+        :
+        /
+        /
+        b
+        e
+        e
+        r
+        p
+        a
+        y
+        .
+        i
+        o
+        /
+        D
+        a
+        v
+        i
+        s
+        T
+        o
+        w
+        n
+        s
+        e
+        n
+        d
+        /
+        m
+        a
+        g
+        i
+        
+        
+        
+        
+        
+        
+        O
+        v
+        e
+        r
+        v
+        i
+        e
+        w
+        
+        
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        
+        
+        
+        
+        `
+        m
+        a
+        g
+        i
+        `
+         
+        i
+        s
+         
+        a
+         
+        h
+        i
+        g
+        h
+         
+        l
+        e
+        v
+        e
+        l
+         
+        p
+        y
+        t
+        h
+        o
+        n
+         
+        w
+        r
+        a
+        p
+        p
+        e
+        r
+         
+        a
+        r
+        o
+        u
+        n
+        d
+         
+        o
+        t
+        h
+        e
+        r
+         
+        t
+        i
+        m
+        e
+         
+        s
+        e
+        r
+        i
+        e
+        s
+         
+        f
+        o
+        r
+        e
+        c
+        a
+        s
+        t
+        i
+        n
+        g
+         
+        l
+        i
+        b
+        r
+        a
+        r
+        i
+        e
+        s
+         
+        t
+        o
+         
+        a
+        l
+        l
+        o
+        w
+         
+        e
+        a
+        s
+        i
+        l
+        y
+         
+        p
+        a
+        r
+        a
+        l
+        l
+        e
+        l
+        i
+        z
+        e
+        d
+         
+        u
+        n
+        i
+        v
+        a
+        r
+        i
+        a
+        t
+        e
+         
+        t
+        i
+        m
+        e
+         
+        s
+        e
+        r
+        i
+        e
+        s
+         
+        f
+        o
+        r
+        e
+        c
+        a
+        s
+        t
+        i
+        n
+        g
+         
+        i
+        n
+         
+        p
+        y
+        t
+        h
+        o
+        n
+         
+        b
+        y
+         
+        u
+        s
+        i
+        n
+        g
+         
+        d
+        a
+        s
+        k
+         
+        d
+        e
+        l
+        a
+        y
+        e
+        d
+         
+        w
+        r
+        a
+        p
+        p
+        e
+        r
+         
+        f
+        u
+        n
+        c
+        t
+        i
+        o
+        n
+        s
+         
+        u
+        n
+        d
+        e
+        r
+         
+        t
+        h
+        e
+         
+        h
+        o
+        o
+        d
+        .
+         
+        I
+        n
+         
+        p
+        a
+        r
+        t
+        i
+        c
+        u
+        l
+        a
+        r
+        ,
+         
+        t
+        h
+        e
+         
+        l
+        i
+        b
+        r
+        a
+        r
+        y
+         
+        c
+        u
+        r
+        r
+        e
+        n
+        t
+        l
+        y
+         
+        s
+        u
+        p
+        p
+        o
+        r
+        t
+        s
+         
+        w
+        r
+        a
+        p
+        p
+        e
+        r
+        s
+         
+        t
+        o
+         
+        R
+         
+        `
+        f
+        o
+        r
+        e
+        c
+        a
+        s
+        t
+         
+        <
+        h
+        t
+        t
+        p
+        s
+        :
+        /
+        /
+        w
+        w
+        w
+        .
+        r
+        d
+        o
+        c
+        u
+        m
+        e
+        n
+        t
+        a
+        t
+        i
+        o
+        n
+        .
+        o
+        r
+        g
+        /
+        p
+        a
+        c
+        k
+        a
+        g
+        e
+        s
+        /
+        f
+        o
+        r
+        e
+        c
+        a
+        s
+        t
+        /
+        v
+        e
+        r
+        s
+        i
+        o
+        n
+        s
+        /
+        8
+        .
+        3
+        >
+        `
+        _
+         
+        l
+        i
+        b
+        r
+        a
+        r
+        y
+         
+        a
+        n
+        d
+         
+        f
+        a
+        c
+        e
+        b
+        o
+        o
+        k
+        '
+        s
+         
+        `
+        p
+        r
+        o
+        p
+        h
+        e
+        t
+         
+        <
+        h
+        t
+        t
+        p
+        s
+        :
+        /
+        /
+        g
+        i
+        t
+        h
+        u
+        b
+        .
+        c
+        o
+        m
+        /
+        f
+        a
+        c
+        e
+        b
+        o
+        o
+        k
+        /
+        p
+        r
+        o
+        p
+        h
+        e
+        t
+        >
+        `
+        _
+         
+        p
+        a
+        c
+        k
+        a
+        g
+        e
+        
+        
+        
+        
+        
+        
+        U
+        s
+        a
+        g
+        e
+        
+        
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        
+        
+        
+        
+        T
+        h
+        i
+        s
+         
+        i
+        s
+         
+        h
+        o
+        w
+         
+        e
+        a
+        s
+        y
+         
+        i
+        t
+         
+        i
+        s
+         
+        t
+        o
+         
+        c
+        l
+        e
+        a
+        n
+        ,
+         
+        f
+        o
+        r
+        e
+        c
+        a
+        s
+        t
+        ,
+         
+        a
+        n
+        d
+         
+        t
+        h
+        e
+        n
+         
+        p
+        l
+        o
+        t
+         
+        a
+        c
+        c
+        u
+        r
+        a
+        c
+        y
+         
+        m
+        e
+        t
+        r
+        i
+        c
+        s
+         
+        f
+        o
+        r
+         
+        1
+        0
+        0
+         
+        t
+        i
+        m
+        e
+         
+        s
+        e
+        r
+        e
+        s
+         
+        u
+        s
+        i
+        n
+        g
+         
+        t
+        h
+        e
+         
+        a
+        u
+        t
+        o
+         
+        a
+        r
+        i
+        m
+        a
+         
+        m
+        o
+        d
+        e
+        l
+         
+        f
+        r
+        o
+        m
+         
+        R
+         
+        f
+        o
+        r
+        e
+        c
+        a
+        s
+        t
+         
+        p
+        a
+        c
+        k
+        a
+        g
+        e
+        
+        
+        
+        
+        I
+        m
+        p
+        o
+        r
+        t
+        i
+        n
+        g
+         
+        l
+        i
+        b
+        r
+        a
+        r
+        i
+        e
+        s
+        ,
+         
+        g
+        e
+        n
+        e
+        r
+        a
+        t
+        e
+         
+        d
+        a
+        t
+        a
+        f
+        r
+        a
+        m
+        e
+         
+        o
+        f
+         
+        s
+        e
+        r
+        i
+        e
+        s
+         
+        f
+        o
+        r
+         
+        e
+        x
+        a
+        m
+        p
+        l
+        e
+        ,
+         
+        a
+        n
+        d
+         
+        s
+        t
+        a
+        r
+        t
+         
+        l
+        o
+        c
+        a
+        l
+         
+        d
+        a
+        s
+        k
+         
+        c
+        l
+        u
+        s
+        t
+        e
+        r
+        
+        
+        
+        
+        .
+        .
+         
+        c
+        o
+        d
+        e
+        -
+        b
+        l
+        o
+        c
+        k
+        :
+        :
+         
+        p
+        y
+        t
+        h
+        o
+        n
+        
+        
+        
+        
+         
+         
+         
+        f
+        r
+        o
+        m
+         
+        m
+        a
+        g
+        i
+        .
+        c
+        o
+        r
+        e
+         
+        i
+        m
+        p
+        o
+        r
+        t
+         
+        f
+        o
+        r
+        e
+        c
+        a
+        s
+        t
+        
+        
+         
+         
+         
+        f
+        r
+        o
+        m
+         
+        m
+        a
+        g
+        i
+        .
+        p
+        l
+        o
+        t
+        t
+        i
+        n
+        g
+         
+        i
+        m
+        p
+        o
+        r
+        t
+         
+        f
+        c
+        _
+        p
+        l
+        o
+        t
+        ,
+         
+        a
+        c
+        c
+        _
+        p
+        l
+        o
+        t
+        
+        
+         
+         
+         
+        f
+        r
+        o
+        m
+         
+        m
+        a
+        g
+        i
+        .
+        u
+        t
+        i
+        l
+        s
+         
+        i
+        m
+        p
+        o
+        r
+        t
+         
+        g
+        e
+        n
+        _
+        t
+        s
+        
+        
+         
+         
+         
+        f
+        r
+        o
+        m
+         
+        m
+        a
+        g
+        i
+        .
+        a
+        c
+        c
+        u
+        r
+        a
+        c
+        y
+         
+        i
+        m
+        p
+        o
+        r
+        t
+         
+        a
+        c
+        c
+        u
+        r
+        a
+        c
+        y
+        
+        
+         
+         
+         
+        f
+        r
+        o
+        m
+         
+        d
+        a
+        s
+        k
+        .
+        d
+        i
+        s
+        t
+        r
+        i
+        b
+        u
+        t
+        e
+        d
+         
+        i
+        m
+        p
+        o
+        r
+        t
+         
+        C
+        l
+        i
+        e
+        n
+        t
+        ,
+         
+        L
+        o
+        c
+        a
+        l
+        C
+        l
+        u
+        s
+        t
+        e
+        r
+        
+        
+         
+         
+         
+        i
+        m
+        p
+        o
+        r
+        t
+         
+        d
+        a
+        s
+        k
+        
+        
+         
+         
+         
+        c
+        l
+        u
+        s
+        t
+        e
+        r
+         
+        =
+         
+        L
+        o
+        c
+        a
+        l
+        C
+        l
+        u
+        s
+        t
+        e
+        r
+        (
+        )
+        
+        
+         
+         
+         
+        c
+        l
+        i
+        e
+        n
+        t
+         
+        =
+         
+        C
+        l
+        i
+        e
+        n
+        t
+        (
+        c
+        l
+        u
+        s
+        t
+        e
+        r
+        )
+        
+        
+         
+         
+         
+        d
+        f
+         
+        =
+         
+        g
+        e
+        n
+        _
+        t
+        s
+        (
+        n
+        c
+        o
+        l
+        s
+        =
+        1
+        0
+        0
+        )
+        
+        
+         
+         
+         
+        
+        
+        c
+        l
+        e
+        a
+        n
+        i
+        n
+        g
+         
+        a
+        n
+        d
+         
+        f
+        o
+        r
+        e
+        c
+        a
+        s
+        t
+        i
+        n
+        g
+         
+        f
+        o
+        r
+         
+        1
+        0
+        0
+         
+        s
+        e
+        r
+        i
+        e
+        s
+         
+        i
+        n
+         
+        p
+        a
+        r
+        a
+        l
+        l
+        e
+        l
+        ,
+         
+        t
+        h
+        e
+        n
+         
+        c
+        a
+        l
+        c
+        u
+        l
+        a
+        t
+        e
+         
+        a
+        n
+        d
+         
+        p
+        l
+        o
+        t
+         
+        a
+        c
+        c
+        u
+        r
+        a
+        c
+        y
+         
+        m
+        e
+        t
+        r
+        i
+        c
+        s
+         
+        b
+        y
+         
+        s
+        e
+        r
+        i
+        e
+        s
+        
+        
+         
+         
+         
+        
+        
+        .
+        .
+         
+        c
+        o
+        d
+        e
+        -
+        b
+        l
+        o
+        c
+        k
+        :
+        :
+         
+        p
+        y
+        t
+        h
+        o
+        n
+        
+        
+        
+        
+         
+         
+         
+        f
+        c
+        _
+        o
+        b
+        j
+         
+        =
+         
+        f
+        o
+        r
+        e
+        c
+        a
+        s
+        t
+        (
+        t
+        i
+        m
+        e
+        _
+        s
+        e
+        r
+        i
+        e
+        s
+        =
+        d
+        f
+        ,
+        f
+        o
+        r
+        e
+        c
+        a
+        s
+        t
+        _
+        p
+        e
+        r
+        i
+        o
+        d
+        s
+        =
+        1
+        8
+        ,
+        f
+        r
+        e
+        q
+        u
+        e
+        n
+        c
+        y
+        =
+        1
+        2
+        )
+        
+        
+         
+         
+         
+        f
+        o
+        r
+        e
+        c
+        a
+        s
+        t
+        _
+        d
+        f
+         
+        =
+         
+        f
+        c
+        _
+        o
+        b
+        j
+        .
+        t
+        s
+        c
+        l
+        e
+        a
+        n
+        (
+        )
+        .
+        R
+        (
+        m
+        o
+        d
+        e
+        l
+        =
+        '
+        a
+        u
+        t
+        o
+        .
+        a
+        r
+        i
+        m
+        a
+        (
+        r
+        d
+        a
+        t
+        a
+        ,
+        D
+        =
+        1
+        ,
+        s
+        t
+        a
+        t
+        i
+        o
+        n
+        a
+        r
+        y
+        =
+        T
+        R
+        U
+        E
+        )
+        '
+        ,
+        f
+        i
+        t
+        =
+        T
+        r
+        u
+        e
+        )
+        
+        
+         
+         
+         
+        a
+        c
+        c
+        _
+        d
+        f
+         
+        =
+         
+        a
+        c
+        c
+        u
+        r
+        a
+        c
+        y
+        (
+        d
+        f
+        ,
+        f
+        o
+        r
+        e
+        c
+        a
+        s
+        t
+        _
+        d
+        f
+        ,
+        s
+        e
+        p
+        a
+        r
+        a
+        t
+        e
+        _
+        s
+        e
+        r
+        i
+        e
+        s
+        =
+        T
+        r
+        u
+        e
+        )
+        
+        
+         
+         
+         
+        a
+        c
+        c
+        _
+        p
+        l
+        o
+        t
+        (
+        a
+        c
+        c
+        _
+        d
+        f
+        )
+        
+        
+        
+        
+        U
+        s
+        e
+         
+        C
+        a
+        s
+        e
+        s
+        
+        
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        
+        
+        
+        
+        W
+        h
+        a
+        t
+         
+        t
+        h
+        i
+        s
+         
+        p
+        a
+        c
+        k
+        a
+        g
+        e
+         
+        s
+        h
+        o
+        u
+        l
+        d
+         
+        b
+        e
+         
+        u
+        s
+        e
+        d
+         
+        f
+        o
+        r
+        
+        
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        
+        
+        *
+         
+        f
+        o
+        r
+        e
+        c
+        a
+        s
+        t
+        i
+        n
+        g
+         
+        f
+        o
+        r
+         
+        1
+         
+        o
+        r
+         
+        m
+        o
+        r
+        e
+         
+        U
+        n
+        i
+        v
+        a
+        r
+        i
+        a
+        t
+        e
+         
+        T
+        i
+        m
+        e
+         
+        S
+        e
+        r
+        i
+        e
+        s
+        
+        
+        *
+         
+        f
+        o
+        r
+        e
+        c
+        a
+        s
+        t
+        i
+        n
+        g
+         
+        u
+        s
+        i
+        n
+        g
+         
+        m
+        a
+        n
+        y
+         
+        d
+        i
+        f
+        f
+        e
+        r
+        e
+        n
+        t
+         
+        t
+        i
+        m
+        e
+         
+        s
+        e
+        r
+        i
+        e
+        s
+         
+        m
+        o
+        d
+        e
+        l
+        s
+         
+        i
+        n
+         
+        p
+        a
+        r
+        a
+        l
+        l
+        e
+        l
+         
+        w
+        i
+        t
+        h
+         
+        m
+        i
+        n
+        i
+        m
+        a
+        l
+         
+        e
+        f
+        f
+        o
+        r
+        t
+        
+        
+        *
+         
+        w
+        r
+        a
+        p
+        p
+        e
+        r
+         
+        f
+        o
+        r
+         
+        R
+         
+        f
+        o
+        r
+        e
+        c
+        a
+        s
+        t
+         
+        l
+        i
+        b
+        r
+        a
+        r
+        y
+         
+        t
+        o
+         
+        i
+        m
+        p
+        l
+        e
+        m
+        e
+        n
+        t
+         
+        t
+        h
+        o
+        s
+        e
+         
+        m
+        o
+        d
+        e
+        l
+        s
+         
+        i
+        n
+         
+        p
+        y
+        t
+        h
+        o
+        n
+         
+        w
+        o
+        r
+        k
+        f
+        l
+        o
+        w
+        
+        
+        *
+         
+        w
+        r
+        a
+        p
+        p
+        e
+        r
+         
+        a
+        r
+        o
+        u
+        n
+        d
+         
+        P
+        r
+        o
+        p
+        h
+        e
+        t
+         
+        l
+        i
+        b
+        r
+        a
+        r
+        y
+         
+        t
+        o
+         
+        p
+        r
+        o
+        v
+        i
+        d
+        e
+         
+        e
+        a
+        s
+        i
+        e
+        r
+         
+        d
+        a
+        t
+        a
+         
+        f
+        r
+        a
+        m
+        e
+        w
+        o
+        r
+        k
+         
+        t
+        o
+         
+        w
+        o
+        r
+        k
+         
+        w
+        i
+        t
+        h
+        
+        
+        *
+         
+        s
+        i
+        n
+        g
+        l
+        e
+         
+        s
+        o
+        u
+        r
+        c
+        e
+         
+        o
+        f
+         
+        a
+        c
+        c
+        e
+        s
+        s
+         
+        f
+        o
+        r
+         
+        m
+        a
+        n
+        y
+         
+        d
+        i
+        f
+        f
+        e
+        r
+        e
+        n
+        t
+         
+        t
+        i
+        m
+        e
+         
+        s
+        e
+        r
+        i
+        e
+        s
+         
+        f
+        o
+        r
+        e
+        c
+        a
+        s
+        t
+        i
+        n
+        g
+         
+        m
+        o
+        d
+        e
+        l
+        s
+         
+        
+        
+        
+        
+        W
+        h
+        a
+        t
+         
+        t
+        h
+        i
+        s
+         
+        p
+        a
+        c
+        k
+        a
+        g
+        e
+         
+        s
+        h
+        o
+        u
+        l
+        d
+         
+        N
+        O
+        T
+         
+        b
+        e
+         
+        u
+        s
+        e
+        d
+         
+        f
+        o
+        r
+        
+        
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        -
+        
+        
+        *
+         
+        M
+        u
+        l
+        t
+        i
+        v
+        a
+        r
+        i
+        a
+        t
+        e
+         
+        T
+        i
+        m
+        e
+         
+        S
+        e
+        r
+        i
+        e
+        s
+         
+        d
+        a
+        t
+        a
+        .
+         
+        I
+        f
+         
+        y
+        o
+        u
+         
+        h
+        a
+        v
+        e
+         
+        m
+        u
+        l
+        t
+        i
+        p
+        l
+        e
+         
+        x
+         
+        v
+        a
+        r
+        i
+        a
+        b
+        l
+        e
+        s
+         
+        t
+        h
+        a
+        t
+         
+        a
+        r
+        e
+         
+        c
+        o
+        r
+        r
+        e
+        l
+        a
+        t
+        e
+        d
+         
+        w
+        i
+        t
+        h
+         
+        y
+        o
+        u
+        r
+         
+        r
+        e
+        s
+        p
+        o
+        n
+        s
+        e
+         
+        v
+        a
+        r
+        i
+        a
+        b
+        l
+        e
+        ,
+         
+        I
+        '
+        d
+         
+        s
+        u
+        g
+        g
+        e
+        s
+        t
+         
+        s
+        i
+        m
+        p
+        l
+        y
+         
+        u
+        s
+        i
+        n
+        g
+         
+        r
+        e
+        g
+        r
+        e
+        s
+        s
+        i
+        o
+        n
+         
+        w
+        i
+        t
+        h
+         
+        l
+        a
+        g
+        s
+         
+        a
+        n
+        d
+         
+        s
+        e
+        a
+        s
+        o
+        n
+        a
+        l
+         
+        v
+        a
+        r
+        i
+        a
+        b
+        l
+        e
+         
+        t
+        o
+         
+        a
+        c
+        c
+        o
+        u
+        n
+        t
+         
+        f
+        o
+        r
+         
+        a
+        u
+        t
+        o
+        c
+        o
+        r
+        r
+        e
+        l
+        a
+        t
+        i
+        o
+        n
+         
+        i
+        n
+         
+        y
+        o
+        u
+        r
+         
+        e
+        r
+        r
+        o
+        r
+        
+        
+        *
+         
+        D
+        a
+        t
+        a
+         
+        e
+        x
+        p
+        l
+        o
+        r
+        a
+        t
+        i
+        o
+        n
+         
+        -
+         
+        T
+        h
+        e
+         
+        t
+        i
+        m
+        e
+         
+        s
+        e
+        r
+        i
+        e
+        s
+         
+        a
+        n
+        a
+        l
+        y
+        s
+        i
+        s
+         
+        s
+        t
+        e
+        p
+         
+        i
+        s
+         
+        m
+        u
+        c
+        h
+         
+        m
+        o
+        r
+        e
+         
+        s
+        u
+        i
+        t
+        e
+        d
+         
+        t
+        o
+         
+        u
+        s
+        i
+        n
+        g
+         
+        t
+        h
+        e
+         
+        R
+         
+        f
+        o
+        r
+        e
+        c
+        a
+        s
+        t
+         
+        p
+        a
+        c
+        k
+        a
+        g
+        e
+         
+        d
+        i
+        r
+        e
+        c
+        t
+        l
+        y
+        
+        
+        
+        
+        D
+        e
+        p
+        e
+        n
+        d
+        e
+        n
+        c
+        i
+        e
+        s
+        
+        
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        
+        
+        *
+         
+        d
+        a
+        s
+        k
+        
+        
+        *
+         
+        d
+        i
+        s
+        t
+        r
+        i
+        b
+        u
+        t
+        e
+        d
+        
+        
+        *
+         
+        p
+        l
+        o
+        t
+        l
+        y
+        
+        
+        *
+         
+        c
+        u
+        f
+        f
+        l
+        i
+        n
+        k
+        s
+        
+        
+        *
+         
+        r
+        p
+        y
+        2
+         
+        (
+        &
+         
+        f
+        o
+        r
+        e
+        c
+        a
+        s
+        t
+         
+        p
+        a
+        c
+        k
+        a
+        g
+        e
+         
+        >
+        =
+        8
+        .
+        3
+         
+        i
+        n
+        s
+        t
+        a
+        l
+        l
+        e
+        d
+         
+        i
+        n
+         
+        R
+        )
+        
+        
+        *
+         
+        f
+        b
+        p
+        r
+        o
+        p
+        h
+        e
+        t
+        
+        
+        
+        
+        
+        
+        I
+        n
+        s
+        t
+        a
+        l
+        l
+        a
+        t
+        i
+        o
+        n
+        
+        
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        
+        
+        
+        
+        .
+        .
+         
+        c
+        o
+        d
+        e
+        -
+        b
+        l
+        o
+        c
+        k
+        :
+        :
+         
+        c
+        o
+        n
+        s
+        o
+        l
+        e
+        
+        
+        
+        
+         
+         
+         
+        $
+         
+        p
+        i
+        p
+         
+        i
+        n
+        s
+        t
+        a
+        l
+        l
+         
+        m
+        a
+        g
+        i
+        
+        
+        
+        
+        
+        
+        D
+        o
+        c
+        u
+        m
+        e
+        n
+        t
+        a
+        t
+        i
+        o
+        n
+        
+        
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        
+        
+        
+        
+        D
+        o
+        c
+        u
+        m
+        e
+        n
+        t
+        a
+        t
+        i
+        o
+        n
+         
+        i
+        s
+         
+        h
+        o
+        s
+        t
+        e
+        d
+         
+        o
+        n
+         
+        `
+        R
+        e
+        a
+        d
+         
+        t
+        h
+        e
+         
+        D
+        o
+        c
+        s
+         
+        <
+        h
+        t
+        t
+        p
+        :
+        /
+        /
+        m
+        a
+        g
+        i
+        -
+        d
+        o
+        c
+        s
+        .
+        r
+        e
+        a
+        d
+        t
+        h
+        e
+        d
+        o
+        c
+        s
+        .
+        i
+        o
+        /
+        e
+        n
+        /
+        l
+        a
+        t
+        e
+        s
+        t
+        /
+        i
+        n
+        d
+        e
+        x
+        .
+        h
+        t
+        m
+        l
+        >
+        `
+        _
+        .
+        
+        
+        
+        
+        D
+        i
+        s
+        c
+        l
+        a
+        i
+        m
+        e
+        r
+        
+        
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        =
+        
+        
+        T
+        h
+        i
+        s
+         
+        p
+        a
+        c
+        k
+        a
+        g
+        e
+         
+        i
+        s
+         
+        s
+        t
+        i
+        l
+        l
+         
+        v
+        e
+        r
+        y
+         
+        e
+        a
+        r
+        l
+        y
+         
+        i
+        n
+         
+        d
+        e
+        v
+        e
+        l
+        o
+        p
+        m
+        e
+        n
+        t
+         
+        a
+        n
+        d
+         
+        s
+        h
+        o
+        u
+        l
+        d
+         
+        n
+        o
+        t
+         
+        b
+        e
+         
+        r
+        e
+        l
+        i
+        e
+        d
+         
+        u
+        p
+        o
+        n
+         
+        i
+        n
+         
+        p
+        r
+        o
+        d
+        u
+        c
+        t
+        i
+        o
+        n
+        .
+         
+        E
+        v
+        e
+        r
+        y
+        t
+        h
+        i
+        n
+        g
+         
+        i
+        s
+         
+        s
+        t
+        i
+        l
+        l
+         
+        s
+        u
+        b
+        j
+        e
+        c
+        t
+         
+        t
+        o
+         
+        c
+        h
+        a
+        n
+        g
+        e
+        
+        
+Keywords: time series analysis forecast forecasting predict model parallel
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: ~=3.5
