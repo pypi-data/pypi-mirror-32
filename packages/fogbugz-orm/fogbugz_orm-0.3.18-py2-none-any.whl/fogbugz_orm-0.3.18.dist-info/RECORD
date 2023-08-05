@@ -1,0 +1,16 @@
+fborm/__init__.py,sha256=YpuznuknR6mJnC9dqBrFLpxzbjo_X7Pj8qXmhrRVXjc,16068
+fborm/__main__.py,sha256=caT1MDoRTQCC4iFiwrQix3yfJYUfns4H4T5mz-EzklA,22
+fborm/commands.py,sha256=TUTyzapyfcMTrwCyP6CNprZLHu7Ay8bqblTWOQJMfr0,16759
+fborm/ext.py,sha256=pu8Yg0OB2VvS6TYq1Yn-nZ1bD09ij1K4OGDPYnqqnks,971
+fborm/objects.py,sha256=OZNEdi_O-b-AXfhPyK_AAHdvSCON25iGnUOmEhsRs38,8367
+fborm/parse.py,sha256=3bJdElRN-6trYRzN_vv7Fjto4I--Lk2PkzEKgYu2JNs,4048
+fborm/patch.py,sha256=C-fn-3bmlqjPoWYTTkSnNONgFdK7VIh59WMmwXncCEQ,2264
+fborm/sample_config.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fborm/types.py,sha256=fGNgRzdoZdTSUt2RGdpOYXzq4rKGNbn-YbX1PrWqzec,10613
+fborm/util.py,sha256=f4HTrqyRgHoy_TZCaKmYoTugqUPuHGJmhcYFeL1IXSM,1397
+fogbugz_orm-0.3.18.dist-info/DESCRIPTION.rst,sha256=M5vLPyxzjIXhM_8PmTVKKsXyzJwDJbcw7i2jVaRwzdY,5506
+fogbugz_orm-0.3.18.dist-info/METADATA,sha256=itModyo3Cn5eR6PZysgQdoqbe7qTbsY2QKG4XDKYGZ0,6330
+fogbugz_orm-0.3.18.dist-info/RECORD,,
+fogbugz_orm-0.3.18.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+fogbugz_orm-0.3.18.dist-info/metadata.json,sha256=J0idRtOHVwW1KID0dmvpjTtJZp6d6tK0WwZDkAbxKtU,974
+fogbugz_orm-0.3.18.dist-info/top_level.txt,sha256=oXUTIKXdup-sUSG3OeX4BlgwbHXljM_GdEDLMxTEbXA,6
