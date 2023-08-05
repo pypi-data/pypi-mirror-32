@@ -1,0 +1,7 @@
+setup.py
+remixdata/__init__.py
+remixdata.egg-info/PKG-INFO
+remixdata.egg-info/SOURCES.txt
+remixdata.egg-info/dependency_links.txt
+remixdata.egg-info/requires.txt
+remixdata.egg-info/top_level.txt
