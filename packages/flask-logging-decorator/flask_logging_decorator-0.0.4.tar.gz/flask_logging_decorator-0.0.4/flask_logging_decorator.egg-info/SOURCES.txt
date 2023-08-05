@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+flask_logging_decorator/__init__.py
+flask_logging_decorator.egg-info/PKG-INFO
+flask_logging_decorator.egg-info/SOURCES.txt
+flask_logging_decorator.egg-info/dependency_links.txt
+flask_logging_decorator.egg-info/requires.txt
+flask_logging_decorator.egg-info/top_level.txt
+flask_logging_decorator/tests/__init__.py
+flask_logging_decorator/tests/test_trace.py
