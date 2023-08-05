@@ -1,0 +1,10 @@
+future
+ImageHash
+joblib
+opencv-python
+pathlib
+Pillow
+six
+termcolor
+tqdm
+webcolors
