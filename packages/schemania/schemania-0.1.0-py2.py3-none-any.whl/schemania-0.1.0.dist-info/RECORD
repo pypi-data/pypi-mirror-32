@@ -1,0 +1,9 @@
+schemania/__init__.py,sha256=JQjqfyCqWPCBn7pWGfoxJGrbBiFYYZVFgDqS1H6WqJs,163
+schemania/error.py,sha256=r0fQZ3yJJQEZJYDVn8bBS4Gl1O5TsGTrTk95prA6EWo,1526
+schemania/formatter.py,sha256=AQ0hyjMvqeyyjpUtGwiFFR7BKByAQOzXVDqUwcWkxXY,1924
+schemania/schema.py,sha256=ei0Jozp34GikvUBTVHkclDQjFByVwWN74XV_KQDy4pg,2154
+schemania/validator.py,sha256=mcHSUjoUf4AHNB0IfjKZUWD6j53Tx9Cnz_cr-QW6jTY,3011
+schemania-0.1.0.dist-info/METADATA,sha256=DdYzxBJc4dLxwBBn1O0E-c8uilk-OwFhchLPWb_BVUg,1821
+schemania-0.1.0.dist-info/RECORD,,
+schemania-0.1.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+schemania-0.1.0.dist-info/top_level.txt,sha256=Rl-UnXIFH2V8ECqZQx-Vn8zOxmXatX6CNeTry8TYCrY,10
