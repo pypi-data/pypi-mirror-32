@@ -1,0 +1,3 @@
+[console_scripts]
+dirscan = dirscan.__main__:main
+

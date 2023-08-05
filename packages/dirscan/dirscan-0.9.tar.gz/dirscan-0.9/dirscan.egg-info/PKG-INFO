@@ -1,0 +1,42 @@
+Metadata-Version: 1.1
+Name: dirscan
+Version: 0.9
+Summary: Directory traverser
+Home-page: https://github.com/sveinse/dirscan
+Author: Svein Seldal
+Author-email: sveinse@seldal.com
+License: GPL3
+Description: Directory scanner
+        =================
+        
+        A recursive directory traverser, which can be used to traverse one or
+        multiple directories in parallel. It resembles the python function
+        os.walk(), but with the ability to walk multiple directories
+        simulaneously, making it suitable for comparing directory trees.
+        
+        A cmd-line tool, dirscan, provides directory scanning and comparing
+        functions from the command-line.
+        
+        ----------
+        
+        Home for the project:
+                  https://github.com/sveinse/dirscan
+        
+        Copyright 2010-2018, Svein Seldal <sveinse@seldal.com>
+        
+        This application is licensed under GNU GPL version 3
+        <http://gnu.org/licenses/gpl.html>. This is free software: you are
+        free to change and redistribute it. There is NO WARRANTY, to the
+        extent permitted by law.
+        
+Keywords: utility directory
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6

@@ -1,0 +1,13 @@
+README.rst
+setup.cfg
+setup.py
+dirscan/__init__.py
+dirscan/__main__.py
+dirscan/dirscan.py
+dirscan/fileinfo.py
+dirscan/scanfile.py
+dirscan.egg-info/PKG-INFO
+dirscan.egg-info/SOURCES.txt
+dirscan.egg-info/dependency_links.txt
+dirscan.egg-info/entry_points.txt
+dirscan.egg-info/top_level.txt
