@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: hail
+Version: 0.2
+Summary: A library for scalable biological data analysis.
+Home-page: https://www.hail.is
+Author: Hail Team
+Author-email: hail@broadinstitute.org
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

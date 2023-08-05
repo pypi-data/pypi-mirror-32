@@ -1,0 +1,5 @@
+setup.py
+hail.egg-info/PKG-INFO
+hail.egg-info/SOURCES.txt
+hail.egg-info/dependency_links.txt
+hail.egg-info/top_level.txt
