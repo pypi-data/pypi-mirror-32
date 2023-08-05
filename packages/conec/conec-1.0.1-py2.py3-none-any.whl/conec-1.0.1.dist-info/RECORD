@@ -1,0 +1,9 @@
+conec/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+conec/context2vec.py,sha256=x0zxnXNdrvTfM6iYcf8Pp0ZGhdCNPLISHJHKLB0CCUc,8006
+conec/word2vec.py,sha256=k3mJcXOA_wi3LQBRjbACjlFZoaukJA0DgDsGJMY-IQM,22564
+conec-1.0.1.dist-info/DESCRIPTION.rst,sha256=GgWC7i99hSK7ro0GB2BWDAOgtQTrTvTvroFsj5amzDc,3704
+conec-1.0.1.dist-info/METADATA,sha256=GUnuK1af6AWQ9wHCjhJWAjrtc0MRbenCy4C9JWhD5BE,4563
+conec-1.0.1.dist-info/RECORD,,
+conec-1.0.1.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+conec-1.0.1.dist-info/metadata.json,sha256=RPlXJRatSnB0t0mmtAirn-eCLLnOL-ibi3pHlM12Kac,1017
+conec-1.0.1.dist-info/top_level.txt,sha256=VQoLW9MonzCBEDMERnssotOlirFy7QqfDTfTDq3dCcU,6
