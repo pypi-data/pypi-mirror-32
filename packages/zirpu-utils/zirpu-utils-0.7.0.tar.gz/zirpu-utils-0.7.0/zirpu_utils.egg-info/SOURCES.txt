@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+zirpu/__init__.py
+zirpu/time.py
+zirpu_utils.egg-info/PKG-INFO
+zirpu_utils.egg-info/SOURCES.txt
+zirpu_utils.egg-info/dependency_links.txt
+zirpu_utils.egg-info/entry_points.txt
+zirpu_utils.egg-info/not-zip-safe
+zirpu_utils.egg-info/requires.txt
+zirpu_utils.egg-info/top_level.txt
