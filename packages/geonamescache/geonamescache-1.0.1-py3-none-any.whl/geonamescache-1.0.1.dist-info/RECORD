@@ -1,0 +1,12 @@
+geonamescache/__init__.py,sha256=HOCBSSVS673lFihc-XODpDp8Qz3mn0coK0jO-i4ORa4,2463
+geonamescache/cities.json,sha256=bjpTnHM1OGeR-w66oIoWNT6aLT1QceQGjkDCdrToX2c,4184142
+geonamescache/continents.json,sha256=4-8mEClwQ_3Ok55U4tNxXBOr-ALG9t7XbB_UGr_kRy4,25707
+geonamescache/countries.json,sha256=nDHhIakM4-ZzUdRNZH7Rtn1FBplbpychORGSyFnLuWg,91610
+geonamescache/geonamesdata.py,sha256=PJt3HstnlgXB4MpB8nNiAz_gd_bjmKbfmkS2zK5FQjw,4254
+geonamescache/mappers.py,sha256=CZHutEdUXkjwIbkOd6lPKzNrkG4O5Q7Ft38266pTPow,456
+geonamescache/mappings.py,sha256=hz3aqt1yG9aCbtii4DJp860VK8VvRLZ77s-rrXijqSI,2896
+geonamescache/us_counties.json,sha256=0imf0-M_LXMZWc_mBa_qLQm7b-hzym456kxemyTkrVg,194435
+geonamescache-1.0.1.dist-info/METADATA,sha256=-P5S05mgctKhNBYzYC7e2im85XuWLsZnRhJeLJ6oiBs,3402
+geonamescache-1.0.1.dist-info/RECORD,,
+geonamescache-1.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+geonamescache-1.0.1.dist-info/top_level.txt,sha256=puq2h4Pla5O9jCTZeMiwufyMQgvKuCJzl2Jo3zOZ_xs,14
