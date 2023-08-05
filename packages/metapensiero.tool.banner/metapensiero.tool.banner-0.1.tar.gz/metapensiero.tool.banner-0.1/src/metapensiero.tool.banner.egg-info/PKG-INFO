@@ -1,0 +1,55 @@
+Metadata-Version: 1.1
+Name: metapensiero.tool.banner
+Version: 0.1
+Summary: Minimalistic SysV banner tool
+Home-page: https://gitlab.com/metapensiero/metapensiero.tool.banner.git
+Author: Lele Gaifax
+Author-email: lele@metapensiero.it
+License: GPLv3+
+Description: .. -*- coding: utf-8 -*-
+        .. :Project:   metapensiero.tool.banner -- Mimic SysV banner tool
+        .. :Created:   Thu 25 Jan 2018 23:15:19 CET
+        .. :Author:    Lele Gaifax <lele@metapensiero.it>
+        .. :License:   GNU General Public License version 3 or later
+        .. :Copyright: © 2018 Lele Gaifax
+        ..
+        
+        ==========================
+         metapensiero.tool.banner
+        ==========================
+        
+        ----------------------
+        Mimic SysV banner tool
+        ----------------------
+        
+         :author: Lele Gaifax
+         :contact: lele@metapensiero.it
+         :license: GNU General Public License version 3 or later
+        
+        This packages the `ActiveState banner recipe`__ into a standalone command line tool.
+        
+        __ http://code.activestate.com/recipes/577537-banner/
+        
+        
+        .. -*- coding: utf-8 -*-
+        
+        Changes
+        -------
+        
+        0.1 (2018-05-19)
+        ~~~~~~~~~~~~~~~~
+        
+        - First release
+        
+        
+        0.0 (unreleased)
+        ~~~~~~~~~~~~~~~~
+        
+        - Initial effort
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
