@@ -1,0 +1,13 @@
+setup.py
+ftpbackup/__init__.py
+ftpbackup/__main__.py
+ftpbackup/json_cleaner.py
+ftpbackup.egg-info/PKG-INFO
+ftpbackup.egg-info/SOURCES.txt
+ftpbackup.egg-info/dependency_links.txt
+ftpbackup.egg-info/entry_points.txt
+ftpbackup.egg-info/not-zip-safe
+ftpbackup.egg-info/requires.txt
+ftpbackup.egg-info/top_level.txt
+tests/__init__.py
+tests/test_json_cleaner.py
