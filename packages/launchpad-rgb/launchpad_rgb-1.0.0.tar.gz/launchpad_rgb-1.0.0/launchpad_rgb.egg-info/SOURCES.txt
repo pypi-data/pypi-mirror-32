@@ -1,0 +1,6 @@
+README.md
+setup.py
+launchpad_rgb.egg-info/PKG-INFO
+launchpad_rgb.egg-info/SOURCES.txt
+launchpad_rgb.egg-info/dependency_links.txt
+launchpad_rgb.egg-info/top_level.txt
