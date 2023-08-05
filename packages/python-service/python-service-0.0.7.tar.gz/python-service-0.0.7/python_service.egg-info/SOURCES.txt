@@ -1,0 +1,8 @@
+setup.py
+pyservice/__init__.py
+pyservice/service.py
+python_service.egg-info/PKG-INFO
+python_service.egg-info/SOURCES.txt
+python_service.egg-info/dependency_links.txt
+python_service.egg-info/requires.txt
+python_service.egg-info/top_level.txt
