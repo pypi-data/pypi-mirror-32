@@ -1,0 +1,6 @@
+setup.py
+cnradical.egg-info/PKG-INFO
+cnradical.egg-info/SOURCES.txt
+cnradical.egg-info/dependency_links.txt
+cnradical.egg-info/requires.txt
+cnradical.egg-info/top_level.txt

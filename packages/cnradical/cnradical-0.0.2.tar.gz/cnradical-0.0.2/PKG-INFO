@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: cnradical
+Version: 0.0.2
+Summary: tools for get chinese radical and pinyin
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: License :: OSI Approved :: Apache Software License
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
