@@ -1,0 +1,11 @@
+bbindex/__init__.py,sha256=ud90ErhEA-aqTv0L_I95X9VW_LPYhr7TepDBCsxewks,235
+bbindex/authorize.py,sha256=tJTDTubsSFKBqndp_9ywD8K7nA5IMBl-oG1ytQW1ffA,3246
+bbindex/base.py,sha256=yAkDdoYQudlZhS2UN82vY6c4kT6pRfOduYAq_t5cywo,5406
+bbindex/dataapi.py,sha256=ZyZxoVMmyWB4j9rBCPc-oIIvhuyEQ59mAjDFDuPj0yI,4238
+bbindex/vars.py,sha256=mbXgjQiGwIAnhGPgaT13iRPHkwdR51CCY1z7grUoU84,553
+bbindex-0.1.1.dist-info/DESCRIPTION.rst,sha256=DgCv05AsmUEa3tw0bD9PjMf4w_f7jmzP3HVhx0LQ1WE,5622
+bbindex-0.1.1.dist-info/METADATA,sha256=Zm6UMtHYHyUkgWukpM9gicq7dMz68syxR3uVO5Jn3R0,6348
+bbindex-0.1.1.dist-info/RECORD,,
+bbindex-0.1.1.dist-info/WHEEL,sha256=90z-L1FjHEv_g8pMPaPbaXuhBIvSlvYObRaa122x8ag,97
+bbindex-0.1.1.dist-info/metadata.json,sha256=FjpoIIZRvicq2zamwsTauESXU5bIA1IwiYQDLFKAVsU,760
+bbindex-0.1.1.dist-info/top_level.txt,sha256=XskaQIBlgmKrC9XSXhqvH0OaidKMqVrLZvi1ZK_jzU8,8
