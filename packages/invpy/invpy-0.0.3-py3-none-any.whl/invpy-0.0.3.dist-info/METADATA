@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: invpy
+Version: 0.0.3
+Summary: An experimental financial data scraper.
+Home-page: https://github.com/mai1346/invpy
+Author: Haoyuan Mai
+Author-email: maihaoyuan@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: beautifulsoup4
+Requires-Dist: numpy
+
+UNKNOWN
+
+
