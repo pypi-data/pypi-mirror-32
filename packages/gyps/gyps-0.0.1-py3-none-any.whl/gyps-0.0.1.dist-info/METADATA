@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: gyps
+Version: 0.0.1
+Summary: [WiP; Name Squatting] - Python transcoding tools for geodetic files
+Home-page: https://github.com/polyvertex/gyps
+Author: Jean-Charles Lefebvre
+Author-email: polyvertex@gmail.com
+License: MIT
+Keywords: gps,convert,gpx,kml,kmz,nmea,sbn,sbp
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+
+====
+GyPS
+====
+
+A GPS files toolbox written in Python3.
+
+
+Features
+========
+
+* Transcoding of some file formats (GPX, KML, FIT, SBN, SBP)
+* Lossless merging of SBN or SBP files
+* Compute statistics (segmented tracks supported)
+* Automatic file renaming according to a given pattern like log's start date for
+  example
+* Maintain a local SQLite database for a given folder full of GPS files
+* Photo mapping in a KML file, for one or several GPS tracks
+* Configurable via both an ``.ini`` file and command line flags (merged)
+
+
+License
+=======
+
+This project is distributed under the terms of the MIT license.
+See the `LICENSE.txt <LICENSE.txt>`_ file for details.
+
+
