@@ -1,0 +1,11 @@
+============
+Installation
+============
+
+* Add ``'django.contrib.humanize', 'cosinnus_todo'`` to ``INSTALLED_APPS``
+
+## Frontend
+
+Follow the [frontend guidelines](http://git.sinnwerkstatt.com/cosinnus/cosinnus-core/wikis/Frontend) for cosinnus.
+
+
