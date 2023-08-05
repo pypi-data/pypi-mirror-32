@@ -1,0 +1,8 @@
+numpy>=1.11
+pandas>=0.19
+pyyaml
+cached_property
+pandas_datareader
+pyfi_helper>=0.1
+pyecharts
+sqlalchemy
