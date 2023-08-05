@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: mokhtar
+Version: 0.1.1
+Summary: Mokhtar provides a set of helper classes to contruct access requests via secrets contained in AWS Secret Management
+Home-page: https://github.com/surfkansas/mokhtar
+Author: Mark Sweat
+Author-email: mark@surfkansas.com
+License: UNKNOWN
+Download-URL: https://github.com/surfkansas/mokhtar/archive/0.1.1.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
