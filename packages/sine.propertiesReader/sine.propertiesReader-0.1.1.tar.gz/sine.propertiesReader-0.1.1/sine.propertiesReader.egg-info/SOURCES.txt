@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+sine/__init__.py
+sine/__version__.py
+sine/propertiesReader.py
+sine.propertiesReader.egg-info/PKG-INFO
+sine.propertiesReader.egg-info/SOURCES.txt
+sine.propertiesReader.egg-info/dependency_links.txt
+sine.propertiesReader.egg-info/namespace_packages.txt
+sine.propertiesReader.egg-info/top_level.txt

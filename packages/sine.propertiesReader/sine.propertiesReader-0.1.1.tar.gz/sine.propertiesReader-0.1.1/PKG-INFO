@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: sine.propertiesReader
+Version: 0.1.1
+Summary: incomplete reader for simple .properties file
+Home-page: https://github.com/SineObama/
+Author: Xian Zheng
+Author-email: 714186139@qq.com
+License: MIT
+Description: 
+        * ignore '#' lines
+        * read lines and split by '=' without escape charactor transfromation
+        * read as `dict` of key/value pair or `list` of cuple
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=2.7.0
+Description-Content-Type: text/markdown
