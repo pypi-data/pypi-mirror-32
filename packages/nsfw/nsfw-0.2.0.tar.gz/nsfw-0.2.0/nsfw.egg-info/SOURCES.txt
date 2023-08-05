@@ -1,0 +1,8 @@
+README.md
+setup.py
+nsfw/__init__.py
+nsfw/nsfw.py
+nsfw.egg-info/PKG-INFO
+nsfw.egg-info/SOURCES.txt
+nsfw.egg-info/dependency_links.txt
+nsfw.egg-info/top_level.txt
