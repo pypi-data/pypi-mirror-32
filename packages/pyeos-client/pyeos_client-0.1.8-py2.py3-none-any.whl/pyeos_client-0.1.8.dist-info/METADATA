@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyeos-client
+Version: 0.1.8
+Summary: Wrapper for EOS RPC API
+Home-page: https://github.com/EvaCoop/pyeos_client.git
+Author: Merouane Benthameur
+Author-email: merouane.benth@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# pyeos_client
+
+
