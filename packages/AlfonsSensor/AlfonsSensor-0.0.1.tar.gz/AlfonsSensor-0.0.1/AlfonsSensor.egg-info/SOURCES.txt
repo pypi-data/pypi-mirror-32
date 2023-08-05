@@ -1,0 +1,10 @@
+README.md
+setup.py
+AlfonsSensor/__init__.py
+AlfonsSensor/main.py
+AlfonsSensor.egg-info/PKG-INFO
+AlfonsSensor.egg-info/SOURCES.txt
+AlfonsSensor.egg-info/dependency_links.txt
+AlfonsSensor.egg-info/entry_points.txt
+AlfonsSensor.egg-info/requires.txt
+AlfonsSensor.egg-info/top_level.txt
