@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: plover-retro-quotes
+Version: 0.0.2
+Summary: Add single- and double-quotes to previously-typed words.
+Home-page: https://github.com/arxanas/plover_retro_quotes
+Author: Waleed Khan
+Author-email: me@waleedkhan.name
+License: GNU General Public License v3 or later (GPLv3+)
+Description: UNKNOWN
+Keywords: plover plover_plugin
+Platform: UNKNOWN

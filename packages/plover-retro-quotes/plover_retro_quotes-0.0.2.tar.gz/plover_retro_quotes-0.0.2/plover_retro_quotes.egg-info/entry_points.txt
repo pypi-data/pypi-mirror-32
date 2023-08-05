@@ -1,0 +1,4 @@
+[plover.meta]
+retro_double_quotes = plover_retro_quotes:retro_double_quotes
+retro_single_quotes = plover_retro_quotes:retro_single_quotes
+
