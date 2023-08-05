@@ -1,0 +1,9 @@
+{% extends 'cosmicdb/base.html' %}
+
+{% load sitetree %}
+{% load render_table from django_tables2 %}
+
+{% block content %}
+    <h2 class="ui header">{% sitetree_page_title from "cosmicdb" %}</h2>
+    {% render_table table %}
+{% endblock %}
