@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: neuropipe
+Version: 1.0.0a1
+Summary: Command-line tool for easily scaffolding a machine learning pipeline
+Home-page: https://github.com/shobrook/neuropipe
+Author: shobrook
+Author-email: shobrookj@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: machine learning
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Requires: pystache
+Requires-Python: >=3
