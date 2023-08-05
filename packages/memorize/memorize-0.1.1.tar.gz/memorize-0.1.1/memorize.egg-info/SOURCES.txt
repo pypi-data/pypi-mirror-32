@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+memorize/__init__.py
+memorize/core.py
+memorize.egg-info/PKG-INFO
+memorize.egg-info/SOURCES.txt
+memorize.egg-info/dependency_links.txt
+memorize.egg-info/not-zip-safe
+memorize.egg-info/top_level.txt
