@@ -1,0 +1,11 @@
+philistine/__init__.py,sha256=gff9g7IcCyetUMFT2QW3RTCIMzvjFhBu0zurxG9YsiE,245
+philistine/_base.py,sha256=CY7TfR8JOREaIT_evLNFZ33cjs6NtoHoRR9d8ynU5cE,756
+philistine/mne/__init__.py,sha256=5Zh0KF1_nx8nzRhjVO5fwb01KbUDwC7G1PZCPBge9J4,304
+philistine/mne/_base.py,sha256=e5F4ncZ3txgNphVHx1gRQp0FDUL9H9_cLWXMx6Kq8Bg,18509
+philistine/mne/io.py,sha256=Dp3oDRJg7Wk9EivN12mC249v8obLtVOz6cd9e0_kx88,9081
+philistine/mne/utils.py,sha256=lUdZrrgs3qB6PlPnddlbkPVdIIPM_hekRvd4fTNB_fw,2549
+philistine-0.1.dist-info/METADATA,sha256=v5ixA5Ng4cAWl7UNslYbai2eW5cIqaLVYtxVmAzXzPg,3011
+philistine-0.1.dist-info/RECORD,,
+philistine-0.1.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+philistine-0.1.dist-info/top_level.txt,sha256=mzu3WYuijofbnf7gB6MIwRFYPt0V2I0VYAUHzh2M1e4,11
+philistine-0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
