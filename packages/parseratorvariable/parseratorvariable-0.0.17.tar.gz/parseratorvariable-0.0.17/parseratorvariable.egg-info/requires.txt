@@ -1,0 +1,6 @@
+dedupe>=1.0.0
+numpy
+probableparsing
+
+[:python_version < "3.2"]
+backports.functools_lru_cache
