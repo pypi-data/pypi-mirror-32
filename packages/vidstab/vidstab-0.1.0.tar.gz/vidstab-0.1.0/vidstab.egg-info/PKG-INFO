@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: vidstab
+Version: 0.1.0
+Summary: Video Stabilization using OpenCV
+Home-page: https://github.com/AdamSpannbauer/python_video_stab
+Author: Adam Spannbauer
+Author-email: spannbaueradam@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: video stabilization,computer vision,image processing,opencv
+Platform: UNKNOWN
