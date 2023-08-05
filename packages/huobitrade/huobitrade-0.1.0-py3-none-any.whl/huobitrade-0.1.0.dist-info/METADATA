@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: huobitrade
+Version: 0.1.0
+Summary: huobi_api for python
+Home-page: https://github.com/hadrianl/huobi
+Author: Hadrianl
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: websocket-client
+Requires-Dist: requests
+Requires-Dist: pymongo
+
+# 火币API的Python版
+
+## WebSocket API
+
+## Restful API
+
+## Message Handler
+
