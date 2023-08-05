@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: clpy
+Version: 0.0.0a0
+Summary: ClPy: OpenCL backend for CuPy
+Home-page: https://github.com/fixstars/clpy
+Author: Fixstars Corporation
+Author-email: clpy@fixstars.com
+License: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN

@@ -1,0 +1,6 @@
+setup.py
+clpy/__init__.py
+clpy.egg-info/PKG-INFO
+clpy.egg-info/SOURCES.txt
+clpy.egg-info/dependency_links.txt
+clpy.egg-info/top_level.txt
