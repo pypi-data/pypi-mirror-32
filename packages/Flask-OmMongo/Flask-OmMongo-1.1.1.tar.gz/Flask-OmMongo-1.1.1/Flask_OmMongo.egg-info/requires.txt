@@ -1,0 +1,4 @@
+Flask>=0.9
+OmMongo
+pymongo>=2.8.1
+pytz
