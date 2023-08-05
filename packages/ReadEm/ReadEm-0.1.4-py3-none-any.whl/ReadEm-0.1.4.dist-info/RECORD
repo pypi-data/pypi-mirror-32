@@ -1,0 +1,14 @@
+ReadEm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ReadEm/__version__.py,sha256=NisJuXwr1WaWEWn7EZA-7XAzfz6RLUUFvfxb7DIzfSE,306
+ReadEm/read_em.py,sha256=cjE6P85bOnoPmqXU6FOaSa67V5m5n5dsLBK4ctoF8jo,5050
+ReadEm/serve.py,sha256=jQBWASvse547jzJ_0AJ3Ky7xOgyP6YhlZtbQc5Ziz_U,5567
+ReadEm/assets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ReadEm/assets/app.css,sha256=0txe3TD-CPS8Bg6sUmMkWATnM6GuQPynidVPdmkwL9U,1178
+ReadEm/assets/app.js,sha256=aG70D2E8U-Gqz-GvvLUujk6QuZ47aNQEfl8k-jmaAks,171
+ReadEm/assets/github.css,sha256=LNdqVHISG67kAs47-RpAn6KiLhGOY1pSjhbkkqsfX_c,13769
+ReadEm-0.1.4.dist-info/DESCRIPTION.rst,sha256=fY-xx6ZVAG6zGkY2aJ2DJCUV0L9ab4FNHYNEWZsqAaM,1095
+ReadEm-0.1.4.dist-info/METADATA,sha256=DboaDfeAiYXDXoCzIdUyeuSJtfStANydjIA3A9RhrLY,2041
+ReadEm-0.1.4.dist-info/RECORD,,
+ReadEm-0.1.4.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+ReadEm-0.1.4.dist-info/metadata.json,sha256=f1QS4FZBj-NvhA1jnM3L2vwaW6cjvvaGRGcr0mzDOG8,1109
+ReadEm-0.1.4.dist-info/top_level.txt,sha256=IwJbdgbvLd2dfDnvshyC6DrnnXg6FwujAtspAjkPr7M,7
