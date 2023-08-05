@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+reedmuller/reedmuller.py
+reedmuller/rmdecode.py
+reedmuller/rmencode.py
+reedmuller.egg-info/PKG-INFO
+reedmuller.egg-info/SOURCES.txt
+reedmuller.egg-info/dependency_links.txt
+reedmuller.egg-info/top_level.txt
