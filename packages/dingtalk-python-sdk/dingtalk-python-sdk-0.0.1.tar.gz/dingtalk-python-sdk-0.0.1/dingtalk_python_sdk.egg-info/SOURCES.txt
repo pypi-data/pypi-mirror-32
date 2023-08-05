@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+dingtalk_python_sdk/__init__.py
+dingtalk_python_sdk/robot.py
+dingtalk_python_sdk.egg-info/PKG-INFO
+dingtalk_python_sdk.egg-info/SOURCES.txt
+dingtalk_python_sdk.egg-info/dependency_links.txt
+dingtalk_python_sdk.egg-info/top_level.txt
