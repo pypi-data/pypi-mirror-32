@@ -1,0 +1,59 @@
+- hosts: all
+  environment:
+    OS_CLOUD: devstack-admin
+
+  tasks:
+    - name: Find Cirros UEC image
+      shell: |
+        openstack image list -f value -c ID -c Name \
+          | awk '/cirros.*uec/ { print $1; exit 0; }'
+      register: cirros_uec_image_result
+
+    - name: Find Cirros disk image
+      shell: |
+        openstack image list -f value -c ID -c Name \
+          | awk '/cirros.*disk/ { print $1; exit 0; }'
+      register: cirros_disk_image_result
+
+    - name: Check that Cirros UEC image was found
+      fail:
+        msg: No Cirros UEC image found
+      when: cirros_uec_image_result.stdout == ""
+
+    - name: Check that Cirros disk image was found
+      fail:
+        msg: No Cirros disk image found
+      when: cirros_disk_image_result.stdout == ""
+
+    - name: Find a suitable SSH public key
+      shell: |
+        for i in $HOME/.ssh/id_rsa.pub $HOME/.ssh/id_dsa.pub; do
+          if [[ -r $i ]]; then
+            echo $i
+            break
+          fi
+        done
+      args:
+        executable: /bin/bash
+      register: ssh_key_result
+
+    - name: Check that an SSH key was found
+      fail:
+        msg: No SSH public key was found
+      when: ssh_key_result.stdout == ""
+
+    - name: Set deployment facts
+      set_fact:
+        cirros_uec_image: "{{ cirros_uec_image_result.stdout }}"
+        cirros_disk_image: "{{ cirros_disk_image_result.stdout }}"
+        ssh_key_file: "{{ ssh_key_result.stdout }}"
+
+    - include: exercise.yaml
+      vars:
+        image: "{{ cirros_uec_image }}"
+        precreate_port: false
+
+    - include: exercise.yaml
+      vars:
+        image: "{{ cirros_disk_image }}"
+        precreate_port: true
