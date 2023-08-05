@@ -1,0 +1,10 @@
+faketool-0.1.1.dist-info/DESCRIPTION.rst,sha256=3GZs9bIQ6fOy7R7k9cGLfX_KerDYvlHBeEIzNHPqJ5A,42
+faketool-0.1.1.dist-info/METADATA,sha256=dnfyUT1nq1mVTobcVaJHzqwAPa3nJavnZYRwdE72Xwg,937
+faketool-0.1.1.dist-info/RECORD,,
+faketool-0.1.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+faketool-0.1.1.dist-info/entry_points.txt,sha256=DYcKW8yYcfUhqbWF77GIHes50GhwRGx9LrwTwdGIjkI,64
+faketool-0.1.1.dist-info/metadata.json,sha256=JgH0nOi9AGU_znwOBaDWZwHsUKSZLY7Ifchi4hrZspw,1208
+faketool-0.1.1.dist-info/top_level.txt,sha256=81sYdZq32qJSCaBBWBW1sWwGMoVrPAET-A5z9qSDPwM,17
+genbank_validate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genbank_validate/breseq_wrapper.py,sha256=8syC1TYrlZlQVoslDNxoE_AsBtmqhVtaSCCTTNHukIs,6735
+genbank_validate/cli.py,sha256=S2bnAoyb060HF282HgzlwUUntSmHAgqTk7bI90bKbDg,336
