@@ -1,0 +1,13 @@
+{
+  "channel_0":"Hematoxylin",
+  "channel_1":"DAB-chromogen",
+  "channel_2":"Supplementary channel",
+  "vector": [[0.543289, 0.765851865, 0.3439593],
+            [0.36140454, 0.6553305, 0.66327125],
+            [0.7517899, 0.001, 0.65940267]],
+  "thresh_0":30,
+  "thresh_1":40,
+  "hist_shift_0":12,
+  "hist_shift_1":12,
+  "hist_shift_2":0
+}

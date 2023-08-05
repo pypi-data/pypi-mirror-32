@@ -1,0 +1,13 @@
+{
+  "channel_0":"Hematoxylin",
+  "channel_1":"Alcian blue",
+  "channel_2":"Supplementary channel",
+  "vector": [[0.5526742, 0.75456136, 0.35381967],
+            [0.8748373, 0.45782363, 0.15829495],
+            [0.001, 0.45433712, 0.8908298]],
+  "thresh_0":30,
+  "thresh_1":40,
+  "hist_shift_0":5,
+  "hist_shift_1":16,
+  "hist_shift_2":0
+}
