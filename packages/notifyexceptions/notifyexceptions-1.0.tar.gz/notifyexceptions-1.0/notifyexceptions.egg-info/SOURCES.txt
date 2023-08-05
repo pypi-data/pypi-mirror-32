@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+notifyexceptions.egg-info/PKG-INFO
+notifyexceptions.egg-info/SOURCES.txt
+notifyexceptions.egg-info/dependency_links.txt
+notifyexceptions.egg-info/requires.txt
+notifyexceptions.egg-info/top_level.txt
