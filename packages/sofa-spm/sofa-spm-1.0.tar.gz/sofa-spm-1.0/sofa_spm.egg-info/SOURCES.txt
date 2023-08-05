@@ -1,0 +1,9 @@
+README.md
+setup.py
+sofa_spm.egg-info/PKG-INFO
+sofa_spm.egg-info/SOURCES.txt
+sofa_spm.egg-info/dependency_links.txt
+sofa_spm.egg-info/requires.txt
+sofa_spm.egg-info/top_level.txt
+sofa_spm.egg-info/zip-safe
+spm/sofa-spm.py
