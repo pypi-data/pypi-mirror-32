@@ -1,0 +1,13 @@
+pyyaml
+toml
+
+[click]
+click
+
+[dev]
+flake8
+nose2
+nose2[coverage_plugin]
+parameterized
+pylint
+twine
