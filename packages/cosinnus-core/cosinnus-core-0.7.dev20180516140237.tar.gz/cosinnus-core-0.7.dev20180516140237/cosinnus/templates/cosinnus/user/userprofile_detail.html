@@ -1,0 +1,294 @@
+{% extends "cosinnus/base.html" %}
+{% load i18n static cosinnus_tags djajax_tags %}
+
+{% block page_title %}
+  {% blocktrans with username=this_user|full_name %}User profile: {{ username }}{% endblocktrans %}{{ block.super }}
+{% endblock %}
+
+
+{% block main_page %}
+
+    {% if SETTINGS.DEBUG and not user|cosinnus_setting:"test_msg" %}
+        <div class="alert alert-info alert-dismissable">
+            <i class="fa fa-info-circle fa-3x"></i>
+            <button id="close_button" type="button" class="close" data-dismiss="alert" aria-hidden="true" {% djajax_connect user.cosinnus_profile.settings trigger_on="click" fixed_value="test_msg:true" %}>&#215;</button>
+            <p>This message will never reappear when you remove it.</p>
+        </div>
+    {% endif %}
+
+    <div class="row">
+		<div class="col-xs-12">
+		    {% include 'cosinnus/messages.html' %}
+		
+			<div class="row large-space">
+			    <div class="col-sm-3 large-space">
+			        {% include "cosinnus/user/user_avatar_image.html" with user=this_user extra_classes="w100" image_size="large" %}
+			    </div>
+			    <div class="col-sm-9 bottom-align large-space">
+			        <legend class="large-space userprofile-title ">{{ this_user.cosinnus_profile.get_extended_full_name }}</legend>
+			
+			        {% if request.user.is_authenticated and request.user == this_user and not SETTINGS.COSINNUS_IS_INTEGRATED_PORTAL %}
+			            {% if not SETTINGS.COSINNUS_IS_SSO_PORTAL %}
+				            <button type="button" class="btn btn-emphasized" href="{% url 'cosinnus:profile-edit' %}">
+	                            <ul class="media-list">
+	                                <li class="media">
+	                                    <a class="pull-left" href="#">
+	                                        <i class="fa fa-pencil"></i>
+	                                    </a>
+	                                    <div class="media-body">
+	                                        {% trans "Edit Profile" %}
+	                                    </div>
+	                                </li>
+	                            </ul>
+	                        </button>
+                        {% endif %}
+                        <button type="button" class="btn btn-emphasized" href="{% url 'cosinnus:notifications' %}" title="{% trans "Notification Preferences" %}" style="width: auto;">
+                            <ul class="media-list">
+                                <li class="media">
+                                    <a class="pull-left" href="#">
+                                        <i class="fa fa-cogs"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        {% trans "Notification Preferences" %}
+                                    </div>
+                                </li>
+                            </ul>
+                        </button>
+                        {% if SETTINGS.COSINNUS_IS_SSO_PORTAL %}
+                            <button type="button" class="btn btn-emphasized" href="{% url 'cosinnus:profile-delete' %}">
+                                <ul class="media-list">
+                                    <li class="media">
+                                        <a class="pull-left" href="#">
+                                            <i class="fa fa-times"></i>
+                                        </a>
+                                        <div class="media-body">
+                                            {% trans "Delete profile" %}
+                                        </div>
+                                    </li>
+                                </ul>
+                            </button>
+                        {% endif %}
+			        {% else %}
+			            {% comment %} Abonnieren is out for now 
+			            <button type="button" class="btn btn-default">
+			                <ul class="media-list">
+			                    <li class="media">
+			                        <a class="pull-left" href="#">
+			                            <i class="fa fa-hand-o-right "></i>
+			                        </a>
+			                        <div class="media-body">
+			                            <!-- <a href="#"> -->
+			                                {% trans "Abonnieren" %}
+			                            <!-- </a> -->
+			                        </div>
+			                    </li>
+			                </ul>
+			            </button>
+			             {% endcomment %}
+			            {% if not SETTINGS.COSINNUS_IS_INTEGRATED_PORTAL %}
+			            <button type="button" class="btn btn-emphasized" href="{% url 'postman:write' recipients=this_user.username %}?next={% url 'postman:sent' %}">
+			                <ul class="media-list">
+			                    <li class="media">
+			                        <a class="pull-left" href="#">
+			                            <i class="fa fa-envelope"></i>
+			                        </a>
+			                        <div class="media-body">
+			                            {% trans "Send Message" %}
+			                        </div>
+			                    </li>
+			                </ul>
+			            </button>
+			            {% endif %}
+			            
+			            {% include 'cosinnus/feedback/report_button_btn.html' with object=this_user %}
+			            
+			        {% endif %} 
+			    </div>
+			
+			
+			</div><!-- row -->
+			
+			
+			<div class="row">
+			    <div class="col-md-6 col-lg-4 large-space">
+			
+			        <div type="button" class="btn btn-emphasized btn-headline btn-no-interact">
+			            <ul class="media-list">
+			                <li class="media">
+			                    <a class="pull-left btn-extra-emphasized" href="#"></a>
+			                    <a class="pull-left" href="#">
+			                        <i class="fa fa-user"></i>
+			                    </a>
+			                    <div class="media-body">
+			                        {% trans "About me" %}
+			                    </div>
+			                </li>
+			            </ul>
+			        </div><!-- btn -->
+			        <div class="content-box large-space">
+			        	{% block userprofile_content %}
+				            {% if profile.description %} 
+				            <div class="textfield transparent">
+				                {{ profile.description|textfield }}
+				            </div>
+				            {% endif %}
+				            
+				            {% if profile.website %}
+				            <legend>{% trans "My Website" %}</legend>
+				            <p class="transparent">
+				                <i class="fa fa-globe"></i> <a href="{{ profile.website }}" target="_blank">{{ profile.website }}</a>
+				            </p>
+				            {% endif %}
+				            
+				            {% include "cosinnus/media_tags_userprofile_readonly.html" with object=profile %}
+			            {% endblock userprofile_content %}
+			        </div><!-- content-box -->
+			    </div><!-- column -->
+			
+			    <div class="col-md-6 col-lg-4 large-space">
+			
+			        <div type="button" class="btn btn-emphasized btn-headline btn-no-interact fine-space">
+			            <ul class="media-list">
+			                <li class="media">
+			                    <a class="pull-left btn-extra-emphasized" href="#"></a>
+			                    <a class="pull-left" href="#">
+			                        <i class="fa fa-users"></i>
+			                    </a>
+			                    <div class="media-body">
+			                        {% trans "My Groups" %}
+			                    </div>
+			                </li>
+			            </ul>
+			        </div><!-- btn -->
+			        
+			        {% with groups=profile.cosinnus_societies %}
+				        {% for group in groups %}
+				            <button type="button" class="btn btn-default w100 {% if forloop.last %}large{% else %}fine{% endif %}-space" href="{{ group.get_absolute_url }}">
+				                <ul class="media-list">
+				                    <li class="media">
+				                        <a class="pull-left">
+				                            {% include "cosinnus/group/group_avatar_image.html" with group=group %}
+				                        </a>
+				                        <div class="media-body">
+				                            {{ group.name }}
+				                        </div>
+				                    </li>
+				                </ul>
+				            </button>
+				        {% endfor %}
+			        {% endwith %}
+			
+			        {% comment %} Mehr button is hidden till we can load more results  
+			        <button type="button" class="btn btn-emphasized large-space">
+			            <ul class="media-list">
+			                <li class="media">
+			                    <a class="pull-left" href="#"></a>
+			                    <a class="pull-right btn-extra-emphasized" href="#">
+			                        <i class="fa fa-chevron-right "></i>
+			                    </a>
+			                    <div class="media-body">
+			                        <a href="#">
+			                            {% trans "More" %}
+			                        </a>
+			                    </div>
+			                </li>
+			            </ul>
+			        </button>
+			         {% endcomment %}
+			
+			
+			    </div><!-- column -->
+			    
+			    <div class="col-md-6 col-lg-4 large-space">
+            
+                    <div type="button" class="btn btn-emphasized btn-headline btn-no-interact fine-space">
+                        <ul class="media-list">
+                            <li class="media">
+                                <a class="pull-left btn-extra-emphasized" href="#"></a>
+                                <a class="pull-left" href="#">
+                                    <i class="fa fa-users"></i>
+                                </a>
+                                <div class="media-body">
+                                    {% trans "My Projects" %}
+                                </div>
+                            </li>
+                        </ul>
+                    </div><!-- btn -->
+                    
+                    {% with projects=profile.cosinnus_projects %}
+                        {% for group in projects %}
+                            <button type="button" class="btn btn-default w100 {% if forloop.last %}large{% else %}fine{% endif %}-space" href="{{ group.get_absolute_url }}">
+                                <ul class="media-list">
+                                    <li class="media">
+                                        <a class="pull-left">
+                                            {% include "cosinnus/group/group_avatar_image.html" with group=group %}
+                                        </a>
+                                        <div class="media-body">
+                                            {{ group.name }}
+                                        </div>
+                                    </li>
+                                </ul>
+                            </button>
+                        {% endfor %}
+                    {% endwith %}
+            
+                    {% comment %} Mehr button is hidden till we can load more results  
+                    <button type="button" class="btn btn-emphasized large-space">
+                        <ul class="media-list">
+                            <li class="media">
+                                <a class="pull-left" href="#"></a>
+                                <a class="pull-right btn-extra-emphasized" href="#">
+                                    <i class="fa fa-chevron-right "></i>
+                                </a>
+                                <div class="media-body">
+                                    <a href="#">
+                                        {% trans "More" %}
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </button>
+                     {% endcomment %}
+            
+            
+                </div><!-- column -->
+			
+			    {% comment %} My Network widget deactivated instead of placeholder 
+			    <div class="col-md-6 col-lg-4">
+			
+			        <div type="button" class="btn btn-emphasized btn-headline btn-no-interact fine-space">
+			            <ul class="media-list">
+			                <li class="media">
+			                    <a class="pull-left btn-extra-emphasized" href="#"></a>
+			                    <a class="pull-left" href="#">
+			                        <i class="fa fa-th"></i>
+			                    </a>
+			                    <div class="media-body">
+			                        {% trans "My Network" %}
+			                    </div>
+			                </li>
+			            </ul>
+			        </div><!-- btn -->
+			
+			        <table>
+			            <tr>
+			                <td><a href="#"><img src="{% static 'images/feature-placeholder.png' %}" class="w100" /></a></td>
+			            </tr>
+			        </table>
+			
+			    </div><!-- column -->
+			    {% endcomment %}
+			
+			</div><!-- row -->
+			
+        </div><!-- col -->
+    </div><!-- row -->
+
+  
+{% endblock main_page %}
+  
+
+{% block extrafooter %}
+    {{ block.super }}
+    {% djajax generate %}
+{% endblock extrafooter %}

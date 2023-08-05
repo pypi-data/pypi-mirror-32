@@ -1,0 +1,552 @@
+/* Classes that can be found in many pages and are not part of Twitter Bootstrap */
+
+
+// Set width of element to full width
+.w100 {
+  width: 100% !important;
+	margin:0;
+	float: none;
+}
+
+html {
+	// Always vertical scrollbar
+	overflow-y: scroll;
+	min-height: 100%;
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+	position: relative;
+}
+
+// spaces below full width elements
+body .fine-space,
+body .fine-space.form-control {
+    border-bottom: 1px solid @app-neutral-color-light;
+}
+body .form-control-heavy {
+    border: 1px solid @app-neutral-color-light;
+}
+body .small-space {
+    margin-bottom: 4px;
+}
+body .regular-space {
+	margin-bottom: 7px;
+}
+body .large-space {
+	margin-bottom: 12px;
+}
+body .ultra-space {
+	margin-bottom: 30px;
+}
+
+
+.navbar-fixed-top {
+	font-size: 1.2em;
+}
+// Avatar
+.navbar-fixed-top img {
+	width:35px;
+	margin:-10px 5px -10px 0;
+}
+
+// the nice semi transparent box containing the content
+.content-box {
+	padding: 15px;
+	background-color:fadeout(@app-neutral-color-light, 50);
+	.clearfix();
+}
+.content-box .btn.w100 {
+	text-align:left;
+}
+
+
+/* input-area is an OL of input elements.
+	It looks like a white box full of inputs with gray vertical and horizontal separators.
+*/
+.input-area {
+	margin: 0 0 0 0;
+	background-color: @app-neutral-color-white;
+	color: @app-neutral-color-dark;
+  list-style: none;
+	padding: 0;
+	.clearfix();
+
+	+ .input-area {
+		border-top: 1px solid @app-neutral-color-light;
+	}
+
+	// single input fields
+	> li {
+		min-height: 40px;
+		line-height: 25px;
+		padding: 4px 7px;
+		display: inline-block;
+		float: left;
+		white-space: nowrap; // Keep icons next to select boxes
+
+		color: @app-neutral-color-dark;
+
+		+ li {
+			border-left: 1px solid @app-neutral-color-light;
+		}
+
+		&.w100 {
+			padding-right: 20px;
+
+			> i {
+				vertical-align: top;
+				margin-top: 6px;
+			}
+			> i + .select2-container {
+				width: 100%;
+				margin-left:-1px;
+			}
+			textarea {
+				margin-left: 6px;
+				padding-top: 5px;
+			}
+		}
+
+		> a {
+			
+
+			> i {
+				color: @app-neutral-color-dark;
+				font-size: 1.5em;
+				line-height: 25px;
+			}
+		}
+
+		&.input-area-privacy-selector {
+			float: right;
+			a {
+				color: @app-neutral-color-dark;
+
+				&:hover, &:active, &:focus {
+					text-decoration: none;
+				}
+			}
+		}
+
+		&.input-area-lighter a i {
+			color: @app-neutral-color;
+
+			&:hover, &:active, &:focus {
+				color: @app-neutral-color-dark;
+			}
+		}
+	}
+
+	&.input-area-left-column {
+		li {
+			border-width: 0;
+		}
+	}
+}
+
+.dashboard-appwidget .input-area li textarea {
+	height: 7em;
+	line-height: 1.3em;
+}
+
+
+/* The serachbar in the fixed top navigation */
+#searchbar {
+	padding: 15px 15px 6px 10px;
+	white-space: nowrap;
+	color: @app-neutral-color-dark;
+	font-size: 1.1em;
+	cursor: text;
+}
+#searchbar.expanded {
+	background-color: @app-neutral-color-white;
+}
+#searchbar input {
+	width: 0px;
+	display: inline;
+	margin-top: -10px;
+	color: transparent;
+	border-width: 0;
+}
+#searchbar.expanded input {
+	width: 125px;
+	transition: all 200ms linear;
+	color: @app-neutral-color-dark;
+	box-shadow: none;
+}
+#searchbar i.fa-search {
+	cursor: pointer;
+}
+
+
+// .fadedown
+.fadedown {
+	.clearfix();
+}
+
+p.navi-explanation {
+	background-color: transparent;
+	color: @app-neutral-color-white;
+	margin: 0;
+	padding: 0 0 8px 0;
+}
+
+.bottom-align {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+
+ul.errorlist {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	clear: both;
+	background-color: @app-main-color-no;
+
+	li {
+		padding: 7px 10px 7px 10px;
+		margin: 0 0 0 18px;
+
+		color: @app-neutral-color-white;
+		line-height: 22px;
+		font-size: 14px;
+
+		&:before {
+			font-family: 'FontAwesome';
+			content: '\f071';
+			margin:0 7px 0 -18px;
+		}
+	}
+}
+
+#map {
+	height: 100px;
+}
+#map.large {
+	height: 500px;
+}
+
+
+
+
+.generic-background-colors(@light,@normal,@dark) {
+	.app-background {
+		background-color: @normal;
+	}
+	.app-background-light {
+		background-color: @light;
+	}
+	.app-background-dark {
+		background-color: @dark;
+	}
+}
+
+
+.app-main {
+	.generic-background-colors(@app-main-color-light,@app-main-color,@app-main-color-dark);
+}
+.app-calendar {
+	.generic-background-colors(@app-calendar-color-light,@app-calendar-color,@app-calendar-color-dark);
+}
+.app-files {
+	.generic-background-colors(@app-files-color-light,@app-files-color,@app-files-color-dark);
+}
+.app-documents {
+	.generic-background-colors(@app-documents-color-light,@app-documents-color,@app-documents-color-dark);
+}
+.app-poll {
+	.generic-background-colors(@app-poll-color-light,@app-poll-color,@app-poll-color-dark);
+}
+.app-marketplace {
+	.generic-background-colors(@app-marketplace-color-light,@app-marketplace-color,@app-marketplace-color-dark);
+}
+.app-todos {
+	.generic-background-colors(@app-todos-color-light,@app-todos-color,@app-todos-color-dark);
+}
+.app-etherpad {
+	.generic-background-colors(@app-etherpad-color-light,@app-etherpad-color,@app-etherpad-color-dark);
+}
+
+
+
+
+.font11px {
+	font-size: 11px !important;
+}
+.font12px {
+	font-size: 12px !important;
+}
+.font14px {
+	font-size: 14px !important;
+}
+.nounderline {
+	text-decoration: none !important;
+	&:hover, &:focus, &:active {
+		// text-decoration: underline !important;
+	}
+}
+.no-vertical-padding {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+	min-height: 0 !important;
+}
+.no-horizontal-padding {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+.comment-background, .comment-background p {
+	background-color: @comment-background-color !important;
+}
+.indented {
+	padding-left: 40px;
+}
+.extra-indented {
+  padding-left: 50px;
+}
+.underlined {
+	text-decoration: underline !important;
+}
+.light-color {
+	color: @app-neutral-color-light !important;
+}
+.dark-color, .dark-color a {
+	color: @app-neutral-color-dark !important;
+}
+.small-padding {
+	padding: 3px 5px 3px 5px;
+}
+.inline-list {
+	display: inline-block;
+	margin: 0 10px 10px 0;
+}
+.nowrap {
+	white-space: nowrap;
+}
+.autowidth {
+	width: auto !important;
+}
+.position-relative {
+	position: relative;
+}
+textarea, input.form-control {
+	font-size: 14px;
+}
+
+// Document well for etherpad HTML export view
+.well-document {
+    color: #333333;
+    padding: 10px;
+}
+.well-document a {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.well-document a:hover {
+    text-decoration: none;
+}
+
+.portal-inlink {
+    margin-left: 0px !important;
+}
+a.portal-inlink:hover img {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.form-control-focus-emphasized:focus {
+    background-color:white; color:rgb(51,51,51);
+}
+
+
+.progressbar {
+    height: 14px; 
+    width: 160px;
+    position: relative;
+    background: #FFF;
+    border: 1px solid #333;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    
+    > span {
+        display: block;
+        height: 12px;
+           -webkit-border-top-right-radius: 2px;
+        -webkit-border-bottom-right-radius: 2px;
+               -moz-border-radius-topright: 2px;
+            -moz-border-radius-bottomright: 2px;
+                   border-top-right-radius: 2px;
+                border-bottom-right-radius: 2px;
+            -webkit-border-top-left-radius: 4px;
+         -webkit-border-bottom-left-radius: 4px;
+                -moz-border-radius-topleft: 4px;
+             -moz-border-radius-bottomleft: 4px;
+                    border-top-left-radius: 4px;
+                 border-bottom-left-radius: 4px;
+        background-color: @app-files-color;
+        position: relative;
+        overflow: hidden;
+    }
+}
+
+.file-upload-overlay {
+    position: relative;
+    clear: right;
+    display: inline;
+    padding-top: 2px;
+    cursor: pointer;
+
+    input[type="file"] {
+        display: inline;
+        position: absolute;
+        top: 0;
+        right: 0;
+        opacity: 0;
+        float: left;
+        filter: alpha(opacity=0);
+        cursor: pointer;
+    }
+}
+
+// hides cms file icon and filesize because template can't be overwritten
+.cms-content span.file img, .cms-content span.file span.filesize {
+    display: none;
+} 
+
+.dropzone {
+    padding: 5px;
+    overflow: hidden;
+}
+.dropzone.in {
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    font-size: 22px;
+}
+.dropzone.in .file-upload-overlay {
+    display: none !important;
+}
+.dropzone.hover {
+    background-color: #DDDDDD;
+}
+
+
+.group-gallery-item {
+	.group-gallery-item-image {
+		width: 100%;
+		height: auto;
+		display: block;
+	}	
+	
+	p {
+		padding: 15px 10px;
+		font-weight: bold;
+	}
+	
+	background-color: #FFF;
+}
+
+/* A bootstrap .row with added .vertical-align class 
+	will display its .col classes vertically aligned */
+.vertical-align {
+  display: flex;
+  flex-direction: row;
+}
+
+.vertical-align > [class^="col-"],
+.vertical-align > [class*=" col-"] {
+  display: flex;
+  align-items: center;
+}
+
+.condensed-radio-input {
+	display: inline-block;
+
+	label {
+		margin: 0;
+		padding: 0;
+		display: inline-block;
+
+		input {
+			display:none;
+
+			+ span {
+				border: 1px solid @app-main-color;
+				border-width: 1px 1px 1px 0;
+				display:inline-block;
+				margin: 0;
+				padding: 4px 12px;
+				background-color: white;
+				color: @app-main-color;
+				//border-radius: 3px;
+				cursor: pointer;
+
+				&:hover, &:focus, &:active {
+					color: @app-main-color-dark;
+					border-color: @app-main-color-dark;
+					background-color: @app-main-color-light;
+				}
+			}
+			&:checked + span {
+				background-image: none;
+				background-color: @app-main-color;
+				color: white;
+				cursor: default;
+
+				&:hover, &:focus, &:active {
+					border-color: @app-main-color-dark;
+				}
+			}
+		}
+
+		&:first-child {
+			input {
+				+ span {
+					border-left-width: 1px;
+					border-top-left-radius: 3px;
+					border-bottom-left-radius: 3px;
+				}
+			}
+		}
+		&:last-child {
+			input {
+				+ span {
+					border-top-right-radius: 3px;
+					border-bottom-right-radius: 3px;
+				}
+			}
+		}
+
+	}
+}
+
+.btn-icon-only {
+     width: 40px;
+     
+     div.media-body {
+         display: none;
+     }
+     
+     a {
+         cursor: pointer;
+     }
+}
+.btn-icon-only.pull-left {
+    margin: 0 10px 0 0;
+}
+ 
+.help-popup-text {
+    font-size: 14px;
+}
+ 
+ /* The frame for the move-to-folder modal `move_element_modal.html` */
+#jstree_move_div {
+    overflow: auto;
+    max-height: 400px;
+}
+ 

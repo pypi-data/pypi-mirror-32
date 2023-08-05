@@ -1,0 +1,106 @@
+.doodle-vote-table {
+	white-space: nowrap;
+	overflow-x: auto;
+	padding: 0 0 20px 0;
+	color: @app-neutral-color-dark;
+
+	> div, > form > div {
+		// Horizontal lines
+		display: block;
+		border-spacing: 4px 2px;
+
+		> div, > form > div {
+			display: inline-block;
+			text-align: center;
+			vertical-align: top;
+
+			min-width: 50px;
+			min-height:5px;
+
+			img {
+				width: 50px;
+				height: 50px;
+			}
+		}
+		
+		> div:first-child {
+		    position: -webkit-sticky;
+            position: sticky;
+            left: 0;
+		}
+
+		.doodle-vote-cell + .doodle-vote-cell  {
+			margin-left: 8px;
+		}
+
+		.doodle-vote-date {
+			text-align: left;
+			color: @app-neutral-color-white;
+			background-color: @app-calendar-color;
+			line-height: 1em;
+			padding: 3px 0;
+			margin-bottom: 3px;
+		}
+
+		.doodle-vote-time {
+			text-align: left;
+			background-color: transparent;
+			line-height: 1em;
+			padding: 3px 0;
+			height: 30px;
+		}
+
+
+		.doodle-vote-yesmaybeno() {
+			min-height: 50px;
+			line-height: 1.3em;
+			font-size: 1.2em;
+			padding: 14px 0;
+			margin-bottom: 4px;
+		}
+
+		.doodle-vote-yes {
+			background-color:fadeout(@app-main-color-yes, 35);
+			.doodle-vote-yesmaybeno();
+		}
+
+		.doodle-vote-maybe {
+			background-color:fadeout(@app-main-color-maybe, 35);
+			.doodle-vote-yesmaybeno();
+		}
+
+		.doodle-vote-no {
+			background-color:fadeout(@app-main-color-no, 35);
+			.doodle-vote-yesmaybeno();
+			// color: transparent;
+		}
+
+		button.doodle-vote-eventbutton {
+			border-width: 0;
+			width: 50px;
+			color: @app-neutral-color-dark;
+			background-color: @app-neutral-color-white;
+			.doodle-vote-yesmaybeno();
+			cursor: pointer;
+
+			&:hover, &:focus, &:active {
+				background-color: @app-neutral-color-light;
+			}
+		}
+
+	}
+
+	h2 {
+		font-size: 1em;
+		font-weight: bold;
+        margin-left: 58px;
+	}
+
+	.doodle-vote-inputarea {
+		a {
+			color: inherit;
+			display: block;
+		}
+	}
+
+}

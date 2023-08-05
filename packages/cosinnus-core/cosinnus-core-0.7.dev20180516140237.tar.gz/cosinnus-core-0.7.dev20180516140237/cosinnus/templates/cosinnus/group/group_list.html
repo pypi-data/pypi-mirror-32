@@ -1,0 +1,119 @@
+{% extends "cosinnus/base.html" %}
+{% load i18n thumbnail cosinnus_tags cosinnus_map_tags static %}
+
+{% block page_title %}{% if group_type == 1 %}{% trans "Groups" %}{% elif group_type == 0 %}{% trans "Projects" %}{% else %}{% trans "Invitations" %}{% endif %}{% endblock %}
+
+{% block extrahead %}
+    {{ block.super }}
+    <script src="{% static 'endless_pagination/js/endless-pagination.js' %}"></script>
+    <script>$(function(){$.endlessPaginate({
+					paginateOnScroll: true, 
+					paginateOnScrollMargin: 250, 
+					onCompleted: $.cosinnus.fadedown
+				});
+			});
+	</script>
+	{% if not hide_group_map %}
+	    {% include 'cosinnus/map/static_dependencies.html' %}
+	{% endif %}
+{% endblock extrahead %}
+
+{% block leftnav %}
+    {% if group_type == 1 %}
+        {% include "cosinnus/group/leftnav_all_groups.html"  with current_page="grouplist__society" %}
+    {% elif group_type == 0 %}
+        {% include "cosinnus/group/leftnav_all_groups.html"  with current_page="grouplist" %}
+    {% else %}
+        {% include "cosinnus/group/leftnav_all_groups.html"  with current_page="all" %}
+    {% endif %}
+{% endblock leftnav %}
+
+
+{% block breadcrumb %}
+    {{ block.super }}
+    {% if filter_group %}
+        <li class="active">{% trans "Related to" %} {{ filter_group.name }}</li>
+    {% elif group_type == 'all' %}
+        <li class="active">{% trans "Invitations" %}</li>
+    {% else %}
+        <li class="active">{% trans "Overview" %}</li>
+    {% endif %}
+{% endblock %}
+
+{% block override_breadcrumb %}
+    {{ block.super }}
+{% endblock override_breadcrumb %}
+
+
+{% block content %}
+    
+    {% if not hide_group_map %}
+	    <!-- a box with semi transparent background -->
+	    <div class="content-box">
+	    	{% include 'cosinnus/common/internet_explorer_not_supported.html' %}
+	    
+			<div class="map-root"></div>
+			{% captureas map_settings %}{"activeFilters": {"groups": {% if group_type == 1 %}true{% else %}false{% endif %}, "events": false, "projects": {% if group_type == 1 %}false{% else %}true{% endif %}, "people": false}, "availableFilters": {"groups": true, "events": true, "projects": true, "people": true}, "topicsHtml": "{% render_cosinnus_topics_field "escape" %}", "markerIcons": {% render_map_marker_icon_json %}}{% endcaptureas %}
+			{% include 'cosinnus/common/init_client_module.html' with module='map' id=""|add_uuid height=400 settings=map_settings %}
+	        <div class="clearfix"></div>
+	    </div>
+    {% endif %}
+    
+    <!-- a box with semi transparent background -->
+    <div class="content-box">
+        
+        {% comment %}    hidden as long as create link is in the leftnav
+        {% if user|is_superuser %}
+	        <div type="button" class="btn btn-default w100 large-space">
+                <ul class="media-list">
+                    <li class="media">
+                        <a class="pull-left" href="#">
+                            <i class="fa fa-plus"></i>
+                        </a>
+                        <div class="media-body media-body-form-control">
+                            <input class="form-control next-button-is-for-sending"
+                                placeholder="Gib den Titel für eine neue Gruppe ein."
+                                value="" />
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <button type="button" class="btn btn-emphasized large-space" style="display: none;">
+                <ul class="media-list">
+                    <li class="media">
+                        <a class="pull-left" href="#">
+                            <i class="fa fa-pencil"></i>
+                        </a>
+                        <div class="media-body">
+                            Erstellen
+                        </div>
+                    </li>
+                </ul>
+            </button>
+        {% endif %}
+        {% endcomment %}
+    	
+    	{% include 'cosinnus/group/group_list_items.html' %}
+        
+    </div>
+    
+    {% if group_type == 'all' %}
+	    {% group_url 'cosinnus:group-dashboard' group=SETTINGS.NEWW_FORUM_GROUP_SLUG ignoreErrors=True as blog_url %}
+		{% if blog_url %}
+		    <button type="button" class="btn btn-emphasized" href="{{ blog_url }}">
+                <ul class="media-list">
+                    <li class="media">
+                        <a class="pull-left" href="#">
+                            <i class="fa fa-arrow-right"></i>
+                        </a>
+                        <div class="media-body">
+                            {% trans "To the Forum" %}
+                        </div>
+                    </li>
+                </ul>
+            </button> 
+		{% endif %}
+    {% endif %}
+    
+{% endblock %}
+

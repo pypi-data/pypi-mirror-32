@@ -1,0 +1,21 @@
+{% load i18n cosinnus_tags widget_tweaks %}
+
+{{ form.forms.media_tag.media }}
+
+
+{% block media_tag_topics_field %}
+
+	{# Large Field #}
+	{% trans "Which topics are you involved with?" as topics_label %}
+	{% trans "Select topics" as topics_placeholder %}
+	{% include 'cosinnus/fields/default_field.html' with field=form.forms.media_tag.topics label=topics_label placeholder=topics_placeholder large_field=True %}
+
+{% endblock media_tag_topics_field %}
+
+
+{# Tags Field #}
+{% trans "Which tags further describe your activities?" as tags_label %}
+{% trans "Select or create tags" as tags_placeholder %}
+{% include 'cosinnus/fields/default_field.html' with field=form.forms.media_tag.tags label=tags_label placeholder=tags_placeholder large_field=True %}
+
+

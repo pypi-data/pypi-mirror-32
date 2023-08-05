@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+@OpenSansPath: '../css/fonts/open-sans';
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('@{OpenSansPath}/OpenSans-Bold.eot');
+  src: url('@{OpenSansPath}/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+       url('@{OpenSansPath}/OpenSans-Bold.woff') format('woff'),
+       url('@{OpenSansPath}/OpenSans-Bold.ttf') format('truetype'),
+       url('@{OpenSansPath}/OpenSans-Bold.svg#OpenSansBold') format('svg');
+}
+
+body.cosinnus-cms {
+	padding-bottom: 0;
+	background-image: url("../img/headerback.jpg");
+	background-size: cover;
+	
+	
+	h1 {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: normal;
+		margin: 30px 0 20px 0;
+		padding: 0;
+		color: inherit;
+		text-transform: uppercase;
+		font-size: 25px;
+		
+		// md
+		@media(min-width:992px){
+			font-size: 45px;
+		}
+	}
+
+	h2 {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: normal;
+		font-size: 22px;
+		margin: 20px 0 10px 0;
+		color: inherit;
+	}
+	
+	.big-headers {
+		h1 {
+			font-weight: bold;
+			font-size: 40px;
+			// md
+			@media(min-width:992px){
+				font-size: 110px;
+			}
+		}
+	
+		h2 {
+			font-weight: bold;
+			text-transform: uppercase;
+			// md
+			@media(min-width:992px){
+				font-size: 45px;
+			}
+		}
+	}
+}
+
+.cms-content {
+	color: @app-neutral-color-white;
+	font-size: 15px;
+	
+	
+	a, a:hover {
+		color: @app-neutral-color-white;
+	}
+	
+	p {
+		background-color: transparent;
+		color: inherit;
+		font-size: inherit;
+		padding: 0;
+	}
+}
+
+
+.overlay-box {
+	color: @app-neutral-color-dark;	
+	padding: 20px 0;
+	
+	a, a:hover {
+		color: black;
+		font-weight: bold;
+	}
+	
+	h1, h2, h3 {
+		a {
+			color: @app-neutral-color-dark;
+		}
+	}
+}
+
+.overlay-box-white {
+	background-color: rgba(255, 255, 255, 0.65);
+}
+
+.overlay-box-gray {
+	background-color: rgba(212, 212, 212, 0.65);
+}
+
+.overlay-box-side-padding {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.cms-footer {
+	font-size: 10px;
+
+	p {
+		text-align: justify;
+		color: black;
+		font-size: inherit;
+	}
+
+	a {
+		color: black;
+		font-weight: bold;
+	}
+}
+
+
+.jumbo-box {
+	
+	h3 {
+		color: #000;
+	}
+		
+}
+
+.richtext-image {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}

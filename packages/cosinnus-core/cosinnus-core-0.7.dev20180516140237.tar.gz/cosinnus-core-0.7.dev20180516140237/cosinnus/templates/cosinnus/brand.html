@@ -1,0 +1,2 @@
+{% load static %}
+<img src="{% if COSINNUS_CURRENT_PORTAL.logo_image %}{{ COSINNUS_CURRENT_PORTAL.logo_image.url }}{% else %}{% static 'img/logo-icon.png' %}{% endif %}"{% if extra_style %} style="{{ extra_style }}"{% endif %}>

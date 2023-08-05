@@ -1,0 +1,62 @@
+{% load i18n cosinnus_tags widget_tweaks %}
+
+{{ form.forms.media_tag.media }}
+
+
+{# Regular field with custom HTML #}
+{% trans "Where do you live?" as location_label %}
+{% captureas location_html %}
+    {% trans "Enter a place or address and then choose a point on the map." as location_placeholder %}
+    {% render_field form.forms.media_tag.location placeholder=location_placeholder %}
+    {{ form.forms.media_tag.location_lat }}
+    {{ form.forms.media_tag.location_lon }}
+    <div id="id_media_tag-location-map"></div>
+{% endcaptureas %}
+{% include 'cosinnus/fields/default_field.html' with field=form.forms.media_tag.location field_html=location_html label=location_label placeholder=location_placeholder large_field=True %}
+
+
+{# Large Field #}
+{% trans "Which topics are you interested in?" as topics_label %}
+{% trans "Select topics" as topics_placeholder %}
+{% include 'cosinnus/fields/default_field.html' with field=form.forms.media_tag.topics label=topics_label placeholder=topics_placeholder large_field=True %}
+
+
+{# Tags Field #}
+{% trans "What would you like to learn?" as tags_label %}
+{% trans "Select or create tags" as tags_placeholder %}
+{% include 'cosinnus/fields/default_field.html' with field=form.forms.media_tag.tags label=tags_label placeholder=tags_placeholder large_field=True %}
+
+
+{# Visibility Field #}
+{% trans "Who may see your plattform profile?" as visibility_label %}
+{% captureas visibility_warning_html %}
+    <div class="group-public-warning-area" {% if not object or not object.media_tag.visibility == 2 %}style="display: none;"{% endif %} id="user-visibility-warning">
+        <i class="fa fa-fw fa-globe"></i>
+        {% trans "Your profile will be set to be publicly visible!" %}
+        <br/><br/>
+        {% trans "This means that your name, avatar and user profile can be seen by ANYONE on the internet and may potentially be included in search engine results!" %}
+        <br/><br/>
+        {% trans "If you do not wish this, you can change the visibility setting above." %}
+        {% trans "Please note that changes in this setting will not have an immediate effect on search engine results! Depending on the search provider, it might take days or weeks until this setting is reflected in their results." %}
+    </div>
+    <script type="text/javascript">
+        {# show or hide a visibility warning #}
+        $(function(){
+            $('#id_media_tag-visibility').on('change', function(){
+                if ($(this).val() == 2) {
+                    $('#user-visibility-warning').show();
+                } else {
+                    $('#user-visibility-warning').hide();
+                } 
+            });
+        });
+    </script>
+{% endcaptureas %}
+{% captureas visibility_field_html %}
+    <select id="id_media_tag-visibility" name="media_tag-visibility" class="form-control" placeholder="{% trans "Privacy" %}">
+        {% include 'cosinnus/user/user_visibility_formfield_options.html' with visibility=object.media_tag.visibility %}
+    </select>
+{% endcaptureas %}
+
+
+{% include 'cosinnus/fields/default_field.html' with field_html=visibility_field_html label=visibility_label extra_html=visibility_warning_html help_popup="helptext_50_profileprivacy" %}

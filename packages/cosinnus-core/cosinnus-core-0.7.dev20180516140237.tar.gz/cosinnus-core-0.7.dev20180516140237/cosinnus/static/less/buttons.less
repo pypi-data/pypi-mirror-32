@@ -1,0 +1,611 @@
+/* The Bootstrap buttons already have the classes btn-default, btn-info, btn-warning and so on.
+	This file adds btn-emphasized, btn-extra-emphasized and btn-appnavi for coloring in the apps's colors.
+*/
+
+.btn {
+	padding: 0;
+	border-width: 0;
+	width: 14em;
+	float: right;
+	margin: 0 0 0 20px;
+
+	&.w100 {
+		margin-left: 0;
+
+		.media-body {
+			text-align: left;
+		}
+	}
+
+}
+
+.bottom-align .btn, .btn-left {
+	float: left;
+
+	// Left floating buttons only have left margin when not first element.
+	margin-left: 0;
+
+	+ .btn {
+		margin-left: 20px;
+	}
+}
+
+.btn .form-control, .select2-container, .select2-chosen {
+	font-size: 14px !important;
+}
+.btn-default {
+	background-color: transparent;
+	border-width: 0;
+}
+.btn-default:hover {
+	background-color: transparent;
+}
+
+/* media-lists */
+.media-list {
+	margin: 0;
+}
+.btn-default .media {
+	background-color: transparent;
+}
+.btn-default .media > .media-body {
+	background-color: @app-neutral-color-white;
+	color: @app-neutral-color-dark;
+}
+.btn-default .media > .media-body a {
+	color: @app-neutral-color-dark;
+}
+
+.media-body {
+	line-height: 20px;
+	padding: 9px 10px 5px 10px;
+	min-height: 40px;
+	text-overflow: ellipsis;
+
+	.clearfix();
+
+	input {
+		background-color: transparent;
+		display: inline-block;
+	}
+}
+
+
+.btn ul.media-list .media-body {
+	&.media-body-form-control {
+		padding: 0;
+
+		input, textarea {
+			margin: 0;
+			padding: 7px 10px 5px 10px;
+		}
+	}
+}
+
+
+.media > a.pull-right .select2-container {
+	// priority selector in todos
+
+	float: right;
+	.select2-arrow {
+		display: none;
+	}
+
+	.select2-choice {
+		height: 40px;
+		border-radius: 0;
+		padding: 0;
+	}
+
+	.select2-chosen {
+		position: absolute;
+		right: 0;
+		top: 0;
+		margin-right: 0px;
+		width: 40px;
+		text-align: center;
+		color: @app-neutral-color-white;
+	}
+
+	&.select2-container-active {
+		.select2-chosen {
+			color: @app-neutral-color-dark;
+		}
+	}
+}
+
+
+.media > .pull-left,
+.media > .pull-right {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 1.5em;
+	text-align: center;
+	margin: 0;
+
+	&.select2-avatar {
+		line-height: 35px;
+	}
+
+}
+.btn-default .media > .pull-left,
+.btn-default .media > .pull-right {
+	background-color: @app-neutral-color;
+	color: @app-neutral-color-white;
+}
+
+.btn-default .media > .pull-left:empty,
+.btn-default .media > .pull-right:empty {
+	background-color: transparent;
+	color: inherit;
+}
+
+
+
+/* Quadratic images at side of buttons */
+.pull-left > img, .pull-right > img {
+	width: 40px;
+	vertical-align:top;
+}
+.pull-left input, .pull-right input {
+	border-width: 0;
+}
+.pull-left:not([href="#"]) {
+	cursor: pointer;
+}
+div[href] {
+  cursor: pointer !important; 
+}
+
+/* put a class like .app-documents, .app-todos on areas that contain content in app colors.
+	On usual pages it has to be set only once in a global element.
+
+	Whereever the .clickarea-emphasized and .clickarea-extra-emphasized classes occur
+	all buttons will have strong colors then.
+*/
+
+.btn-appnavi .media a:first-child {
+	width: 10px;
+}
+
+ul.appnavi-dropdown-menu {
+	padding: 0;
+	margin-top: 5px;
+}
+
+.btn-app-colors(@light,@normal,@dark) {
+	.btn-emphasized .media,
+	.btn-appnavi .media,
+	.btn-emphasized .media > .media-body,
+	.btn-appnavi .media > .media-body,
+	.btn-emphasized .media > .pull-right,
+	.btn-appnavi .media > .pull-left,
+	.btn-appnavi .media > .pull-right {
+		color: @app-neutral-color-white;
+		background-color: @normal;
+	}
+
+	.btn-extra-emphasized .media,
+	.btn-emphasized:hover .media,
+	.fadedown.open .btn-emphasized.w100 .media,
+	.btn-appnavi:hover .media,
+	.btn-emphasized:hover .media  > .media-body,
+	.fadedown.open .btn-emphasized.w100 .media  > .media-body,
+	.btn-appnavi:hover .media  > .media-body,
+	.btn-extra-emphasized .media  > .media-body,
+	.btn-emphasized .media > .pull-left,
+	.media > .pull-left.btn-emphasized,
+	.btn-appnavi .media > .pull-left:first-child,
+	.btn-appnavi:hover .media > .pull-left,
+	.btn-extra-emphasized .media > .pull-left,
+	.media-list > .media > .pull-left.btn-extra-emphasized,
+	.media-list > .media > .pull-left.btn-extra-emphasized:empty,
+	.btn-extra-emphasized .media > .pull-right,
+	.media-list > .media > .btn-extra-emphasized.pull-right,
+	.fadedown.open .btn-extra-emphasized.w100 .media > .pull-right,
+	.fadedown .btn-extra-emphasized .media > .pull-right,
+	.btn-emphasized:hover .media > .pull-right,
+	.fadedown.open .btn-emphasized.w100 .media > .pull-right,
+	.fadedown .btn-emphasized:hover .media > .pull-right,
+	.btn-appnavi:hover .media > .pull-right {
+		color: @app-neutral-color-white;
+		background-color: @dark;
+	}
+
+	.fadedown.open .btn-emphasized.w100.keep-emphasized .media,
+	.fadedown.open .btn-emphasized.w100.keep-emphasized .media  > .media-body,
+	.fadedown.open .btn-extra-emphasized.w100.keep-emphasized .media > .pull-right,
+	.fadedown.open .btn-emphasized.w100.keep-emphasized .media > .pull-right {
+		background-color: @normal;
+	}
+
+	.fadedown.open .btn-emphasized.w100.keep-emphasized:hover .media,
+	.fadedown.open .btn-emphasized.w100.keep-emphasized:hover .media  > .media-body,
+	.fadedown.open .btn-extra-emphasized.w100.keep-emphasized:hover .media > .pull-right,
+	.fadedown.open .btn-emphasized.w100.keep-emphasized:hover .media > .pull-right {
+		background-color: @dark;
+	}
+
+	.fadedown:not(.open) .only-open {
+		display: none;
+	}
+
+	.btn-emphasized .media > .pull-left:empty,
+	.btn-emphasized .media > .pull-right:empty,
+	.btn-appnavi .media > .pull-left:empty,
+	.btn-appnavi .media > .pull-right:empty {
+		background-color: transparent;
+		color: inherit;
+	}
+	.btn-emphasized .media > .pull-left.btn-default:empty,
+	.btn-emphasized .media > .pull-right.btn-default:empty {
+		background-color: @app-neutral-color-light;
+	}
+
+	// App changer (documents, news, todos, etherpad...)
+	&.appnavi-listelement {
+		a {
+			background-color: @normal;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			color: @app-neutral-color-white;
+
+			i {
+				font-size: 17px;
+				margin-right: 7px;
+			}
+		}
+		&:hover a, &.active a {
+				background-color: @dark;
+		}
+	}
+
+	/* spaces below element */
+	.fine-space {
+	// do this simply in neutral gray.
+	// border-bottom: 1px solid @light;
+	}
+}
+
+.app-main {
+	.btn-app-colors(@app-main-color-light,@app-main-color,@app-main-color-dark);
+}
+.app-calendar {
+	.btn-app-colors(@app-calendar-color-light,@app-calendar-color,@app-calendar-color-dark);
+}
+.app-files {
+	.btn-app-colors(@app-files-color-light,@app-files-color,@app-files-color-dark);
+}
+.app-documents {
+	.btn-app-colors(@app-documents-color-light,@app-documents-color,@app-documents-color-dark);
+}
+.app-poll {
+	.btn-app-colors(@app-poll-color-light,@app-poll-color,@app-poll-color-dark);
+}
+.app-marketplace {
+	.btn-app-colors(@app-marketplace-color-light,@app-marketplace-color,@app-marketplace-color-dark);
+}
+.app-todos {
+	.btn-app-colors(@app-todos-color-light,@app-todos-color,@app-todos-color-dark);
+}
+.app-etherpad {
+	.btn-app-colors(@app-etherpad-color-light,@app-etherpad-color,@app-etherpad-color-dark);
+}
+.app-main-force {
+    .btn-app-colors(@app-main-color-light,@app-main-color,@app-main-color-dark);
+}
+
+
+// inside .media-body a small note on the right side.
+.media-body {
+	position: relative;
+	white-space: nowrap;
+
+	a.annotation, span.annotation {
+		width: auto;
+		float: right;
+		font-size: 11px;
+//		margin-bottom: -15px;
+	}
+	div.annotation {
+		color: @app-neutral-color;
+		text-align: right;
+		font-size: 11px;
+	}
+
+
+	// Always make a gap between links
+	a + a {
+		margin-left: 7px;
+	}
+	// But not in text
+	p a + a {
+		margin-left: 0;
+	}
+	// And not at beginning of line
+	a.pull-right + a {
+		margin-left: 0;
+	}
+	a.pull-right + a.pull-right {
+		margin-right: 7px;
+	}
+
+
+	> a, > span {
+		white-space: normal;
+		width: 100%;
+
+		overflow: hidden;
+		text-overflow: ellipsis;
+		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+		-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+		box-sizing: border-box;         /* Opera/IE 8+ */
+	}
+
+	&.media-body-normalwrap {
+		white-space: normal;
+	}
+}
+
+// inside .media-body a paragraph.
+.media-body p {
+	line-height: 1.2em;
+	white-space: normal;
+	padding: 0;
+	user-select: text;
+	-moz-user-select: text;
+	-webkit-user-select: text;
+	-ms-user-select: text;
+	-o-user-select: text;
+
+
+	&.meta-attribute {
+		// meta tags
+		font-size: 12px;
+		line-height: 17px;
+	}
+}
+
+// .form-control is a Bootstrap class for INPUT elements.
+// Center some placeholders but align the content left.
+.btn-emphasized .form-control, .btn-extra-emphasized .form-control {
+	color: @app-neutral-color-white;
+}
+
+.btn-emphasized-strong {
+  width: 100%;
+  background-color: #097891;
+  border-radius: 0;
+  color: white;
+  padding: 0;
+  border-width: 0;
+  
+  	.media-body {
+	  padding-top: 8px;
+	  padding-right: 5px;
+	  text-transform: uppercase;
+	  font-weight: bold;
+	  line-height: 23px;
+	}
+}
+
+// ### magic for mouse cursor
+
+// There are no clickable icons on left side.
+a.pull-left {
+	cursor: default;
+}
+.content-box .btn {
+	cursor: default;
+
+
+}
+.content-box button.btn {
+	// Seems to be a real button
+	cursor: pointer;
+}
+
+/* Square icon with date. Something like:
+	<a class="pull-left square-date-icon" href="#">
+		<div>19</div>
+		<div>Dez</div>
+	</a> */
+.square-date-icon {
+	div {
+		line-height: 1.6em;
+		font-size: 0.9em;
+	}
+	div + div {
+		font-size: 0.65em;
+		line-height: 0.5em;
+	}
+}
+
+.btn.button-with-title-image:hover {
+    color: @app-neutral-color-white;
+}
+.button-with-title-image {
+	position: relative;
+	color: @app-neutral-color-white;
+	
+
+	> img {
+		width: 100%;
+		min-height: 70px;
+	}
+
+	> img + div {
+background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0) 57%, rgba(0,0,0,0.6) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(57%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.6))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 57%,rgba(0,0,0,0.6) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 57%,rgba(0,0,0,0.6) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 57%,rgba(0,0,0,0.6) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 57%,rgba(0,0,0,0.6) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#57000000',GradientType=0 ); /* IE6-9 */
+
+
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	}
+
+	> ul.media-list {
+		position: absolute;
+		bottom: 0px;
+		left: 0;
+		width: 100%;
+		> li.media {
+			background-color: transparent;
+			> a.pull-right {
+				background-color: transparent;
+			}
+			> div.media-body {
+				background-color: transparent;
+			}
+		}
+	}
+
+
+} // .button-with-title-image
+
+
+// Nice white button. Why not!
+.btn.btn-white {
+	.media,
+	.media > .media-body,
+	.media > .media-body > p,
+	.media > .pull-right,
+	.media > .pull-left {
+		background-color: white;
+		color: @app-neutral-color-dark;
+	}
+
+	a {
+		color: @app-neutral-color-dark;
+	}
+}
+
+
+// higher buttons with greater icons for usage as headlines
+
+.btn-headline {
+	width: 100%;
+	margin-left: 0;
+	float: none;
+	margin:0;
+
+	.media > a.pull-left:first-child:empty {
+		width: 10px;
+	}
+	.media > a.pull-left:not(:first-child) {
+		background-color: transparent;
+	}
+	.media > a.pull-left, .media > a.pull-right {
+		height: 50px;
+		width: 50px;
+		font-size: 28px;
+		line-height: 48px;
+
+
+		img {
+			width: 50px;
+		}
+	}
+
+	.media {
+		height: 50px;
+	}
+
+	.media-body {
+		padding-top: 6px;
+		text-align: left;
+		font-size: 13px;
+		line-height: 1em;
+
+		min-height: 0;
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+		-mou-transform: translateY(-50%);
+
+		.group-annotation {
+			// color: app dependent, see below
+			line-height: 1.5em;
+		}
+
+		.annotation {
+			font-size: 12px;
+		}
+
+		a {
+			font-weight: bold;
+			
+			&.light-link, .light-link {
+			    font-weight: normal;
+			}
+		}
+	}
+
+}
+
+
+.btn-small {
+    height: 24px;
+    margin: 0;
+    cursor: pointer !important;
+    width: auto;
+    
+    .media .pull-left, .media .pull-right {
+        height: 24px;
+        width: 24px;
+        line-height: 24px;
+        font-size: 1.2em;
+        cursor: pointer !important;
+    }
+    
+    .media-body {
+        line-height: 12px;
+        padding: 6px 4px;
+        min-height: 24px;
+    }
+    
+}
+
+.btn-autosize {
+    width: auto;
+}
+
+.btn-no-float {
+    float: none;
+}
+
+
+a.light-link i { display: none; }
+a.light-link:hover i { display: inherit; }
+
+
+.app-main .btn-headline .media-body .group-annotation { color: @app-main-color-light; }
+.app-calendar .btn-headline .media-body .group-annotation { color: @app-calendar-color-light; }
+.app-files .btn-headline .media-body .group-annotation { color: @app-files-color-light; }
+.app-documents .btn-headline .media-body .group-annotation { color: @app-documents-color-light; }
+.app-todos .btn-headline .media-body .group-annotation { color: @app-todos-color-light; }
+.app-etherpad .btn-headline .media-body .group-annotation { color: @app-etherpad-color-light; }
+
+
+
+.btn + .btn-headline {
+	margin-left: 0;
+}
+
+
+.help-popup-button {
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    color: @app-neutral-color;
+}
