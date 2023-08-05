@@ -1,0 +1,13 @@
+pyspellchecker-0.1.2.dist-info/DESCRIPTION.rst,sha256=NIx3BpYOnXE7CTkbNFuvZRi0EHV5WPJzeJ-7X1fn62c,4376
+pyspellchecker-0.1.2.dist-info/METADATA,sha256=12XeVk4znOtWjqw03G5b8XfVlNGK9UqHMXetLEV8bpc,5405
+pyspellchecker-0.1.2.dist-info/RECORD,,
+pyspellchecker-0.1.2.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+pyspellchecker-0.1.2.dist-info/metadata.json,sha256=flfHP_x6L54dbXyuPcfR6WMK1b7FvnrlhFCD_df0mpw,1127
+pyspellchecker-0.1.2.dist-info/top_level.txt,sha256=ke5B3kKVbfTtzneKL3AF_fn7JmnLO9MchwrNYUr0gkY,13
+spellchecker/__init__.py,sha256=4Ov2m_PXTLCUFY6OMKtaFrd7XleyrcPDWnH10tXWrZQ,274
+spellchecker/info.py,sha256=3wpnR5hAYH3TfTKFc1enAzbZfkGYVLGECxLEbvqfl-I,302
+spellchecker/spellchecker.py,sha256=Ygl2Kd1PP6u8GDiuQALtwbV9f0Y3aX7WWPM7OQec_YU,10742
+spellchecker/resources/de.json.gz,sha256=gV3x5Y9Qc8fGSqXliHTRbOB62lhGWUqTGo_u9ea00n0,238581
+spellchecker/resources/en.json.gz,sha256=D0YbrP7eC0_cV5d9gauwHvGOQnstGksyjirLtbFlW7w,593339
+spellchecker/resources/es.json.gz,sha256=rupJMAnMoNRiDa6wihBGQ_4e9E3BZt9_bKrpemNCCkk,479819
+spellchecker/resources/fr.json.gz,sha256=v6TZ-ryTmFQAB1ZOiZMhlM9wK93D7ZndoQN3nleK8v0,327463
