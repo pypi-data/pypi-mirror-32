@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: BotMe
+Version: 0.2
+Summary: A basic library for building and maintaining GroupMe Bots
+Home-page: https://github.com/marshareb/BotMe
+Author: James Marshall Reber
+Author-email: jamesmarshallreber@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/marshareb/BotMe/archive/0.2.tar.gz
+Description: UNKNOWN
+Keywords: GroupMe,bot
+Platform: UNKNOWN
