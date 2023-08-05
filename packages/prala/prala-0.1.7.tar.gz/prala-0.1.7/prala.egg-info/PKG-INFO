@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: prala
+Version: 0.1.7
+Summary: Practice Language
+Home-page: http://github.com/dallaszkorben/prala
+Author: dallaszkorben
+Author-email: dallaszkorben@gmail.com
+License: MIT
+Description: Practice Language
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
