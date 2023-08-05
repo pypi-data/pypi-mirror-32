@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+amplifyhealthcheck/__init__.py
+amplifyhealthcheck/base.py
+amplifyhealthcheck/healthcheck.py
+nginx_amplify_agent_health_check.egg-info/PKG-INFO
+nginx_amplify_agent_health_check.egg-info/SOURCES.txt
+nginx_amplify_agent_health_check.egg-info/dependency_links.txt
+nginx_amplify_agent_health_check.egg-info/not-zip-safe
+nginx_amplify_agent_health_check.egg-info/requires.txt
+nginx_amplify_agent_health_check.egg-info/top_level.txt

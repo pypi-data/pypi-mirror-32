@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: nginx-amplify-agent-health-check
+Version: 0.1.2
+Summary: Static and Dynamic Analysis for nginx-amplify-agent Health Status
+Home-page: http://github.com/hiradyazdan/nginx-amplify-agent-health-check
+Author: Hirad Yazdanpanah
+Author-email: hirad.y@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

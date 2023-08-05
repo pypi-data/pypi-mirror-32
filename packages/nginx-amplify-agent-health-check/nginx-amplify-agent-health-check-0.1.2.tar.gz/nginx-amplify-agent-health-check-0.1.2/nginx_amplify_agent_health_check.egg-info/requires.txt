@@ -1,0 +1,5 @@
+psutil
+setuptools
+ntplib
+crossplane
+requests
