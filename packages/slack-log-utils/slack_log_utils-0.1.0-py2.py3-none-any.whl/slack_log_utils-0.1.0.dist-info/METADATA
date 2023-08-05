@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: slack-log-utils
+Version: 0.1.0
+Summary: A Python logging handler for Slack integration
+Home-page: https://github.com/ngafid/slack-log-utils
+Author: KeltonKarboviak
+Author-email: kelton.karboviak@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/ngafid/slack-log-utils/
+Project-URL: Say Thanks!, https://saythanks.io/to/KeltonKarboviak
+Keywords: logging slack slack-webhook
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: System :: Logging
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Requires-Dist: requests (>=2.18.0)
+Provides-Extra: test
+Requires-Dist: nose; extra == 'test'
+
+# slack-log-utils
+A Python logging handler for Slack integration
+
+
