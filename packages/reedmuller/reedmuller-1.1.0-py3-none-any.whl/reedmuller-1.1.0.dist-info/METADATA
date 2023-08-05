@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: reedmuller
+Version: 1.1.0
+Summary: Reed-Muller code encoding and decoding
+Home-page: https://github.com/sraaphorst/reedmuller
+Author: Sebastian Raaphorst
+Author-email: srcoding@gmail.com
+License: Apache 2.0
+Keywords: mathematics combinatorics codes reedmuller reed-muller
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+
+
+The reedmuller library comprises an implementation of Reed-Muller code
+encoding and decoding with Python 2 or 3.
+
+
