@@ -1,0 +1,8 @@
+wheel
+wheel
+wheel
+mysqlclient
+mysql-connector-python-rf
+wheel
+wheel
+wheel
