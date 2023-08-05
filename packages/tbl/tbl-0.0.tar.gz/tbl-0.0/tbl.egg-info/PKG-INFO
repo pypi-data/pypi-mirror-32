@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: tbl
+Version: 0.0
+Summary: Simple table printing for Python CLI tools
+Home-page: https://github.com/AstromechZA/tbl
+Author: Ben Meier
+Author-email: ben@example.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: test
