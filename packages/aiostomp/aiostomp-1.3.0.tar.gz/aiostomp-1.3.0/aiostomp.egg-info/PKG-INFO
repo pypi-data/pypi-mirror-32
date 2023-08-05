@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: aiostomp
+Version: 1.3.0
+Summary: Simple Stomp 1.1 client for asyncio applications
+Home-page: https://github.com/pedrokiefer/aiostomp.git
+Author: Pedro Kiefer
+Author-email: pedro@kiefer.com.br
+License: MIT
+Description: UNKNOWN
+Keywords: stomp
+Platform: any
+Provides-Extra: tests
