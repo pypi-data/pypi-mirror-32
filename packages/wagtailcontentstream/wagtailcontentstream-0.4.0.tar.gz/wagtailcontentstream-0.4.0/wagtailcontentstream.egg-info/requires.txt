@@ -1,0 +1,2 @@
+wagtail>=1.8
+wagtailcodeblock>=1.14.0.0
