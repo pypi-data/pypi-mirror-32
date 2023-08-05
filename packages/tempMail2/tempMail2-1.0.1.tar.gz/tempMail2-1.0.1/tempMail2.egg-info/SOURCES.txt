@@ -1,0 +1,12 @@
+CHANGES.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+tempMail2.py
+tempMail2.egg-info/PKG-INFO
+tempMail2.egg-info/SOURCES.txt
+tempMail2.egg-info/dependency_links.txt
+tempMail2.egg-info/requires.txt
+tempMail2.egg-info/top_level.txt
