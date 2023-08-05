@@ -1,0 +1,97 @@
+Metadata-Version: 1.2
+Name: ratelimitpy
+Version: 1.1.0
+Summary: Simple rate limit decorator
+Home-page: https://github.com/saporitigianni/ratelimitpy
+Author: Gianni Saporiti
+Author-email: saporitigianni@outlook.com
+License: BSD
+Download-URL: https://pypi.python.org/pypi/ratelimitpy
+Description: 
+        .. -*-restructuredtext-*-
+        
+        ratelimitpy: Simple rate limit decorator
+        ==================================================================
+        
+        .. image:: https://img.shields.io/badge/Made%20with-Python-1f425f.svg
+            :target: https://www.python.org/
+        
+        .. image:: https://img.shields.io/pypi/v/ratelimitpy.svg
+            :target: https://pypi.org/project/ratelimitpy/
+        
+        .. image:: https://img.shields.io/pypi/l/ratelimitpy.svg
+            :target: https://pypi.org/project/ratelimitpy/
+        
+        .. image:: https://img.shields.io/pypi/pyversions/ratelimitpy.svg
+            :target: https://pypi.org/project/ratemilitpy/
+        
+        Installation
+        ------------
+        
+        To install ratelimitpy, simply use pip:
+        
+        .. code:: bash
+        
+            $ pip install ratelimitpy
+        
+        or install directly from source to include latest changes:
+        
+        .. code:: bash
+        
+            $ pip install git+https://github.com/saporitigianni/ratelimitpy.git
+        
+        or clone and then install:
+        
+        .. code:: bash
+        
+            $ git clone https://github.com/saporitigianni/ratelimitpy.git
+            $ cd ratelimitpy
+            $ python3 setup.py install
+        
+        Usage
+        -----
+        Simply decorate anything that requires a rate limit and specify calls and period
+        
+        .. code:: python
+        
+            from ratelimitpy import ratelimitpy
+        
+            # Function to be rate limited
+            # Will print no more than 10 calls for every 3 second period
+            @ratelimitpy(calls=10, period=3)
+            def print_limited(data):
+                print(data)
+        
+            for x in range(30):
+                print_limited(x)
+        
+        
+        Contributing
+        ------------
+        
+        Please read the `CONTRIBUTING <https://github.com/saporitigianni/ratelimitpy/blob/master/CONTRIBUTING.md>`_ document before making changes that you would like adopted in the code.
+        
+        Code of Conduct
+        ---------------
+        
+        Everyone interacting in the ``ratelimitpy`` project's codebase, issue
+        trackers, chat rooms, and mailing lists is expected to follow the
+        `PyPA Code of Conduct <https://www.pypa.io/en/latest/code-of-conduct/>`_.
+        
+        
+        |
+        |
+        | ETH 0xaD1F09626b9B8e701D5f0F4a237193Df73d3C445
+        | BTC 199zsVqCusefv8yjdYQhUQZmLCyh75dqNV
+        | LTC LUBqs7VxC43ttPsQuM1jaZFmshKTAU1Rs9
+        
+Keywords: ratelimit,api
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Internet
+Requires-Python: >=3
