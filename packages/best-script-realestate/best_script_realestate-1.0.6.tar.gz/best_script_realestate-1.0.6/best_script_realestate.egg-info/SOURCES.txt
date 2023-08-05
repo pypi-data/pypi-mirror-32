@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README
+README.md
+setup.cfg
+setup.py
+best_script_realestate/__init__.py
+best_script_realestate/best_script_realestate.py
+best_script_realestate.egg-info/PKG-INFO
+best_script_realestate.egg-info/SOURCES.txt
+best_script_realestate.egg-info/dependency_links.txt
+best_script_realestate.egg-info/entry_points.txt
+best_script_realestate.egg-info/not-zip-safe
+best_script_realestate.egg-info/requires.txt
+best_script_realestate.egg-info/top_level.txt
+data/data_file
