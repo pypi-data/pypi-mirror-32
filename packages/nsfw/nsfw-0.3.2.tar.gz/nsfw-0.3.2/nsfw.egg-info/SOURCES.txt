@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+nsfw/__init__.py
+nsfw/cli.py
+nsfw/deploy.prototxt
+nsfw/nsfw.py
+nsfw/resnet_50_1by2_nsfw.caffemodel
+nsfw.egg-info/PKG-INFO
+nsfw.egg-info/SOURCES.txt
+nsfw.egg-info/dependency_links.txt
+nsfw.egg-info/entry_points.txt
+nsfw.egg-info/top_level.txt
