@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        hermetica=hermetica.cli:main
+    
