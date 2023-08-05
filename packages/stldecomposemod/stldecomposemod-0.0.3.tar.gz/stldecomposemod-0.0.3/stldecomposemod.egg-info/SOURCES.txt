@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+stldecomposemod/__init__.py
+stldecomposemod/__version__.py
+stldecomposemod/forecast_funcs.py
+stldecomposemod/stl.py
+stldecomposemod.egg-info/PKG-INFO
+stldecomposemod.egg-info/SOURCES.txt
+stldecomposemod.egg-info/dependency_links.txt
+stldecomposemod.egg-info/requires.txt
+stldecomposemod.egg-info/top_level.txt
