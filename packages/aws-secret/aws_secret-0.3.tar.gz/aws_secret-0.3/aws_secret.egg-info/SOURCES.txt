@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+setup.py
+aws_secret/__init__.py
+aws_secret/secret.py
+aws_secret.egg-info/PKG-INFO
+aws_secret.egg-info/SOURCES.txt
+aws_secret.egg-info/dependency_links.txt
+aws_secret.egg-info/not-zip-safe
+aws_secret.egg-info/requires.txt
+aws_secret.egg-info/top_level.txt
