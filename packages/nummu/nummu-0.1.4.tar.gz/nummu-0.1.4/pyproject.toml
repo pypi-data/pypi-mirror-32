@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "nummu"
+version = "0.1.4"
+description = "An animated image maker."
+authors = ["Ju Lin <soasme@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+numpngw = "0.0.6"
+array2gif = "^1.0"
+Pillow = "5.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.5"
