@@ -1,0 +1,9 @@
+localcrawl/__init__.py,sha256=B2Mn4zSZiZOZZtilX8dBjfvbhpmCVY8DXie3WivjgqA,160
+localcrawl/cli.py,sha256=ioaZPCqYTvB0hC5cE-V-BwQzUbabT84AI5mVOHV8lec,1514
+localcrawl/crawler.py,sha256=aloNtwTUBsxLl1lKljpp22Z_AGATKQX9HserDX-oXsU,3901
+localcrawl/scraper.py,sha256=YHu1VbPuVDqkg12CldtESlpBtgmgc1FMFBF5_RQwI0U,1726
+localcrawl-0.2.1.dist-info/METADATA,sha256=I9QiPuMf-yKErgyrDfqtD9Le80dFEnwk66iDpLnbQQs,3870
+localcrawl-0.2.1.dist-info/RECORD,,
+localcrawl-0.2.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+localcrawl-0.2.1.dist-info/entry_points.txt,sha256=1_yYlToDZaUegE1In8aUEwnRAF3vyrVGHwbDlTauGFM,52
+localcrawl-0.2.1.dist-info/top_level.txt,sha256=aYFMnrx8eQkxxGrigCtdvDakuV_H86bWzCcc8VeTpJ8,11
