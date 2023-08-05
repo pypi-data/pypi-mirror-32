@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: fobs
+Version: 0.2.2
+Summary: Convert 45m/ASTE obstable to one for FMLO observation
+Home-page: https://github.com/fmlo-dev/fobs
+Author: astropenguin
+Author-email: taniguchi@a.phys.nagoya-u.ac.jp
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
