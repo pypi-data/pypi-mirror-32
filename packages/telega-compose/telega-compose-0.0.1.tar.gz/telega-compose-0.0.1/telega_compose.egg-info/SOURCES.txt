@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+VERSION
+requirements.txt
+setup.py
+telega_compose/__init__.py
+telega_compose/main.py
+telega_compose.egg-info/PKG-INFO
+telega_compose.egg-info/SOURCES.txt
+telega_compose.egg-info/dependency_links.txt
+telega_compose.egg-info/entry_points.txt
+telega_compose.egg-info/requires.txt
+telega_compose.egg-info/top_level.txt
