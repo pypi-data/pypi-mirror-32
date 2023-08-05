@@ -1,0 +1,77 @@
+{% load staticfiles sekizai_tags i18n %}
+
+
+{% addtoblock "css" %}
+    <style>
+        .django-privacy-mgmt-bottom-banner {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #f5f5f5;
+            padding: 10px;
+            z-index: 10000;
+        }
+    </style>
+{% endaddtoblock %}
+
+{% addtoblock "js" %}
+    <script>
+        $(document).ready(function () {
+            var COOKIE_BANNER_NAME = 'djangocms_cookie_banner';
+            var $privacy_banner = jQuery('.django-privacy-mgmt-bottom-banner');
+
+            var cookie_banner_state = Cookies.getJSON(COOKIE_BANNER_NAME) || {hidden: false};
+
+            if (!cookie_banner_state.hidden) {
+                $privacy_banner.show();
+            }
+
+            $privacy_banner.find('.gdpr-trigger-modal').on('click', function () {
+                $privacy_banner.hide();
+                // hide banner 'forever'
+                Cookies.set(COOKIE_BANNER_NAME, {hidden: true});
+            });
+
+            $privacy_banner.find('.privacy-banner-accept').on('click', function () {
+                // the user is ok with all our scripts, go full blast
+                $privacy_banner.hide();
+                // establish default settings
+                django_privacy_mgmt.setPreference('STATISTICS', true);
+                django_privacy_mgmt.setPreference('MARKETING', true);
+                console.log('enable all statistics and marketing services');
+                // hide banner 'forever'
+                Cookies.set(COOKIE_BANNER_NAME, {hidden: true});
+            });
+
+            $privacy_banner.find('.privacy-banner-close').on('click', function () {
+                // the user is just not interested, we use the default values
+                $privacy_banner.hide();
+                django_privacy_mgmt.setPreference('STATISTICS', true);
+                django_privacy_mgmt.setPreference('MARKETING', false);
+                // hide banner 'forever'
+                Cookies.set(COOKIE_BANNER_NAME, {hidden: true});
+                console.log('set privacy settings to default: Marketing off, Statistics on.');
+            });
+        });
+    </script>
+{% endaddtoblock %}
+
+
+
+<div class="django-privacy-mgmt-bottom-banner">
+    <div class="row">
+        <div class="col-md-8">
+            {% blocktrans %}We use cookies and scripts on this website to improve your user experience and continually
+                optimise the website. Read about how we use cookies and scripts and how you can manage them by clicking
+                on privacy settings. You can always access your privacy settings via the 'privacy settings' link in the
+                website footer.{% endblocktrans %}
+        </div>
+        <div class="columns col-md-4">
+            <a href='#' class='btn btn-default gdpr-trigger-modal'>{% trans 'Privacy settings' %}</a>
+            <a href='#' class='btn btn-default privacy-banner-accept'>{% trans 'Accept' %}</a>
+            <a href='#' class='btn btn-default privacy-banner-close'>{% trans 'Close this' %}</a>
+        </div>
+    </div>
+</div>
