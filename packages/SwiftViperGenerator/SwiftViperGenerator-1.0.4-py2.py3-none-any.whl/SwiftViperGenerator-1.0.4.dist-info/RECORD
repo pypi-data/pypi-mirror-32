@@ -1,0 +1,17 @@
+SwiftViperGenerator-1.0.4.dist-info/METADATA,sha256=dQRJVp6AzQne6wFqoOrqSVDCCrlNmgdQckSKKEXcgTw,874
+SwiftViperGenerator-1.0.4.dist-info/RECORD,,
+SwiftViperGenerator-1.0.4.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+SwiftViperGenerator-1.0.4.dist-info/entry_points.txt,sha256=lCNdxpswW8Xhq-ah22osNDwZh3h1RaAnmQmj5bu8X5k,44
+SwiftViperGenerator-1.0.4.dist-info/top_level.txt,sha256=vVnKh8cpuF-FJkj-0Y_Y9a2jf_lCwzi6aKAT0YxmmJ0,9
+swivigen/__init__.py,sha256=8kxt6CkWaFkcDG7Yfr3DEnM0k9fA2XCpJbVQrE6HAtA,7137
+swivigen/Common/AbstractPresenter.swift,sha256=kuJ_U4NLmV0TRAQxkX0__c8-dEjpLR9IaSpO8iWV51Q,267
+swivigen/Common/AbstractRouter.swift,sha256=JF0cvBla9pvCYUzii7lb2aC06eYwaybfI0C3OqHa9Sw,208
+swivigen/Common/TabBarRouter.swift,sha256=DfrFAPoVQH8MBeM4WBGbiqBkNc0rZ12pfgo64FGnusk,673
+swivigen/Common/ViperController.swift,sha256=lG55Kdt4YNRUPrQpOvmQAUn8qhYbDZyL5yFug75WBkw,249
+swivigen/Common/ViperTabBarController.swift,sha256=gNy11k66KUke6hhlkUv8-kXifdYe-41fPgS5sSSL5dc,201
+swivigen/Templates/Controller.tpl.swift,sha256=-YpLURrNU9QIQTgBCQECzNLVfPWPD1UIQDQIO0QfuDs,360
+swivigen/Templates/Header.tpl.swift,sha256=8XHEeNP2X7IE9HbBDguGtuCBGsUikKw5AUZqjSPdpqk,228
+swivigen/Templates/Interactor.tpl.swift,sha256=RCJgJJTtuQUHxpchzIyBkoGgVqXeGTEJwkvBehBbbqw,240
+swivigen/Templates/Presenter.tpl.swift,sha256=QBmpNtsRM3_WPJ9PWUNzv7ZaFagLIlairDBqmkEUeOQ,372
+swivigen/Templates/Router.tpl.swift,sha256=QKBxR4x4AONEPxG6ipuEGU4D_dU6t9KIf4q131zS0o8,857
+swivigen/Templates/View.tpl.swift,sha256=qPykYTcv85-Z5QmvJWjaSHLoQaG2ulAtKnSSviTqkWE,165
