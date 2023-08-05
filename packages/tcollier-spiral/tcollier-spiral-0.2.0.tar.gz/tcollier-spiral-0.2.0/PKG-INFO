@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: tcollier-spiral
+Version: 0.2.0
+Summary: Iterate over a 2-D matrix in a spiral manner
+Home-page: https://github.com/tcollier/spiral
+Author: Tom Collier
+Author-email: tcollier@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/tcollier/spiral/archive/0.2.0.tar.gz
+Description: UNKNOWN
+Keywords: spiral,matrix
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
