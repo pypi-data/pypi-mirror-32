@@ -1,0 +1,6 @@
+airbrake/__init__.py,sha256=27EautTl-HS6EnZQMXHX_oo3UB324EhliFaIBIxcrKo,111
+airbrake/handlers.py,sha256=s3woADfUMYUX4DAkSf_RVv_hrm1IbhYq5-2Dis_dRfM,5678
+django_airbrake-1.3.0.dist-info/METADATA,sha256=i80cDtmkPK1iMfA-sowQEAFwKliTRU5ydjT_LL0xwv8,3913
+django_airbrake-1.3.0.dist-info/RECORD,,
+django_airbrake-1.3.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+django_airbrake-1.3.0.dist-info/top_level.txt,sha256=gyM2uYhpKrhk7OYIHYiyFVo66Vk33oi2nmIouB7vse8,9
