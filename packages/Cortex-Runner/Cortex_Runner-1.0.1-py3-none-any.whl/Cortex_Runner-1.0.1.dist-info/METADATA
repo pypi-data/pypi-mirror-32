@@ -1,0 +1,24 @@
+Metadata-Version: 2.0
+Name: Cortex-Runner
+Version: 1.0.1
+Summary: Cortex jobs automation for TheHive.
+Home-page: https://github.com/Cyberprotect/CortexRunner
+Author: Rémi ALLAIN
+Author-email: rallain@cyberprotect.fr
+Maintainer: Rémi ALLAIN
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: requests
+Requires-Dist: thehive4py
+
+UNKNOWN
+
+
