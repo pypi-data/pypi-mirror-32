@@ -1,0 +1,8 @@
+ocmpy/__init__.py,sha256=Xj3-hYuuHzbeoIHAI35T2M7f9-BbPbBgZv64D8sB1dk,1121
+ocmpy/base.py,sha256=TX7GWfk6S7KG1QerMfWwHqa4ken8A0U-QHSJLef4jAg,20240
+ocmpy-0.1.2.dist-info/METADATA,sha256=lRQrVerp0Moj4lD6j0wH5nVuCwMvRAt9ajuphVo44xE,1738
+ocmpy-0.1.2.dist-info/RECORD,,
+ocmpy-0.1.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+ocmpy-0.1.2.dist-info/top_level.txt,sha256=Jv-CDHMUHNgAplJlLAuZWpjmkgHWROdVOvfW7Z4VnMc,11
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_ocmpy.py,sha256=kdklk1l0aNmyjrQXOs0SByykGRb4MKKEizUkDkoBf9k,261947
