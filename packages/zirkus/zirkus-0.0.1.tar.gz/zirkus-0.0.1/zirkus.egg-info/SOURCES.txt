@@ -1,0 +1,16 @@
+.hgignore
+.hgtags
+Pipfile
+Pipfile.lock
+README.md
+setup.cfg
+setup.py
+docs/conf.py
+docs/index.rst
+tests/conftest.py
+tests/test_zirkus.py
+zirkus/__init__.py
+zirkus.egg-info/PKG-INFO
+zirkus.egg-info/SOURCES.txt
+zirkus.egg-info/dependency_links.txt
+zirkus.egg-info/top_level.txt

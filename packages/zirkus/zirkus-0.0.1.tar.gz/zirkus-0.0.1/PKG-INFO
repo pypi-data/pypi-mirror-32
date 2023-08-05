@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: zirkus
+Version: 0.0.1
+Summary: federated blog platform
+Home-page: UNKNOWN
+Author: Holger Peters
+License: UNKNOWN
+Description: # zirkus
+        
+        
+        ## Development
+        
+        To develop with this package, install it in development mode
+        into a virtual environment:
+        
+            cd zirkus
+            pip install -e .
+        
+        You can run the tests with:
+        
+            python setup.py test
+        
+        or
+        
+            py.test
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: Topic :: Communications
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
