@@ -1,0 +1,10 @@
+dkamotsky.logr-1.0.7.dist-info/DESCRIPTION.rst,sha256=kh1oct2ugs_vzifdyXdUqS_KUNn38aRn-Mqn0yM4vJk,19
+dkamotsky.logr-1.0.7.dist-info/LICENSE.txt,sha256=ptm37UVtHss7jUix58Rq5srbsTVHE1LNKGbf_eH28RA,187
+dkamotsky.logr-1.0.7.dist-info/METADATA,sha256=_400b6KYMKvtoCiq75QwhmUvlxnPZuqZz51ENH5TRfg,765
+dkamotsky.logr-1.0.7.dist-info/RECORD,,
+dkamotsky.logr-1.0.7.dist-info/WHEEL,sha256=9Z5Xm-eel1bTS7e6ogYiKz0zmPEqDwIypurdHN1hR40,116
+dkamotsky.logr-1.0.7.dist-info/metadata.json,sha256=H7po96vD83_0Wk0eSdW6lyO2eBkjLMtQCXCo-vTw6d8,908
+dkamotsky.logr-1.0.7.dist-info/top_level.txt,sha256=T_d45Ajb6iJRuGL1MBkD_B35ZQl-yw5mqpQO4rRfon0,5
+logr/__init__.py,sha256=cZw5hjasAZSuKUj7BD3oYrAE8ZVZk7v-yo_msO32_5U,379
+logr/config.py,sha256=1XdSOEk_g60FotXBLfMCas5QVi3oOgyx0fiFDjXixO4,267
+logr/logr.py,sha256=o68JBO9WdrwLpwJ8B-7kmurZNqswCPuLvkGNKBgyCCk,4884
