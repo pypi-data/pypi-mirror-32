@@ -1,0 +1,2 @@
+cvxopt>=1.1.9
+chompack>=2.3.2
