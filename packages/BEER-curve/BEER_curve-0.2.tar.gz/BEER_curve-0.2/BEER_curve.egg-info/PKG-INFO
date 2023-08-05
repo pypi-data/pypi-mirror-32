@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: BEER-curve
+Version: 0.2
+Summary: A very small package to model the BEaming, Ellipsoidal variations, and Reflected/emitted light from low-mass companions
+Home-page: https://github.com/decaelus/BEER_curve
+Author: Brian Jackson
+Author-email: bjackson@boisestate.edu
+License: ['GNU GPLv3']
+Download-URL: https://github.com/decaelus/BEER_curve/archive/0.1.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python
