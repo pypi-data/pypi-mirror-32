@@ -1,0 +1,4 @@
+include compat/win32/stdint.h
+graft liblbfgs
+include README.rst
+include pyproject.toml
