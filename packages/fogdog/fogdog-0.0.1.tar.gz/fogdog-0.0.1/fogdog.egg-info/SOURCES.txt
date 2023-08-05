@@ -1,0 +1,12 @@
+README.md
+setup.py
+fogdog/__init__.py
+fogdog/data.py
+fogdog/fci.py
+fogdog/sess.py
+fogdog.egg-info/PKG-INFO
+fogdog.egg-info/SOURCES.txt
+fogdog.egg-info/dependency_links.txt
+fogdog.egg-info/requires.txt
+fogdog.egg-info/top_level.txt
+fogdog.egg-info/zip-safe
