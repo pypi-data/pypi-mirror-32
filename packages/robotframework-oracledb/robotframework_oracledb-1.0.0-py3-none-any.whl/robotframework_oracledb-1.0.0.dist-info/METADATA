@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: robotframework-oracledb
+Version: 1.0.0
+Summary: Robot Framework library for working with Oracle Database.
+Home-page: https://github.com/peterservice-rnd/robotframework-oracledb
+Author: Nexign
+Author-email: MF_AIST_all@nexign-systems.com
+License: Apache License 2.0
+Requires-Dist: cx-Oracle
+Requires-Dist: robotframework
+
+RobotFramework Oracle Library
+
+
