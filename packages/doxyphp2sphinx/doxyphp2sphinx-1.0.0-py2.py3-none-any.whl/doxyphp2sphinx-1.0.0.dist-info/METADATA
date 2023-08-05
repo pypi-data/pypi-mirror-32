@@ -1,0 +1,63 @@
+Metadata-Version: 2.0
+Name: doxyphp2sphinx
+Version: 1.0.0
+Summary: API Documentation generator for PHP projects which use Sphinx.
+Home-page: https://github.com/mike42/doxyphp2sphinx
+Author: Michael Billington
+Author-email: michael.billington@gmail.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/mike42/doxyphp2sphinx/issues
+Project-URL: Source, https://github.com/mike42/doxyphp2sphinx
+Keywords: doxygen sphinx restructuredtext readthedocs php documentation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: dev
+Requires-Dist: enum34
+Provides-Extra: dev
+Requires-Dist: check-manifest; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage; extra == 'test'
+
+# doxyphp2sphinx
+API Documentation generator for PHP projects which use Sphinx.
+
+It acts as a compatibility layer between Doxygen (which is good at reading PHP),
+and Sphinx (which is used by some online services to host HTML docs).
+
+- http://www.sphinx-doc.org/en/master/
+- http://www.doxygen.org/
+
+## Example usage
+
+This code was originally written to generate the API documentation for `gfx-php`
+so that it could be hosted on [readthedocs.org](https://readthedocs.org/), so
+we'll use that as an example:
+
+- Code: https://github.com/mike42/gfx-php
+- Docs: https://gfx-php.readthedocs.io
+
+
+```
+git clone https://github.com/mike42/gfx-php
+cd docs
+doxygen
+python -m doxyphp2sphinx Mike42::GfxPhp
+make html
+```
+
+## License
+
+See LICENSE
+
+

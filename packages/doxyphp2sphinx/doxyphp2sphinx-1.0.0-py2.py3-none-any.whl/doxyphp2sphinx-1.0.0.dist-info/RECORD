@@ -1,0 +1,13 @@
+doxyphp2sphinx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+doxyphp2sphinx/__main__.py,sha256=N1O3QqIjDDbhZW7rJFIvk4AxZItPZSwrE5ZtU6Fmy_o,63
+doxyphp2sphinx/cli.py,sha256=MGSz1J7f6JmIO1K2McJWbpyRlkoGQzoXmOFr3Zm3MVw,1187
+doxyphp2sphinx/logger.py,sha256=uqGB3YlmaYPR1Ic7RaDeBSy6XFEovTTc8Dcscu6k8wY,400
+doxyphp2sphinx/rstgenerator.py,sha256=vbae6aPoRSvafIN9HEKiJEE7B5rVhLhj5WFuLbeig5Y,14931
+doxyphp2sphinx-1.0.0.dist-info/DESCRIPTION.rst,sha256=mM-I6VsJ-jHaHSKVrmGFp22JQh2CYKkIm0paoOcPEiI,735
+doxyphp2sphinx-1.0.0.dist-info/LICENSE.txt,sha256=OSqPMZ28yWYX3HrD86bJynzvX9hhsopiKCU2Gc6tdog,1323
+doxyphp2sphinx-1.0.0.dist-info/METADATA,sha256=nRtfzqJNrXcZg16nqZ8Y0Cwghy92GQSFGEi0BmQSZyQ,1954
+doxyphp2sphinx-1.0.0.dist-info/RECORD,,
+doxyphp2sphinx-1.0.0.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+doxyphp2sphinx-1.0.0.dist-info/entry_points.txt,sha256=h1ndprbyZxVzWtPiEEQu3NAdMefqL4Ma6okEpL-a_e8,55
+doxyphp2sphinx-1.0.0.dist-info/metadata.json,sha256=xye-6CPRG4CTwrarbQFUjY8-BTu0DJYoC4CLjZptZ00,1441
+doxyphp2sphinx-1.0.0.dist-info/top_level.txt,sha256=snMoq4fLp4nt1Ij_X6vvSKSTnetoQrGTUsK60SoFAwo,15
