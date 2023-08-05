@@ -1,0 +1,3 @@
+[console_scripts]
+socials = socials.cli:main
+
