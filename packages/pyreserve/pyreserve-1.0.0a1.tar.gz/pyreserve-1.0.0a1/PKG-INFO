@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: pyreserve
+Version: 1.0.0a1
+Summary: Create a template Python package and reserve a name on PyPi with just one command
+Home-page: https://github.com/shobrook/pyreserve
+Author: shobrook
+Author-email: shobrookj@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: pypi python package reserve template project generator
+Platform: UNKNOWN
+Requires-Python: >=3

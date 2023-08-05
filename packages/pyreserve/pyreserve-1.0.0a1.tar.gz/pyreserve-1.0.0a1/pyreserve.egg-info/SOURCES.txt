@@ -1,0 +1,10 @@
+README.md
+setup.py
+pyreserve/__init__.py
+pyreserve/__main__.py
+pyreserve/pyreserve.py
+pyreserve.egg-info/PKG-INFO
+pyreserve.egg-info/SOURCES.txt
+pyreserve.egg-info/dependency_links.txt
+pyreserve.egg-info/entry_points.txt
+pyreserve.egg-info/top_level.txt
