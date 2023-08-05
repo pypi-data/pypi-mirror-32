@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: Python-Parking2
+Version: 1.1
+Summary: A small example package
+Home-page: UNKNOWN
+Author: Bartlomiej Mazur
+Author-email: bmazur230146@e-science.pl
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
