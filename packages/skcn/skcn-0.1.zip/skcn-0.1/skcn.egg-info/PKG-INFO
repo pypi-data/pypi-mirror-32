@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: skcn
+Version: 0.1
+Summary: 监控spider
+Home-page: https://github.com/Tigerwxl/nuomi
+Author: wxl
+Author-email: xiaoliangnuomi@163.com
+License: MIT
+Description: 查看spider的状态
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
