@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: email-scraper-from-html
+Version: 1.0
+Summary: Generates list of emails scraped from a given HTML file
+Home-page: https://github.com/jonjonrankin/email_scraper_from_html
+Author: jonjonrankin
+Author-email: jonathan@skoller.co
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
