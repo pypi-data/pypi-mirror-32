@@ -1,0 +1,13 @@
+gann/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gann/crossover.py,sha256=_4Nowq-UFtDeqLmxkiUE-vFRsmFoJQb6MVofYWqGHLA,800
+gann/gn_Cnn.py,sha256=-DxEbOLqZRfINg5NUsFPdeWhCXlf2T3L70DwzotCeas,10942
+gann/initparamobj.py,sha256=yExQlDtTC4xBIytsWD8iisRiWhp7Lv1yWPVLkf1NUMI,277
+gann/makegene.py,sha256=k_wCIJ4-zUl76zd2kLwb-B9bTQW7EeVaerNDamBXJ48,185
+gann/mutation.py,sha256=dTnsVYVjGdE0vZFhiCyW4udRIMZU35TuGq7QPVGDuj8,1238
+gann/runga.py,sha256=skEQOvo1qN1i3-kDVM72gx42G-QjHtO4mz0ZU6VUNow,4577
+gann/saveparameters.py,sha256=xoJGAi8rl4RpFW9Hhgd8WT2eF8gcpOMeamKgbx3WXJw,761
+gann/selection.py,sha256=ldv3Te0uqbfVvEF0VhNOMb00gJFzX3gUDufu0EUvbFo,305
+gann-1.0.0.dist-info/METADATA,sha256=KAz3DMv2MfzkJV1FKgc-RY_USmEs5-WB6dfKY2UmtvQ,532
+gann-1.0.0.dist-info/RECORD,,
+gann-1.0.0.dist-info/WHEEL,sha256=pZyAqgNAylOf0KG_hPHMtuuY08rV3WzWwZu2OTsNnnw,97
+gann-1.0.0.dist-info/top_level.txt,sha256=NuLsVUgHB1cJsOmlUV1oO4irN1GGNGSh81SXn2wgmfI,5

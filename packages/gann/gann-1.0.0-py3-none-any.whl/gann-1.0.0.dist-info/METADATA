@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: gann
+Version: 1.0.0
+Summary: Using genetic algorithms or combining gradient descent method to optimize neural network parameters
+Home-page: https://blog.csdn.net/winycg/
+Author: winycg
+Author-email: yangchuanguang@ict.ac.cn
+License: MIT
+Project-URL: Documentation, https://blog.csdn.net/winycg/
+Project-URL: Source, https://github.com/winycg/gann
+Keywords: Genetic Algorithm;Neural Network
+Platform: UNKNOWN
+Requires-Python: >=3
+Requires-Dist: numpy (>=1.14)
+Requires-Dist: tensorflow (>=1.7)
+
+UNKNOWN
+
+
