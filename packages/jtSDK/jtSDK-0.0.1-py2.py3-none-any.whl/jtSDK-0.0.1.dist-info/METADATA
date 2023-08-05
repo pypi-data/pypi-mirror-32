@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: jtSDK
+Version: 0.0.1
+Summary: Python sdk client for json-tore
+Home-page: https://github.com/qiz029/json-tore-python-sdk
+Author: CuCumber Jelly
+Author-email: 812593609@qq.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=2.7.15
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# json-tore-python-sdk
+This is a python sdk client for json-tore
+
+## install
+'''python setup.py install'''
+
+## instruction
+user needs to setup json-tore host and port by setting environment variable '''JT_HOST''' and '''JT_PORT'''
+
+do
+'''
+from jtSDK.jtClient import jtClient
+client = jtClient()
+'''
+
+
