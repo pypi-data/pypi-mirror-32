@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: django-moneylib
+Version: 0.1.1
+Summary: A wrapper for using moneylib with django.
+Home-page: https://github.com/san4ezy/django-moneylib
+Author: Alexander Yudkin
+Author-email: san4ezy@gmail.com
+Maintainer: Alexander Yudkin
+Maintainer-email: san4ezy@gmail.com
+License: The MIT License (MIT)
+Description: UNKNOWN
+Keywords: django,money,django-money,moneylib,currency
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Web Environment
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python

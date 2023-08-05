@@ -1,0 +1,16 @@
+DESCRIPTION
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+django_money/__init__.py
+django_money/admin.py
+django_money/exceptions.py
+django_money/fields.py
+django_money/mixins.py
+django_money/models.py
+django_money/utils.py
+django_moneylib.egg-info/PKG-INFO
+django_moneylib.egg-info/SOURCES.txt
+django_moneylib.egg-info/dependency_links.txt
+django_moneylib.egg-info/top_level.txt
