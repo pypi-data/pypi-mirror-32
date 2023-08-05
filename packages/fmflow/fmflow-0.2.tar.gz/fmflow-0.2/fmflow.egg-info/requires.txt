@@ -1,0 +1,7 @@
+astropy
+numba
+numpypyyaml
+scikit-learn
+scipy
+tqdm
+xarray
