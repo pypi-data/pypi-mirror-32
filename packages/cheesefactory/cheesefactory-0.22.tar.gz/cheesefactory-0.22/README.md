@@ -1,0 +1,35 @@
+Wrappers for report-making with dataframes.
+
+If you like using dataframes in Pandas and want to spit the results into an Excel or CSV and want to have the option to transfer the report to a remote SFTP server, then this package may be for you.
+
+If you want to export non-dataframe results into an Excel or CSV and want to have the option to transfer the report to a remote SFTP server, then this package may be for you.
+
+###Background
+Yes!  I know that Pandas has a lot of goodies built into it for doing the Excel and CSV thing, but this  
+
+I provide a number of daily reports to clients in the form of Excel and CSV files.  Sometimes, these clients need the information transferred to an SFTP server.
+
+As you may imagine, the first thing I did was create a framework for these reports so I wouldn't have to repeat most of my work.  Thus, CheeseFactory was born.
+
+The idea here is that I would have Python wrappers for my most used packages:  
+* PostgreSQL (psycopg2)
+* MSSQL (pyodbc)
+* Email (builtin)
+* Excel (xlsxwriter)
+* CSV (builtin)
+
+And then I'd have a basic report class (cf_report.py) that brings everything together.  I never use the basic report class directly--I create create a child classes for each particular data source.
+
+This package was originally intended for me and the other data scientists I associate with.  I was very surprised when I saw that, according to PePy (http://pepy.tech/count/cheesefactory), it had been downloaded over 2500 times within its first 90 days of being in the wild!
+
+So, for the benefit of others, I've decided to pretty things up and describe how CheeseFactory may be able to help you.
+
+If you have any questions or constructive suggestions, please contact me.
+
+###What do I mean by "wrapper"?
+I've taken the packages that I use the most and pre-configured them with the configurations that I use 99% of the time. 
+
+###What can CheeseFactory do?
+
+* 
+
