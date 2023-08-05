@@ -1,0 +1,8 @@
+rasahub
+mysql-connector
+nltk
+rasahub-google-calendar
+
+[test]
+testing.common.database
+testing.mysqld
