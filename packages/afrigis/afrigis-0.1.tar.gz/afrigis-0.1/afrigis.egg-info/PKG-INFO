@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: afrigis
+Version: 0.1
+Summary: Afrigis Python Library
+Home-page: https://github.com/chris-cmsoft/python-afrigis
+Author: Chris Vermeulen
+Author-email: chris@cmsoft.co.za
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/chris-cmsoft/python-afrigis/issues
+Project-URL: Source, https://github.com/chris-cmsoft/python-afrigis/
+Description: # Afrigis Python Library
+        
+        [![Maintainability](https://api.codeclimate.com/v1/badges/ecd8973da991fa593b82/maintainability)](https://codeclimate.com/github/chris-cmsoft/python-afrigis/maintainability)
+        [![Test Coverage](https://api.codeclimate.com/v1/badges/ecd8973da991fa593b82/test_coverage)](https://codeclimate.com/github/chris-cmsoft/python-afrigis/test_coverage)
+        [![Build Status](https://travis-ci.org/chris-cmsoft/python-afrigis.svg?branch=master)](https://travis-ci.org/chris-cmsoft/python-afrigis)
+        
+        ### Installation
+        
+        ```bash
+        $ pip install afrigis
+        ```
+        
+        ### Services:
+        
+        #### Geocode
+        
+        Example on using the Geocode service
+        ```python
+        from afrigis.services import geocode
+        result = geocode('AFRIGIS_KEY', 'AFRIGIS_SECRET', 'NADID | SEOID')
+        print(result)
+        # {'number_of_records': 4, ...}
+        ```
+        
+        ### Running tests
+        
+        ```bash
+        $ py.test
+        ```
+        
+        ### Building and pushing to pypi
+        
+        > In order to di this please make sure you are authenticated against Pypi first :).  
+        > You ca do this with the following method: https://docs.python.org/3/distutils/packageindex.html#the-pypirc-file
+        
+        ```bash
+        $ python setup.py sdist upload
+        ```
+Keywords: Python Afrigis Integration
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >3, !=3.0.*, !=3.1.*, !=3.2.*, <4
+Description-Content-Type: text/markdown
