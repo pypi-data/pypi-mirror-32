@@ -1,0 +1,6 @@
+configobj
+dropbox
+opster
+pyperclip
+requests
+sfs_upload
