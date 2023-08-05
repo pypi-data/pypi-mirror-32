@@ -1,0 +1,25 @@
+Metadata-Version: 2.0
+Name: storyblok
+Version: 0.1.1
+Summary: Storyblok API library client for python
+Home-page: https://github.com/storyblok/storyblok-python-sdk
+Author: Dominik Angerer
+Author-email: da@storyblok.com
+License: MIT
+Download-URL: https://github.com/storyblok/storyblok-python-sdk/archive/0.1.1.tar.gz
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: requests (>=2.1.0)
+
+UNKNOWN
+
+
