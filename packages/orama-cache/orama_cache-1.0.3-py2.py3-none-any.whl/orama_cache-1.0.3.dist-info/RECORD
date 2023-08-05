@@ -1,0 +1,8 @@
+orama_cache/__init__.py,sha256=3P7BgE0P5y4SBw3WpjplbY9viyhMbVhojxxFVg2ciz8,21
+orama_cache/cache.py,sha256=iOwCTyUJLUofPrtIgX6ju2khMm9Cb2KRMHlMvD2XXrI,9047
+orama_cache/constants.py,sha256=oyJeEEGATABEu1MBvIxnbO45Inq2UA9LcH2zmPSj3GM,174
+orama_cache/memcached_stats.py,sha256=YlX4Bq78ZjtLgmKt08SN_dwWzrVYGyrZyb5h1GjHSpU,1625
+orama_cache-1.0.3.dist-info/METADATA,sha256=lk-KeD6MfIwGZE1TZXFyWQyir8tgI-Lqd9x_8hD7gdY,250
+orama_cache-1.0.3.dist-info/RECORD,,
+orama_cache-1.0.3.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+orama_cache-1.0.3.dist-info/top_level.txt,sha256=KNZHxDH1Dgk3ovhxc_3nMecuW4bxogambVNKWJRzBjY,12

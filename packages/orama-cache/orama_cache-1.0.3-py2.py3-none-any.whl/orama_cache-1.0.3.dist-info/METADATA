@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: orama-cache
+Version: 1.0.3
+Summary: Memcached Helper
+Home-page: UNKNOWN
+Author: Ruan Seabra
+Author-email: ruan.seabra@orama.com.br
+License: Proprietary
+Platform: UNKNOWN
+Requires-Dist: python-memcached (==1.59)
+
+UNKNOWN
+
+
