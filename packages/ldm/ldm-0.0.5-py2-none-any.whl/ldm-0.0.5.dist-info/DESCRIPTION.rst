@@ -1,0 +1,68 @@
+Info
+====
+`ldm.py 2018-05-25`
+
+`Author: Zhao Mingming <471106585@qq.com>`
+
+`Copyright: This module has been placed in the public domain.`
+
+`version:0.0.5`
+
+Classes:
+- `LDM`: you can use a function to get landmarks and face feature  with no other libs 
+
+Functions:
+
+- `face_feature`: the feature of face in the image for face recognition 
+- `landmarks`: get the landmarks and face in the image 
+
+How To Use This Module
+======================
+.. image:: funny.gif
+   :height: 100px
+   :width: 100px
+   :alt: funny cat picture
+   :align: center
+
+1. example code:
+
+
+.. code:: python
+
+    import  ldm
+    from skimage import io
+
+    imagepath="closed_eye/10.jfif"
+    ldmer=ldm.LDM()
+    img=io.imread(imagepath)
+    print img.shape[0]
+    ldl,facel,txt=ldmer.landmarks(img)
+    print txt
+    for ld in ldl:
+        print 10*'-'
+        print 'nose:'
+        print ld['nose']
+    for face in facel:
+        print 10*'-'
+        print 'face:'
+        print face.top()
+        print face.left()
+        print face.width()
+        print face.height()
+        print face.bottom()
+        print face.right()
+        x,y,w,h=[face.top(),face.left(),face.width(),face.height()]
+        print x,y,w,h
+        print "feature:"
+    ffl=ldmer.face_feature(img)
+        for ff in ffl:
+        print help(ff)
+        print 'ff='+str(ff)
+        print 'len(ff)='+str(len(ff))
+        print 'ff[0]='+str(ff[0])
+        print 'ff[127]='+str(ff[127])
+    print "face number:"
+    print ldmer.face_number(img)
+
+
+
