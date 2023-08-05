@@ -1,0 +1,233 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load include_asset %}
+{% load settings_value %}
+{% block content %}
+
+
+    {% if messages %}
+      {% for message in messages %}
+        {% if 'info' in message.tags %}
+            <ul class="messages info">
+                <li>
+                    {% include_asset "icons/lock-plus.svg" %}
+                    {% if 'inactive' in message.tags %}
+                        <div class="textcolor_primary">{% trans "This account is inactive." %}</div>
+                        <div class="textcolor_secondary">{% trans "Please check your email to validate your account." %}</div>
+                    {% else %}
+                        <div class="textcolor_primary">{% trans "Information" %}</div>
+                        <div class="textcolor_secondary">{{ message }}</div>
+                    {% endif %}
+                </li>
+            </ul>
+        {% elif 'success' in message.tags %}
+            <ul class="messages correct">
+                <li>
+                    {% include_asset "icons/check.svg" %}
+                    <div class="textcolor_primary">{% trans 'Success' %}</div>
+                    <div class="textcolor_secondary">{{ message }}</div>
+                </li>
+            </ul>
+        {% elif 'error' in message.tags %}
+            <ul class="messages error">
+                <li>
+                    {% include_asset "icons/account-alert.svg" %}
+                    {% if 'banned' in message.tags %}
+                        <div class="textcolor_primary">{% trans "This account is suspended." %}</div>
+                        <div class="textcolor_secondary">{% trans "Please contact your system administrator." %}</div>
+                    {% else %}
+                        <div class="textcolor_primary">{% trans 'Error' %}</div>
+                        <div class="textcolor_secondary">{{ message }}</div>
+                    {% endif %}
+                    </li>
+            </ul>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+<form method="post" action="." data-step="{{login_step}}" data-samlconnect="{{ request.session.samlConnect }}">
+    {% csrf_token %}
+    <input type="hidden" name="next" value="{{next}}" />
+    {% if login_step == 'login' %}
+        <script type="text/javascript" src="{% url 'javascript-catalog' %}"></script>
+        <div class="login__step-title">
+            <div>
+                {% if request.session.samlConnect %}
+                  <h2>{% trans "Link to a " %}{% settings_value 'SITE_TITLE' %}{% trans " account" %}</h2>
+                  <p>{% trans "You've successfully logged in with your organisation account for the first time." %}</p>
+                {% else %}
+                    <h2>{% trans "Sign in" %}</h2>
+                    <p>{% trans "with your " %}{% settings_value 'SITE_TITLE' %}{% trans " account" %}</p>
+                {% endif %}
+                {{ has_errors }}
+            </div>
+            <img src="/static/images/logo-icon.svg" class="login__step-icon"/>
+        </div>
+
+        <ul class="messages error">
+                {% for error in form.non_field_errors %}
+                <li>
+                    {% include_asset "icons/account-alert.svg" %}
+                    {% if error == 'captcha_mismatch' %}
+                        <div class="textcolor_primary">{% trans "Login failed." %}</div>
+                        <div class="textcolor_secondary">{% trans "Please check Google captcha." %}</div>
+                    {% elif error == 'invalid_login' %}
+                        <div class="textcolor_primary">{% trans "Please enter a correct email and password." %}</div>
+                        <div class="textcolor_secondary">{% trans "Note that both fields may be case-sensitive." %}</div>
+                    {% else %}
+                        <div class="textcolor_primary">{% trans "Invalid login." %}</div>
+                        <div class="textcolor_secondary">{{ error }}</div>
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+
+        {% if request.session.samlConnect %}
+          <fieldset class="loginview__email">
+        {% else %}
+          <fieldset class="loginview__email ___active">
+        {% endif %}
+
+          <div class="input-field">
+              <label for="id_auth-username">{% trans "Email address" %}</label>
+              {{ form.errors.username }}
+              {{ form.username }}
+          </div>
+
+          <div class="login__buttons loginview loginview__emailsubmit ___active">
+            <button name="next" class="button ___active login__check_account_type ___stretch" type="button">{% trans "Next" %}</button>
+          </div>
+        </fieldset>
+
+        <fieldset class="loginview loginview__login">
+            <div class="input-field">
+                <label for="id_password">{% trans "Password" %}</label>
+                {{ form.errors.password }}
+                {{ form.password }}
+                <span class="password__toggle">{% include_asset "icons/eye.svg" %}</span>
+                <a href="{% url 'password_reset' %}" class="forgot-password">{% trans "Forgot password" %}?</a>
+                <p class="capslock"></p>
+            </div>
+
+            {% settings_value 'GOOGLE_RECAPTCHA_SITE_KEY' as recaptcha_site_key %}
+            {% if recaptcha_site_key and reCAPTCHA %}
+                <div class="g-recaptcha" data-sitekey="{{ recaptcha_site_key }}"></div>
+            {% endif %}
+
+            <div class="login__buttons ___flexbuttons">
+                <button name="login" class="button ___active login__login" type="submit">{% trans "Login" %}</button>
+            </div>
+        </fieldset>
+
+        <fieldset class="loginview loginview__saml">
+          <div class="login__buttons --small-margin">
+            <a class="button ___stretch ___active button__saml_login">{% trans "Sign in with your <span></span> account" %}</a>
+          </div>
+        </fieldset>
+
+
+        <fieldset class="loginview loginview__samlanduser">
+          <div class="login__buttons --small-margin">
+            <a class="button ___stretch ___active button__saml_login">{% trans "Sign in with your <span></span> account" %}</a>
+          </div>
+          <center>{% trans "or" %}</center>
+          <div class="login__buttons">
+            <button type="button" class="button ___active ___outline ___stretch loginview__saml-regularlogin">{% trans "Sign in with your " %}{% settings_value 'SITE_TITLE' %}{% trans " account" %}</button>
+          </div>
+        </fieldset>
+
+        <fieldset class="loginview loginview__connect">
+          <div class="login__buttons">
+            <button type="button" class="button ___active ___stretch loginview__saml-regularlogin">{% trans "Sign in with your " %} {% settings_value 'SITE_TITLE' %}{% trans " account" %}</button>
+          </div>
+        </fieldset>
+
+        <fieldset class="loginview loginview__connectanduser">
+          <div class="login__buttons --small-margin">
+            <a href="{% url 'saml-connect' %}" class="button ___stretch ___active">{% trans "Create a new " %}{% settings_value 'SITE_TITLE' %}{% trans " account" %}</a>
+          </div>
+          <center>{% trans "or" %}</center>
+          <div class="login__buttons">
+            <button type="button" class="button ___active ___outline ___stretch loginview__saml-regularlogin">{% trans "Sign in with your " %} {% settings_value 'SITE_TITLE' %}{% trans " account" %}</button>
+          </div>
+        </fieldset>
+
+        <p></p>
+
+    {% elif login_step == 'token' %}
+
+    <div class="login__step-title">
+        <div>
+            <h2>{% trans "Sign in" %}</h2>
+            <p>{% trans "with your " %}{% settings_value 'SITE_TITLE' %}{% trans " account" %}</p>
+        </div>
+        <img src="/static/images/logo-icon.svg" class="login__step-icon"/>
+    </div>
+
+    <ul class="messages error">
+            {% for error in form.errors %}
+            <li>
+                {% include_asset "icons/account-alert.svg" %}
+                <div class="textcolor_primary">{% trans "Invalid token." %}</div>
+                <div class="textcolor_secondary">{% trans "Please make sure you have entered it correctly." %}</div>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <ul class="messages info">
+        <li class="messages__link">
+            {% include_asset "icons/lock-plus.svg" %}
+            <div class="textcolor_primary">{% trans "Two factor authentication" %}</div>
+            <div class="textcolor_secondary">{% trans "Fill in a code from your code generator." %}</div>
+        </li>
+    </ul>
+
+    <fieldset>
+        <div class="input-field">
+            {{ form.errors.otp_token }}
+            {{ form.otp_token.label_tag }}
+            {{ form.otp_token }}
+        </div>
+        <div class="login__buttons">
+            <button class="button ___stretch ___active login__login" type="submit">{% trans "Login" %}</button>
+            <a href="{% url 'login' login_step='login' %}" class="button ___stretch ___white ___outline">{% trans "Cancel" %}</a>
+        </div>
+    </fieldset>
+
+    <div class="input-field">
+        <a href="{% url 'login' login_step='backup' %}" class="button ___stretch ___white ___outline">{% trans "Use backuptoken" %}</a>
+    </div>
+
+    {% elif login_step == 'backup' %}
+
+    <p>{% blocktrans %}Use this form for entering backup tokens for logging in.
+         These tokens have been generated for you to print and keep safe. Please
+             enter one of these backup tokens to login to your account.{% endblocktrans %}</p>
+         <fieldset>
+
+                <ul class="messages error">
+                        {% for error in form.errors %}
+                        <li>
+                            {% include_asset "icons/account-alert.svg" %}
+                            <div class="textcolor_primary">{% trans "Invalid token." %}</div>
+                            <div class="textcolor_secondary">{% trans "Please make sure you have entered it correctly." %}</div>
+                        </li>
+                    {% endfor %}
+                </ul>
+
+            <div class="input-field">
+                {{ form.errors.otp_token }}
+                {{ form.otp_token.label_tag }}
+                {{ form.otp_token }}
+             </div>
+         </fieldset>
+        <div class="login__buttons">
+            <button name="wizard_goto_step" type="submit" class="button ___stretch ___active">{% trans "Use backuptoken" %}</button>
+            <a href="{% url 'login' login_step='token' %}" class="button ___stretch ___white ___outline">{% trans "Back" %}</a>
+        </div>
+
+    {% endif %}
+
+</form>
+
+{% endblock %}
