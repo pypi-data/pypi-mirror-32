@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+ASINMatcher/Check_Url.py
+ASINMatcher/Check_pattern.py
+ASINMatcher/Link.py
+ASINMatcher/Region.py
+ASINMatcher/__init__.py
+ASINMatcher.egg-info/PKG-INFO
+ASINMatcher.egg-info/SOURCES.txt
+ASINMatcher.egg-info/dependency_links.txt
+ASINMatcher.egg-info/top_level.txt
