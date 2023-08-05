@@ -1,0 +1,5 @@
+[console_scripts]
+stream_dcinside = koshort.stream.dcinside:main
+stream_naver = koshort.stream.naver:main
+stream_twitter = koshort.stream.twitter:main
+
