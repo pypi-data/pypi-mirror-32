@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+pybaseconv/__init__.py
+pybaseconv/converter.py
+pybaseconv.egg-info/PKG-INFO
+pybaseconv.egg-info/SOURCES.txt
+pybaseconv.egg-info/dependency_links.txt
+pybaseconv.egg-info/top_level.txt
+tests/__init__.py
+tests/test_converter.py
