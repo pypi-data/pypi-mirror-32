@@ -1,0 +1,3 @@
+[console_scripts]
+ppvlan = pp_vlan:run
+
