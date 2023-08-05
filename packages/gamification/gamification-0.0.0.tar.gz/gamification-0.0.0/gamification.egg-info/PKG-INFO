@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: gamification
+Version: 0.0.0
+Summary: Some console games
+Home-page: https://github.com/monzita/gamification
+Author: Monika Ilieva
+Author-email: hidden@hidden.com
+License: MIT
+Description: UNKNOWN
+Keywords: board game gamification games cli
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Games/Entertainment :: Arcade
+Classifier: Topic :: Games/Entertainment :: Board Games
+Classifier: Topic :: Games/Entertainment :: First Person Shooters
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6

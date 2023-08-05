@@ -1,0 +1,6 @@
+README.rst
+setup.py
+gamification.egg-info/PKG-INFO
+gamification.egg-info/SOURCES.txt
+gamification.egg-info/dependency_links.txt
+gamification.egg-info/top_level.txt
