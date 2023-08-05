@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mara-config
+Version: 0.1
+Summary: Mara app composing and configuration infrastructure.
+Home-page: UNKNOWN
+Author: Mara contributors
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: test
