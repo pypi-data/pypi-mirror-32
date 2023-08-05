@@ -1,0 +1,4 @@
+# kamene 
+
+N.B.! Major naming reorganization is currently under way. Module and package will be renamed to kamene. Right now use `from scapy3k.all import *` . See more information on http://github.com/phaethon/kamene.
+
