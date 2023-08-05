@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+awsbudget.py
+setup.py
+CloudFormationClient/__init__.py
+CloudFormationClient/budgets.template.yaml
+awsbudget.egg-info/PKG-INFO
+awsbudget.egg-info/SOURCES.txt
+awsbudget.egg-info/dependency_links.txt
+awsbudget.egg-info/entry_points.txt
+awsbudget.egg-info/not-zip-safe
+awsbudget.egg-info/requires.txt
+awsbudget.egg-info/top_level.txt
