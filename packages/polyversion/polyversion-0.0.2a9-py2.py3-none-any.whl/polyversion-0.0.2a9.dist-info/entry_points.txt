@@ -1,0 +1,3 @@
+[console_scripts]
+polyversion = polyversion.__main__:main
+
