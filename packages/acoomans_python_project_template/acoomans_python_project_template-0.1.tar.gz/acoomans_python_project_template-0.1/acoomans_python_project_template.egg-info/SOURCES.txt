@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+acoomans_python_project_template.egg-info/PKG-INFO
+acoomans_python_project_template.egg-info/SOURCES.txt
+acoomans_python_project_template.egg-info/dependency_links.txt
+acoomans_python_project_template.egg-info/top_level.txt
+scripts/myscript.py
