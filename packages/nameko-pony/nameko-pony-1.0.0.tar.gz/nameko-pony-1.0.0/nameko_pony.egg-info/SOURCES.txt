@@ -1,0 +1,8 @@
+README.md
+setup.py
+nameko_pony/__init__.py
+nameko_pony.egg-info/PKG-INFO
+nameko_pony.egg-info/SOURCES.txt
+nameko_pony.egg-info/dependency_links.txt
+nameko_pony.egg-info/requires.txt
+nameko_pony.egg-info/top_level.txt
