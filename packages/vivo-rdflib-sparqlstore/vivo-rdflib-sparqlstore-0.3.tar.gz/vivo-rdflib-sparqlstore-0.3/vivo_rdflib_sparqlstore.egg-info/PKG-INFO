@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: vivo-rdflib-sparqlstore
+Version: 0.3
+Summary: RDFLib SPARQLStore and SPARQLUpdateStore implementation for VIVO.
+Home-page: https://github.com/lawlesst/rdflib-vivo-sparqlstore
+Author: Ted Lawless
+Author-email: lawlesst@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
