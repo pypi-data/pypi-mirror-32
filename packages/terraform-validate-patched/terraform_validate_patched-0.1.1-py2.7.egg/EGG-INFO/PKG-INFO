@@ -1,0 +1,41 @@
+Metadata-Version: 1.1
+Name: terraform-validate-patched
+Version: 0.1.1
+Summary: A temporary patched version of GPL versioned project terraform_validate that implements skipping of testing on resource and skipping of empty terraform files.
+Home-page: https://github.com/schubergphilis/terraform_validate_patched.git
+Author: Costas Tyfoxylos
+Author-email: ctyfoxylos@schubergphilis.com
+License: GNU GPL v3.0
+Description-Content-Type: UNKNOWN
+Description: ==========================
+        terraform_validate_patched
+        ==========================
+        
+        A temporary patched version of GPL versioned project terraform_validate that implements skipping of testing on resource and skipping of empty terraform files.
+        
+        
+        * Documentation:
+        
+        Original Project
+        ----------------
+        
+        * https://github.com/elmundio87/terraform_validate
+        
+        
+        
+        
+        History
+        -------
+        
+        0.1 (2018-05-25)
+        ---------------------
+        
+        * First release
+        
+Keywords: terraform_validate_patched terraform_validate patch
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2.7
