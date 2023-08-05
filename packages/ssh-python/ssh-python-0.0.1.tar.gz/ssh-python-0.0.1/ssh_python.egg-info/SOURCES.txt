@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+versioneer.py
+ssh/__init__.pxd
+ssh/__init__.py
+ssh/_version.py
+ssh/c_agent.pxd
+ssh/c_ssh.pxd
+ssh/ssh.pyx
+ssh_python.egg-info/PKG-INFO
+ssh_python.egg-info/SOURCES.txt
+ssh_python.egg-info/dependency_links.txt
+ssh_python.egg-info/not-zip-safe
+ssh_python.egg-info/top_level.txt
