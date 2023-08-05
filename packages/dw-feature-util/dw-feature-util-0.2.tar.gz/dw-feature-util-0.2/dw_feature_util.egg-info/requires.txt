@@ -1,0 +1,3 @@
+dw-datasource
+pandas
+numpy
