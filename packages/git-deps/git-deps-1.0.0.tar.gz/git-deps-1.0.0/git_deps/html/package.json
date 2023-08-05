@@ -1,0 +1,54 @@
+{
+    "name": "git-deps",
+    "version": "0.1.0",
+    "authors": [
+        "Adam Spiers"
+    ],
+    "description": "tool for performing automatic analysis of dependencies between git commits",
+    "main": "git-deps",
+    "keywords": [
+        "git",
+        "dependency",
+        "analysis",
+        "scm",
+        "graphing",
+        "visualization"
+    ],
+    "license": "GPL-2.0",
+    "homepage": "https://github.com/aspiers/git-deps",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "d3-tip": "~0.6.6",
+        "d3": "~3.5.3",
+        "webcola": "aspiers/WebCola#git-deps-master",
+        "jquery": "~3.0.0",
+        "noty": "~v2.4.1",
+        "browserify": "*",
+        "coffeeify" : "~1.0.0",
+        "dagre": "~0.7.1"
+    },
+    "devDependencies": {
+        "watchify": "*"
+    },
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/aspiers/git-deps"
+    },
+    "author": "Adam Spiers",
+    "bugs": {
+        "url": "https://github.com/aspiers/git-deps/issues"
+    }
+}
