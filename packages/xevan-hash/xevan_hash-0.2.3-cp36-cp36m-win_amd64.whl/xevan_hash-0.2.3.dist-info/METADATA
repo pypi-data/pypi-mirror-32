@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: xevan-hash
+Version: 0.2.3
+Summary: Binding for xevan proof of work hashing.
+Home-page: https://github.com/ddude1/Xevan_in_Python.git
+License: UNKNOWN
+Download-URL: https://github.com/ddude1/Xevan_in_Python/archive/0.2.tar.gz
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+
+# xevan_in_Python
+python implementation of xevan hashing algo.
+It is not pure python, it is c extented python due to performance.
+
+This is Enhacement from original LIMXTEC version that is customsed to work for xevan_hashes 
+with Version one block at 80 bytes and varibale block header size
+
+
