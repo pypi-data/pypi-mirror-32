@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+src/loggly/__init__.py
+src/loggly/base.py
+src/loggly_api_python.egg-info/PKG-INFO
+src/loggly_api_python.egg-info/SOURCES.txt
+src/loggly_api_python.egg-info/dependency_links.txt
+src/loggly_api_python.egg-info/not-zip-safe
+src/loggly_api_python.egg-info/requires.txt
+src/loggly_api_python.egg-info/top_level.txt
