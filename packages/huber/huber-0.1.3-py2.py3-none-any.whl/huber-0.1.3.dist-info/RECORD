@@ -1,0 +1,11 @@
+huber/__init__.py,sha256=umfEy8R5j9Zq7xRaH_bbWPqK6lZELJ4fOARryehj2sg,1036
+huber/driver.py,sha256=WLKYi5uJQYx7Skjns2ieTOL3CLIHtqHqgZruOlMcK4w,6132
+huber/huber.py,sha256=tBQjND1gV8oiGCXaF_bg_Y7MrbYfVAqmetSDhsbnstE,6719
+huber/util.py,sha256=890YaZ8wwwb8UvOZMJxdycOPTN08TGtQi6bVSVpIu4o,2201
+huber-0.1.3.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+huber-0.1.3.dist-info/METADATA,sha256=vQTwu9n9Yy6zUVaFYXpUM5hpUxbMH_1X2AriSfusQkg,684
+huber-0.1.3.dist-info/RECORD,,
+huber-0.1.3.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+huber-0.1.3.dist-info/entry_points.txt,sha256=AE5pYu1zKH_T3dXvD42Nb-rz8aFrHrH7CDbHqIpOU9A,46
+huber-0.1.3.dist-info/metadata.json,sha256=P4UBGyylNEOAkNxMXZeCv_qJNeJbzojL4YdxsFj6KsE,961
+huber-0.1.3.dist-info/top_level.txt,sha256=ndiv05iLXjkyZa8YwxOv8eYZTvNsF_u9lVtrSD5dx4M,6
