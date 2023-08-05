@@ -1,0 +1,3 @@
+[console_scripts]
+ccc = custom_conda_create.cli:main
+
