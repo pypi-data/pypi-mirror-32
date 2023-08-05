@@ -1,0 +1,12 @@
+PmedConnect/ParseFields.py,sha256=qq50N1ONtW0By8liuMEzGNzKp6I3W8cpvPPlWDXt9PA,1030
+PmedConnect/ParseFunctions.py,sha256=W_x_6hvaP-sYP3yD07ad0t2xo5m1hHr7NXE_dDPm9U8,5673
+PmedConnect/PubmedAPI.py,sha256=HcFdLzr1gjR9J1LVlpKPTPGe6SDfPHOq33PdX18MCbk,9074
+PmedConnect/ReadPMC.py,sha256=Sw4RrUUvHMojntgZdofELcbmA7uFc8mS8MyjGpIZ62I,950
+PmedConnect/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PmedConnect/config.py,sha256=yHUlfixGL90BnXXALEyDObkOPp45wRxpaA-NYDmLLJQ,2297
+PmedConnect/tests/fetch_output.xml,sha256=YKsO_f_L4ZqvsEpuxFQq6rT4_gWn8roOu79mpw32vcE,2909
+PmedConnect/tests/search_output.xml,sha256=H_Bo6MYL9XXpmRR6-TZ9KU_0HwZCvvrw05adMyaEdZ4,812
+PmedConnect-0.1.2.dist-info/METADATA,sha256=qIVLt73OHxbVYqlJ_6telxP67zrkGxAdsOA53NrpfLM,322
+PmedConnect-0.1.2.dist-info/RECORD,,
+PmedConnect-0.1.2.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+PmedConnect-0.1.2.dist-info/top_level.txt,sha256=YNc6s57GNKDyyFau-IdsMcxqLLbAocgyomZTmZxK6rM,12
