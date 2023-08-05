@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: perceptible
+Version: 0.1
+Summary: Observable versions of python data structures
+Home-page: https://github.com/chrisbrake/perceptible
+Author: Chris Brake
+Author-email: chris.brake@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/chrisbrake/perceptible/archive/0.1.tar.gz
+Description: # perceptible
+        [![Build Status](https://travis-ci.org/chrisbrake/perceptible.svg?branch=master)](https://travis-ci.org/chrisbrake/perceptible)
+        
+        Observable versions of python data structures
+        
+Keywords: perceptible,observable,observer
+Platform: UNKNOWN
