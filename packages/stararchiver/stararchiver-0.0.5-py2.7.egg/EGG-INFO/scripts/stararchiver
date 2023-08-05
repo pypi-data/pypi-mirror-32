@@ -1,0 +1,246 @@
+#!/usr/bin/python
+
+import argparse
+import errno
+import json
+import os
+import os.path
+import re
+import shutil
+import subprocess
+import time
+
+import requests
+os.environ['GIT_PYTHON_REFRESH'] = 'quiet'
+from git import Repo
+
+
+SA_VERSION = '0.0.5'
+STARRED_REPOS_URL = (
+    "https://api.github.com/users/{username}/starred?page={page}"
+)
+
+
+def make_auth_header(github_token):
+    return {
+        "Authorization": "token {token}".format(token=github_token),
+    }
+
+
+def wait_for_api_credits(deadline):
+    pass
+    print "Waiting for additional GitHub API credits.."
+    max_sleep = 3600 # 1 hour
+    sleep_duration = 5
+    total_slept = 0
+    while total_slept < max_sleep:
+        current_time = int(time.time())
+        if current_time < deadline:
+            print "Not done waiting for new credits, yet.."
+            time.sleep(sleep_duration)
+            total_slept += sleep_duration
+    raise Exception('Time-out waiting for GitHub API credits :(')
+
+
+def get_user_starred_repos(github_username, github_token):
+    resp = requests.get(
+        url=STARRED_REPOS_URL.format(username=github_username, page="1"),
+        headers=make_auth_header(github_token) if github_token else None,
+    )
+
+    if resp.status_code == 403 and 'API rate limit exceeded' in resp.content:
+        wait_for_api_credits(resp.headers['X-RateLimit-Reset'])
+
+    detect_last_page = False
+    if "Link" in resp.headers:
+        detect_last_page = re.match(
+            r'.*page=(\d+)>; rel=\"last\"',
+            resp.headers["Link"],
+        )
+
+    if not detect_last_page:
+        return json.loads(resp.text)
+
+    last_page = detect_last_page.group(1)
+    data = []
+    for page_number in xrange(0, int(last_page)):
+        resp = requests.get(
+            url=STARRED_REPOS_URL.format(
+                username="mechtron",
+                page=str(page_number+1),
+            ),
+            headers=(
+                make_auth_header(github_token) if github_token else None
+            ),
+        )
+        data += json.loads(resp.text)
+    return data
+
+
+def clone_repo(base_dir, repo_url):
+    print "Cloning {}..".format(repo_url)
+    try:
+        Repo.clone_from(repo_url, base_dir)
+    except Exception as e:
+        print "Wiki enabled but repo is unclonable ({})".format(e.command[3])
+
+
+def mkdir_p(path):
+    try:
+        os.makedirs(path)
+    except OSError as exc: # Python >2.5
+        if exc.errno == errno.EEXIST and os.path.isdir(path):
+            pass
+        else:
+            raise
+
+
+def clone_each_starred_repo(star_data, dest_dir):
+    mkdir_p(dest_dir)
+    print "Repo data path: {}".format(dest_dir)
+    for repo in star_data:
+        clone_dest = "{base_dir}/{repo_author}-{repo_name}/".format(
+            base_dir=dest_dir,
+            repo_author=repo['owner']['login'],
+            repo_name=repo['name'],
+        )
+        clone_repo(clone_dest, repo['ssh_url'])
+        if repo['has_wiki']:
+            wiki_subdir = clone_dest + '_wiki/'
+            mkdir_p(wiki_subdir)
+            wiki_clone_url = repo['ssh_url'].replace('.git', '.wiki.git')
+            clone_repo(wiki_subdir, wiki_clone_url)
+    return dest_dir
+
+
+def compress_repos(repo_data_path):
+    dest_directory = os.path.abspath(os.path.join(repo_data_path, os.pardir))
+    repo_data_folder_name = (
+        repo_data_path.replace(dest_directory, '').replace('/', '')
+    )
+    start_time = time.time()
+    print 'Compressing repositories..'
+    os.system((
+        "cd {base_dir} && zip -r {filename} ./{repo_data_folder_name}"
+    ).format(
+        base_dir=dest_directory,
+        filename=repo_data_folder_name,
+        repo_data_folder_name=repo_data_folder_name,
+    ))
+    end_time = time.time()
+    print "Time to compress starred repos: {}s".format(
+        int(end_time - start_time),
+    )
+    print "Zip archive: {base_dir}/{filename}.zip".format(
+        base_dir=dest_directory,
+        filename=repo_data_folder_name,
+    )
+
+
+def get_dest_dir(base_dir, username):
+    if not base_dir:
+        return "{base_folder}/stararchiver_{username}_{timestamp}/".format(
+            base_folder=os.getcwd(),
+            username=username,
+            timestamp=int(time.time()),
+        )
+    else:
+        return base_dir
+
+
+def assert_git_version():
+    try:
+        output = subprocess.check_output(['git', '--version']).strip()
+    except Exception as e:
+        if 'No such file or directory' in e.strerror:
+            print 'Error: stararchiver requires git to be installed'
+            exit(1)
+        else:
+            raise e
+    git_version = re.search(r"^git version\s*([\d.]+)", output, re.M).group(1)
+    old_git_error_message = 'Error: stararchiver requires git v1.7 or newer'
+    git_major_version = int(git_version.split('.')[0])
+    if (git_major_version < 1):
+        print old_git_error_message
+        exit(1)
+    if git_major_version == 1:
+        git_minor_version = int(git_version.split('.')[1])
+        if git_minor_version < 7:
+            print old_git_error_message
+            exit(1)
+
+
+def assert_zip_version():
+    try:
+        output = subprocess.check_output(['zip', '--version']).strip()
+    except Exception as e:
+        if 'No such file or directory' in e.strerror:
+            print 'Error: stararchiver requires zip to be installed'
+            exit(1)
+        else:
+            raise e
+
+
+def main(args):
+    if args.version:
+        print "v{}".format(SA_VERSION)
+        return
+    assert_git_version()
+    star_data = get_user_starred_repos(args.username, args.token)
+    dest_dir = get_dest_dir(args.output_dir, args.username)
+    cloned_data_dir = clone_each_starred_repo(star_data, dest_dir)
+    if args.compress:
+        assert_zip_version()
+        compress_repos(cloned_data_dir)
+    if args.delete_data:
+        shutil.rmtree(cloned_data_dir)
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        'username',
+        help='Github username',
+        default='mechtron',
+        nargs='?',
+    )
+    parser.add_argument(
+        '-c',
+        '--compress',
+        help='Create a tarball of the cloned repos?',
+        required=False,
+        default=False,
+        action='store_true',
+    )
+    parser.add_argument(
+        '-d',
+        '--delete-data',
+        help='Delete clones of repos?',
+        required=False,
+        default=False,
+        action='store_true',
+    )
+    parser.add_argument(
+        '-t',
+        '--token',
+        help='Github API token (optional)',
+        required=False,
+        default=None,
+    )
+    parser.add_argument(
+        '-o',
+        '--output-dir',
+        help='Output directory',
+        required=False,
+        type=str,
+        default=None,
+    )
+    parser.add_argument(
+        '-v',
+        '--version',
+        help='stararchiver version',
+        required=False,
+        default=False,
+        action='store_true',
+    )
+    main(parser.parse_args())
