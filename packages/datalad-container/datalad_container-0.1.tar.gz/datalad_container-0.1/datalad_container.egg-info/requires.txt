@@ -1,0 +1,6 @@
+datalad>=0.10.0.rc1
+
+[devel-docs]
+pypandoc
+sphinx
+sphinx-rtd-theme
