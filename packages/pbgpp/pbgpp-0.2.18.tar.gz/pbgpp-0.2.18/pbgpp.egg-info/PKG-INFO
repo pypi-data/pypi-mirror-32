@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: pbgpp
+Version: 0.2.18
+Summary: PCAP BGP Parser
+Home-page: https://github.com/de-cix/pbgp-parser
+Author: DE-CIX Management GmbH
+Author-email: rnd@de-cix.net
+License: Apache License 2.0
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Keywords: bgp,parsing,pcap
+Platform: UNKNOWN
