@@ -1,0 +1,7 @@
+README.md
+setup.py
+primePy.egg-info/PKG-INFO
+primePy.egg-info/SOURCES.txt
+primePy.egg-info/dependency_links.txt
+primePy.egg-info/top_level.txt
+primes/__init__.py
