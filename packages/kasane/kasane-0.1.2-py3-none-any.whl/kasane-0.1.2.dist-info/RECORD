@@ -1,0 +1,13 @@
+kasane/__init__.py,sha256=tpK1svwaRtXPYiUSQv3n15oPJQKh2_lyaHT5zPEpdKM,578
+kasane/cmd.py,sha256=o0OaUUkpkqdMW3WZqvF4a-thyiXYmfNOPDr_rqs0j44,2615
+kasane/ops/__init__.py,sha256=-N80IHNG_wsvR9Pzx1mA5y6re50KRFZzIZV6AHXGG3c,717
+kasane/ops/apply.py,sha256=WW4oeqFuRRotEfja6HaRhHsJCj5CIeDnlXiegCP1bWs,1064
+kasane/ops/common.py,sha256=rXPfa9G6WI7FwExtEXw5fh8cyRzJj8uRlw4OaOlx7uE,7234
+kasane/ops/jsonnet.py,sha256=qPV56zSBshadUjO-vZNFQkdVJtBkWHngw4yuWbZrEPE,2608
+kasane/ops/show.py,sha256=C6oTMlcgqa6TSRBOeQ43NlEJStoV8vaVJw9WDFgp5E4,1149
+kasane/ops/update.py,sha256=Jj3QIZ1cEZ-xpoANa9sSSiIvHLQiLKDnX05oQWybhnY,1105
+kasane-0.1.2.dist-info/METADATA,sha256=hOwgTVBSeROh0XlhiaKUOVt8vnJBrke-oskIVbsdhBQ,4189
+kasane-0.1.2.dist-info/RECORD,,
+kasane-0.1.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+kasane-0.1.2.dist-info/entry_points.txt,sha256=YUFzRgcifOEenJKueDhMBiGLeY---cXl-tbGVF29OOE,44
+kasane-0.1.2.dist-info/top_level.txt,sha256=REi_WwTUMSo23dqwRLybx0daCABJcCjhm5m5_s03c0Y,7
