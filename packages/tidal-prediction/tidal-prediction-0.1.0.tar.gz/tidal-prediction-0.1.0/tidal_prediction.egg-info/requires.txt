@@ -1,0 +1,4 @@
+astropy
+configobj
+netCDF4
+numpy
