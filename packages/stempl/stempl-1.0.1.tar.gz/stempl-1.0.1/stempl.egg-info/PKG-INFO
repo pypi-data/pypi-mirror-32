@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: stempl
+Version: 1.0.1
+Summary: HTML templates with just Python
+Home-page: http://www.github.com/gabrielhora/stempl
+Author: Gabriel Hora
+Author-email: gabriel@switchpayments.com
+License: MIT
+Description: UNKNOWN
+Keywords: html template
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
