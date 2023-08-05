@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        pylibcontainer=pylibcontainer.__main__:pylibcontainer
+        
