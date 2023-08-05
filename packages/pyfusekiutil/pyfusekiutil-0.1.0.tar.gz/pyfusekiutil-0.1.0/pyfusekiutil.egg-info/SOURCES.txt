@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+pyfusekiutil.egg-info/PKG-INFO
+pyfusekiutil.egg-info/SOURCES.txt
+pyfusekiutil.egg-info/dependency_links.txt
+pyfusekiutil.egg-info/entry_points.txt
+pyfusekiutil.egg-info/requires.txt
+pyfusekiutil.egg-info/top_level.txt
+pyfusekiutils/__init__.py
+pyfusekiutils/cli.py
+pyfusekiutils/convert_rdf_json.py
+pyfusekiutils/core_fuseki_update.py
+pyfusekiutils/fuseki_utility.py
+pyfusekiutils/rdf_utility.py
+pyfusekiutils/skosify_utility.py
+pyfusekiutils/updates.py
