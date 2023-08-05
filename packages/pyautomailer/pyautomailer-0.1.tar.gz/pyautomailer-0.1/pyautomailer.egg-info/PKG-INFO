@@ -1,0 +1,42 @@
+Metadata-Version: 1.1
+Name: pyautomailer
+Version: 0.1
+Summary: A fully customizable automatic email client service.
+Home-page: http://...
+Author: Matteo Cappello
+Author-email: matteocappello94@gmail.com
+License: MIT
+Description: pyautomailer: a fully customizable automatic email client service.
+        ##################################################################
+        
+        pyautomailer is a Python module (with command line tool to use it from terminal) that allows you to send massive custom email. 
+        It can be used with massive SMTP sending service or with standard mailbox after setting sending limit.
+        
+        .. contents::
+        
+        .. section-numbering::
+        
+        Main features
+        =============
+        
+        * HTML dynamic email Subject and Body
+        
+        Installation
+        ============
+        
+        Windows
+        -------
+        
+        On Windows, pyautomailer can be installed via PyPi (recommended):
+        
+        .. code-block:: python
+        
+        	python setup.py install
+Keywords: automatic email service
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Communications :: Email
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10

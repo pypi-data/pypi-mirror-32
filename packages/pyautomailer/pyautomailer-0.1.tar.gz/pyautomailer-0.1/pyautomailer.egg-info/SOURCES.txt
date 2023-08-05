@@ -1,0 +1,13 @@
+MANIFEST.in
+README.rst
+setup.py
+pyautomailer/__init__.py
+pyautomailer/body.py
+pyautomailer/command_line.py
+pyautomailer/importer.py
+pyautomailer.egg-info/PKG-INFO
+pyautomailer.egg-info/SOURCES.txt
+pyautomailer.egg-info/dependency_links.txt
+pyautomailer.egg-info/entry_points.txt
+pyautomailer.egg-info/not-zip-safe
+pyautomailer.egg-info/top_level.txt

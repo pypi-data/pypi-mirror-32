@@ -1,0 +1,3 @@
+[console_scripts]
+pyautomailer = pyautomailer.command_line:main
+
