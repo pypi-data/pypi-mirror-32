@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+jsondispatch/__init__.py
+jsondispatch/__main__.py
+jsondispatch.egg-info/PKG-INFO
+jsondispatch.egg-info/SOURCES.txt
+jsondispatch.egg-info/dependency_links.txt
+jsondispatch.egg-info/entry_points.txt
+jsondispatch.egg-info/requires.txt
+jsondispatch.egg-info/top_level.txt
+jsondispatch/trigger_commands/__init__.py
+jsondispatch/trigger_commands/aria2.py
+jsondispatch/trigger_commands/youtube_dl.py
