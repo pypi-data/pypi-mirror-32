@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+README.rst
+setup.py
+PyRect.egg-info/PKG-INFO
+PyRect.egg-info/SOURCES.txt
+PyRect.egg-info/dependency_links.txt
+PyRect.egg-info/top_level.txt
+pyrect/__init__.py
+pyrect/test1.py
+tests/test_pyrect.py
