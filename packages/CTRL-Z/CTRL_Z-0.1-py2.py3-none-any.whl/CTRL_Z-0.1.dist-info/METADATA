@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: CTRL-Z
+Version: 0.1
+Summary: A Django backup and recovery tool
+Home-page: https://bitbucket.org/isprojects/ctrl_z
+Author: ISProjects B.V.
+Author-email: support@isprojects.nl
+License: UNKNOWN
+Keywords: django,backup,recovery
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.0
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: docs
+Provides-Extra: release
+Provides-Extra: pep8
+Provides-Extra: coverage
+Requires-Dist: django
+Requires-Dist: python-dateutil
+Requires-Dist: pyyaml
+Provides-Extra: coverage
+Requires-Dist: pytest-cov; extra == 'coverage'
+Provides-Extra: docs
+Requires-Dist: sphinx; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme; extra == 'docs'
+Provides-Extra: pep8
+Requires-Dist: flake8; extra == 'pep8'
+Provides-Extra: release
+Requires-Dist: zest.releaser; extra == 'release'
+
+UNKNOWN
+
+
