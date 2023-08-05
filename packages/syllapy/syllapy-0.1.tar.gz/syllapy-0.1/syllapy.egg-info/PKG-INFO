@@ -1,0 +1,33 @@
+Metadata-Version: 1.0
+Name: syllapy
+Version: 0.1
+Summary: Calculate syllables for English language words.
+Home-page: https://github.com/mholtzscher/syllapy
+Author: Michael Holtzscher
+Author-email: mholtz@protonmail.com
+License: MIT
+Description: =======
+        Syllapy
+        =======
+        
+        Calculate syllable count for English Language words.
+        
+        .. image:: https://travis-ci.org/mholtzscher/syllapy.svg?branch=master
+        	:target: https://travis-ci.org/mholtzscher/syllapy
+        
+        ************
+        Installation
+        ************
+        .. code-block:: python
+        
+            pip install syllapy
+        
+        *****
+        Usage
+        *****
+        
+        .. code-block:: python
+        
+            import syllapy
+            count = syllapy.count('additional')
+Platform: UNKNOWN
