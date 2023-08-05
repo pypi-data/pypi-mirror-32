@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: slack_janitor_tool
+Version: 1.0
+Summary: Your stubborn Slack Cleaning tool
+Home-page: https://github.com/paraita/slack-janitor
+Author: Paraita Wohler
+Author-email: paraita.wohler@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >3.5.0

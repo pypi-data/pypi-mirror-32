@@ -1,0 +1,3 @@
+[console_scripts]
+slack_janitor = slack_janitor.main:main
+
