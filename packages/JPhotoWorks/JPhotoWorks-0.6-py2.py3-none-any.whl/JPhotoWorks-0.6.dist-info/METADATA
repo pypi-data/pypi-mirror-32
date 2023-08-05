@@ -1,0 +1,25 @@
+Metadata-Version: 2.0
+Name: JPhotoWorks
+Version: 0.6
+Summary: UNKNOWN
+Home-page: https://github.com/jjeaby/JPhotoWorks
+Author: Lee Yong Jin
+Author-email: jjeaby@gmail.com
+License: Apache 2.0
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: piexif
+Requires-Dist: pillow
+
+# 사진 정리 
+## 
+### 사용법 
+python -m JPhoto.Classify --input [정리 대상 폴더] --output [이동할 폴더]
+
+
