@@ -1,0 +1,3 @@
+[console_scripts]
+terragrunt-source = terragrunt_source:main
+

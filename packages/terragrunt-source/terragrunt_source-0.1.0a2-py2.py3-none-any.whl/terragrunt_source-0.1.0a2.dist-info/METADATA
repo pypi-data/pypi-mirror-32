@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: terragrunt-source
+Version: 0.1.0a2
+Summary: A tool for managing the TERRAGRUNT_SOURCE environment variable during development
+Home-page: https://github.com/ddriddle/terragrunt-source
+Author: David D. Riddle
+Author-email: ddriddle@illinois.edu
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/ddriddle/terragrunt-source/issues
+Project-URL: Source, https://github.com/ddriddle/terragrunt-source
+Keywords: terragrunt terraform source
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=2.6
+Requires-Dist: pyhcl
+
+terragrunt-source
+-----------------
+
+A tool for managing the TERRAGRUNT_SOURCE environment variable
+during development.
+
+Quick start
+-----------
+
+1. Install terragrunt-source::
+
+    $ pip install terragrunt-source
+
+2. Append the following to your ``~/.bashrc``::
+
+    export TERRAGRUNT_DEFAULT_MODULES_REPO=/path/to/your/checked/out/code
+
+    terragrunt-source() {
+        unset TERRAGRUNT_SOURCE
+        export TERRAGRUNT_SOURCE=$($(which terragrunt-source));
+        echo $TERRAGRUNT_SOURCE
+    }
+
+3. Reload your ``~/.bashrc``::
+
+    $ source ~/.bashrc
+
+Example
+-------
+
+1. If you are in a directory that contains a ``terraform.tfvars`` with the
+following content::
+
+    terragrunt = {
+      include {
+        path = "${find_in_parent_folders()}"
+      }
+
+      terraform {
+        source = "git::git@github.com:org/repo.git//lambda?ref=v0.6.2"
+      }
+    }
+
+2. And if your ``TERRAGRUNT_DEFAULT_MODULES_REPO`` is set to ``/usr/src/modules``.
+
+3. Then we expect::
+
+    $ terragrunt-source
+    /usr/src/modules//lambda
+    $ echo $TERRAGRUNT_SOURCE
+    /usr/src/modules//lambda
+
+
