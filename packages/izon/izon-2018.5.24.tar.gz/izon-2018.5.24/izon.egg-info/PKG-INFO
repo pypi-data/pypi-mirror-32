@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: izon
+Version: 2018.5.24
+Summary: A dependency handling tool for files
+Home-page: https://github.com/kmu/izon
+Author: Koki Muraoka
+Author-email: muraok_k@chemsys.t.u-tokyo.ac.jp
+License: MIT
+Description: UNKNOWN
+Keywords: dependency time
+Platform: UNKNOWN
+Classifier: Topic :: System :: Filesystems
