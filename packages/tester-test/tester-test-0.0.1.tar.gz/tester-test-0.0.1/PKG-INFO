@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: tester-test
+Version: 0.0.1
+Summary: this is simple
+Home-page: https://github.com/anestin-femi/testing
+Author: femi
+Author-email: apmetdrm@gmail.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: this is a description file to explain what this page contains and please feel free to read 
+        all the content i have proposed in this main content all is well thanks and stay safe.
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Text Processing :: Linguistic

@@ -1,0 +1,7 @@
+setup.py
+blendtesting/__init__.py
+tester_test.egg-info/PKG-INFO
+tester_test.egg-info/SOURCES.txt
+tester_test.egg-info/dependency_links.txt
+tester_test.egg-info/not-zip-safe
+tester_test.egg-info/top_level.txt
