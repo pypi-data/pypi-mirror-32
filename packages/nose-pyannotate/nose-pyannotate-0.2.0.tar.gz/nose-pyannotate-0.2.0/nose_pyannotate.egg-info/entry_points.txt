@@ -1,0 +1,3 @@
+[nose.plugins]
+pyannotateplug = nose_pyannotate:NoseAnnotatorPlugin
+

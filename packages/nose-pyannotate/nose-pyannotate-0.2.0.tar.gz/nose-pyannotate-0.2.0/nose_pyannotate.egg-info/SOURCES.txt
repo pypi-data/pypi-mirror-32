@@ -1,0 +1,10 @@
+README.md
+nose_pyannotate.py
+setup.cfg
+setup.py
+nose_pyannotate.egg-info/PKG-INFO
+nose_pyannotate.egg-info/SOURCES.txt
+nose_pyannotate.egg-info/dependency_links.txt
+nose_pyannotate.egg-info/entry_points.txt
+nose_pyannotate.egg-info/requires.txt
+nose_pyannotate.egg-info/top_level.txt
