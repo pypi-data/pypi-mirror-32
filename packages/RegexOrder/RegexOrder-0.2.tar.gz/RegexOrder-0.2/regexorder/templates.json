@@ -1,0 +1,239 @@
+[
+    {
+        "regex": ".*",
+        "name": "any",
+        "parents": []
+    },
+    {
+        "regex": "[^\\w\\s]+(\\s+[^\\w\\s]+)*",
+        "name": "symbols",
+        "parents": [
+            "any"
+        ]
+    },
+    {
+        "regex": "[^\\w\\s]+",
+        "name": "symbol",
+        "parents": [
+            "symbols"
+        ]
+    },
+    {
+        "regex": "\\w+(\\s+\\w+)*",
+        "name": "words",
+        "parents": [
+            "any"
+        ]
+    },
+    {
+        "regex": "[^\\s\\w]*\\w+([^\\s\\w]+\\w+)*[^\\s\\w]*",
+        "name": "formated_words",
+        "parents": [
+            "any"
+        ]
+    },
+    {
+        "regex": "[^\\s\\w]*\\p{Ll}+([^\\s\\w]+\\p{Ll}+)*[^\\s\\w]*",
+        "name": "formated_lower_words",
+        "parents": [
+            "formated_words"
+        ]
+    },
+    {
+        "regex": "\\p{Ll}+(\\s+\\p{Ll}+)*",
+        "name": "lower_words",
+        "parents": [
+            "words"
+        ]
+    },
+    {
+        "regex": "[^\\s\\w]*\\p{Lu}+([^\\s\\w]+\\p{Lu}+)*[^\\s\\w]*",
+        "name": "formated_upper_words",
+        "parents": [
+            "formated_words"
+        ]
+    },
+    {
+        "regex": "\\p{Lu}+(\\s+\\p{Lu}+)*",
+        "name": "upper_words",
+        "parents": [
+            "words"
+        ]
+    },
+    {
+        "regex": "[^\\s\\w]*\\p{Lu}\\p{Ll}*([^\\s\\w]+\\p{Lu}\\p{Ll}*)*[^\\s\\w]*",
+        "name": "formated_title_words",
+        "parents": [
+            "formated_words"
+        ]
+    },
+    {
+        "regex": "\\p{Lu}\\p{Ll}*(\\s+\\p{Lu}\\p{Ll}*)*",
+        "name": "title_words",
+        "parents": [
+            "words"
+        ]
+    },
+    {
+        "regex": "-?\\d+(\\s+-?\\d+)*",
+        "name": "ints",
+        "parents": [
+            "any"
+        ]
+    },
+    {
+        "regex": "[^\\s\\w]*-?\\d+((?:_|[^\\s\\w])+-?\\d+)*[^\\s\\w]*",
+        "name": "formated_ints",
+        "parents": [
+            "any"
+        ]
+    },
+    {
+        "regex": "\\d+(\\s+\\d+)*",
+        "name": "pos_ints",
+        "parents": [
+            "words",
+            "ints"
+        ]
+    },
+    {
+        "regex": "[^\\s\\w]*\\d+((?:_|[^\\s\\w])+\\d+)*[^\\s\\w]*",
+        "name": "formated_pos_ints",
+        "parents": [
+            "formated_words",
+            "formated_ints"
+        ]
+    },
+    {
+        "regex": "\\w+",
+        "name": "word",
+        "parents": [
+            "formated_words",
+            "words"
+        ]
+    },
+    {
+        "regex": "\\p{Ll}+",
+        "name": "lower_word",
+        "parents": [
+            "word",
+            "lower_words",
+            "formated_lower_words"
+        ]
+    },
+    {
+        "regex": "\\p{Lu}+",
+        "name": "upper_word",
+        "parents": [
+            "word",
+            "upper_words",
+            "formated_upper_words"
+        ]
+    },
+    {
+        "regex": "\\p{Lu}\\p{Ll}*",
+        "name": "title_word",
+        "parents": [
+            "word",
+            "title_words",
+            "formated_title_words"
+        ]
+    },
+    {
+        "regex": "\\w",
+        "name": "letter",
+        "parents": [
+            "word"
+        ]
+    },
+    {
+        "regex": "\\p{Ll}",
+        "name": "lower_letter",
+        "parents": [
+            "letter",
+            "lower_word"
+        ]
+    },
+    {
+        "regex": "\\p{Lu}",
+        "name": "upper_letter",
+        "parents": [
+            "letter",
+            "upper_word",
+            "title_word"
+        ]
+    },
+    {
+        "regex": "[+-]?\\d+(?:\\.\\d+)?",
+        "name": "float",
+        "parents": [
+            "word"
+        ]
+    },
+    {
+        "regex": "\\+?\\d+(?:\\.\\d+)?",
+        "name": "pos_float",
+        "parents": [
+            "float"
+        ]
+    },
+    {
+        "regex": "-\\d+(?:\\.\\d+)?",
+        "name": "neg_float",
+        "parents": [
+            "float"
+        ]
+    },
+    {
+        "regex": "[+-]?\\d+",
+        "name": "int",
+        "parents": [
+            "float"
+        ]
+    },
+    {
+        "regex": "\\+?\\d+",
+        "name": "pos_int",
+        "parents": [
+            "int",
+            "pos_ints",
+            "formated_pos_ints",
+            "pos_float"
+        ]
+    },
+    {
+        "regex": "-\\d+",
+        "name": "neg_int",
+        "parents": [
+            "int",
+            "neg_float"
+        ]
+    },
+    {
+        "regex": "[a-zA-Z][a-zA-Z0-9\\+\\.-]*:\/\/[^?#\\s]+(?:\\?[^#\\s]*)?(?:#[^\\s]*)?",
+        "name": "url",
+        "parents": [
+            "any"
+        ]
+    },
+    {
+        "regex": "(?:\\\/[^\\s\\\/]*)+",
+        "name": "path",
+        "parents": [
+            "any"
+        ]
+    },
+    {
+        "regex": "",
+        "name": "none",
+        "parents": [
+            "lower_letter",
+            "upper_letter",
+            "pos_int",
+            "neg_int",
+            "url",
+            "path",
+            "symbol"
+        ]
+    }
+]
