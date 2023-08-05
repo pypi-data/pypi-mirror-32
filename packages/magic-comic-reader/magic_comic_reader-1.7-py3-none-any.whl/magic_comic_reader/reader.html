@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+* {
+	touch-action: none;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #000;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+}
+div#container {
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	overflow: hidden;
+	cursor: default;
+}
+div#subject {
+	width: 50em;
+	overflow: hidden;
+}
+.smooth {
+	transition: transform linear 0.075s;
+}
+h1 {
+	font-size: 50px;
+}
+h2 {
+	font-size: 40px;
+}
+p {
+	font-size: 25px;
+	color: #ccc;
+}
+b {
+	color: #fff;
+}
+</style>
+<script type="text/javascript">
+"use strict";
+(function() {
+
+class Transform {
+	constructor() {
+		this.matrix = [ 1, 0, 0, 1, 0, 0 ];
+		this.zoomMode = 0;
+		this.matrixPattern = new RegExp(
+			'^matrix\\(([^,]+),([^,]+),([^,]+),([^,]+),([^,]+),([^\\)]+)\\)$'
+		);
+	}
+	/** Get the x value of the subject's top-left corner. */
+	get x() {
+		return this.matrix[4];
+	}
+	/** Get the y value of the subject's top-left corner. */
+	get y() {
+		return this.matrix[5];
+	}
+	/** Get the subject's zoom factor. */
+	get zoom() {
+		return this.matrix[0];
+	}
+	/** Set a new pan and zoom for the subject and apply to the DOM immediately. */
+	set(x, y, zoom, useTransition) {
+		if (useTransition) {
+			subject.classList.add('smooth');
+		} else {
+			subject.classList.remove('smooth');
+		}
+		const newWidth = subject.offsetWidth * zoom;
+		if (newWidth > container.clientWidth) {
+			// Subject cannot be panned past the container's edge.
+			if (x > 0) {
+				x = 0;
+			} else if (x < container.clientWidth - newWidth) {
+				x = container.clientWidth - newWidth;
+			}
+		} else {
+			// Center the subject.
+			x = (container.clientWidth - newWidth) / 2
+		}
+
+		const newHeight = subject.offsetHeight * zoom;
+		if (newHeight > container.clientHeight) {
+			// Subject cannot be panned past the container's edge.
+			if (y > 0) {
+				y = 0;
+			} else if (y < container.clientHeight - newHeight) {
+				y = container.clientHeight - newHeight;
+			}
+		} else {
+			// Center the subject.
+			y = (container.clientHeight - newHeight) / 2
+		}
+		this.matrix[0] = zoom;
+		this.matrix[3] = zoom;
+		this.matrix[4] = x;
+		this.matrix[5] = y;
+		subject.style.transform = 'matrix(' + this.matrix.join(',') + ')';
+	}
+	/** Called if the container is resized. */
+	checkBounds(useTransition) {
+		this.set(this.x, this.y, this.zoom, useTransition);
+	}
+	/** Zooms into or out of the given page coordinates. */
+	zoomAt(x, y, zoomIn, useTransition) {
+		let scaleFactor = 1.1;
+		if (!zoomIn) {
+			scaleFactor = 1 / scaleFactor;
+		}
+		const newX = x + scaleFactor * (this.x - x);
+		const newY = y + scaleFactor * (this.y - y);
+		const newZoom = this.zoom * scaleFactor;
+		this.set(newX, newY, newZoom, useTransition);
+	}
+	/** Cycles zoom between Native, Fit, and Fill. */
+	autozoom(useTransition) {
+		let zoom = null;
+		this.zoomMode = (this.zoomMode + 1) % 3;
+		if (this.zoomMode === 0) { // Native
+			zoom = 1;
+		} else if (this.zoomMode === 1) { // Fit
+			zoom = Math.min(container.clientWidth / subject.offsetWidth,
+							container.clientHeight / subject.offsetHeight);
+		} else if (this.zoomMode === 2) { // Fill
+			zoom = Math.max(container.clientWidth / subject.offsetWidth,
+							container.clientHeight / subject.offsetHeight);
+		}
+		transform.set(0, 0, zoom, useTransition);
+	}
+	/** Immediately stops any transition and updates the transformation to the current DOM values. */
+	stop() {
+		const transformStr = window.getComputedStyle(subject).transform
+		subject.style.transform = transformStr;
+		const matrix = this.matrixPattern.exec(transformStr);
+		if (matrix) {
+			this.matrix[0] = parseFloat(matrix[1]);
+			this.matrix[3] = parseFloat(matrix[4]);
+			this.matrix[4] = parseFloat(matrix[5]);
+			this.matrix[5] = parseFloat(matrix[6]);
+		}
+	}
+}
+
+/** The last known interaction point. */
+let pointer = null;
+/** The last known distance between the fingers. */
+let pointerSpan = 0;
+/** Maps each pointer ID to the location where it was last pressed. */
+const pointersDown = {};
+/** Whether a finger has tapped while another finger held. */
+let secondaryFingerTapped = false;
+/** The timeout handle for the tapZoom function. */
+let tapZoomTimeout = null;
+/** Whether an apparent tap should be ignored. */
+let cancelTap = false;
+/** Whether the left mouse button is currently being held. */
+let isLeftMouseDown = false;
+/** Whether the right mouse button is currently being held. */
+let isRightMouseDown = false;
+/** Whether the down arrow key is currently being held. */
+let isDownArrowDown = false;
+/** Whether the up arrow key is currently being held. */
+let isUpArrowDown = false;
+/** Whether an apparent click of the right mouse button should be ignored. */
+let cancelRightMouse = false;
+/** The scrolling speed while holding the up or down arrows. */
+let autoscrollSpeed = 0;
+/** The div that fills the entire window and contains all other elements. */
+const container = document.createElement('div');
+/** The object being scaled and panned. Oftentimes this is an image, but not always. */
+let subject = null;
+/** The singleton instance of the Transform class. */
+const transform = new Transform();
+/** The timeout handle for the hideCursor function. */
+let hideCursorTimeout = null;
+/** Whether the cursor is currently hidden. */
+let isCursorHidden = false;
+window.addEventListener("load", handleWindowLoad);
+function handleWindowLoad() {
+	container.id = 'container';
+	document.body.appendChild(container);
+	window.addEventListener("resize", handleWindowResize);
+	window.addEventListener("mousedown", handleMouseDown);
+	window.addEventListener("mouseup", handleMouseUp);
+	window.addEventListener("mousemove", handleMouseMove);
+	window.addEventListener("touchstart", handleTouchStart);
+	window.addEventListener("touchend", handleTouchEnd);
+	window.addEventListener("touchcancel", handleTouchEnd);
+	window.addEventListener("touchmove", handleTouchMove);
+	window.addEventListener("keydown", handleKeyDown);
+	window.addEventListener("keyup", handleKeyUp);
+	window.addEventListener("wheel", handleWheel);
+	window.addEventListener("contextmenu", handleContextMenu);
+	window.addEventListener("hashchange", handleHashChange);
+	handleHashChange();
+}
+function handleWindowResize(event) {
+	transform.checkBounds(false);
+}
+function handleMouseDown(event) {
+	event.preventDefault();
+	if (event.button === 0) { // Left mouse button
+		isLeftMouseDown = true;
+		pointer = pointersDown.mouse = {x: event.pageX, y: event.pageY};
+	} else if (event.button === 2) { // Right mouse button
+		isRightMouseDown = true;
+		cancelRightMouse = false;
+	}
+}
+function handleMouseUp(event) {
+	event.preventDefault();
+	if (event.button === 0) { // Left mouse button
+		isLeftMouseDown = false;
+		if (Math.abs(event.pageX - pointersDown.mouse.x) <= 5 &&
+			Math.abs(event.pageY - pointersDown.mouse.y) <= 5) {
+			advancePage();
+		}
+	} else if (event.button === 1) { // Middle mouse button
+		transform.autozoom(true);
+	} else if (event.button === 2) { // Right mouse button
+		isRightMouseDown = false;
+		if (!cancelRightMouse) {
+			retreatPage();
+		}
+	}
+}
+function handleMouseMove(event) {
+	window.clearTimeout(hideCursorTimeout);
+	if (isCursorHidden) {
+		showCursor();
+	}
+	hideCursorTimeout = window.setTimeout(hideCursor, 500);
+	if (isLeftMouseDown) {
+		// Pan the subject.
+		event.preventDefault();
+		const x = transform.x + (event.pageX - pointer.x);
+		const y = transform.y + (event.pageY - pointer.y);
+		transform.set(x, y, transform.zoom, false);
+		pointer = {x: event.pageX, y: event.pageY};
+	}
+}
+function handleTouchStart(event) {
+	event.preventDefault();
+	secondaryFingerTapped = false;
+	cancelTap = false;
+	for (const touch of event.changedTouches) {
+		pointersDown[touch.identifier] = {x: touch.pageX, y: touch.pageY};
+	}
+	if (event.touches.length == 1) {
+		const touch = event.touches[0];
+		pointer = {x: touch.pageX, y: touch.pageY};
+	} else if (event.touches.length == 2) {
+		const center = getCenter(event.touches);
+		pointer = {x: center.x, y: center.y};
+		pointerSpan = getDistance(event.touches);
+	}
+}
+function handleTouchEnd(event) {
+	event.preventDefault();
+	if (event.touches.length == 0) {
+		// All touches have been removed. Determine if this was a one or two finger tap.
+		const touch = event.changedTouches[0];
+		if (!cancelTap &&
+			Math.abs(touch.pageX - pointersDown[touch.identifier].x) <= 5 &&
+			Math.abs(touch.pageY - pointersDown[touch.identifier].y) <= 5) {
+			if (secondaryFingerTapped) {
+				window.clearTimeout(tapZoomTimeout);
+				retreatPage();
+			} else {
+				advancePage();
+			}
+		}
+	} else if (event.touches.length == 1) {
+		// One finger has been removed while the other remains.
+		// Determine if this is part of a potential two-finger-tap or hold-while-tapping gesture.
+		const touch = event.changedTouches[0];
+		if (Math.abs(touch.pageX - pointersDown[touch.identifier].x) <= 5 &&
+			Math.abs(touch.pageY - pointersDown[touch.identifier].y) <= 5) {
+			secondaryFingerTapped = true;
+			tapZoomTimeout = window.setTimeout(tapZoom, 200);
+		}
+		const activeTouch = event.touches[0];
+		pointer = {x: activeTouch.pageX, y: activeTouch.pageY};
+	}
+}
+function handleTouchMove(event) {
+	event.preventDefault();
+	if (event.touches.length == 1) {
+		// Pan the subject.
+		const touch = event.touches[0];
+		const x = transform.x + (touch.pageX - pointer.x);
+		const y = transform.y + (touch.pageY - pointer.y);
+		transform.set(x, y, transform.zoom, false);
+		pointer = {x: touch.pageX, y: touch.pageY};
+	} else if (event.touches.length == 2) {
+		// Pan and zoom the subject.
+		const center = getCenter(event.touches);
+		const span = getDistance(event.touches);
+		const scaleFactor = span / pointerSpan;
+		// Zoom at point between fingers.
+		let newX = center.x + scaleFactor * (transform.x - center.x);
+		let newY = center.y + scaleFactor * (transform.y - center.y);
+		const newZoom = scaleFactor * transform.zoom;
+		// Pan.
+		newX += center.x - pointer.x;
+		newY += center.y - pointer.y;
+		transform.set(newX, newY, newZoom, false);
+		pointer = {x: center.x, y: center.y};
+		pointerSpan = span;
+	}
+}
+function handleKeyDown(event) {
+	if (event.key === "ArrowDown" && !event.repeat) {
+		event.preventDefault();
+		isDownArrowDown = true;
+		autoscrollSpeed = 0;
+		autoScroll();
+	} else if (event.key === "ArrowUp" && !event.repeat) {
+		event.preventDefault();
+		isUpArrowDown = true;
+		autoscrollSpeed = 0;
+		autoScroll();
+	} else if (event.key === "=" || event.key === "+") {
+		event.preventDefault();
+		transform.zoomAt(container.clientWidth / 2, container.clientHeight / 2, true, true);
+	} else if (event.key === "-") {
+		event.preventDefault();
+		transform.zoomAt(container.clientWidth / 2, container.clientHeight / 2, false, true);
+	} else if (event.key === "z") {
+		event.preventDefault();
+		transform.autozoom(true);
+	}
+}
+function handleKeyUp(event) {
+	if (event.key === "ArrowDown") {
+		event.preventDefault();
+		isDownArrowDown = false;
+		transform.stop();
+	} else if (event.key === "ArrowUp") {
+		event.preventDefault();
+		isUpArrowDown = false;
+		transform.stop();
+	} else if (event.key === "ArrowRight" || event.key === " ") {
+		event.preventDefault();
+		advancePage();
+	} else if (event.key === "ArrowLeft") {
+		event.preventDefault();
+		retreatPage();
+	}
+}
+function handleWheel(event) {
+	event.preventDefault();
+	if (event.ctrlKey || isRightMouseDown) {
+		// Zoom on cursor.
+		cancelRightMouse = true;
+		const zoomIn = event.deltaY < 0;
+		transform.zoomAt(event.pageX, event.pageY, zoomIn, true);
+	} else {
+		// Scroll.
+		transform.set(transform.x - event.deltaX, transform.y - event.deltaY, transform.zoom, true);
+	}
+}
+function handleContextMenu(event) {
+	event.preventDefault();
+}
+function handleHashChange() {
+	// Load the page indicated by the URL.
+	const pageNumber = getPageNumber();
+	showPage(pageNumber);
+	preloadPage(pageNumber + 1);
+}
+function getPageNumber() {
+	if (location.hash.length > 0) {
+		return parseInt(location.hash.replace('#',''), 10);
+	} else {
+		return 0;
+	}
+}
+/** Runs an autozoom that has been initiated with a tap gesture. */
+function tapZoom() {
+	cancelTap = true;
+	transform.autozoom(true);
+}
+/** Returns the distance between two touches. */
+function getDistance(touches) {
+	const deltaX = touches[0].pageX - touches[1].pageX;
+	const deltaY = touches[0].pageY - touches[1].pageY;
+	return Math.sqrt(deltaX * deltaX + deltaY * deltaY);
+}
+/** Returns the center point between two touches. */
+function getCenter(touches) {
+	return {
+		x: (touches[0].pageX + touches[1].pageX) / 2,
+		y: (touches[0].pageY + touches[1].pageY) / 2
+	};
+}
+/** Scrolls while the up or down arrow key is held. */
+function autoScroll() {
+	autoscrollSpeed = Math.min(autoscrollSpeed + 20, 100);
+	if (isDownArrowDown) {
+		transform.set(transform.x, transform.y - autoscrollSpeed, transform.zoom, true);
+		window.setTimeout(autoScroll, 75);
+	} else if (isUpArrowDown) {
+		transform.set(transform.x, transform.y + autoscrollSpeed, transform.zoom, true);
+		window.setTimeout(autoScroll, 75);
+	}
+}
+/** Advance to the next page of the comic. */
+function advancePage() {
+	const pageNumber = getPageNumber();
+	if (pageNumber <= imageUrls.length) {
+		location.hash = pageNumber + 1;
+	}
+}
+/** Retreat to the previous page of the comic. */
+function retreatPage() {
+	const pageNumber = getPageNumber();
+	if (pageNumber > 0) {
+		location.hash = pageNumber - 1;
+	}
+}
+/** Show page i of the comic, counting from 1. */
+function showPage(i) {
+	let oldTransform = null;
+	if (subject != null) {
+		oldTransform = subject.style.transform;
+		subject.remove();
+	}
+	if (i < 1) {
+		// Show the instructions.
+		subject = htmlToElement(instructions);
+		subject.style.transformOrigin = 'left top';
+		container.appendChild(subject);
+		transform.set(0, 0, transform.zoom, false);
+	} else if (i <= imageUrls.length) {
+		// Show page i of the comic.
+		subject = new Image();
+		subject.style.transformOrigin = 'left top';
+		if (oldTransform != null) {
+			subject.style.transform = oldTransform;
+		}
+		subject.addEventListener("load", function(event) {
+			transform.set(0, 0, transform.zoom, false);
+		});
+		container.appendChild(subject);
+		subject.src = imageUrls[i - 1]; // Pages count from 1.
+	} else {
+		// Show the end card.
+		subject = htmlToElement(theEnd);
+		subject.style.transformOrigin = 'left top';
+		container.appendChild(subject);
+		transform.set(0, 0, transform.zoom, false);
+	}
+}
+/** Preload the image for page i of the comic, counting from 1. */
+function preloadPage(i) {
+	if (0 < i && i <= imageUrls.length) {
+		new Image().src = imageUrls[i - 1]; // Pages count from 1.
+	}
+}
+/** Hide the mouse cursor. */
+function hideCursor() {
+	container.style.cursor = 'none';
+	isCursorHidden = true;
+}
+/** Show the mouse cursor. */
+function showCursor() {
+	container.style.cursor = 'default';
+	isCursorHidden = false;
+}
+/** Return an element constructed from a string containing HTML. */
+function htmlToElement(html) {
+	const template = document.createElement('template');
+	template.innerHTML = html.trim();
+	return template.content.firstChild;
+}
+
+const instructions = `
+	<div id="subject">
+	<h1>The Magic Comic Reader</h1>
+	<h2>Mouse Controls:</h2>
+	<p>
+	<b>Next Page:</b> Click<br />
+	<b>Previous Page:</b> Right-Click<br />
+	<b>Scroll:</b> Wheel<br />
+	<b>Pan:</b> Click and Drag<br />
+	<b>Zoom:</b> Wheel while Holding Right-Click, or Wheel while Holding Ctrl<br />
+	<b>Cycle Zoom Between Native, Fit, and Fill:</b> Middle-Click
+	</p>
+	<h2>Keyboard Controls:</h2>
+	<p>
+	<b>Next Page:</b> Right Arrow or Space<br />
+	<b>Previous Page:</b> Left Arrow<br />
+	<b>Scroll:</b> Up and Down Arrows<br />
+	<b>Zoom:</b> Plus and Minus<br />
+	<b>Cycle Zoom Between Native, Fit, and Fill:</b> Z
+	</p>
+	<h2>Touch Controls:</h2>
+	<p>
+	<b>Next Page:</b> Tap<br />
+	<b>Previous Page:</b> Two-finger Tap<br />
+	<b>Pan:</b> Drag<br />
+	<b>Zoom:</b> Pinch<br />
+	<b>Cycle Zoom Between Native, Fit, and Fill:</b> Tap while Holding With Another Finger
+	</p>
+	<h2>Other:</h2>
+	<p>You may use your browser's back and forward buttons and bookmark any page.</p>
+	</div>
+`;
+
+const theEnd = `
+	<div id="subject">
+	<h1>The End</h1>
+	<p>I hope you enjoyed using <b>The Magic Comic Reader</b></p>
+	</div>
+`;
+
+/** The pages of the comic. */
+const imageUrls = {{imageUrls}};
+
+})();
+</script>
+</head>
+<body>
+</body>
+</html>
