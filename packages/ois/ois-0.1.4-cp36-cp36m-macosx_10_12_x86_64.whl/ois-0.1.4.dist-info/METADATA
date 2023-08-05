@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: ois
+Version: 0.1.4
+Summary: Optimal Image Subtraction
+Home-page: https://github.com/toros-astro/ois
+Author: Martin Beroiz
+Author-email: martinberoiz@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy (>=1.6)
+Requires-Dist: scipy (>=0.16)
+
+UNKNOWN
+
+
