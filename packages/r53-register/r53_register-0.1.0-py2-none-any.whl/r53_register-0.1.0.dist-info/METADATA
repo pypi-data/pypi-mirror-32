@@ -1,0 +1,16 @@
+Metadata-Version: 2.0
+Name: r53-register
+Version: 0.1.0
+Summary: Register your host IP address with Amazon Route 53.
+Home-page: https://github.com/awkspace/r53-register
+Author: awk
+Author-email: self@awk.space
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: boto3
+Requires-Dist: netifaces
+Requires-Dist: requests
+
+UNKNOWN
+
+
