@@ -1,0 +1,10 @@
+category
+db
+detail
+find
+make
+modify
+page
+plan
+potato
+remove
