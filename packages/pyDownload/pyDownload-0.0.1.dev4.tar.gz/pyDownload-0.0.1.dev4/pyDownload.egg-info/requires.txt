@@ -1,0 +1,9 @@
+requests>=2.18.0
+progressbar2>=3.37.1
+
+[dev]
+pre-commit==1.8.2
+
+[test]
+nose
+coverage
