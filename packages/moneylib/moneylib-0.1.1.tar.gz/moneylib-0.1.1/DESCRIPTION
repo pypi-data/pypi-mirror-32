@@ -1,0 +1,2 @@
+Python library for easy deal with money and currencies. The main point is that any operations with money will be processed with the amount in the particular currency.
+You cannot use an amount without currency, because it could confuse you. You no longer have to watch so that the amounts and currencies move together.

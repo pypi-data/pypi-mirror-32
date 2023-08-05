@@ -1,0 +1,12 @@
+DESCRIPTION
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+money/__init__.py
+money/exceptions.py
+money/money.py
+moneylib.egg-info/PKG-INFO
+moneylib.egg-info/SOURCES.txt
+moneylib.egg-info/dependency_links.txt
+moneylib.egg-info/top_level.txt
