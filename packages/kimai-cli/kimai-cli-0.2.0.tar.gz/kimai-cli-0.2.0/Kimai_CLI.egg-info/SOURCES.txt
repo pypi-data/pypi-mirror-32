@@ -1,0 +1,17 @@
+README.md
+cli.py
+config.py
+kimai.py
+setup.py
+Kimai_CLI.egg-info/PKG-INFO
+Kimai_CLI.egg-info/SOURCES.txt
+Kimai_CLI.egg-info/dependency_links.txt
+Kimai_CLI.egg-info/entry_points.txt
+Kimai_CLI.egg-info/requires.txt
+Kimai_CLI.egg-info/top_level.txt
+kimai_cli.egg-info/PKG-INFO
+kimai_cli.egg-info/SOURCES.txt
+kimai_cli.egg-info/dependency_links.txt
+kimai_cli.egg-info/entry_points.txt
+kimai_cli.egg-info/requires.txt
+kimai_cli.egg-info/top_level.txt
