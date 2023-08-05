@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+UPnPPort.egg-info/PKG-INFO
+UPnPPort.egg-info/SOURCES.txt
+UPnPPort.egg-info/dependency_links.txt
+UPnPPort.egg-info/entry_points.txt
+UPnPPort.egg-info/requires.txt
+UPnPPort.egg-info/top_level.txt
+upnpport/__main__.py
