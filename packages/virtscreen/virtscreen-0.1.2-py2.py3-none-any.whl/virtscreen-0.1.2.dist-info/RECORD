@@ -1,0 +1,16 @@
+virtscreen/__init__.py,sha256=H9xdXFomMu0c7fVfxyuHA_Sgp4nBMws2oLRFnG3eR_c,24
+virtscreen/virtscreen.py,sha256=8wGlNMM4fB6ti09ag1AKQK8FU7D2ayq5dli3n37EuCA,24522
+virtscreen/data/config.default.json,sha256=tRQCcWoUqE1eFvqbVVNMFU2jl8Z8NBYWYbUCCwvsXH4,280
+virtscreen/icon/icon.png,sha256=EuLHBdw3hZ8I1nfO9vwgVHaBP7hb8Jmm2B5igRbVmzU,28835
+virtscreen/icon/icon_tablet_off.png,sha256=vJ69Dh4nmlAYGIplHx1dYWwyGMrad5Dads2-TeA8brk,28835
+virtscreen/icon/icon_tablet_on.png,sha256=mle0K30PfICl3v5H1xPpl9DhgVF2iCd3kDIoMeOMH5c,111529
+virtscreen/qml/AppWindow.qml,sha256=ykqIqncpAYXPVh-rdAZMQ3ll0qDKHQEUzr9vSO8ijPc,8958
+virtscreen/qml/DisplayPage.qml,sha256=Iw372cPq852zIG5O5LpbrSWr3Oi--JVnGygc9e9fJ0g,4878
+virtscreen/qml/VncPage.qml,sha256=Wp7Efy4hfuRkI9-aoBgEk_ryZJsWymznrECi01fW4LM,3359
+virtscreen/qml/main.qml,sha256=syokNYbmQTz0r92UlS1tpQvxD9QLJu-uvphLzAC9a8k,7931
+virtscreen/qml/preferenceDialog.qml,sha256=ORNd1wqPrhNHEtBgZMDMv7OhOAlBWG2KdNmLW46Xs9Y,2659
+virtscreen-0.1.2.dist-info/METADATA,sha256=SM4z3UCoH1jop1Fn0OnfZsDBJY3y2zjtlpxp3uJVPYA,3048
+virtscreen-0.1.2.dist-info/RECORD,,
+virtscreen-0.1.2.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+virtscreen-0.1.2.dist-info/entry_points.txt,sha256=aG-EY4W-YFp6eCkv8l18uGTDmIFklaHZeRKfwuwxulI,59
+virtscreen-0.1.2.dist-info/top_level.txt,sha256=OspkyDGdYh4-K-ydFzq2keJ8BHE6lqncVGMTQRic5BE,11

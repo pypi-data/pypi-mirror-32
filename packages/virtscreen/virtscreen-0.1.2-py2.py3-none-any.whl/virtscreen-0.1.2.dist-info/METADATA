@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: virtscreen
+Version: 0.1.2
+Summary: Make your iPad/tablet/computer as a secondary monitor on Linux.
+Home-page: https://github.com/kbumsik/VirtScreen
+Author: Bumsik Kim
+Author-email: k.bumsik@gmail.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/kbumsik/VirtScreen/issues
+Project-URL: Source, https://github.com/kbumsik/VirtScreen
+Project-URL: Author Homepage, https://kbumsik.io
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Desktop Environment
+Classifier: Topic :: Office/Business
+Classifier: Topic :: System
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Environment :: X11 Applications
+Classifier: Environment :: X11 Applications :: Qt
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Framework :: Twisted
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Requires-Dist: PyQt5 (>=5.10.1)
+Requires-Dist: Twisted (>=17.9.0)
+Requires-Dist: qt5reactor (>=0.5)
+Requires-Dist: netifaces (>=0.10.6)
+
+# VirtScreen
+
+> Make your iPad/tablet/computer as a secondary monitor on Linux.
+
+![gif example](https://github.com/kbumsik/VirtScreen/blob/d2387d3321bd4d110d890ca87703196df203dc89/icon/gif_example.gif?raw=true)
+
+VirtScreen is an easy-to-use Linux GUI app that creates a virtual secondary screen and shares it through VNC.
+
+VirtScreen is based on [PyQt5](https://www.riverbankcomputing.com/software/pyqt/intro) and [Twisted](https://twistedmatrix.com) in Python side and uses [x11vnc](https://github.com/LibVNC/x11vnc) and XRandR.
+
+## How to use
+
+Upon installation (see Installing section to install), there will be a desktop entry called `virtscreen`
+
+![desktop entry](doc/desktop_entry.png)
+
+Or you can run it using a command line:
+
+```bash
+$ virtscreen
+```
+
+Note that any files related to VirtScreen, including password and log, will be stored in `~/.virtscreen` directory.
+
+## Dependancies
+
+You need [`x11vnc`](https://github.com/LibVNC/x11vnc) and `xrandr`. To install (example on Ubuntu):
+```bash
+$ sudo apt-get install x11vnc
+```
+
+## Installing
+
+### Debian (Ubuntu)
+
+A PPA package will be available soon.
+
+### Arch Linux (AUR)
+
+There is [`virtscreen` AUR package](https://aur.archlinux.org/packages/virtscreen/) available. Though there are many ways to install the AUR package, one of the easiest way is to use [`aurman`](https://github.com/polygamma/aurman) AUR helper:
+
+```bash
+$ aurman -S virtscreen
+```
+
+### Python `pip`
+
+If your distro is none of above, you may install it using `pip`:
+
+```bash
+$ pip install virtscreen
+```
+
+but a desktop entry won't be created.
+
+### From the Git repository directly
+
+```bash
+$ python setup.py install # add --user option if you have permission problem
+```
+
+
