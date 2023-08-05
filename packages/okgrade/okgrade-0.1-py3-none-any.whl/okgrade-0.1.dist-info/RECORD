@@ -1,0 +1,11 @@
+client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+client/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+client/api/notebook.py,sha256=6_yQyUo2TicrsuH4uCMGyvpFw1peP1M2fVuUlV3DtEY,2284
+okgrade/__init__.py,sha256=5yP0Ysm3kLULoLaBHdnCj7-67Wn7UuqksA6Kd7bMWz0,32
+okgrade/doctest.py,sha256=efXLKyv3ahoaDON4pEeh-5aa_-ZetydQAr-UWU2BgEM,2081
+okgrade/grader.py,sha256=H8Dl1O-ttwx8ndCX7wvIyBHv2Sgcnyvzd-fDyE_XK-4,2171
+okgrade/result.py,sha256=OePePbVJs4eaxKYN-fvRy0jECFebg599oFNHj5E6u5Y,1824
+okgrade-0.1.dist-info/METADATA,sha256=a7edhr-A7utvGo4-zzVGCOrxMjuzWQTgjrsrmN5c0y8,225
+okgrade-0.1.dist-info/RECORD,,
+okgrade-0.1.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+okgrade-0.1.dist-info/top_level.txt,sha256=OFaTMwxkI4slgL5U46NqUC9R0E3e0LIO8HGdJlcyLGs,15
