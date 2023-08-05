@@ -1,0 +1,3 @@
+include watchghost/static/*
+include watchghost/etc/*
+include watchghost/templates/*

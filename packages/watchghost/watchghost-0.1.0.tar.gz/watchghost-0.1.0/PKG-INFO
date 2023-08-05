@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: watchghost
+Version: 0.1.0
+Summary: Your invisible but loud monitoring pet
+Home-page: https://gitlab.com/localg-host/watchghost
+Author: Localghost
+Author-email: UNKNOWN
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: System :: Monitoring

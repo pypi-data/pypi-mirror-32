@@ -1,0 +1,22 @@
+{% extends '_layout.html' %}
+
+{% block main %}
+  {% for server_name, server in servers.items() %}
+    <article id="{{ server.uuid }}">
+      <h2>{{ server.name }}</h2>
+      <ul>
+        {% for watcher in server.watchers %}
+          <li id="{{ watcher.uuid }}" class="module-{{ watcher.service.name.split('.')[0].lower() }} status-{{ watcher.status or 'unknown' }}">
+            <a href="{{ reverse_url('Watcher', watcher.uuid) }}">
+              {% if watcher.description %}
+                {{ watcher.description }}
+              {% else %}
+                {{ watcher.service.name.split('.')[-1].lower() }}
+              {% end %}
+            </a>
+          </li>
+        {% end %}
+      </ul>
+    </article>
+  {% end %}
+{% end %}

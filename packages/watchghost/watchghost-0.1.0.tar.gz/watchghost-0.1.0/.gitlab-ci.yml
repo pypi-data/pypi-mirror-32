@@ -1,0 +1,11 @@
+image: python:3.5
+
+qa:
+  script:
+    - python setup.py test
+
+doc:
+  script:
+    - pip install Sphinx
+    - sphinx-build -b html docs build/html
+
