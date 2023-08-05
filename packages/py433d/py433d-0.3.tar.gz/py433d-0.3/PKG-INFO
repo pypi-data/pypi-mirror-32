@@ -1,0 +1,15 @@
+Metadata-Version: 1.0
+Name: py433d
+Version: 0.3
+Summary: A server for 433MHz (and 315Mhz) communication.
+Home-page: https://github.com/acoomans/py433
+Author: Arnaud Coomans
+Author-email: arnaud.coomans@gmail.com
+License: BSD
+Description: py433
+        =====
+        
+        A server for 433MHz (and 315Mhz) communication. 
+        
+Keywords: rpi,raspberry,raspberry pi,rf,gpio,radio,433,433mhz,315,315mhz,server
+Platform: UNKNOWN
