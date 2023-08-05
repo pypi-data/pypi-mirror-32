@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pipis
+Version: 0.1.0
+Summary: Somewhere between pip and pipsi
+Home-page: https://github.com/NicolasKAROLAK/pipi
+Author: Nicolas KAROLAK
+Author-email: nicolas@karolak.fr
+Keywords: packaging,venv
+Requires-Python: >= 3.4.0.0, < 4.0.0.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: click (>=6.7.0.0,<7.0.0.0)
