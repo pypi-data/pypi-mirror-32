@@ -1,0 +1,3 @@
+[console_scripts]
+ftpbk = ftpbackup.__main__:run
+
