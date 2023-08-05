@@ -1,0 +1,6 @@
+[console_scripts]
+            jingd.usermod=jingd.usermod:main
+            jingd.block=jingd.block:block_func
+            jingd.unlock=jingd.unlock:unlock_func
+            jingd.reset=jingd.reset:reset_func
+      
