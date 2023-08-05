@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: peloton_bloomfilters_py3
+Version: 0.0.2
+Summary: Peloton Cycle's Bloomin fast Bloomfilters - Python 2 & 3 compatibility
+Home-page: https://github.com/k4nar/peloton_bloomfilters
+Author: Adam DePrince
+Author-email: adam@pelotoncycle.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
