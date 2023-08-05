@@ -1,0 +1,14 @@
+snowflake_sqlalchemy-1.1.1-py3.4-nspkg.pth,sha256=8Ms0FE-__9onPV_f1x7bdTt9Ks-iaFNuUcTWugBfjKA,554
+snowflake/sqlalchemy/LICENSE.txt,sha256=Uu56wEZIvYDyPkA5XT6yvQ5bbgaENtdLJOnftpvurAg,11365
+snowflake/sqlalchemy/__init__.py,sha256=JuNe_06swB6lc3phEBdybjJR7TAddZK6Buywm6BTwKA,388
+snowflake/sqlalchemy/base.py,sha256=ddqh5kvp5-2_8Lq1pK4SWw79JwRLG9quhEAf3sQCQww,26440
+snowflake/sqlalchemy/util.py,sha256=5mnhBg9VF4KEjouc_avP4K01hgPM1t6YcFd7rpHtpHk,2457
+snowflake/sqlalchemy/version.py,sha256=j2kgTs_slG-Xt9eh8nUMBNiGjYIeBlF5mV0xq9QhCmw,107
+snowflake_sqlalchemy-1.1.1.dist-info/DESCRIPTION.rst,sha256=jBSy7L4-RtCBvnjB8ABkizLRsNE4rCVjNXPChegXi_c,2337
+snowflake_sqlalchemy-1.1.1.dist-info/METADATA,sha256=ROBfVHj_9_BmraZPrSgIZcfXM1BTmD9BVRLf6Jt9XY4,3770
+snowflake_sqlalchemy-1.1.1.dist-info/RECORD,,
+snowflake_sqlalchemy-1.1.1.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+snowflake_sqlalchemy-1.1.1.dist-info/entry_points.txt,sha256=E8rGfAA6E0T2FY8DZCYccdQyg7ajb8DcQ8K9Rv33rMw,61
+snowflake_sqlalchemy-1.1.1.dist-info/metadata.json,sha256=i-sB2EN5b-sNjqqucl1yg5ufILnK_X9jXNgeA1nf3VY,1603
+snowflake_sqlalchemy-1.1.1.dist-info/namespace_packages.txt,sha256=TY0gFSHKDdZy3THb0FGomyikWQasEGldIR1O0HGOHVw,10
+snowflake_sqlalchemy-1.1.1.dist-info/top_level.txt,sha256=TY0gFSHKDdZy3THb0FGomyikWQasEGldIR1O0HGOHVw,10
