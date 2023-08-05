@@ -1,0 +1,10 @@
+README.md
+setup.py
+mystats/__init__.py
+mystats/math.py
+mystats/stats.py
+mystats.egg-info/PKG-INFO
+mystats.egg-info/SOURCES.txt
+mystats.egg-info/dependency_links.txt
+mystats.egg-info/top_level.txt
+test/test.py

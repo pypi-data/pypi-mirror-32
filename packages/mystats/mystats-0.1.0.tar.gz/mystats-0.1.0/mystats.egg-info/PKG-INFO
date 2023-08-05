@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: mystats
+Version: 0.1.0
+Summary: Easily calculate some statistics
+Home-page: http://github.com/ketozhang/mystats
+Author: Keto Zhang
+Author-email: keto.zhang@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
