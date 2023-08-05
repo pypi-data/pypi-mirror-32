@@ -1,0 +1,5 @@
+ligo-segments (1.0.0-1) unstable; urgency=low
+
+  * first release of ligo.segments, should be funtionally identical to glue.segments
+
+ -- Duncan Macleod <duncan.macleod@ligo.org>  Thu, 10 May 2018 12:00:00 +0000
