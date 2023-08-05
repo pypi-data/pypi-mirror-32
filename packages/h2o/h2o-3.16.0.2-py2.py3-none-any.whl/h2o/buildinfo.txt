@@ -1,0 +1,1 @@
+versionFromGradle='3.16.0',projectVersion='3.16.0.2',branch='rel-wheeler',lastCommitHash='1de6d68cab3cfe79531fc68b28d96b938d194ca1',gitDescribe='jenkins-3.16.0.1-13-g1de6d68cab',compiledOn='2017-11-30 18:13:08',compiledBy='jenkins'
