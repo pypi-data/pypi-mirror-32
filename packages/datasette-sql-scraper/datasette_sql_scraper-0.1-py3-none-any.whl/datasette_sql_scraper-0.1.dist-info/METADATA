@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: datasette-sql-scraper
+Version: 0.1
+Summary: Experimental plugin for Datasette
+Home-page: https://github.com/simonw/datasette-sql-scraper
+Author: Simon Willison
+Author-email: UNKNOWN
+License: Apache License, Version 2.0
+Platform: UNKNOWN
+Requires-Dist: datasette
+Requires-Dist: vtfunc
+
+UNKNOWN
+
+

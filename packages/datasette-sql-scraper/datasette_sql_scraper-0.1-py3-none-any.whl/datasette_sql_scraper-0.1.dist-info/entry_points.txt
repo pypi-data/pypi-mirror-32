@@ -1,0 +1,3 @@
+[datasette]
+sql_scraper = datasette_sql_scraper
+
