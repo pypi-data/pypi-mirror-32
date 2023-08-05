@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: py_pushover_simple
+Version: 0.1.0
+Summary: A wrapper for sending push notifications with Puhsover
+Home-page: https://github.com/mtthwjrgnsn/py_pushover_simple
+Author: Matthew Jorgensen
+Author-email: matthew@jrgnsn.net
+License: UNKNOWN
+Description: py_pushover_simple
+        ==================
+        
+        This is a very simple python pushover wrapper for sending quick messages from command line scripts.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
