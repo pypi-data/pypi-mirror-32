@@ -1,0 +1,10 @@
+mysql_batch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mysql_batch/__main__.py,sha256=RV0UFar16HfPJG_n7e78dhDbXSCVn7am3rFkRN76Z-k,77
+mysql_batch/mysql_batch.py,sha256=Z5psvJuca3m12BMo14sfZg7r1bER7U0v6JSDv9fr1JQ,9217
+mysql_batch-1.1.dist-info/DESCRIPTION.rst,sha256=WeIu3_rJMvx5nBYAJuXHi_yMAjFnpLK1gJ03gBDJJyI,5301
+mysql_batch-1.1.dist-info/METADATA,sha256=vX-PtZ3p3Rj-zvNQ3xYTQsbeYw3nJclnC3V1Txmk-io,6172
+mysql_batch-1.1.dist-info/RECORD,,
+mysql_batch-1.1.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+mysql_batch-1.1.dist-info/entry_points.txt,sha256=UxSerqNQQ_S_b6lIYdaumb4Z1kF7bOEe5DUnCQdUoKs,62
+mysql_batch-1.1.dist-info/metadata.json,sha256=c-L624m8GvqPPDngdp592kryg0HZkI__hp1KfHvozzo,1178
+mysql_batch-1.1.dist-info/top_level.txt,sha256=ZV9md4ZoJkmUgbOz-tji7EEC5Etgzshrnfm32vckYrM,12
