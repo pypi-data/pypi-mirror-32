@@ -1,0 +1,11 @@
+colcon_defaults/__init__.py,sha256=pADCZCesxobrqNQI0MgPFOh4vkFRNa98kXhnJRwQ564,106
+colcon_defaults/argument_parser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colcon_defaults/argument_parser/defaults.py,sha256=LZzBwDfebtNXmt3M7tTXrcCrxKTXI9Y1z67RgS53JGU,4953
+colcon_defaults-0.2.0.dist-info/DESCRIPTION.rst,sha256=0Ps6jJmX7VSSv5WSn9E6JrqhN-oUTk9tNa5J7QyVc4c,374
+colcon_defaults-0.2.0.dist-info/METADATA,sha256=_ZrbfmBjjDa9FgPZUULGfZNdolhUxWcMRvdnxQm1S3c,1358
+colcon_defaults-0.2.0.dist-info/RECORD,,
+colcon_defaults-0.2.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+colcon_defaults-0.2.0.dist-info/entry_points.txt,sha256=H-oRzTsBa2AKN2bedFpZI0OUQ0tahIkcOBJmTVvP_w0,244
+colcon_defaults-0.2.0.dist-info/metadata.json,sha256=5pPHW4q_NA8atn3ZBV7Kad5eNsTsyTcrB5EC_JRQvG4,1651
+colcon_defaults-0.2.0.dist-info/top_level.txt,sha256=VqWMCdy-AafVS4S6eyDCexryxVgQiMRi-ymsSwSVO0c,16
+colcon_defaults-0.2.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
