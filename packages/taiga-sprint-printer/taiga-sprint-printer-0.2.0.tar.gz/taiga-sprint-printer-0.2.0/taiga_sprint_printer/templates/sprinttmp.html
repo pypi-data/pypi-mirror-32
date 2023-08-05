@@ -1,0 +1,49 @@
+<html>
+
+    <head>
+        <style>
+
+            body{
+                font-family: sans-serif;
+            }
+
+            .story {
+                color: {{config.colors.userstory}};
+            }
+
+            .task {
+                color: {{config.colors.task}};
+            }
+
+            .card{
+                width: 50%;
+                box-sizing: border-box;
+                float: left;
+                height: 225pt;
+                padding:1rem;
+                border:1px dashed;
+                border-color: black;
+            }
+        </style>
+    </head>
+
+    <body>
+        {% for story in stories%}
+
+            <div class="card story">
+                <h2>US #{{story.id}}</h2>
+                <h3>{{story.subject}}</h3>
+            </div>
+                {% for task in tasks %}
+                    {% if task.user_story == story.id %}
+                        <div class="card task">
+                            <h2>TASK #{{task.id}}</h2>
+                            <h3>[US #{{story.id}}]</h3>
+                            <h3>{{task.subject}}</h3>
+                        </div>
+                    {% endif %}
+                {%endfor%}
+        {% endfor%}
+    </body>
+
+</html>
