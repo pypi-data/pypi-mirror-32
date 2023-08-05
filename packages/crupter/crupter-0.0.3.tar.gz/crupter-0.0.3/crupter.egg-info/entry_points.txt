@@ -1,0 +1,3 @@
+[console_scripts]
+crupter = crupter.cli:main
+

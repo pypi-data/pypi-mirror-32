@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: crupter
+Version: 0.0.3
+Summary: Easily CReate, UPdate and TERminate your AWS CloudFormation Stacks.
+Home-page: https://github.com/binxio/crupter
+Author: Martijn van Dongen
+Author-email: martijnvandongen@binx.io
+License: UNKNOWN
+Description: PiPY CLI Template
+Platform: any
+Provides-Extra: test
