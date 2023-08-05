@@ -1,0 +1,11 @@
+[Unit]
+Description=Classic rpyc server 
+
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/rpyc_classic.py
+
+[Install]
+WantedBy=multi-user.target
+
