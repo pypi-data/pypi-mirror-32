@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+coind/__init__.py
+coind/__init__.pyc
+coind/coind.py
+coind/coind.pyc
+coind.egg-info/PKG-INFO
+coind.egg-info/SOURCES.txt
+coind.egg-info/dependency_links.txt
+coind.egg-info/top_level.txt
+coind/__pycache__/__init__.cpython-35.pyc
+coind/__pycache__/coind.cpython-35.pyc

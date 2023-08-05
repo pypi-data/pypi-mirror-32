@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: coind
+Version: 1.0.0
+Summary: A bitcoind based wallet manager in Python
+Home-page: https://github.com/cryptch/coind
+Author: Cryptch
+Author-email: fukuroh1@gmail.com
+License: MIT
+Description: This is a cryptocurrency wallets management using Python, compatible with all bitcoind forked daemon.
+        It will turn possible to execute commands like "-daemon" to "walletpassphrase"
+Keywords: coind,bitcoin,bitcoind,crypto,cryptch
+Platform: UNKNOWN
