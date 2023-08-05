@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+cargo_phone_number/__init__.py
+cargo_phone_number/field.py
+cargo_phone_number/validator.py
+cargo_phone_number_field.egg-info/PKG-INFO
+cargo_phone_number_field.egg-info/SOURCES.txt
+cargo_phone_number_field.egg-info/dependency_links.txt
+cargo_phone_number_field.egg-info/requires.txt
+cargo_phone_number_field.egg-info/top_level.txt
