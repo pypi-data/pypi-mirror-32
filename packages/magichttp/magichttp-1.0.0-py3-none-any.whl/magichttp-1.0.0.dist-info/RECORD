@@ -1,0 +1,16 @@
+magichttp/__init__.py,sha256=WKcaP1-_bUZ8aGWIa0DQ9xazar-Vs7r77LT4nt98fuM,1257
+magichttp/_version.py,sha256=t1aNEX39XQgN0XEXR9pRzt419B8ZeHNkrBheRnFU0r8,859
+magichttp/constants.py,sha256=7fpjWQ0V6RaR1XTYXVjvmgzDYrd4KjpzOyRmYeAz5Ks,1066
+magichttp/initials.py,sha256=FKqMsoHfQFQnkvaiOvfpc90Tm5xXjtUpjv8qHIoTl2E,4170
+magichttp/protocols.py,sha256=PpbTC2TYtzA9XzBWe9f8ohVhejewEsvxWWTctLz0JIs,7706
+magichttp/readers.py,sha256=2qIkvJn6-wgHqzmDIkTi4AXWDidy-MAcEN9LoUysz5s,14809
+magichttp/writers.py,sha256=EJBMt07aQ5oq1mUA6Xyag3JLvB_YShOGzfnyuhK7ALI,7125
+magichttp/h1impl/__init__.py,sha256=AjTS3yzXcRACsCMtJK1wdgtJxbG0wBvwfDV0d5pD_Kc,709
+magichttp/h1impl/composers.py,sha256=f3hag4c3A8aJzX43DGx4LhxbMnWgzMiOWKod94Mnf2o,4858
+magichttp/h1impl/impls.py,sha256=jUnzMjue4NP0fpSKm2H4Ep1dgeQGBhM1-zH2KpZZ_8Y,6658
+magichttp/h1impl/parsers.py,sha256=PJ6xNwyvw5w8rZXyG5ICE2w1gdPkkUrsjEkDMkhsEXE,5953
+magichttp/h1impl/stream_mgrs.py,sha256=wdyvi_2tZnhBkkYntS8Q9riG2yOuV4tel9nR82gW5QY,18905
+magichttp-1.0.0.dist-info/METADATA,sha256=J1EG5XAVWq-ZVOhy90JTG2yxsoGt4mHKZxkiw55Q7Yk,2491
+magichttp-1.0.0.dist-info/RECORD,,
+magichttp-1.0.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+magichttp-1.0.0.dist-info/top_level.txt,sha256=L7-Gr1QGSLLF1U84yfucK0XypFqce-M49edmpc1CcS4,10
