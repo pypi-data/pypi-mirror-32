@@ -1,0 +1,20 @@
+<tal:token condition="view/token" tal:define="visible context/@@si-anon-can-view">
+    <script src="https://cdn.siteimprove.net/cms/overlay.js" async></script>
+    <tal:tag replace="structure string:<script>"/>
+        var _siteimprove_token = '${view/token}';
+        document.addEventListener("DOMContentLoaded", function(event) {
+            require(['jquery', 'siteimprove'], function ($, siteimprove) {
+                <tal:domain condition="not:visible">siteimprove.domain();</tal:domain>
+                <tal:domain condition="visible">siteimprove.input();</tal:domain>
+                $('#plone-contentmenu-actions-siteimprove').on('click', function () {
+                    siteimprove.recheck();
+                    $(this).parents('li').removeClass('active');
+                    $('#global_statusmessage > div').append(
+                        '<div class="portalMessage info"> <strong>Info</strong>Siteimprove recheck requested</div>'
+                    );
+                    return false;
+                });
+            });
+        });
+    <tal:tag replace="structure string:</script>"/>
+</tal:token>
