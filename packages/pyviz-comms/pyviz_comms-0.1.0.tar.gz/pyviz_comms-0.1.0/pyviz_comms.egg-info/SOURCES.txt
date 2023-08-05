@@ -1,0 +1,7 @@
+README.md
+setup.py
+pyviz_comms/__init__.py
+pyviz_comms.egg-info/PKG-INFO
+pyviz_comms.egg-info/SOURCES.txt
+pyviz_comms.egg-info/dependency_links.txt
+pyviz_comms.egg-info/top_level.txt
