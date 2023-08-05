@@ -1,0 +1,11 @@
+rnlp/__init__.py,sha256=TxlCDe1QmEuOifwdGT-Ahdkwz8zeEPXRaKUqvzYTllM,2981
+rnlp/__main__.py,sha256=IpjJY9Pw8EKXb5bIQqMuc5QTmtCEAqHdf8QV8GeHRzg,3461
+rnlp/corpus.py,sha256=zs_rs-OCl5QO0e9ookP2Tmx0kIbykfebu3NAZvUZLl8,11530
+rnlp/parse.py,sha256=TkLBe8J_E9CsjjMvWv_8QqRpPL4QK5bQdNLFKv0dvnA,11410
+rnlp/textprocessing.py,sha256=8eP5FnbGeneuFvo3WkC2DVcehrl4O3MxHzuRCEfbByU,3956
+rnlp/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rnlp-0.2.1.dist-info/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+rnlp-0.2.1.dist-info/METADATA,sha256=KK1PIuTJuK24gqlB4Y_M4-niA0uJtGq17Sg1gwxr_1w,4505
+rnlp-0.2.1.dist-info/RECORD,,
+rnlp-0.2.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+rnlp-0.2.1.dist-info/top_level.txt,sha256=erHbgTb5eZLpCORR68aR29ZBl8VO60_6HtNiLNAowvA,5
