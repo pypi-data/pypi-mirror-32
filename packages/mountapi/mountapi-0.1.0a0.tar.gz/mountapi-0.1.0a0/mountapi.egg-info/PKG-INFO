@@ -1,0 +1,42 @@
+Metadata-Version: 1.1
+Name: mountapi
+Version: 0.1.0a0
+Summary: Loosely coupled, typed web framework for modern Python
+Home-page: https://mountapi.org
+Author: Piotr Szpetkowski
+Author-email: piotr.szpetkowski@pyquest.space
+License: MIT
+Description: mountAPI
+        ========
+        
+        Example
+        =======
+        
+        .. code-block:: python
+        
+            from mountapi.core.app import Application
+            from mountapi.core.settings import DefaultSettings
+            from mountapi.routing import Route
+        
+        
+            async def hello_person(name: str):
+                return {'message': f'Hello {name}!'}
+        
+        
+            routes = [
+                Route('/hello/<name:str>/', hello_person)
+            ]
+        
+            if __name__ == '__main__':
+                app = Application(settings=DefaultSettings, routes=routes)
+                app.run()
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Programming Language :: Python :: 3.6
