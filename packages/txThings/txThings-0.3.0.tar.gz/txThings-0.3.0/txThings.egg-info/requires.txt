@@ -1,0 +1,5 @@
+twisted>=14.0.0
+six>=1.10.0
+
+[:python_version < "3.0"]
+py2-ipaddress>=3.4.1
