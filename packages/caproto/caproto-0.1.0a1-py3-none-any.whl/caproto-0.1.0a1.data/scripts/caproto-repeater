@@ -1,0 +1,7 @@
+#!python
+
+from caproto.sync.client import repeater_cli
+
+
+if __name__ == '__main__':
+    repeater_cli()
