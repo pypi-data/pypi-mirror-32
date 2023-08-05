@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        sorted-mkdn=sorted_mkdn.sorted_mkdn:main
+    
