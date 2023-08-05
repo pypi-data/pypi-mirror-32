@@ -1,0 +1,4 @@
+      [console_scripts]
+      minicircuits-attenuator = pyminicircuits.cmd.attenuator:main
+      minicircuits-powersensor = pyminicircuits.cmd.powersensor:main
+      

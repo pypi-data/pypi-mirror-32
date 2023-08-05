@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: pyminicircuits
+Version: 0.0.1.dev0
+Summary: Mini Circuits Device API
+Home-page: https://github.com/storborg/pyminicircuits
+Author: Scott Torborg
+Author-email: scott@skysafe.io
+License: MIT
+Description: UNKNOWN
+Keywords: minicircuits mini-circuits rf radio
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
