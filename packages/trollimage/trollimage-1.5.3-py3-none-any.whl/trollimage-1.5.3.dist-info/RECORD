@@ -1,0 +1,11 @@
+trollimage/__init__.py,sha256=3YT72w5YPFIEr3yik2NQhwZnMBkAzaG-xoNbtA5TP9k,806
+trollimage/colormap.py,sha256=s3_JoQVx0uifSQYRSBw9evmR7o9aHnLrIDlfhTGEzG4,19301
+trollimage/colorspaces.py,sha256=dkatqaMoMAn4T5KS9AAGlJ5hY0Uc-NFiIS1WPAjceNU,3883
+trollimage/image.py,sha256=NWqclXrOiUw5ila3vz5pmYWqQWIxC2ILM_LbEdJPqi4,42558
+trollimage/utilities.py,sha256=Db9ZacUOpDZOq7JTYlZ2nStHCUnY0cRE2RnquHWOWLY,4352
+trollimage/version.py,sha256=uXt2JfzhR4dDVSqdfHml-7AjdX71rG0X6clPjtYTAwo,827
+trollimage/xrimage.py,sha256=KnrM02yRVVmyTUV7F03Wmg5XTYagjIrC4E4_FYVIXOw,29570
+trollimage-1.5.3.dist-info/METADATA,sha256=idwYgrX-dNEq8hUf-o1sxyppJ8B6nb1eZOJ7K8AsTQE,864
+trollimage-1.5.3.dist-info/RECORD,,
+trollimage-1.5.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+trollimage-1.5.3.dist-info/top_level.txt,sha256=QEXVvMljKcJo7H5KkXPzGvo_ZDRolsyr3-qPHYUZBd4,11
