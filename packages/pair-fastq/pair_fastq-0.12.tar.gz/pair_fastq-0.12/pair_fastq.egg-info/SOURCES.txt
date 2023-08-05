@@ -1,0 +1,8 @@
+pair_fastq.py
+setup.py
+pair_fastq.egg-info/PKG-INFO
+pair_fastq.egg-info/SOURCES.txt
+pair_fastq.egg-info/dependency_links.txt
+pair_fastq.egg-info/entry_points.txt
+pair_fastq.egg-info/requires.txt
+pair_fastq.egg-info/top_level.txt
