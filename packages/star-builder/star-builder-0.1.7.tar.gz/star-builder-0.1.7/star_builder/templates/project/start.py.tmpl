@@ -1,0 +1,11 @@
+import logging
+
+from uvicorn import run
+from star_builder import Application
+
+logging.basicConfig(level=logging.DEBUG)
+app = Application()
+
+
+if __name__ == "__main__":
+    run(app)
