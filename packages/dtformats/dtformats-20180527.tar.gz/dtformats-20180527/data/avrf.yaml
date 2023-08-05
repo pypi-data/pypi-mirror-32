@@ -1,0 +1,94 @@
+name: avrf
+type: format
+decription: Application verifier resource enumeration format
+urls: ['https://msdn.microsoft.com/en-us/library/bb432418(v=vs.85).aspx']
+layout:
+- file_header
+- TODO
+---
+name: uint32
+type: integer
+description: 32-bit unsigned integer type
+attributes:
+  format: unsigned
+  size: 4
+  units: bytes
+---
+name: uint64
+type: integer
+description: 64-bit unsigned integer type
+attributes:
+  format: unsigned
+  size: 8
+  units: bytes
+---
+name: maximum_number_of_back_traces
+aliases: [AVRF_MAX_TRACES]
+type: constant
+description: Application verifier resource enumeration maximum number of back traces
+urls: ['https://msdn.microsoft.com/en-us/library/bb432193(v=vs.85).aspx']
+value: 32
+---
+name: back_trace_information
+aliases: [AVRF_BACKTRACE_INFORMATION]
+type: structure
+description: Application verifier resource enumeration back trace information
+urls: ['https://msdn.microsoft.com/en-us/library/bb432193(v=vs.85).aspx']
+members:
+- name: depth
+  aliases: [Depth]
+  data_type: uint32
+- name: index
+  aliases: [Index]
+  data_type: uint32
+- name: return_addresses
+  aliases: [ReturnAddresses]
+  type: sequence
+  element_data_type: uint64
+  number_of_elements: back_trace_information.maximum_number_of_back_traces
+  TODO: AVRF_MAX_TRACES is this an upper bound or a constant?
+---
+name: handle_operation
+aliases: [AVRF_HANDLE_OPERATION]
+type: structure
+description: Application verifier resource enumeration handle operation
+urls: ['https://msdn.microsoft.com/en-us/library/bb432193(v=vs.85).aspx']
+members:
+- name: handle
+  aliases: [Handle]
+  data_type: uint64
+- name: process_identifier
+  aliases: [ProcessId]
+  data_type: uint32
+- name: thread_identifier
+  aliases: [ThreadId]
+  data_type: uint32
+- name: operation_type
+  aliases: [OperationType]
+  data_type: uint32
+  TODO: handle_trace_operation_types
+- name: unknown1
+  aliases: [Spare0]
+  data_type: uint32
+- name: back_trace_information
+  aliases: [BackTraceInformation]
+  data_type: back_trace_information
+---
+name: handle_trace_operation_types
+aliases: [eHANDLE_TRACE_OPERATIONS]
+type: enumeration
+description: Application verifier resource enumeration handle trace operation types
+urls: ['https://msdn.microsoft.com/en-us/library/bb432251(v=vs.85).aspx']
+values:
+- name: OperationDbUnused
+  number: 0
+  description: Unused
+- name: OperationDbOPEN
+  number: 1
+  description: Open (create) handle operation
+- name: OperationDbCLOSE
+  number: 2
+  description: Close handle operation
+- name: OperationDbBADREF
+  number: 3
+  description: Invalid handle operation
