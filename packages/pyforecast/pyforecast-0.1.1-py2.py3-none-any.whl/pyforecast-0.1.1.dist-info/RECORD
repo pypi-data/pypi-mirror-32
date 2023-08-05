@@ -1,0 +1,9 @@
+forecast/__init__.py,sha256=OU1C7R9Qerdqdohlw8yXzBmK5nWsh4pKDJ2H0fdLki4,283
+forecast/api.py,sha256=7wIhNqNDC-c9zJ4d-RyIwsMvjMITDuexDR3kjZ7cyzk,5163
+forecast/cli.py,sha256=K5KFuv6ZsjCe0Q4qp5fNdVNwRPW7C2EiH3e1EFo3E1A,392
+forecast/models.py,sha256=TRq3a9tfjF8I3FEiRUGuFIWIIEt3GKDabpTLwGKXVrc,5731
+pyforecast-0.1.1.dist-info/METADATA,sha256=buzkcfeeSYffBkguSE_WHl60RV1jHLopU9AXYJIuJtw,3270
+pyforecast-0.1.1.dist-info/RECORD,,
+pyforecast-0.1.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+pyforecast-0.1.1.dist-info/entry_points.txt,sha256=iO1_aGEFXBhp3DW2uQboXaMqfnlL9qwoY095bOT4OhE,50
+pyforecast-0.1.1.dist-info/top_level.txt,sha256=fdo-3-XvphvBZe-VIkIRmfYbza0u6OwjsznEe88c7Ak,9
