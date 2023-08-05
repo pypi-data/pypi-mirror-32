@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: scheduler-todo
+Version: 0.0.2
+Summary: A scheduler command line program in Python.
+Home-page: https://github.com/jil8885/scheduler-cli
+Author: Jeongin Lee
+Author-email: jil8885@hanynag.ac.kr
+License: MIT LICENSE
+Keywords: cli,scheduler-cli
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Requires-Dist: termcolor
+
+Hanyang Class Registration
+================================
+Intro
+-----
+Scheduler for Python
+
+Installation
+-----------------
+
+::
+
+	pip install scheduler-cli
+
+Changelog
+-----------
+
+- v0.1 : Beta Version
+- v0.2 : add calender func and fix input bugs
+
