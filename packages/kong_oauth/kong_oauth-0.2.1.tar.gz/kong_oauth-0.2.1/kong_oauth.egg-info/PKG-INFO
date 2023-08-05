@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: kong-oauth
+Version: 0.2.1
+Summary: Basic oauth2 functionality for user with Kong
+Home-page: https://github.com/AppointmentGuru/AuthenticationGuru
+Author: Christo Crampton
+Author-email: christo@appointmentguru.co
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
