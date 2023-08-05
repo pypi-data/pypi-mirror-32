@@ -1,0 +1,14 @@
+# on my mac:
+export DL_PYTHON_HOOK_PATH=/Users/stefan/XenDrive/___VFX/FLAME_STUFF/FLAME_DEV/PYTHON/flame_python_projects/FlamePy_sg/flame_start
+#export DL_PYTHON_HOOK_PATH=/opt/flame_dev/flame_hooks_sg
+
+
+
+export DL_DEBUG_PYTHON_HOOKS=1
+
+# export PYTHONPATH="/Users/stefan/XenDrive/___VFX/FLAME_STUFF/FLAME_DEV/PYTHON/flame_python_projects/FlamePy_sg:$PYTHONPATH"
+
+
+
+
+

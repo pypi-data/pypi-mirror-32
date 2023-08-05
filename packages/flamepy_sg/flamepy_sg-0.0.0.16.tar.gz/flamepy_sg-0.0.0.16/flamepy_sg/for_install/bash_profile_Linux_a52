@@ -1,0 +1,18 @@
+
+
+# For Linux, @a52
+
+#setenv DL_PYTHON_HOOK_PATH /disks/nas0/CGI/R_n_D/work.stefan/src/flame/flame_hooks_sg
+setenv DL_PYTHON_HOOK_PATH /disks/nas0/CGI/R_n_D/work.stefan/src/flame/flame_start
+
+setenv DL_DEBUG_PYTHON_HOOKS 1
+
+
+
+
+
+
+
+
+
+
