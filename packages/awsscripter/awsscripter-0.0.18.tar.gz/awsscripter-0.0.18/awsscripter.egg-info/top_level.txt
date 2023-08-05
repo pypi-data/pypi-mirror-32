@@ -1,0 +1,6 @@
+awsscripter
+awsscripter/cli
+awsscripter/common
+awsscripter/hooks
+awsscripter/resolvers
+awsscripter/stack
