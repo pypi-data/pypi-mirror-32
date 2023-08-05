@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: caraml
+Version: 0.0.0
+Summary: caraml library.
+Home-page: UNKNOWN
+Author: Dr. F
+Author-email: UNKNOWN
+License: GPLv3
+Description-Content-Type: UNKNOWN
+Description: caraml
+        ======
+        
+        AI platform
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
