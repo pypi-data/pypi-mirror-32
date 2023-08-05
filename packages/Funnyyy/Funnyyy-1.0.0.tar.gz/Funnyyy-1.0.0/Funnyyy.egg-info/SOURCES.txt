@@ -1,0 +1,6 @@
+setup.py
+Funnyyy.egg-info/PKG-INFO
+Funnyyy.egg-info/SOURCES.txt
+Funnyyy.egg-info/dependency_links.txt
+Funnyyy.egg-info/top_level.txt
+test/testing.py
