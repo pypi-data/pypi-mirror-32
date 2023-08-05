@@ -1,0 +1,5 @@
+setup.py
+hdfs_to_clickhouse.egg-info/PKG-INFO
+hdfs_to_clickhouse.egg-info/SOURCES.txt
+hdfs_to_clickhouse.egg-info/dependency_links.txt
+hdfs_to_clickhouse.egg-info/top_level.txt
