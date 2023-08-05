@@ -1,0 +1,5 @@
+markdown
+opencv-contrib-python
+dlib
+sklearn
+numpy

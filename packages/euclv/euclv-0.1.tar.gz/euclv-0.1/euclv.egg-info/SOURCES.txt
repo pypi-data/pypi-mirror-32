@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+euclv/SVMK18.dat
+euclv/__init__.py
+euclv.egg-info/PKG-INFO
+euclv.egg-info/SOURCES.txt
+euclv.egg-info/dependency_links.txt
+euclv.egg-info/requires.txt
+euclv.egg-info/top_level.txt
+euclv.egg-info/zip-safe
