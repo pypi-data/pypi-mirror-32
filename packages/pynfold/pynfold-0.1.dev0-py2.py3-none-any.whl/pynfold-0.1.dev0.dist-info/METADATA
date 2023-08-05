@@ -1,0 +1,69 @@
+Metadata-Version: 2.0
+Name: pynfold
+Version: 0.1.dev0
+Summary: pynFold: implementation of various solutions to unfoldngand the inverse problem 
+Home-page: http://github.com/vincecr0ft/pynFold
+Author: Vince Croft
+Author-email: vincecroft@gmail.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Platform: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Requires: numpy
+Requires: matplotlib
+Requires: pymc
+Requires: scipy
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: pymc
+Requires-Dist: scipy
+
+
+PynFold
+========
+pynFold (pronounced pen-fold) is a pythonic implementation of (eventually)
+many of the RooUnfold ROOT Unfolding Framework aiming to compare unfolding
+methods with those provided outisde of high energy physics and to increase
+to robustness of a flexible re-usable codebase.
+
+The fbu algorithm implemented here is the fully basian unfolding method
+based code developed by Clement Helsens, Davide Gerbaudo, and Francesco Rubbo
+
+Unfolding relates to the problem of estimating probability distributions
+in cases where no parametric form is available,
+and where the data are subject to additional random fluctuations due
+to limited resolution.
+The same mathematics can be found under the general heading of
+inverse problems, and is also called deconvolution or unsmearing.
+
+This type of equation is also known as the Fredholm integral of the first kind.
+The Kernel K, acts as a smoothing matrix in the forward detector and
+we can interpret its elements as a matrix of probabilites,
+strictly positive between 0 and one.
+Inverting the matrix (if possible) resutls in strictly non-probabilistic terms
+that, instead of smothing, add large high frequency components due to
+arbitrarily small fluctuations.
+The goal of unfolding is to impose some knowledge about the smoothness of this
+matrix onto the inversion to suppress such high frequency elements.
+
+This project is currently under development.
+If you would like to be involved please contact vincent.croft at cern.ch.
+
+License
+=======
+``pynfold`` is licensed under the terms of the MIT license. See the file
+"LICENSE" for information on the history of this software, terms & conditions
+for usage, and a DISCLAIMER OF ALL WARRANTIES.
+
+All trademarks referenced herein are property of their respective holders.
+
+Copyright (c) 2018--, Vincent Alexander Croft,
+New York University Department of Physics and DIANA-HEP
+
+
