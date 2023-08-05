@@ -1,0 +1,12 @@
+pandas
+numpy
+jinja2
+click
+configparser
+matplotlib
+
+[dev]
+check-manifest
+
+[test]
+coverage
