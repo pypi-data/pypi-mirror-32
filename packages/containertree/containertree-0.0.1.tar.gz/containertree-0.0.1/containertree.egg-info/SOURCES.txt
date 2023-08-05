@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+containertree/__init__.py
+containertree/tree.py
+containertree/version.py
+containertree.egg-info/PKG-INFO
+containertree.egg-info/SOURCES.txt
+containertree.egg-info/dependency_links.txt
+containertree.egg-info/not-zip-safe
+containertree.egg-info/requires.txt
+containertree.egg-info/top_level.txt
