@@ -1,0 +1,3 @@
+[console_scripts]
+airbnb_script = airbnb_script.airbnb_script:BESTSCRIPT
+
