@@ -1,0 +1,12 @@
+django_ftl/__init__.py,sha256=DsAHdxLC16H2VjdFOU5tBx2xT9VnNQ-XbTS24fRCa_w,22
+django_ftl/apps.py,sha256=6m6q1fYLkJrADa5eRoz4C7vJS5rbZit7hC_pJo3-RSM,114
+django_ftl/models.py,sha256=O9CT1B2F-cVB8elT0EoCJbgkcffjvlmqteqavs4giDg,25
+django_ftl/urls.py,sha256=DaD8zdSvc3XoDBM3OelfjOEPuqBPbV1KpXzko8V2_Sk,235
+django_ftl/views.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_ftl/static/css/django_ftl.css,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_ftl/static/js/django_ftl.js,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_ftl/templates/django_ftl/base.html,sha256=zzaUPjEgvwxg-Gn2rZ6gIMWphucmEGvAU_skUXJIcDA,661
+django_ftl-0.0.1.dist-info/METADATA,sha256=Cznfc-G9hFEAJj03slRS7JQLqAV5bq60HGieuntK24w,2243
+django_ftl-0.0.1.dist-info/RECORD,,
+django_ftl-0.0.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+django_ftl-0.0.1.dist-info/top_level.txt,sha256=m1IMDmzhigel_NXJRWQfmbHVMoxoNIeM17hmiBIec6s,11
