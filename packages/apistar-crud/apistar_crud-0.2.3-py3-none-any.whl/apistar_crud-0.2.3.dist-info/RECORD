@@ -1,0 +1,11 @@
+apistar_crud/__init__.py,sha256=OAdEns3uLblC5fL-hoavrCTCMIp83D6ooZLung_ML-g,237
+apistar_crud/base.py,sha256=t00KiXVzgkvDeAol1SugnTe_qcPmgSV81P7WaLBtIqo,2937
+apistar_crud/sqlalchemy.py,sha256=8q6nLFhU5mnMnlrWfEM5ivwnHjRdFo6bgRepA471wjE,2941
+apistar_crud/__pycache__/__init__.cpython-36.pyc,sha256=exvKLIrFOhEIUYPz9IOzlNWxFf28BLaozwzo7ZrpDPE,406
+apistar_crud/__pycache__/base.cpython-36.pyc,sha256=LXmpDhGkUfiWdALrJx_I1tXjNzC0tTvU9gwcMUEbFCM,3461
+apistar_crud/__pycache__/sqlalchemy.cpython-36.pyc,sha256=Zbj_mNF-41SQnDyimGuzt05kQblsdhWqr0SEwAdr6ko,3830
+apistar_crud-0.2.3.dist-info/LICENSE.txt,sha256=72v-FkwO90Rmi85KN3QFvWTsqffEGzxKobZlrg0wt1Q,35163
+apistar_crud-0.2.3.dist-info/METADATA,sha256=jwADkAWZ6rWVJA2Pm504OZEetRsDKStgAAhcg4dl5xc,3488
+apistar_crud-0.2.3.dist-info/RECORD,,
+apistar_crud-0.2.3.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+apistar_crud-0.2.3.dist-info/top_level.txt,sha256=Tq4ouEnj9mVt1IapqSifbpQ1r9Iy6KD5h81Qaz18RT4,13
