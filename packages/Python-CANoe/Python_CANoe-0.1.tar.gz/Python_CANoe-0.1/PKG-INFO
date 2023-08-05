@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: Python_CANoe
+Version: 0.1
+Summary: Control Vector CANoe API by Python
+Home-page: https://github.com/hmq2018/Python-Vector-CANoe
+Author: Hz
+Author-email: weld83@126.com
+License: MIT
+Description: Call Vector CANoe API by Python
+Keywords: pip,Vector,CAPL,CANoe,API,Python
+Platform: any
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*

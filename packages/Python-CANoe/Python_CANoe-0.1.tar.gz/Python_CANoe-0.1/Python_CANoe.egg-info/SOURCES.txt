@@ -1,0 +1,10 @@
+README.md
+setup.py
+CANoe/Python_CANoe.py
+CANoe/__init__.py
+Python_CANoe.egg-info/PKG-INFO
+Python_CANoe.egg-info/SOURCES.txt
+Python_CANoe.egg-info/dependency_links.txt
+Python_CANoe.egg-info/not-zip-safe
+Python_CANoe.egg-info/requires.txt
+Python_CANoe.egg-info/top_level.txt
