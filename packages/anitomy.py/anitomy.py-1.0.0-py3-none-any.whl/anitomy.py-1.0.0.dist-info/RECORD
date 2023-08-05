@@ -1,0 +1,13 @@
+anitomy.py-1.0.0.dist-info/METADATA,sha256=JtBLjOnECb_J-352d2JCu1nLl4qi2Rtz-aGZ4qp77cI,699
+anitomy.py-1.0.0.dist-info/RECORD,,
+anitomy.py-1.0.0.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+anitomy.py-1.0.0.dist-info/top_level.txt,sha256=zlkyuUDXtfgxpY7zHYWnhOIYD2T1yaRUV8-k28Xt5cM,8
+anitopy/__init__.py,sha256=2WQ3UKkwd50jkovp85_l9I8lUT0qSe4XLXy7ZhHVgDg,359
+anitopy/anitopy.py,sha256=gFKOr8OmDWHlFUPZpsheP4wEz3bxWv544KDw1fSIiZg,2878
+anitopy/element.py,sha256=uTvzKTYo7K7KueKY3KE1jiLz24sbw6W3DZBsp3VVq_c,4059
+anitopy/keyword.py,sha256=wypJvrDTp7MWN1azU08yKtflL22UbgOnybmnIAVfpcY,7627
+anitopy/parser.py,sha256=SFs0llXO1f4_vIJS9gVoug-cV_m7UO_nj56u2bjGuc8,13284
+anitopy/parser_helper.py,sha256=1Fgzdww-dDhIx8u0ZbzquSU3JD_-A-3AhXsWTbo3cOk,4042
+anitopy/parser_number.py,sha256=xk7B3rB414pN7rusF82FVPjErYBnF3ySge3mRs-HTNE,16366
+anitopy/token.py,sha256=oDC1z7in7crgpOPOpa_1R34aobleQmXK5Ht6pm0VuaY,5446
+anitopy/tokenizer.py,sha256=DQHA5bisoDIdCBh9KBytvQ6lci5XnwmxDBoyM8dFpTI,7665

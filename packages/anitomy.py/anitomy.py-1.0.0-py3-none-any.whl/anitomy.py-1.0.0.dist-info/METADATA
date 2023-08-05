@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: anitomy.py
+Version: 1.0.0
+Summary: An anime video filename parser
+Home-page: https://git.widmer.me/project/multimedia/anitopy
+Author: Igor Cescon de Moura
+Author-email: igorcesconm@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=2.7
+
+UNKNOWN
+
+
