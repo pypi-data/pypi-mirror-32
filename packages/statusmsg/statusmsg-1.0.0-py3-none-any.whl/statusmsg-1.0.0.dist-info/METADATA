@@ -1,0 +1,21 @@
+Metadata-Version: 2.0
+Name: statusmsg
+Version: 1.0.0
+Summary: Status message decorator and context manager
+Home-page: http://github.com/bmoscon/statusmsg
+Author: Bryant Moscon
+Author-email: bmoscon@gmail.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.5
+
+Colorful status message decorator and context manager
+
+
