@@ -1,0 +1,12 @@
+.gitignore
+.travis.yml
+LICENSE
+README.md
+setup.py
+root_ufunc/__init__.py
+root_ufunc/version.py
+root_ufunc.egg-info/PKG-INFO
+root_ufunc.egg-info/SOURCES.txt
+root_ufunc.egg-info/dependency_links.txt
+root_ufunc.egg-info/requires.txt
+root_ufunc.egg-info/top_level.txt
