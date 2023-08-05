@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: cfgur
+Version: 0.1.2
+Summary: Load environment vars, and command line arguments in a predictable, standardized way
+Home-page: https://github.com/Brayyy/cfgur-py
+Author: Bray Almini
+Author-email: bray@coreforge.com
+License: UNKNOWN
+Download-URL: https://github.com/Brayyy/cfgur-py/tarball/0.1.2
+Description: UNKNOWN
+Keywords: environment,arguments,env,args
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

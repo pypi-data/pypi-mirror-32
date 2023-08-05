@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+cfgur/__init__.py
+cfgur.egg-info/PKG-INFO
+cfgur.egg-info/SOURCES.txt
+cfgur.egg-info/dependency_links.txt
+cfgur.egg-info/top_level.txt
