@@ -1,0 +1,19 @@
+# we want to make sure it is run on trusty where sudo is provided for postgres
+dist: trusty
+language: python
+python: 3.6-dev
+sudo: required
+env:
+    - ES_VERSION=6
+
+cache:
+  directories:
+    - eggs
+install:
+  - pip install -e .[test]
+  - pip install git+https://github.com/plone/guillotina.git@indexing-updates
+script:
+  - pytest -s --cov=guillotina_elasticsearch -v --cov-report term-missing guillotina_elasticsearch
+after_success:
+  - pip install coveralls
+  - coveralls
