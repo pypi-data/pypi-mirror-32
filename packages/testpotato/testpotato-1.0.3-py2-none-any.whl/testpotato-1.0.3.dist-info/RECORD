@@ -1,0 +1,16 @@
+potatodat/__init__.py,sha256=I7vi1Lvhz4xWg1_z7ra-6naiV7ZN-A_1dzVFelYk6MQ,246
+potatodat/category.py,sha256=iyQ4jAw_qtCkmUc3EM1BMJhCa8ogPJDqi6VfI1tdrDA,817
+potatodat/db.py,sha256=0Ca1iyEEnn3Xhvsnae9pB_9vcB2DP7JDxxljczShRik,1414
+potatodat/detail.py,sha256=Z4sGzKeT8pBayyi4mSRE6tkneKmwwVgHD7W2sjskwPw,1114
+potatodat/find.py,sha256=5JSOofuEWNhLZbiKNdCv5lzbJ2pu78Q1zq7-v0h90es,1097
+potatodat/make.py,sha256=scvVvwUD0uzDDlYlOENirdi6WyUFL-wrJGksbODimrM,1464
+potatodat/modify.py,sha256=4T6zX43RF4z8yByGTJhRCcgI8-ADmEfCX_hw0rBZCvk,1704
+potatodat/page.py,sha256=1Yh7bdzZfPsqWj0S4MmD5VTF0Mg9lXrOH5jjVn1Suto,750
+potatodat/plan.py,sha256=RDAkbUuk_S8s60k9fiUJtqbyv4ubevgPK99i_zRnVGI,3186
+potatodat/potato.py,sha256=E1XTBd90M8OJttHUa4g6YVeTaqI_AFVRAqeRTHnJyeE,1599
+potatodat/remove.py,sha256=zo_7ZZYWvfc8GP9yMqaw9kO51DzfXYaMZ1nVx_7hoxc,537
+testpotato-1.0.3.dist-info/METADATA,sha256=7sH1sxDN9x3mMHRb5VEACrXKk7EI_N2HCTb0oAwp7WA,195
+testpotato-1.0.3.dist-info/RECORD,,
+testpotato-1.0.3.dist-info/WHEEL,sha256=9xUnOISuCvrSyfu9GlFZT4i2TZ_2OLkwLNqcDvIo3zM,92
+testpotato-1.0.3.dist-info/entry_points.txt,sha256=qhZ-Z4HYxbKrc0ZG5gNRlGnKVa-j3B0ImyXa7eynJLg,84
+testpotato-1.0.3.dist-info/top_level.txt,sha256=0heeTLJ3giV259MYlEWOxFCO5CJhOjX_DDALs8Eq1AA,10
