@@ -1,0 +1,12 @@
+dotmesh/client.py,sha256=zfk1ZqdltQhpilFIAjAwlZJxMPdv36aBGkii-vitxwg,4870
+dotmesh/__init__.py,sha256=QVLuIzxZ5IM5Mq1Tbb_seT9SHs0uwhz1NvKUC_jtLDI,198
+dotmesh/__version__.py,sha256=fkOEvUxjL0wsBBd9jILShVvwodX7iXTvUdTZ1CWyBjo,256
+api/client.py,sha256=bPHO_iD9k9VdCt2_ZCSqM2Vvz7-FQEiivvIulprJ4Jg,4351
+api/__init__.py,sha256=prHl7PeMT5NJ19gAMHkJzzQRkeLbNSFSH1YgN6Z8688,214
+api/__version__.py,sha256=zzmkTATMS7Ipi-WHfbKSK28l2h1IRkWJ9VIbBuqvu7s,256
+datadots_api-0.1.4.dist-info/RECORD,,
+datadots_api-0.1.4.dist-info/metadata.json,sha256=K5mFA7NpDuV-oUv2BzqBCmmwJD1aT-YKvVnuEqTdzF0,532
+datadots_api-0.1.4.dist-info/WHEEL,sha256=-aSo8rHuuPDEFzkcqqQ55pDyCjy25bYMLxSiHWKAOTc,92
+datadots_api-0.1.4.dist-info/DESCRIPTION.rst,sha256=pz2vQmAwnBGQcoHhF6HWkXvUEIehTvhA16qQaKBW7cQ,7695
+datadots_api-0.1.4.dist-info/top_level.txt,sha256=RfQV0xsCJDkAJ1A_zs-EW1QLRVvcrj9mle2P9xHmDII,8
+datadots_api-0.1.4.dist-info/METADATA,sha256=W0BTv0BKVoi3S5WFIqK8VQb3y8UuBLAeHrtsyRx9GYg,8034
