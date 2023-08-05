@@ -1,0 +1,10 @@
+marshmallow_jsonapi/__init__.py,sha256=oU0T3KxnllnkvKULpLhzLt50qs_OKfBod7b6o7ZrTAI,182
+marshmallow_jsonapi/exceptions.py,sha256=hY0NHBiSDaW5jG5Aw2Nhld6SrZ07s-C7yLHWTkfnoWM,1092
+marshmallow_jsonapi/fields.py,sha256=Zj8a5ytNhg1qdy_yxSF3h0_wiKhEX6zkkHKxyg9XU1U,13050
+marshmallow_jsonapi/flask.py,sha256=iSAD9yhYfhj8TASLv3mCvo-QZbBzwQARepruJTv13BM,5112
+marshmallow_jsonapi/schema.py,sha256=RzGQFPHfodjuhrdFADFp5HvFJX_TJeAqtWO87OTq8t0,15561
+marshmallow_jsonapi/utils.py,sha256=IX3BB2u3Gw32HY-sOc3RzYxO8DE7xCZSDTBk6amTjgk,1693
+marshmallow_jsonapi-0.18.0.dist-info/METADATA,sha256=dFB6Q5fmuSwKh2yJgJczDYODRcQ4El1rqdN8G35yrR4,3808
+marshmallow_jsonapi-0.18.0.dist-info/RECORD,,
+marshmallow_jsonapi-0.18.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+marshmallow_jsonapi-0.18.0.dist-info/top_level.txt,sha256=De9SvWtr_a7cEeEYyZDIjB8HVEmAAIROxD2AWqopGik,20
