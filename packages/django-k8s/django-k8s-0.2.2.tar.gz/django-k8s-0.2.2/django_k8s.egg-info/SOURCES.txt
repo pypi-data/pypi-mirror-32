@@ -1,0 +1,8 @@
+README.rst
+setup.py
+django_k8s/manage.py
+django_k8s/version.py
+django_k8s.egg-info/PKG-INFO
+django_k8s.egg-info/SOURCES.txt
+django_k8s.egg-info/dependency_links.txt
+django_k8s.egg-info/top_level.txt
