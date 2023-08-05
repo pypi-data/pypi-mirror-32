@@ -1,0 +1,8 @@
+pybaseconv/__init__.py,sha256=MalWNwFGIxOdxCdIghLTvIMjtjBpIdAX__GqFzMlFVQ,59
+pybaseconv/converter.py,sha256=qaoqAAbt8YHIR4pyrxYXKM-SOy_hPxThJO9BVDtCiDE,2760
+pybaseconv-0.0.1.dist-info/METADATA,sha256=4IeJqu7fbsitQSxstNGz7A7iUvWm6PbJklwwPx15XkM,2219
+pybaseconv-0.0.1.dist-info/RECORD,,
+pybaseconv-0.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pybaseconv-0.0.1.dist-info/top_level.txt,sha256=oWKkTJKAlZL7luEA7JXCqXIo0QNvsUvcoLwcpbxbiJY,17
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_converter.py,sha256=WlY4XTKDjT17218Aq2OkvwD8qeqKu8LDgOPsqqQAhJ8,5197
