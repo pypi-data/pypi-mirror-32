@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: setuptools-antlr
+Version: 0.1.1
+Summary: Setuptools command for generating ANTLR based parsers.
+Home-page: https://github.com/ferraith/setuptools-antlr
+Author: Andreas Schmidl
+Author-email: Andreas.Schmidl@gmail.com
+License: MIT
+Keywords: antlr setuptools dsl
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+
+UNKNOWN
+
+
