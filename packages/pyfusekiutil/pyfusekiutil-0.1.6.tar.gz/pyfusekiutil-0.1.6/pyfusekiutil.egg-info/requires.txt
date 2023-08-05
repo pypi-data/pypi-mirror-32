@@ -1,0 +1,5 @@
+pygsheets
+rdflib
+SPARQLWrapper
+requests
+skosify
