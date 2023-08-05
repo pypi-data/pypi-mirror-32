@@ -1,0 +1,46 @@
+{% extends "bee_django_course/user_base.html" %}
+{% load bee_django_course_filter %}
+{% block content %}
+
+    <h4>{{ ucs.section.name }}</h4>
+
+
+    {% for e in ucs.section.sectionvideo_set.all %}
+        <div>
+            {{ e.video.title }}
+            <iframe src="{{ e.video.video_id | get_video_src }}" frameborder="0" width="100%" height="100%"></iframe>
+            {{ e.video.info | linebreaks }}
+        </div>
+    {% endfor %}
+
+
+    <p>
+        {{ ucs.section.info | safe }}
+    </p>
+
+    {% for attach in ucs.section.sectionattach_set.all %}
+        <div>
+            <span class="text-danger">教材：</span>
+            <a href="{{ attach.file.url }}">
+                {{ attach.file_name }}
+            </a>
+        </div>
+    {% endfor %}
+
+    {% if ucs.section.has_textwork %}
+        <h5>文字作业：{{ ucs.section.textwork_info }}</h5>
+    {% endif %}
+
+    {% if ucs.section.has_imagework %}
+        <h5>图片作业：需要上传{{ ucs.section.image_count_req }}张图片</h5>
+    {% endif %}
+
+    {% if ucs.section.has_videowork %}
+        <h5>视频作业：需要录制{{ ucs.section.video_length_req }}分钟的作业</h5>
+    {% endif %}
+
+    {% if request.user == ucs.user_course.user %}
+        <a href="{% url 'bee_django_course:user_assignment' ucs_id=ucs.id %}" class="btn btn-info">去做作业</a>
+    {% endif %}
+
+{% endblock content %}
