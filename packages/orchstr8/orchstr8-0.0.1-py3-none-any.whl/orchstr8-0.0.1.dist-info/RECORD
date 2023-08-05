@@ -1,0 +1,10 @@
+orchstr8/__init__.py,sha256=7VnP819Un8HgGnRkWN4qJgbkNnC5ulYOieNFH-a-bdQ,87
+orchstr8/cli.py,sha256=oYlKMEJKTzW2yGYiDAI5T2wf8Ox4GUNTRPRkA6O2jTM,801
+orchstr8/fixture.py,sha256=hjAvhJajrPDMTIELZOuXIsFJaKtUn_6Q9F6GCYc79XE,3223
+orchstr8/services.py,sha256=5iJQWP_Lq74mXFWYJTxCzDmEK5-eAq7zNWTrjyXqLgg,10229
+orchstr8/testcase.py,sha256=ILrd4-PsemV9yXik8Qh0LGo2Z_WjZ1enn1WflkISA50,1808
+orchstr8-0.0.1.dist-info/METADATA,sha256=Po6zW6SNpT-lKPulfoqhDqmxdSXyvDVHstpdqz8PlbE,1069
+orchstr8-0.0.1.dist-info/RECORD,,
+orchstr8-0.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+orchstr8-0.0.1.dist-info/entry_points.txt,sha256=EcoJrnCzNuoPYnD9_MsRTjrAQG6sllXXjdnk6HmUfIk,48
+orchstr8-0.0.1.dist-info/top_level.txt,sha256=Rz-NZcCZ-E7TFYOAWpZG54AnePwUwXsskOdLDnT9aeA,9
