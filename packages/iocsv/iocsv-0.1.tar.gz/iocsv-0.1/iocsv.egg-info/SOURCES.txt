@@ -1,0 +1,9 @@
+README.txt
+setup.py
+iocsv/__init__.py
+iocsv/readWrite.py
+iocsv.egg-info/PKG-INFO
+iocsv.egg-info/SOURCES.txt
+iocsv.egg-info/dependency_links.txt
+iocsv.egg-info/not-zip-safe
+iocsv.egg-info/top_level.txt
