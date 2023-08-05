@@ -1,0 +1,8 @@
+docker_auto_labels/__init__.py,sha256=gIEjMe9K-leRlzImUoZu4nhR0iykAbxdeV3AqvY-Uf4,166
+docker_auto_labels/cli.py,sha256=0Ko0QHXw0VATx1d8Zh1utLkP4paWKfWBs5JMb90Wd8s,958
+docker_auto_labels/docker_auto_labels.py,sha256=WWhd7WAWDCG6pwtFhWLlKUGqwpJoTv3_7f7M_owvD9A,3332
+docker_auto_labels-0.1.5.dist-info/METADATA,sha256=rIPkH9yooTX5WiHVexND1pS7rAamOebrDpIy3qk_lps,3392
+docker_auto_labels-0.1.5.dist-info/RECORD,,
+docker_auto_labels-0.1.5.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+docker_auto_labels-0.1.5.dist-info/entry_points.txt,sha256=sVs3qMvD4vNh7N3a-LWF9hCDh4FIGwSzLsVEum8yAUU,68
+docker_auto_labels-0.1.5.dist-info/top_level.txt,sha256=9DEGDk_vt6OBz2YnkJKf0inJKTYegCSjnhgnemGNaWk,19
