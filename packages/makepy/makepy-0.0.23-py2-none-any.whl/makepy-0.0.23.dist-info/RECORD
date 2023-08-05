@@ -1,0 +1,17 @@
+makepy/__init__.py,sha256=Ax9BWUbJfHbOiRarLk0Y1L3Se7LSFNe7JvUmfCNFky8,281
+makepy/__main__.py,sha256=qghJv9ouu-u4kS66WNUJHYwYTRAnF6cJsVxpcl_ww_Y,256
+makepy/_datafiles.py,sha256=ToKN2S7a73hRGkCKK70le8NbPwbykH_CsXvrqbX492Q,1239
+makepy/_makefiles.py,sha256=UCb9sSTZIbZsEF6YQYVBioIFgg43V04Q3g0bamiaiX0,8700
+makepy/_templates.py,sha256=DmSYTc85cu8Wk_GYpwiEL1sGHQ6uOM7sw_i_UXBNCQA,4575
+makepy/argparse.py,sha256=GiDVx-slgitABaMb8bfmD3VSjlbVxvQQxtvQJT8ZaQ4,4474
+makepy/cli.py,sha256=E93HBzjNg8uzZHett7RpplKjINyPCunjBd16nVyF6wA,16185
+makepy/mainlog.py,sha256=gvOQCNN57ytBeKRW6B9Nb0kPFchOwOZ0PTvvFwsBuHs,4042
+makepy/project.py,sha256=ZK78Ob0i7VxXIoX9X_3whsVG3z0PmWGXd9k6lZzONX8,6740
+makepy/shell.py,sha256=ol4ZZZDkP0ycd2WrKEgTFV7BsWYvWh_a99X1OFlRB10,3828
+makepy/tox.py,sha256=qsR8ZSdI2LRSCaB4btk7I0rgcuwT5bz-Ob-HouN9DMc,501
+makepy-0.0.23.dist-info/LICENSE.txt,sha256=XzeBGDKiKAmMRd54IRd7QHpWO8vHL9_RV3n5g3jJ5Ss,1065
+makepy-0.0.23.dist-info/METADATA,sha256=8bsTVveix29RNOhVaKRI2whhQaNWC_WuFzvas8lY8dE,11462
+makepy-0.0.23.dist-info/RECORD,,
+makepy-0.0.23.dist-info/WHEEL,sha256=9xUnOISuCvrSyfu9GlFZT4i2TZ_2OLkwLNqcDvIo3zM,92
+makepy-0.0.23.dist-info/entry_points.txt,sha256=-5SbAmcenrOXdq_ZsXv9LzlB0fzp-6qgE6l9BPDrYRY,44
+makepy-0.0.23.dist-info/top_level.txt,sha256=XQcoAPjQUc3FcCMZKNfkh6tG3dSBm6pSYjtkho6hfm0,7
