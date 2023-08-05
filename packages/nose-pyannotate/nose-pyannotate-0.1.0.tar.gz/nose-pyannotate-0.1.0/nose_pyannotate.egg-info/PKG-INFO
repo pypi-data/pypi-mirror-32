@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: nose-pyannotate
+Version: 0.1.0
+Summary: Pyannotate plugin for nose
+Home-page: https://github.com/xiaket/nose-pyannotate
+Author: Kai Xia
+Author-email: xiaket@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: nose,nosetest,pyannotate
+Platform: UNKNOWN
