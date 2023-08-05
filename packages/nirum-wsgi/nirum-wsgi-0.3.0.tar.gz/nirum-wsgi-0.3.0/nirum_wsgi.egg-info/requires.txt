@@ -1,0 +1,14 @@
+nirum>=0.6.3
+six
+Werkzeug<1.0,>=0.11
+
+[:python_version<'3.5']
+typing
+
+[tests]
+flake8-import-order<1.0,>=0.17.1
+flake8-import-order-spoqa<2.0.0,>=1.4.0
+pycodestyle<2.4.0
+pytest<4.0.0,>=3.5.1
+pytest-flake8<1.1.0,>=1.0.1
+requests-mock<1.6.0,>=1.5.0
