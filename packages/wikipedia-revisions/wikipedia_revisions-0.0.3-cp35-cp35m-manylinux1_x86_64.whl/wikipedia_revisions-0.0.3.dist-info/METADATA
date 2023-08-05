@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: wikipedia-revisions
+Version: 0.0.3
+Summary: A high performance Wikipedia revision dump parser
+Home-page: UNKNOWN
+Author: Kensho Technologies, LLC.
+License: Apache 2.0
+Keywords: wikimedia wikipedia
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.5
+
+UNKNOWN
+
+
