@@ -1,0 +1,31 @@
+Metadata-Version: 1.0
+Name: ldm
+Version: 0.0.2
+Summary: get the landmars of the face in the image
+Home-page: http://www.zhaomingming.cn
+Author: zhaomingming
+Author-email: 13271929138@163.com
+License: MIT
+Description-Content-Type: text/markdown
+Description: # ldm 
+        version:0.0.1
+        ldm=landmarks
+        you can usr a function to get landmarks with no other libs
+        like this:
+        ```
+        # pip install gldm
+        from gldm import landmarks
+        from skimage import io
+        
+        imagepath="closed_eye/10.jfif"
+        
+        img=io.imread(imagepath)
+        ldl,txt=landmarks(img)
+        print txt
+        for ld in ldl:
+            print ld['nose'] 
+        ```  
+        20180524
+        anjiang
+        
+Platform: any
