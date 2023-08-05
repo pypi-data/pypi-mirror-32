@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+freya/__init__.py
+freya.egg-info/PKG-INFO
+freya.egg-info/SOURCES.txt
+freya.egg-info/dependency_links.txt
+freya.egg-info/top_level.txt

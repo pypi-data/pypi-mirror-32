@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: freya
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/zeegin/freya
+Author: Ingvar Vilkman
+Author-email: zeegin@zeegin.com
+License: MIT License
+Download-URL: https://github.com/zeegin/freya
+Description: # Freya
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Requires: python (>= 3.6)
