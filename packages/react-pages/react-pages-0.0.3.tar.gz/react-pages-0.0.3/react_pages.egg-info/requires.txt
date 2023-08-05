@@ -1,0 +1,6 @@
+click
+crayons
+halo
+
+[django integration]
+django
