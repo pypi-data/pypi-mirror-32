@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: genespider4python
+Version: 0.1
+Summary: The python translation of the MATLAB genespider package.
+Home-page: https://gitlab.com/Xparx/genespider4python
+Author: Andreas Tjärnberg
+Author-email: andreas.tjarnberg@fripost.org
+License: LGPL
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3

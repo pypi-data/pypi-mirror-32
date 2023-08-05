@@ -1,0 +1,16 @@
+README.md
+setup.py
+genespider4python.egg-info/PKG-INFO
+genespider4python.egg-info/SOURCES.txt
+genespider4python.egg-info/dependency_links.txt
+genespider4python.egg-info/not-zip-safe
+genespider4python.egg-info/requires.txt
+genespider4python.egg-info/top_level.txt
+gspy/__init__.py
+gspy/data.py
+gspy/junk_func.py
+gspy/linear_model.py
+gspy/load.py
+gspy/metrics.py
+gspy/model_selection.py
+gspy/properties.py
