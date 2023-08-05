@@ -1,0 +1,1 @@
+versionFromGradle='3.18.0',projectVersion='3.18.0.1',branch='rel-wolpert',lastCommitHash='e28b85654e8808337e6ca2b30b17675dba9a947f',gitDescribe='jenkins-master-4201-8-ge28b856',compiledOn='2018-02-13 04:37:57',compiledBy='jenkins'
