@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: jingd
+Version: 0.0.1
+Summary: jingd auth Service Library
+Home-page: https://github.com/
+Author: wangzhihao.sh
+Author-email: zhouheng@gene.ac
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: Jingdu password Service.
+Keywords: jingd
+Platform: UNKNOWN

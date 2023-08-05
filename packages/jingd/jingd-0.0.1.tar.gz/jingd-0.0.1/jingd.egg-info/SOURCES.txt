@@ -1,0 +1,9 @@
+setup.py
+jingd/__init__.py
+jingd/usermod.py
+jingd.egg-info/PKG-INFO
+jingd.egg-info/SOURCES.txt
+jingd.egg-info/dependency_links.txt
+jingd.egg-info/entry_points.txt
+jingd.egg-info/requires.txt
+jingd.egg-info/top_level.txt
