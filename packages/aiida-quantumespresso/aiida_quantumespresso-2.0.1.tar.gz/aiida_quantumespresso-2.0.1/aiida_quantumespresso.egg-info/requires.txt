@@ -1,0 +1,10 @@
+aiida_core>=0.12.0[atomic_tools]
+click
+
+[dev_precommit]
+pre-commit
+
+[docs]
+Sphinx
+docutils
+sphinx_rtd_theme
