@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+mount.py
+requirements.txt
+setup.py
+satori_fuse.egg-info/PKG-INFO
+satori_fuse.egg-info/SOURCES.txt
+satori_fuse.egg-info/dependency_links.txt
+satori_fuse.egg-info/entry_points.txt
+satori_fuse.egg-info/requires.txt
+satori_fuse.egg-info/top_level.txt
