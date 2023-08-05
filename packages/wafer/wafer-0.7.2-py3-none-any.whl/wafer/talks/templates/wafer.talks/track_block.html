@@ -1,0 +1,8 @@
+{% load talk_info %}
+<div id="wafer-talk-tracks">
+    {% for track in tracks %}
+    <ul>
+       <li>{{ track.name }} &mdash; {{ track.description }}</li>
+    </ul>
+    {% endfor %}
+</div>

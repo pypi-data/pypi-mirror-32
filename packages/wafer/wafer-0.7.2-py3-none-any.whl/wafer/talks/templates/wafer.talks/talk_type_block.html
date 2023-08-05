@@ -1,0 +1,8 @@
+{% load talk_info %}
+<div id="wafer-talk-types">
+    {% for type in types %}
+    <ul>
+       <li>{{ type.name }} &mdash; {{ type.description }}</li>
+    </ul>
+    {% endfor %}
+</div>
