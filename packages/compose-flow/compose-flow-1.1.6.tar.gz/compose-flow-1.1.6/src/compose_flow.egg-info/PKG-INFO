@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: compose-flow
+Version: 1.1.6
+Summary: codified workflows for docker compose
+Home-page: https://github.com/openslate/compose-flow
+Author: OpenSlate
+Author-email: code@openslate.com
+License: UNKNOWN
+Description-Content-Type: text/plain
+Description: see readme at github
+Platform: UNKNOWN
