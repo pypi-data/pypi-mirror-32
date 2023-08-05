@@ -1,0 +1,4 @@
+oidcmsg
+fedoidcmsg>=0.7.3
+oidcendpoint>=0.2.0
+cryptojwt
