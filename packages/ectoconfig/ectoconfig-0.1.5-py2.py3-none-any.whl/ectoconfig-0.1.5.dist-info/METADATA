@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: ectoconfig
+Version: 0.1.5
+Summary: Utility for reading configuration from multiple sources.
+Home-page: https://github.com/ectopy/ectoconf
+Author: Brian Wiborg
+Author-email: b.wiborg@blunix.org
+License: Apache-2.0
+Keywords: ecto config configfile config-file env 12-factor argparse optparse
+Platform: UNKNOWN
+Provides-Extra: click
+Provides-Extra: dev
+Requires-Dist: pyyaml
+Requires-Dist: toml
+Provides-Extra: click
+Requires-Dist: click; extra == 'click'
+Provides-Extra: dev
+Requires-Dist: flake8; extra == 'dev'
+Requires-Dist: nose2; extra == 'dev'
+Requires-Dist: nose2[coverage_plugin]; extra == 'dev'
+Requires-Dist: parameterized; extra == 'dev'
+Requires-Dist: pylint; extra == 'dev'
+Requires-Dist: twine; extra == 'dev'
+
+EctoConfig - Configuration for Human-Beings
+===========================================
+
+For more information see:
+- https://github.com/ectopy/EctoConfig/blob/master/README.md
+
+
