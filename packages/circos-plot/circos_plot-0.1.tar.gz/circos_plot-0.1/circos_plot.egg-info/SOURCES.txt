@@ -1,0 +1,8 @@
+circos_plot.py
+setup.py
+circos_plot.egg-info/PKG-INFO
+circos_plot.egg-info/SOURCES.txt
+circos_plot.egg-info/dependency_links.txt
+circos_plot.egg-info/entry_points.txt
+circos_plot.egg-info/requires.txt
+circos_plot.egg-info/top_level.txt

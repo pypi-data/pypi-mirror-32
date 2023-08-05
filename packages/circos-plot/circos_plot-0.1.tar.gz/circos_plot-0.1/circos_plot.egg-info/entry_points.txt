@@ -1,0 +1,3 @@
+
+        [console_scripts]
+        circos_plotter=circos_plot:circosplot
