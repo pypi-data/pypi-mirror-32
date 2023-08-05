@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: PyRoget
+Version: 0.0.1
+Summary: Python implementation of Roget's thesaurus
+Home-page: https://github.com/jameswenzel/roget-tools
+Author: James Wenzel & Phillip R. Polefrone
+Author-email: jameswenzel@berkeley.edu
+License: GNU
+Download-URL: https://github.com/jameswenzel/roget-tools/tarball/0.0.1
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Keywords: roget,thesaurus,roget's,dictionary,similie,similies,semantic,space
+Platform: UNKNOWN

@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+PyRoget/PyRoget.py
+PyRoget/__init__.py
+PyRoget.egg-info/PKG-INFO
+PyRoget.egg-info/SOURCES.txt
+PyRoget.egg-info/dependency_links.txt
+PyRoget.egg-info/top_level.txt
