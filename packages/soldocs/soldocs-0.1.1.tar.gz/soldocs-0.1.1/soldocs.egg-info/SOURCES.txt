@@ -1,0 +1,10 @@
+README.md
+setup.py
+soldocs/__init__.py
+soldocs/main.py
+soldocs.egg-info/PKG-INFO
+soldocs.egg-info/SOURCES.txt
+soldocs.egg-info/dependency_links.txt
+soldocs.egg-info/entry_points.txt
+soldocs.egg-info/requires.txt
+soldocs.egg-info/top_level.txt
