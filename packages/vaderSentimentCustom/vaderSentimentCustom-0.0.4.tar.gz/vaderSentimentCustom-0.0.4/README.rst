@@ -1,0 +1,1 @@
+restores vaderSentiment compatibility with Python2

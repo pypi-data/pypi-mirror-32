@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: vaderSentimentCustom
+Version: 0.0.4
+Summary: FirmValue customized vaderSentiment version
+Home-page: UNKNOWN
+Author: Ryszard Gwozdowski
+Author-email: ryszard.gwozdowski@firmvalue.pl
+License: MIT
+Description: UNKNOWN
+Keywords: vader,customized,Python2
+Platform: UNKNOWN

@@ -1,0 +1,10 @@
+README.rst
+setup.py
+vaderSentimentCustom/__init__.py
+vaderSentimentCustom/emoji_utf8_lexicon.txt
+vaderSentimentCustom/vaderSentiment.py
+vaderSentimentCustom/vader_lexicon.txt
+vaderSentimentCustom.egg-info/PKG-INFO
+vaderSentimentCustom.egg-info/SOURCES.txt
+vaderSentimentCustom.egg-info/dependency_links.txt
+vaderSentimentCustom.egg-info/top_level.txt
