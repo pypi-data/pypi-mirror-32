@@ -1,0 +1,18 @@
+Metadata-Version: 2.0
+Name: enaml-web
+Version: 0.3.5
+Summary: Web component toolkit for Enaml
+Home-page: https://github.com/codelv/enaml-web
+Author: CodeLV
+Author-email: frmdstryr@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires: enaml
+Requires-Dist: distribute
+Requires-Dist: enaml (>=0.9.8)
+Requires-Dist: future
+Requires-Dist: lxml (>=3.4.0)
+
+UNKNOWN
+
+
