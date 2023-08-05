@@ -1,0 +1,7 @@
+AWS_MFA_Helper-1.1.0.dist-info/METADATA,sha256=VlwULRyiwOaLM1DnHQqFKsweuWErJanvkEIcw-UGOD4,1515
+AWS_MFA_Helper-1.1.0.dist-info/RECORD,,
+AWS_MFA_Helper-1.1.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+AWS_MFA_Helper-1.1.0.dist-info/entry_points.txt,sha256=gEiPn36FysOor_qYUZHIhF4KTiz_QN275m2C9RqBqTM,60
+AWS_MFA_Helper-1.1.0.dist-info/top_level.txt,sha256=n7fW4lYM4jUvPbkokhEEGjGbW9AqodI0659f5NS1zQU,15
+aws_mfa_helper/__init__.py,sha256=XIhRpz_b6BgsE5XruxDzopLRYd52sH7Y16_z__WcmUk,54
+aws_mfa_helper/cli.py,sha256=A0mFzdNp0vn3h2zxL6xNqNrxpjR7FEPSR45PagL7yWc,10143

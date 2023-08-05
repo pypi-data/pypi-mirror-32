@@ -1,0 +1,3 @@
+[console_scripts]
+aws_mfa_helper = aws_mfa_helper.cli:main
+

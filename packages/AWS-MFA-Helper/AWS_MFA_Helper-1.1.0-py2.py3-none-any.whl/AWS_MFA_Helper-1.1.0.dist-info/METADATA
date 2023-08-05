@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: AWS-MFA-Helper
+Version: 1.1.0
+Summary: Utility that obtains STS credentials and saves your AWS credentials file.
+Home-page: https://github.com/jjfalling/AWS-MFA-Helper
+Author: Jeremy Falling
+License: GPLv3
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Description-Content-Type: text/markdown
+Requires-Dist: boto (<3.0.0,>=2.48.0)
+Requires-Dist: configparser (<4.0.0,>=3.5.0)
+
+# AWS MFA Helper
+Automate obtaining MFA (STS) credentials
+
+This utility will request STS credentials from AWS, then update  ~/.aws/credentials with the new credentials. STS credentials are stored in a profile suffixed with -mfa.
+
+If you have [TOTP Generator](https://github.com/jjfalling/TOTP-Generator) installed this utility will attempt to automate the TOTP code generation.
+
+You will need to update your AWS configuration (~/.aws/config) with the following settings:
+```
+[profile my-aws-profile]
+helper_mfa_serial = (your MFA ARN)
+helper_totp_service_name = (Optional: service name in TOTP Generatior)
+```
+
+If you need to change the STS/MFA credentials suffix in the aws config file, create ~/.aws_mfa_helper.cfg with the following:
+```
+mfa_creds_suffix = your-new-suffix
+```
+
+Run with the --help flag for more information.
+
