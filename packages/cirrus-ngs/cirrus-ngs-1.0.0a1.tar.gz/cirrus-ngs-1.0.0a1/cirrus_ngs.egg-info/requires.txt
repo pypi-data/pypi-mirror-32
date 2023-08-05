@@ -1,0 +1,6 @@
+paramiko
+pyyaml
+jupyter
+notebook
+scp
+cfncluster

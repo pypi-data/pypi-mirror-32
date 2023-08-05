@@ -1,0 +1,3 @@
+[console_scripts]
+cirrus-ngs = cirrusngs.cli:main
+

@@ -1,0 +1,59 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+README.rst
+setup.py
+cirrus_ngs.egg-info/PKG-INFO
+cirrus_ngs.egg-info/SOURCES.txt
+cirrus_ngs.egg-info/dependency_links.txt
+cirrus_ngs.egg-info/entry_points.txt
+cirrus_ngs.egg-info/requires.txt
+cirrus_ngs.egg-info/top_level.txt
+cirrusngs/__init__.py
+cirrusngs/cirrus.yaml
+cirrusngs/cirrusngs.py
+cirrusngs/cli.py
+cirrusngs/design_files/ChIPSeq_design_example.txt
+cirrusngs/design_files/DNASeq_design_example.txt
+cirrusngs/design_files/RNASeq_design_example.txt
+cirrusngs/design_files/WES_design_example.txt
+cirrusngs/design_files/WGS_design_example.txt
+cirrusngs/design_files/miRNASeq_design_example.txt
+cirrusngs/managers/AddonsManager.py
+cirrusngs/managers/CFNClusterManager.py
+cirrusngs/managers/ConnectionManager.py
+cirrusngs/managers/PipelineManager.py
+cirrusngs/managers/__init__.py
+cirrusngs/notebooks/BasicCFNClusterSetup.ipynb
+cirrusngs/notebooks/ChIPSeqTemplate.ipynb
+cirrusngs/notebooks/DNASeqTemplate.ipynb
+cirrusngs/notebooks/RNASeqTemplate.ipynb
+cirrusngs/notebooks/WESTemplate.ipynb
+cirrusngs/notebooks/WGSTemplate.ipynb
+cirrusngs/notebooks/miRNASeqTemplate.ipynb
+cirrusngs/notebooks/.ipynb_checkpoints/BasicCFNClusterSetup-checkpoint.ipynb
+cirrusngs/notebooks/.ipynb_checkpoints/ChIPSeqPipeline-checkpoint.ipynb
+cirrusngs/notebooks/.ipynb_checkpoints/ChIPSeqTemplate-checkpoint.ipynb
+cirrusngs/notebooks/.ipynb_checkpoints/CheckScripts-checkpoint.ipynb
+cirrusngs/notebooks/.ipynb_checkpoints/ChiPSeq Pipeline-checkpoint.ipynb
+cirrusngs/notebooks/.ipynb_checkpoints/ChiPSeqPipeline-checkpoint.ipynb
+cirrusngs/notebooks/.ipynb_checkpoints/DNASeqTemplate-checkpoint.ipynb
+cirrusngs/notebooks/.ipynb_checkpoints/RNASeq Pipeline-checkpoint.ipynb
+cirrusngs/notebooks/.ipynb_checkpoints/RNASeqTemplate-checkpoint.ipynb
+cirrusngs/notebooks/.ipynb_checkpoints/RNA_Pipeline-checkpoint.ipynb
+cirrusngs/notebooks/.ipynb_checkpoints/miRNASeqTemplate-checkpoint.ipynb
+cirrusngs/notebooks/deprecated/BasicCFNClusterSetup.ipynb
+cirrusngs/notebooks/deprecated/ChIPSeqPipeline.ipynb
+cirrusngs/notebooks/deprecated/CheckScripts.ipynb
+cirrusngs/notebooks/deprecated/CirrusAddons.ipynb
+cirrusngs/notebooks/deprecated/RNASeq Pipeline.ipynb
+cirrusngs/notebooks/deprecated/RNASeqTemplate.ipynb
+cirrusngs/notebooks/deprecated/WES|WGS Pipeline.ipynb
+cirrusngs/notebooks/deprecated/WES|WGSPipeline.ipynb
+cirrusngs/notebooks/deprecated/miRNA-Seq Pipeline.ipynb
+cirrusngs/notebooks/deprecated/miRNAPipeline.ipynb
+cirrusngs/notebooks/deprecated/.ipynb_checkpoints/RNASeqTemplate-checkpoint.ipynb
+cirrusngs/util/DesignFileLoader.py
+cirrusngs/util/QstatParser.py
+cirrusngs/util/YamlFileMaker.py
+cirrusngs/util/__init__.py
