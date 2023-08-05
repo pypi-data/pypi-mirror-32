@@ -1,0 +1,13 @@
+setup.py
+cli/__init__.py
+cli/agrparse_cli.py
+cli/qy_config.py
+cli/qy_signature.py
+cli/qy_url.py
+qy_cli.egg-info/PKG-INFO
+qy_cli.egg-info/SOURCES.txt
+qy_cli.egg-info/dependency_links.txt
+qy_cli.egg-info/entry_points.txt
+qy_cli.egg-info/not-zip-safe
+qy_cli.egg-info/requires.txt
+qy_cli.egg-info/top_level.txt
