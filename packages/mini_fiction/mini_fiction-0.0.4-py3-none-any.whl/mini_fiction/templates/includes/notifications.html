@@ -1,0 +1,175 @@
+{%- import 'includes/notification_comment.html' as nc with context -%}
+
+{% if not notifications -%}
+    <h3>Здесь пока ничего нет</h3>
+{%- endif -%}
+
+{% for item in notifications -%}
+{%- if item.show_viewed_line -%}
+<div class="notification-viewed-line"><div>{{ _('Viewed notifications') }}</div></div>
+{%- endif -%}
+
+<div class="notification" data-type="{{ item.type }}" id="notification{{ item.id }}">
+{% if item.broken %}
+    <em>Удалено</em>
+    {% if item.created_at %}
+    <div class="notification-meta">
+        <time class="notification-time" datetime="{{ item.created_at.strftime('%Y-%m-%dT%H:%M:%SZ') }}">
+            {{ item.created_at|datetimeformat('d MMMM Y, HH:mm') }}
+        </time>
+    </div>
+    {% endif %}
+
+{%- elif item.type == 'story_publish' or item.type == 'story_draft' %}
+    {% if item.user.is_staff %}
+        {{- pgettext('notify_story_publish_draft', 'Moderator') -}}
+    {% else %}
+        {{- pgettext('notify_story_publish_draft', 'User') -}}
+    {% endif %} <a class="authorlink" href="{{ url_for('author.info', user_id=item.user.id) }}">{{ item.user.username -}}
+    </a>
+
+    {% if item.type == 'story_publish' -%}
+        одобрил рассказ
+    {%- else -%}
+        отправил в черновики рассказ
+    {%- endif %}
+
+    <a href="{{ url_for('story.view', pk=item.story.id) }}">«{{ item.story.title }}»</a>
+
+    <div class="notification-meta">
+        <time class="notification-time" datetime="{{ item.created_at.strftime('%Y-%m-%dT%H:%M:%SZ') }}">
+            {{ item.created_at|datetimeformat('d MMMM Y, HH:mm') }}
+        </time>
+    </div>
+
+{%- elif item.type == 'author_story' %}
+    Опубликован новый рассказ:<br/>
+    <a href="{{ url_for('story.view', pk=item.story.id) }}"><b>{{ item.story.title }}</b></a><br/>
+    <p class="notification-story-meta">
+        {{ ngettext("%(num)d word", "%(num)d words", item.story.words) }} от {% with story=item.story %}{% include 'includes/story_authors_list.html' %}{% endwith %}
+    </p>
+
+    <div class="notification-meta">
+        <time class="notification-time" datetime="{{ item.created_at.strftime('%Y-%m-%dT%H:%M:%SZ') }}">
+            {{ item.created_at|datetimeformat('d MMMM Y, HH:mm') }}
+        </time>
+    </div>
+
+{%- elif item.type == 'story_chapter' %}
+    В рассказе <a href="{{ url_for('story.view', pk=item.story.id) }}">«{{ item.story.title }}»</a>
+    опубликована новая глава <a href="{{ url_for('chapter.view', story_id=item.story.id, chapter_order=item.chapter.order) }}">«{{ item.chapter.autotitle }}»</a>
+
+    <div class="notification-meta">
+        <time class="notification-time" datetime="{{ item.created_at.strftime('%Y-%m-%dT%H:%M:%SZ') }}">
+            {{ item.created_at|datetimeformat('d MMMM Y, HH:mm') }}
+        </time>
+    </div>
+
+{%- elif item.type == 'story_reply' %}
+<div class="comment-item comment-item-short">
+    {% call nc.notification_comment_html(item.comment) %}
+        <span class="comment-story-link">
+        в ответ на ваш комментарий к рассказу
+        <a href="{{ url_for('story.view', pk=item.story.id) }}"><b>{{ item.story.title }}</b></a>
+        </span>
+        <a class="comment-answer-link" href="{{ url_for('story_comment.add', story_id=item.story.id, parent=item.comment.local_id) }}">Ответить</a>
+    {% endcall %}
+</div>
+
+{%- elif item.type == 'story_comment' %}
+<div class="comment-item comment-item-short">
+    {% call nc.notification_comment_html(item.comment) %}
+        <span class="comment-story-link">
+        к рассказу
+        <a href="{{ url_for('story.view', pk=item.story.id) }}"><b>{{ item.story.title }}</b></a>
+        </span>
+        <a class="comment-answer-link" href="{{ url_for('story_comment.add', story_id=item.story.id, parent=item.comment.local_id) }}">Ответить</a>
+    {% endcall %}
+</div>
+
+{%- elif item.type == 'story_lreply' %}
+<div class="comment-item comment-item-short">
+    <div class="comment-item-notify-label">Комментарий от {% if item.extra.is_staff -%}
+        модератора
+    {%- elif item.extra.is_author -%}
+        автора
+    {%- elif item.extra.is_editor -%}
+        редактора
+    {%- else -%}
+        бета-читателя
+    {%- endif -%}:</div>
+    {% call nc.notification_comment_html(item.comment) %}
+        <span class="comment-story-link">
+        в ответ на ваш комментарий в <a href="{{ url_for('story_local_comment.view', story_id=item.story.id) }}" class="link-inline">редакторской</a> рассказа
+        <a href="{{ url_for('story.view', pk=item.story.id) }}"><b>{{ item.story.title }}</b></a>
+        </span>
+        <a class="comment-answer-link" href="{{ url_for('story_local_comment.add', story_id=item.story.id, parent=item.comment.local_id) }}">Ответить</a>
+    {% endcall %}
+</div>
+
+{%- elif item.type == 'story_lcomment' %}
+<div class="comment-item comment-item-short">
+    <div class="comment-item-notify-label">Комментарий от {% if item.extra.is_staff -%}
+        модератора
+    {%- elif item.extra.is_author -%}
+        автора
+    {%- elif item.extra.is_editor -%}
+        редактора
+    {%- else -%}
+        бета-читателя
+    {%- endif -%}:</div>
+    {% call nc.notification_comment_html(item.comment) %}
+        <span class="comment-story-link">
+        в <a href="{{ url_for('story_local_comment.view', story_id=item.story.id) }}" class="link-inline">редакторской</a> рассказа
+        <a href="{{ url_for('story.view', pk=item.story.id) }}"><b>{{ item.story.title }}</b></a>
+        </span>
+        <a class="comment-answer-link" href="{{ url_for('story_local_comment.add', story_id=item.story.id, parent=item.comment.local_id) }}">Ответить</a>
+    {% endcall %}
+</div>
+
+{%- elif item.type == 'news_reply' %}
+<div class="comment-item comment-item-short">
+    {% call nc.notification_comment_html(item.comment) %}
+        <span class="comment-newsitem-link">
+        в ответ на ваш комментарий к новости
+        <a href="{{ url_for('news.show', name=item.newsitem.name) }}"><b>{{ item.newsitem.title }}</b></a>
+        </span>
+        <a class="comment-answer-link" href="{{ url_for('news_comment.add', news_id=item.newsitem.id, parent=item.comment.local_id) }}">Ответить</a>
+    {% endcall %}
+</div>
+
+{%- elif item.type == 'news_comment' %}
+<div class="comment-item comment-item-short">
+    {% call nc.notification_comment_html(item.comment) %}
+        <span class="comment-newsitem-link">
+        к новости
+        <a href="{{ url_for('news.show', name=item.newsitem.name) }}"><b>{{ item.newsitem.title }}</b></a>
+        </span>
+        <a class="comment-answer-link" href="{{ url_for('news_comment.add', news_id=item.newsitem.id, parent=item.comment.local_id) }}">Ответить</a>
+    {% endcall %}
+</div>
+
+{%- elif item.type == 'custom' %}
+<div class="comment-item comment-item-short">
+    <div>{{ item.extra.body|safe }}</div>
+    <div class="notification-meta">
+        {% if item.user -%}
+        <a class="authorlink" href="{{ url_for('author.info', user_id=item.user.id) }}">{{ item.user.username -}}
+        </a>
+        {%- endif %}
+        <time class="notification-time" datetime="{{ item.created_at.strftime('%Y-%m-%dT%H:%M:%SZ') }}">
+            {{ item.created_at|datetimeformat('d MMMM Y, HH:mm') }}
+        </time>
+    </div>
+</div>
+
+{%- else %}
+    {{ item }}
+    <div class="notification-meta">
+        <time class="notification-time" datetime="{{ item.created_at.strftime('%Y-%m-%dT%H:%M:%SZ') }}">
+            {{ item.created_at|datetimeformat('d MMMM Y, HH:mm') }}
+        </time>
+    </div>
+{% endif %}
+</div>
+{%- endfor %}

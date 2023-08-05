@@ -1,0 +1,64 @@
+{% extends base %}
+{% from 'macro.html' import breadcrumbs, paginator with context %}
+
+{% block content %}
+
+<div class="row">
+<div class="span12">
+{{- breadcrumbs() }}
+<h1>{{ page_title }}</h1>
+</div>
+
+<div class="span8">
+
+{% if not story %}
+<div>
+    {% if not filter_staff %}<a href="{{ modified_url(view_args=view_args, staff='1') }}">{% endif -%}
+        Изменения от модераторов
+    {%- if not filter_staff %}</a>{% endif %}
+    &nbsp; &nbsp;
+    {% if filter_staff %}<a href="{{ modified_url(view_args=view_args, staff=None) }}">{% endif -%}
+        Все изменения
+    {%- if filter_staff %}</a>{% endif %}
+
+    <br/><br/>
+    {% if filter_published != None %}<a href="{{ modified_url(view_args=view_args, published=None) }}">{% endif -%}
+        Любые
+    {%- if filter_published != None %}</a>{% endif %}
+    &nbsp; &nbsp;
+    {% if filter_published != '1' %}<a href="{{ modified_url(view_args=view_args, published='1') }}">{% endif -%}
+        Опубликованные
+    {%- if filter_published != '1' %}</a>{% endif %}
+    &nbsp; &nbsp;
+    {% if filter_published != '0' %}<a href="{{ modified_url(view_args=view_args, published='0') }}">{% endif -%}
+        Неопубликованные
+    {%- if filter_published != '0' %}</a>{% endif %}
+
+    {% if current_user.is_staff %}
+        <br/><br/>
+        {% if not filter_all %}<a href="{{ modified_url(view_args=view_args, all='1') }}">{% endif -%}
+            Все рассказы
+        {%- if not filter_all %}</a>{% endif %}
+        &nbsp; &nbsp;
+        {% if filter_all %}<a href="{{ modified_url(view_args=view_args, all=None) }}">{% endif -%}
+            Ваши рассказы
+        {%- if filter_all %}</a>{% endif %}
+    {% endif %}
+    <br/><br/>
+</div>
+{% endif %}
+
+<ul class="editlog">{% for item, extra in prepare_editlog(edit_log) %}
+    <li class="editlog-item" id="edit_log_{{ item.id }}">
+        {%- include 'includes/edit_log_item.html' with context -%}
+    </li>
+{% endfor %}</ul>
+
+{% if page_obj %}{{ paginator(page_obj) }}{% endif %}
+</div>
+
+<div class="span12">
+{{- breadcrumbs() }}
+</div>
+</div>
+{% endblock %}

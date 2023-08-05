@@ -1,0 +1,114 @@
+{% extends base %}
+{% from 'macro.html' import breadcrumbs, paginator with context %}
+{% block content %}
+
+<div class="row"><div class="span12">
+    {{- breadcrumbs([[url_for('admin_index.index'), _('Administration')]]) }}
+    <h1>{{ page_title }}</h1>
+
+    <div class="admin-index">
+        <table class="admin-index-table">
+        <thead><tr>
+            <th class="col-user-id-title">{{ admin_sorting_link('ID', 'id', view_args=args) }}</th>
+            <th>{{ admin_sorting_link(_('Username'), 'username', view_args=args) }}</th>
+            <th class="col-user-active-title">{{ admin_sorting_link(_('Is active'), 'is_active', view_args=args) }}</th>
+            <th>{{ admin_sorting_link(_('Registered at'), 'date_joined', view_args=args) }}</th>
+            <th>{{ admin_sorting_link(_('Last visit'), 'last_visit', view_args=args) }}</th>
+        </tr></thead>
+
+        <tbody>
+        {%- for author in authors %}<tr>
+            <td class="col-user-id">{{ author.id }}</td>
+
+            <td class="col-user-name">
+                <img src="{{ author.bl.get_small_avatar_url() }}" alt="" />
+                <a href="{{ url_for('admin_authors.update', pk=author.id) }}">
+                    {{- author.username -}}
+                </a>
+                {% if author.id == current_user.id %}{{ _("(it's you)") }}{% endif %}
+            </td>
+
+            <td class="col-user-active">
+                {% if author.is_active %}
+                    <i class="icon-admin-checkbox-true"></i>
+                {% else %}
+                    <i class="icon-admin-checkbox-false"></i>
+                {% endif %}
+            </td>
+
+            <td class="col-user-registered-at">
+                {% if author.date_joined -%}
+                    <time datetime="{{ author.date_joined.strftime('%Y-%m-%dT%H:%M:%SZ') }}">
+                        {{ author.date_joined|datetimeformat('d MMMM Y, HH:mm') }}
+                    </time>
+                {%- else -%}
+                    N/A
+                {% endif %}
+            </td>
+
+            <td class="col-user-last-visit">
+                {% if author.last_visit -%}
+                    <time datetime="{{ author.last_visit.strftime('%Y-%m-%dT%H:%M:%SZ') }}">
+                        {{ author.last_visit|datetimeformat('d MMMM Y, HH:mm') }}
+                    </time>
+                {%- else -%}
+                    N/A
+                {% endif %}
+            </td>
+        </tr>{% endfor -%}
+        </tbody>
+        </table>
+
+        <div class="admin-index-filters">
+            <form action="{{ url_for('admin_authors.index') }}" method="GET">
+                {% for k, v in args.items() if k not in ['username', 'email', 'is_active', 'is_staff', 'is_superuser', 'premoderation_mode', 'page'] %}
+                    <input type="hidden" name="{{ k }}" value="{{ v }}" />
+                {%- endfor %}
+
+                <label for="username">{{ _('Username') }}:</label>
+                <input type="text" id="username" name="username" class="admin-input-text-full" value="{{ args.username or '' }}" /><br/>
+
+                <label for="email">{{ _('E-mail') }}:</label>
+                <input type="text" id="email" name="email" class="admin-input-text-full" value="{{ args.email or '' }}" /><br/>
+
+                <label for="is_active">{{ _('Is active') }}:</label>
+                <select name="is_active" id="is_active" class="admin-input-select-full">
+                    <option value="">{{ _('All') }}</option>
+                    <option value="1"{% if args.is_active == "1" %} selected{% endif %}>{{ _('Yes') }}</option>
+                    <option value="0"{% if args.is_active == "0" %} selected{% endif %}>{{ _('No') }}</option>
+                </select><br/>
+
+                <label for="is_staff">{{ _('Is staff') }}:</label>
+                <select name="is_staff" id="is_staff" class="admin-input-select-full">
+                    <option value="">{{ _('All') }}</option>
+                    <option value="1"{% if args.is_staff == "1" %} selected{% endif %}>{{ _('Yes') }}</option>
+                    <option value="0"{% if args.is_staff == "0" %} selected{% endif %}>{{ _('No') }}</option>
+                </select><br/>
+
+                <label for="is_superuser">{{ _('Is superuser') }}:</label>
+                <select name="is_superuser" id="is_superuser" class="admin-input-select-full">
+                    <option value="">{{ _('All') }}</option>
+                    <option value="1"{% if args.is_superuser == "1" %} selected{% endif %}>{{ _('Yes') }}</option>
+                    <option value="0"{% if args.is_superuser == "0" %} selected{% endif %}>{{ _('No') }}</option>
+                </select><br/>
+
+                <label for="premoderation_mode">{{ _('Premoderation mode') }}:</label>
+                <select name="premoderation_mode" id="premoderation_mode" class="admin-input-select-full">
+                    <option value="">{{ _('All') }}</option>
+                    <option value="none"{% if args.premoderation_mode == "none" %} selected{% endif %}>{{ _('Default') }}</option>
+                    <option value="on"{% if args.premoderation_mode == "on" %} selected{% endif %}>{{ _('Enable premoderation') }}</option>
+                    <option value="off"{% if args.premoderation_mode == "off" %} selected{% endif %}>{{ _('Disable premoration (verified author)') }}</option>
+                </select><br/>
+
+                <button type="submit" class="btn btn-primary">{{ _('Search') }}</button>
+            </form>
+        </div>
+
+        <br style="clear: both;" />
+    </div>
+
+    {{ paginator(page_obj) }}
+
+    {{- breadcrumbs([[url_for('admin_index.index'), _('Administration')]]) }}
+</div></div>
+{% endblock %}

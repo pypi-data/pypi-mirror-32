@@ -1,0 +1,10 @@
+{% if page_obj.num_pages != 1 -%}
+    {% for page_id in page_obj.iter_pages() %}
+        <a
+            href="{{ url_for('author.info', comments_page=page_id) }}"
+            data-ajax-href="{{ url_for('story_comment.ajax_author_dashboard', page=page_id) }}"
+            class="js-comment-pagination-btn btn{% if page_id == page_obj.number %} btn-primary{% endif %}">
+            {{- page_id -}}
+        </a>
+    {% endfor %}
+{%- endif %}

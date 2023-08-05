@@ -1,0 +1,122 @@
+{% extends base %}
+{% from 'macro.html' import breadcrumbs with context %}
+{% from 'macro.html' import form_fields with context %}
+{% block content %}
+
+<div class="row">
+    <div class="span12">
+        {{- breadcrumbs([
+            [url_for('admin_index.index'), _('Administration')],
+            [url_for('admin_authors.index'), _('Authors')]
+        ]) }}
+
+        <h1 id="author-name">
+            <img src="{{ author.bl.get_avatar_url() }}" width="42" title="{{ author.username }}" alt="{{ author.username }}" class="userpic"/>
+            <a class="invisible-link" href="{{ url_for('author.info', user_id=author.id) }}">
+                {{- author.username -}}
+            </a>
+            {% if not author.is_active %}
+                <sup id="banned">Read-only</sup>
+            {% endif -%}
+        </h1>
+
+        {% if author.id == current_user.id %}<h3>{{ _("(it's you)") }}</h3>{% endif %}
+
+        {% if saved %}<div class="alert-mini green">{{ _('Saved!') }}</div>{% endif %}
+
+        <form class="form-horizontal" method="POST" enctype="multipart/form-data">
+        <div class="control-group">
+            <label class="control-label">{{ _('Registered at') }}</label>
+            <div class="controls">
+                <span style="display: inline-block; padding-top: 5px;">{% if author.date_joined %}<time datetime="{{ author.date_joined.strftime('%Y-%m-%dT%H:%M:%SZ') }}">
+                    {{ author.date_joined|datetimeformat('d MMMM Y, HH:mm') }}
+                </time>{% else %}N/A{% endif %}</span>
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label class="control-label">{{ _('Last visit') }}</label>
+            <div class="controls">
+                <span style="display: inline-block; padding-top: 5px;">{% if author.last_visit %}<time datetime="{{ author.last_visit.strftime('%Y-%m-%dT%H:%M:%SZ') }}">
+                    {{ author.last_visit|datetimeformat('d MMMM Y, HH:mm') }}
+                </time>{% else %}N/A{% endif %}</span>
+            </div>
+        </div>
+        {% if not is_system_user %}
+            {{ form_fields(form) }}
+            <div class="controls">
+                <button type="submit" name="act" value="save" class="btn btn-primary">{{ _('Save') }}</button>
+            </div>
+        {% else %}
+            <div class="control-group">
+                {{ _('This is system user account, you cannot edit it.') }}
+            </div>
+        {% endif %}
+        </form>
+
+        {% if author.is_active and author.id != current_user.id %}
+        <form action="{{ url_for('admin_authors.login', pk=author.id) }}" class="form-horizontal" method="POST" enctype="multipart/form-data" data-noajax="1">
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+        <div class="controls">
+            <input type="submit" value="{{ _('Log in as this user') }}" class="btn btn-warning" />
+        </div>
+        </form>
+        {% endif %}
+
+        {% if not is_system_user %}
+        <form class="form-horizontal" method="POST" enctype="multipart/form-data">
+        <div class="control-group">
+            <label class="control-label">{{ _('Password hash') }}</label>
+            <div class="controls">
+                <span style="display: inline-block; padding-top: 5px;">
+                {%- if config['DEBUG'] and current_user.is_superuser -%}
+                    {{ author.password }}
+                {%- else -%}
+                    {{ safe_password_hash(author.password) }}
+                {%- endif -%}
+                </span>
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label class="control-label">{{ _('Last password change') }}</label>
+            <div class="controls">
+                <span style="display: inline-block; padding-top: 5px;">{% if author.last_password_change %}<time datetime="{{ author.last_password_change.strftime('%Y-%m-%dT%H:%M:%SZ') }}">
+                    {{ author.last_password_change|datetimeformat('d MMMM Y, HH:mm') }}
+                </time>{% else %}N/A{% endif %}</span>
+            </div>
+        </div>
+
+        {% if prp_links %}
+        <div class="control-group">
+            <label class="control-label">{{ _('Password reset link') }}</label>
+            <div class="controls">
+                {% for prp_link in prp_links %}
+                    <a href="{{ prp_link }}" target="_blank">{{ prp_link }}</a><br/>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {{ form_fields(password_edit_form) }}
+        <div class="controls">
+            <span class="help-inline">При смене пароля на странице администрирования пользователь не будет разлогинен.</span><br/><br/>
+            <button type="submit" name="act" value="change_password" class="btn btn-primary">{{ _('Change password') }}</button>
+        </div>
+        </form>
+
+        <form action="{{ url_for('admin_authors.password_reset_link', pk=author.id) }}" class="form-horizontal" method="POST" target="_blank">
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+        <div class="controls">
+            <input type="submit" value="{{ _('Generate a password reset link') }}" class="btn" />
+        </div>
+        </form>
+        {% endif %}
+
+        {{- breadcrumbs([
+            [url_for('admin_index.index'), _('Administration')],
+            [url_for('admin_authors.index'), _('Authors')]
+        ]) }}
+    </div>
+</div>
+{% endblock %}

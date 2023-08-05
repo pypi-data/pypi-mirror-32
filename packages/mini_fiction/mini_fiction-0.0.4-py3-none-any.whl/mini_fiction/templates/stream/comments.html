@@ -1,0 +1,43 @@
+{% extends base %}
+{% from 'macro.html' import breadcrumbs, paginator with context %}
+{% block content %}
+<div class="row">
+    <div class="span8">
+        {{- breadcrumbs() }}
+        <h1>{{ page_title }}</h1>
+
+        <div>
+            {% if tab != 'story' %}<a href="{{ url_for('stream.comments') }}">{% endif -%}
+                К рассказам
+            {%- if tab != 'story' %}</a>{% endif %}
+            &nbsp; &nbsp;
+            {% if tab != 'news' %}<a href="{{ url_for('stream.newscomments') }}">{% endif -%}
+                К новостям
+            {%- if tab != 'news' %}</a>{% endif %}
+            {% if current_user.is_staff %}
+            &nbsp; &nbsp;
+            {% if tab != 'local' %}<a href="{{ url_for('stream.storylocalcomments') }}">{% endif -%}
+                В редакторской
+            {%- if tab != 'local' %}</a>{% endif %}
+            {% endif %}
+        </div>
+        <br/>
+
+        {%- if current_user.is_staff %}<div>
+            {% if filter_deleted %}<a href="{{ modified_url(view_args=view_args, deleted=None) }}">{% endif -%}
+                Неудалённые
+            {%- if filter_deleted %}</a>{% endif %}
+            &nbsp; &nbsp;
+            {% if not filter_deleted %}<a href="{{ modified_url(view_args=view_args, deleted='1') }}">{% endif -%}
+                Удалённые
+            {%- if not filter_deleted %}</a>{% endif %}
+        </div><br/>{% endif -%}
+
+        <div id="comments-list">
+            {% include "includes/comments_list.html" %}
+        </div>
+        {% if comments %}{{ paginator(page_obj) }}{% endif %}
+        {{- breadcrumbs() }}
+    </div>
+</div>
+{% endblock %}

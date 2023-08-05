@@ -1,0 +1,25 @@
+{% extends base %}
+{% from 'macro.html' import breadcrumbs, paginator with context %}
+{% block content %}
+
+<div class="row">
+    <div class="span12">
+        {{- breadcrumbs([[url_for('admin_index.index'), _('Administration')]]) }}
+        <h1>{{ page_title }}</h1>
+
+        <ul>
+        {% for logopic in logopics %}
+            <li style="margin: 4px 0;">
+                <a href="{{ url_for('admin_logopics.update', pk=logopic.id) }}"><img src="{{ logopic.url }}" alt="" style="height: 96px;" /></a>
+            </li>
+        {% endfor %}
+        </ul>
+
+        {{ paginator(page_obj) }}
+
+        <a href="{{ url_for('admin_logopics.create') }}">{{ _('Create') }}</a>
+
+        {{- breadcrumbs([[url_for('admin_index.index'), _('Administration')]]) }}
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends base %}
+{% from 'macro.html' import breadcrumbs, paginator with context %}
+{% block content %}
+
+<div class="row">
+    <div class="span8">
+        {{- breadcrumbs() }}
+        <h1>{{ page_title }}</h1>
+        <div id="chapters-list">
+            {% include "includes/chapters_excerpts.html" %}
+        </div>
+        {% if chapters %}{{ paginator(page_obj) }}{% endif %}
+        {{- breadcrumbs() }}
+    </div>
+</div>
+{% endblock %}
