@@ -1,0 +1,3 @@
+[console_scripts]
+fuseki = cli:main
+
