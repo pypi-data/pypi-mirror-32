@@ -1,0 +1,154 @@
+{% extends "cosinnus_event/base.html" %}
+{% load i18n static cosinnus_tags widget_tweaks %}
+
+{% block extrahead %}
+    {{ block.super }}
+    {% include 'cosinnus/common/simplemde_dependencies.html' with element_id=form.form.obj.note.id_for_label %}
+{% endblock %}
+
+{% block page_title %}
+	{% if form_view == "add" %}
+	  {% trans "Add event" %}
+	{% elif form_view == "edit" %}
+	  {% trans "Edit" %} {{ event.title }}
+	{% endif %}
+{{ block.super }}
+{% endblock page_title %}
+
+{% block breadcrumb %}
+        {{ block.super }}
+        <li class="active">
+	        {% if form_view == "add" %}
+			  {% trans "Add event" %}
+			{% elif form_view == "edit" %}
+			  {% trans "Edit" %} {{ event.title }}
+			{% endif %}
+        </li>
+{% endblock %}
+
+{% block leftnav %}
+    {% include "cosinnus_event/leftnav.html" with return_to="events"%}
+{% endblock leftnav %}
+
+{% block content %}
+
+    {% if form.forms.obj.errors or form.forms.media_tag.errors %}
+        <div class="alert alert-danger alert-dismissable">
+            <i class="fa fa-exclamation-triangle fa-3x"></i>
+            <p>{% trans "There was an error in one of the fields you entered. Please correct it before saving!" %}</p>
+        </div>
+    {% endif %}
+    
+    <form method="POST" action="" class="cosinnus-form form-horizontal">{% csrf_token %}
+	    {{ form.forms.obj.non_field_errors }}
+	    {{ form.forms.media_tag.non_field_errors }}
+	    
+	    <!-- a box with semi transparent background -->
+		<div class="content-box">
+        
+        
+        {% trans "Title" as title_label %}
+        {% trans "Enter a title for the new event." as title_legend %}
+        {% captureas title_html %}
+                {% if request.GET.title %}
+                    {% render_field form.forms.obj.title class+="form-control" placeholder=title_label value=request.GET.title %}
+                {% else %}
+                    {% render_field form.forms.obj.title class+="form-control" placeholder=title_label %}
+                {% endif %}
+        {% endcaptureas %}
+        {% include 'cosinnus/fields/default_field.html' with field=form.forms.obj.title legend=title_legend label=title_label field_html=title_html first=True %}
+        
+	                    
+        {% trans "Date" as date_label %}
+        {% captureas date_html %}
+            {{ form.forms.obj.from_date.errors }}
+            {{ form.forms.obj.to_date.errors }}
+            <ol class="input-area">
+                <li class="calendar-date-time-chooser">
+                    {% trans "From" %} <i class="fa fa-calendar"></i>
+                    <input
+                        placeholder="{% trans "Date" %}"
+                        readonly ="readonly"
+                        class="calendar-date-time-chooser-date" />
+                    <input class="calendar-date-time-chooser-hiddendate" id="id_from_date_0" name="from_date_0" 
+                        placeholder="{% trans "Start date." %}" type="hidden" 
+                        {% if form_view == "add" and request.GET.start %}
+                        value="{{ request.GET.start }}" 
+                        {% elif form_view == "edit" %}
+                        value="{{ form.forms.obj.from_date.value|date:"Y-m-d" }}" 
+                        {% else %}
+                        value="{% now "Y-m-d" %}" 
+                        {% endif %}
+                    >
+                    <input class="calendar-date-time-chooser-time" id="id_from_date_1" name="from_date_1" 
+                        placeholder="{% trans "Time" %}" type="text" 
+                        value="{{ form.forms.obj.from_date.value|date:"H:i" }}" 
+                    >                                           
+                    <div class="small-calendar"></div>
+                </li>
+                <li class="calendar-date-time-chooser">
+                    {% trans "Until" %} <i class="fa fa-calendar"></i>
+                    <input
+                        placeholder="{% trans "Date" %}"
+                        readonly ="readonly"
+                        class="calendar-date-time-chooser-date" />
+                    <input class="calendar-date-time-chooser-hiddendate" id="id_to_date_0" name="to_date_0" 
+                        placeholder="{% trans "End date." %}" type="hidden" 
+                        {% if form_view == "add" and request.GET.end %}
+                        value="{{ request.GET.end }}" 
+                        {% elif form_view == "edit" %}
+                        value="{{ form.forms.obj.to_date.value|date:"Y-m-d" }}" 
+                        {% else %}
+                        value="{% now "Y-m-d" %}" 
+                        {% endif %}
+                    >
+                    <input class="calendar-date-time-chooser-time" id="id_to_date_1" name="to_date_1" 
+                        placeholder="{% trans "Time" %}" type="text" 
+                        value="{{ form.forms.obj.to_date.value|date:"H:i" }}" 
+                    >    
+                    <div class="small-calendar"></div>
+                </li>
+            </ol>
+        {% endcaptureas %}
+        {% include 'cosinnus/fields/default_field.html' with field_html=date_html label=date_label label=date_label large_field=True %} 
+        
+          
+        
+        {# SimpleMDE Description Field (gets initialized in extrahead) #}                                   
+        {% trans "Description and Infos" as description_label %}
+        {% trans "Description" as description_placeholder %}
+        {% trans "Enter a description for the event" as description_legend %}
+        {% include 'cosinnus/fields/default_field.html' with field=form.forms.obj.note legend=description_legend label=description_label placeholder=description_placeholder large_field=True %}
+	          
+	                    
+        {% trans "Example: http://mywebsite.com" as url_placeholder %}
+        {% trans "External Link for the event" as url_label %}
+        {% include 'cosinnus/fields/default_field.html' with field=form.forms.obj.url label=url_label placeholder=url_placeholder %}
+                      
+	    {% trans "The first uploaded image will be displayed as a wallpaper." as files_legend %}
+        {% trans "If you set this, your event will be shown on the map! (if permitted by its visibility settings)" as loc_legend %}
+        {% include 'cosinnus/media_tags.html' with show_files=True show_location=True show_topics=True files_label=files_label loc_label=loc_label files_legend=files_legend loc_legend=loc_legend %}
+                        
+	</div><!-- content-box -->
+	
+	       
+    <button type="submit" class="btn btn-emphasized" id="createDoodleButton">
+        <ul class="media-list">
+            <li class="media">
+                <a class="pull-left" href="#">
+                    <i class="fa fa-pencil"></i>
+                </a>
+                <div class="media-body">
+                    {% if form_view == "add" %}
+                      {% trans "Create" %}
+                    {% elif form_view == "edit" %}
+                      {% trans "Save" %}
+                    {% endif %}
+                </div>
+            </li>
+        </ul>
+    </button>
+    
+</form>
+    
+{% endblock content %}
