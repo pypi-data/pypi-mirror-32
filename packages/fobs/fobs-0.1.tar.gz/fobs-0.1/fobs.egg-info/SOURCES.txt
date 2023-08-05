@@ -1,0 +1,10 @@
+setup.py
+fobs/__init__.py
+fobs/cli.py
+fobs/funcs.py
+fobs.egg-info/PKG-INFO
+fobs.egg-info/SOURCES.txt
+fobs.egg-info/dependency_links.txt
+fobs.egg-info/entry_points.txt
+fobs.egg-info/requires.txt
+fobs.egg-info/top_level.txt
