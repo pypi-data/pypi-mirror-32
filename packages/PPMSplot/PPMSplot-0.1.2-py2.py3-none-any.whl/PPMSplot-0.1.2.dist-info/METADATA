@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: PPMSplot
+Version: 0.1.2
+Summary: Plot PPMS dat files
+Home-page: https://github.com/Sever0us/PPMSplot
+Author: Matt Griffiths
+Author-email: griff@me3d.com.au
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: matplotlib
+
+UNKNOWN
+
+
