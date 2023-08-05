@@ -1,0 +1,36 @@
+CHANGES
+=======
+
+0.3
+---
+
+* Updated unittests to ensure cached values are not being used, fixed issue with additional fields
+* Updated unittests to ensure cached values are not being used, fixed issue with additional fields
+* Correctly map string lengths
+* Correctly map string lengths
+
+0.2
+---
+
+* Migrated to pkgutil
+* Migrated to pkgutil
+
+0.1
+---
+
+* Updated typing, added test case for ModelResource
+* Updated typing, added test case for ModelResource
+* Added ModelResource with some convenience methods to handle mapping
+* Added ModelResource with some convenience methods to handle mapping
+* Migrated to PBR
+* Migrated to PBR
+* Added package resources namespace declaration
+* Added package resources namespace declaration
+* Updated test cases to handle return mappings better
+* Updated test cases to handle return mappings better
+* Major update to sqlalchemy support to include factorys for creating resources from SQL alchemy definitions
+* Major update to sqlalchemy support to include factorys for creating resources from SQL alchemy definitions
+* Added Field resolver for SQL alchemy
+* Added Field resolver for SQL alchemy
+* Initial commit
+* Fixed spelling in setup.py
