@@ -1,0 +1,7 @@
+matplotlib
+numpy
+scipy
+fortranformat
+root-numpy
+pymadx
+pymad8
