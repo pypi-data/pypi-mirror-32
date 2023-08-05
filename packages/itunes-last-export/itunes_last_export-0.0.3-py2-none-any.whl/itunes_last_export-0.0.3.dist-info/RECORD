@@ -1,0 +1,9 @@
+itunes_last_export/__init__.py,sha256=qnHM2SMNMNBf_Yoqu7lG-eCH765KbhKM4hZNbqHqy_A,307
+itunes_last_export/db_management.py,sha256=ePGwVcVe5UtK_n4-OKmlDpO1Ba4NtewBTYZJpqyUQMw,6033
+itunes_last_export/gui.py,sha256=uIdoB3NvCovgnBpJBRdOhIuSOhYSqHmSBfOacfZHZ-s,5330
+itunes_last_export/server_management.py,sha256=hMJTVL4XE7CNezEGQCfJy4sWq1NhGiSgEX_WJU5rYec,10297
+itunes_last_export/update_playcount.py,sha256=QJkSzd5aa_XTRCB6VQgEtL4OAqa2r0N7O4TCRd01t5Q,4323
+itunes_last_export-0.0.3.dist-info/METADATA,sha256=_GQ_80Me4blETRI3X3YPB7IMTCu9x7BzulVCy-_0ak0,2112
+itunes_last_export-0.0.3.dist-info/RECORD,,
+itunes_last_export-0.0.3.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+itunes_last_export-0.0.3.dist-info/top_level.txt,sha256=PXo39HuKZDLuhhcTFQnkrySySurpmPncGF4eZE7U6M0,19
