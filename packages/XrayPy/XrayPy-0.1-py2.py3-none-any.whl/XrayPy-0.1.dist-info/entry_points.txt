@@ -1,0 +1,3 @@
+
+[console_scripts]
+xraycli = xraypy.xraycli:run
