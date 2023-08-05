@@ -1,0 +1,16 @@
+Metadata-Version: 2.0
+Name: EchoTorch
+Version: 0.1.1
+Summary: A Python toolkit for Reservoir Computing.
+Home-page: UNKNOWN
+Author: Nils Schaetti
+Author-email: nils.schaetti@unine.ch
+License: GPLv3
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: torchvision
+
+A Python toolkit for Reservoir Computing and Echo State Network experimentation based on pyTorch.
+
+
