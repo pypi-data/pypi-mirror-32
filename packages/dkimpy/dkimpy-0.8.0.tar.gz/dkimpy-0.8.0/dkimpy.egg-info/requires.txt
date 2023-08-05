@@ -1,0 +1,7 @@
+PyDNS
+
+[ed25519]
+PyNaCl
+
+[ARC]
+authres
