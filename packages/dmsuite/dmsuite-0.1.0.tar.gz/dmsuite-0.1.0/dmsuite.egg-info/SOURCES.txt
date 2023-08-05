@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+dmsuite.py
+pyproject.toml
+setup.py
+tox.ini
+dmsuite.egg-info/PKG-INFO
+dmsuite.egg-info/SOURCES.txt
+dmsuite.egg-info/dependency_links.txt
+dmsuite.egg-info/requires.txt
+dmsuite.egg-info/top_level.txt
+tests/test_chebdif.py
+tests/data/chebdif4.npy

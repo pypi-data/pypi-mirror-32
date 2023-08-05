@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: dmsuite
+Version: 0.1.0
+Summary: Differenciation matrices
+Home-page: UNKNOWN
+Author: Adrien Morison, Stéphane Labrosse
+Author-email: stephane.labrosse@ens-lyon.fr
+License: GPLv2
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
