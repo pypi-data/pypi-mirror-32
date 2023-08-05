@@ -1,0 +1,6 @@
+boto3
+Click
+colorama
+requests
+six
+untangle

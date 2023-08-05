@@ -1,0 +1,8 @@
+README.md
+setup.py
+mozilla_addon_signer.egg-info/PKG-INFO
+mozilla_addon_signer.egg-info/SOURCES.txt
+mozilla_addon_signer.egg-info/dependency_links.txt
+mozilla_addon_signer.egg-info/entry_points.txt
+mozilla_addon_signer.egg-info/requires.txt
+mozilla_addon_signer.egg-info/top_level.txt
