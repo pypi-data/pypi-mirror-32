@@ -1,0 +1,13 @@
+durabledict>=0.9.0
+jsonpickle
+werkzeug
+six
+
+[test]
+nose
+exam
+mock
+django
+redis
+unittest2
+nose-performance
