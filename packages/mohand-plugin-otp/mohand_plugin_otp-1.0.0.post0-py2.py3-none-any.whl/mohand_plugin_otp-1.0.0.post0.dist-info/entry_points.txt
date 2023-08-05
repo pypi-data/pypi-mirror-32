@@ -1,0 +1,3 @@
+[mohand.plugin.hand]
+otp = mohand_plugin_otp.main:OtpHand
+
