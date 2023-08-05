@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: opedia-dataset-validator
+Version: 0.3.6
+Summary: A tool to validate Opedia dataset files.
+Home-page: https://github.com/ctberthiaume/opedia_dataset_validator
+Author: Chris T. Berthiaume
+Author-email: chrisbee@uw.edu
+License: LICENSE.txt
+Download-URL: https://github.com/ctberthiaume/opedia_dataset_validator/archive/0.3.6.tar.gz
+Description: opedia_dataset_validator
+        =====
+        
+        A tool to detect errors in an [Opedia dataset Excel file](https://github.com/mdashkezari/opedia/tree/master/template).
+        
+        
+        ### Usage
+        ```
+        Usage: opedia_dataset_validator [OPTIONS] INPUT OUTPUT
+        
+          A tool to validate Opedia dataset files.
+        
+          INPUT should be an Opedia dataset Excel file conforming to the
+          sepcification at
+          https://github.com/mdashkezari/opedia/tree/master/template.
+        
+          OUTPUT should be an output file path or - for STDOUT. Output will be in
+          the form of a tab-delimited text file encoded in UTF-8.
+        
+        Options:
+          -a, --all-errors  Print all errors. [default: only the first error of each
+                            kind]
+          -v, --value       Print cell values in error report. [default: False]
+          --version         Show the version and exit.
+          -h, --help        Show this message and exit.
+        ```
+        
+Keywords: opedia,validator
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=2.6, <4
+Description-Content-Type: text/markdown
