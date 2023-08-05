@@ -1,0 +1,11 @@
+crc32/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crc32/crc32.py,sha256=1YsXs3MmHDc6IpJd-dJbaBEfSa56gPmOcxCFXQNe8XQ,9195
+ruri/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ruri/assistant.py,sha256=X4hvHUPygOfNHVmgp-qX1b5JLsHeNAD9uvoAfj3-T8M,2071
+ruri/crc32.py,sha256=pW1-cMqZDvZlKLzvZne9zKxvr5E2otkOxsojc0lrr3s,4303
+ruri/ruri.py,sha256=lxA5bG5UrPe7OeyzdkDuEsx3Vw1n9egxktaEHzqpACM,2864
+ruri-1.0.3.dist-info/METADATA,sha256=RrLrcwwnBLTJ-8y9A020iRjIW4FUkNBzeWzSg54XcgE,1536
+ruri-1.0.3.dist-info/RECORD,,
+ruri-1.0.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+ruri-1.0.3.dist-info/entry_points.txt,sha256=_oUIdp3S-eS4wvE9_kLDNWh_4TCNfQI2UTmfyFO8qgk,41
+ruri-1.0.3.dist-info/top_level.txt,sha256=u1WAwFf9z7V-14wGqAq16_f11thhOQLYLuG_Av6NfCg,5
