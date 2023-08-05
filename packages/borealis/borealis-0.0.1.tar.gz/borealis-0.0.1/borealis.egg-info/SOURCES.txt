@@ -1,0 +1,8 @@
+README.md
+setup.py
+borealis/__init__.py
+borealis/version.py
+borealis.egg-info/PKG-INFO
+borealis.egg-info/SOURCES.txt
+borealis.egg-info/dependency_links.txt
+borealis.egg-info/top_level.txt
