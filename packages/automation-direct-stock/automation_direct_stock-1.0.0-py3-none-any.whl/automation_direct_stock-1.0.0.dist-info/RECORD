@@ -1,0 +1,8 @@
+automation_direct_stock/__init__.py,sha256=GVKdXA-U6QE-m6aeQJsi9ar5SPBhjUDZ4fZmwDVlbHQ,65
+automation_direct_stock/__main__.py,sha256=nEulMGlYSlZUuJU5CjYz98OURw8w3f-nCOCV3-65Mi8,238
+automation_direct_stock/checker.py,sha256=zj-LKLfL8TkYuDkJKr3eDfPoXbwPQ7T3bWXhZQrAjjQ,376
+automation_direct_stock-1.0.0.data/scripts/adstock,sha256=rQ28K8O4dPrirDcb6ai4U5IM3mkoDb_PygffaXhRhew,194
+automation_direct_stock-1.0.0.dist-info/METADATA,sha256=TTP6JJFlaN65ctr76LquIuCQjEuGPQXsaQaIM5aPmD8,1683
+automation_direct_stock-1.0.0.dist-info/RECORD,,
+automation_direct_stock-1.0.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+automation_direct_stock-1.0.0.dist-info/top_level.txt,sha256=f0B_5ixR8DWvQArmp14sdQhSmivs9SPMydr04TLTnm0,24
