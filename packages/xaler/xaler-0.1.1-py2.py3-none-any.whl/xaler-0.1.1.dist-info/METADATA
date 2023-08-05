@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: xaler
+Version: 0.1.1
+Summary: x'AL,er, parses known files, that are unstructured and prepare it.
+Home-page: http://www.secnam.com
+Author: Alfred Kars
+Author-email: alfred@secnam.com
+License: BSD 3-Clause
+Keywords: xaler parser
+Platform: UNKNOWN
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: POSIX :: Linux
+Requires-Dist: click (==6.7)
+
+UNKNOWN
+
+
