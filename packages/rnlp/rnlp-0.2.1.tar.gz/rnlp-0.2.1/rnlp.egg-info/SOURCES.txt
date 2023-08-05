@@ -1,0 +1,13 @@
+README.rst
+setup.cfg
+setup.py
+rnlp/__init__.py
+rnlp/__main__.py
+rnlp/corpus.py
+rnlp/parse.py
+rnlp/textprocessing.py
+rnlp.egg-info/PKG-INFO
+rnlp.egg-info/SOURCES.txt
+rnlp.egg-info/dependency_links.txt
+rnlp.egg-info/top_level.txt
+rnlp/tests/__init__.py
