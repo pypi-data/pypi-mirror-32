@@ -1,0 +1,14 @@
+README.md
+setup.py
+ECS_demo/__init__.py
+ECS_demo/core.py
+ECS_demo/version.py
+ECS_demo.egg-info/PKG-INFO
+ECS_demo.egg-info/SOURCES.txt
+ECS_demo.egg-info/dependency_links.txt
+ECS_demo.egg-info/requires.txt
+ECS_demo.egg-info/top_level.txt
+ECS_demo/data/climate_sentiment_m1.h5
+ECS_demo/data/tweet_global_warming.csv
+ECS_demo/tests/__init__.py
+ECS_demo/tests/test_ECS_demo.py

@@ -1,0 +1,40 @@
+Metadata-Version: 1.2
+Name: ECS-demo
+Version: 0.0.dev0
+Summary: ECS_demo: Pythonic analysis demo
+Home-page: http://github.com/wesleybeckner/ECS/ECS
+Author: Wesley Beckner
+Author-email: wab665@uw.edu
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: 
+        
+        ECS Demo
+        ========
+        Pythonic package development demo for the Seattle 2018 Electro Chemical
+        Society Conference. For more
+        info, please go to the repository README_.
+        
+        .. _README: https://github.com/wesleybeckner/ECS_demo/blob/master/README.md
+        
+        License
+        =======
+        ``ECS_demo`` is licensed under the terms of the MIT license. See the file
+        "LICENSE" for information on the history of this software, terms & conditions
+        for usage, and a DISCLAIMER OF ALL WARRANTIES.
+        
+        All trademarks referenced herein are property of their respective holders.
+        
+        Copyright (c) 2018--, Wesley Beckner, The University of Washington
+        Department of Chemical Engineering.
+        
+Platform: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering
+Requires: numpy
+Requires-Python: ~=3.6
