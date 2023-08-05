@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: text-operations
+Version: 0
+Summary: A set of functions that piggyback off nltk to parse text.
+Home-page: https://github.com/adityavarshney/TextManipulatorPackage
+Author: Aditya Varshney
+Author-email: aditya@letslinc.com
+License: UNKNOWN
+Description: A set of functions that piggyback off nltk to parse text.
+Platform: UNKNOWN
