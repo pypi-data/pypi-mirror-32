@@ -1,0 +1,11 @@
+kwikapi/__init__.py,sha256=ziazFTaZuJ5ZMuE6Pc5z2rN6zztRo9bnLXcJ1vAZnOw,292
+kwikapi/api.py,sha256=FKDGX6W5HVvwTSswdezk_rB8xAxRsvyRqt-AqQRlioQ,14533
+kwikapi/apidoc.py,sha256=Ur5mLj9iCIqOFSe7JCyT3u3h5hDxFl5SQnDJjSvz3Vo,1556
+kwikapi/client.py,sha256=cUgoMYM-xerjC23OtI_P-oAGr0xD-BKhm7Mwy94Duoc,4361
+kwikapi/exception.py,sha256=kGk4FXfOL5z3AR6qL3gMPfbe0_1yTHMShcJXIeXF7KA,2455
+kwikapi/protocols.py,sha256=p-HHDNHzUH4QVvkjdqeHVILwXv7U7jpgi_ECkCXvcLA,4192
+kwikapi/utils.py,sha256=AZ4mi1bd7gx6Pvs94ozmlcC9gYWvzAYscoZ-riwnT4U,1197
+kwikapi-0.2.4.dist-info/METADATA,sha256=vuhv89Tp08T7BX4iTVgjzu8EEGCbxtz04BH0KkXQJl0,1325
+kwikapi-0.2.4.dist-info/RECORD,,
+kwikapi-0.2.4.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+kwikapi-0.2.4.dist-info/top_level.txt,sha256=YhodnbuvtMSbTsLHqp7QOCnJ_nay8IEWft8AK6_LDkQ,8
