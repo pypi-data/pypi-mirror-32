@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: damn_vulnerable_python
+Version: 2018.5.21
+Summary: A python library built to demonstrate mayhem from pip packages.
+Home-page: https://github.com/CodyKochmann/damn_vulnerable_python
+Author: Cody Kochmann
+Author-email: kochmanncody@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/CodyKochmann/damn_vulnerable_python/tarball/2018.5.21
+Description: UNKNOWN
+Keywords: damn_vulnerable_python,vuln,vulnerable,what were you thinking,for the lols,vulnerability,security,demonstration,unsafe,bad
+Platform: UNKNOWN
