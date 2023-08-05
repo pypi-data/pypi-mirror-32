@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: gabby
+Version: 0.0.2
+Summary: A simple controller for message queue pipelines
+Home-page: http://github.com/luanguimaraesla/gabby
+Author: Luan Guimarães Lacerda
+Author-email: luan@live.in
+License: MIT
+Description: UNKNOWN
+Keywords: mqtt,queue,message
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Utilities
