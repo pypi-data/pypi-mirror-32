@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: marbles.mixins
+Version: 0.9.2
+Summary: Semantically-rich assertions for use in marbles and unittest test cases
+Home-page: https://github.com/twosigma/marbles
+Author: Jane Adams, Leif Walsh
+Author-email: jane@twosigma.com, leif@twosigma.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: dev
