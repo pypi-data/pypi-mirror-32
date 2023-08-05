@@ -1,0 +1,103 @@
+Metadata-Version: 2.0
+Name: SAAVpedia
+Version: 0.4.7.0
+Summary: SAAVpedia python library
+Home-page: https://github.com/SAAVpedia/python
+Author: Young-Mook Kang
+Author-email: ymkang@thylove.org
+License: APACHE 2.0
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: MySQL-python
+Requires-Dist: datetime
+Requires-Dist: nose
+Requires-Dist: requests
+
+# Welcome to SAAVpedia 
+
+### SAAVpedia: identification, functional annotation, retrieval of single amino-acid variants from proteomic and genomic data. 
+
+## What's SAAVpedia
+* SAAVpedia is a platform for identification, functional annotation, retrieval of single amino-acid variants from proteomic and genomic data
+* SAAVpedia provides three user interfaces consisting of **Web User Interface**, **Web API** and **Python package**.
+  * Web User Interface for users without programming knowledge
+  * Visit https://www.SAAVpedia.org
+* This GitHub repository has source codes of SAAVpedia Python package.
+
+
+## Getting Started
+1. Install SAAVpedia Python at the command prompt if you have not yet:   
+ * To install SAAVpedia Python package, You **must have administrator privileges** or **write-access** on Python library folder. 
+#### [Unix/Linux]
+##### Install SAAVpedia Python package via PyPI.
+    $ pip install SAAVpedia   
+    Collecting SAAVpedia
+    Downloading https://files.pythonhosted.org/packages/57/e6/.../SAAVpedia-1.0.0-py2-none-any.whl
+    Installing collected packages: SAAVpedia
+    Successfully installed SAAVpedia-1.0.0
+
+##### Upgrade SAAVpedia Python package via PyPI.     
+    pip install --upgrade SAAVpedia
+
+##### Download SAAVpedia DB in the local computer.
+    $ python
+    Python 2.7.12 (default, Dec  4 2017, 14:50:18)
+    [GCC 5.4.0 20160609] on linux2
+    Type "help", "copyright", "credits" or "license" for more information.
+    >>> from SAAVpedia import SAAVpedia
+    >>> SAAVpedia().install()
+    ...
+    Downloading SAAVpedia.sqlite.935.db - 91.23%
+    Downloading SAAVpedia.sqlite.936.db - 91.33%
+    Downloading SAAVpedia.sqlite.937.db - 91.42%
+    ...
+    Generating SAAVpedia DB... - 99.90%
+    Generating SAAVpedia DB... - 100.00%
+    Removing temporary files...
+    SAAVpedia initilzation is completed.
+    Copying SAAVinterpreter.py...
+    Copying SNVretriever.py...
+    Copying SAAVretriever-Online.py...
+    Copying SAAVidentifier.py...
+    Copying SAAVinterpreter-Online.py...
+    Copying SAAVretriever.py...
+    Copying SNVretriever-Online.py...
+    Copying SAAVidentifier-Online.py...
+
+    >>> quit()
+
+##### The list of SAAVpedia command scripts
+After installation of SAAVpedia in Python, You can see several SAAVpedia command scripts.
+
+    $ ls -l
+    -rw-r--r-- 1 user user 2333 May 10 09:10 SAAVidentifier-Online.py
+    -rw-r--r-- 1 user user 2299 May 10 09:10 SAAVidentifier.py
+    -rw-r--r-- 1 user user 6556 May 10 09:10 SAAVinterpreter-Online.py
+    -rw-r--r-- 1 user user 6522 May 10 09:10 SAAVinterpreter.py
+    -rw-r--r-- 1 user user 2328 May 10 09:10 SAAVretriever-Online.py
+    -rw-r--r-- 1 user user 2294 May 10 09:10 SAAVretriever.py
+    -rw-r--r-- 1 user user 2326 May 10 09:10 SNVretriever-Online.py
+    -rw-r--r-- 1 user user 2292 May 10 09:10 SNVretriever.py
+
+##### Example of Glioma data using SAAVidentifier
+    $ python SAAVidentifier.py --input Glioma.input.txt 
+    Reading the input file...
+    Fetching output data...
+    Estimated time for fetching data: 0.187811s
+    Writing "SAAVidentifier-2018-05-10-09h-13m-52.362122s.scf" file...
+    Total estimated time: 0.230s
+
+
+##### Example of Glioma data using SAAVidentifier via online. 
+    $ python SAAVidentifier-Online.py --input Glioma.input.txt 
+    Reading the input file...
+    Fetching output data...
+    Estimated time for fetching data: 1.844199s
+    Writing "SAAVidentifier-2018-05-10-09h-15m-17.405145s.scf" file...
+    Total estimated time: 1.883s
+
+#####
+#####
+#####
+
+
