@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+BranchBound/BinaryString.py
+BranchBound/Heuristic.py
+BranchBound/TreeUtils.py
+BranchBound/__init__.py
+BranchBound/help.py
+BranchBound/solve.py
+BranchBound.egg-info/PKG-INFO
+BranchBound.egg-info/SOURCES.txt
+BranchBound.egg-info/dependency_links.txt
+BranchBound.egg-info/top_level.txt
