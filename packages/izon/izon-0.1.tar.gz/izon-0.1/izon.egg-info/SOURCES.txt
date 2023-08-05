@@ -1,0 +1,7 @@
+setup.py
+izon/__init__.py
+izon/dependency.py
+izon.egg-info/PKG-INFO
+izon.egg-info/SOURCES.txt
+izon.egg-info/dependency_links.txt
+izon.egg-info/top_level.txt
