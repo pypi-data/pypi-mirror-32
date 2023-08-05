@@ -1,0 +1,12 @@
+Django>=1.11
+python-u2flib-server>=5
+six
+
+[quality]
+flake8
+isort
+polint
+pydocstyle
+
+[test]
+mock
