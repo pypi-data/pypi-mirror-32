@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: musiccast2mqtt
+Version: 0.100
+Summary: MQTT gateway for Yamaha MusicCast devices.
+Home-page: http://musiccast2mqtt.readthedocs.io/en/latest/
+Author: Pier Paolo Taddonio
+Author-email: paolo.taddonio@empiluma.com
+License: MIT
+Keywords: mqtt gateway Yamaha MusicCast
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Requires-Dist: mqttgateway
+
+UNKNOWN
+
+
