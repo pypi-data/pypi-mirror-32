@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: png-header-injector
+Version: 0.1.1
+Summary: Inject headers in PNGs without re-encoding
+Home-page: http://github.com/melraidin/png_header_injector
+Author: Kevin Martin
+Author-email: martin.kevin@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
