@@ -1,0 +1,169 @@
+{% extends "postman/base.html" %}
+{% load url from future %}
+{% load i18n cosinnus_tags postman_tags thumbnail %}{% load pagination_tags %}
+
+
+{% block postman_content %}
+
+
+
+
+<form action="{% block pm_form_action %}{% endblock %}" method="post" class="messages_form">{% csrf_token %}
+
+
+{% block pm_delete_button %}
+<button type="submit" class="btn btn-emphasized messages-delete-button" onclick="this.form.action='{% url 'postman:delete' %}'">
+    <ul class="media-list">
+        <li class="media">
+            <a class="pull-left" href="#">
+                <i class="fa fa-eraser"></i>
+            </a>
+            <div class="media-body">
+                {% trans "Delete" %}
+            </div>
+        </li>
+    </ul>
+</button>
+{% endblock %}
+{% block pm_archive_button %}
+<button type="submit" class="btn btn-emphasized messages-delete-button" onclick="this.form.action='{% url 'postman:archive' %}'">
+    <ul class="media-list">
+        <li class="media">
+            <a class="pull-left" href="#">
+                <i class="fa fa-eraser"></i>
+            </a>
+            <div class="media-body">
+                {% trans "Archive" %}
+            </div>
+        </li>
+    </ul>
+</button>
+{% endblock %}
+{% block pm_undelete_button %}
+<button type="submit" class="btn btn-emphasized messages-delete-button" onclick="this.form.action='{% url 'postman:undelete' %}'">
+    <ul class="media-list">
+        <li class="media">
+            <a class="pull-left" href="#">
+                <i class="fa fa-eraser"></i>
+            </a>
+            <div class="media-body">
+                {% trans "Undelete" %}
+            </div>
+        </li>
+    </ul>
+</button>
+{% endblock %}
+{% block pm_markasread_button %}
+<button type="submit" class="btn btn-emphasized messages-delete-button" onclick="this.form.action='{% url 'postman:markasread' %}'">
+    <ul class="media-list">
+        <li class="media">
+            <a class="pull-left" href="#">
+                <i class="fa fa-book"></i>
+            </a>
+            <div class="media-body">
+                {% trans "Mark as Read" %}
+            </div>
+        </li>
+    </ul>
+</button>
+{% endblock %}
+{% block pm_mark_messages_buttons %}
+<button type="submit" class="btn btn-emphasized btn-icon-only pull-left mark_messages mark_messages_true">
+    <ul class="media-list">
+        <li class="media">
+            <a class="pull-left" href="#" disabled="true">
+                <i class="fa fa-check-square-o"></i>
+            </a>
+            <div class="media-body">
+                {% trans "Mark All" %}
+            </div>
+        </li>
+    </ul>
+</button>
+
+<button type="submit" class="btn btn-emphasized btn-icon-only pull-left mark_messages mark_messages_false">
+    <ul class="media-list">
+        <li class="media">
+            <a class="pull-left" href="#" disabled="true">
+                <i class="fa fa-close"></i>
+            </a>
+            <div class="media-body">
+                {% trans "Deselect All" %}
+            </div>
+        </li>
+    </ul>
+</button>
+{% endblock %}
+
+<div class="clearfix"></div>
+
+<!-- a box with semi transparent background -->
+<div class="content-box">
+    
+    {% if pm_messages %}
+        
+        {% for message in pm_messages %}
+            <div class="message_row btn btn{% if message.is_new %}-extra{% endif %}-emphasized w100 {% if not forloop.last %}regular-space{% endif %}">
+		        <ul class="media-list">
+		            <li class="media">
+		                <a class="pull-left" href="#">
+		                    <i class="fa fa-square-o"></i>
+		                    <input type="hidden" {% if by_conversation and message.thread_id %}name="delete_tpk__{{message.thread_id}}"{% else %}name="delete_pk__{{ message.pk }}"{% endif %}>
+		                </a>
+	                    <a class="pull-left" href="{{ message.sender|profile_url }}">
+	                        {% include "cosinnus/user/user_avatar_image.html" with user=message.sender %}
+	                    </a>
+                        <div class="media-body">
+                            <a href="{% block pm_link %}{% if by_conversation and message.thread_id %}{% url 'postman:view_conversation' message.thread_id %}{% else %}{{message.get_absolute_url }}{% endif %}?next={{ current_url|urlencode }}{% endblock %}">
+                                <span class="annotation moment-data-date" data-date="{{ message.sent_at|date:"c" }}"></span>
+                                <span class="annotation">
+                                {% if message.count %}
+                                    ({{ message.better_count }})&nbsp;
+                                {% endif %}
+                                </span>
+                            <strong>
+                                {% with participants=message|get_other_participants:request.user %}
+		                            {% block pm_sender_cell %}
+		                            {% endblock %}
+		                            {% block pm_recipient_cell %}
+	                                {% endblock %}
+		                            
+		                            {% if participants|length > 1 and message.multi_conversation and message.multi_conversation.targetted_groups.all %}
+	                                    <i class="fa fa-users"></i>
+                                        {{ message.multi_conversation.targetted_groups.all.0.name }}
+		                            {% else %}
+		                                {% for participant in participants|slice:"2" %}
+		                                    <span class="comma">{{ participant|full_name }}</span>
+		                                {% endfor %}
+			                            {% with rest=participants|length|subtract:2 %}
+				                            {% if rest > 0 %}
+				                                <span class="comma">+{{ rest }}</span>
+				                            {% endif %}
+			                            {% endwith %}
+			                        {% endif %}
+                                {% endwith %}
+                                
+                            </strong>
+                            {% block pm_subject %}
+                                &nbsp;{{ message.subject }}
+                            {% endblock %}
+                            </a>
+                        </div>
+                    </li>
+		        </ul>
+		    </div>
+        {% endfor %}
+        
+    {% else %}
+        <!-- {% trans "No messages" %} -->
+	    {% include 'cosinnus/common/empty_button.html' with message="No messages." %}
+	{% endif %}
+
+</div><!-- content-box -->
+
+<!-- TODO: add values from checkboxes -->
+
+
+</form>
+
+{% endblock postman_content %}
