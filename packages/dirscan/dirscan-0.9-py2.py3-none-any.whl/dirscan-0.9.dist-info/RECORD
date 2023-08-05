@@ -1,0 +1,10 @@
+dirscan/__init__.py,sha256=C-kIoGXsy9rG9ZZqMUo8kPegIZxAySppxhvaV3KJtd8,704
+dirscan/__main__.py,sha256=ajYTJGI4woyEAiYIPag8YuIxxiRLr-YsVGvRa__Yadw,22954
+dirscan/dirscan.py,sha256=Hn8ZCUlq4b6WagSvwLqMDjUTFx9V5wNtkGU7iZIM30M,14863
+dirscan/fileinfo.py,sha256=L8hjlhg-QqOb2eohyqktvY5nKPMn7DszNERYTrgXNRY,12489
+dirscan/scanfile.py,sha256=0ZJn9UFFjDM-KXnwn-uQB1Y9v4pqMJlrSg9J3uoO5YE,2534
+dirscan-0.9.dist-info/METADATA,sha256=MN9HaASroGB-vSyxt0ioHFrgrWZ_E6v_Yo2_-abziCY,1436
+dirscan-0.9.dist-info/RECORD,,
+dirscan-0.9.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+dirscan-0.9.dist-info/entry_points.txt,sha256=s92JbUG9buUH6ah5s65kwQ-bpzoeBzSkqDa7JQuDvLc,51
+dirscan-0.9.dist-info/top_level.txt,sha256=zL0heNyQ_KV66Dv5ph9TzT3HMpEIrBqY4F0NpT6w5JI,8
