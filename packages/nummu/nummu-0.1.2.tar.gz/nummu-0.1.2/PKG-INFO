@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: nummu
+Version: 0.1.2
+Summary: An animated image maker.
+Home-page: None
+Author: Ju Lin
+Author-email: soasme@gmail.com
+Requires-Python: >= 3.6.0.0, < 4.0.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: numpngw
