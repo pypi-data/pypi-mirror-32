@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+{ set +x; } 2>/dev/null
+
+[[ $# == 0 ]] && { "${BASH_SOURCE[0]##*/}" --help; exit 1 ; }
+[[ $OSTYPE != *"darwin"* ]] && echo "OS X only" && exit
+
+# path/to/bin/itunes
+# path/to/bin/.itunes-command
+
+. "${BASH_SOURCE[0]%/*}"/."${BASH_SOURCE[0]##*/}"-"$1" "${@:2}"

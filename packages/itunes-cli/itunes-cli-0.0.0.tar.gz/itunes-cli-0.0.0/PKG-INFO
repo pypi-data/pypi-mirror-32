@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: itunes-cli
+Version: 0.0.0
+Summary: iTunes.app cli
+Home-page: https://github.com/looking-for-a-job/itunes-cli
+License: UNKNOWN
+Description: ### Install
+        
+        ```bash
+        $ [sudo] pip install itunes-cli
+        ```
+        
+        ### Usage
+        
+        ```
+        usage: itunes command [options]
+        ```
+        
+        ### Examples
+        
+        ```bash
+        $ itunes play
+        $ itunes pause
+        $ itunes stop
+        $ itunes next
+        $ itunes previous
+        ```
+        
+        volume
+        ```bash
+        $ itunes volume 50  # set
+        $ itunes volume     # get
+        50
+        ```
+        
+        pid
+        ```bash
+        $ itunes pid
+        27930
+        ```
+Keywords: itunes
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Environment :: MacOS X
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Other
+Classifier: Programming Language :: Unix Shell
+Classifier: Topic :: Multimedia
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
