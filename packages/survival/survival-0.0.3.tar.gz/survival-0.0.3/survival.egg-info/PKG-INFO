@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: survival
+Version: 0.0.3
+Summary: Add static script_dir() method to Path
+Home-page: https://github.com/ryu577/survival
+Author: Rohit Pandey
+Author-email: rohitpandey576@gmail.com
+License: MIT
+Description: # survival
+        All kinds of survival analysis distributions and methods to optimize how long to wait for them.
+        
+Platform: UNKNOWN
