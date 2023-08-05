@@ -1,0 +1,26 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="col-md-3">
+      Name
+    </div>
+    <div class="col-md-9">
+      Role
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    {% if staff %}
+      {% for member in staff %}
+        <div class="col-md-3">
+          {{ member.user.username }}
+        </div>
+        <div class="col-md-9">
+          {% include "django_members_roles/includes/roles_select.html" %}
+        </div>
+      {% endfor %}
+    {% else %}
+      <p>No staff added yet.</p>
+    {% endif %}
+  </div>
+</div>

@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: django-members-roles
+Version: 0.1
+Summary: A Django app to invite members and add roles to member.
+Home-page: https://github.com/cowhite/django-members-roles
+Author: Cowhite Software Pvt Ltd
+Author-email: hello@cowhite.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.11
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=2.7,<=3.6
+Requires-Dist: django (<1.12,>=1.11)
+
+# django-members-roles
+
+[![Build Status](https://travis-ci.org/cowhite/django-members-roles.svg?branch=master)](https://travis-ci.org/cowhite/django-members-roles)
+[![Coverage Status](https://coveralls.io/repos/github/cowhite/django-members-roles/badge.svg?branch=master)](https://coveralls.io/github/cowhite/django-members-roles?branch=master)
+
+
