@@ -1,0 +1,8 @@
+README.rst
+setup.py
+PyMTProxy.egg-info/PKG-INFO
+PyMTProxy.egg-info/SOURCES.txt
+PyMTProxy.egg-info/dependency_links.txt
+PyMTProxy.egg-info/requires.txt
+PyMTProxy.egg-info/top_level.txt
+mtproxy/__init__.py
