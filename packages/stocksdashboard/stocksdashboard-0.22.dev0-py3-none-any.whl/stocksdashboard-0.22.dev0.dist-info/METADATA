@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: stocksdashboard
+Version: 0.22.dev0
+Summary: A package to build Stocks Dashboards in Bokeh
+Home-page: https://github.com/stocksdashboard/stocks_dashboard_bokeh
+Author: Mabel Villalba Jimenez, Emilio Molina Martinez
+Author-email: mabelvj@gmail.com, emilio.mol.mar@gmail.com
+Maintainer: Mabel Villalba Jimenez
+Maintainer-email: mabelvj@gmail.com
+License: GPLv3
+Keywords: bokeh,stocks,dashboard
+Platform: UNKNOWN
+Requires-Dist: bokeh (>=0.12.16)
+Requires-Dist: numpy (>=1.14.3)
+Requires-Dist: pandas (>=0.23.0)
+Requires-Dist: configparser (>=3.5)
+
+UNKNOWN
+
+
