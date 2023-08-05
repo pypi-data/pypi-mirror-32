@@ -1,0 +1,8 @@
+README.rst
+setup.py
+myfact/__init__.py
+myfact/fact.py
+navy_first.egg-info/PKG-INFO
+navy_first.egg-info/SOURCES.txt
+navy_first.egg-info/dependency_links.txt
+navy_first.egg-info/top_level.txt
