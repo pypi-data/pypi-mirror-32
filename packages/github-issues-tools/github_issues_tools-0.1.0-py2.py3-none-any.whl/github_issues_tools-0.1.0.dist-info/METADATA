@@ -1,0 +1,27 @@
+Metadata-Version: 2.0
+Name: github-issues-tools
+Version: 0.1.0
+Summary: Tools for GitHub issues
+Home-page: https://lionheartsw.com/
+Author: Dan Loewenherz
+Author-email: dan@lionheartsw.com
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Bug Tracking
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+
+UNKNOWN
+
+
