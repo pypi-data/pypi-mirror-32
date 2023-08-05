@@ -1,0 +1,76 @@
+Metadata-Version: 1.1
+Name: sponge
+Version: 0.0.2
+Summary: An elegant cache library for python
+Home-page: https://github.com/IamBusy/sponge
+Author: William Wei
+Author-email: 1342247033@qq.com
+License: GNU Lesser General Public License v3 (LGPLv3)
+Description-Content-Type: UNKNOWN
+Description: # sponge
+        An elegent  cache library for python
+        
+        [![Build Status](https://travis-ci.org/IamBusy/sponge.svg?branch=master)](https://travis-ci.org/IamBusy/sponge)
+        
+        # How to use
+        
+        ### Install
+        ```bash
+        pip install sponge
+        ```
+        
+        ### Usage
+        
+        ```python
+        import time
+        from sponge import CacheManager
+        
+        # config cache manager
+        manager = CacheManager({
+            'default': 'redis',
+            'redis': {
+                'host': 'localhost',
+                'port': 3306,
+                'db': 0
+            },
+            'memory': {}
+        })
+        
+        # get cache instance
+        cache = manager.store('redis')
+        
+        # set cache
+        cache.put('mykey', 'myvalue', 30) # 30 seconds
+        cache.get('mykey')                # myvalue
+        
+        # remove cache
+        cache.forget('mykey')
+        
+        # cache fover
+        cache.fover('mykey', 1)
+        
+        # increase
+        cache.increase('mykey')     # the value will be 2
+        
+        # decrease
+        cache.decrease('mykey', 2)  # the value will be -1
+        
+        
+        # clear all
+        cache.flush()
+        
+        ```
+        
+        
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
