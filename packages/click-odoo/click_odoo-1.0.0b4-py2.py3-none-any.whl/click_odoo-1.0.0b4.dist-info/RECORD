@@ -1,0 +1,9 @@
+click_odoo/__init__.py,sha256=RLpm9JxmSUddKF5vH1g4749Nk7Z1KxmhLIZ5pTVMnSk,229
+click_odoo/cli.py,sha256=BD4i9jgZqZA0ov9v4ENNCpE6AFw5N9dCePRteZK1J5w,4814
+click_odoo/console.py,sha256=bv8Xl36zKD8wVp0fTBBPPIumyw9uSKob_1C-i2YtFLs,1616
+click_odoo/env.py,sha256=UfMdgcC7O1tYQEGMcv6xvzTq_sErCk0I69ZnPNjM8js,2976
+click_odoo-1.0.0b4.dist-info/METADATA,sha256=Qu_bYnykZFRTeyLy83oZkzEvWqEZvfETvax65fGTwAM,11719
+click_odoo-1.0.0b4.dist-info/RECORD,,
+click_odoo-1.0.0b4.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+click_odoo-1.0.0b4.dist-info/entry_points.txt,sha256=Dli_xm6DhYIxNBqRKAfn_0t6Fl7Cv2ins1E5l6jL0aU,70
+click_odoo-1.0.0b4.dist-info/top_level.txt,sha256=ZMwlM5izfp2Dj3WLOTyaitsrt6uPp_fxJMpL4W8A1KU,11
