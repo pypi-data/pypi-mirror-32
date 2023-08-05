@@ -1,0 +1,11 @@
+pandas
+numpy
+jinja2
+click
+configparser
+
+[dev]
+check-manifest
+
+[test]
+coverage
