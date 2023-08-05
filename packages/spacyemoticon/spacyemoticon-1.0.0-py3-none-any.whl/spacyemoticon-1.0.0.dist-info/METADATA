@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: spacyemoticon
+Version: 1.0.0
+Summary: spaCy pipeline component for adding emoticon meta data to Doc, Token and Span objects that are text emoticons.
+Home-page: https://spacy.io
+Author: Raúl Escamilla
+Author-email: raul.escamilla@asesoriait.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: spacy (<3.0.0,>=2.0.0)
+
+# spacyemoticons
+Add emoticon meta data to Token object for spaCy
+
+
