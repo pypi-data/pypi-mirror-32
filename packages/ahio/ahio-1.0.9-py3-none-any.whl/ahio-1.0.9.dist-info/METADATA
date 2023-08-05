@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ahio
+Version: 1.0.9
+Summary: I/O Communication Library
+Home-page: https://www.github.com/acristoffers/ahio
+Author: Álan Crístoffer
+Author-email: acristoffers@gmail.com
+License: MIT
+Keywords: data acquisition i/o input output communication hardware
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Human Machine Interfaces
+Requires-Dist: pySerial
+Requires-Dist: python-snap7
+
+UNKNOWN
+
+
