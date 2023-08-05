@@ -1,0 +1,12 @@
+pdiff/__init__.py,sha256=e3S0EcDGJlWIp2hddSFjvt633jfeZ4W7VyAeLpfTWVM,37
+pdiff/__version__.py,sha256=qKK4BMzdt84HiCorJPWqgEfa_DbJeuGx_bIPrDui2vc,22
+pdiff/argument_parser.py,sha256=B4yvaKrxxcuvMWfhH7caDZ4XEpVVcWg2HNt0QyC_ve4,1445
+pdiff/colors.py,sha256=Z56ML0LFyI9Z0cUjYhdRqhX5M-UvmfRqUxRkfrMAgZQ,353
+pdiff/diff_formatter.py,sha256=hA_06uTANiI7F6Fz35-tUptYiUJh1pffXYYyl8TsDks,5711
+pdiff/pdiff.py,sha256=pafghvWtZaTilTzka7kE8B9QmxnIfVRa97g55OqMLHQ,761
+pdiff/terminal_util.py,sha256=BMXp6tKU2LvYinAqJdlA8lwiMc5p35n1Id-to4F-u54,814
+pdiff-1.0.3.dist-info/METADATA,sha256=YzI9DcMm71lruz-p-94XAvPwS0npk7UadaBH0MsFtdI,1368
+pdiff-1.0.3.dist-info/RECORD,,
+pdiff-1.0.3.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+pdiff-1.0.3.dist-info/entry_points.txt,sha256=MB6GdpmvtTRL5n1-LY23Lz5fhWM3The5CVVdbgadhAU,44
+pdiff-1.0.3.dist-info/top_level.txt,sha256=O0_6rZ9mKGHnou4ehf1BY_VVbFyAM8ixPsKbnylx2_k,6
