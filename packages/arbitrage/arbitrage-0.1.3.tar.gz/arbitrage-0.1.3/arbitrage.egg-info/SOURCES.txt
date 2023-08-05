@@ -1,0 +1,8 @@
+README.txt
+arbitrage.py
+setup.py
+arbitrage.egg-info/PKG-INFO
+arbitrage.egg-info/SOURCES.txt
+arbitrage.egg-info/dependency_links.txt
+arbitrage.egg-info/requires.txt
+arbitrage.egg-info/top_level.txt
