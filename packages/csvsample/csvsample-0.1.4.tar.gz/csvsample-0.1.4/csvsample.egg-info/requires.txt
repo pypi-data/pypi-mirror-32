@@ -1,0 +1,8 @@
+fire
+xxhash
+
+[dev]
+check-manifest
+
+[test]
+pytest

@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+csvsample/__init__.py
+csvsample/csvsample.py
+csvsample.egg-info/PKG-INFO
+csvsample.egg-info/SOURCES.txt
+csvsample.egg-info/dependency_links.txt
+csvsample.egg-info/entry_points.txt
+csvsample.egg-info/requires.txt
+csvsample.egg-info/top_level.txt
