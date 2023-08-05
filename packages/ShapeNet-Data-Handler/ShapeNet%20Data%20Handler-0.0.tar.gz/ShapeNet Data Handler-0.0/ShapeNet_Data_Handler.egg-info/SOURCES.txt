@@ -1,0 +1,9 @@
+setup.py
+ShapeNetHandler/__init__.py
+ShapeNetHandler/custom_objloader.py
+ShapeNetHandler/handler.py
+ShapeNetHandler/helpers.py
+ShapeNet_Data_Handler.egg-info/PKG-INFO
+ShapeNet_Data_Handler.egg-info/SOURCES.txt
+ShapeNet_Data_Handler.egg-info/dependency_links.txt
+ShapeNet_Data_Handler.egg-info/top_level.txt
