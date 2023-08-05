@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: XrayPy
+Version: 0.1
+Summary: "Wrapper for Xray's REST API"
+Home-page: http://jpsgalego.byethost11.com
+Author: JoÃ£o Galego
+Author-email: joao.galego@wintrust.tech
+License: mit
+Description: UNKNOWN
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
