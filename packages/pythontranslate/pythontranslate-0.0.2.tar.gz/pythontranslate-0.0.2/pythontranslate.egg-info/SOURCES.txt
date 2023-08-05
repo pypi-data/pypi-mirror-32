@@ -1,0 +1,8 @@
+README.md
+setup.py
+pythontranslate/__init__.py
+pythontranslate.egg-info/PKG-INFO
+pythontranslate.egg-info/SOURCES.txt
+pythontranslate.egg-info/dependency_links.txt
+pythontranslate.egg-info/not-zip-safe
+pythontranslate.egg-info/top_level.txt
