@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: pi-util
+Version: 0.0.0
+Summary: python utility package on initial stage
+Home-page: https://github.com/masked-runner/pi-util
+Author: Zeeshan
+Author-email: zeeshan.emallates@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: utility,types,lodash,pydash,pip,pip-util,util,underscore
+Platform: UNKNOWN
