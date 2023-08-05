@@ -1,0 +1,41 @@
+Metadata-Version: 1.1
+Name: asciifolder
+Version: 0.1.0
+Summary: pretty print folder structure to cli
+Home-page: https://github.com/danielhrisca/asciifolder
+Author: Daniel Hrisca
+Author-email: daniel.hrisca@gmail.com
+License: MIT
+Description: ## asciifolder
+        pretty print folder structure to cli
+        
+        ```python
+        >>> asciifolder "Python/Lib/concurent"
+        
+        >>>
+        concurrent/
+        â”œâ”€â”€ __pycache__/
+        â”‚   â””â”€â”€ __init__.cpython-36.pyc
+        â”œâ”€â”€ futures/
+        â”‚   â”œâ”€â”€ __pycache__/
+        â”‚   â”‚   â”œâ”€â”€ __init__.cpython-36.pyc
+        â”‚   â”‚   â”œâ”€â”€ _base.cpython-36.pyc
+        â”‚   â”‚   â”œâ”€â”€ process.cpython-36.pyc
+        â”‚   â”‚   â””â”€â”€ thread.cpython-36.pyc
+        â”‚   â”œâ”€â”€ __init__.py
+        â”‚   â”œâ”€â”€ _base.py
+        â”‚   â”œâ”€â”€ process.py
+        â”‚   â””â”€â”€ thread.py
+        â””â”€â”€ __init__.py
+        ```
+Keywords: ascii folder structure
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7

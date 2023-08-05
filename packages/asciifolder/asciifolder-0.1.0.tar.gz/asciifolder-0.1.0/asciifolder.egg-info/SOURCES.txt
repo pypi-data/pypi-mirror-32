@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+asciifolder/__init__.py
+asciifolder/cli.py
+asciifolder/version.py
+asciifolder.egg-info/PKG-INFO
+asciifolder.egg-info/SOURCES.txt
+asciifolder.egg-info/dependency_links.txt
+asciifolder.egg-info/entry_points.txt
+asciifolder.egg-info/requires.txt
+asciifolder.egg-info/top_level.txt
