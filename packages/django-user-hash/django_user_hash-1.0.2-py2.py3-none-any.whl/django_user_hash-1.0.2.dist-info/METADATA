@@ -1,0 +1,13 @@
+Metadata-Version: 2.0
+Name: django-user-hash
+Version: 1.0.2
+Summary: Hash system for Django
+Home-page: http://gitlab.francescortiz.net/root/pacasite
+Author: Francesc Ortiz
+Author-email: francescortiz@gmail.com
+License: GPL
+Platform: UNKNOWN
+
+Hash system for Django
+
+
