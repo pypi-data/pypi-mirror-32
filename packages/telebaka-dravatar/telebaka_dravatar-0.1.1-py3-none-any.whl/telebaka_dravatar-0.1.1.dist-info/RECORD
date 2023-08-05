@@ -1,0 +1,11 @@
+telebaka_dravatar/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+telebaka_dravatar/admin.py,sha256=F3xf-xdchWmXiyR9eFGm_9qaSYTDmHhlbolMnMQ3YIk,308
+telebaka_dravatar/bot.py,sha256=8oOP0yjGgevGjLy8ru-9ywTyI0wiNOPC8m0KPbw_7u8,2870
+telebaka_dravatar/models.py,sha256=wd0-d9hq9LKrFrSsfWJ_DaULhPm4PbFIamHd9U0G14w,479
+telebaka_dravatar/preferences.py,sha256=53MqsCw7wBnPUyt2wbXqtUV-UifO7T3qxiuzTM7TbHM,354
+telebaka_dravatar/migrations/0001_initial.py,sha256=xG7jqqi26kHEC2JNw6Vn2VVxOliySNGKGn5U7BsNG94,946
+telebaka_dravatar/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+telebaka_dravatar-0.1.1.dist-info/METADATA,sha256=TmPYdz1EePwHMkGT3dmEVu2x5-jJ9uxOwnCjzTMaWNI,320
+telebaka_dravatar-0.1.1.dist-info/RECORD,,
+telebaka_dravatar-0.1.1.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+telebaka_dravatar-0.1.1.dist-info/top_level.txt,sha256=OyJL-2tldVupzraTV3smnG1tmNPVtPcWLDSUPd7Fp2g,18
