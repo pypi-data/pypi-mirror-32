@@ -1,0 +1,22 @@
+# ai_eye 
+version:0.0.2
+ai_eye can tell u the eye's open degree from the landmarks
+like this:
+```
+# pip install ldm
+from ldm import landmarks
+# pip install ai_eye
+from ai_eye import has_closed_eye
+from skimage import io
+
+imagepath="closed_eye/10.jfif"
+
+img=io.imread(imagepath)
+ldl,txt=landmarks(img)
+print txt
+for ld in ldl:
+    print has_closed_eye(ld)
+
+```  
+20180524
+anjiang
