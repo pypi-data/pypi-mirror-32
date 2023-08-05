@@ -1,0 +1,3 @@
+[console_scripts]
+diskcleaner = diskcleaner.main:main
+

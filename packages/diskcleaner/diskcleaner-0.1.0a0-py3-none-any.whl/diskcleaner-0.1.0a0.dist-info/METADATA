@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: diskcleaner
+Version: 0.1.0a0
+Summary: diskcleaner
+Home-page: UNKNOWN
+Author: wilypomegranate
+Author-email: wilypomegranate@users.noreply.github.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: System :: Systems Administration
+Provides-Extra: test
+Provides-Extra: test
+Requires-Dist: pytest; extra == 'test'
+
+
+Diskcleaner is a simple utility for cleaning up directories in a volume to
+maintain a certain disk usage percentage. It's meant to simply be used from a
+cronjob. If a volume can't be cleaned up, the utility will exit non-zero.
+
+

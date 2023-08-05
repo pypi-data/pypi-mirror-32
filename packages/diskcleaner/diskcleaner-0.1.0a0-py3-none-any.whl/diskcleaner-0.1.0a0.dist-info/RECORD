@@ -1,0 +1,10 @@
+diskcleaner/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+diskcleaner/cleaner.py,sha256=AoV-yKylAxLCqR0aVp-8rio2Hi3uhBVx9Epczv07C14,2885
+diskcleaner/main.py,sha256=aUHIqKt3v8m1E3dRt-zA6GfKjyHLTEP5xeQxwNxiZqg,1446
+diskcleaner-0.1.0a0.dist-info/METADATA,sha256=29VUPGunYIT4lYMjxZruk2JXCk_mmlM1ISViarvZC0s,1023
+diskcleaner-0.1.0a0.dist-info/RECORD,,
+diskcleaner-0.1.0a0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+diskcleaner-0.1.0a0.dist-info/entry_points.txt,sha256=zxJUtwHy38JnR8jcViTvP1ZdpYF-pj_FMAxdiqzx74U,55
+diskcleaner-0.1.0a0.dist-info/top_level.txt,sha256=pncJEGtv1u_WvWkjQrEdQ5bTLKcqVhy0GsG35W4WsKg,17
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_cleaner.py,sha256=QPw3FTh-aPQ9119H9qYDwF2H0ohcq2Y6VMMIyxfEpIs,50
