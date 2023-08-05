@@ -1,0 +1,4 @@
+sqlite-framework
+requests
+pytz
+psutil
