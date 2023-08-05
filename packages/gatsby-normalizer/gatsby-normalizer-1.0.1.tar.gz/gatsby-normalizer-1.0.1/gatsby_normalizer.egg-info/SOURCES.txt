@@ -1,0 +1,8 @@
+README.rst
+setup.py
+gatsby_normalizer/__init__.py
+gatsby_normalizer/keyword_normalizer.py
+gatsby_normalizer.egg-info/PKG-INFO
+gatsby_normalizer.egg-info/SOURCES.txt
+gatsby_normalizer.egg-info/dependency_links.txt
+gatsby_normalizer.egg-info/top_level.txt
