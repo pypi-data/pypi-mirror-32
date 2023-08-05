@@ -1,0 +1,7 @@
+pluginmanager>=0.4.1
+PyAudio
+pyzmq
+vexmessage
+
+[dev]
+flake8
