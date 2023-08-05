@@ -1,0 +1,3 @@
+[console_scripts]
+git_list3r = git_list3r.main:main
+
