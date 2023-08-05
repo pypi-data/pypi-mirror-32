@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: zappa-client
+Version: 0.0.1
+Summary: A tool to call Zappa serverless function directly without AWS APIGateway
+Home-page: https://github.com/xdssio/zappa_client
+Author: J. Alexander
+Author-email: jonathan@xdss.io
+License: MIT License
+Description: Zappa is a tool wrap the deployment of serverless applications to AWS Lambda, you can invoke your function with AWS APIGatway using curl easily. For some use cases you would like to avoid opening your function to APIGateway and to call your function directly. there are many steps implemented by zappa which makes it difficult, this package is a wrapper to save you that pain.
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
