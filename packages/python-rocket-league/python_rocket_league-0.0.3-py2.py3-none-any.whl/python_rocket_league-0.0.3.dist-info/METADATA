@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: python-rocket-league
+Version: 0.0.3
+Summary: Client library for the official Rocket League API.
+Home-page: https://github.com/rocket-league-replays/python-rocket-league
+Author: Daniel Samuels
+Author-email: daniel@rocketleaguereplays.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Requires-Dist: requests
+Provides-Extra: testing
+Requires-Dist: coverage; extra == 'testing'
+Requires-Dist: pytest; extra == 'testing'
+Requires-Dist: pytest-cov; extra == 'testing'
+Requires-Dist: pytest-xdist; extra == 'testing'
+
+UNKNOWN
+
+

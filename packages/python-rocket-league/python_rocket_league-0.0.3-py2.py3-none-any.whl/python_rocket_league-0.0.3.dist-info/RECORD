@@ -1,0 +1,8 @@
+python_rocket_league-0.0.3.dist-info/METADATA,sha256=6S9av741MVQbz2lY-uDTiNnpxGdHoCm1bAvj-CnUwpA,788
+python_rocket_league-0.0.3.dist-info/RECORD,,
+python_rocket_league-0.0.3.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+python_rocket_league-0.0.3.dist-info/top_level.txt,sha256=2BynWtgaWvIaHx_j-o7r5-cqd0MsA0lbx8733eyX8l4,6
+rlapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rlapi/client.py,sha256=mtiw9T3txzdGL3x-TBzATKZ38cbtTWJDm5og0x-08vk,7154
+rlapi/constants.py,sha256=utM-DVsQuln1vF2PtQytYBHuwWJY6OeGnP5m04Fo5TY,536
+rlapi/test_client.py,sha256=Smoscz3Khc4e0J0RL5H8ZLC_Is_kaMg-usG5ICbsesk,16307
