@@ -1,0 +1,16 @@
+inicheck/__init__.py,sha256=kSrndcnQtRXsw-a9xlnnTww3bvt8oPxV55LhcXXfcFM,456
+inicheck/checkers.py,sha256=yEm5gEYUwSeW2zkrSc7j44rNyJCvFxLGiwNjCdPRTTo,6641
+inicheck/cli.py,sha256=GKA8cfao8B9FL6GUUQt0UvCJvtMx01KwbYTMfcXDoM4,3470
+inicheck/config.py,sha256=R-25y6lLfwlMm0Lu-FArgZKr6x9pKypFuSqsnU7Ts_c,14520
+inicheck/entries.py,sha256=Ku9MIwhUHywdh9QkYGSML9DOb-rl0mEcVcrYVjrkRXA,5240
+inicheck/iniparse.py,sha256=ziBWnckcg5vJ_zOta69V6eh6dwkBvFphxyG8Erk4izo,5726
+inicheck/output.py,sha256=RTxWDdEz1d5LQQ7C3ds_RqJILbjtvcTrGFZGZxrqtYY,7517
+inicheck/tools.py,sha256=PtDYBg308c3Uz1CdoxklUMgGnINzk9yXmgOo29HLVjI,11011
+inicheck/utilities.py,sha256=SV45u6ASboi2tuVVwgD7KIASO-bJB_goilDTq22b6Uw,3311
+inicheck-0.2.10.dist-info/DESCRIPTION.rst,sha256=57m_3Thi1T1ksKoJIbo1q6v2EVRGtQhU_OP1Acxmm1Q,3420
+inicheck-0.2.10.dist-info/METADATA,sha256=Ca8INUHDvRlAHlvLkmOxAeeq2ENd8YBsmu5nrr81veE,4275
+inicheck-0.2.10.dist-info/RECORD,,
+inicheck-0.2.10.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+inicheck-0.2.10.dist-info/entry_points.txt,sha256=Pt4Jo9ibICo8tecIr7rujT1KyjE1WZYs4b95koO5wWE,48
+inicheck-0.2.10.dist-info/metadata.json,sha256=aucdjQFY1gxMOE86SiMMg1th4H0ovaJLSyyOrpGE9Uo,1225
+inicheck-0.2.10.dist-info/top_level.txt,sha256=eLTb_hCpiJuDCwB9syATRxGIn_6VkFOSPZ233Ce_nXE,9
