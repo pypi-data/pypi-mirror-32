@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: ltst_noodles
+Version: 0.0.3
+Summary: noodles
+Home-page: UNKNOWN
+Author: noodles
+Author-email: UNKNOWN
+License: MITnoodles
+Description: Noodles
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
