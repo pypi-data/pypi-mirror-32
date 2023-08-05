@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+djangocms_ga_optout/__init__.py
+djangocms_ga_optout/cms_plugins.py
+djangocms_ga_optout/models.py
+djangocms_ga_optout.egg-info/PKG-INFO
+djangocms_ga_optout.egg-info/SOURCES.txt
+djangocms_ga_optout.egg-info/dependency_links.txt
+djangocms_ga_optout.egg-info/not-zip-safe
+djangocms_ga_optout.egg-info/requires.txt
+djangocms_ga_optout.egg-info/top_level.txt
