@@ -1,0 +1,11 @@
+smart_reading/.DS_Store,sha256=1lFlJ5EFymdzGAUAaI30vcaaLHt3F1LwpG7xILf9jsM,6148
+smart_reading/__init__.py,sha256=G21B8vcyxPL25_Yrw_blrgWSrHxpEY2JaRu4oCTXMpk,24
+smart_reading/book.py,sha256=Jki6ZDbFBpDCQUPp_-afJqTO3jw8o0GBfK82XTcuBXI,4096
+smart_reading/stats.py,sha256=LgWuuVlL3ITMAUBtKd21c6A4m9vVobfNGMkl2iiZ-bk,3280
+smart_reading/samples/Benn_Ch_II_The_Metaphysicians.txt,sha256=d7VE_sXkMLun12K7sUmoVRCPYTXM9-h9WgKnojx9oLA,55486
+smart_reading/samples/Galileo_The_Sidereal_Messenger.epub,sha256=Z-OU056_nJBcRYUG9IIvv6QkfOJ8wc3SorSxTN-k2oo,105196
+smart_reading/samples/PhysRev.47.777.pdf,sha256=IlG82T20J2gmQf0645ODidADq7EfTMMrH8Nr3dRlb7o,264355
+smart_reading-1.1.6.dist-info/METADATA,sha256=VTmYSuOnJLJVU1qSzWf2-l8xiijYCvu-htKJhL1M1sk,9258
+smart_reading-1.1.6.dist-info/RECORD,,
+smart_reading-1.1.6.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+smart_reading-1.1.6.dist-info/top_level.txt,sha256=IurM8smPTbTcCmbDJ8ajwWxJwnzfPtFym2z0Xh8p8vs,14
