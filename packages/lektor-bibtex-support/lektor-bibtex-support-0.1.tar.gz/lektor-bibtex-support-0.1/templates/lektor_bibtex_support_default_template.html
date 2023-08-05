@@ -1,0 +1,44 @@
+{% for group in this|groupby('year')|reverse %}
+    <div><h4 class="BIBYearheader">{{ group.grouper }}</h4>
+    <ul class="BIBYear">
+    {% for entry in group.list %}
+     <li class="BIBEntry">
+        <span class="author">{{ entry.newauthor|safe }} </span>
+        <span class="title">{{ entry.title }} </span>
+ 	{%- if entry.journal %}<span class="journal">{{ entry.journal }} </span>{% endif %}
+	{%- if entry.booktitle %}<span class="booktitle">in {{ entry.booktitle}} </span>{% endif %}
+	{%- if entry.editor %}<span class="editor">edited by {{ entry.neweditor}} <span>{% endif %}
+        <span class="volume">{{ entry.volume }}{% if entry.number %}<span class="number">({{ entry.number }})</span>{% endif %} </span>
+        <span class="pages">{{ entry.pages }} </span>
+        <span class="year">({{ entry.year }})</span>
+        {%- if entry.file is defined %}
+        <a href="/publications/{{ entry.file }}">pdf</a>
+	{%- endif %}
+        {%- if entry.doi is defined %}
+        <a href="https://doi.org/{{ entry.doi }}">doi</a>
+	{%- endif %}
+        {%- if entry.url is defined %}
+        <a href="{{ entry.url|e }}"> journal web page</a>
+	{%- endif %}
+        {%- if entry.www is defined %}
+        <a href="{{ entry.www|e }}"> journal web page</a>
+	{%- endif %}
+        {%- if entry.eprint is defined %}
+        <a href="https://arXiv.org/abs/{{ entry.eprint }}">arXiv.org</a>
+	{%- endif %}
+
+	<a href="#" class="BIBTeXtoggle">bibtex</a>
+	<div class="BIBTeX">
+	@{{ entry.type }}{ {{ entry.bibkey }}, <br />
+	{%- for key, value in entry.items() %}
+	{%- if not key in ["file","newauthor","bibkey","type","neweditor","rssdate","rssupdate","tags"] %}
+  	{{ key }} = "{{ value|e }}"{% if not loop.last %},{% endif %} <br />
+	{%- endif %}
+	{%- endfor %}}
+	</div>
+
+     </li>
+    {% endfor %}
+    </ul>
+    </div>
+{% endfor %}
