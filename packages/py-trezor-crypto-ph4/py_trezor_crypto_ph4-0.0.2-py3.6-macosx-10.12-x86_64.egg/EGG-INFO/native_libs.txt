@@ -1,0 +1,2 @@
+trezor_crypto/tcry_cffi.abi3.so
+trezor_crypto/tcry_ctype.cpython-36m-darwin.so
