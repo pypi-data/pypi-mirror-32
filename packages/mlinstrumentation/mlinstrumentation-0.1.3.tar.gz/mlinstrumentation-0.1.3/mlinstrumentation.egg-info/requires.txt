@@ -1,0 +1,8 @@
+influxdb
+keras
+
+[dev]
+check-manifest
+
+[test]
+coverage
