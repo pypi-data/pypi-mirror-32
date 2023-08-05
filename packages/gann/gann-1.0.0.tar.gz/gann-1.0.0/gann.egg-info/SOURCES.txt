@@ -1,0 +1,15 @@
+setup.py
+gann/__init__.py
+gann/crossover.py
+gann/gn_Cnn.py
+gann/initparamobj.py
+gann/makegene.py
+gann/mutation.py
+gann/runga.py
+gann/saveparameters.py
+gann/selection.py
+gann.egg-info/PKG-INFO
+gann.egg-info/SOURCES.txt
+gann.egg-info/dependency_links.txt
+gann.egg-info/requires.txt
+gann.egg-info/top_level.txt
