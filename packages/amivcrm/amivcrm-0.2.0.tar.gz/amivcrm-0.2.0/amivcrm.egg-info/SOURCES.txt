@@ -1,0 +1,8 @@
+README.md
+setup.py
+amivcrm/__init__.py
+amivcrm.egg-info/PKG-INFO
+amivcrm.egg-info/SOURCES.txt
+amivcrm.egg-info/dependency_links.txt
+amivcrm.egg-info/requires.txt
+amivcrm.egg-info/top_level.txt
