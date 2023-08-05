@@ -1,0 +1,13 @@
+{%- if pagename != "search" %}
+<form action="{{ pathto('search') }}" method="get" class="navbar-search-form hide">
+  <i id="searchbar-icon" class="fa fa-search" aria-hidden="true"></i>
+  <input type="text" id="navbar-search" name="q" class="form-control" placeholder="Search the docs">
+</form>
+{% else %}
+<div class="navbar-search-form hide">
+    <button id="searchbar-toggle" style="cursor:pointer" onclick="toggleSearchBar()" aria-label="Toggle Search Bar" aria-expanded="false" aria-hidden="false"><i id="searchbar-icon" class="fa fa-search" aria-hidden="true"></i></button>
+    <input type="text" id="navbar-search" name="q" class="form-control" placeholder="Search the docs">
+</div>
+{%- endif %}
+
+
