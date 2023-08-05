@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: gh-stars-export
+Version: 0.1.0
+Summary: A small example package
+Home-page: https://github.com/ayush--s/gh_stars_export
+Author: Ayush Shanker
+Author-email: shankerayush@gmail.com
+License: UNKNOWN
+Description: # gh_stars_export
+        
+        
+        Exports list of all your starred Github repos to a json file.
+        Also can optionally unstar all backed up repositories.
+        
+Keywords: github backup export stars gh
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
