@@ -1,0 +1,60 @@
+Metadata-Version: 2.0
+Name: smetana
+Version: 0.1.0
+Summary: Species METabolic interaction ANAlysis (SMETANA) is a python-based command line tool to analyse microbial communities.
+Home-page: https://github.com/cdanielmachado/smetana
+Author: Daniel Machado
+Author-email: cdanielmachado@gmail.com
+License: Apache Software License 2.0
+Description-Content-Type: UNKNOWN
+Keywords: smetana
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Dist: framed (==0.5.0)
+Requires-Dist: pandas (>=0.20.0)
+
+=======
+smetana
+=======
+
+
+.. image:: https://img.shields.io/pypi/v/smetana.svg
+        :target: https://pypi.python.org/pypi/smetana
+
+.. image:: https://img.shields.io/travis/cdanielmachado/smetana.svg
+        :target: https://travis-ci.org/cdanielmachado/smetana
+
+.. image:: https://readthedocs.org/projects/smetana/badge/?version=latest
+        :target: https://smetana.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+
+
+
+
+Python Boilerplate contains all the boilerplate you need to create a Python package.
+
+
+* Free software: Apache Software License 2.0
+* Documentation: https://smetana.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
