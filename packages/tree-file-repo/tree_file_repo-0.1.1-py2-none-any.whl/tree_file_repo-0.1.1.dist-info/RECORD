@@ -1,0 +1,7 @@
+filerepo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+filerepo/__main__.py,sha256=BSpDgGC7_bH5YXsKt2kzKEOrG9gKTHxaDyw1FnIqe-E,32
+filerepo/repomanager.py,sha256=mZEjOav5yRDndLaWQOWFm4mZW_HFMC-yFB7UR6bbshA,4386
+tree_file_repo-0.1.1.dist-info/METADATA,sha256=OFjVRWuLyBJo-VWAJr3MJebdo80giVSWvvkM0ZIRLBI,335
+tree_file_repo-0.1.1.dist-info/RECORD,,
+tree_file_repo-0.1.1.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+tree_file_repo-0.1.1.dist-info/top_level.txt,sha256=sBQwhUrBAE_RfAgL0NvUMKkAymwh6Babzr4IVQOZtiM,9
