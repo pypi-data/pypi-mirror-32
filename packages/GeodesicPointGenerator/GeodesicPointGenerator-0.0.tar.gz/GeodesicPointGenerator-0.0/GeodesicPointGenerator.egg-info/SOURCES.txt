@@ -1,0 +1,7 @@
+setup.py
+GeodesicPointGenerator/__init__.py
+GeodesicPointGenerator/main.py
+GeodesicPointGenerator.egg-info/PKG-INFO
+GeodesicPointGenerator.egg-info/SOURCES.txt
+GeodesicPointGenerator.egg-info/dependency_links.txt
+GeodesicPointGenerator.egg-info/top_level.txt
