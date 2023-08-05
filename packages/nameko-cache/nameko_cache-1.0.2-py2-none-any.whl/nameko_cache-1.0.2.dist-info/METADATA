@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: nameko-cache
+Version: 1.0.2
+Summary: Cache for nameko services
+Home-page: https://github.com/qileroro/nameko-cache/
+Author: qileroro
+Author-email: qileroro@qq.com
+License: Apache License, Version 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: nameko (>=2.0.0)
+
+# nameko-cache
+
+Cache for nameko services
+
+## Installation
+```
+pip install nameko-cache
+```
+
+## Usage
+app.py
+```python
+from datetime import datetime
+from nameko.rpc import rpc
+from nameko_redisy import Redis
+from nameko_cache import cached, delete_cached
+
+
+class FooService(object):
+    name = 'foo_service'
+
+    cache = Redis('CACHE_REDIS_URI')
+
+    @rpc
+    @cached(timeout=10)
+    def hello(name):
+        return 'hello {} at {}'.format(name, datetime.now())
+
+
+    @rpc
+    def world(self):
+        delete_cached(self.hello, ['john'])
+```
+
+config.yml
+```yml
+AMQP_URI: 'pyamqp://guest:guest@localhost'
+CACHE_REDIS_URI: 'redis://127.0.0.1'
+```
+
