@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: django-singleton-model
+Version: 0.1
+Summary: Simple package for impleting models using singleton design pattern
+Home-page: https://github.com/icaropires/django-singletonmodel
+Author: Ícaro Pires
+Author-email: icaropsa@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
