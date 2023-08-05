@@ -1,0 +1,32 @@
+Metadata-Version: 1.1
+Name: export-dynamodb
+Version: 1.0.4.5
+Summary: A cli to export Amazon DynamoDb
+Home-page: https://github.com/travistrle/export-dynamodb.git
+Author: Truong Le
+Author-email: travistrle@gmail.com
+License: GPLv3
+Download-URL: https://github.com/travistrle/export-dynamodb/archive/1.0.2.tar.gz
+Description: Export DynamoDb Cli
+        
+        
+        .. code-block:: bash
+        
+            # Install export-dynamodb
+            $ pip install export-dynamodb
+        
+            # List of all export-dynamodb cli options.
+            $ export-dynamodb --help
+        
+            # Export table and write to TABLE_NAME.csv file
+            $ export-dynamodb -t TABLE_NAME -f csv
+        
+            # Export table and write to output.csv file
+            $ export-dynamodb -t TABLE_NAME -f csv -o output.csv
+        
+Keywords: aws,dynamodb,export
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: Database
+Classifier: Programming Language :: Python :: 3.6
