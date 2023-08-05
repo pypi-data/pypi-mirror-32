@@ -1,0 +1,9 @@
+README.md
+setup.py
+metadata_toolbox/__init__.py
+metadata_toolbox/utils.py
+metadata_toolbox.egg-info/PKG-INFO
+metadata_toolbox.egg-info/SOURCES.txt
+metadata_toolbox.egg-info/dependency_links.txt
+metadata_toolbox.egg-info/requires.txt
+metadata_toolbox.egg-info/top_level.txt

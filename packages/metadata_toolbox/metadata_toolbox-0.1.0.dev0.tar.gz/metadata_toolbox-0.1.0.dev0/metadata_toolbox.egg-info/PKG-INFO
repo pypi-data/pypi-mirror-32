@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: metadata-toolbox
+Version: 0.1.0.dev0
+Summary: Toolbox to Manage Corpora & Their Metadata
+Home-page: UNKNOWN
+Author: Students of SE Software-Projekte, WS 2017/2018
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
