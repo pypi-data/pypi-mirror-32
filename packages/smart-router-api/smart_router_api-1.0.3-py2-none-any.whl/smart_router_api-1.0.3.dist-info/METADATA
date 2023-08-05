@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: smart-router-api
+Version: 1.0.3
+Summary: smart router of api
+Home-page: UNKNOWN
+Author: freedomDR
+Author-email: 1640145602@qq.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/plain
+Requires-Dist: netifaces
+
+smart router of api
+
+
