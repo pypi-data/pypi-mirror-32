@@ -1,0 +1,10 @@
+setup.py
+sldaCluster/Main.py
+sldaCluster/__init__.py
+sldaCluster/sldaModel.py
+sldaCluster/tfidf.py
+sldaCluster/word2vec.py
+sldaCluster.egg-info/PKG-INFO
+sldaCluster.egg-info/SOURCES.txt
+sldaCluster.egg-info/dependency_links.txt
+sldaCluster.egg-info/top_level.txt

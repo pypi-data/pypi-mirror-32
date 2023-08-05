@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: sldaCluster
+Version: 1.0.8
+Summary: A cluster method that uses the classifier mind.
+Home-page: UNKNOWN
+Author: liuyang
+Author-email: 1716501503@qq.com
+License: MIT
+Description: see the README.rst
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.5.0
