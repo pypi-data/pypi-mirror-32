@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: polyversion
+Version: 0.0.2a4
+Summary: Lib code deriving subproject versions from tags on git monorepos.
+Home-page: https://github.com/jrcstu/polyvers
+Author: Kostis Anagnostopoulos
+Author-email: ankostis@gmail.com
+License: EUPL 1.2
+Download-URL: https://pypi.org/project/polyversion/
+Project-URL: Documentation, http://polyvers.readthedocs.io/
+Project-URL: Source, https://github.com/jrcstu/polyvers
+Project-URL: Tracker, https://github.com/jrcstu/polyvers/issues
+Keywords: version-management,configuration-management,versioning,git,monorepo,tool,library
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: European Union Public Licence 1.1 (EUPL 1.1)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Provides-Extra: test
+Provides-Extra: test
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: pytest-runner; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Requires-Dist: flake8; extra == 'test'
+Requires-Dist: flake8-builtins; extra == 'test'
+Requires-Dist: flake8-mutable; extra == 'test'
+
+==================================================================
+Polyversion: derive subproject versions from tags on git monorepos
+==================================================================
+
+:version:       0.0.2a4
+:updated:       2018-05-18T01:28:52.524929
+:Documentation: https://polyvers.readthedocs.io
+:repository:    https://github.com/JRCSTU/polyvers
+:pypi-repo:     https://pypi.org/project/polyversion/
+:copyright:     2018 JRC.C4(STU), European Commission (`JRC <https://ec.europa.eu/jrc/>`_)
+:license:       `EUPL 1.2 <https://joinup.ec.europa.eu/software/page/eupl>`_
+
+The python 2.7+ library needed by (sub-)projects managed by `polyvers cmd
+<https://github.com/JRCSTU/polyvers>`_ to derive their version-ids on runtime from Git.
+
+Consult the *polyvers* project.
+
+
