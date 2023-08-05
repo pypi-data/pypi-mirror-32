@@ -1,0 +1,16 @@
+lichessbot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lichessbot/config.py,sha256=QaXWg55SGiQlPRvE8r9iOkgL6HnsAYhgxs0K1caQOJ4,2312
+lichessbot/conversation.py,sha256=bg_2dKaL_u4a3MBjhjmZgc0Y4VgEJrpUXc_cIqAqwQE,1491
+lichessbot/engine_wrapper.py,sha256=5502HtD1fwT0MwiMVWQf09ZpVfGDCSl1hRsFg9g0Z2s,6722
+lichessbot/lichess.py,sha256=NoTUL3zrEmoW7yjD26NbHekKLVwAR1aHouOjez6uFnY,3763
+lichessbot/lichessbot_main.py,sha256=-YS4cWLyr1h_Fz5GzE_u9UPVu_3r0QsXLjSQYU7mmrw,11002
+lichessbot/logging_pool.py,sha256=AhIFmvS3jys5gfeY2A-Gy-tbW6uJlxuPWNk-76LkvI8,1001
+lichessbot/model.py,sha256=jWyZyHvcJiI3UhJWbDkw6HYf7x6ptelNSqMbls3B8CA,4828
+lichessbot/resources.py,sha256=WAnMy41Axg4NmON5GnL2p3QqLe9EB7FtkczrLWaElsw,3117
+lichessbot-1.1.0.dist-info/DESCRIPTION.rst,sha256=3Xsovr1Jrv2q24bd83hN_YysBgfwLH1I9o8QxvaFG3k,30
+lichessbot-1.1.0.dist-info/METADATA,sha256=5UcJG6TF-wj8RhpAZf3uobNssBL5MVm56kilRS0U01I,1020
+lichessbot-1.1.0.dist-info/RECORD,,
+lichessbot-1.1.0.dist-info/WHEEL,sha256=Vlaj2XNMTTJ893zWX-JvKeZUIs7q5E7d7Gise2Vouzc,97
+lichessbot-1.1.0.dist-info/entry_points.txt,sha256=6T0HTYAox21nTqCCm1qQ0Fx54jcuhJRIrhlVRICsvuI,67
+lichessbot-1.1.0.dist-info/metadata.json,sha256=kY6lsk7ZVHliRdgordSjsDD9vA7GBpJPtJFB9u0xz1s,1277
+lichessbot-1.1.0.dist-info/top_level.txt,sha256=YVXw_oI6nb9KUz19uJ9eC9H8XDfvRsuD7V-NxYmBisA,11

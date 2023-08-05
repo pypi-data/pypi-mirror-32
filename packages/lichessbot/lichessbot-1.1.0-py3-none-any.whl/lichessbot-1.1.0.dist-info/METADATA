@@ -1,0 +1,32 @@
+Metadata-Version: 2.0
+Name: lichessbot
+Version: 1.1.0
+Summary: play on lichess with a bot
+Home-page: https://github.com/pythonflaskserverapps/lichessbot
+Author: pythonflaskserverapps
+Author-email: pythonflaskserverapps@gmail.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Keywords: play lichess bot
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.3
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: future (==0.16.0)
+Requires-Dist: futures (==3.1.1)
+Requires-Dist: idna (==2.6)
+Requires-Dist: python-chess (==0.23.5)
+Requires-Dist: PyYAML (==3.12)
+Requires-Dist: requests (==2.18.4)
+Requires-Dist: urllib3 (==1.22)
+Requires-Dist: backoff (==1.5.0)
+
+Play on lichess with a bot.
+
+
