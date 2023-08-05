@@ -1,0 +1,17 @@
+easyq/__init__.py,sha256=qo-Tu92lGu_haAxZeELPhIBlHj88Ybe2ZB_xOPxCTpQ,26
+easyq/authentication.py,sha256=SNspBh7fAV2Xsh5z9SF0y-rzfw6u2EKYNBXIauodKYI,910
+easyq/client.py,sha256=3UDrpyaMTlmTXpvUFE0nElOF7c-PUbWN1swrmFYbjMI,3416
+easyq/configuration.py,sha256=tRixTFrM8pFQTzDmd6duKgwtVktnbp7DndRrIN8V6ZY,892
+easyq/logging.py,sha256=mD6vVnNiMqWfAJ5A6dRIR9T1Ca6YDKAIVT7aoIdjyfQ,1256
+easyq/queuemanager.py,sha256=ex9fP1Z6dHNFWTmVi8cVd-FKuPJ_6guqs14bPZit2nc,2628
+easyq/server.py,sha256=5OlWgulwxQY1IxB0Mq7_8ze0qjpDH0uwX_688g4rGi8,5963
+easyq/cli/__init__.py,sha256=cr3juxSgESCmnm_SWN9FEf50oAIr8_Ws5Mqe8q9b480,56
+easyq/cli/argcompletion.py,sha256=_G3vD1sIaq7mpInATNBOh3XWcDs1vxB9B-yMK1Y3SgI,5508
+easyq/cli/base.py,sha256=z7HOTfjbwjJHvsAbPWYWpQvWMuxpQRTXfqbprNS2m_Y,686
+easyq/cli/main.py,sha256=mJxwXu2p5WYyOJkiMiwSuIuL93-dJHcVhtv0LvLj5JE,1335
+easyq/cli/server.py,sha256=BgprggLciQNjWvTLEAyJoCD_t74W4pkAxQoeK0l325Y,2842
+easyq-0.1.0a1.dist-info/METADATA,sha256=7XSwG0qlMnCQTtn04tF6xzphdZJ0qRo6swYRKYaMqpU,829
+easyq-0.1.0a1.dist-info/RECORD,,
+easyq-0.1.0a1.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+easyq-0.1.0a1.dist-info/entry_points.txt,sha256=TmXb8VknlyvMGFjC7yWWcYNSTioDfIWWTAnxWekMn-o,42
+easyq-0.1.0a1.dist-info/top_level.txt,sha256=n-9EIP1hzauyetO34C2HCPa13aONBjivpawtTJQVH90,6
