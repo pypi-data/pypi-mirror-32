@@ -1,0 +1,16 @@
+mastercard_p2p-1.0.5.dist-info/METADATA,sha256=wUF9mG8sRABMU3UfZBXHiR3qReIrgYCnl56oTx_PoWY,676
+mastercard_p2p-1.0.5.dist-info/RECORD,,
+mastercard_p2p-1.0.5.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+mastercard_p2p-1.0.5.dist-info/top_level.txt,sha256=ow1a42eWMltJAUAZMaArKrQTY4rXvjmLvYLijhzIv_Y,14
+mastercardp2p/__init__.py,sha256=q4zHOGXw_2je3iz0CphUhrZRDOC2yfXR7daJzPT8Ook,597
+mastercardp2p/accountinfo.py,sha256=Oh9vMgjPpwwdvurSu02d_hFy3osBZeyrx73Z3RaUEXI,2831
+mastercardp2p/accountmapping.py,sha256=lKvotwXEHRIBY9PIErRYq40SEGJVkSRPddppx_WINLw,2828
+mastercardp2p/accountverification.py,sha256=tG3LEg2Ivg4LLbVROZQ8s9-yxC_qnui19SWI0UKXrnI,2978
+mastercardp2p/consumer.py,sha256=dOg9yGyAoZkGktZfKfzzzgZr0WWQURISP1c5e2H0rz8,5985
+mastercardp2p/consumeraccount.py,sha256=FcAoYvA-0vpp3hcYO4LQjpDP-EGlLRPXH89sQGn0L90,5630
+mastercardp2p/consumercontactid.py,sha256=dQf4MjfaUOqA_brO2Iz7IvTp1O-474byYXhYwuW1mPc,5670
+mastercardp2p/consumergovernmentid.py,sha256=vMBDNMhOjE6l_vik2MV6BwDK5IIwp06nujyugwMFnRs,5745
+mastercardp2p/paymenttransfer.py,sha256=OXrYUGGe6Re6LU7McrxwgwyDblLCOyrnCZbooazZ38U,4168
+mastercardp2p/resourceconfig.py,sha256=hayz-XYqG85-5ilS-j24FCLp6-i9WR1axe692Cx-Ga4,3151
+mastercardp2p/sanctionscreening.py,sha256=wKxXbzKMAyJhziO1CiJLEeipQxO9dY3fmGtfkKQGP4k,2848
+mastercardp2p/transfernotification.py,sha256=iguJA_Ychr4EQZBgTHiI1qHdTo09P2mBdNpyMTZI2nI,2956
