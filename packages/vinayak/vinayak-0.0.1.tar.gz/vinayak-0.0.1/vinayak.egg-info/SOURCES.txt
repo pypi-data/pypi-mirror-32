@@ -1,0 +1,6 @@
+README.md
+setup.py
+vinayak.egg-info/PKG-INFO
+vinayak.egg-info/SOURCES.txt
+vinayak.egg-info/dependency_links.txt
+vinayak.egg-info/top_level.txt
