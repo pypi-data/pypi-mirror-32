@@ -1,0 +1,12 @@
+-rprod.txt
+-rdoc.txt
+pyspark
+pypandoc
+pytest
+pytest-runner
+testfixtures
+xenon
+pylint
+pytest-cov
+python-terraform
+google-auth-httplib2

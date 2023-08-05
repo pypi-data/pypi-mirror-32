@@ -1,0 +1,5 @@
+pyspark
+tzlocal
+google-cloud-storage
+google-cloud-bigquery
+python-terraform
