@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: pyeos-client
+Version: 0.1.7
+Summary: Wrapper for EOS RPC API
+Home-page: https://github.com/EvaCoop/pyeos_client.git
+Author: Merouane Benthameur
+Author-email: merouane.benth@gmail.com
+License: The MIT License
+Requires-Dist: requests
+
+Copyright (c) 2018 EvaCoop.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+Description: # pyeos_client
+        
+        
+        This is a non official python library build around the eosd Chain & Wallet RPC API.
+        This library will allow you to easily interact with EOSIO node through REST API.
+        
+        ## Installation
+        ~~~
+         pip install pyeos-client
+        ~~~
+        
+        ## Getting Started
+        ```python
+        from pyeos_client.NodeosConnect import RequestHandlerAPI
+        from pyeos_client.EOSChainApi import ChainAPI
+        
+        
+        
+        connection  = RequestHandlerAPI(base_url='http://nodeos-server:8888', headers={"Accept": "application/json"})
+        chainapi = ChainAPI(connection)
+        print(chainapi.get_info().json())
+        ```
+        ###### results
+        
+        ~~~
+        {
+          "server_version": "b2eb1667",
+          "head_block_num": 259590,
+          "last_irreversible_block_num": 259573,
+          "head_block_id": "0003f60677f3707f0704f16177bf5f007ebd45eb6efbb749fb1c468747f72046",
+          "head_block_time": "2017-12-10T17:05:36",
+          "head_block_producer": "initp",
+          "recent_slots": "1111111111111111111111111111111111111111111111111111111111111111",
+          "participation_rate": "1.00000000000000000"
+        }
+        ~~~
+        
+        #### Authors
+        
+        - [@Merouane_Benth](https://twitter.com/Merouane_Benth)
+        
+        #### License
+        This project is licensed under the MIT License - see the LICENSE file for details
+        
+        ## Official documentation
+         - [RPC Interface EOS](https://eosio.github.io/eos/group__eosiorpc.html#v1walletlock)
+         - [Library documentation]()
+        
+        ### Contributing
+        
+        - Fork it (https://github.com/EvaCoop/pyeos_client.git)
+        - Create your feature branch (git checkout -b feature/fooBar)
+        - Commit your changes (git commit -am 'Add some fooBar')
+        - Push to the branch (git push origin feature/fooBar)
+        - Create a new Pull Request
+Platform: UNKNOWN
