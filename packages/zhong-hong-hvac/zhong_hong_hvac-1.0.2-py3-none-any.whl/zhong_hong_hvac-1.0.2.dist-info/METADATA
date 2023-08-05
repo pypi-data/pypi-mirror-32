@@ -1,0 +1,24 @@
+Metadata-Version: 2.0
+Name: zhong-hong-hvac
+Version: 1.0.2
+Summary: Python library for interfacing with ZhongHong HVAC controller
+Home-page: https://github.com/crhan/ZhongHongHVAC
+Author: Ruohan Chen
+Author-email: crhan123@gmail.com
+License: Apache
+Description-Content-Type: UNKNOWN
+Keywords: zhonghong hvac climate
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.5
+Requires-Dist: attrs
+
+Python library for interfacing with ZhongHong HVAC controller
+
+
