@@ -1,0 +1,19 @@
+
+CFLAGS	        =
+FFLAGS	        =
+CPPFLAGS        =
+FPPFLAGS        =
+LOCDIR          = src/sys/logging/examples/tutorials/
+EXAMPLESC       =
+EXAMPLESF       = ex1f.F90
+MANSEC          = Sys
+SUBMANSEC       = Profiling
+
+include ${PETSC_DIR}/lib/petsc/conf/variables
+include ${PETSC_DIR}/lib/petsc/conf/rules
+
+ex1f: ex1f.o  chkopts
+	-${FLINKER} -o ex1f ex1f.o  ${PETSC_LIB}
+	${RM} -f ex1f.o
+
+include ${PETSC_DIR}/lib/petsc/conf/test
