@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: vislib
+Version: 0.1
+Summary: Reusable html-based python visualization library
+Home-page: https://github.com/mshafir/vislib
+Author: Michael Shafir
+Author-email: michael.shafir@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: IPython
+Description-Content-Type: text/markdown
+Requires-Dist: ipython
+Requires-Dist: Jinja2
+
+# vislib
+A library of web-based visualizations for python and ipython
+
+## Set Up
+
+```
+pip install vislib
+```
+
