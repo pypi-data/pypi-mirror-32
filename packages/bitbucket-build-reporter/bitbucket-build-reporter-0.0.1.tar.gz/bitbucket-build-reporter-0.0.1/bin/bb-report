@@ -1,0 +1,90 @@
+#!/usr/bin/env python
+import json
+import sys
+import os
+import requests
+import argparse
+
+from git import Repo
+
+bb_api_host='https://api.bitbucket.org'
+
+jenkins_url=os.environ.get('BUILD_URL', False)
+jenkins_number=os.environ.get('BUILD_NUMBER', False)
+
+def parse_arguments():
+    PARSER = argparse.ArgumentParser(description="Bitbucket Cloud Build Status Notifier")
+    PARSER.add_argument('-o', '--org', help="Bitbucket org", required=True)
+    PARSER.add_argument('-r', '--repo', help="Repository name", required=True)
+    PARSER.add_argument('-c', '--commit', help="Commit sha", required=False)
+    PARSER.add_argument('-U', '--url', help="Build URL", default=jenkins_url)
+    PARSER.add_argument('-n', '--number', help="CI build number", default=jenkins_number)
+    PARSER.add_argument('-s', '--state', help="State of the build", required=True, choices=['INPROGRESS', 'SUCCESSFUL', 'FAILED'])
+    PARSER.add_argument('-u', '--username', help="Username for bitbucket", required=True)
+    PARSER.add_argument('-p', '--password', help="Password for bitbucket", required=True)
+    PARSER.add_argument('-d', '--debug', help="Debug mode", action='store_true', required=False)
+    return PARSER.parse_args()
+
+
+def get_git_sha():
+    cwd = os.getcwd()
+    try:
+        Repo(cwd)
+        sha = Repo(cwd).head.object.hexsha
+        sha = sha[:7]
+    except Exception as e:
+        print('Couldnt detect git commit - {}'.format(e))
+        sys.exit(0)
+    return sha
+
+
+def main():
+    ARGS = parse_arguments()
+    bb_repo= ARGS.repo
+    bb_commit = ARGS.commit
+    bb_org = ARGS.org
+    bb_state = ARGS.state
+    bb_username = ARGS.username
+    bb_password = ARGS.password
+    build_url = ARGS.url
+    build_number = ARGS.number
+    debug = ARGS.debug
+    status_object = {
+                      "state": bb_state,
+                      "key": 'BUILD-{}'.format(build_number),
+                      "url": build_url,
+                      "description": '{}/{}'.format(bb_org, bb_repo)
+                    }
+            
+    if not bb_commit:
+        bb_commit = get_git_sha()
+    else:
+        bb_commit = bb_commit[:7]
+    
+    bb_status_path='{}/2.0/repositories/{}/{}/commit/{}/statuses/build'.format(bb_api_host, bb_org, bb_repo, bb_commit)
+    
+    if debug:
+        print('Debug mode is on')
+        print('commit is {}'.format(str(bb_commit)))
+        print('status path is {}'.format(str(bb_status_path)))
+        print('status object is {}'.format(str(status_object)))
+        print('bb_repo is {}'.format(str(bb_repo)))
+        print('bb_org is {}'.format(str(bb_org)))
+        print('bb_state is {}'.format(str(bb_state)))
+        print('build_url is {}'.format(str(build_url)))
+        print('build_number is {}'.format(str(build_number)))
+        
+    try:
+        response = requests.post(bb_status_path, auth=(bb_username, bb_password), json=status_object)
+        if response.ok == True:
+            print('Build status successfully updated for {} of {}'.format(bb_commit, bb_repo))
+        else:
+            print('Couldnt update build status!')
+            print(response, response.content)
+    except Exception as e:
+        print('Couldnt post status back to Bitbucket - {}'.format(e))
+        sys.exit(0)
+
+
+if __name__ == "__main__":
+    main()
