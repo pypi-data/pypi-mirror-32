@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: texolor
+Version: 0.0.4
+Summary: A small colored text module
+Home-page: https://github.com/saurabhlondhe/python-Scripts/blob/master/sau.py
+Author: Saurabh Londhe
+Author-email: saurabhlondhe1111@gmail.com
+License: UNKNOWN
+Description: # Text + Color = texolor
+        
+        This package will help to print colored text on terminal window
+        
+        ```python
+        import texolor as t
+        print (t.ansi_color("red","Saurabh Londhe"))
+        ``` 
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

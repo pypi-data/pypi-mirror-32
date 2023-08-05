@@ -1,0 +1,7 @@
+README.md
+setup.py
+texolor/__init__.py
+texolor.egg-info/PKG-INFO
+texolor.egg-info/SOURCES.txt
+texolor.egg-info/dependency_links.txt
+texolor.egg-info/top_level.txt
