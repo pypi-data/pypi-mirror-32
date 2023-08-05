@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: fc
+Version: 0.1.3
+Summary: Enables Python to be functionally chain-styled.
+Home-page: https://github.com/Thoxvi/Function-Chain-Python
+Author: Thoxvi
+Author-email: A@Thoxvi.com
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Keywords: lambda function
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.4
