@@ -1,0 +1,10 @@
+beautifulsoup4
+click
+lxml
+prompt_toolkit
+pygments
+regex
+requests
+requests-cache
+scapy-python3
+websockets
