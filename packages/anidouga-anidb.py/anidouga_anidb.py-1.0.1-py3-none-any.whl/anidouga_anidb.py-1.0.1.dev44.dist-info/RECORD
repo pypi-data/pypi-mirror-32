@@ -1,0 +1,11 @@
+anidb/__init__.py,sha256=eO6RfQBM1waqh4wnOVjBwOhdom71-dyPDnFBTVCgVmM,5066
+anidb/compat.py,sha256=aYkvGu9M9-csivTM_xYtgObeFWXky_iw3j7X_-q6p_E,1851
+anidb/helper.py,sha256=sw0nzi_zcqGfe1sFgsMyZKD9UJDuvr0BNiiVJ_-Vzi0,2255
+anidb/models.py,sha256=j9bl1lNfxm_B6Z8PyBb3UxINuDR-FfRVhUKfyNDhw8c,13028
+anidb/searchModels.py,sha256=xSnqP5fmhLMuvPWNcdwmKwZQOaCuHbVw9OSVHbvRwJk,1526
+anidb/urls.py,sha256=xdp5bW7GEOaUnTHCOlswfjD35gJ4dJbozbUxLtWAjSQ,167
+anidouga_anidb.py-1.0.1.dev44.dist-info/METADATA,sha256=mm7hWRpIoo5FjXAL5Cj6w6cX0zAKtHFvjKAFWlL7GNQ,673
+anidouga_anidb.py-1.0.1.dev44.dist-info/RECORD,,
+anidouga_anidb.py-1.0.1.dev44.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+anidouga_anidb.py-1.0.1.dev44.dist-info/pbr.json,sha256=XbVHgoELsvAF_bXgd2xDc4W0B1CMMS1bZRCB-lb_ciY,47
+anidouga_anidb.py-1.0.1.dev44.dist-info/top_level.txt,sha256=L1KvtAUTaHXXtvtiA4YzcOrA4Go5KuqARVFYFAGPSYk,6
