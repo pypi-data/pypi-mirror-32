@@ -1,0 +1,13 @@
+behaviors/__init__.py,sha256=aX5jKan5BV3NqgBZGjUE8YwkPR9H1e3Y50yP4qMBEpQ,77
+behaviors/apps.py,sha256=eifA_aT7zMIeTch8Yro6Uh3mplPHhbb-lWUZV2atzCA,113
+behaviors/behaviors.py,sha256=yQsxz2mas8zpvT7h9Jv38_Wg-SylQ7qaVcfRBBA9ZYk,5143
+behaviors/compat.py,sha256=QDl9f-Wo2PCNVCQSLvn9MQF4L-iJ1Tw-Fn6B8IkaHAU,345
+behaviors/forms.py,sha256=qB5rTilZrsjYJx3AyHeaobd4AAOO5DJcBcYqM87DXzw,1120
+behaviors/managers.py,sha256=cdl1qu47kCtn9Razar-hWuyvwrjEy-lHVO1I9iEj-jc,1785
+behaviors/querysets.py,sha256=0t2Y-RiDH8RgVAoVj5tP4SzSYQYGchy0sydi_q-B-XA,1303
+django_behaviors-0.4.1.dist-info/DESCRIPTION.rst,sha256=mvK3oXXoSiGO_fG2kYYtdByN-CuWm0ViWFLQ7zThGB8,29840
+django_behaviors-0.4.1.dist-info/METADATA,sha256=5fTsgHf-SKlCbOyFF8eTzPL8ZaFWGt1ZTNPPlGp-68c,30839
+django_behaviors-0.4.1.dist-info/RECORD,,
+django_behaviors-0.4.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+django_behaviors-0.4.1.dist-info/metadata.json,sha256=m8aJBYWAKh4MsVX_g_X5byc8_u95fdhAJBy0VOSfYOQ,1119
+django_behaviors-0.4.1.dist-info/top_level.txt,sha256=Ay5Cc-zmHBpMGX1vqqD20_wXRmr_LJBZTx7VD7viMow,10
