@@ -1,0 +1,9 @@
+README.md
+setup.py
+23andme_to_vcf.egg-info/PKG-INFO
+23andme_to_vcf.egg-info/SOURCES.txt
+23andme_to_vcf.egg-info/dependency_links.txt
+23andme_to_vcf.egg-info/top_level.txt
+_23andme_to_vcf/__init__.py
+_23andme_to_vcf/driver.py
+bin/23andme-to-vcf

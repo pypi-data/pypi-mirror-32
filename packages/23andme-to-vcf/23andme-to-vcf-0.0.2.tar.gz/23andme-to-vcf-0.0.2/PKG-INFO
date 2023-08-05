@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: 23andme-to-vcf
+Version: 0.0.2
+Summary: A simple script to convert 23andMe raw data files to VCF format.
+Home-page: https://github.com/david-wb/23andme_to_vcf
+Author: David Brown
+Author-email: david.brown@lifeomic.com
+License: UNKNOWN
+Description-Content-Type: text/markdown
+Description: # 23andme to VCF
+        
+        A simple command-line tool to convert 23andMe raw data files to VCF format.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
