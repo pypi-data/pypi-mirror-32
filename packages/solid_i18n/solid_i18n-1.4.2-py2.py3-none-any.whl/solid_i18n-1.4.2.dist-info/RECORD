@@ -1,0 +1,12 @@
+solid_i18n/__init__.py,sha256=sNl4YXO10jTWXh7XXkXfVwSFCgpn9NnzOCCehASjJhA,362
+solid_i18n/contrib.py,sha256=oSGgtufJ33wwxnO_fuD9ftILjgffHwrveJXC9LAHNSs,764
+solid_i18n/memory.py,sha256=Vph38ycyPnJv4BzSRxsNm0l1cmuQvFA9nNxvKfaH4K4,227
+solid_i18n/middleware.py,sha256=oe5wRWyZMdZk0-HaHiSgblx8gqNL-AO6INAri5sSiNs,5927
+solid_i18n/urlresolvers.py,sha256=_SR9uwPxxk5ZElMZzzATwklzmfI8LgeaRub9G_E99qg,3090
+solid_i18n/urls.py,sha256=hTzM2nQURtgiw8TnBMl6Ue6apRtXp0SQbTZBvXCQj-o,1751
+solid_i18n-1.4.2.dist-info/DESCRIPTION.rst,sha256=x8KuWSCVjXgX_ctKE6rrzwbrfV-ZivInhu5gKxkBTW0,11471
+solid_i18n-1.4.2.dist-info/METADATA,sha256=fHpWeQ7egneJwQrRqx2Xnv7ANQ_9LfWQdZ9MH8g93Eo,12122
+solid_i18n-1.4.2.dist-info/RECORD,,
+solid_i18n-1.4.2.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+solid_i18n-1.4.2.dist-info/metadata.json,sha256=7D8vFOndh_-L9kocVeVksOkqyUeqAvItkB9_Me6McyQ,875
+solid_i18n-1.4.2.dist-info/top_level.txt,sha256=P5dqvfJuPkzJ5-pKS-1_g_kIOzfK22babRsKGo-6iwQ,11
