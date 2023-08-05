@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: thicket
+Version: 0.29.2
+Summary: File Path API for Python.
+Home-page: https://github.com/GabrielC101/forest
+Author: Gabriel Curio
+Author-email: contactMeViaGithub@dummy.com
+License: UNKNOWN
+Keywords: system,linux
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Requires-Dist: marshmallow
+Requires-Dist: python-magic
+Requires-Dist: six
+Requires-Dist: xxhash
+
+UNKNOWN
+
+
