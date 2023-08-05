@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: hostblock
+Version: 0.1.4
+Summary: Block domains using hosts file entries.
+Home-page: https://github.com/nul-one/hostblock
+Author: Predrag Mandic
+Author-email: info@nul.one
+License: BSD
+Download-URL: https://github.com/nul-one/hostblock/archive/0.1.4.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.4.6
