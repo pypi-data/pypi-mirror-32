@@ -1,0 +1,8 @@
+ShapeNetHandler/__init__.py,sha256=cyiLeEQlXEXSM-EtWfhncNcVPkhVmTDVH8CSIz7JBlw,38
+ShapeNetHandler/custom_objloader.py,sha256=9REuwICJje1OVer2anuNA1cyr8kTnXsyrk3CwI9YCH0,6800
+ShapeNetHandler/handler.py,sha256=gNs4YZZj-Jvms8CXdCUuY4elwaMy93QHGOvpxRwzylU,13971
+ShapeNetHandler/helpers.py,sha256=_XHRSfdwC0UQiYgVHgypl6vUu88QBIECI7tkXvw7AdE,4165
+ShapeNet_Data_Handler-0.0.dist-info/METADATA,sha256=YQBZKp81BCRhQMp_-iZ1WQutUbE6KqZDxAOHx7NUrUc,183
+ShapeNet_Data_Handler-0.0.dist-info/RECORD,,
+ShapeNet_Data_Handler-0.0.dist-info/WHEEL,sha256=saUSQBLOUjf5ACZdNkhQ0lB6XrHU-l4vpzxq_W1n_AY,116
+ShapeNet_Data_Handler-0.0.dist-info/top_level.txt,sha256=r9NbpMNhD0B2pNgFYgZdehres6foi3a_mnpOSi9Jj7g,16
