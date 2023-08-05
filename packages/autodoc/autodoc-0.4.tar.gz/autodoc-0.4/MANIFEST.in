@@ -1,0 +1,13 @@
+include LICENSE
+include README.rst
+include setup.cfg
+include setup.py
+
+graft autodoc
+graft docs
+
+global-exclude *.py[co]
+global-exclude *.cfg
+
+recursive-include docs *
+recursive-exclude docs/build *
