@@ -1,0 +1,9 @@
+ThinkingDataSdk-1.1.6.dist-info/METADATA,sha256=O5NuePaD7fTWTsbYj9f6XghK20vBSXq-qJ_fTWNrTX4,1590
+ThinkingDataSdk-1.1.6.dist-info/RECORD,,
+ThinkingDataSdk-1.1.6.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+ThinkingDataSdk-1.1.6.dist-info/top_level.txt,sha256=kYtjscmMJH0TQ30QFWcMFgljqDXFbGwGQLVmZ-YtNKM,7
+tgasdk/MutilThread.py,sha256=CITBl5LUhiuqWcqzuhAYSPOjkpTtDOeoxLs7F1DCMdY,1298
+tgasdk/TGAException.py,sha256=WCoc_vUol6vfxK5QiuqhZTvEQDgTv0Tuysaa4ryFGog,537
+tgasdk/Testmain.py,sha256=B_qgfY8tMbw5PjxEd87KxNvKMrNCyWXUQ4yjlB6z_sI,1232
+tgasdk/__init__.py,sha256=61rUXVhUIrjy5jgu8p6vLdVUre3lr3PyMC5E8c_Gq3A,168
+tgasdk/sdk.py,sha256=idkYd5FHrGmkbg02nXX5Au-u3RsNfPSH6ev97ypko_Q,15582
