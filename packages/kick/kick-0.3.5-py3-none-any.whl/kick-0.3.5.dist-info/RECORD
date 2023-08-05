@@ -1,0 +1,8 @@
+kick/__init__.py,sha256=qTTuWfuOrZqoC5MCLIQUO206vZ18fxH5M6QecYOQiqY,831
+kick/config.py,sha256=XiRX9K18SGUSaDeZ2aXO4Rkb2grTJikRAfM_y998B3A,2438
+kick/logging.py,sha256=10bTaN_s5AnQodueziv13Gd73Zn4U0Q9IxKShQ6EgX4,706
+kick-0.3.5.dist-info/METADATA,sha256=Vm7DU7jsps1NsoQCAKQvHe10CuWVwvHa8_wUBzGbcv8,1392
+kick-0.3.5.dist-info/RECORD,,
+kick-0.3.5.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+kick-0.3.5.dist-info/top_level.txt,sha256=0Q834M6LIzsjf6ne9HoYEU2bXDWakGV4wxM9NrA1UJY,11
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
