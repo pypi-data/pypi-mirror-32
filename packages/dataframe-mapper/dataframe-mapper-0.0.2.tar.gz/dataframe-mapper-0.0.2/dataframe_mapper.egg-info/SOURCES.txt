@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+dataframe_mapper.egg-info/PKG-INFO
+dataframe_mapper.egg-info/SOURCES.txt
+dataframe_mapper.egg-info/dependency_links.txt
+dataframe_mapper.egg-info/requires.txt
+dataframe_mapper.egg-info/top_level.txt
+dfmapper/__init__.py
+dfmapper/column.py
+dfmapper/exceptions.py
+dfmapper/mapper.py
+dfmapper/validator.py
