@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+anitomy.py.egg-info/PKG-INFO
+anitomy.py.egg-info/SOURCES.txt
+anitomy.py.egg-info/dependency_links.txt
+anitomy.py.egg-info/top_level.txt
+anitopy/__init__.py
+anitopy/anitopy.py
+anitopy/element.py
+anitopy/keyword.py
+anitopy/parser.py
+anitopy/parser_helper.py
+anitopy/parser_number.py
+anitopy/token.py
+anitopy/tokenizer.py
