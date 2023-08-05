@@ -1,0 +1,4 @@
+setuptools
+oasys1>=1.0.18
+wiselib2
+wofry>=1.0.12wofrywise2
