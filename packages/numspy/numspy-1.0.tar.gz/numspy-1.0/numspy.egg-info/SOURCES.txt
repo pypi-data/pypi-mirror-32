@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+numspy/__init__.py
+numspy.egg-info/PKG-INFO
+numspy.egg-info/SOURCES.txt
+numspy.egg-info/dependency_links.txt
+numspy.egg-info/requires.txt
+numspy.egg-info/top_level.txt
