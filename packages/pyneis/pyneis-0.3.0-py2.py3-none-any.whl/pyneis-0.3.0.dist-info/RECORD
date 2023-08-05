@@ -1,0 +1,9 @@
+neis/__init__.py,sha256=LPtdteMMa3b8dm2r6UEUvt56vKpjHOY88_AmNHRg5mc,343
+neis/client.py,sha256=Vy1DI1Pv7TABoCQdFS-yiyWIjkrVaptjxap25zGYtfQ,1590
+neis/domain.py,sha256=s1VDBDvEvyA4qhRZ0-tdvy-pAo8RnuZ5cRFQGVb2IBQ,1337
+neis/meal.py,sha256=lSgzeHEMIXo3C5HB-KC9abQ8JP3TqCnReciPgsgbQdM,803
+neis/school.py,sha256=6Ec8Dkr2M4tPcCTwLgYPVwt9Ps_Pp_4nhRcJfMdRdog,2046
+pyneis-0.3.0.dist-info/METADATA,sha256=aDiPbbDxhqiXmNjn3DtGoKHAS4YJPCqRBJtYJ7zO7kY,2056
+pyneis-0.3.0.dist-info/RECORD,,
+pyneis-0.3.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+pyneis-0.3.0.dist-info/top_level.txt,sha256=CsXSqrKoqAqSyrdRh2cpgPsDaITm8CAd6UdynJAnuz4,5
