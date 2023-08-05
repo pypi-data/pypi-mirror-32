@@ -1,0 +1,12 @@
+zmail/__init__.py,sha256=g7OCaxiw00jXwu6J_pM0Nd-aVOIRVWy9_oxDT3hHGb0,581
+zmail/api.py,sha256=y4GibXcgfhrp1xs6AEXkpadqdjlxTn7XC6lj7YOLnKE,1421
+zmail/info.py,sha256=r0a5LhkD1iOZKnBaDidXOe-jwXddg7zVQp6f0M-wx8M,2263
+zmail/message.py,sha256=UNwVGwh6eyplbPzw-ccUyOPJMxWekTGfadCiESRGB_o,20301
+zmail/server.py,sha256=Y72umBF6ZMxDeDcSkEISm0rebq14r3YIHkH2lut6QwI,8692
+zmail/settings.py,sha256=yW26UwMtbqDqX49Cpurye6tyl46QqvEkQ4GDqmPzBSE,287
+zmail/structures.py,sha256=W0XCFC3xFTtkUlq-aKRB4gtSevSY9CEHwXf4-Jq9n3Q,1410
+zmail/utils.py,sha256=eH_3MC6-i8j7JRSmke5OcClQyynTHZOXNJwz-CgZGwQ,3343
+zmail-0.1.3.dist-info/METADATA,sha256=4T2ek0-VhdTRO2XvdixNYuazSjqeT-YWuZEkpXhl9mM,1036
+zmail-0.1.3.dist-info/RECORD,,
+zmail-0.1.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+zmail-0.1.3.dist-info/top_level.txt,sha256=qOnqAfjIu39tQ1gXxoyjLLmPcfF18Zlb5szbP-xonlQ,6
