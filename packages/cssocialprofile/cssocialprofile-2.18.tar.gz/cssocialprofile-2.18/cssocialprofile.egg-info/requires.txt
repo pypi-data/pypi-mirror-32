@@ -1,0 +1,4 @@
+social-auth-app-django
+django-registration-redux
+tweepy
+pyfacebook
