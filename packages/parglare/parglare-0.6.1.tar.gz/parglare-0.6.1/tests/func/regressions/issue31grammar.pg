@@ -1,0 +1,12 @@
+model: element+;
+element: title
+| table_with_note
+| table_with_title;
+table_with_title: table_title table_with_note;
+table_with_note: table note*;
+
+terminals
+title: /title/;   // <-- This is lexically ambiguous with the next.
+table_title: /title/;
+table: "table";
+note: "note";
