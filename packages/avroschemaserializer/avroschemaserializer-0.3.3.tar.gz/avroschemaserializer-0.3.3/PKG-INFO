@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: avroschemaserializer
+Version: 0.3.3
+Summary: Python 3 Confluent Schema Registry Client
+Home-page: https://github.com/gregchu/python-serializers
+Author: avroschemaserializer
+Author-email: gregory.h.chu@gmail.com
+License: Apache 2.0
+Description: UNKNOWN
+Keywords: avroschemaserializer schema registry schemaregistry confluent avro
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries
