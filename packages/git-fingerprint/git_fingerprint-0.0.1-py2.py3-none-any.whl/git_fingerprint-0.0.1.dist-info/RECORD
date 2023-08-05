@@ -1,0 +1,8 @@
+git_fingerprint/__init__.py,sha256=xFaOi7NyQmAqK5Xrfic9wc-OO_mmwtXmzCuaByg0Q9E,181
+git_fingerprint/exceptions.py,sha256=042uk3X46LVwQQTL2PiEMJSVLlPB6SsKxrZXaSV-iKI,76
+git_fingerprint/helpers.py,sha256=Ssmk7lsLC3laMdQLdOlZXVqHwIGWWJZfBk3eMNzguA8,2552
+git_fingerprint/scanner.py,sha256=-rRl6YAYDfxDAkkEBu0AmhM1I7nK43nBdx6PBv5qRsU,13419
+git_fingerprint-0.0.1.dist-info/METADATA,sha256=qLjHdfKcIKIUisE4fVQJEVbs3uS9zT9Bmv0p4da8H3s,4600
+git_fingerprint-0.0.1.dist-info/RECORD,,
+git_fingerprint-0.0.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+git_fingerprint-0.0.1.dist-info/top_level.txt,sha256=d365QGgahLs3Nt6uL69YlnWr7hzFZiPMjxks0y31DUo,16
