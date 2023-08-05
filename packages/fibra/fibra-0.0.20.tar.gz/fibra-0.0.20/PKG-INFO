@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: fibra
+Version: 0.0.20
+Summary: Fibra provides advanced cooperative concurrency using Python generators.
+Home-page: http://code.google.com/p/fibra/
+Author: Simon Wittber
+Author-email: simonwittber@gmail.com
+Maintainer: Mario Frasca
+Maintainer-email: mario@anche.no
+License: MIT
+Description: UNKNOWN
+Platform: Any
