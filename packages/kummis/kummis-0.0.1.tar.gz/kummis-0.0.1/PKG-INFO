@@ -1,0 +1,55 @@
+Metadata-Version: 1.1
+Name: kummis
+Version: 0.0.1
+Summary: Kumparan Log Format
+Home-page: https://github.com/jametson/kumlog
+Author: Alam Listyadi
+Author-email: alam.listyadi@gmail.com
+License: BSD 3-Clause License
+Description-Content-Type: UNKNOWN
+Description: # kumlog
+        Kumparan Logging Json Format
+        
+        # Example Usage
+        
+        ```
+        def main():
+            logger.debug("test DEBUG logger")
+            logger.info("test INFO logger")
+            logger.warning("test WARNING logger")
+            logger.error("test ERROR logger")
+            logger.critical("test CRITICAL logger")
+        
+            try:
+                raise ValueError("Input is not valid")
+            except Exception as e:
+                logger.exception(e)
+        
+            try:
+                raise OSError("not found")
+            except Exception as e:
+                logger.exception(e)
+        
+        
+        if __name__ == '__main__':
+            # Setup the logging handler and the formatter
+            handler = logging.StreamHandler(stream=sys.stdout)
+            formatter = StackdriverLoggingFormatter(service_name="stackdriver-logging",
+                                                    service_version="latest", environment="staging")
+            handler.setFormatter(formatter)
+            logger.addHandler(handler)
+            logger.setLevel(logging.DEBUG)
+        
+            main()
+        
+        ```
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
