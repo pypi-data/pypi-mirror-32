@@ -1,0 +1,7 @@
+click
+requests
+pyyaml
+statsd
+python-dateutil<2.7.0
+six
+requests_mock
