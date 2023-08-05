@@ -1,0 +1,20 @@
+CHANGES
+=======
+
+* fix deploy
+* Auto deploy on pypi
+* update readme
+* auto generate AUTHORS & ChangeLog
+* Adding CI & enhance readme
+* Create LICENSE
+* Let's put tests in place
+* Adding bar plot
+* Plots with data modifications are now in register\_pandas\_accessors
+* fix cli plot names
+* add filter on brightness & renames
+* Better packaging
+* cmdline to ease check plots
+* Let's try this way ?
+* Bettering correlation matrix
+* Let's go for that structure
+* Put the basic structure
