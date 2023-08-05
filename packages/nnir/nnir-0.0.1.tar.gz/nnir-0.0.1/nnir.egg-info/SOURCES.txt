@@ -1,0 +1,7 @@
+README.md
+setup.py
+nnir.egg-info/PKG-INFO
+nnir.egg-info/SOURCES.txt
+nnir.egg-info/dependency_links.txt
+nnir.egg-info/requires.txt
+nnir.egg-info/top_level.txt
