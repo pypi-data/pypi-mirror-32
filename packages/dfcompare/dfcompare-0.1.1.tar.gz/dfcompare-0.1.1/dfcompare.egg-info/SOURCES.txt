@@ -1,0 +1,7 @@
+README.rst
+setup.py
+dfcompare/__init__.py
+dfcompare.egg-info/PKG-INFO
+dfcompare.egg-info/SOURCES.txt
+dfcompare.egg-info/dependency_links.txt
+dfcompare.egg-info/top_level.txt
