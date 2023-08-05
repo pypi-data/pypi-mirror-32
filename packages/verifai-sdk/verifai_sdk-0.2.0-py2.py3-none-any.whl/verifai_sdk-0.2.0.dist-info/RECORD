@@ -1,0 +1,9 @@
+verifai_sdk/__init__.py,sha256=hvO149aXNVJZhpblQt6XjiOvtffotVNUasGuYu1eOdA,182
+verifai_sdk/document.py,sha256=vgPp0H1KuNr0vEqqEu4jpUdqyj5EECs1m66GVo0_DR4,12062
+verifai_sdk/service.py,sha256=Is1wsO9SBVKTo63Yx6U2ZDccHlM5CUHt443AYeURQzw,6558
+verifai_sdk/version.py,sha256=8ABuTEY2vMPvYp2mQK3XN5EVQkHisIyjlwsphgTooyg,17
+verifai_sdk-0.2.0.dist-info/LICENSE.txt,sha256=4Nmhl3fW9XQZUeuqeAzv_rj0vnIMplm6ZNxIJn4NNi8,11341
+verifai_sdk-0.2.0.dist-info/METADATA,sha256=hPzngUrAR9EURPdYKIpFbjs5MH9QzMSU-Y-UtvwmwuY,2323
+verifai_sdk-0.2.0.dist-info/RECORD,,
+verifai_sdk-0.2.0.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+verifai_sdk-0.2.0.dist-info/top_level.txt,sha256=cKEFTGqNUE3-oVN-uulxwo4VHD4gOwTQM6g0qXjSjQQ,12
