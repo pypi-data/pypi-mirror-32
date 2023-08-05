@@ -1,0 +1,4 @@
+[console_scripts]
+skoocontrol = skoopy.controller:control
+skooscan = skoopy.scanner:scan
+

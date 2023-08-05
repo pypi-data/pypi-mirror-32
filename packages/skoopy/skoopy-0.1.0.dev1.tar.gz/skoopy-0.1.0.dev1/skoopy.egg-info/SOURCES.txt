@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+skoopy/__init__.py
+skoopy/controller.py
+skoopy/registry.py
+skoopy/scanner.py
+skoopy/transport.py
+skoopy.egg-info/PKG-INFO
+skoopy.egg-info/SOURCES.txt
+skoopy.egg-info/dependency_links.txt
+skoopy.egg-info/entry_points.txt
+skoopy.egg-info/requires.txt
+skoopy.egg-info/top_level.txt

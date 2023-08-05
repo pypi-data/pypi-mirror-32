@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: skoopy
+Version: 0.1.0.dev1
+Summary: Skoobot control module
+Home-page: https://github.com/rablack/skoopy
+Author: Robert Black
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
