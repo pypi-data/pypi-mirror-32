@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: potatotodo
+Version: 1.0.0
+Summary: This is very usual todo-list
+Home-page: https://github.com/bean3/to-do-list
+Author: Team_potato
+Author-email: UNKNOWN
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
