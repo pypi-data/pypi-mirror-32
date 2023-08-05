@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: NightPy
+Version: 2018.1.0
+Summary: NightBot API wrapper.
+Home-page: https://www.IamGregAmato.com
+Author: Greg Amato
+Author-email: amatobahn@gmail.com
+License: Apache License v2.0
+Description: UNKNOWN
+Keywords: development tools api
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3 :: Only
