@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: pylbcapi
+Version: 0.1
+Summary: LocalBitcoin API Wrapper for Python 3.X
+Home-page: UNKNOWN
+Author: J. Fernando Gonzalez
+Author-email: jfgonzalem@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: API,LocalBitcoin
+Platform: UNKNOWN
+Requires-Python: >3.*
