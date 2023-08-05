@@ -1,0 +1,14 @@
+README.md
+setup.py
+cnradical/__init__.py
+cnradical/radical.py
+cnradical.egg-info/PKG-INFO
+cnradical.egg-info/SOURCES.txt
+cnradical.egg-info/dependency_links.txt
+cnradical.egg-info/requires.txt
+cnradical.egg-info/top_level.txt
+cnradical/data/dictionary.pickle
+cnradical/exsample/__init__.py
+cnradical/exsample/get_radical.py
+cnradical/tests/__init__.py
+cnradical/tests/test_radical.py
