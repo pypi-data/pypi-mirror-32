@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: PyMTProxy
+Version: 0.0.1.dev1
+Summary: MTProto Proxy server
+Home-page: UNKNOWN
+Author: Alex Root Junior <jroot.junior@gmail.com>
+Author-email: support@illemius.xyz
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Topic :: Internet :: Proxy Servers
+Classifier: Environment :: Console
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Provides-Extra: dev
+Requires-Dist: wheel; extra == 'dev'
+
+UNKNOWN
+
+
