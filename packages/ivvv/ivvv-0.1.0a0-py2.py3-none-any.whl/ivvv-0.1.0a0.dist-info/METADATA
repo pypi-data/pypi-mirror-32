@@ -1,0 +1,31 @@
+Metadata-Version: 2.0
+Name: ivvv
+Version: 0.1.0a0
+Summary: Interactive volumetric voxel viewing
+Home-page: https://github.com/imaging-tools/ivvv
+Author: aics
+Author-email: danielt@alleninstitute.org
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Keywords: ipython,jupyter,widgets
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: IPython
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Requires-Dist: ipywidgets (>=7.0.0)
+Requires-Dist: numpy (>=1.14.3)
+Requires-Dist: ipydatawidgets (>=3.0.0)
+Requires-Dist: scipy (>=1.0.0)
+Requires-Dist: scikit-image (>=0.13.0)
+
+Interactive volumetric voxel viewing
+
+
