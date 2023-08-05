@@ -1,0 +1,12 @@
+README.md
+setup.py
+vidstab/VidStab.py
+vidstab/__init__.py
+vidstab/__main__.py
+vidstab/layerutils.py
+vidstab/version.py
+vidstab.egg-info/PKG-INFO
+vidstab.egg-info/SOURCES.txt
+vidstab.egg-info/dependency_links.txt
+vidstab.egg-info/requires.txt
+vidstab.egg-info/top_level.txt
