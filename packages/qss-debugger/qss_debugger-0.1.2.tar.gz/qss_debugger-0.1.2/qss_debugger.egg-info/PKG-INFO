@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: qss-debugger
+Version: 0.1.2
+Summary: Improves the process of styling Qt applications with qss.
+Home-page: https://github.com/rubenhenares/qss_debugger
+Author: Ruben Henares
+Author-email: ruben@404fs.com
+License: Apache License 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
