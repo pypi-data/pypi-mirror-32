@@ -1,0 +1,10 @@
+ety/__init__.py,sha256=RceMjagw6jp2ZzeUdH7fisr2rLJ4xsjPT_MEq7fTcGE,3419
+ety/data.py,sha256=EDe97fxAGIUcrpdk7xKEb175hqtPlUN0t-ftWvZEOhg,902
+ety/wn/etymwn-relety.json,sha256=XRxEunZ1RohJyTTkV1QPaST90sZgGXevELmMx5-tLlc,40145838
+ety/wn/iso-639-3.json,sha256=kP5dtiukIc0ZqNy5AdbI-I0i45PlidWfZ7tD-xDQb00,1330675
+ety-1.0.1.dist-info/LICENSE.txt,sha256=R2zOMHjikV-Xgac2LcEFVlcCfRb7kGH6A-IwoTFHWRE,1070
+ety-1.0.1.dist-info/METADATA,sha256=s4QV0BDq89kxTEWjcbEnUUaxxeF3NulepwV54J79cHA,3442
+ety-1.0.1.dist-info/RECORD,,
+ety-1.0.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+ety-1.0.1.dist-info/entry_points.txt,sha256=ePjwWEbHu6U4iD3XSvSW1fFwXs97ieJ5D2-xujJUOVw,33
+ety-1.0.1.dist-info/top_level.txt,sha256=IA9o7HTHLeOQnF1TNSPSkAdKOn1TiTgI9uKyXZQzmP8,4
