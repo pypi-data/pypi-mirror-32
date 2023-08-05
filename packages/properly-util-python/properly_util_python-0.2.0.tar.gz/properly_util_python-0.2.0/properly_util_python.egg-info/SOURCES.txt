@@ -1,0 +1,6 @@
+README.md
+setup.py
+properly_util_python.egg-info/PKG-INFO
+properly_util_python.egg-info/SOURCES.txt
+properly_util_python.egg-info/dependency_links.txt
+properly_util_python.egg-info/top_level.txt
