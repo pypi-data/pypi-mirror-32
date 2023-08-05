@@ -1,0 +1,3 @@
+[console_scripts]
+doxyphp2sphinx = doxyphp2sphinx.cli:Cli.run
+
