@@ -1,0 +1,10 @@
+geopandas
+requests
+beautifulsoup4
+lxml
+tqdm
+
+[dev]
+versioneer
+nbstripout
+nbdime
