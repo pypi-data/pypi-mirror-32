@@ -1,0 +1,8 @@
+README.md
+back_propagation.py
+setup.py
+BackPropagation2.egg-info/PKG-INFO
+BackPropagation2.egg-info/SOURCES.txt
+BackPropagation2.egg-info/dependency_links.txt
+BackPropagation2.egg-info/requires.txt
+BackPropagation2.egg-info/top_level.txt
