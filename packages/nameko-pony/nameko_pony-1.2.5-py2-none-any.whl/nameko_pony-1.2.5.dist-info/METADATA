@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: nameko-pony
+Version: 1.2.5
+Summary: Pony dependency for nameko services
+Home-page: https://github.com/qileroro/nameko-pony/
+Author: qileroro
+Author-email: qileroro@qq.com
+License: Apache License, Version 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: nameko (>=2.0.0)
+Requires-Dist: pony
+
+# nameko-pony
+
+Pony dependency for nameko services
+
+## Installation
+```
+pip install nameko-pony
+```
+
+## Usage
+app.py
+```python
+from nameko.rpc import rpc
+from pony.orm import Database, Required
+from nameko_pony import PonySession, db_session
+
+
+db = Database()
+
+class Person(db.Entity):
+    name = Required(str)
+
+
+class MyService(object):
+    name = "my_service"
+
+    pony_session = PonySession(db)
+
+    @rpc
+    def hello(self, name):
+        with self.pony_session:
+            Person(name=name)
+
+
+    @rpc
+    @db_session
+    def world(self, name):
+        Person(name=name)
+```
+
+config.yml
+```yml
+AMQP_URI: 'pyamqp://guest:guest@localhost'
+DATABASE_URI: 'sqlite:///:memory:'
+# DATABASE_URI: 'mysql://usr:pwd@localhost/db_name'
+```
+
