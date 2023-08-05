@@ -1,0 +1,9 @@
+factory-boy
+pytest-selenium
+pytest-flask
+pytest-cov>=2.5.1
+pytest-metadata>=1.5.1
+pytest>=3.3.0
+tox
+# Travis CI
+py>=1.4.29

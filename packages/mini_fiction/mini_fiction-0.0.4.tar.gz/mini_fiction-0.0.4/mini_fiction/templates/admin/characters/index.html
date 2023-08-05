@@ -1,0 +1,25 @@
+{% extends base %}
+{% from 'macro.html' import breadcrumbs, paginator with context %}
+{% block content %}
+
+<div class="row">
+    <div class="span12">
+        {{- breadcrumbs([[url_for('admin_index.index'), _('Administration')]]) }}
+        <h1>{{ page_title }}</h1>
+
+        <ul>
+        {% for character in characters %}
+            <li>
+                <a href="{{ url_for('admin_characters.update', pk=character.id) }}"><img src="{{ character.thumb }}" alt="{{ character.name }}" title="{{ character.name }}" /> {{ character.name }}</a>
+            </li>
+        {% endfor %}
+        </ul>
+
+        {{ paginator(page_obj) }}
+
+        <a href="{{ url_for('admin_characters.create') }}">{{ _('Create') }}</a>
+
+        {{- breadcrumbs([[url_for('admin_index.index'), _('Administration')]]) }}
+    </div>
+</div>
+{% endblock %}

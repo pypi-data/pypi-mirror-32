@@ -1,0 +1,23 @@
+{% extends base %}
+{% from 'macro.html' import breadcrumbs, paginator with context %}
+{% block content %}
+
+<div class="row">
+    <div class="span12">
+        {{- breadcrumbs([[url_for('admin_index.index'), _('Administration')]]) }}
+        <h1>{{ page_title }}</h1>
+
+        <ul>
+        {% for staticpage in staticpages %}
+            <li><a href="{{ url_for('admin_staticpages.update', name=staticpage.name, lang=staticpage.lang) }}">{{ staticpage.name }} — {{ staticpage.title or staticpage.name }} ({{ staticpage.lang }})</a></li>
+        {% endfor %}
+        </ul>
+
+        {{ paginator(page_obj) }}
+
+        <a href="{{ url_for('admin_staticpages.create') }}">{{ _('Create') }}</a>
+
+        {{- breadcrumbs([[url_for('admin_index.index'), _('Administration')]]) }}
+    </div>
+</div>
+{% endblock %}

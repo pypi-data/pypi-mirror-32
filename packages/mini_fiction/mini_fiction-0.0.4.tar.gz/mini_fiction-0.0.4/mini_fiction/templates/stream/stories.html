@@ -1,0 +1,7 @@
+{% extends "stories_list_common.html" %}
+
+{% from 'macro.html' import paginator with context %}
+
+{% block after_list %}
+    {% if stories %}{{ paginator(page_obj) }}{% endif %}
+{% endblock %}

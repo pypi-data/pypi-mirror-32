@@ -1,0 +1,20 @@
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">Возможные проблемы</h3>
+</div>
+<div class="modal-body">
+    <p>Автоматическая проверка текста главы выявила следующие возможные проблемы:</p>
+    <ul>{% for code, message in linter_error_messages.items() %}
+        <li data-linter-code="{{ code }}">{{ message|safe }}</li>
+    {%- endfor %}</ul>
+</div>
+<div class="modal-footer">
+    {% if linter_allow_hide %}
+    <form method="POST" action="{{ url_for('chapter.hidelinter', pk=chapter.id) }}" style="margin: 0; display: inline;">
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+        <input type="hidden" name="errors" value="{{ linter_allow_hide }}" />
+        <button type="submit" class="btn" aria-hidden="true">Больше не показывать</button>
+    </form>
+    {% endif %}
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Понятно</button>
+</div>

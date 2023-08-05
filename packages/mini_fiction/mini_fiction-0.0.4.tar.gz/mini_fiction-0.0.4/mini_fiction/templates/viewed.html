@@ -1,0 +1,13 @@
+{% extends "stories_list_common.html" %}
+
+{% from 'macro.html' import author_profile_links, paginator with context %}
+
+{% block after_list %}
+    {% if stories %}{{ paginator(page_obj) }}{% endif %}
+{% endblock %}
+
+{% block after_list_block %}
+    <div class="span4">
+        {{ author_profile_links(current_user, 'viewed') }}
+    </div>
+{% endblock %}

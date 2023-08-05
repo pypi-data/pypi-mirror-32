@@ -1,0 +1,225 @@
+{% macro breadcrumbs(items=[], current=None) %}
+        <ul class="breadcrumb">
+            <li><a href="{{ url_for('index.index') }}">{{ SITE_NAME }}</a> <span class="divider">/</span></li>
+            {%- for itemlink, itemtitle in items %}
+            <li><a href="{{ itemlink }}">{{ itemtitle }}</a> <span class="divider">/</span></li>
+            {%- endfor %}
+            <li class="active">{{ current if current != None else page_title }}</li>
+        </ul>
+{% endmacro %}
+
+{% macro nav_item(title, link, match_endpoint=None, matched=None, right=False, noajax=False) -%}
+    {%- if matched == None -%}
+        {%- set matched = match_endpoint != None and request.endpoint != None and (request.endpoint == match_endpoint or match_endpoint.endswith('.') and request.endpoint.startswith(match_endpoint)) -%}
+    {%- endif -%}
+    <li class="{{ 'active ' if matched else '' }}{{ 'right ' if right else '' }}"><a href="{{ link }}"{% if noajax %} data-noajax="1"{% endif %}>{{ title }}</a></li>
+{%- endmacro %}
+
+
+{% macro form_fields(form) %}
+    {% for field in form %}
+        {% if field.widget.input_type == 'hidden' %}{{ field }}{% else %}
+        <div class="control-group{% if field.errors %} error{% endif %}">
+            <label class="control-label">{{ field.label.text }}</label>
+            <div class="controls">
+                {{ field }}
+                {% if field.errors %}
+                    <p class="help-inline">
+                    {% for error in field.errors %}
+                        {{ error }}
+                    {% endfor %}
+                    </p>
+                {% else %}
+                    <p class="help-inline small">{{ field.description }}</p>
+                {% endif %}
+            </div>
+        </div>
+    {% endif %}{% endfor %}
+    {% for error in form.non_field_errors %}
+        <div class="control-group error"><p class="help-inline">{{ error }}</p></div>
+    {% endfor %}
+{% endmacro %}
+
+
+{% macro comment_form_content(form, objtype=None, objid=None, parent=None, preview_html=None, reqs=None) %}
+    <div class="comment-form-content">
+    {{ form.csrf_token() }}
+    <input type="hidden" name="parent" value="{{ parent or '0' }}" />
+    <div class="control-group{% if form.text.errors %} error{% endif %}">
+        <div class="controls">
+            {{ form.text }}
+        </div>
+        {% if form.text.errors %}
+            {% for error in form.text.errors %}
+                <span class="help-inline">{{ error }}</span>
+            {% endfor %}
+        {% endif %}
+    </div>
+    <div class="control-group{% if captcha_error %} error{% endif %} js-captcha-field"{% if not reqs or not reqs.captcha %} style="display: none;"{% endif %}>
+        {% if captcha_error %}<span class="help-inline">{{ captcha_error }}</span>{% endif %}
+        <div class="controls">
+            <div>Докажите, что вы не робот:</div>
+            <div class="captcha-wrap js-captcha-wrap">
+                {%- if reqs and reqs.captcha %}{% with captcha = generate_captcha() %}{% if captcha.cls %}
+                    {%- include 'captcha/captcha.html' with context -%}
+                {% endif %}{% endwith %}{% endif -%}
+            </div>
+        </div>
+    </div>
+    {% if form.non_field_errors %}
+    {% for message in form.non_field_errors %}
+        <div class="control-group error"><span class="help-inline">{{ message }}</span></div>
+    {% endfor %}
+    {% endif %}
+    <div class="control-group">
+        <button type="submit" name="act" value="add" class="btn btn-primary js-comment-submit-btn">{{ _('Send') }}</button>
+        <button type="submit" name="act" value="preview" class="btn" id="comment-preview-btn">{{ _('Preview') }}</button>
+    </div>
+    <img src="{{ url_for('static', filename='i/ajax-loader.gif') }}" alt="" id="comment-preview-loading-img" style="display: none;" />
+    <div id="comment-preview">{% if preview_html %}{% include 'includes/comment_preview.html' %}{% endif %}</div>
+    </div><!-- /comment-form-content -->
+{% endmacro %}
+
+
+{% macro comment_html(comment, short=False, with_controls=True, with_vote=True, author_ids=None) %}
+    {%- if comment.deleted and not current_user.is_staff -%}
+        <div class="comment-text comment-text-deleted">
+            Комментарий был отправлен на Луну
+        </div>
+    {%- else -%}
+        {% if with_vote and comment.bl.can_vote %}
+        <div class="comment-vote-area" data-href="{{ comment.bl.get_vote_link() }}">
+            {% include 'includes/comment_vote.html' %}
+        </div>
+        {% endif %}
+        {% if with_controls and not comment.deleted and comment.bl.can_abuse and current_user.is_authenticated %}
+        <div class="comment-abuse-area">
+            <a href="{{ comment.bl.get_abuse_link() }}" title="Пожаловаться на комментарий" class="abuse-icon comment-abuse-icon">!</a>
+        </div>
+        {% endif %}
+        {% if with_controls %}
+            {% include 'includes/comment_controls.html' %}
+        {% endif %}
+
+        {%- if comment_spoiler_threshold is not defined -%}
+            {%- set comment_spoiler_threshold = get_comment_threshold() -%}
+        {%- endif -%}
+        {% if comment.bl.can_vote and comment.vote_total <= comment_spoiler_threshold %}
+        <button class="btn btn-collapse btn-small" data-toggle="collapse" data-target="#comment_text_{{ comment.id }}">Показать скрытый комментарий</button>
+        <div id="comment_text_{{ comment.id }}" class="collapse comment-text{{ ' comment-text-short' if short else '' }}">
+            {%- if not short %}{{ comment.text_as_html|safe }}{% else %}{{ comment.brief_text_as_html|safe }}{% endif -%}
+        </div>
+        {% else %}
+        <div class="comment-text{{ ' comment-text-short' if short else '' }}">
+            {%- if not short %}{{ comment.text_as_html|safe }}{% else %}{{ comment.brief_text_as_html|safe }}{% endif -%}
+        </div>
+        {% endif %}
+
+        {% if comment.deleted -%}
+        <div class="comment-text comment-text-deleted">
+            Комментарий был отправлен на Луну
+            {%- if current_user.is_staff and comment.last_deleted_at %}
+                {{ comment.last_deleted_at|datetimeformat('d MMMM Y, HH:mm') -}}
+            {%- endif -%}
+            {%- if current_user.is_staff and comment.last_deleted_by %}
+                пользователем {{ comment.last_deleted_by.username -}}
+            {%- endif -%}
+        </div>
+        {%- endif %}
+
+        <div class="comment-meta">
+            <span class="comment-author{% if author_ids and comment.author and comment.author.id in author_ids %} comment-by-topic-author{% endif %}">
+            {%- if comment.author -%}
+                {% with user=comment.author %}
+                    {% include 'includes/userlink.html' %}
+                {% endwith %}
+            {%- else %}
+                <span class="userlink-guest">{{ comment.author_username or 'Гость' }}</span>
+            {%- endif %}
+            </span>
+
+            <time class="comment-time" datetime="{{ comment.date.strftime('%Y-%m-%dT%H:%M:%SZ') }}">
+                {{ comment.date|datetimeformat('d MMMM Y, HH:mm') }}
+            </time>
+
+            {% if not short %}
+                {% if comment.edits_count > 0 -%}
+                    <i class="comment-edited-icon" title="
+                        {%- if comment.edits_count == 1 -%}
+                            {{- gettext('This comment was edited once') -}}
+                        {%- elif comment.edits_count == 2 -%}
+                            {{- gettext('This comment was edited twice') -}}
+                        {%- else -%}
+                            {{- ngettext('This comment was edited %(num)d time', 'This comment was edited %(num)d times', comment.edits_count) -}}
+                        {%- endif -%}"></i>
+                {% endif -%}
+
+                <a class="comment-link" href="{{ comment.bl.get_permalink() }}" rel="nofollow" title="Постоянная ссылка на комментарий">#{{ comment.local_id }}</a>
+
+                {%- if comment.parent -%}
+                    <a class="comment-parent-link" href="{{ comment.parent.bl.get_permalink() }}" title="Ответ на комментарий #{{ comment.parent.local_id }} от {{ comment.parent.author.username if comment.parent.author else (comment.parent.author_username or 'гостя') }}">↑</a>
+                {%- endif %}
+
+                {%- if comment.bl.access_for_answer_by(current_user) %}
+                    <a class="comment-answer-link" data-parent="{{ comment.local_id }}" href="{{ comment.bl.get_answer_link() }}">Ответить</a>
+                {%- endif %}
+                {{ caller() if caller else '' }}
+            {% else %}
+                {{ caller() if caller else '' }}
+                <a class="comment-link" href="{{ comment.bl.get_permalink() }}" rel="nofollow" title="Постоянная ссылка на комментарий">#</a>
+            {% endif %}
+        </div>
+    {%- endif -%}
+{% endmacro %}
+
+
+{% macro author_profile_links(author, tab) -%}
+    <ul class="author-profile-links">
+        <li{% if tab == 'profile' %} class="active"{% endif %}>
+            <a href="{{ url_for('author.info', user_id=author.id) }}">Информация</a>
+        </li>
+
+        <li{% if tab == 'favorites' %} class="active"{% endif %}>
+            <a href="{{ url_for('object_lists.favorites', user_id=author.id) }}">
+                Избранное ({{ author.favorites|length }})
+            </a>
+        </li>
+
+        {% if current_user.id == author.id -%}
+        <li{% if tab == 'bookmarks' %} class="active"{% endif %}>
+            <a href="{{ url_for('object_lists.bookmarks') }}">
+                Прочитать позже ({{ author.bookmarks|length }})
+            </a>
+        </li>
+
+        <li{% if tab == 'viewed' %} class="active"{% endif %}>
+            <a href="{{ url_for('object_lists.viewed') }}">
+                Просмотренные
+            </a>
+        </li>
+        {%- endif %}
+
+        {% if current_user.is_superuser -%}
+        <li>
+            <a href="{{ url_for('admin_authors.update', pk=author.id) }}">
+                Админка
+            </a>
+        </li>
+        {%- endif %}
+
+        <li>
+            <a href="{{ url_for('feeds.accounts', user_id=author.id) }}" title="Новые рассказы автора" data-noajax="1">
+                RSS
+            </a>
+        </li>
+    </ul>
+{%- endmacro %}
+
+
+{% macro paginator(page_obj) -%}
+    <div class="pagination">
+        {% for page_id in page_obj.iter_pages() %}
+            <a href="{{ page_obj.url_for_page(page_id) }}" class="btn{% if page_id == page_obj.number %} btn-primary{% endif %}">{{ page_id }}</a>
+        {% endfor %}
+    </div>
+{%- endmacro %}
