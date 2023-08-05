@@ -1,0 +1,13 @@
+README.rst
+setup.py
+crupter/__init__.py
+crupter/__main__.py
+crupter/cli.py
+crupter/crupter.py
+crupter.egg-info/PKG-INFO
+crupter.egg-info/SOURCES.txt
+crupter.egg-info/dependency_links.txt
+crupter.egg-info/entry_points.txt
+crupter.egg-info/not-zip-safe
+crupter.egg-info/requires.txt
+crupter.egg-info/top_level.txt
