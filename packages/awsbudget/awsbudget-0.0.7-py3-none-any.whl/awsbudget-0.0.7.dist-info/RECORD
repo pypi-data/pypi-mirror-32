@@ -1,0 +1,8 @@
+awsbudget.py,sha256=H5oYNJmaEVzN6iTcu6NLSa_PWTVRMyCjnv4e3jSSazg,1452
+CloudFormationClient/__init__.py,sha256=gBQXScftO3CP8w3iI3s2mZzNOi_G2Iq0-LxAf8b1DNg,2144
+CloudFormationClient/budgets.template.yaml,sha256=AVd5BqJJxYfUGKiDWDp_9gw26NbRqebLilo8UR68UEc,1881
+awsbudget-0.0.7.dist-info/METADATA,sha256=qsDNWyQqFhUrY4T-5otv7mXo6saDNxGNpxPUJt1nH2I,2694
+awsbudget-0.0.7.dist-info/RECORD,,
+awsbudget-0.0.7.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+awsbudget-0.0.7.dist-info/entry_points.txt,sha256=cMgMgx-YZLhMjsYU-UNQmN2lDLjarGpAFhP7My-4Dog,63
+awsbudget-0.0.7.dist-info/top_level.txt,sha256=naf8GX2DANxCZkRkXIdGnUKFkcF_I8YelXhe2RNoEoo,31
