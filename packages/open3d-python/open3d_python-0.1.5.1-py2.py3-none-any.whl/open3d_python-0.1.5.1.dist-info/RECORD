@@ -1,0 +1,14 @@
+open3d/__init__.py,sha256=AdKc9I7sfKaLAgzH231Q_FnBStwH_J4aOzij7lhvnws,342
+open3d/linux/__init__.py,sha256=KYC9MRTRnCqu5bd7eMzma3exEwN0RlUgzLlOwoPIjLg,196
+open3d/linux/open3d.cpython-35m-x86_64-linux-gnu.so,sha256=0EFuX-DJJ4QjRKKzZsHi7gkSp5twmyRi2rRo4AKq7q8,2860096
+open3d/linux/open3d.so,sha256=FtIg9b6cALadIE6bVfR6XfIkXun0nqy82EUHvZSoQ_o,2868448
+open3d/macos/__init__.py,sha256=Tcy2X2wBRSpE3aQD2Ra6ZRTEs1_W-toFPg_96seYcco,196
+open3d/macos/open3d.so,sha256=UaKa_-UdC2ruVPfu6kQCtFhECNGKkwA10EWEpj6cmXc,2997836
+open3d/win32/__init__.py,sha256=HYMB0HJXqMPyC1N0HOAzbkKSi5LaBAW6E1hoDlIehlA,196
+open3d/win32/open3d.cp35-win32.pyd,sha256=6cuuPcq4cYw8AiekU9ZAtREPuUZoygPWQEelVwtWGIU,2712064
+open3d/win32/open3d.pyd,sha256=Z9Y8oQfsEJo_8ZCISaGDjlGZBdoVE-Etpb9RwMWC4zA,2711040
+open3d_python-0.1.5.1.dist-info/LICENSE.txt,sha256=YTpyC4u_eSL5IYbdzCCm77k8tBm0qKxKhcP1RWUK--0,1104
+open3d_python-0.1.5.1.dist-info/METADATA,sha256=M4y3MTRY9J5Nur3bLGWqGjCLHPg8iSpsZRJbE_ITVso,3495
+open3d_python-0.1.5.1.dist-info/RECORD,,
+open3d_python-0.1.5.1.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+open3d_python-0.1.5.1.dist-info/top_level.txt,sha256=rxYSslaX4r-odKtwikUKF1kFr0LPo9ZAZHlFE9WKhME,7
