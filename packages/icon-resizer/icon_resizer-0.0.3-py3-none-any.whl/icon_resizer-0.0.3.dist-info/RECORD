@@ -1,0 +1,16 @@
+definitions.py,sha256=kr7j6C1rHt5DsXI8YDU35IBfnINOIt6M4s1g5stHtmo,662
+icon/__init__.py,sha256=yyLtGsBhynC-sSHdax-rRGvHNjH-gdWxIY68WnPVfDw,22
+icon/cli.py,sha256=8wlKnAcj5mnAq6NcgwyeZxs2toa1zXBPilz-WBwux3w,457
+icon/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+icon/commands/appicon.py,sha256=HDAQjM1iHY4OAx8pg-DIzTPQaGud-v3_lHhGuLOB0AU,1078
+icon/commands/helpers.py,sha256=RI8m6vENRcqJvll3B7YCzXvXIcstY83bo2OP4-cTO1w,184
+icon/commands/tabbar.py,sha256=ThbPPxHxJ62cl7hT5Pw8VkOfkwa7-u9Je4tcbx3Fr1A,1081
+icon_resizer-0.0.3.data/data/LICENSE.txt,sha256=pSU0cRcXRE9HvgG39VZytqE1iKP_BLbTD0sKGrjRrqE,1099
+icon_resizer-0.0.3.data/data/README.md,sha256=hSgAV2LJllCTMfDKWuhTIo1oZL4B84N8Swv0eCxdB18,762
+icon_resizer-0.0.3.dist-info/DESCRIPTION.rst,sha256=ifGlNnTYloMjQyYj_qlLLSGsRXs_-kXPAGTkhVWrU9I,869
+icon_resizer-0.0.3.dist-info/METADATA,sha256=U5fUvTwFkzUQSRkv7izcFSq4j2AkbAcfQH9Au5LuBS4,1377
+icon_resizer-0.0.3.dist-info/RECORD,,
+icon_resizer-0.0.3.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+icon_resizer-0.0.3.dist-info/entry_points.txt,sha256=20TsasNFg0kiqdctchsHFLGwHI8MPYdRBXb9-dkm9S0,58
+icon_resizer-0.0.3.dist-info/metadata.json,sha256=tIdPqKdrRqmP_0_3spu53yrYGRPBJoGTMrM-gEBr2UA,818
+icon_resizer-0.0.3.dist-info/top_level.txt,sha256=LTBaaZ0aebOkimlL7AhuROF8-1F07YHBWG07n1v-wXs,17
