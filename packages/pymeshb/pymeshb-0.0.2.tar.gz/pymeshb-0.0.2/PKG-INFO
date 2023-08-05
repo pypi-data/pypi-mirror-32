@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: pymeshb
+Version: 0.0.2
+Summary: LibMeshb Python wrapper to read/write *.mesh[b]/*.sol[b] file.
+Home-page: https://github.com/jvanharen/pymeshb
+Author: Julien Vanharen
+Author-email: julien.vanharen@inria.fr
+License: UNKNOWN
+Description: # pymeshb
+        [libMeshb](https://github.com/LoicMarechal/libMeshb) Python wrapper.
+        
+        # Overview
+        The **pymeshb** Python module provides read/write functions
+        to handle the *.meshb file format. It is simply a Python wrapper
+        of [libMeshb](https://github.com/LoicMarechal/libMeshb).
+        
+        # Install
+        Simply do:
+        `pip install pymeshb`
+        
+        # Usage
+        ```Python
+        import pymeshb
+        msh = pymeshb.read('in.meshb')
+        pymeshb.write(msh, 'out.meshb')
+        ```
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/markdown
