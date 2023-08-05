@@ -1,0 +1,9 @@
+README.md
+setup.py
+moduledk/__init__.py
+moduledk/add.py
+moduledk/strlib.py
+moduledk.egg-info/PKG-INFO
+moduledk.egg-info/SOURCES.txt
+moduledk.egg-info/dependency_links.txt
+moduledk.egg-info/top_level.txt
