@@ -1,0 +1,11 @@
+CHANGES
+=======
+
+* Bugfix pypi package name
+* Add coveralls
+* Add jupyter notebook
+* But fix tox test coverage
+* Change status to Alpha
+* Add tests
+* Add despike package
+* Initial commit
