@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+plover_retro_quotes.egg-info/PKG-INFO
+plover_retro_quotes.egg-info/SOURCES.txt
+plover_retro_quotes.egg-info/dependency_links.txt
+plover_retro_quotes.egg-info/entry_points.txt
+plover_retro_quotes.egg-info/requires.txt
+plover_retro_quotes.egg-info/top_level.txt
+plover_retro_quotes.egg-info/zip-safe
