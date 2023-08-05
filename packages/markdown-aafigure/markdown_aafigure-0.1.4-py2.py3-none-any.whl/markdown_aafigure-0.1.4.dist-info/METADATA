@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: markdown-aafigure
+Version: 0.1.4
+Summary: aafigure extension for Python Markdown
+Home-page: https://github.com/mbarkhau/markdown-aafigure
+Author: Manuel Barkhau
+Author-email: mbarkhau@gmail.com
+License: MIT
+Requires-Dist: Markdown
+Requires-Dist: aafigure
+
+Markdown aafigure
+
+
