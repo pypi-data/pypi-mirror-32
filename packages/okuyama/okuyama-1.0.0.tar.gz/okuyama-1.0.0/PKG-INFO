@@ -1,0 +1,64 @@
+Metadata-Version: 1.1
+Name: okuyama
+Version: 1.0.0
+Summary: Python client for Distributed KVS okuyama
+Home-page: http://github.com/heavenshell/py-okuyama
+Author: Shinya Ohyanagi
+Author-email: sohyanagi@gmail.com
+License: BSD
+Description: okuyama
+        =======
+        
+        .. image:: https://travis-ci.org/heavenshell/py-okuyama.svg?branch=master
+        
+        Distributed key-value-store okuyama's Python client.
+        
+        
+        Usage
+        -----
+        
+        Connect to MasterNode.
+        
+        .. code::
+        
+          from okuyama import Client
+        
+          client = Client()
+          client.auto_connect(['masternode1:8888', 'masternode2:8888'])
+        
+        
+        Set value
+        
+        .. code::
+        
+          print(client.set('key', 'val')) # => True
+          print(client.get('key')) # => 'val'
+        
+        Remove value
+        
+        .. code::
+        
+          print(client.delete('key')) #=> True
+          print(client.delete('key')) #=> None
+        
+        Set tags
+        
+        .. code::
+        
+          print(client.set('key1', 'val1', tags=['tag1'])) #=> True
+          print(client.set('key2', 'val2', tags=['tag1', 'tag2'])) #=> True
+        
+        Get keys from tag
+        
+        .. code::
+        
+          print(client.execute('get_keys_by_tag', tag='tag1'])) #=> [key1, key2]
+        
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Database

@@ -1,0 +1,8 @@
+include LICENSE
+include README.rst
+include setup.cfg
+include setup.py
+
+graft okuyama
+
+global-exclude *.py[co]

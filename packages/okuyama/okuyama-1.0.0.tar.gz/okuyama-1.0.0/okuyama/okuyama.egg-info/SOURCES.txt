@@ -1,0 +1,10 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+okuyama/__init__.py
+okuyama/client.py
+okuyama/okuyama.egg-info/PKG-INFO
+okuyama/okuyama.egg-info/SOURCES.txt
+okuyama/okuyama.egg-info/dependency_links.txt
+okuyama/okuyama.egg-info/top_level.txt
