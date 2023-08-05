@@ -1,0 +1,11 @@
+opedia_dataset_validator/__init__.py,sha256=81qIMKpJGwaf1dfsv62G1KgPUG6iF4sTzDXaJLUOEeg,137
+opedia_dataset_validator/_version.py,sha256=TZkGuMIRSRmUY3XCIs5owt2o60vXyqYMHWIkhx65uYE,22
+opedia_dataset_validator/cli.py,sha256=TO4USJ-Kvx-Yg5aBWNqY9ZTdVv702mKoJ9EaBMUmZUA,1191
+opedia_dataset_validator/dataset_file_def.yaml,sha256=EYgY-5tYSovxjuhvKZyRohI9KbA2EJa400ehSXzxYi8,1463
+opedia_dataset_validator/printer.py,sha256=f6QRYetCTi6QaJDLLdefrSGLwNCwDPWOAJGd2g9zlt4,1387
+opedia_dataset_validator/validator.py,sha256=APEBc4MxkQ2JIe2fASopSFgYSkOP2J-KSWd1qm1cbm4,10799
+opedia_dataset_validator-0.3.1.dist-info/METADATA,sha256=UDo5deJXY3ENcy94h6j5Afi_t9inMft6is1SZ3c_IJs,1842
+opedia_dataset_validator-0.3.1.dist-info/RECORD,,
+opedia_dataset_validator-0.3.1.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+opedia_dataset_validator-0.3.1.dist-info/entry_points.txt,sha256=mEV8eBs-jvRFuVdODxLEF2x5JNI1tOeG6bn4CBiX9Gs,80
+opedia_dataset_validator-0.3.1.dist-info/top_level.txt,sha256=9GM6MCLX44ERgXimppmsuLG7otq8H2oLCE6ThkQ7p0k,25
