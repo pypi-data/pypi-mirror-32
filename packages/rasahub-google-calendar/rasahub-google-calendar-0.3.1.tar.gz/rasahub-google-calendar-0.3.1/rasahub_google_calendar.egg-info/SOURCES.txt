@@ -1,0 +1,9 @@
+MANIFEST.in
+README.rst
+setup.py
+rasahub_google_calendar/__init__.py
+rasahub_google_calendar.egg-info/PKG-INFO
+rasahub_google_calendar.egg-info/SOURCES.txt
+rasahub_google_calendar.egg-info/dependency_links.txt
+rasahub_google_calendar.egg-info/requires.txt
+rasahub_google_calendar.egg-info/top_level.txt

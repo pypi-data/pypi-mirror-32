@@ -1,0 +1,6 @@
+rasahub
+authlib
+flask
+google-api-python-client
+
+[test]
