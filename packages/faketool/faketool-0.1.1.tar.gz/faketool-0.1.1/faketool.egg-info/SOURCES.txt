@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+faketool.egg-info/PKG-INFO
+faketool.egg-info/SOURCES.txt
+faketool.egg-info/dependency_links.txt
+faketool.egg-info/entry_points.txt
+faketool.egg-info/not-zip-safe
+faketool.egg-info/requires.txt
+faketool.egg-info/top_level.txt
+genbank_validate/__init__.py
+genbank_validate/breseq_wrapper.py
+genbank_validate/cli.py
