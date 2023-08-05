@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+potato.py
+setup.cfg
+setup.py
+testlist001.egg-info/PKG-INFO
+testlist001.egg-info/SOURCES.txt
+testlist001.egg-info/dependency_links.txt
+testlist001.egg-info/entry_points.txt
+testlist001.egg-info/top_level.txt
