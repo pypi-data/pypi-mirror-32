@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: krangpower
+Version: 0.1.5
+Summary: Distribution System Simulator based on OpenDSS
+Home-page: https://github.com/supsi-dacd-isaac/krangpower
+Author: Federico Rosato
+Author-email: federico.rosato@supsi.ch
+License: MIT
+Download-URL: https://github.com/supsi-dacd-isaac/krangpower
+Provides-Extra: dev
+Provides-Extra: extras
+Requires-Dist: OpenDSSDirect.py; extra == 'extras'
+Requires-Dist: networkx; extra == 'extras'
+Requires-Dist: pint; extra == 'extras'
+Requires-Dist: numpy; extra == 'extras'
+Requires-Dist: pandas; extra == 'extras'
+Requires-Dist: scipy; extra == 'extras'
+Requires-Dist: matplotlib; extra == 'extras'
+Requires-Dist: python-dateutil; extra == 'extras'
+Requires-Dist: tqdm; extra == 'extras'
+
+# krangpower
+
+
