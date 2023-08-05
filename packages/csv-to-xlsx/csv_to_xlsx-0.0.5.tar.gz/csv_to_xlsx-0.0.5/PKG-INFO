@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: csv_to_xlsx
+Version: 0.0.5
+Summary: Convert CSV and TSV to XLSX files using openpyxl
+Home-page: https://github.com/russlamb/file_convert
+Author: Russ Lamb
+Author-email: revoltingrobot@gmail.com
+License: UNKNOWN
+Description: # file_convert
+        convert csv to tsv to xlsx
+        
+        very short and simple project to convert comma delimited files (.csv) to tab delimited files (.tsv) to Excel files (.xslx)
+        
+        ## Dependencies
+        openpyxl
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

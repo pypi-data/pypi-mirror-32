@@ -1,0 +1,9 @@
+README.md
+setup.py
+csv_to_xlsx/__init__.py
+csv_to_xlsx/convert.py
+csv_to_xlsx.egg-info/PKG-INFO
+csv_to_xlsx.egg-info/SOURCES.txt
+csv_to_xlsx.egg-info/dependency_links.txt
+csv_to_xlsx.egg-info/requires.txt
+csv_to_xlsx.egg-info/top_level.txt
