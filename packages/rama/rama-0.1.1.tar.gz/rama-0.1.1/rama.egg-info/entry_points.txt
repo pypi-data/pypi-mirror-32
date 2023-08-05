@@ -1,0 +1,9 @@
+[vo.dm.models]
+coords = rama.models.coordinates
+cube = rama.models.cube
+ds = rama.models.dataset
+ivoa = rama.models.ivoa
+meas = rama.models.measurements
+photdmalt = rama.models.photdmalt
+source = rama.models.source
+

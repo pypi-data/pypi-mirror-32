@@ -1,0 +1,6 @@
+lxml
+astropy
+numpy
+python-dateutil
+matplotlib
+requests
