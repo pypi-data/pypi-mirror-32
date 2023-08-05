@@ -1,0 +1,4 @@
+six
+cftime
+cython
+numpy
