@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+__init__.py
+setup.py
+teacher_nbextension/__init__.py
+teacher_nbextension/handlers.py
+teacher_nbextension.egg-info/PKG-INFO
+teacher_nbextension.egg-info/SOURCES.txt
+teacher_nbextension.egg-info/dependency_links.txt
+teacher_nbextension.egg-info/requires.txt
+teacher_nbextension.egg-info/top_level.txt
+teacher_nbextension/__pycache__/__init__.cpython-35.pyc
+teacher_nbextension/__pycache__/handlers.cpython-35.pyc
+teacher_nbextension/static/edit.js
+teacher_nbextension/static/main.js
+teacher_nbextension/static/tree.js
