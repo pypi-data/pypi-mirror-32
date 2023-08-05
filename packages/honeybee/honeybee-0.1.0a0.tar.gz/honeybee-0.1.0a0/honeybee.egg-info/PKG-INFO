@@ -1,0 +1,13 @@
+Metadata-Version: 1.0
+Name: honeybee
+Version: 0.1.0a0
+Summary: An artificial bee colony implementation in Python
+Home-page: https://github.com/Engineero/honeybee
+Author: Engineero
+Author-email: engineerolabs@gmail.com
+License: UNKNOWN
+Description: # Honeybee
+        An artificial bee colony implementation in Python
+        
+Keywords: abc,artificial,bee,colony,optimization
+Platform: UNKNOWN
