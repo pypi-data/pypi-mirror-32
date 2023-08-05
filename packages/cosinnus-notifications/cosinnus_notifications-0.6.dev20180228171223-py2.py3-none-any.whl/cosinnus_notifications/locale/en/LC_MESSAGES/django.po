@@ -1,0 +1,156 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-05 13:07+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Notifications"
+msgstr ""
+
+msgctxt "the_app"
+msgid "notifications"
+msgstr ""
+
+#, python-format
+msgid "Your daily digest for %(portal_name)s"
+msgstr ""
+
+msgid "This is what happened during the last day!"
+msgstr ""
+
+#, python-format
+msgid "Your weekly digest for %(portal_name)s"
+msgstr ""
+
+msgid "This is what happened during the last week!"
+msgstr ""
+
+msgctxt "notification frequency"
+msgid "Never"
+msgstr ""
+
+msgctxt "notification frequency"
+msgid "Immediately"
+msgstr ""
+
+msgctxt "notification frequency"
+msgid "Daily"
+msgstr ""
+
+msgctxt "notification frequency"
+msgid "Weekly"
+msgstr ""
+
+msgid "Notification Preference for User"
+msgstr ""
+
+msgid "Notification ID"
+msgstr ""
+
+msgid "Notification Preference"
+msgstr ""
+
+msgid "Notification Preferences"
+msgstr ""
+
+msgid "User who caused this notification event"
+msgstr ""
+
+msgid "Audience"
+msgstr ""
+
+msgid "All notifications"
+msgstr ""
+
+msgid "No notifications"
+msgstr ""
+
+msgid "You are getting this notification because you are subscribed to these kinds of events in your project or group."
+msgstr ""
+
+msgid "You are getting this notification because you are an administrator of this project or group."
+msgstr ""
+
+msgid "You are getting this notification because you are an administrator of this portal."
+msgstr ""
+
+msgid "You are getting this email because you are subscribed to one or more daily notifications."
+msgstr ""
+
+msgid "You are getting this email because you are subscribed to one or more weekly notifications."
+msgstr ""
+
+msgid "New item"
+msgstr ""
+
+msgid "Untitled"
+msgstr ""
+
+msgid "Your Profile"
+msgstr ""
+
+msgid "Select which notifications you would like to receive for each group or project you are involved in."
+msgstr ""
+
+msgid "These notifications will be sent to your configured email address:"
+msgstr ""
+
+msgid "You can choose to receive notifications as soon as they happen, or you can receive a daily (or weekly) e-mail digest."
+msgstr ""
+
+msgid "The digest will aggregate all notifications with the \"Daily\" (or \"Weekly\") setting from all groups and projects. So you will receive only a single e-mail per day (or week) containing everything interesting that happend."
+msgstr ""
+
+msgid "Notifications you set to \"Immediately\" will be e-mailed to you as soon as they happen, with one e-mail per notification."
+msgstr ""
+
+msgid "Don't forget to save your settings once you are done editing them!"
+msgstr ""
+
+msgid "more"
+msgstr ""
+
+msgid "I wish to receive notification emails"
+msgstr ""
+
+msgid "Receive notification emails in this language"
+msgstr ""
+
+msgid "Immediately"
+msgstr ""
+
+msgid "Daily"
+msgstr ""
+
+msgid "Weekly"
+msgstr ""
+
+msgid "Custom"
+msgstr "Custom settings"
+
+msgid "Reset to default"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "This will reset all of your notification preferences to their default setting. Are you sure you wish to do that?"
+msgstr ""
+
+msgid "Your notification preferences were updated successfully."
+msgstr ""
+
+msgid "Your notifications preferences were reset to default!"
+msgstr ""

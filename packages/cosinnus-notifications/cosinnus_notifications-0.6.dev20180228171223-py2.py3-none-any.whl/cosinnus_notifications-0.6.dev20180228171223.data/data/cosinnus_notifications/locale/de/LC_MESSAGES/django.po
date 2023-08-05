@@ -1,0 +1,158 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-05 13:07+0100\n"
+"PO-Revision-Date: 2017-08-12 16:30+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de\n"
+"X-Generator: Poedit 1.8.4\n"
+
+msgid "Notifications"
+msgstr "Benachrichtigungen"
+
+msgctxt "the_app"
+msgid "notifications"
+msgstr "Benachrichtigungen"
+
+#, python-format
+msgid "Your daily digest for %(portal_name)s"
+msgstr "Dein täglicher Report für %(portal_name)s"
+
+msgid "This is what happened during the last day!"
+msgstr "Das ist den letzten Tag passiert!"
+
+#, python-format
+msgid "Your weekly digest for %(portal_name)s"
+msgstr "Dein wöchentlicher Report für %(portal_name)s"
+
+msgid "This is what happened during the last week!"
+msgstr "Das ist letzte Woche passiert!"
+
+msgctxt "notification frequency"
+msgid "Never"
+msgstr "Nie"
+
+msgctxt "notification frequency"
+msgid "Immediately"
+msgstr "Sofort"
+
+msgctxt "notification frequency"
+msgid "Daily"
+msgstr "Täglich"
+
+msgctxt "notification frequency"
+msgid "Weekly"
+msgstr "Wöchentlich"
+
+msgid "Notification Preference for User"
+msgstr "Benachrichtigungseinstellung für Benutzer"
+
+msgid "Notification ID"
+msgstr "Benachrichtiguns-ID"
+
+msgid "Notification Preference"
+msgstr "Benachrichtigungseinstellung"
+
+msgid "Notification Preferences"
+msgstr "Benachrichtigungseinstellungen"
+
+msgid "User who caused this notification event"
+msgstr "Benutzer der das Event ausgelöst hat"
+
+msgid "Audience"
+msgstr "Publikum"
+
+msgid "All notifications"
+msgstr "Alle Benachrichtigungen"
+
+msgid "No notifications"
+msgstr "Keine Benachrichtigungen"
+
+msgid "You are getting this notification because you are subscribed to these kinds of events in your project or group."
+msgstr "Du erhältst diese Benachrichtigung, weil du angegeben hast, dass du diese Art von Benachrichtigungen erhalten möchtest."
+
+msgid "You are getting this notification because you are an administrator of this project or group."
+msgstr "Du erhältst diese Benachrichtigung, weil du ein Administrator dieses Projektes oder dieser Gruppe bist."
+
+msgid "You are getting this notification because you are an administrator of this portal."
+msgstr "Du erhältst diese Benachrichtigung, weil du ein Administrator dieses Portals bist."
+
+msgid "You are getting this email because you are subscribed to one or more daily notifications."
+msgstr "Du erhältst diese Benachrichtigung, weil du eine oder mehrere tägliche Benachrichtigungen abonniert hast."
+
+msgid "You are getting this email because you are subscribed to one or more weekly notifications."
+msgstr "Du erhältst diese Benachrichtigung, weil du eine oder mehrere wöchentliche Benachrichtigungen abonniert hast."
+
+msgid "New item"
+msgstr "Neues Item"
+
+msgid "Untitled"
+msgstr "Unbenannt"
+
+msgid "Your Profile"
+msgstr "Dein Profil"
+
+msgid "Select which notifications you would like to receive for each group or project you are involved in."
+msgstr "Hier kannst du auswählen, welche Benachrichtigungen du von den Gruppen und Projekten erhalten möchtest, in denen du involviert bist."
+
+msgid "These notifications will be sent to your configured email address:"
+msgstr "Diese Benachrichtigungen werden dir an deine eingestellte E-Mail-Adresse geschickt:"
+
+msgid "You can choose to receive notifications as soon as they happen, or you can receive a daily (or weekly) e-mail digest."
+msgstr "Du kannst auswählen ob du Benachrichtigungen sobald sie passieren, oder ob du sie in einem täglichen (oder wöchtenlichen) E-Mail Report erhalten möchtest."
+
+msgid "The digest will aggregate all notifications with the \"Daily\" (or \"Weekly\") setting from all groups and projects. So you will receive only a single e-mail per day (or week) containing everything interesting that happend."
+msgstr "Der E-Mail Report fasst Benachrichtigungen mit der Einstellung \"Täglich\" (oder \"Wöchentlich\") von allen Projekten und Gruppen zusammen. So erhältst du nur eine einzige E-Mail pro Tag (oder Woche), in der alles Interessante, was passiert ist, steht."
+
+msgid "Notifications you set to \"Immediately\" will be e-mailed to you as soon as they happen, with one e-mail per notification."
+msgstr "Benachrichtigungen die du auf \"Sofort\" gestellt hast, werden dir sofort zugeschickt, mit jeweils einer E-Mail pro Benachrichtigung."
+
+msgid "Don't forget to save your settings once you are done editing them!"
+msgstr "Vergiss nicht deine Einstellungen zu speichern wenn du fertig bist!"
+
+msgid "more"
+msgstr "mehr"
+
+msgid "I wish to receive notification emails"
+msgstr "Ich möchte Benachrichtigungs-Emails erhalten"
+
+msgid "Receive notification emails in this language"
+msgstr "Benachrichtigungs-Emails in dieser Sprache empfangen"
+
+msgid "Immediately"
+msgstr "Sofort"
+
+msgid "Daily"
+msgstr "Täglich"
+
+msgid "Weekly"
+msgstr "Wöchentlich"
+
+msgid "Custom"
+msgstr "Individuelle Einstellungen"
+
+msgid "Reset to default"
+msgstr "Zurücksetzen"
+
+msgid "Save"
+msgstr "Speichern"
+
+msgid "This will reset all of your notification preferences to their default setting. Are you sure you wish to do that?"
+msgstr "Hiermit werden sämtliche Benachrichtigungseinstellungen auf ihren empfohlenen Standardwert zurückgesetzt. Bist du sicher dass du das tun willst?"
+
+msgid "Your notification preferences were updated successfully."
+msgstr "Deine Benachrichtigungseinstellungen wurden erfolgreich geändert."
+
+msgid "Your notifications preferences were reset to default!"
+msgstr "Deine Benachrichtigungseinstellungen wurden erfolgreich zurückgesetzt!"
