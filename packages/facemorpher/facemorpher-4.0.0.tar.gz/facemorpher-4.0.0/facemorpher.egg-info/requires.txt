@@ -1,0 +1,6 @@
+docopt
+numpy
+scipy
+matplotlib
+Pillow
+future
