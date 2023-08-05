@@ -1,0 +1,8 @@
+README.md
+setup.py
+gari/Example_GeneticAlgorithm.py
+gari/__init__.py
+gari.egg-info/PKG-INFO
+gari.egg-info/SOURCES.txt
+gari.egg-info/dependency_links.txt
+gari.egg-info/top_level.txt
