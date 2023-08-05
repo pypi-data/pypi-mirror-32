@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: py-actors
+Version: 0.0.6
+Summary: Actor implementation in Python
+Home-page: https://github.com/kmanc/py_actors
+Author: Kevin Conley
+Author-email: kmanc@comcast.net
+License: MIT
+Keywords: Python,Actor,Concurrency,Parallelism
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+
+A package designed to abstract parts of the actor model so that a developer can write clean, actor-driven Python code. See documentation at https://kmanc.github.io/python_actors/
+
+
