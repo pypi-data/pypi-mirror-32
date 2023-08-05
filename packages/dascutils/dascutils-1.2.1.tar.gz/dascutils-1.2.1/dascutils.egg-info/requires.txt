@@ -1,0 +1,16 @@
+python-dateutil
+numpy>=1.13
+astropy
+xarray
+
+[io]
+themisasi
+
+[plot]
+matplotlib
+scipy
+
+[tests]
+pytest
+nose
+coveralls
