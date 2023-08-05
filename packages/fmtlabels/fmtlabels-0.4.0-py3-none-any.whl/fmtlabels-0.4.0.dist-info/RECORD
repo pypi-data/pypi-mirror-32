@@ -1,0 +1,15 @@
+fmtlabels/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fmtlabels/fmt.py,sha256=n2qFKSsxXUitpnMdK8sZVAfas701PpJ7ozTN59lPniQ,5553
+fmtlabels/lines.py,sha256=dKFo0p_RcDVoNqS8FN-TVBXULC44rc3OTXdqknEIVBA,272
+fmtlabels/tab.py,sha256=sN2KvrgmXLybGl_aekmE4CmpOnBp8Z6jHQmGggRoVaw,2360
+fmtlabels-0.4.0.data/scripts/cntaspect,sha256=Bf1P_mOqFBVIwm341Uk8quRG5ef246ncE9gXbHzFym4,296
+fmtlabels-0.4.0.data/scripts/fmtlbl,sha256=-N_LeIhXTR0PScIQqo0RGjiOyQ-eRODQxKD6FKf0Vdo,933
+fmtlabels-0.4.0.data/scripts/fmtlines,sha256=BzEWrUBNs44PF6YUMUcoVzJyV1enDIhOAhxKI-upf2g,311
+fmtlabels-0.4.0.data/scripts/fmttab,sha256=tGRE02BjVPPGpfAWZ3f7AWUw0-IgqY_5HCCwqMHkX_8,846
+fmtlabels-0.4.0.data/scripts/lblcsv2json,sha256=KkUv3S9il_FACamQhb_XepbFa4g4r0352Q7nX23-Z64,363
+fmtlabels-0.4.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+fmtlabels-0.4.0.dist-info/METADATA,sha256=sBAVWEsI-2rWdD7QHkxbNMs3-QdKekLGaP3SoOUS7JI,356
+fmtlabels-0.4.0.dist-info/RECORD,,
+fmtlabels-0.4.0.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+fmtlabels-0.4.0.dist-info/metadata.json,sha256=s6V5vWQ7U02E3KDCxLnYetUdwhR9-3KgxjzCrfNWNaQ,471
+fmtlabels-0.4.0.dist-info/top_level.txt,sha256=oK78T5-bFdCwzZnVDvJY4SBcAQZTGD28YsbCGHoZgeI,10
