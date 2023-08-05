@@ -1,0 +1,29 @@
+Metadata-Version: 1.1
+Name: scriptdoctest
+Version: 0.3
+Summary: Helper to test interactive shell
+        snippet examples in documentation
+Home-page: https://github.com/Anaphory/scriptdoctest
+Author: Gereon Kaiping
+Author-email: gereon.kaiping@gmail.com
+License: MIT
+Description: =============
+        scriptdoctest
+        =============
+        
+        The scriptdoctest module searches for pieces of text that look like interactive shell sessions, and then executes those sessions to verify that they work exactly as shown.
+        
+        It was inspired by attempts to write a beastling tutorial that would not immediately become obsolete – see
+        https://github.com/lmaurits/BEASTling/issues/59 – and would never have come to life without `doctest`.
+        
+Keywords: test doctest command line scripts tutorial
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Documentation
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: System :: Shells
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3

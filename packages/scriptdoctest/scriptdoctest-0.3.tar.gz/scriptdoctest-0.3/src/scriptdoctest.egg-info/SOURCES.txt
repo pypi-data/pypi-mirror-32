@@ -1,0 +1,8 @@
+README.rst
+setup.py
+src/scriptdoctest.py
+src/scripttest.py
+src/scriptdoctest.egg-info/PKG-INFO
+src/scriptdoctest.egg-info/SOURCES.txt
+src/scriptdoctest.egg-info/dependency_links.txt
+src/scriptdoctest.egg-info/top_level.txt
