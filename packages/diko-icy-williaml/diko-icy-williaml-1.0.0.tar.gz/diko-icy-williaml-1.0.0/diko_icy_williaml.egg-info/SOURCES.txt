@@ -1,0 +1,6 @@
+README.md
+setup.py
+diko_icy_williaml.egg-info/PKG-INFO
+diko_icy_williaml.egg-info/SOURCES.txt
+diko_icy_williaml.egg-info/dependency_links.txt
+diko_icy_williaml.egg-info/top_level.txt
