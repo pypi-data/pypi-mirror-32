@@ -1,0 +1,3 @@
+[console_scripts]
+hostblock = hostblock.__main__:main
+
