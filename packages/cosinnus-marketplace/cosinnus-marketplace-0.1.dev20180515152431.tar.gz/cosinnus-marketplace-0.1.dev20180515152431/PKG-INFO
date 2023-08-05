@@ -1,0 +1,40 @@
+Metadata-Version: 1.1
+Name: cosinnus-marketplace
+Version: 0.1.dev20180515152431
+Summary: cosinnus marketplace application
+Home-page: UNKNOWN
+Author: Sinnwerkstatt Medienagentur GmbH Berlin
+Author-email: web@sinnwerkstatt.com
+License: UNKNOWN
+Description: ============
+        Installation
+        ============
+        
+        * Add ``'cosinnus_event', 'easy-thumbnails', 'geoposition'`` to ``INSTALLED_APPS``
+        * Add a setting for the thumbnailer, e.g.
+        ```python
+        THUMBNAIL_PROCESSORS = (
+         'easy_thumbnails.processors.colorspace',
+         'easy_thumbnails.processors.autocrop',
+         'easy_thumbnails.processors.scale_and_crop',
+         'easy_thumbnails.processors.filters',
+        )
+        ```
+        See https://github.com/SmileyChris/easy-thumbnails for more details .
+        * You might want to specify another value than the default 480 for the height of the map widget:
+        ```
+        GEOPOSITION_MAP_WIDGET_HEIGHT = '500'
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Framework :: Django

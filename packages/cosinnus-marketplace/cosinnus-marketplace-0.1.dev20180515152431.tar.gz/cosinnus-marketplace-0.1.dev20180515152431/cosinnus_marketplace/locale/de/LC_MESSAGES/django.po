@@ -1,0 +1,365 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-05 13:07+0100\n"
+"PO-Revision-Date: 2018-01-10 17:43+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de\n"
+"X-Generator: Poedit 1.8.4\n"
+
+msgid "Marketplace"
+msgstr "Marktplatz"
+
+msgctxt "the_app"
+msgid "marketplace"
+msgstr "Marktplatz"
+
+msgid "A user created a new offer"
+msgstr "Ein Mitglied hat ein neues Inserat erstellt"
+
+#, python-format
+msgid "New offer by %(sender_name)s"
+msgstr "Neues Inserat von %(sender_name)s"
+
+#, python-format
+msgid "%(sender_name)s created a new offer"
+msgstr "%(sender_name)s hat ein neues Inserat erstellt"
+
+#, python-format
+msgid "A new offer: \"%(object_name)s\" was created in %(team_name)s."
+msgstr "Ein neues Inserat  \"%(object_name)s\" wurde in %(team_name)s erstellt."
+
+msgid "One of your offers expired"
+msgstr "Eins deiner Inserate ist abgelaufen"
+
+msgid "Your offer has expired"
+msgstr "Dein Inserat ist abgelaufen"
+
+#, python-format
+msgid "Offer \"%(object_name)s\" has expired."
+msgstr "Inserat  \"%(object_name)s\" ist abgelaufen."
+
+msgid "A user commented on one of your offers"
+msgstr "Ein Benutzer hat eines deiner Inserate kommentiert"
+
+#, python-format
+msgid "%(sender_name)s commented on your offer"
+msgstr "%(sender_name)s hat dein Inserat kommentiert"
+
+#, python-format
+msgid "%(sender_name)s commented on one of your offers"
+msgstr "%(sender_name)s hat auf eines deiner Inserate kommentiert"
+
+#, python-format
+msgid "%(sender_name)s"
+msgstr "%(sender_name)s"
+
+msgid "A user commented on an offer you were tagged in"
+msgstr "Ein Mitglied hat ein Inserat kommentiert in dem du getaggt bist"
+
+#, python-format
+msgid "%(sender_name)s commented on an offer you were tagged in"
+msgstr "%(sender_name)s hat ein Inserat kommentiert in dem du getaggt bist"
+
+#, python-format
+msgid "%(sender_name)s commented on an offer you were tagged in in %(team_name)s"
+msgstr "%(sender_name)s hat ein Inserat kommentiert in dem du getaggt bist in %(team_name)s"
+
+msgid "Current Offers"
+msgstr "Aktuelle Inserate"
+
+msgid "No current offers"
+msgstr "Keine aktuellen Inserate"
+
+msgid "Created By"
+msgstr "Erstellt von"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "Newest Created"
+msgstr "Zuletzt erstellt"
+
+msgid "Title"
+msgstr "Titel"
+
+msgid "Order Key"
+msgstr "Sortierschlüssel"
+
+msgid "Looking for"
+msgstr "Suche"
+
+msgid "Offering"
+msgstr "Biete"
+
+msgid "Offer currently active?"
+msgstr "Inserat aktuell aktiv?"
+
+msgid "Description"
+msgstr "Beschreibung"
+
+msgid "Offer Category"
+msgstr "Inserats-Kategorie"
+
+msgid "Offer"
+msgstr "Inserat"
+
+msgid "Offers"
+msgstr "Inserate"
+
+#, python-format
+msgid "Offer: %(offer)s (%(type)s)"
+msgstr "Inserat: %(offer)s (%(type)s)"
+
+msgid "Creator"
+msgstr "Ersteller"
+
+msgid "Created"
+msgstr "Erstellt"
+
+msgid "Last modified"
+msgstr "Zuletzt geändert"
+
+msgid "Text"
+msgstr "Text"
+
+msgid "Comment"
+msgstr "Kommentar"
+
+msgid "Comments"
+msgstr "Kommentare"
+
+msgid "Back to Offers"
+msgstr "Zurück zu Inseraten"
+
+msgid "My Offers"
+msgstr "Meine Inserate"
+
+msgid "Add Offer"
+msgstr "Inserat erstellen"
+
+#, python-format
+msgid "%(link_start)s%(username)s%(link_end)s is looking for"
+msgstr "%(link_start)s%(username)s%(link_end)s sucht "
+
+#, python-format
+msgid "%(link_start)s%(username)s%(link_end)s is offering"
+msgstr "%(link_start)s%(username)s%(link_end)s bietet"
+
+msgid "Inactive"
+msgstr "Inaktiv"
+
+msgid "Delete"
+msgstr "Löschen"
+
+msgid "Edit"
+msgstr "Bearbeiten"
+
+msgid "Deactivate"
+msgstr "Deaktivieren"
+
+msgid "Reactivate"
+msgstr "Reaktivieren"
+
+msgid "Activate"
+msgstr "Aktivieren"
+
+#, python-format
+msgid "Do you really want to delete offer „%(title)s“?"
+msgstr "Willst du wirklich Inserat „%(title)s“ löschen?"
+
+msgid "Delete offer"
+msgstr "Inserat löschen"
+
+#, python-format
+msgid "Do you really want to deactivate offer „%(title)s“?"
+msgstr "Willst du wirklich Inserat „%(title)s“ deaktivieren?"
+
+msgid "Deactivate offer"
+msgstr "Inserat deaktivieren"
+
+#, python-format
+msgid "Do you really want to reactivate offer „%(title)s“?"
+msgstr "Willst du wirklich Inserat „%(title)s“ reaktivieren?"
+
+#, python-format
+msgid "Do you really want to activate offer „%(title)s“?"
+msgstr "Willst du wirklich Inserat „%(title)s“ aktivieren?"
+
+msgid "Reactivate offer"
+msgstr "Inserat reaktivieren"
+
+msgid "Activate offer"
+msgstr "Inserat aktivieren"
+
+msgid "Write comment..."
+msgstr "Kommentar schreiben..."
+
+msgid "Post"
+msgstr "Posten"
+
+msgid "This offer is inactive. It is only visible to you and not listed in the marketplace. You can reactivate it below."
+msgstr "Dieses Inserat is inaktiv. Es ist nur für dich sichtbar und wird nicht im Marktplatz angezeigt. Du kannst es unten reaktivieren."
+
+msgid "There was an error in one of the fields you entered. Please correct it before saving!"
+msgstr ""
+
+msgid "Offer type"
+msgstr "Inseratstyp"
+
+msgid "Offer Title"
+msgstr "Inseratstitel"
+
+msgid "Enter a description for your offer."
+msgstr "Gib eine Beschreibung für dein Inserat ein."
+
+msgid "Phone number"
+msgstr "Mobilnummer"
+
+msgid "Your phone number is only visible for registered users"
+msgstr "Deine Telefonnummer ist nur für registrierte Benutzer sichtbar"
+
+msgid "Categories"
+msgstr "Kategorien"
+
+msgid "Check all categories that fit your offer"
+msgstr "Markiere alle Kategorien, die auf dein Inserat zutreffen"
+
+msgid "Misc"
+msgstr "Verschiedenes"
+
+msgid "Upload a file or image or attach an existing one"
+msgstr "Lade eine Datei oder Bild hoch oder wähle ein vorhandes zum Anhängen aus"
+
+msgid "The first uploaded image will be displayed as a wallpaper"
+msgstr "Das erste hochgeladene Bild wird als Hintergrundbild angezeigt"
+
+msgid "Offer is active"
+msgstr "Inserat ist aktiv"
+
+msgid "Only active offers will be listed in the Marketplace. Your offer will stay active for 4 weeks. After that, you can reactivate it at any time."
+msgstr "Nur aktive Inserate werden im Marktplatz angezeigt. Dein Inserat wird 4 Wochen lang aktiv bleiben. Danach kannst du es jederzeit reaktivieren."
+
+msgid "Create"
+msgstr "Erstellen"
+
+msgid "Save"
+msgstr "Speichern"
+
+msgid "Filter"
+msgstr "Filtern"
+
+msgid "All"
+msgstr "Alle"
+
+msgid "Wanted"
+msgstr "Suche"
+
+msgid "No offers"
+msgstr "Keine Inserate"
+
+msgid "There are no offers"
+msgstr "Es gibt keine Inserate"
+
+msgid "(No description set)"
+msgstr "(Keine Beschreibung erstellt)"
+
+msgid "offered in"
+msgstr "angeboten in"
+
+msgid "expires on"
+msgstr "läuft ab am"
+
+msgid "expired on"
+msgstr "abgelaufen am"
+
+#, python-format
+msgid "Contact %(username)s directly"
+msgstr "Kontaktiere %(username)s direkt"
+
+msgid "Only shown for registered users"
+msgstr "Nur für registrierte Mitglieder sichtbar"
+
+msgid "Send Message"
+msgstr "Nachricht schicken"
+
+msgid "There are no current offers"
+msgstr "Es gibt aktuell keine Inserate"
+
+#, python-format
+msgid "Offer \"%(title)s\" was edited successfully."
+msgstr "Inserat \"%(title)s\" wurde erfolgreich editiert."
+
+#, python-format
+msgid "Offer \"%(title)s\" could not be edited."
+msgstr "Inserat \"%(title)s\" konnte nicht editiert werden."
+
+#, python-format
+msgid "Offer \"%(title)s\" was added successfully."
+msgstr "Inserat \"%(title)s\" wurde erfolgreich eingestellt."
+
+#, python-format
+msgid "Offer \"%(title)s\" was saved successfully, but is not active yet."
+msgstr "Inserat \"%(title)s\" wurde erfolgreich erstellt, ist aber noch nicht aktiv."
+
+#, python-format
+msgid "Offer \"%(title)s\" could not be added."
+msgstr "Inserat \"%(title)s\" konnte nicht eingestellt werden."
+
+#, python-format
+msgid "Offer \"%(title)s\" was deleted successfully."
+msgstr "Inserat \"%(title)s\" wurde erfolgreich gelöscht."
+
+#, python-format
+msgid "Offer \"%(title)s\" could not be deleted."
+msgstr "Inserat \"%(title)s\" konnte nicht gelöscht werden."
+
+msgid "The offer you requested is no longer active. Sorry!"
+msgstr "Das Inserat das du angefragt hast ist leider nicht mehr aktiv!"
+
+msgid "The complete request can only be sent via POST!"
+msgstr "The complete request can only be sent via POST!"
+
+msgid "Invalid action for this offer. The request could not be completed!"
+msgstr "Invalid action for this offer. The request could not be completed!"
+
+msgid "The offer is already active"
+msgstr "Das Inserat ist bereits aktiv"
+
+msgid "The offer is already deactivated"
+msgstr "Das Inserat ist bereits deaktiviert"
+
+msgid "The offer was deactivated successfully."
+msgstr "Das Inserat wurde erfolgreich deaktiviert."
+
+msgid "The offer was reactivated successfully."
+msgstr "Das Inserat wurde erfolgreich reaktiviert."
+
+msgid "The offer was activated successfully."
+msgstr "Das Inserat wurde erfolgreich aktiviert."
+
+msgid "Your comment was added successfully."
+msgstr "Dein Kommentar wurde erfolgreich hinzugefügt."
+
+msgid "Your comment was deleted successfully."
+msgstr "Dein Kommentar wurde erfolgreich gelöscht."
+
+#~ msgid "Phone number (optional)"
+#~ msgstr "Mobilnumer (optional)"
+
+#~ msgid "Add Photos or Files"
+#~ msgstr "Photos oder Dateien hinzufügen"
+
+#~ msgid "An offer has expired"
+#~ msgstr "Ein"
