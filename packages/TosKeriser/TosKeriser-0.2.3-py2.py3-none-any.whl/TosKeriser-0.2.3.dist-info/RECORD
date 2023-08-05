@@ -1,0 +1,16 @@
+TosKeriser-0.2.3.dist-info/METADATA,sha256=9alnxGXtfEPWYsnc7Dmu3jm4JPGScrko9nWWEGUBeFs,7550
+TosKeriser-0.2.3.dist-info/RECORD,,
+TosKeriser-0.2.3.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+TosKeriser-0.2.3.dist-info/entry_points.txt,sha256=BeTamkRzgKrrKsR-xJT6fETiQWSSxsmiyeOfyagjlUw,49
+TosKeriser-0.2.3.dist-info/top_level.txt,sha256=-Xc4bsMNvx8a3TUznG0B73fhw_RRoegMsd3bDz_VM2c,11
+toskeriser/__init__.py,sha256=PSgHT4T2QBGco7a7vs_fhtJIGyIhrJDTM61V8Fyb7Hc,212
+toskeriser/completer.py,sha256=8rMcVp2iSwDV1MIAJ-ZeOzXdTTlbygKosbmXDtZKGf8,9468
+toskeriser/exceptions.py,sha256=e7rvOcO_EiTkOI2fy8g_aJcQm8MHLKPkSfEbaMfPK1Y,300
+toskeriser/helper.py,sha256=StnhUSnJrc0UOilAOtGddT3p-aD5owRLcg687Ku6zKQ,4018
+toskeriser/merger.py,sha256=X1MWePwqTg6wHYCLhFucYPjLjIr9tOx5fkV-_LqFpQM,3602
+toskeriser/requester.py,sha256=Xn2sG9K6xsbYRtawfJ_9ri_eahTt29UJBg85K3B9Vhw,1159
+toskeriser/toskeriser.py,sha256=HKM72Uijcpd0o9RKBbsUboEGRidmaw5Q2qFKGleQKh0,6694
+toskeriser/ui.py,sha256=AweugIu04rxrrT4Zs_VL830dp39aWOa47d5FBbziqYE,6672
+toskeriser/validator.py,sha256=1NUj2vVlB02Mm4P4ADPqnhjwrSoifE6DHJSRAjkhFWU,5387
+usr/share/toskeriser/tosker-types.yaml,sha256=gb5tsrgE9UfM8jP02pmUOOYKgFjItXYQpnG_sd0wLbI,4286
+usr/share/toskeriser/examples/thinking.csar,sha256=rDdY06uMVGqDC7c-NlwOmeBUiMr7BF_7ZSLmGFY7c64,4444
