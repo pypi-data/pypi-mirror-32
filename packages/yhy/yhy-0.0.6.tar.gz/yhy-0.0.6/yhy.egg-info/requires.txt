@@ -1,0 +1,4 @@
+Click
+pillow
+pyperclip
+requests
