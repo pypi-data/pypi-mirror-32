@@ -1,0 +1,15 @@
+tfcoreml/__init__.py,sha256=AeYidtSv1JFQvRGzb0X1OvRDnpyNFGTHvyac7AASviU,104
+tfcoreml/_interpret_shapes.py,sha256=oFmy2qdblsFbnSbQOjhe518sWas6387PZBvQKoVgHAM,8571
+tfcoreml/_layers.py,sha256=zarwZcm0fflTNUfPOvA9Iy3iukLr6O7kyGz8sGrpdkw,52161
+tfcoreml/_layers_common.py,sha256=8GMFeL1V5VKL37AhdLoFAHGaDUYoqbCE7Ld2eq5c5_8,3955
+tfcoreml/_ops_to_layers.py,sha256=Gn__ZDEdrc_ZjFj9nI8GfpT2aaaGquCMcJQKTkhr41o,5894
+tfcoreml/_shape_sensitive_layers.py,sha256=Wd53NIQf9wgAattq1kkNfLTek_O7BVdIwrbVO6LAq-c,15180
+tfcoreml/_tf_coreml_converter.py,sha256=yZnN0LawnOycsefIWqRnW-0sWC1BiM3Bfw0RYK2eqMI,22943
+tfcoreml/_tf_graph_transform.py,sha256=LJVC7ng_n4f01S51diFAGlsVW6vJtn7pdp9D_-pHYJk,7083
+tfcoreml/optimizations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tfcoreml/optimizations/_optimize.py,sha256=xkkZGSRfZbfIOj4KJ3rS5JndB_saCAkFP7DxT2StSHs,21027
+tfcoreml/optimizations/_optimize_nn_spec.py,sha256=G_PRu4_MMB_mVluSLZYIWCisjrkdomm8SxIBwvJ2WUU,2595
+tfcoreml-0.2.0.dist-info/METADATA,sha256=fXGxj4l3O5Gy4QLJ60von1M3unVHuEkE5PSxJz4jBLg,2009
+tfcoreml-0.2.0.dist-info/RECORD,,
+tfcoreml-0.2.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+tfcoreml-0.2.0.dist-info/top_level.txt,sha256=Ffqgw9WjgaXsuMWyUF2rSQmYNuT-7Bj0vwSmMUnOYE8,9
