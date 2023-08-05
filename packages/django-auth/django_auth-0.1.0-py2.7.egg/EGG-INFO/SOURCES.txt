@@ -1,0 +1,10 @@
+README.rst
+setup.py
+django_auth/__init__.py
+django_auth/settings.py
+django_auth.egg-info/PKG-INFO
+django_auth.egg-info/SOURCES.txt
+django_auth.egg-info/dependency_links.txt
+django_auth.egg-info/not-zip-safe
+django_auth.egg-info/requires.txt
+django_auth.egg-info/top_level.txt
