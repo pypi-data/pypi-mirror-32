@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: fuzzycmeans
+Version: 1.0.0
+Summary: Fuzzy c-means according to the research paper by James C. Bezdek et. al
+Home-page: https://github.com/ahmad88me/fuzzy-c-means
+Author: Ahmad Alobaid
+Author-email: aalobaid@fi.upm.es
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+
+# fuzzy-c-means
+Fuzzy c-means Clustering
+
+[![Build Status](https://semaphoreci.com/api/v1/ahmad88me/fuzzy-c-means/branches/master/badge.svg)](https://semaphoreci.com/ahmad88me/fuzzy-c-means)
+
+## To run the tests
+`sh tests/run_tests.sh`
+
+
