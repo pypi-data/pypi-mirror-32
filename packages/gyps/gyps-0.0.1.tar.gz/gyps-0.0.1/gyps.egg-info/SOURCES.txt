@@ -1,0 +1,9 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+gyps.egg-info/PKG-INFO
+gyps.egg-info/SOURCES.txt
+gyps.egg-info/dependency_links.txt
+gyps.egg-info/top_level.txt
