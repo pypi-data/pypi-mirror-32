@@ -1,0 +1,14 @@
+unified_map/__init__.py,sha256=zH-K_mS2wN2vsyJ8mrz7fmwfYSY2O0IKXv2Zx5L-BOk,413
+unified_map/cluster_setup.py,sha256=t5_-oT-YjWY6O24IC1QBzQjc6j7mIta9nmyR1kh9pxo,15697
+unified_map/multivariate/__init__.py,sha256=BtZrs0GX234_DuSptRDv8w9NF6HCv5Kar1gDEYb3ykY,196
+unified_map/multivariate/distributed.py,sha256=-b03EkL2AT9b3SWdMgPOUy5mCHVdVk9p5ISI8KWsD34,3669
+unified_map/multivariate/parallel.py,sha256=BE9UOcw0GFq8NZUDFdkudJfnnFbR1cIpXRWKU8qO5Rk,5043
+unified_map/multivariate/serial.py,sha256=DYup_LA9YQafclco6G0HX2aeunUdpy8iZI_NYZS3ass,4960
+unified_map/univariate/__init__.py,sha256=BtZrs0GX234_DuSptRDv8w9NF6HCv5Kar1gDEYb3ykY,196
+unified_map/univariate/distributed.py,sha256=nh0LpLKg3iKFUPm988-6ZrBIAUC2ldQbB1u2-aVypZI,3550
+unified_map/univariate/parallel.py,sha256=0lq5WpFjwzs9lM4BVwmJ7n5Qjds52b22lPEUfYtFFJE,4711
+unified_map/univariate/serial.py,sha256=y3s8V77ZipxrE9JzNtXZQHmXy984ac0J1DixSeTFjr8,4832
+unified_map-1.0.0.dist-info/METADATA,sha256=DSZFKg8LYfPkUKKa8yKzJ3Yef1xUNOJNVo-GgsuTlPM,8283
+unified_map-1.0.0.dist-info/RECORD,,
+unified_map-1.0.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+unified_map-1.0.0.dist-info/top_level.txt,sha256=MQ4ZnkwB037P6cwAebV_oyw9HI5CW1Ev0PrrKU_Wb20,12
