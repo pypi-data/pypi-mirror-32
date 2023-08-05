@@ -1,0 +1,2 @@
+recursive-include modlit/sphinx/ext/images *.svg
+recursive-include modlit *.json
