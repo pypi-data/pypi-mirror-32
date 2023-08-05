@@ -1,0 +1,12 @@
+C_ConfigDirectory  = 'ESP/conf'
+C_RuntimeDirectory = 'ESP/rt'
+C_HandlerDirectory = 'ESP/handlers'
+
+C_TmpDirectory     = '/tmp/'
+
+C_DeviceList       = 'DeviceList'
+
+C_MpyCross         = 'mpy-cross'
+C_Esptool          = 'esptool.py'
+
+C_EspBinary        = '~/esp8266/esp8266-20171101-v1.9.3.bin'
