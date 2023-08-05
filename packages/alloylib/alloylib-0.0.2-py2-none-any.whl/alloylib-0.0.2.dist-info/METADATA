@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: alloylib
+Version: 0.0.2
+Summary: Lab Common Library for Commonly used Modules/Functions
+Home-page: https://github.com/CMU-ARM/alloy
+Author: Xiang Zhi Tan
+Author-email: zhi.tan@ri.cmu.edu
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pyquaternion
+
+# Alloy
+Copyright (c) 2018 Assistive Robots Lab - Carnegie Mellon University
+
+This is basic library that provide commonly used Functions in different areas of robotics. The current library consists of functions for *basic robot math operations*, *ROS math wrappers*, *Baxter related functions*, *Graph search implementations*, *Basic State Machines*. The library is developed for internal use but we welcome others to use it if they find it useful.
+
+
+
