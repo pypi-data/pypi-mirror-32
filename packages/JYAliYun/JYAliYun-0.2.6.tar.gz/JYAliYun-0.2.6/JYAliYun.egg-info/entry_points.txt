@@ -1,0 +1,4 @@
+
+            [console_scripts]
+            oss_head=JYAliYun.AliYunOSS.cli.oss_head
+      
