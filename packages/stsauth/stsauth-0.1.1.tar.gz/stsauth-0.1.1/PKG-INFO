@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: stsauth
+Version: 0.1.1
+Summary: UNKNOWN
+Home-page: https://github.com/cshamrick/stsauth
+Author: Scott Hamrick
+Author-email: scott@scotthamrick.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
