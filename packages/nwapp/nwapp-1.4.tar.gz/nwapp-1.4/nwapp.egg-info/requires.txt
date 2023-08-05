@@ -1,0 +1,8 @@
+Click
+pymongo
+pandas
+forex-python
+re
+colorama
+datetime
+requests
