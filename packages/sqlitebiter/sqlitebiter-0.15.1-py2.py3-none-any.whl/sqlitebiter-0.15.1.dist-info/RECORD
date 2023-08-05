@@ -1,0 +1,16 @@
+sqlitebiter/__init__.py,sha256=sZt68qkqRRAM4OrubxMtsVQj4s3tvaiXJsPqkVzaGOc,229
+sqlitebiter/__version__.py,sha256=HOrzCSbFWjE6wU2AwjXE4f_EZUvu2oYlZwp7wTh5I1c,285
+sqlitebiter/_common.py,sha256=Mgn7M_ONt2nJfeCWoyDXmueDnAdMtTF0KkspSjWigCQ,324
+sqlitebiter/_config.py,sha256=slwylQWg8CQEYjK-JaqbV_8Xp0BLFHRbl29NhTfz9zY,1051
+sqlitebiter/_const.py,sha256=l7Hdv_sCc0U1ycUtBX72NYXSEMfgGBa1oIYj7-S3ep0,213
+sqlitebiter/_counter.py,sha256=22B_EOjKKBcViQxR5K5wrgiRvptLXu5kpRUa9Uo_KPw,992
+sqlitebiter/_dict_converter.py,sha256=CLeBR3v9GQ021i_uSHYF0MnThx4kH5z85lWIv6GGeyc,2662
+sqlitebiter/_enum.py,sha256=sRG9pAGmKfCkcuCYVytsPZojTNXaSqtYjvlMiq4PVlk,451
+sqlitebiter/_ipynb_converter.py,sha256=gxIuKDW6mmhAQA9Vg52iRUX3Y0CLQIVP-OlRdPGGYSY,8707
+sqlitebiter/_table_creator.py,sha256=NofAvqtzSLNMdy36gviORLUjH5VECrZQBOM8irTw65Y,2496
+sqlitebiter/sqlitebiter.py,sha256=l1XwW88PscdPaXNQ3hInKR8ogjgzkW0a8i2RW3Iad_s,16936
+sqlitebiter-0.15.1.dist-info/METADATA,sha256=XuCE2ejxkftNs_kC64O0v4oJxq1CyR7tuqFFoVlWuoQ,14345
+sqlitebiter-0.15.1.dist-info/RECORD,,
+sqlitebiter-0.15.1.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+sqlitebiter-0.15.1.dist-info/entry_points.txt,sha256=MLHYEdX2GhZSG9IhUnC9HFQXH9tP1sCODXtrxUWQGvc,61
+sqlitebiter-0.15.1.dist-info/top_level.txt,sha256=LL9PzpdmmIIIeI_Oblg6ntHy6o1b0i3XBPaLI17AWdo,12
