@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: typing-tools
+Version: 0.1.2
+Summary: Provides tools for typing in Python 3.6
+Home-page: https://gitlab.com/Hares/typing-tools
+Author: Peter Zaitcev / USSX Hares
+Author-email: ussx-hares@yandex.ru
+License: MIT
+Description: # Typing Tools
+        This is a library for Python 3.6+ that adds some dict-like classes supporting attributes like in JavaScript' objects. 
+        
+        This module provides 2 classes - _DictStruct_ and _AssignmentSupportable_.
+        Inherit your class from it and all the featues will enable.
+        For the examples of usage, please, see the full description in our [Gitlab Homepage](https://gitlab.com/Hares/typing-tools) (PyPi does not support latest versions of Markdown).
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
