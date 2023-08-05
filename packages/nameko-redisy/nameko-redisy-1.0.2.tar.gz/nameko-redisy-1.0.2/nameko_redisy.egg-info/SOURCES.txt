@@ -1,0 +1,8 @@
+README.md
+setup.py
+nameko_redisy/__init__.py
+nameko_redisy.egg-info/PKG-INFO
+nameko_redisy.egg-info/SOURCES.txt
+nameko_redisy.egg-info/dependency_links.txt
+nameko_redisy.egg-info/requires.txt
+nameko_redisy.egg-info/top_level.txt
