@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+pyod/__init__.py
+pyod.egg-info/PKG-INFO
+pyod.egg-info/SOURCES.txt
+pyod.egg-info/dependency_links.txt
+pyod.egg-info/requires.txt
+pyod.egg-info/top_level.txt
