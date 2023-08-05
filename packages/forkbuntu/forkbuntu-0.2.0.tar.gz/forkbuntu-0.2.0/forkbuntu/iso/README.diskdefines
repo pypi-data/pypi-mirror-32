@@ -1,0 +1,9 @@
+#define DISKNAME {{ description }}
+#define TYPE binary
+#define TYPE binary 1
+#define ARCH amd64
+#define ARCH amd64 1
+#define DISKNUM 1
+#define DISKNUM1 1
+#define TOTALNUM 0
+#define TOTALNUM0 1
