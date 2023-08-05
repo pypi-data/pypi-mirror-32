@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: mama
+Version: 0.1.0a1
+Summary: A C++ build tool even your mama can use
+Home-page: https://github.com/RedFox20/Mama
+Author: Jorma Rebane
+Author-email: jorma.rebane@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: mama,build,mamabuild,c,c++,tool,cmake,simple,easy,cross-platform
+Platform: UNKNOWN
+Requires-Python: >=3.6
