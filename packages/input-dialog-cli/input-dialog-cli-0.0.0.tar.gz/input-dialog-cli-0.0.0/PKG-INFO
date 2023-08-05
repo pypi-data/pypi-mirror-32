@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: input-dialog-cli
+Version: 0.0.0
+Summary: input dialog
+Home-page: https://github.com/looking-for-a-job/input-dialog-cli
+License: UNKNOWN
+Description: ### Install
+        
+        ```bash
+        $ [sudo] pip install input-dialog-cli
+        ```
+        
+        ### Features
+        
+        +   osx input dialog
+        
+        ### Usage
+        
+        ```
+        usage: input-dialog title [answer]
+        ```
+        
+        ### Examples
+        
+        ```bash
+        $ input-dialog "title" "default answer"
+        user answer
+        ```
+Keywords: dialog
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Environment :: MacOS X
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Other
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
