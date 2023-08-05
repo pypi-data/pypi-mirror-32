@@ -1,0 +1,16 @@
+toclo/__init__.py,sha256=Ac8pSTOc_HF2qITThJw8HjL8VCXLkpqcc5FZRFrnNlU,23
+toclo/__main__.py,sha256=loY_rRnqkWEfWtlm_E1OavCeVcTh4RcdbSd9IuMS4hw,31
+toclo/cli.py,sha256=_RGoI0pwARyUiBIuOPvx2a2KCLlWIez4ijGwEaIXIlM,1264
+toclo/commands/__init__.py,sha256=E1Z-T9L4BzH7UamGSZj2EXfe4L0L4am6t0v7-UM51FI,132
+toclo/commands/add.py,sha256=5iViATlh0k6leJ2MOvvUS0OfHQiR9DJ1YBIwKZhjPE8,343
+toclo/commands/base.py,sha256=XGoYolZvMUb_ismei9cE3bDdvx9PCUj2o9QLRFwgbjk,8426
+toclo/commands/color.py,sha256=fyDVLQmX6uDpwq7lqRcM5KSf9tOfLw9l-EeI0-qKGNA,1649
+toclo/commands/complete.py,sha256=nGLgSkS51sVboiHPOWgPM-sSIJpKoWf1gN7vpJARfR4,231
+toclo/commands/delete.py,sha256=AeN5rb6kaUdEgAbSP2x0lj1g-VdYIRH0auyNLuMJqpg,245
+toclo/commands/ls.py,sha256=aAGlBt8cE8V3WCpnKvlcRw-dCqJfEG1CkqujMqZoQpU,218
+toclo/commands/modify.py,sha256=hvVXflNT6wXX4VX50FpEyu5CfBcRS22boRJNEE1_ylE,431
+toclo-1.1.0.dist-info/METADATA,sha256=280qHXz7EJ_o3RRoqGT91bbYglwGOqpk5GqxePkZMkM,815
+toclo-1.1.0.dist-info/RECORD,,
+toclo-1.1.0.dist-info/WHEEL,sha256=CG516Me1TEyQqkQMqQpnDadrWi7ujPk88poSAu3OliQ,116
+toclo-1.1.0.dist-info/entry_points.txt,sha256=7TE9fYcX8QIUEmKilfH5eftSC3NDPLMz3N5UEhrqEd4,42
+toclo-1.1.0.dist-info/top_level.txt,sha256=klyX-ToOaIhy-ENF-MEnrNRed-msG7OWTZ7c0U0Rm0Y,6
