@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: data-utils
+Version: 0.0.3
+Summary: An assortment of utilities for handling dirty, dirty data.
+Home-page: https://github.com/raywhite/data-utils
+Author: axdg
+Author-email: axdg@dfant.asia
+License: UNLICENSED
+Description: UNKNOWN
+Keywords: hof higher-order data utilities
+Platform: UNKNOWN
+Requires-Python: >=2.6,<=3.0
