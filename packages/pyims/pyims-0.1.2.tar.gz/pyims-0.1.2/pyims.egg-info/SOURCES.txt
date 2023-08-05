@@ -1,0 +1,10 @@
+README.md
+setup.py
+pyims/__init__.py
+pyims/pyims.py
+pyims.egg-info/PKG-INFO
+pyims.egg-info/SOURCES.txt
+pyims.egg-info/dependency_links.txt
+pyims.egg-info/not-zip-safe
+pyims.egg-info/requires.txt
+pyims.egg-info/top_level.txt
