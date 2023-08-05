@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: power-network-model
+Version: 0.8
+Summary: Python module to generate power network model for GIC calculations.
+Home-page: https://github.com/TerminusEst/Power_Network
+Author: Sean Blake
+Author-email: blakese@tcd.ie
+License: MIT
+Description: Python module to generate power network model for GIC calculations. See github.com/TerminusEst/Power_Network for a detailed description
+Keywords: geomagnetic space weather GICs
+Platform: UNKNOWN
