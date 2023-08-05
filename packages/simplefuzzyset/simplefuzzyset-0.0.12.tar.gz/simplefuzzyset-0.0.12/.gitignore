@@ -1,0 +1,15 @@
+*.egg/
+/cfuzzyset.so
+/fuzzyset/cfuzzyset.html
+/local
+/build/
+*.prof
+/pip-log.txt
+*.egg-info
+/dist/
+/lib/
+/bin/
+/include/
+*~
+*.pyc
+*#*

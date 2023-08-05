@@ -1,0 +1,15 @@
+.gitignore
+MANIFEST.in
+README.rst
+cities.gz
+requirements-dev.txt
+setup.py
+simplefuzzyset/__init__.py
+simplefuzzyset.egg-info/PKG-INFO
+simplefuzzyset.egg-info/SOURCES.txt
+simplefuzzyset.egg-info/dependency_links.txt
+simplefuzzyset.egg-info/top_level.txt
+simplefuzzyset/__pycache__/__init__.cpython-36.pyc
+tests/interactive.py
+tests/performance.py
+tests/profile.py
