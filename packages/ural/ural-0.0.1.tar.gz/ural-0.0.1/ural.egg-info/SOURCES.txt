@@ -1,0 +1,10 @@
+README.md
+setup.py
+ural/__init__.py
+ural/normalize_url.py
+ural.egg-info/PKG-INFO
+ural.egg-info/SOURCES.txt
+ural.egg-info/dependency_links.txt
+ural.egg-info/requires.txt
+ural.egg-info/top_level.txt
+ural.egg-info/zip-safe
