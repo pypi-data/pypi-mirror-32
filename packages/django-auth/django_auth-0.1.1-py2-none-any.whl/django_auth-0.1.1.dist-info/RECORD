@@ -1,0 +1,13 @@
+django_auth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_auth/admin.py,sha256=TL6kyH5vZ02WzfCJbI__JaN7wj-OxJEPtl41t4zRnf0,1347
+django_auth/apps.py,sha256=4ktwhNhiz1cSb1eWBp49Pgmydta6xsMEJ6X_uPZwhFA,155
+django_auth/models.py,sha256=nwf2G0Ssqf6wNrMQAoZ4BTkqDvNUoA009I-fGCus7vk,1657
+django_auth/settings.py,sha256=oQf-Dp4WsnfKKGurRDU6sDWX0CK3NUmtT7WtkePVa3Y,101
+django_auth/tests.py,sha256=cDnjC3qaHJHFNgAHvqe_qeX8W_w9g6tn4DlmuGPYKJo,125
+django_auth/user_validators.py,sha256=XkX_bRItOI03xGxNrxaViGGs1VWY4eXLzxwAd78gurQ,819
+django_auth/views.py,sha256=rxDGXQsApQOcwcIrgwOle8_zGkMMmIvu8MNdc1fCzbM,5189
+django_auth/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_auth-0.1.1.dist-info/METADATA,sha256=UULAsCaaWpJBIxEUKV-Zi0pK5oO08ZHvEfW4b1j83J8,550
+django_auth-0.1.1.dist-info/RECORD,,
+django_auth-0.1.1.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+django_auth-0.1.1.dist-info/top_level.txt,sha256=HceTN_cf0HELolqgRWw38CJ3YxusVbuVfY7KR8IyxOY,12
