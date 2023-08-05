@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: smileml
+Version: 0.1.2
+Summary: Useful box
+Home-page: https://github.com/thanhtu19392/SmileML
+Author: Thanh Tu
+License: MIT
+Description: # SmileML
+        
+        SmileML is a toolbox which helps us to facilitate the process of using pipeline in sklearn. It's built on python 3.6
+        
+        ## Installation
+        pip install smileml 
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
