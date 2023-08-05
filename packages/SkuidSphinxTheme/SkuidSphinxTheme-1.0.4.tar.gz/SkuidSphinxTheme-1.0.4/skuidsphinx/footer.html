@@ -1,0 +1,29 @@
+<div class="footer-content-all">
+  <div class="footer-page">
+    <p class="back-to-top"><a href="#">Back to top</a></p>
+      {%- if last_updated %}
+    <p>{% trans last_updated=last_updated|e %}Last updated on {{ last_updated }}.{% endtrans %}</p>
+      {%- endif %}
+  </div>
+  <div class="footer-site">
+    <div class="footer-social">
+      <h3>Social</h3>
+      <a href="https://www.facebook.com/skuidify/"><img id="facebook-icon" src="{{ pathto('_static/icons/facebook.png', 1)}}"></a>
+      <a href="https://twitter.com/skuidify/"><img id="twitter-icon" src="{{ pathto('_static/icons/twitter.png', 1)}}"></a>
+      <a href="https://www.linkedin.com/company/skuid/"><img id="linkedin-icon" src="{{ pathto('_static/icons/linkedin.png', 1)}}"></a>
+      <a href="https://www.instagram.com/skuidify/"><img id="instagram-icon" src="{{ pathto('_static/icons/instagram.png', 1)}}"></a>
+    </div>
+    <div class="footer-content">
+      <h3>About Skuid</h3>
+      <p>Bespoke UX at blazing speed.™ It means giving you tailored solutions at the speed of your business. It's what Skuid believes in. It's what we enjoy doing. We create the tools. You invent the solutions. No code. No kidding.™</p>
+      <p>Chattanooga | San Francisco | London | Zürich</p>
+      <p>Have feedback? Contact us at <a href="mailto:documentation@skuid.com" style="color: #ee8b21;">documentation@skuid.com</a>.</p>
+      {% if show_copyright %}
+      <p class="copyright"> &copy; Copyright Skuid, Inc. 2015-{{ theme_copyright_year }} | All rights reserved. <a href="https://docs.skuid.com/latest/{{ theme_lang }}/skuid/skuid_terms_conditions.html">Legal terms and conditions.</a></p>
+      {% endif %}
+    </div>
+      {% if theme_visit_link and theme_visit_link_text %}
+    <a href="{{ theme_visit_link }}" class="btn-visit">{{ theme_visit_link_text }}</a>
+      {% endif %}
+  </div>
+</div>
