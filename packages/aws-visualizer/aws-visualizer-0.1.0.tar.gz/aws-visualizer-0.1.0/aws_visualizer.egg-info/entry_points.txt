@@ -1,0 +1,4 @@
+[console_scripts]
+aws-dot = aws_visualizer.dot:main
+aws-neo4j = aws_visualizer.neo4j:main
+
