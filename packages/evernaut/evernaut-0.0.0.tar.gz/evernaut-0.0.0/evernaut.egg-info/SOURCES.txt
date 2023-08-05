@@ -1,0 +1,7 @@
+README.rst
+setup.py
+evernaut/__init__.py
+evernaut.egg-info/PKG-INFO
+evernaut.egg-info/SOURCES.txt
+evernaut.egg-info/dependency_links.txt
+evernaut.egg-info/top_level.txt
