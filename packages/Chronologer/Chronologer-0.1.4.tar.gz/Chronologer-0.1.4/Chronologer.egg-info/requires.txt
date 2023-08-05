@@ -1,0 +1,7 @@
+cherrypy<9
+clor<0.3
+yoyo-migrations<6
+pytz
+
+[mysql]
+mysqlclient<1.4
