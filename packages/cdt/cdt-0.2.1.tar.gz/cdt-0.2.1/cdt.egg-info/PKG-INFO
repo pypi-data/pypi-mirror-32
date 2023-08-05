@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: cdt
+Version: 0.2.1
+Summary: A Toolbox for causal graph inference
+Home-page: https://github.com/Diviyan-Kalainathan/CausalDiscoveryToolbox
+Author: Diviyan Kalainathan
+Author-email: diviyan.kalainathan@lri.fr
+License: Apache 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
