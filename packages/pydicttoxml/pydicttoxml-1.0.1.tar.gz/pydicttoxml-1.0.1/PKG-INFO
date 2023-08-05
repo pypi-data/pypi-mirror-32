@@ -1,0 +1,62 @@
+Metadata-Version: 1.1
+Name: pydicttoxml
+Version: 1.0.1
+Summary: Convert python dictionary into a xml equivalent format
+Home-page: https://github.com/AnjaneyuluBatta505/pydicttoxml
+Author: Anjaneyulu Batta
+Author-email: anjaneyulu.batta505@gmail.com
+License: MIT
+Description: Pydicttoxml
+        ===========
+        
+        Convert python dictionary into a xml equivalent output
+        
+        Usage of Pydicttoxml
+        
+        .. code:: python
+        
+          d = {
+            'student': {
+                'name': 'Shera',
+                'age': 25,
+                'address': {
+                    'pin': 500082,
+                    'city': 'Hyderabad',
+                    'state': 'telangana',
+                    'country': 'India'
+                }
+             }
+          }
+          
+          from pydicttoxml import dict2xml
+          xml = dict2xml(d, root_tag_name="data")
+          
+          
+        Output
+        
+        .. code:: xml
+        
+          <?xml version="1.0" encoding="UTF-8"?>
+          <data>
+            <student>
+              <name>Shera</name>
+              <age>25</age>
+              <address>
+                <pin>500082</pin>
+                <city>Hyderabad</city>
+                <state>telangana</state>
+                <country>India</country>
+              </address>
+            </student>
+          </data>
+        
+Keywords: convert dictionary into a xml
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: Markup :: XML
