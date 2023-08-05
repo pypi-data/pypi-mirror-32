@@ -1,0 +1,6 @@
+csv_to_xlsx/__init__.py,sha256=ulU21WTtAYKCgR9umJxAcWZDpZDpYGWgsSGqIiGAP7c,54
+csv_to_xlsx/convert.py,sha256=ApfwelEocSWXD6XB0R-KovpVuAdKeUWdWa4WPqgJU_g,1416
+csv_to_xlsx-0.0.5.dist-info/METADATA,sha256=XKwoRDnmho7ZlrdpdDhMvkJuD6c53Xh9lFkFEMdEmV0,663
+csv_to_xlsx-0.0.5.dist-info/RECORD,,
+csv_to_xlsx-0.0.5.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+csv_to_xlsx-0.0.5.dist-info/top_level.txt,sha256=afWoLW2aV9CW68_HxLttRdDH4RU4q-ku0_eSCxwhAfI,12
