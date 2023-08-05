@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+GoogleSearchKeyword/__init__.py
+GoogleSearchKeyword/parser.py
+GoogleSearchKeyword.egg-info/PKG-INFO
+GoogleSearchKeyword.egg-info/SOURCES.txt
+GoogleSearchKeyword.egg-info/dependency_links.txt
+GoogleSearchKeyword.egg-info/requires.txt
+GoogleSearchKeyword.egg-info/top_level.txt
