@@ -1,0 +1,25 @@
+Metadata-Version: 2.0
+Name: UO-test-functions
+Version: 1.0.1
+Summary: An Unconstrained Optimization Test Functions Collection
+Home-page: https://github.com/SupremaLex/UO-test-funcs/
+Author: George Lutsenko
+Author-email: georglutsenko@gmail.com
+License: UNKNOWN
+Keywords: unconstrained-optimizations test-functions optimization
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: sympy
+
+Implementation of test functions collections for unconstrained optimization based on sympy representation of function.
+Functions was taken from https://camo.ici.ro/journal/vol10/v10a10.pdf
+
+

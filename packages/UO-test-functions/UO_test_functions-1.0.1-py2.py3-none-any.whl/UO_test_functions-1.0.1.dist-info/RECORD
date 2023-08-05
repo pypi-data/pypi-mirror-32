@@ -1,0 +1,17 @@
+UO_test_functions/CUTE.py,sha256=AXrPakBfPDsR92kvX61lqQs2xn53dCRh6Hj_m2w9Ztk,12382
+UO_test_functions/__init__.py,sha256=b-EthOvFOQqNvPF_w6aIo0rsZ2S9Ftafwv8q3B0BSDU,81
+UO_test_functions/diagonal_functions.py,sha256=dGe7cyNxe6rsKG0l_tDKZaUF_hZM0X6-f15ms2RU6fo,4681
+UO_test_functions/exceptions.py,sha256=6mk0r9zJEQDfBjhUDBqK77RMmZ3NDxFXeJt4KIrRKUM,797
+UO_test_functions/full_hessian_functions.py,sha256=hA1q9zyio0QjqzSmwFX4FgfZMYZOOsMIfGokCxM-Mb8,992
+UO_test_functions/functions.py,sha256=RlkOBvwcbCHnhGBrx5C-4_sXJaZuN9lIXFNUN1OpNC0,7529
+UO_test_functions/quadratic_functions.py,sha256=nzB4XYobeccdxYendjdz6HapONZ7aVttF42GpejBJvI,2673
+UO_test_functions/support_funcs.py,sha256=Le4mZc044l2TUvE_nHLVdBwLMXZh3srGnBl__a9ltX8,444
+UO_test_functions/test_function.py,sha256=eICM1ns0IiBaVlbTTJdtJhKj-ycCG4VaiNnldkrjnfY,3868
+UO_test_functions/test_functions_factory.py,sha256=RnFumlcQ_iRmfHv9w6TFq4J4C23oUJ9i7nGLWJigvfg,333
+UO_test_functions/test_functions_register.py,sha256=yFRXa5lZCPXZBKsw5cZvA1hyjX_tBRpBZ8WQzIrKxsk,4929
+UO_test_functions-1.0.1.dist-info/DESCRIPTION.rst,sha256=cLR36l7TDBj445maxr8BvXkU0jL5E8R76QSNdtA7lVM,191
+UO_test_functions-1.0.1.dist-info/METADATA,sha256=OhPk2-fYuucEQYcQvj6IKKggl_AuNcPr5suuBUyD3ik,952
+UO_test_functions-1.0.1.dist-info/RECORD,,
+UO_test_functions-1.0.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+UO_test_functions-1.0.1.dist-info/metadata.json,sha256=yiKAaHp6DNDiuOGqB_uuLGh1B8DaCvT_Upcok-Y6ePs,904
+UO_test_functions-1.0.1.dist-info/top_level.txt,sha256=OEzfJojvcPkJXE9gBN2oB7zCnsJzYKxEshnxwvOPo6M,18
