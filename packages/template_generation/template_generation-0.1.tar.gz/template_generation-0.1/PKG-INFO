@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: template_generation
+Version: 0.1
+Summary: generate new template for data migration auto testing
+Home-page: https://github.wdf.sap.corp/I071034/Auto_Testing
+Author: hankhu
+Author-email: hank.hu@sap.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

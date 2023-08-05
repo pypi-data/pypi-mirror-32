@@ -1,0 +1,12 @@
+setup.py
+template_generation/__init__.py
+template_generation/__main__.py
+template_generation/dashapp1.py
+template_generation/processfile.py
+template_generation/readxml.py
+template_generation/template.py
+template_generation.egg-info/PKG-INFO
+template_generation.egg-info/SOURCES.txt
+template_generation.egg-info/dependency_links.txt
+template_generation.egg-info/not-zip-safe
+template_generation.egg-info/top_level.txt
