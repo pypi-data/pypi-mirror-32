@@ -1,0 +1,7 @@
+aiohttp
+aioftp
+
+[dev]
+pytest
+pytest-aiohttp
+flake8
