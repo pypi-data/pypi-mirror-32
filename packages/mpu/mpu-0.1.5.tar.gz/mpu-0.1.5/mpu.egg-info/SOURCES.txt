@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+mpu/__init__.py
+mpu/_version.py
+mpu/datastructures.py
+mpu/io.py
+mpu/pd.py
+mpu/shell.py
+mpu.egg-info/PKG-INFO
+mpu.egg-info/SOURCES.txt
+mpu.egg-info/dependency_links.txt
+mpu.egg-info/requires.txt
+mpu.egg-info/top_level.txt
+mpu.egg-info/zip-safe
+mpu/units/__init__.py
+mpu/units/currencies.csv
