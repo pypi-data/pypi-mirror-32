@@ -1,0 +1,3 @@
+[console_scripts]
+sprint-printer = taiga_sprint_printer.main:main
+
