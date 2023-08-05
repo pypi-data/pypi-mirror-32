@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+pycfdns/__init__.py
+pycfdns.egg-info/PKG-INFO
+pycfdns.egg-info/SOURCES.txt
+pycfdns.egg-info/dependency_links.txt
+pycfdns.egg-info/top_level.txt
