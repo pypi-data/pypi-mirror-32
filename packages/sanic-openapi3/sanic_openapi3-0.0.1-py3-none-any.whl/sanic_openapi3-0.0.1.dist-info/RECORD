@@ -1,0 +1,8 @@
+sanic_openapi3/__init__.py,sha256=GivRM9OTO62qJlRZWa1nBfxZrnUWEtKsqHJxbBDAQG0,107
+sanic_openapi3/main.py,sha256=mm9qaFSia23sUBv7qeq3rAWME-T9DoTxW-JQshH1YTU,5820
+sanic_openapi3/openapi.py,sha256=UCfCK3zZJqd_9k9gDKEzdJtNzFKWGQB1c7Ur_ifGegI,2959
+sanic_openapi3/types.py,sha256=K28YmACDj2GBSltPwutvwxcJI5ZvLWttqyD2WAqPz08,5287
+sanic_openapi3-0.0.1.dist-info/METADATA,sha256=L6dlOV9yH0PbVhIrog3bapf8N2l5sH0Sf16GnFUqGZE,2702
+sanic_openapi3-0.0.1.dist-info/RECORD,,
+sanic_openapi3-0.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+sanic_openapi3-0.0.1.dist-info/top_level.txt,sha256=7HeLh_jo9IXV2I_7FmBttLYQUhgjMW233Ayk_WMmvBQ,15
