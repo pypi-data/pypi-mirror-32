@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: dataframe-mapper
+Version: 0.0.1
+Summary: Object-oriented pandas DataFrame mapper.
+Home-page: https://pypi.org/project/dataframe-mapper/
+Author: Tsuyoshi Tokuda
+Author-email: tokuda109@gmail.com
+License: MIT
+Keywords: pandas
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: test
+Requires-Dist: pandas (>=0.20.0)
+Provides-Extra: test
+Requires-Dist: pytest (==3.5.1); extra == 'test'
+
+# DataFrame Mapper
+
+
