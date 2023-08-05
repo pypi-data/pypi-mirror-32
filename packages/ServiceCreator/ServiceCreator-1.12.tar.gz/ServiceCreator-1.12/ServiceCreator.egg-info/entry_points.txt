@@ -1,0 +1,3 @@
+[console_scripts]
+service_creator = service_creator.__init__:main
+
