@@ -1,0 +1,12 @@
+pandas
+lxml
+bs4
+requests
+tushare
+yxspkg_encrypt
+yxspkg_tecfile
+yxspkg_wget
+yxspkg_songzgif
+tensorflow
+torch
+keras
