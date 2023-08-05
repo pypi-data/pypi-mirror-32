@@ -1,0 +1,122 @@
+{% extends "cosinnus_file/base.html" %}
+{% load i18n static cosinnus_tags widget_tweaks %}
+
+{% block page_title %}
+{{object.title}} {% trans "Files" %} {{ block.super }}
+{% endblock page_title %}
+
+{% block breadcrumb %}
+        {{ block.super }}
+        {% include "cosinnus_file/breadcrumb_file.html" with folder=object.container breadcrumb_template="cosinnus_file/breadcrumb_file.html" %}
+        <li class="active">{{ object.title }}</li>
+{% endblock %}
+
+{% block leftnav %}
+    {% include "cosinnus/leftnav_hierarchic_itemview.html" %}
+{% endblock leftnav %}
+
+
+{% block content %}
+
+{% if form.forms.obj.errors or form.forms.media_tag.errors %}
+    <div class="alert alert-danger alert-dismissable">
+        <i class="fa fa-exclamation-triangle fa-3x"></i>
+        <p>{% trans "There was an error in one of the fields you entered. Please correct it before saving!" %}</p>
+    </div>
+{% endif %}
+
+<form method="POST" action="" class="cosinnus-form form-horizontal" enctype="multipart/form-data">{% csrf_token %}
+    {{ form.forms.obj.non_field_errors }}
+    {{ form.forms.media_tag.non_field_errors }}
+    
+    <!-- a box with semi transparent background -->
+    <div class="content-box">
+    
+        {% trans "File title" as title_label %}
+        {% include 'cosinnus/fields/default_field.html' with field=form.forms.obj.title label=title_label placeholder=title_label first=True %}
+        
+        {# SimpleMDE Description Field (gets initialized in extrahead) #}                                   
+        {% trans "Description" as description_placeholder %}
+        {% trans "File description" as description_label %}
+        {% include 'cosinnus/fields/default_field.html' with field=form.forms.obj.note legend=description_legend label=description_label placeholder=description_placeholder large_field=True %}
+              
+        {% if object.is_image %}
+            {% trans "Preview" as prev_label %}
+	        {% include 'cosinnus/fields/default_field.html' with label=prev_label %}
+            <img class="img-responsive" src='{{ object.static_image_url }}' title='{{ object.title }}'></img>
+        {% endif %}
+             
+        {% if object.creator %}
+            {% trans "Uploaded by" as creat_label %}
+            {% include 'cosinnus/fields/default_field.html' with label=creat_label %}
+            {% with creator=object.creator %}
+                <p>
+                    <a href="{{ creator|profile_url }}">{{ creator|full_name }}</a>
+                </p>
+            {% endwith %}
+        {% endif %}
+        
+        {% if object.sourcefilename %}
+            {% trans "Original filename" as name_label %}
+            {% include 'cosinnus/fields/default_field.html' with label=name_label %}
+            {% with creator=object.creator %}
+                <p>
+                    <a href="{% group_url 'cosinnus:file:save' group=group slug=object.slug %}">{{ object.sourcefilename }}</a>
+                </p>
+            {% endwith %}
+        {% endif %}
+        
+        
+        {% include 'cosinnus/media_tags.html' %}
+        	
+    </div><!-- content-box -->
+    
+    <button type="submit" class="btn btn-emphasized">
+        <ul class="media-list">
+            <li class="media">
+                <span class="pull-left" href="#">
+                    <i class="fa fa-floppy-o "></i>
+                </span>
+                <div class="media-body">
+                    {% trans "Save" %}
+                </div>
+            </li>
+        </ul>
+    </button>
+    
+</form>
+    
+    
+{% if user|has_write_access:object %}   
+    <button type="button" class="btn btn-emphasized pull-left no-margin" data-toggle="modal" data-target="#deleteModal">
+        <ul class="media-list">
+            <li class="media">
+                <a class="pull-left" href="#">
+                    <i class="fa fa-eraser"></i>
+                </a>
+                <div class="media-body">
+                    {% trans "Delete" %}
+                </div>
+            </li>
+        </ul>
+    </button>
+    {% captureas label %}{% blocktrans with title=object.title %}Do you really want to delete file „{{ title }}“?{% endblocktrans %}{% endcaptureas %}
+    {% captureas title %}{% trans "Delete file" %}{% endcaptureas %}
+    {% include "cosinnus/modal_box.html" with id="deleteModal" label=label title=title form_action="./delete/" %}
+{% endif %}
+
+<button type="button" class="btn btn-emphasized pull-left" href="{% group_url 'cosinnus:file:save' group=group slug=object.slug %}">
+    <ul class="media-list">
+        <li class="media">
+            <a class="pull-left" href="#">
+                <i class="fa fa-download"></i>
+            </a>
+            <div class="media-body">
+                {% trans "Download" %}
+            </div>
+        </li>
+    </ul>
+</button>
+    
+    
+{% endblock content %}
