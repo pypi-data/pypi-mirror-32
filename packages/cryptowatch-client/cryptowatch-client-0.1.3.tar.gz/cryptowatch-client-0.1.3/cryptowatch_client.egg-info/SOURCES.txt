@@ -1,0 +1,9 @@
+README.md
+README.txt
+cryptowatch_client.py
+setup.py
+cryptowatch_client.egg-info/PKG-INFO
+cryptowatch_client.egg-info/SOURCES.txt
+cryptowatch_client.egg-info/dependency_links.txt
+cryptowatch_client.egg-info/requires.txt
+cryptowatch_client.egg-info/top_level.txt
