@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: jsoncsv
+Version: 2.0.9.dev0
+Summary: A command tool easily convert json file to csv or xlsx.
+Home-page: https://github.com/alingse/jsoncsv
+Author: alingse
+Author-email: alingse@foxmail.com
+License: Apache 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
