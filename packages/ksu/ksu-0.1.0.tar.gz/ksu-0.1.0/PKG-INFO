@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ksu
+Version: 0.1.0
+Summary: Implementation of the KSU compression algorithm https://www.cs.bgu.ac.il/~karyeh/compression-arxiv.pdf
+Home-page: https://github.com/nimroha/ksu_classifier
+Author: Nimrod Morag, Yuval Nissan
+Author-email: nimrod.morag@gmail.com
+License: MIT
+Description: 
+        ## KSU Compression Algorithm Implemantation ##
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=2.7.0
+Description-Content-Type: text/markdown
