@@ -1,0 +1,27 @@
+Metadata-Version: 1.0
+Name: pyagenda
+Version: 0.0.1b0
+Summary: Administracion de contacos telefonicos.
+Home-page: https://github.com/raudin17/pyagenda
+Author: Raudin Moreno
+Author-email: raudin247@gmail.com
+License: License :: OSI Approved :: MIT License
+Description: # Py Agenda
+        
+        
+        ## Demo
+        [![asciicast](https://asciinema.org/a/EAggfLAeafonpFy2Jtd6fXwzI.png)](https://asciinema.org/a/EAggfLAeafonpFy2Jtd6fXwzI)
+        
+        
+        Py Agenda es un **Administrador de contactos🌟** hecho en python **sin dependencias👏** y es compatible con **Python 3🍻**.
+        
+        
+        ## Uso
+        
+        Solo ejecuta lo siguiente en la terminal:
+        
+        ```bash
+        $ pyagenda
+        ```
+        
+Platform: UNKNOWN
