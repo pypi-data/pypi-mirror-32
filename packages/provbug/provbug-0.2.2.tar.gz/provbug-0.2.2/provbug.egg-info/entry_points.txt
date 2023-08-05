@@ -1,0 +1,3 @@
+[console_scripts]
+provbug = provbug:main
+
