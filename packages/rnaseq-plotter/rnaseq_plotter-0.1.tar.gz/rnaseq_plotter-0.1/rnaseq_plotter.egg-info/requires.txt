@@ -1,0 +1,8 @@
+pandas
+numpy
+click
+seaborn
+scikit-learn
+multicoretsne
+plotly
+matplotlib

@@ -1,0 +1,8 @@
+rnaseq_plotter.py
+setup.py
+rnaseq_plotter.egg-info/PKG-INFO
+rnaseq_plotter.egg-info/SOURCES.txt
+rnaseq_plotter.egg-info/dependency_links.txt
+rnaseq_plotter.egg-info/entry_points.txt
+rnaseq_plotter.egg-info/requires.txt
+rnaseq_plotter.egg-info/top_level.txt
