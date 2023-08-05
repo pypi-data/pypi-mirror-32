@@ -1,0 +1,9 @@
+fonttools>=3.24.0
+attrs>=17.3.0
+lxml
+
+[:python_version < "3.4"]
+singledispatch
+
+[:python_version < "3.5"]
+typing
