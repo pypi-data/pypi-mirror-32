@@ -1,0 +1,15 @@
+cmd2<=0.8.6
+tosca-parser
+six
+requests
+ruamel.yaml
+
+[dev]
+check-manifest
+isort
+flake8
+tox
+coverage
+
+[test]
+requests_mock
