@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+imager.py
+requirements.txt
+setup.py
+satori_imager.egg-info/PKG-INFO
+satori_imager.egg-info/SOURCES.txt
+satori_imager.egg-info/dependency_links.txt
+satori_imager.egg-info/entry_points.txt
+satori_imager.egg-info/requires.txt
+satori_imager.egg-info/top_level.txt
