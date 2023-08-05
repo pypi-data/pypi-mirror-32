@@ -1,0 +1,4 @@
+[console_scripts]
+site_pinger = site_pinger.__main__:main
+site_pinger_conf = site_pinger.utils:get_conf
+
