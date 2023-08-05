@@ -1,0 +1,68 @@
+{% extends "base_account.html" %}
+{% load user_sessions %}
+{% load i18n %}
+{% load include_asset %}
+{% load settings_value %}
+
+{% block content %}
+<h2>{% trans "Connections" %}</h2>
+
+{% if messages %}
+    {% for message in messages %}
+        {% if 'success' in message.tags %}
+            <ul class="messages correct">
+                <li>
+                    {% include_asset "icons/check.svg" %}
+                    <div class="textcolor_primary">{% trans 'Success' %}</div>
+                    <div class="textcolor_secondary">{{ message }}</div>
+                </li>
+            </ul>
+        {% elif 'error' in message.tags %}
+            <ul class="messages error">
+                <li>
+                    {% include_asset "icons/account-alert.svg" %}
+                    <div class="textcolor_primary">{% trans 'Error' %}</div>
+                    <div class="textcolor_secondary">{{ message }}</div>
+                </li>
+            </ul>
+        {% endif %}
+    {% endfor %}
+{% endif %}
+
+   
+    <div class="account__cards">
+        <div class="card ___stretch ___nopadding">
+            <h2 class="card__title ___addpadding-side">{% trans "Connections between your organisation(s) and " %}{% settings_value 'SITE_TITLE' %}{% trans " account" %}</h2>
+            <fieldset class="___addpadding-side">
+
+                <table class="table ___stretch">
+                    <thead>
+                        <tr>
+                            <th>{% trans "Organisation" %}</th>
+                            <th>{% trans "Email address" %}</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for connection in connections %}
+                        <tr>
+                            <td>{{ connection.identityproviderid.displayname }}</td>
+                            <td>{{ connection.externalid }}</td>
+                            <td>
+                                <form method="post" action="{% url 'saml_connection_delete' connection.pk %}">
+                                    {% csrf_token %}
+                                    <button type="submit" class="button __stretch ___clear">{% trans "Disconnect" %}</button>
+                                </form>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+                <br />
+        
+            </fieldset>
+            
+        </div>
+    </div>
+
+{% endblock %}
