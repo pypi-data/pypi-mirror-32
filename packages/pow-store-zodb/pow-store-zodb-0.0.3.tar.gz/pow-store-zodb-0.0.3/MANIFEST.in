@@ -1,0 +1,4 @@
+include *.md
+recursive-include pow_zodb *.py
+include setup.*
+graft test

@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: pow-store-zodb
+Version: 0.0.3
+Summary: rdflib extension adding ZODB as back-end store. Forked from rdflib-zodb
+Home-page: http://github.com/mwatts/pow-store-zodb
+Author: Mark Watts
+Author-email: wattsmark2015@gmail.com
+License: BSD
+Description: 
+            ZOPE Object Database implementation of rdflib.store.Store.
+        
+            The boilerplate ZODB/ZEO handling has been wrapped up in a utility
+            class, ZODBStore 
+Platform: any
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
