@@ -1,0 +1,7 @@
+setup.py
+xicam.threadmonitor.egg-info/PKG-INFO
+xicam.threadmonitor.egg-info/SOURCES.txt
+xicam.threadmonitor.egg-info/dependency_links.txt
+xicam.threadmonitor.egg-info/requires.txt
+xicam.threadmonitor.egg-info/top_level.txt
+xicam/threadmonitor/__init__.py

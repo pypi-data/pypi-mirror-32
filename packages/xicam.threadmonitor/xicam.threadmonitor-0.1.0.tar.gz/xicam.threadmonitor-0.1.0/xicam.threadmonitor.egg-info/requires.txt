@@ -1,0 +1,5 @@
+qtpy
+
+[tests]
+pytest
+coverage
