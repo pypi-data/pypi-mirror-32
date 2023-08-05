@@ -1,0 +1,13 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+pyeos_client/EOSChainApi.py
+pyeos_client/EOSWalletApi.py
+pyeos_client/NodeosConnect.py
+pyeos_client/__init__.py
+pyeos_client.egg-info/PKG-INFO
+pyeos_client.egg-info/SOURCES.txt
+pyeos_client.egg-info/dependency_links.txt
+pyeos_client.egg-info/requires.txt
+pyeos_client.egg-info/top_level.txt
