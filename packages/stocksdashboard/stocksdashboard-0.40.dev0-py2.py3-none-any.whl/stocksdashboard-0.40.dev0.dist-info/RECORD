@@ -1,0 +1,13 @@
+stocksdashboard/__init__.py,sha256=EIaF9gjlU0IugHu2GPh96E1RuyqyHlO645KtTNFMo-Q,771
+stocksdashboard/config.ini,sha256=dgkDR85UzeMVIa5AUjoZxi2PGTx9X15HC7KuZ4dUKP8,230
+stocksdashboard/dashboard_with_widgets.py,sha256=L5xpd_iDpv98KfKStXY0moCU8NQHUp4f--ZhOP4wFQ4,11078
+stocksdashboard/formatter.py,sha256=RDfD9UP7WOZWNaoK_7e2Jv8LxTA6b2bzJE0lr2aMOjg,14044
+stocksdashboard/main.py,sha256=dKWNOURBztMmMu2f9VVCibI1IfyjUN56hdAkLKzIoKw,976
+stocksdashboard/setup.py,sha256=0TFlD87NA7VbNhc2seuemoEyKGQM9BREBkYTZDRlLBs,608
+stocksdashboard/stocksdashboard.py,sha256=JduxZ1bo8Z1oXqHqECHai9wsva3eYDf4ALHe_CBiQMQ,18055
+stocksdashboard-0.40.dev0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+stocksdashboard-0.40.dev0.dist-info/METADATA,sha256=cfXkDSwCW7At4SwcfMmgh_k7YhcR_OmMyDxBGMUXHJE,495
+stocksdashboard-0.40.dev0.dist-info/RECORD,,
+stocksdashboard-0.40.dev0.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+stocksdashboard-0.40.dev0.dist-info/metadata.json,sha256=vJfN_FmREdY9DImnNCnHFDm_G6U1CXnyXFDI01km2So,689
+stocksdashboard-0.40.dev0.dist-info/top_level.txt,sha256=sGiJ7rAx-bYdqm5YrET9GvP_yUL1WoCNq8Q_XVdEmZ4,16
