@@ -1,0 +1,7 @@
+matplotlib
+numpy
+pandas
+pysam
+seaborn
+snakemake
+pybedtools
