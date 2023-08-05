@@ -1,0 +1,9 @@
+README.md
+setup.py
+haproxysubdomains/__main__.py
+haproxysubdomains.egg-info/PKG-INFO
+haproxysubdomains.egg-info/SOURCES.txt
+haproxysubdomains.egg-info/dependency_links.txt
+haproxysubdomains.egg-info/entry_points.txt
+haproxysubdomains.egg-info/requires.txt
+haproxysubdomains.egg-info/top_level.txt

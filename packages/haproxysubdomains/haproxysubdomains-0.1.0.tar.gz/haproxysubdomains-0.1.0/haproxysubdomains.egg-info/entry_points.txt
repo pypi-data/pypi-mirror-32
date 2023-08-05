@@ -1,0 +1,3 @@
+[console_scripts]
+haproxysubdomains = haproxysubdomains.__main__:main
+
