@@ -1,0 +1,4 @@
+django-lare
+django_lare
+django_lare/runtests
+django_lare/templatetags
