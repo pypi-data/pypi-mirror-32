@@ -1,0 +1,11 @@
+README.md
+setup.py
+voice_assistant/__init__.py
+voice_assistant/core.py
+voice_assistant/databases.py
+voice_assistant.egg-info/PKG-INFO
+voice_assistant.egg-info/SOURCES.txt
+voice_assistant.egg-info/dependency_links.txt
+voice_assistant.egg-info/not-zip-safe
+voice_assistant.egg-info/requires.txt
+voice_assistant.egg-info/top_level.txt
