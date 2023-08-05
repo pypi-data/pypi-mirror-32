@@ -1,0 +1,5 @@
+[console_scripts]
+briekit-event = briekit.events.event_maker:main
+briekit-event-filter = briekit.events.event_filter:main
+briekit-factor = briekit.brie_factor:main
+
