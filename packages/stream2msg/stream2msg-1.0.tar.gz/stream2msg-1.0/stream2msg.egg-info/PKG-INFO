@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: stream2msg
+Version: 1.0
+Summary: Converts tcp socket bit stream to messages.
+Home-page: https://github.com/theahura/socket-wrapper
+Author: Amol Kapoor
+Author-email: theahura@gmail.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

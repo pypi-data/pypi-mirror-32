@@ -1,0 +1,9 @@
+README.md
+setup.py
+stream2msg/SocketWrapper.py
+stream2msg/__init__.py
+stream2msg.egg-info/PKG-INFO
+stream2msg.egg-info/SOURCES.txt
+stream2msg.egg-info/dependency_links.txt
+stream2msg.egg-info/not-zip-safe
+stream2msg.egg-info/top_level.txt
