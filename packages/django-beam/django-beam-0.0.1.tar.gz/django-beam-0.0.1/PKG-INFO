@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: django-beam
+Version: 0.0.1
+Summary: A workflow library for python
+Home-page: https://github.com/django-beam/django-beam
+Author: Raphael Kimmig
+Author-email: raphael@ampad.de
+License: UNKNOWN
+Download-URL: https://github.com/django-beam/django-beam/archive/0.0.1.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
