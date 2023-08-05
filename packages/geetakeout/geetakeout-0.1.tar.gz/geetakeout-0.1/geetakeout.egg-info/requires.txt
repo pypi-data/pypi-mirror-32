@@ -1,0 +1,11 @@
+google-api-python-client>=1.5.4
+earthengine_api==0.1.134
+requests>=2.18.4
+clipboard>=0.0.4
+beautifulsoup4>=4.6.0
+pytest>=3.0.0
+selenium>=3.9.0
+python_dateutil>=2.6.1
+pySmartDL==1.2.5
+lxml>=4.1.1
+pathlib>=1.0.1

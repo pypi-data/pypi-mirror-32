@@ -1,0 +1,85 @@
+================================
+Google Earth Engine Takeout Tool
+================================
+
+This tool replicates a Google Earth Engine account and transfer everything over to a new account. Even if you are not replicating your account, think of this as an add on which allows you to download your entire code repositories, create an asset report and best of all iteratively change permissions to all image-collection and images whether or not within a folder.
+
+Setup Before Using the Tool
+```````````````````````````
+*  Both your google accounts have an external password, since it requires that to download and perform a lot of the operations. Also enable `Let Less Secure App use your account <https://support.google.com/accounts/answer/6010255?hl=en>`_ on both these accounts.
+*  Your system has native python available in terminal or command prompt depending on what kind of system you are using. You can check this by typing **python --version**
+*  Git is installed on your system. For windows you can find `installation instruction here <https://git-scm.com/downloads>`_
+*  Earth Engine Command Line(earthengine cli) interface is installed, instructions are in the `developer page <https://developers.google.com/earth-engine/python_install_manual>`_
+*  You have authenticated earthengine cli using **earthengine authenticate**
+*  Make sure you visit the `git source for your account <https://earthengine.googlesource.com/>`_ within earth engine and allow access.
+*  Check git is accessible via your system path type **git help** and check if the system can reach installed git command line tools.
+
+**You can read the** `medium article with the tutorial here <https://medium.com/@samapriyaroy/google-earth-engine-takeout-tools-and-guide-for-code-and-asset-transfer-aa865e0046e3>`_
+
+Anatomy of the Process: How to transfer step by step
+````````````````````````````````````````````````````
+Getting first things out of the way is to understand the three sections of this tool. To make life and this process simpler I designed the tool to have a flow so you can run these tools one after the other. The *EE Setup and Housekeeping* sections are optional , since I will generally
+updated the selenium driver for mozilla and it assumes you have authenticated your earthengine CLI . The tool might show an error if you have not authenticated using earthengine authenticate
+::
+
+   If you have installed the tool run
+   geetakeout -h
+
+   If you have migrated into the folder after downloading it from github
+   python geetakeout.py -h
+
+Step 1: Getting your Repository Lists(gee_repo)
+-----------------------------------------------
+This assumes that you have visited the Git Source for your codes in Google Earth Engine and authorized it. The tool is setup for accessing all repositories that are shared with you. This downloads the list into an html file which can then be parsed for your repositories.
+
+Step 2: Setting up your Git with Earth Engine Credentials(git_auth)
+-------------------------------------------------------------------
+You can do this using two methods
+
+-  The first simple includes you visiting your `gitsource account page
+   <https://earthengine.googlesource.com/>`_ that we accessed earlier and click
+   ``Generate Password`` and follow instructions.
+
+I am going to talk more about the second method because this eliminates the need to get the password again and again since it is save as passkey. This will authenticate your git client with your git password using a browser less login and also store your gitkey. We will use this again to setup our second account post authorization. This will print our gitkey location and make sure you copy that so you can swap in out as needed. Note the name of the key is in the format ``git-username``
+
+Step 3: Authorize your Git Client with Git Key(git_swap)
+--------------------------------------------------------
+The next step is to use the saved gitkey to authorize the git client. We are setting everything up so that we can clone the repositories to which we have access.
+
+Step 4: Clone your repositories(git_clone)
+------------------------------------------
+This tool makes use of your earlier created GIT list, now that your git client has been authorized in step 2, you should be able to download your repos. This tool uses the account already linked to your terminal account. If you are not sure try ``earthengine ls`` to see your
+username. The export path is noted for the collection of repositories.
+
+Step 5: Working with Assets: Generating Asset Report(ee_report)
+---------------------------------------------------------------
+This includes all your assets , including tables, images, image collections and folders. We need to make sure we have this list to work on copying over your assets to the secondary account. Running this is simple and just requires a location for the csv file (the full path). The output is a csv file consiting of the type of asset and the asset path to be replicated in the new account. And now that we have the list time to get permissions to copy these assets.
+
+Step 6: Setting Permissions to Assets(ee_permissions)
+-----------------------------------------------------
+We now use the report file generated to grant read access to all assets in your account. Once this is completed you will be able to copy your assets apart from being able to copy your codes.
+
+`````````````````````````````````````````````````````````````````````````````````
+Let us Begin to Copy : We change gears and switch over to the destination account
+`````````````````````````````````````````````````````````````````````````````````
+
+Step 7: Setting up the Destination Account(ee_user and git_swap)
+----------------------------------------------------------------
+Now we have to do two steps one after the other, do a quick earthengine authenticate and authenticate to your new account and perform Step 2 and Step 3 this time using your new account. The tool ``ee_user`` will also allow you to change your accounts. I already created Step 2 for my secondary account and now I will use that to authorize my git client with the new account.
+
+Step 8: Replicate Repositories (git_create)
+-------------------------------------------
+To setup our new account we need to build the outline of the earlier account, the repolists and
+folders inside these repos and then similarly the folders and empty collections in the secondary account.
+
+**Note: Git cannot push an empty repository so if you have an empty repository delete it before downloading and pushing to new account**
+
+Step 9: Push to New Account(git_replicate)
+------------------------------------------
+Now we push all codes from our earlier account to our new account, this way our repositories
+will now be populated with the most recent codes. **Do not push to any repository that already has code because this will overwrite it**
+
+Step 10: Replicate Asset Structure(asset_create) and Assets(asset_replicate)
+----------------------------------------------------------------------------
+
+This is similar to git_create here we replicate the collection and folder structure so we can push our assets to them. You pass it the original report you created from your primary account and it sets up as needed. This has replicated the collection and Image folder structures. However this is still empty and the last step makes sure that your assets are actually copied over to your new asset home. I have included a counter to measure transfers left incase it is a large collection. Over the last 10 steps we have managed to replicate and move an earth engine account from one place to another. Though I found this useful to move accounts within a university setting, I see some value in moving accounts and replicating when a project member leaves a project or for simply migrating at large. For now if an owner of an account deletes his/her account or looses access to his/her account and even if you are a writer to the repository and the collection, you will loose access to these codes and assets. So this can aid in maintaining continuity by moving codes to more persistent account. 
