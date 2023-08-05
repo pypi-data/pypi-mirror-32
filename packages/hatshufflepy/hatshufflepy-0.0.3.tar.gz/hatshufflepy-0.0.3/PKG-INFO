@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: hatshufflepy
+Version: 0.0.3
+Summary: Cython wrapper for hat shuffle implementation
+Home-page: https://github.com/StefanosChaliasos/hatshufflepy
+Author: Stefanos Chaliasos
+Author-email: stefanoshaliassos@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: mixnet ecc
+Platform: UNKNOWN
