@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: NIM_API_Python
+Version: 0.1.0
+Summary: Python client library for NIM REST API
+Home-page: http://github.com/jsli/NIM_API_Python/
+Author: Manson Li
+Author-email: manson.li3307@gmail.com
+License: MIT
+Description: Python client library for NIM REST API
+Platform: any
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Natural Language :: English
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Software Development :: Libraries
