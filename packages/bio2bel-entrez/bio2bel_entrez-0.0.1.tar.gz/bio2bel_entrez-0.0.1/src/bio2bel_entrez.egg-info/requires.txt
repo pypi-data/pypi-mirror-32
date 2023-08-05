@@ -1,0 +1,13 @@
+pybel>=0.11.1
+bio2bel>=0.0.11
+click
+pandas
+sqlalchemy
+six
+flask
+flask-admin
+tqdm
+
+[web]
+flask
+flask_admin
