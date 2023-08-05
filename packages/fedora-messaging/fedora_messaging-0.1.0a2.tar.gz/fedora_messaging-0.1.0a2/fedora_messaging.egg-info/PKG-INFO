@@ -1,0 +1,35 @@
+Metadata-Version: 1.2
+Name: fedora-messaging
+Version: 0.1.0a2
+Summary: A set of tools for using Fedora's messaging infrastructure
+Home-page: UNKNOWN
+Maintainer: Fedora Infrastructure Team
+Maintainer-email: infrastructure@lists.fedoraproject.org
+License: GPLv2+
+Description: Fedora Messaging
+        ================
+        
+        .. image:: https://img.shields.io/pypi/v/fedora-messaging.svg
+            :target: https://pypi.org/project/fedora-messaging/
+        
+        .. image:: https://img.shields.io/pypi/pyversions/fedora-messaging.svg
+            :target: https://pypi.org/project/fedora-messaging/
+        
+        .. image:: https://readthedocs.org/projects/docs/badge/?version=latest
+            :alt: Documentation Status
+            :target: https://fedora-messaging.readthedocs.io/en/latest/?badge=latest
+        
+        Tools and APIs to make working with AMQP in Fedora easier.
+        
+Keywords: fedora
+Platform: Fedora
+Platform: GNU/Linux
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
