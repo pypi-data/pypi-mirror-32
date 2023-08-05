@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: fileop
+Version: 0.0.1
+Summary: All file operations without writing code for it
+Home-page: https://github.com/saurabhlondhe/python-Scripts/blob/master/sau.py
+Author: Saurabh Londhe
+Author-email: saurabhlondhe1111@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Simple File handing module to reduce writing efforts
+
+```python
+from fileop import file
+data="saurabh londhe"
+file.create("data.txt") #creates a file
+file.write("data.txt",data) #write content to the file
+file.append("data.txt","\n Python lover") #appends data to the same file
+s=file.read("data.txt")
+print (s)
+``` 
+output:
+``` 
+saurabh londhe
+ Python lover
+ ``` 
+
+
