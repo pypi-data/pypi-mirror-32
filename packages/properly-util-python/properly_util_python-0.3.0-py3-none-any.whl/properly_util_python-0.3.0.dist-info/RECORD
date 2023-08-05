@@ -1,0 +1,9 @@
+properly_util_python/__init__.py,sha256=hAVmKG-yN1qTwaNEEDpsd2sse-yxP_XhstAxSmc5Sh4,51
+properly_util_python/dynamo_utils.py,sha256=UFopAsnoqnyOq9Nbgo0IHtcUYU1BEXgXi_j6S5ltlOg,6268
+properly_util_python/helper_utils.py,sha256=Zr9m8F4HDZNfhqxmALRm5IUeVN6Grduv7T2Cy13Cj-A,4225
+properly_util_python/settings.py,sha256=Y6ItMxX6AQmJkeCxFJlQJSoS2Ne2BpLP3GbVSYB-Y88,1230
+properly_util_python/sqs_utils.py,sha256=xOzJROG6hhusD8t-GNz1ZaElZUmebs0Hx2zJxR2_Bd8,2987
+properly_util_python-0.3.0.dist-info/METADATA,sha256=8FkPNS1QgZrZYi26AXnb3wO0bfM-Z7vl94c8UBPjYVM,1526
+properly_util_python-0.3.0.dist-info/RECORD,,
+properly_util_python-0.3.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+properly_util_python-0.3.0.dist-info/top_level.txt,sha256=kOoWtHzfsaAQ9hY_pILJ3HOl9xdrBej2nBtNMDEdJWg,21
