@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+sample/__init__.py
+sample/core.py
+sample/helpers.py
+sample_jojo.egg-info/PKG-INFO
+sample_jojo.egg-info/SOURCES.txt
+sample_jojo.egg-info/dependency_links.txt
+sample_jojo.egg-info/top_level.txt
