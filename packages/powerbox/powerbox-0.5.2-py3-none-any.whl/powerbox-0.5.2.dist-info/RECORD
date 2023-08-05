@@ -1,0 +1,8 @@
+powerbox/__init__.py,sha256=1b62hte92_DPeGRTCy3pjI1ncAtBpKNle9zTFQCjn3s,154
+powerbox/dft.py,sha256=rxCstclnEmTNXneGdzejCV_D513Z4-hNPsbBkoLidCw,10288
+powerbox/powerbox.py,sha256=conPo5knj0YdtpxJR5YswMasves9TehZskrgDXH4LEU,11993
+powerbox/tools.py,sha256=lAKtw0MNt0w17nY9EOkfLVtee7MKMeOtCYyj3FUsSKc,16102
+powerbox-0.5.2.dist-info/METADATA,sha256=33jZ7lrfR0qVdzRq_DY-Iu7SW4YZDwQnFt6wW98HjJY,2188
+powerbox-0.5.2.dist-info/RECORD,,
+powerbox-0.5.2.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+powerbox-0.5.2.dist-info/top_level.txt,sha256=F5vqmTrCI8PTC6Hebkn_tgv8vfSqig49mUr709JXccY,9
