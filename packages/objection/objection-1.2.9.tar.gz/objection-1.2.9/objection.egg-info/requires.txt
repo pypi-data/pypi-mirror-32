@@ -1,0 +1,8 @@
+frida
+prompt_toolkit<2.0.0,>=1.0.15
+click
+jinja2
+tabulate
+delegator.py
+requests
+jsbeautifier
