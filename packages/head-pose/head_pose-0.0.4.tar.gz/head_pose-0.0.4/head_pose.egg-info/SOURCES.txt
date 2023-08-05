@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+head_pose/__init__.py
+head_pose/face.py
+head_pose/head_pose_estimator.py
+head_pose/model_loader.py
+head_pose/utils.py
+head_pose.egg-info/PKG-INFO
+head_pose.egg-info/SOURCES.txt
+head_pose.egg-info/dependency_links.txt
+head_pose.egg-info/top_level.txt
+head_pose.egg-info/zip-safe
+head_pose/models/model_3D_68.txt
+test/test_face_landmark.py
+test/test_head_pose_estimator.py
+test/test_webcam.py

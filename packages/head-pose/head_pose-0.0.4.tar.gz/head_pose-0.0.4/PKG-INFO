@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: head_pose
+Version: 0.0.4
+Summary: Use opencv solvePnP to do head pose estimation
+Home-page: https://github.com/DewMaple/head_pose
+Author: dew.maple
+Author-email: dew.maple@gmail.com
+License: MIT
+Project-URL: Bug Reports, https://github.com/DewMaple/head_pose/issues
+Project-URL: Source, https://github.com/DewMaple/head_pose
+Description: UNKNOWN
+Keywords: computer vision,image processing,head pose,opencv-python,numpy
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
