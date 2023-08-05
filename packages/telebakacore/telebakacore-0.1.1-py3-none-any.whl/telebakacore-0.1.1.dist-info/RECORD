@@ -1,0 +1,17 @@
+bots/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bots/admin.py,sha256=UsQ2or5eD7e0lnca79odE2tCkwRnvH2qT8ljY-tdB9Q,495
+bots/apps.py,sha256=1ZBNnaTNPLCPiE2NfFmo2wmcsYR2fDkcyYjkhucWWEM,331
+bots/bots.py,sha256=w8z888i2lQkP1ZI8tPsqEZB2BzK9iYd1c4BWXndHk_0,713
+bots/models.py,sha256=XbPEgSLxGL-cXMyNaJDaooLGXUNNPuIHBwjl2WveHJA,926
+bots/signals.py,sha256=QI41WPv1tsCjlFa1hcfkcpzliL4FYpOoCcXqQtnlX60,314
+bots/utils.py,sha256=ZFaDsWyL8T9rI8A71S0bbQeU3EE98VhZPOPKhDivwVk,526
+bots/views.py,sha256=Gon_Vcs6ORCcAHDgR30xDcgOoECiO6ILAmJRg68JMzo,672
+bots/management/commands/bot_polling.py,sha256=U3l0XywsAQCPgvmO5fqlO9-NPRDzpJ6hwxm3dAb1Nbo,1094
+bots/management/commands/set_webhooks.py,sha256=HJqyoJzGbXL3u1bO15JEgLAXXwPkkhNsk8CGqjZCu18,385
+bots/migrations/0001_initial.py,sha256=bf4aaCi-P0vRQt1GirSZ8Kk5I5VQYrayeK9JM098FFQ,916
+bots/migrations/0002_auto_20180515_1544.py,sha256=fzejKQLrCpLlWMpCa1ZbfkOpCjgM--YRJGCGMBoBtcQ,638
+bots/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+telebakacore-0.1.1.dist-info/METADATA,sha256=ravc90uaJduFTtz8jyg4epJo7Poa_5eeB0UzzxAy7l8,335
+telebakacore-0.1.1.dist-info/RECORD,,
+telebakacore-0.1.1.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+telebakacore-0.1.1.dist-info/top_level.txt,sha256=1X3Hc7M1vsvUsCFt1Jj_8OSxHu0a-R-Wp2AUK8sJOGc,5
