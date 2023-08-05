@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: grasia_dash_components
+Version: 0.3.0
+Summary: Extended dash UI component suite for @GRASIA.
+Home-page: https://github.com/Grasia/grasia-dash-components
+Author: Abel 'Akronix' Serrano Juste
+Author-email: akronix5@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: dash react-components grasia
+Platform: UNKNOWN
+Requires-Python: >=3
