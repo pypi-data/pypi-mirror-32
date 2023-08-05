@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: polybar-reload
+Version: 0.1.0
+Summary: reloads polybar when screen resolution changes
+Home-page: https://github.com/patrick-motard/polybar-reload
+Author: Patrick Motard
+Author-email: motard19@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/patrick-motard/polybar-reload/archive/0.1.0.tar.gz
+Keywords: polybar,reload,resize,resolution
+Platform: UNKNOWN
+
+UNKNOWN
+
+
