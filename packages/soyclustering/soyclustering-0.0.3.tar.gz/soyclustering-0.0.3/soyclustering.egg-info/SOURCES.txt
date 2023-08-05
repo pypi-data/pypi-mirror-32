@@ -1,0 +1,8 @@
+setup.py
+soyclustering/__init__.py
+soyclustering/_kmeans.py
+soyclustering/_utils.py
+soyclustering.egg-info/PKG-INFO
+soyclustering.egg-info/SOURCES.txt
+soyclustering.egg-info/dependency_links.txt
+soyclustering.egg-info/top_level.txt
