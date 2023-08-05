@@ -1,0 +1,15 @@
+jsonrpcclient
+web3
+mnemonic
+bip32utils
+ecdsa
+trezor
+rlp==0.6.0
+PyYAML
+hidapi>=0.7.99
+protobuf>=2.6.1
+pycryptodome
+future
+ecpy>=0.8.1
+pillow>=3.4.0
+python-u2flib-host>=3.0.2

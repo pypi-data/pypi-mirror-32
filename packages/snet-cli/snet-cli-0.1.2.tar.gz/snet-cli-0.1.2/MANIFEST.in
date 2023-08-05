@@ -1,0 +1,2 @@
+include snet_cli/resources/contracts/*
+include snet_cli/_vendor/*
