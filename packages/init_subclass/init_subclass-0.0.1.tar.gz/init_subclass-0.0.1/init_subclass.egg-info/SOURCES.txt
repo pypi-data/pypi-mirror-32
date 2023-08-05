@@ -1,0 +1,10 @@
+CHANGES.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+init_subclass/__init__.py
+init_subclass.egg-info/PKG-INFO
+init_subclass.egg-info/SOURCES.txt
+init_subclass.egg-info/dependency_links.txt
+init_subclass.egg-info/top_level.txt
