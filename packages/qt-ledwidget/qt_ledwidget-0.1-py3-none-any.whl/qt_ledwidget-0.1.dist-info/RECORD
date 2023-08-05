@@ -1,0 +1,8 @@
+qt_ledwidget/__init__.py,sha256=vKlkNv2_XF2f-Msyk0PVgnm9ayL7Z5JJG3_wbYza8kk,56
+qt_ledwidget/example_app.py,sha256=U2yTDBKJv02HFexZa1a5m-gh-x_3xOP0xx5DdK2BYFE,2944
+qt_ledwidget/led_widget.py,sha256=KTjGrs9UlYhgIH1FDx4v89VhESg86O8AMteL4YeWpAI,7741
+qt_ledwidget/led_widget_res_rc.py,sha256=VgyQwZsET9VtmbGUHPOahzbqQUqR7uY32DH9iFRRFMs,92406
+qt_ledwidget-0.1.dist-info/METADATA,sha256=yI4YKcxu4IkQnlm3OARqqp3zg_Gv-APYTFTzqn2TE5Q,270
+qt_ledwidget-0.1.dist-info/RECORD,,
+qt_ledwidget-0.1.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+qt_ledwidget-0.1.dist-info/top_level.txt,sha256=TX9fxCFWUPxNSS2ynBDgtUF0sb33jPE7HPxtiGnEMk4,13
