@@ -1,0 +1,8 @@
+README.md
+setup.py
+hereapi/__init__.py
+hereapi.egg-info/PKG-INFO
+hereapi.egg-info/SOURCES.txt
+hereapi.egg-info/dependency_links.txt
+hereapi.egg-info/requires.txt
+hereapi.egg-info/top_level.txt
