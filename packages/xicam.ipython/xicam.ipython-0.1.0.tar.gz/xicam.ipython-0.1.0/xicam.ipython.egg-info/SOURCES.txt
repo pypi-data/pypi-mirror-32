@@ -1,0 +1,7 @@
+setup.py
+xicam.ipython.egg-info/PKG-INFO
+xicam.ipython.egg-info/SOURCES.txt
+xicam.ipython.egg-info/dependency_links.txt
+xicam.ipython.egg-info/requires.txt
+xicam.ipython.egg-info/top_level.txt
+xicam/ipython/__init__.py

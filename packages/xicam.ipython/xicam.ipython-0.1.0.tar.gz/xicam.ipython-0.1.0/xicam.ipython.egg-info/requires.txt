@@ -1,0 +1,6 @@
+qtconsole
+qtpy
+
+[tests]
+pytest
+coverage
