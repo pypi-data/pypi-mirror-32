@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+ccpy/__init__.py
+ccpy/__version__.py
+ccpy/ccpy.py
+ccpy.egg-info/PKG-INFO
+ccpy.egg-info/SOURCES.txt
+ccpy.egg-info/dependency_links.txt
+ccpy.egg-info/entry_points.txt
+ccpy.egg-info/requires.txt
+ccpy.egg-info/top_level.txt
+data/data_file
