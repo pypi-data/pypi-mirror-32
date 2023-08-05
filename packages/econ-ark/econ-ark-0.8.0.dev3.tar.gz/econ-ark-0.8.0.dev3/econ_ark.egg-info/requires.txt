@@ -1,0 +1,6 @@
+numpy
+matplotlib
+Sphinx
+numpydoc
+dill
+joblib
