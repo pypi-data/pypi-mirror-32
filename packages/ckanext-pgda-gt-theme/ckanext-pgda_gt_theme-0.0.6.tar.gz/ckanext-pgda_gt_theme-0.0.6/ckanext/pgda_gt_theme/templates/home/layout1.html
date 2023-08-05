@@ -1,0 +1,87 @@
+<div class="header-banner">
+  <h1 class="title">Datos Abiertos de Guatemala</h1>
+  <p class="title">En este sitio podrás encontrar conjuntos de información pública de Guatemala.</p>
+  <p class="title">Con ellos puedes crear visualizaciones, aplicaciones e investigar.</p>
+  
+
+  <div class="search-box">
+      <form class="search-bar" action="{% url_for controller='package', action='search' %}" method="get">
+        <div class="search-input">
+            <input id="field-sitewide-search" type="text" name="q" placeholder="Buscar datos" />
+            <span>
+              <img src="/img/search-trans.png" />
+            </span>
+        </div>  
+        <button class="search-button">Buscar</button>
+        </form>
+  </div>
+
+</div>
+
+<div class="categories">
+  <div class="categories-title">
+    <h1>Categorías
+      <i class="far fa-question-circle"></i>
+    </h1>
+    <span class="categories-line"></span>
+  </div>
+  <p class="categories-text">Selecciona las categorías de tu interés para crear y administrar las colecciones de conjunto de datos</p>
+  <div class="categories-list">
+      <a class="category-card" href="/group/desarrollo-social">
+        <img src="/img/cat1.png" alt="">
+        <p>Desarrollo social</p>
+      </a>
+      <a class="category-card" href="/group/economia">
+        <img src="/img/cat2.png" alt="">
+        <p>Economía</p>
+      </a>
+      <a class="category-card" href="/group/educacion">
+        <img src="/img/cat3.png" alt="">
+        <p>Educación</p>
+      </a>
+      <a class="category-card" href="/group/cultura">
+        <img src="/img/cat4.png" alt="">
+        <p>Cultura</p>
+      </a>
+      <a class="category-card" href="/group/transporte">
+        <img src="/img/cat5.png" alt="">
+        <p>Transporte</p>
+      </a>
+      <a class="category-card" href="/group/medio-ambiente">
+        <img src="/img/cat6.png" alt="">
+        <p>Medio Ambiente</p>
+      </a>
+      <a class="category-card" href="/group/salud">
+        <img src="/img/cat7.png" alt="">
+        <p>Salud</p>
+      </a>
+      <a class="category-card" href="/group/industria">
+        <img src="/img/cat8.png" alt="">
+        <p>Industria</p>
+      </a>
+      <a class="category-card" href="/group/transparencia">
+        <img src="/img/cat9.png" alt="">
+        <p>Transparencia</p>
+      </a>
+      <a class="category-card" href="/group/seguridad">
+        <img src="/img/cat10.png" alt="">
+        <p>Seguridad</p>
+      </a>
+      <a class="category-card" href="/group/ciencia">
+        <img src="/img/cat11.png" alt="">
+        <p>Ciencia</p>
+      </a>
+      <a class="category-card" href="/group/tecnologia">
+        <img src="/img/cat12.png" alt="">
+        <p>Tecnología</p>
+      </a>
+    
+  </div>
+</div>
+<div class="subscribe-row">
+  <h1 class="subscribe-title">Suscríbete y recibe actualizaciones</h1>
+  <div class="subscribe-form">
+    <input type="text" placeholder="Nombre"><input type="text" placeholder="Correo electrónico">
+    <button type="submit">Enviar</button>
+  </div>
+</div>
