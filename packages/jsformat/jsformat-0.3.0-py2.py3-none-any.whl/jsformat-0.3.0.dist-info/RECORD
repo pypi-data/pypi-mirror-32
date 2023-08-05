@@ -1,0 +1,11 @@
+jsformat/__init__.py,sha256=C7VQXU3CbwCrNEWBQX-dMS9akk_rMoabjVCsJTolC7s,1067
+jsformat/dumper.py,sha256=kwFnZuEgXgf3_iJOi6bR0EIfHkoRjzx61JcW5bBal6A,3510
+jsformat/html.py,sha256=B4zAWcDSnEPSIbeAAoVlPw2fsTqPBSHNNr0OxLN-848,2885
+jsformat/json.py,sha256=fdafKepY__Y4W3JDRsuBZGupdkdq8krL9ZrZfIij3Fg,8030
+jsformat/plist.py,sha256=CZ_sCMMTCgWztIfYBz0Sz8Y54K5jWnq7XPz2Q6NfzLk,8624
+jsformat/tree.py,sha256=HNI84SGA4UA4RNIvrzHfxEAqQZpvp65VhWLm7HsNhEo,9118
+jsformat/xml.py,sha256=p3ZcDx4bbD23R_WUhPY7gvwUX7jcdKbiBBRMLgxmlj8,2076
+jsformat-0.3.0.dist-info/METADATA,sha256=y58O6NeNTHwouWufhA3YkS37ioDDPp7fxtLX3snpEMY,4227
+jsformat-0.3.0.dist-info/RECORD,,
+jsformat-0.3.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+jsformat-0.3.0.dist-info/top_level.txt,sha256=KTNXHuB7LwVa5nJWaaiBU4XeeTTA56xIq0b52Ac9UpA,9
