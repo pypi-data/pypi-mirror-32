@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: sorted-mkdn
+Version: 0.1.2
+Summary: Sorts markdown stars
+Home-page: https://github.com/jondot/sorted-mkdn
+Author: Dotan Nahum
+Author-email: jondotan@gmail.com
+License: Copyright (c) 2012, Kenneth Reitz
+Requires-Dist: toolz
+Requires-Dist: docopt
+Requires-Dist: mistune
+
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+Description: # sorted-mkdn
+        
+        A small utility that processes awesome-list markdown and does in-place sort of lists based on star counts. This works against [Awesome React Native](https://github.com/jondot/awesome-react-native), and can probably be used on similarly formatted lists.
+        
+        ## Quick Start
+        
+        Install:
+        
+        ```
+        $ pip install sorted-mkdn
+        ```
+        
+        And run
+        
+        ```
+        $ sorted-mkdn README.md > README_SORTED.md
+        ```
+        
+        # Contributing
+        
+        Fork, implement, add tests, pull request, get my everlasting thanks and a respectable place here :).
+        
+        ### Thanks:
+        
+        To all [Contributors](https://github.com/jondot/sorted-mkdn/graphs/contributors) - you make this happen, thanks!
+        
+        # Copyright
+        
+        Copyright (c) 2018 [Dotan Nahum](http://gplus.to/dotan) [@jondot](http://twitter.com/jondot). See [LICENSE](LICENSE.txt) for further details.
+        
+Platform: UNKNOWN
