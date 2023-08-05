@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: muriki
+Version: 0.2.1
+Summary: An utility to import data and persist data
+Home-page: https://github.com/1ber/muriki
+Author: Humberto Ramos Costa
+Author-email: 1bertorc@gmail.com
+License: Apache License 2.0
+Download-URL: https://github.com/1ber/muriki/archive/0.1.tar.gz
+Description: 
+        # Muriki
+        
+        **Muriki** is a set of resources written in python3 to ease the procces of importing data
+        and persist to databases.
+        
+        pip install muriki
+        
+        Check muriki_test1.py for an use example
+        
+        
+Keywords: muriki,import,csv,fixed length,database
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

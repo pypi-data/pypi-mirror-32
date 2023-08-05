@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+muriki/DataEntity.py
+muriki/DataProperty.py
+muriki/__init__.py
+muriki.egg-info/PKG-INFO
+muriki.egg-info/SOURCES.txt
+muriki.egg-info/dependency_links.txt
+muriki.egg-info/top_level.txt
