@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+hexia_pages.egg-info/PKG-INFO
+hexia_pages.egg-info/SOURCES.txt
+hexia_pages.egg-info/dependency_links.txt
+hexia_pages.egg-info/requires.txt
+hexia_pages.egg-info/top_level.txt
+migrations/0001_initial.py
+migrations/__init__.py
