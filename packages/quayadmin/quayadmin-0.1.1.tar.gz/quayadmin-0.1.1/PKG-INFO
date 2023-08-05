@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: quayadmin
+Version: 0.1.1
+Summary: Do administrative stuff on quay.io.
+Home-page: https://github.com/jml/quay-admin
+Author: Jonathan M. Lange
+Author-email: jml@mumak.net
