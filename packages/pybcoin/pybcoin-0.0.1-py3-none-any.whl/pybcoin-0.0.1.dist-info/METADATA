@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pybcoin
+Version: 0.0.1
+Summary: Bitcoin Trend Forecast
+Home-page: https://github.com/rguptauw/pybcoin
+Author: Pushottam Shivraj
+Author-email: pshivraj@uw.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+
+UNKNOWN
+
+
