@@ -1,0 +1,37 @@
+CHANGES
+=======
+
+* fix: try disabling tags
+* fix: repo name
+* added tavis build and deploy
+* imroved krdict output nameing
+
+0.3.1
+-----
+
+* added click and support for building package with prb
+
+0.3.0
+-----
+
+* added support for krdict
+
+v0.1.0
+------
+
+* added setup for packaging..
+* deal with '/'.
+* some improvements..
+* improvements to run it on Windows..
+* storing card data in TSV files
+* make scripts runnable
+* quickfix: regular expression should match whole URL
+* handle a single level
+* skip already saved TTS files
+* audio file generation using Google TTS API
+* refactored the scraper into a class
+* quickfix: None for found nodes
+* refactored to use generators instead of dumping all directly
+* Update README.md
+* initial commit
+* Initial commit

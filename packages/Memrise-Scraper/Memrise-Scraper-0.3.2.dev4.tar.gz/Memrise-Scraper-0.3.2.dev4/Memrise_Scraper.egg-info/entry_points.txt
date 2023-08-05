@@ -1,0 +1,4 @@
+[console_scripts]
+memrise = memrise_scraper:scrape
+memrise2tts = memrise_scraper:scrape
+
