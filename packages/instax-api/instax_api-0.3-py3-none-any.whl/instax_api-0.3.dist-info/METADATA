@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: instax-api
+Version: 0.3
+Summary: Fujifilm Instax SP2 Library
+Home-page: https://github.com/jpwsutton/instax_api
+Author: James Sutton
+Author-email: james@jsutton.co.uk
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: Pillow
+
+UNKNOWN
+
+
