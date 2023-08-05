@@ -1,0 +1,31 @@
+Metadata-Version: 1.1
+Name: scf-add
+Version: 0.1
+Summary: 为用Python编写腾讯云函数服务SCF代码提供便捷的pip库添加方式 
+Home-page: https://github.com/duyixian1234/scf_add
+Author: Yixian Du
+Author-email: duyixian1234@qq.com
+License: MIT
+Description: 
+        SCF-ADD
+        -------
+        
+        为用Python编写腾讯云函数服务SCF代码提供便捷的pip库添加方式
+        
+        INSTALL
+        -------
+        
+        pip install scf-add
+        
+        USE
+        ___
+        
+        scf-add add <package>
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy

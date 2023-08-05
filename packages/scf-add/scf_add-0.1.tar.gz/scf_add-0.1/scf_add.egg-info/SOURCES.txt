@@ -1,0 +1,14 @@
+README.rst
+setup.py
+scf_add/__init__.py
+scf_add/__version__.py
+scf_add/command.py
+scf_add/utils.py
+scf_add.egg-info/PKG-INFO
+scf_add.egg-info/SOURCES.txt
+scf_add.egg-info/dependency_links.txt
+scf_add.egg-info/entry_points.txt
+scf_add.egg-info/requires.txt
+scf_add.egg-info/top_level.txt
+test/test_env.py
+test/test_utils.py
