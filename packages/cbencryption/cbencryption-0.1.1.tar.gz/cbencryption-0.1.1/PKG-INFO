@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: cbencryption
+Version: 0.1.1
+Summary: JSON encryption API for use with Couchbase Python SDK
+Home-page: http://github.com/couchbaselabs/python-json-encryption
+Author: Couchbase, Inc.
+Author-email: PythonPackage@couchbase.com
+License: Proprietary
+Description: UNKNOWN
+Keywords: couchbase nosql encryption
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: Other/Proprietary License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
