@@ -1,0 +1,7 @@
+README.md
+setup.py
+pywiz.egg-info/PKG-INFO
+pywiz.egg-info/SOURCES.txt
+pywiz.egg-info/dependency_links.txt
+pywiz.egg-info/requires.txt
+pywiz.egg-info/top_level.txt
