@@ -1,0 +1,42 @@
+Metadata-Version: 1.1
+Name: terraformlintingcli
+Version: 0.1.0
+Summary: A cli to lint and check file positioning for terraform resources
+Home-page: https://github.com/schubergphilis/terraformlintingcli.git
+Author: Costas Tyfoxylos
+Author-email: ctyfoxylos@schubergphilis.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: ===================
+        terraformlintingcli
+        ===================
+        
+        A cli to lint and check file positioning for terraform resources
+        
+        
+        * Documentation: http://terraformlintingcli.readthedocs.io/en/latest/
+        
+        Features
+        --------
+        
+        * Lints terraform resources based on provided rules
+        * Enforces filename positioning for terraform resources based on provided rules
+        
+        
+        
+        
+        History
+        -------
+        
+        0.1 (2018-05-24)
+        ---------------------
+        
+        * First release
+        
+Keywords: terraformlintingcli terraform linting position checking cli
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2.7
