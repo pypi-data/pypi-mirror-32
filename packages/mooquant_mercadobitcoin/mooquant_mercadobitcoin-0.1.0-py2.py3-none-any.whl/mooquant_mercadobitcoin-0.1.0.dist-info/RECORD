@@ -1,0 +1,10 @@
+mooquant_mercadobitcoin/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+mooquant_mercadobitcoin/api.py,sha256=8phX-SjC_B8cX0q2EpFv2_tpMd7ljlX_qCKvSjYmnPQ,758
+mooquant_mercadobitcoin/broker.py,sha256=94TcOD95LnL7JpgfoMmo4RQcZEF3bLoMMyDu90KjNQM,3778
+mooquant_mercadobitcoin/common.py,sha256=qSibxtlhPLe5GKVEdsD7R49pE_hytlkbdfJ7RyurU0g,245
+mooquant_mercadobitcoin/livefeed.py,sha256=6CMAGljkXl-eDnIYHEgbFZd0qERHt3Ldz3iG5RZdle0,7920
+mooquant_mercadobitcoin-0.1.0.dist-info/METADATA,sha256=NP8H7Mrip3fg_fF0nPab_4zKMwoO-f1lo6NplCcqkZo,3845
+mooquant_mercadobitcoin-0.1.0.dist-info/RECORD,,
+mooquant_mercadobitcoin-0.1.0.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+mooquant_mercadobitcoin-0.1.0.dist-info/entry_points.txt,sha256=zaggEf55j7DoiJVUcuAl2_A3QvXTUlgBWSd_eJzXm_o,78
+mooquant_mercadobitcoin-0.1.0.dist-info/top_level.txt,sha256=kaVASlUwtlEra6pNwsedGRKGULyUKvB62QKg11BYuWQ,24
