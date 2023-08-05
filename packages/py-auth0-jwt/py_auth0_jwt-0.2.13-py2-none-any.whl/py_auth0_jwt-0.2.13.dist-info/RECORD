@@ -1,0 +1,7 @@
+py_auth0_jwt-0.2.13.dist-info/METADATA,sha256=ZMonKIH1UDuqZ8v0NHa51f0kd6Tvm7iECk1J-RvBp7o,304
+py_auth0_jwt-0.2.13.dist-info/RECORD,,
+py_auth0_jwt-0.2.13.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+py_auth0_jwt-0.2.13.dist-info/top_level.txt,sha256=2TajMr4tVVBywcL1h3_siR17OBcSC9W7Y5qi6Wj1xoY,11
+pyauth0jwt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyauth0jwt/auth0authenticate.py,sha256=MnVLZTzC6Zm_Q6xy4eMpBtmoTx-jsuJzj701i_dkcCI,8996
+pyauth0jwt/settings.py,sha256=Wl_hUUNn590vwLQGNIRfN-3Vs-XWY--Kjvl2W_fIGnM,535
