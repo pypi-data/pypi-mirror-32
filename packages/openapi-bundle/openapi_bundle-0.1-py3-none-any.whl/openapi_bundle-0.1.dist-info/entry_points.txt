@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        openapi-bundle=openapi_bundle:cli
+      
