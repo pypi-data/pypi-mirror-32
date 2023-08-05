@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyforcorona
+Version: 0.1.2
+Summary: Write python code, then compile to receive lua-Corona code.
+Home-page: https://github.com/Ronald-TR/Py2Corona
+Author: Ronald Rodrigues Farias
+Author-email: ronald-farias@outlook.com
+License: MIT License
+Keywords: python3 corona lua mobile game
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: pillow
+
+UNKNOWN
+
+
