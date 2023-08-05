@@ -1,0 +1,26 @@
+MANIFEST.in
+setup.py
+cPragmaModifier/Block.py
+cPragmaModifier/Clause.py
+cPragmaModifier/Directive.py
+cPragmaModifier/Extractor.py
+cPragmaModifier/FileHandler.py
+cPragmaModifier/ForLoop.py
+cPragmaModifier/Parameter.py
+cPragmaModifier/SourceCode.py
+cPragmaModifier/StructuredBlock.py
+cPragmaModifier/__init__.py
+cPragmaModifier/init.py
+cPragmaModifier.egg-info/PKG-INFO
+cPragmaModifier.egg-info/SOURCES.txt
+cPragmaModifier.egg-info/dependency_links.txt
+cPragmaModifier.egg-info/not-zip-safe
+cPragmaModifier.egg-info/top_level.txt
+cPragmaModifier/ComponentAPIs/__init__.py
+cPragmaModifier/ComponentAPIs/__init__.pyc
+cPragmaModifier/ComponentAPIs/setScheduler.py
+cPragmaModifier/ComponentAPIs/setScheduler.pyc
+cPragmaModifier/Directives/for.json
+cPragmaModifier/Directives/main.json
+cPragmaModifier/Directives/parallel for.json
+cPragmaModifier/Directives/parallel.json
