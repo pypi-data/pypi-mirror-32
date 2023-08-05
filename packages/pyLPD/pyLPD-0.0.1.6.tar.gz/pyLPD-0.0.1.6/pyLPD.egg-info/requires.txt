@@ -1,0 +1,5 @@
+numpy
+pyvisa
+pandas
+numba
+scipy
