@@ -1,0 +1,27 @@
+Metadata-Version: 2.0
+Name: im-ndbsharded
+Version: 0.1.2
+Summary: ndb sharded function, for traversing ndb objects at any scale, for Google App Engine, Python standard environment
+Home-page: https://github.com/emlynoregan/im_ndbsharded
+Author: Emlyn O'Regan
+Author-email: emlynoregan@gmail.com
+License: ../LICENSE.txt
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Distributed Computing
+Requires-Dist: im-task
+Requires-Dist: im-util
+
+# im_ndbsharded
+tbd
+
+
