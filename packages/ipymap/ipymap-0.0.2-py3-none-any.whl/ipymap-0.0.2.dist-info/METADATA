@@ -1,0 +1,21 @@
+Metadata-Version: 2.0
+Name: ipymap
+Version: 0.0.2
+Summary: mapping tool in jupyter
+Home-page: https://github.com/yyu/ipymap
+Author: Yuan "Forrest" Yu
+Author-email: yy@yuyuan.org
+License: UNKNOWN
+Description-Content-Type: text/markdown
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: ipywidgets (>=7.1.1)
+Requires-Dist: ipyleaflet (>=0.8.1)
+
+## ipymap
+
+![](screenshot.png)
+
+
