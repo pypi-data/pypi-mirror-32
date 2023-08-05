@@ -1,0 +1,8 @@
+README.md
+setup.py
+cloudict/__init__.py
+cloudict/webdict.py
+cloudict.egg-info/PKG-INFO
+cloudict.egg-info/SOURCES.txt
+cloudict.egg-info/dependency_links.txt
+cloudict.egg-info/top_level.txt
