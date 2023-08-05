@@ -1,0 +1,10 @@
+ledgerblue
+jsonrpcclient
+web3
+mnemonic
+bip32utils
+ecdsa
+trezor
+rlp==0.6.0
+PyYAML
+pycryptodome
