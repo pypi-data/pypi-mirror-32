@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: generic-paths
+Version: 0.0.3
+Summary: Generic pathfinding algorithms for Python.
+Home-page: https://github.com/dhoialmeida/generic_paths
+Author: Dhoi Almeida
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: generic_paths
+        =============
+        
+        Generic pathfinding algorithms for Python.
+        
+        Only BFS implemented for now.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

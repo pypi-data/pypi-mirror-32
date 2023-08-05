@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+generic_paths/__init__.py
+generic_paths/_common.py
+generic_paths/bfs.py
+generic_paths.egg-info/PKG-INFO
+generic_paths.egg-info/SOURCES.txt
+generic_paths.egg-info/dependency_links.txt
+generic_paths.egg-info/top_level.txt
