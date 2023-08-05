@@ -1,0 +1,38 @@
+Metadata-Version: 2.0
+Name: sitekicker
+Version: 1.0.0
+Summary: Generate and build a static website
+Home-page: https://github.com/nmhnmh/sitekicker
+Author: Minghao Ni
+Author-email: niminghao804@gmail.com
+License: MIT
+Download-URL: https://github.com/nmhnmh/sitekicker
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: Terminals
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Utilities
+Requires-Python: >=3.5
+Requires-Dist: PyYAML
+Requires-Dist: Pygments
+Requires-Dist: beautifulsoup4
+Requires-Dist: markdown
+Requires-Dist: pymdown-extensions
+Requires-Dist: Jinja2
+Requires-Dist: watchdog
+
+UNKNOWN
+
+

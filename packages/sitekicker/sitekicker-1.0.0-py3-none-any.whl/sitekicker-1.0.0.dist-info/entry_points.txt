@@ -1,0 +1,3 @@
+[console_scripts]
+sitekicker = sitekicker.__main__:main
+
