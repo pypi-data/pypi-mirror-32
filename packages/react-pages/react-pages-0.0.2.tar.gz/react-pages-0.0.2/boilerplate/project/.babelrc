@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    "inline-react-svg"
+  ],
+  "presets": [
+    "react",
+    "env"
+  ],
+  "env": {
+    "production": {
+      "presets": [
+        "react",
+        "env",
+        "minify"
+      ]
+    }
+  }
+}

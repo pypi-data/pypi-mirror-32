@@ -1,0 +1,7 @@
+click
+crayons
+halo
+toml
+
+[django integration]
+django
