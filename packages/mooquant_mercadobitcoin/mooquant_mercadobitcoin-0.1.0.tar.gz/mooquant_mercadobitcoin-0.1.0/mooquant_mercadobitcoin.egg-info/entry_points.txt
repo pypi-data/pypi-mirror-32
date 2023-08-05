@@ -1,0 +1,3 @@
+[console_scripts]
+mooquant_mercadobitcoin = mooquant_mercadobitcoin.cli:main
+
