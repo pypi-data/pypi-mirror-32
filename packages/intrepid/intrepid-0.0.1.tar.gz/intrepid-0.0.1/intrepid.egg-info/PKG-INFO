@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: intrepid
+Version: 0.0.1
+Summary: Fast Python
+Home-page: https://github.com/yadudoc/intrepid
+Author: Yadu Nand Babuji
+Author-email: yadudoc1729@gmail.com
+License: Apache 2.0
+Download-URL: https://github.com/yadudoc/intrepid/archive/0.0.1.tar.gz
+Description: Python at scale
+Keywords: Scientific computing
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
