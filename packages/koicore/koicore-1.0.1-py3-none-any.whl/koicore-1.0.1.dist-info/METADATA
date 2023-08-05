@@ -1,0 +1,19 @@
+Metadata-Version: 2.0
+Name: koicore
+Version: 1.0.1
+Summary: The core library for Koi written in Python.
+Home-page: https://github.com/koi-lang/koi-python
+Author: koi-lang
+Author-email: UNKNOWN
+License: BSD 3-Clause
+Keywords: koi,core,language,interpreter,compiler
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+
+UNKNOWN
+
+
