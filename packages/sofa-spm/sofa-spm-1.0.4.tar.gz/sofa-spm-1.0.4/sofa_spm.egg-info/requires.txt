@@ -1,0 +1,4 @@
+GitPython
+appdirs
+mu-repo
+requests
