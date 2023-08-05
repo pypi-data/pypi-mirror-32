@@ -1,0 +1,11 @@
+numpy
+qtpy
+pyFAI
+scipy
+dill
+astroscrappy
+sasmodels
+
+[tests]
+pytest
+coverage
