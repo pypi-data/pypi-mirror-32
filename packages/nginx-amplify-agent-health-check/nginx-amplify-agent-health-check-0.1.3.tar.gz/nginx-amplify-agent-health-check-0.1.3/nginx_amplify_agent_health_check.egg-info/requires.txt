@@ -1,0 +1,15 @@
+psutil
+setuptools
+ntplib
+crossplane
+requests
+
+[test]
+pytest
+pytest-cov
+coveralls
+mock
+numpy
+setuptools
+psutil
+requests
