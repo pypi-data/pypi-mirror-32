@@ -1,0 +1,70 @@
+The AdaMet Package
+==================
+
+**Adaptive Metropolis for Bayesian Analysis**
+
+.. image:: https://img.shields.io/pypi/v/adamet.svg
+        :target: https://pypi.org/project/adamet/
+.. image:: https://img.shields.io/badge/arXiv-1208.3522-orange.svg
+    :target: https://arxiv.org/abs/1208.3522
+.. image:: https://img.shields.io/badge/DOI-10.1093/mnras/stt562-blue.svg
+    :target: https://doi.org/10.1093/mnras/stt562
+
+AdaMet is a well-tested Python implementation of the Adaptive Metropolis algorithm by
+`Haario H., Saksman E., Tamminen J., (2001) <https://projecteuclid.org/euclid.bj/1080222083>`_.
+It was used in a number of published papers in the astrophysics literature.
+
+Attribution
+-----------
+
+If you use this software for your research, please cite 
+`Cappellari et al. (2013a) <http://adsabs.harvard.edu/abs/2013MNRAS.432.1709C>`_ 
+where the implementation was introduced. The BibTeX entry for the paper is::
+
+    @ARTICLE{Cappellari2013a,
+        author = {{Cappellari}, M. and {Scott}, N. and {Alatalo}, K. and
+            {Blitz}, L. and {Bois}, M. and {Bournaud}, F. and {Bureau}, M. and
+            {Crocker}, A.~F. and {Davies}, R.~L. and {Davis}, T.~A. and {de Zeeuw},
+            P.~T. and {Duc}, P.-A. and {Emsellem}, E. and {Khochfar}, S. and
+            {Krajnovi{\'c}}, D. and {Kuntschner}, H. and {McDermid}, R.~M. and
+            {Morganti}, R. and {Naab}, T. and {Oosterloo}, T. and {Sarzi}, M. and
+            {Serra}, P. and {Weijmans}, A.-M. and {Young}, L.~M.},
+        title = "{The ATLAS$^{3D}$ project - XV. Benchmark for early-type
+            galaxies scaling relations from 260 dynamical models: mass-to-light
+            ratio, dark matter, Fundamental Plane and Mass Plane}",
+        journal = {MNRAS},
+        eprint = {1208.3522},
+        year = 2013,
+        volume = 432,
+        pages = {1709-1741},
+        doi = {10.1093/mnras/stt562}
+    }
+
+Installation
+------------
+
+install with::
+
+    pip install adamet
+
+Without writing access to the global ``site-packages`` directory, use::
+
+    pip install --user adamet
+
+Documentation
+-------------
+
+See ``adamet/examples``
+
+License
+-------
+
+Copyright (c) 2012-2018 Michele Cappellari
+
+This software is provided as is without any warranty whatsoever.
+Permission to use, for non-commercial purposes is granted.
+Permission to modify for personal or internal use is granted,
+provided this copyright and disclaimer are included in all
+copies of the software. All other rights are reserved.
+In particular, redistribution of the code is not allowed.
+
