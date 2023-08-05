@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+ratelimitpy/__init__.py
+ratelimitpy/core.py
+ratelimitpy.egg-info/PKG-INFO
+ratelimitpy.egg-info/SOURCES.txt
+ratelimitpy.egg-info/dependency_links.txt
+ratelimitpy.egg-info/not-zip-safe
+ratelimitpy.egg-info/top_level.txt
