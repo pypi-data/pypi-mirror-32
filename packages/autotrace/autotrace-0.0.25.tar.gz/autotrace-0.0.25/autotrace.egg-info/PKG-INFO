@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: autotrace
+Version: 0.0.25
+Summary: Trace a command in real time
+Home-page: UNKNOWN
+Author: Ian Miell
+Author-email: ian.miell@gmail.com
+License: UNKNOWN
+Description: Trace any set of commands in real time, manage on one window, record to enable replay.
+Platform: UNKNOWN
