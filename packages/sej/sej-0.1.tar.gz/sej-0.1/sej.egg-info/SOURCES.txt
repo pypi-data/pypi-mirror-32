@@ -1,0 +1,16 @@
+MANIFEST.in
+setup.py
+sej/__init__.py
+sej/dict.py
+sej/hmm.py
+sej/train.py
+sej/util.py
+sej.egg-info/PKG-INFO
+sej.egg-info/SOURCES.txt
+sej.egg-info/dependency_links.txt
+sej.egg-info/requires.txt
+sej.egg-info/top_level.txt
+sej/data/dict.utf8
+sej/data/model.train
+sej/data/my.trie
+sej/data/train.utf8

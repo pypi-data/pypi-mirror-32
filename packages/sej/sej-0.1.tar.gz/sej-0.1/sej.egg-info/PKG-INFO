@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: sej
+Version: 0.1
+Summary: Chinese Segmentation Tool
+Home-page: UNKNOWN
+Author: begosu
+Author-email: cocaer.cl@gmail.com
+License: MIT Licence
+Description-Content-Type: UNKNOWN
+Description: Chinese Segmentation Tool, using HMM
+Keywords: pip,Chinese,segmentation,HMM
+Platform: any

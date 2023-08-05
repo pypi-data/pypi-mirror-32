@@ -1,0 +1,4 @@
+include sej/data/dict.utf8
+include sej/data/my.trie
+include sej/data/model.train
+include sej/data/train.utf8
