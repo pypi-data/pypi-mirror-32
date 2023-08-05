@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: mqttgateway
+Version: 0.201
+Summary: Framework for MQTT Gateways
+Home-page: http://mqttgateway.readthedocs.io/en/latest/
+Author: Pier Paolo Taddonio
+Author-email: paolo.taddonio@empiluma.com
+License: MIT
+Keywords: mqtt gateway
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Requires-Dist: paho-mqtt (>=1.3.1)
+
+.. warning::
+    This version is still under development.
+    The next version will be 0.3. 
+
+
+The documentation in ``docs/source`` is formatted to be read in
+`ReadTheDocs <http://mqttgateway.readthedocs.io/>`_.
+
+Welcome to MQTTGateway
+======================
+
+``mqttgateway`` is a python wrapper to build consistent gateways to MQTT networks.
+
+.. image:: docs/source/basic_diagram.png
+   :scale: 30%
+   :align: right
+
+What it does:
+-------------
+
+* it deals with all the boilerplate code to manage an MQTT connection,
+  to load configuration and mapping data, and to create log handlers,
+* it encapsulates the interface in a class that needs only 2 methods
+  ``__init__`` and ``loop``,
+* it creates an intuitive messaging abstraction layer between the wrapper
+  and the interface,
+* it isolates the syntax and keywords of the MQTT network from the internals
+  of the interface.
+
+Who is it for:
+--------------
+
+Developers of MQTT networks in a domestic environment, or *smart homes*,
+looking to adopt a definitive syntax for their MQTT messages and
+to build gateways with their devices that are not MQTT enabled.
+
+Available gateways
+------------------
+
+The currently available gateways are:
+
+- `MusicCast <https://github.com/ppt000/musiccast2mqtt>`_: gateway to Yamaha MusicCast enabled devices, via their HTTP API.
+
+..
+  - **C-Bus**: gateway to the Clipsal-Schneider C-Bus system, via its PCI Serial Interface.
+
+
