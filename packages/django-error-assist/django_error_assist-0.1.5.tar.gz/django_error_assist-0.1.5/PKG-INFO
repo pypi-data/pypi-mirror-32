@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: django_error_assist
+Version: 0.1.5
+Summary: Allows user to search the django errors on google/stackoverflow with a link.
+Home-page: http://github.com/im-shyam/django_error_assist
+Author: Shyam Satyaprasad
+Author-email: shyam.ns114@gmail.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
