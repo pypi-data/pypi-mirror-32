@@ -1,0 +1,2 @@
+https://github.com/csdms/bmi-python
+https://github.com/csdms/bmi-tester/
