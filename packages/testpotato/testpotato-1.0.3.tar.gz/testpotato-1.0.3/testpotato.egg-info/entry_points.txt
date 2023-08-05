@@ -1,0 +1,4 @@
+[console_scripts]
+potato = potatodat.potato:run
+potatofield = potatodat.potato:run
+
