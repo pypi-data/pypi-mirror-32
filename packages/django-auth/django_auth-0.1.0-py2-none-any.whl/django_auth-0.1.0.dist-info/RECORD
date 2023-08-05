@@ -1,0 +1,6 @@
+django_auth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_auth/settings.py,sha256=YpmF9z_IUXIwTWzsqSCusdXMEWsif0W-pu0ajMpKY4c,101
+django_auth-0.1.0.dist-info/METADATA,sha256=UtrDN4bAor4i68gr4oNuS4-cgqqHzXFqxMSO7XKNRPc,498
+django_auth-0.1.0.dist-info/RECORD,,
+django_auth-0.1.0.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+django_auth-0.1.0.dist-info/top_level.txt,sha256=HceTN_cf0HELolqgRWw38CJ3YxusVbuVfY7KR8IyxOY,12
