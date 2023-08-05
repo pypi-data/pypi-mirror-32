@@ -1,0 +1,2 @@
+beautifulsoup4
+testtools>0.9.3
