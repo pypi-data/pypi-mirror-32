@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: djangohushrest
+Version: 1.0.0
+Summary: djangohushrest provides a base for simple restful Django resources.
+Home-page: https://github.com/lwakefield/django-hush-rest
+Author: Lawrence Wakefield
+Author-email: lawrence@iamlawrence.me
+License: UNKNOWN
+Download-URL: https://github.com/lwakefield/django-hush-rest/archive/v1.0.0.tar.gz
+Description: UNKNOWN
+Keywords: rest,crud,django
+Platform: UNKNOWN
