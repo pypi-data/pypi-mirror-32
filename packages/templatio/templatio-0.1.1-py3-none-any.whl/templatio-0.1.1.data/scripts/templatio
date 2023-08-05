@@ -1,0 +1,87 @@
+#!python
+#==============================================================================
+# Copyright 2018 Marco Bellaccini - marco.bellaccini[at!]gmail.com
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#==============================================================================
+
+#==============================================================================
+# templatio
+#
+# templatio is a Python 3 utility that uses TextFSM and Jinja2 to convert
+# text files based on input and output templates.
+# It supports TextFSM syntax for input templates and Jinja syntax for output
+# templates.
+#
+# TextFSM Wiki: https://github.com/google/textfsm/wiki/TextFSM
+# Jinja2 website: http://jinja.pocoo.org/
+#
+#==============================================================================
+
+import argparse
+from sys import exit
+import templatio
+
+# parse command line arguments
+parser = argparse.ArgumentParser(description=("Convert text files based on "
+                                              "input and output templates."
+                                              "See README.rst for template "
+                                              "examples"))
+parser.add_argument("intemplate", type=str,
+                    help="input template")
+parser.add_argument("outtemplate", type=str,
+                    help="output template")
+parser.add_argument("infile", type=str,
+                    help="input file")
+parser.add_argument("outfile", type=str,
+                    help="output file")
+args = parser.parse_args()
+
+
+### read templates and input file
+
+# read input template data
+try:
+    with open(args.intemplate, "r") as intempd:
+        intempl = intempd.read()
+except IOError:
+    exit("File \"" + args.intemplate + "\" was not found.")
+
+# read output template
+try:
+    with open(args.outtemplate, "r") as otempd:
+        outtempl = otempd.read()
+except IOError:
+    exit("File \"" + args.outtemplate + "\" was not found.")
+
+# read input file
+try:
+    with open(args.infile, "r") as infile:
+        inData = infile.read()
+except IOError:
+    exit("File \"" + args.infile + "\" was not found.")
+
+# call conversion function
+try:
+    outData = templatio.parseInToOut(intempl, outtempl, inData)
+except ValueError as ex:
+    exit(ex)
+
+# write output file
+try:
+    with open(args.outfile, "w") as outfile:
+        outfile.write(outData)
+except IOError:
+    exit("Error: cannot write \"" + args.outfile + "\" file.")
+
+
