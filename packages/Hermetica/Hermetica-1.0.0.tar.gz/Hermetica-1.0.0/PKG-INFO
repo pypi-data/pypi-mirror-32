@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: Hermetica
+Version: 1.0.0
+Summary: scaffold command line interface for Flask application
+Home-page: https://github.com/yoshiya0503/Flask-Best-Practices.git
+Author: Yoshiya Ito
+Author-email: myon53@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
