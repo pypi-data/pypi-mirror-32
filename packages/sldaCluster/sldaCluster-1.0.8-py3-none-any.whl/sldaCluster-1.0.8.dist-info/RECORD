@@ -1,0 +1,15 @@
+sldaCluster/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sldaCluster/Main.py,sha256=BoYFTPtI7310v9ImcaljGH69K2l1ao0vKcDtWAULsDA,2727
+sldaCluster/README.rst,sha256=wjrrDJ6TWBjqb1NrhWEWpVR5CvPrq-undy4iIqC3Fn8,1084
+sldaCluster/__init__.py,sha256=tANCn9YrD8M5wVUhUL9esOm0SNNEEHHYPGbk9UYoOX0,171
+sldaCluster/requirements.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sldaCluster/settings.txt,sha256=UrNJHlZ1f1rbyWt79Ef7gi5CCMJjCwEhloRwkIXYxqo,100
+sldaCluster/slda,sha256=tFZO7JXoP_83yYhW_fJyYnbuB0-NL0Uvy2kyKDq6kQo,54196
+sldaCluster/sldaModel.py,sha256=z9fozgFNOjV0VuX2aCZKmT25-H1knYnhCVrwuYO4aUo,654
+sldaCluster/stopwords_en.txt,sha256=hqNXKfMAk6dnzU_nI_Ehv7t79tJvUYegVk2r7C05ApQ,2879
+sldaCluster/tfidf.py,sha256=TpS8XIMN40rER8W_-d2G43Q7Tr-GRNec65Jh-pZnPh0,1804
+sldaCluster/word2vec.py,sha256=nhutya2sQNbi6apLiXSk4U4Yw4T9BhYVhXJyd5se8rU,3236
+sldaCluster-1.0.8.dist-info/METADATA,sha256=g-nV6rEev6u-y3voSMH_rK0_sQ3aTJwbF0Vs6MzgcMI,590
+sldaCluster-1.0.8.dist-info/RECORD,,
+sldaCluster-1.0.8.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+sldaCluster-1.0.8.dist-info/top_level.txt,sha256=49GN7XKcAbilwi2OpTOedNbD1HhBplIug-Bw0WLv7Q8,12
