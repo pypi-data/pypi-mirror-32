@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: mypackage12930123912903
+Version: 0.1.3
+Summary: 
+Home-page: UNKNOWN
+License: UNKOWN
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >= 2.7.0.0, < 2.8.0.0
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
