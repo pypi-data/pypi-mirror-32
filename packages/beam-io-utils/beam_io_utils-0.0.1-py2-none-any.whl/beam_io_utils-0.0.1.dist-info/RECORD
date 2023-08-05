@@ -1,0 +1,9 @@
+beam_io_utils/__init__.py,sha256=PF4p9jKzJhCTChRej2YZvLpkzHlaAMuTQBFrLtveemk,56
+beam_io_utils/coders.py,sha256=g7ibDJn244W3XJDYYcZ89POFpfWtbZrmwr9PiOMi8rw,143
+beam_io_utils/reemitter.py,sha256=Cbreb6UvELfPsWHBJRvc3uun6ywqYsghE9GlZt6q4J0,294
+beam_io_utils/xcsv.py,sha256=ZAMbYOzOHYTV8l0jUbjjRhHXH0ZaxWGWZ53ixHFiniU,4537
+beam_io_utils/xjson.py,sha256=Q8WVLkdS_vz6SEkqFexp1NOB8mqQcQn1Bg5uCVJ3iSg,3068
+beam_io_utils-0.0.1.dist-info/METADATA,sha256=4ZWJyDni8sAgiTmR4mqpJeh6T3wEy2COtwh5XsdosUQ,377
+beam_io_utils-0.0.1.dist-info/RECORD,,
+beam_io_utils-0.0.1.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+beam_io_utils-0.0.1.dist-info/top_level.txt,sha256=6S0RbVKBFdH2dJ7GWuCjL1PIBWAl0ACgB4WoFAlJPCM,14
