@@ -1,0 +1,10 @@
+despike/__init__.py,sha256=fLFAB3Xr85AO2011xCLC_XYS_EFObkmV3mwTCveEYjc,35
+despike/box.py,sha256=NToTNrTDhaYyc_nDflxchWDsj4EUNBrF_WngQoMuGcA,1203
+despike/despike.py,sha256=ahGuluENwuC8pflWiKC8FzuWqqnyaFUsmX0K7YyF3-4,1861
+despike/mean.py,sha256=-d2iOk7JYgg3fDyc6xqPlOz72AKntEn46GoovFsBNHQ,468
+despike/median.py,sha256=vmQHzjaCT5llwY596pJvUqliSoBKvl6v-2U4aQoADEc,478
+despike-0.1.0.dist-info/METADATA,sha256=q4rQM9oShBPzM5xtJ7ERPEuR_7lWk4gSeeT5-MXNHYM,2893
+despike-0.1.0.dist-info/RECORD,,
+despike-0.1.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+despike-0.1.0.dist-info/pbr.json,sha256=ZGtdE-rbXjmd0Xuune3vVN-1rCwg6FNmxBw_s9YWVHo,46
+despike-0.1.0.dist-info/top_level.txt,sha256=G3SHn8we1CSnIHCgMyvhg5lFuVmLjZq2ntzgViH9cPY,8
