@@ -1,0 +1,9 @@
+README.md
+setup.py
+filerepo/__init__.py
+filerepo/__main__.py
+filerepo/repomanager.py
+tree_file_repo.egg-info/PKG-INFO
+tree_file_repo.egg-info/SOURCES.txt
+tree_file_repo.egg-info/dependency_links.txt
+tree_file_repo.egg-info/top_level.txt
