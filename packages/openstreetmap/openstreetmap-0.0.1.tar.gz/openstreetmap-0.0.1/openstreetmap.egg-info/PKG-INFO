@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: openstreetmap
+Version: 0.0.1
+Summary: OpenStreetMap coordinates
+Home-page: https://git.rtbasia.com/galen/openstreetmap
+Author: galen
+Author-email: galen.wang@rtbasia.com
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Description: Extracting OpenStreetMap coordinates by name or relation id.
+Keywords: openstreetmap
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
