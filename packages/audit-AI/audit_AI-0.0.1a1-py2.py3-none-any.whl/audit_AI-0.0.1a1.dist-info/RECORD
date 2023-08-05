@@ -1,0 +1,15 @@
+audit_AI-0.0.1a1.dist-info/LICENSE.txt,sha256=0GjPB1YXKW1iIIYNP7BaVWan0HlEyjFRT9YOlL6GeNU,1071
+audit_AI-0.0.1a1.dist-info/METADATA,sha256=R_DfqN8-LvJyn9BoS36mXNaeAHtVpN-_NCVBshc0OFw,4389
+audit_AI-0.0.1a1.dist-info/RECORD,,
+audit_AI-0.0.1a1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+audit_AI-0.0.1a1.dist-info/top_level.txt,sha256=_Yjkrz59Oe1rgl0mYbkiyU5A695OrY1lwqWsSzJE7m0,8
+auditai/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auditai/misc.py,sha256=x_-iy3BZbR3wH9Tl0SSjcBp6cwxF47bI57aEHHsFsEk,13723
+auditai/simulations.py,sha256=ww090sZwx9ZyGtq2AlY62cYUGBttxzDrnOlLm42dJag,14418
+auditai/stats.py,sha256=f-hRAecuhdO7wcpz6N1Wx7e-FJ3yX88Dd1avoiZrgDQ,7386
+auditai/version.py,sha256=I_qp8EiJVNxz6rs43CBW6VqFE3W_2SFu-SvUZjxKZE0,24
+auditai/viz.py,sha256=2mufoZ-F6Bzq5LHxyjUKk55MNYNpt7Xvzrtn6u80idg,14890
+auditai/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auditai/utils/crosstabs.py,sha256=p5y-Zs5Nv0g9duAJxrRULITLDV86Yv7Wxvb7rdf-Kg8,6156
+auditai/utils/functions.py,sha256=nRgZ9_ZcJyFInR6iy9YV9ntE1sZM8bMlLAe6bbjrJKo,1804
+auditai/utils/validate.py,sha256=4PdvOEFiSwIUppnf87vpvIcN_sxVnbhwFtpLflEeL38,4006
