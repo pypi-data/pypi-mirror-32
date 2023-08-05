@@ -1,0 +1,51 @@
+# django-steamauth
+make steam openid authorization easily
+
+### Some information you should know
+- Support 2.x and 3.x both
+- Django 1.7 or above
+
+## Dependency
+- requests
+- Django >= 1.7
+
+## Install
+```
+pip install django-steamauth
+```
+
+
+## Usage
+You should set ABSOLUTE_URL at settings.py for redirection after login. default is 'localhost'
+```python
+# settings.py
+
+ABSOLUTE_URL = '127.0.0.1:8000'
+# or
+ABSOLUTE_URL = 'yourowndomain.com'
+```
+
+You can retrive SteamID64 when a login is successful
+```python
+#views.py
+
+from steamauth import RedirectToSteamSignIn, GetSteamID64
+
+# /login
+def Login(request):
+    # if your service supports ssl, set useSSL parameters value to True
+    return RedirectToSteamSignIn('/process', useSSL=True)
+
+# /process
+def LoginProcess(request):
+    steamid = GetSteamID64(request.GET)
+    if steamid == False:
+        # login failed
+        return redirect('/login_failed')
+    else:
+        # login success
+        # do something with variable `steamid`
+        return redirect('/')
+    
+
+```
