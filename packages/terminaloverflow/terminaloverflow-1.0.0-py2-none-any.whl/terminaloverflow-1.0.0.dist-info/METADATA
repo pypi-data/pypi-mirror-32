@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: terminaloverflow
+Version: 1.0.0
+Summary: Visual terminal experience with mouse support
+Home-page: https://github.com/dazcode/terminaloverflow
+Author: dazcode
+Author-email: dazcode@gmail.com
+License: UNKNOWN
+Project-URL: Funding, https://github.com/dazcode/terminaloverflow
+Project-URL: Bug Reports, https://github.com/dazcode/terminaloverflow
+Project-URL: Say Thanks!, https://github.com/dazcode/terminaloverflow
+Project-URL: Source, https://github.com/dazcode/terminaloverflow/
+Keywords: terminal overflow
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: System :: Shells
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Description-Content-Type: text/markdown
+Requires-Dist: urwid
+Requires-Dist: simplejson
+
+# Terminal-Overflow
+
+The command line is a powerful tool, but is not very user friendly. This project will give you an edge and save you time when you need to find, put together, and run a command. Features:
+
+* Visual Experience
+* Mouse & keyboard navigation
+* Customise and link helper containers
+* Leverage multiple data sources
+
+<!--
+<a href="https://terminaloverflow.com/framework/" target="_blank">Watch the video demo here (15 seconds).</a>
+-->
+----
+## Content
+* QuickStart
+* Demo
+* Contact Info
+
+----
+## Quick Start
+
+1. **Install:**
+  ```bash
+  pip install terminaloverflow
+  ```
+2. **Run:**
+  ```bash
+  terminaloverflow
+  ```
+
+----
+## Overview Diagram
+<img  src="./docs/gcloud_terminal_overflow.png" />
+----
+## Contact
+
+David Zentner dazcode@gmail.com
+
