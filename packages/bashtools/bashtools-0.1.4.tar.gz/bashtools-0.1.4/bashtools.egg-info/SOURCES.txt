@@ -1,0 +1,7 @@
+DESCRIPTION.rst
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+bashtools/__init__.py
+bashtools/_version.py
