@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+Tool.py
+setup.py
+mytestlib/__init__.py
+mytestlib/my_lib_one.py
+mytestpro.egg-info/PKG-INFO
+mytestpro.egg-info/SOURCES.txt
+mytestpro.egg-info/dependency_links.txt
+mytestpro.egg-info/top_level.txt
