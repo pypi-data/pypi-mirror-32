@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+mit_moira.py
+setup.cfg
+setup.py
+docs/Makefile
+docs/conf.py
+docs/index.rst
+docs/make.bat
+mit_moira.egg-info/PKG-INFO
+mit_moira.egg-info/SOURCES.txt
+mit_moira.egg-info/dependency_links.txt
+mit_moira.egg-info/requires.txt
+mit_moira.egg-info/top_level.txt
