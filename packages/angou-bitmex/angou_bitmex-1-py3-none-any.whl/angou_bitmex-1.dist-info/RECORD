@@ -1,0 +1,8 @@
+angou_bitmex/__init__.py,sha256=Dt35m02jcphvZE23SCSIYigg8RETB-KWihBsRhDIHo4,44
+angou_bitmex/auth_utils.py,sha256=ND_5i2EMI5HEelmirq1u2h3hEeo6cTy4GwTDFWIZPok,446
+angou_bitmex/rest.py,sha256=7hlMl_jSlgQXdoGT5I2y48cFu60nl6Px8RVuHQaIs_c,3062
+angou_bitmex-1.dist-info/LICENSE.txt,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+angou_bitmex-1.dist-info/METADATA,sha256=hUl5nXAOTcMezU2mXP-wS3BzsVhqpUxuODJs2Sabj4Y,740
+angou_bitmex-1.dist-info/RECORD,,
+angou_bitmex-1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+angou_bitmex-1.dist-info/top_level.txt,sha256=tu2KH9gdZoC5JnHWLEj2tJivR3Y_tcjrIFhuQh4ClYY,13
