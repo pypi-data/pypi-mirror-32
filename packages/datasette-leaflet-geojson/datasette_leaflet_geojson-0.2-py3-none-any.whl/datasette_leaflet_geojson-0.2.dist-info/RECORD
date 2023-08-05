@@ -1,0 +1,9 @@
+datasette_leaflet_geojson/__init__.py,sha256=YRkIi_Jyv8kLzWDk-XtspnQ6VUxALNbIfOEJR1O_vuw,575
+datasette_leaflet_geojson/static/datasette-leaflet-geojson.js,sha256=f5o56eHJJa-kW6ZsZmNDIO1KsCfPpxGlAL0IznFUWIA,1800
+datasette_leaflet_geojson-0.2.dist-info/DESCRIPTION.rst,sha256=dCUYenuOC6Elqi-MoY5uRvPMRKWHW_MQpPja6PDOigU,108
+datasette_leaflet_geojson-0.2.dist-info/METADATA,sha256=XKkmzeQp27wXmwOZO1LFbUrcRUKhgqDZgT_9Tc0bIOc,453
+datasette_leaflet_geojson-0.2.dist-info/RECORD,,
+datasette_leaflet_geojson-0.2.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+datasette_leaflet_geojson-0.2.dist-info/entry_points.txt,sha256=VINATDLJOBZ1RDyB1q1tnsJJLdFra8m97VhE8YRxS0E,57
+datasette_leaflet_geojson-0.2.dist-info/metadata.json,sha256=IvEy2VOtU50rFX1PHW5JvFI9OA2_WbSZKbo4e0e1RPw,657
+datasette_leaflet_geojson-0.2.dist-info/top_level.txt,sha256=J2gGG5-T1XQFv7f3t58hNbEgVku2fbAyH0glODcZ4NE,26
