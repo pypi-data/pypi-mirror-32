@@ -1,0 +1,9 @@
+affine
+requests
+nco
+netCDF4
+datetime
+tqdm
+mapboxgl
+pandas
+scikit-image
