@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: indico-plugin-livesync
+Version: 2.0
+Summary: Framework for pushing Indico event data to external services
+Home-page: https://github.com/indico/indico-plugins
+Author: Indico Team
+Author-email: indico-team@cern.ch
+License: https://www.gnu.org/licenses/gpl-3.0.txt
+Platform: UNKNOWN
+Classifier: Environment :: Plugins
+Classifier: Environment :: Web Environment
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 2.7
+Requires-Dist: indico (>=2.1.dev0)
+
+UNKNOWN
+
+
