@@ -1,0 +1,31 @@
+Metadata-Version: 1.1
+Name: mpwt
+Version: 0.1a1
+Summary: Multiprocessing for Pathway-Tools
+Home-page: https://gitlab.inria.fr/abelcour/mpwt
+Author: A. Belcour
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: # Pathway-tools multiprocessing script
+        
+        Python script allowing to run pathway-Tools in multiprocess. To do this the script takes a folder containing sub-folders as input. Each sub-folder contains a genbank file.  
+        
+            Folder_input
+            ├── Folder_for_species_1
+            │   └── Genbank_species_1
+            ├── Folder_for_species_2
+            │   └── Genbank_species_2
+            ├── Folder_for_species_3
+            │   └── Genbank_species_3
+            │
+        
+        Pathway-Tools will run on each genbank file. It will create an output folder containing all the result files from the PathoLogic inference for each species.
+        
+        Used in [Pathway-Tools Multiprocessing Docker](https://github.com/ArnaudBelcour/pathway-tools-multiprocessing-docker).
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3
