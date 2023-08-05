@@ -1,0 +1,3 @@
+docopt
+Fabric<2
+requests>=2.4
