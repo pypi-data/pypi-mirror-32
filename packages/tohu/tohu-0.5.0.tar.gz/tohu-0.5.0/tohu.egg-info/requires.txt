@@ -1,0 +1,12 @@
+mako
+pandas
+sqlalchemy
+tqdm
+
+[dev]
+ipython
+jupyter
+
+[test]
+pytest
+nbval
