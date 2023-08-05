@@ -1,0 +1,16 @@
+pypartten/__init__.py,sha256=VlczPy5uLGiMjmgnVwc5ypFlOJ-9loLBxnQpeSVjTgY,162
+pypartten/mediator.py,sha256=AdxtD_ko4BHVstePi3S1S_oT1-kxhsdf6U2yPP5C3Sg,1338
+pypartten/pool.py,sha256=E7lZtux-mALDZXVEE04KlBJIbzTwGPCXD5gDH4VMnQM,5861
+pypartten/proxy.py,sha256=aEqwddb6c7RdTWWdXb20sHg-7SoE-R9GMw5GQW_ln9A,1064
+pypartten/singleton.py,sha256=XLP888ExZTjrnyaFe1TaXrhHhYwtT_-_hOI3fb8dHaw,400
+pypartten/aio/__init__.py,sha256=owdA2FMJt0BaVlLxHQTsuZqZdhM9UU6yz9cUKHJTxnw,40
+pypartten/aio/actor.py,sha256=bi_FUklbC56SDh8zhuYlGfeVdHCueWdWKwp2jBWmqOs,2846
+pypartten/aio/pubsub.py,sha256=JviYcubcBKlAv5d14VPTcv4Ww8JQmg1T-Ct6WorI9Gk,1190
+pypartten-0.0.1.data/data/requirements/requirements.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pypartten-0.0.1.data/data/requirements/requirements_dev.txt,sha256=gypJ6CyABVlsIavNpE4GHjlWX1k5Zp1_el6ahqEoFZw,66
+pypartten-0.0.1.dist-info/DESCRIPTION.rst,sha256=sR5zbAGkDuYgPqw7ii6cKKgZdChrCy3wrFDejp9yN-0,758
+pypartten-0.0.1.dist-info/METADATA,sha256=pUbOiXph8R1avKdvq9dQhqd8D94JbyXcnk1PYvkmPis,1656
+pypartten-0.0.1.dist-info/RECORD,,
+pypartten-0.0.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+pypartten-0.0.1.dist-info/metadata.json,sha256=Eb4rhcwSplsCBn9TfatoKJQio8-6ibe5xPl5VGJg71Y,865
+pypartten-0.0.1.dist-info/top_level.txt,sha256=eIoCfOKUUQ14obNAqC3s6bl_f-aHhfJ8YIGLGVWevUU,10
