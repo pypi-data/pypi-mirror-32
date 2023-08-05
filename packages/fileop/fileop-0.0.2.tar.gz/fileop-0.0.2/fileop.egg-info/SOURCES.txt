@@ -1,0 +1,7 @@
+README.md
+setup.py
+fileop/__init__.py
+fileop.egg-info/PKG-INFO
+fileop.egg-info/SOURCES.txt
+fileop.egg-info/dependency_links.txt
+fileop.egg-info/top_level.txt
