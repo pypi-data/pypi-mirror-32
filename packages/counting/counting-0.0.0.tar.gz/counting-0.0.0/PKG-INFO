@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: counting
+Version: 0.0.0
+Summary: Counting
+Home-page: https://github.com/blester125/counting
+Author: blester125
+Author-email: blester125@gmail.com
+License: MIT
+Download-URL: https://github.com/blester125/counting/archive/0.0.0.tar.gz
+Description: # Counting
+        
+        <!---[<img src="https://travis-ci.com/blester125/counting.svg?branch=master" alt="Build Status">](https://travis-ci.com/blester125/counting)--->
+        
+        Probabilistic counting for big data.
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: test

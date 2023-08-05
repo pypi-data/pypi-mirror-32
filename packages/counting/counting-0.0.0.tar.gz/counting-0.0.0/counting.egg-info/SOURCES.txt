@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+counting/__init__.py
+counting.egg-info/PKG-INFO
+counting.egg-info/SOURCES.txt
+counting.egg-info/dependency_links.txt
+counting.egg-info/requires.txt
+counting.egg-info/top_level.txt
