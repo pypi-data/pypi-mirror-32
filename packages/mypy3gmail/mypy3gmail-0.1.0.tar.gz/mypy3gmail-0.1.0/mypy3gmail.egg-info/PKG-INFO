@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: mypy3gmail
+Version: 0.1.0
+Summary: Lightweight Gmail SDK using only built-in packages
+Home-page: https://github.com/kenwuuu/gmail
+Author: Kenneth Wu
+Author-email: admin@kennethwu.net
+License: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN
