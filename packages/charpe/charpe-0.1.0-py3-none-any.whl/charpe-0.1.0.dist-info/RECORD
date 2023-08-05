@@ -1,0 +1,12 @@
+charpe/handler.py,sha256=0JTkc08lNuOEPpSsCmbB2fLJhByOBsXx9gZhdqUfYy0,1123
+charpe/loop.py,sha256=Nw9rZJC86PXL7hgzyuBNzJggAkflP4SgE4HxNwG2XyE,1200
+charpe/mail.py,sha256=q5qoLNMabAZjGyTFOakyvFd0F3Bm-TtPuRl7pCkYmAM,15625
+charpe/main.py,sha256=IpYu06YfdzUjIARZhayMo9eNLfDn-Oh2bu_Nsp6L0VY,638
+charpe/settings.py,sha256=sICDcIGt9ZUaxpL3wsaDE6Qw1yxdFIeeorVb79Ff9a0,623
+charpe/template_filters.py,sha256=0kB3xVZN0ZYGNn6ZKD2wzZqL67OoMA6dAW6svp_IkWI,543
+charpe/templates/server-error.html,sha256=mf6RPT8OsuYjhlHLGbS_mKJKiA58TSIVpNg5ZQE-8pk,692
+charpe-0.1.0.dist-info/METADATA,sha256=N39xSAn_IqFoYCdIwI22l7qb9kW30YvEyxf42WgCtEg,1309
+charpe-0.1.0.dist-info/RECORD,,
+charpe-0.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+charpe-0.1.0.dist-info/entry_points.txt,sha256=rti5xDaL8ZvF775U6UQbMRp34pIkFZft-R6bnr-B99s,46
+charpe-0.1.0.dist-info/top_level.txt,sha256=Iyx-tyAq5KKBFlSyESyknqkKGT1W9erkKGYHqD6mYIs,7
