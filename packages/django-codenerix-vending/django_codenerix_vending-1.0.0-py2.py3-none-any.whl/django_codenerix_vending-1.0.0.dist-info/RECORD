@@ -1,0 +1,16 @@
+codenerix_vending/__init__.py,sha256=oLlh_e8MH8Pa8KSyL5EmsfOwlOc4BJYMuCLkcaD-igw,148
+codenerix_vending/admin.py,sha256=5qcdIZzJF4xlTagkpgxequNNDouCowQQEA4mlDEa4_0,761
+codenerix_vending/apps.py,sha256=IxNoIaJRMAMDPVTrDUt9_YmCG7gPRaOrMg24TwPRmdk,846
+codenerix_vending/forms.py,sha256=fD4fE-mq0kFnK2CblBfK8-heS2jmixSJSa7SZCaehBo,1852
+codenerix_vending/helpers.py,sha256=DLM1qTRdvrbB1hYKVAUARnQ-t8SPEDK0cqEdIYjjsAc,14180
+codenerix_vending/models.py,sha256=3OvwBB5CiEnop5kusQ-3czU3foS5fj6In95eZkiNloI,1081
+codenerix_vending/urls.py,sha256=8RBs20K7da1213Nc1s8d7TqCWpDWVJS_hSO9wEQkDN0,5033
+codenerix_vending/views.py,sha256=Lz67x5iJVENG_8u9KaovkXogVcoC7K4pUTvUH377y9k,4221
+codenerix_vending/static/codenerix_vending/app.js,sha256=aDGWcw1bQiuVj8KzRQqwg1xM88Wm0sLkR0QObjVg4uQ,210
+codenerix_vending/static/codenerix_vending/controllers.js,sha256=xAYsvL6N_qAwn2of0UYtL-jy8ew91PGrmrtJtFuQTE8,3419
+django_codenerix_vending-1.0.0.dist-info/DESCRIPTION.rst,sha256=sOGdzE4lnAt1d94yZbEqwST66fr2fdrrm713KzlTEl0,1444
+django_codenerix_vending-1.0.0.dist-info/METADATA,sha256=WmEPfbtHOyDnozqOq9iaJwGFW_2aPAFpgAvuG-b4tGY,3003
+django_codenerix_vending-1.0.0.dist-info/RECORD,,
+django_codenerix_vending-1.0.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+django_codenerix_vending-1.0.0.dist-info/metadata.json,sha256=LyL0AN_CC--CQGfG6CX4tQNwVlPqL9DxZhuo3wzzqHo,1631
+django_codenerix_vending-1.0.0.dist-info/top_level.txt,sha256=mluuTBcnEDUTkIF4QUf89HWUwusVAQz3qR3VqRCA9dg,18
