@@ -1,0 +1,4 @@
+[console_scripts]
+td_debug = td_install.__main__:debug
+td_install = td_install.__main__:main
+
