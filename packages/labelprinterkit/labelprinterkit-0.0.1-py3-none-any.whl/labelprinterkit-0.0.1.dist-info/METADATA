@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: labelprinterkit
+Version: 0.0.1
+Summary: A library for creating and printing labels
+Home-page: https://git.scc.kit.edu/scc-net/labelprinterkit
+Author: Adrian Tschira
+Author-email: nota@notafile.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pillow
+Requires-Dist: pyusb
+Requires-Dist: packbits
+
+UNKNOWN
+
+
