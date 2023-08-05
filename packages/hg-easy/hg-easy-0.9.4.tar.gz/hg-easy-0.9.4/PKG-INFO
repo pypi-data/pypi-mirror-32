@@ -1,0 +1,14 @@
+Metadata-Version: 1.0
+Name: hg-easy
+Version: 0.9.4
+Summary: A collection of tools to make Mercurial (even more) user friendly
+Home-page: http://www.github.com/sebastien/easyhg
+Author: Sebastien Pierre
+Author-email: sebastien.pierre@gmail.com
+License: Revised BSD License
+Description: Mercurial-Easy notably provides Easycommit and Easymerge which make commiting
+        and merging in Mercurial a real pleasure. Mercurial-Easy uses the amazing
+        URWID command-line GUI library, which is embedded in this package.
+        
+Keywords: Mercurial,dvcs,scm,tool,interface,gui,command-line
+Platform: UNKNOWN
