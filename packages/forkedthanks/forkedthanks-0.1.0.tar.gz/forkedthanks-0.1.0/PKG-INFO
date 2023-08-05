@@ -1,0 +1,34 @@
+Metadata-Version: 1.2
+Name: forkedthanks
+Version: 0.1.0
+Summary: Thanks with a ⭐️ the projects you forked
+Home-page: https://github.com/etienne-napoleone/forkedthanks
+Author: Etienne Napoleone
+Author-email: etienne_napo@hotmail.com
+License: MIT License
+Project-URL: Source, https://github.com/etienne-napoleone/forkedthanks
+Project-URL: Tracker, https://github.com/etienne-napoleone/forkedthanks/issues
+Description: # forkedthanks
+        
+        forkedthanks let you star in batch all the projects you forked.
+        
+        ## Installation
+        
+        ```bash
+        pip install --user forkedthanks
+        ```
+        
+Keywords: forkedthanks
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Environment :: Console
+Classifier: Topic :: Software Development :: Version Control :: Git
+Classifier: Topic :: Utilities
+Requires-Python: >=3.5

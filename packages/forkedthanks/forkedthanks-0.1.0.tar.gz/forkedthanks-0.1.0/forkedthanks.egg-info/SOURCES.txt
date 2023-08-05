@@ -1,0 +1,11 @@
+README.md
+setup.py
+forkedthanks/__init__.py
+forkedthanks/forkedthanks.py
+forkedthanks/text.py
+forkedthanks.egg-info/PKG-INFO
+forkedthanks.egg-info/SOURCES.txt
+forkedthanks.egg-info/dependency_links.txt
+forkedthanks.egg-info/entry_points.txt
+forkedthanks.egg-info/requires.txt
+forkedthanks.egg-info/top_level.txt
