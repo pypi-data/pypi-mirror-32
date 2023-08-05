@@ -1,0 +1,53 @@
+{% extends "bee_django_mission/base.html" %}
+{% load bee_django_mission_filter %}
+
+{% block content %}
+    {% include 'bee_django_mission/logo.html' %}
+    {% include 'bee_django_mission/nav.html' %}
+    <div class="btn-group" role="group" style="margin-top: 20px;">
+        <a class="btn btn-success active">周任务</a>
+        <a class="btn btn-default"
+           href="{% url 'bee_django_mission:user_line_unlimited' user_id=user_stage.user_line.user.id %}">里程</a>
+    </div>
+
+    <div class="text-center"><h3>
+        {{ user_stage.get_name }}
+    </h3>
+    </div>
+    <h3>
+        {% if is_finished %}
+            已于{{ is_finished }}完成
+        {% elif can_finish %}
+            <a href="">完成该任务</a>
+        {% else %}
+            还未完成，继续努力
+        {% endif %}</h3>
+
+    {% for user_mission in user_mission_list %}
+        <div>
+            {{ user_mission.mission.mission_type.name }} -
+            {{ user_mission.get_name}}-
+            {% if user_mission.get_user_mission_progress == 1 %} 已完成
+            {% else %}
+                未完成
+            {% endif %}
+            <a href="{{ user_mission.mission.mission_type.link_url }}">{{ user_mission.mission.mission_type.link_name }}</a>
+        </div>
+    {% endfor %}
+
+    {% include 'bee_django_mission/paginator.html' %}
+{% endblock %}
+{% block scripts %}
+    <script>
+        function click_del(_this) {
+            if (!confirm('确认要执行这个操作？')) {
+                return false;
+            }
+            var url = $(_this).attr('data-confirm');
+            $.post(url).done(function (data) {
+                alert('删除成功!');
+                location.reload();
+            });
+        }
+    </script>
+{% endblock %}
