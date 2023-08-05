@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+validatedoc/__init__.py
+validatedoc/validatedoc.py
+validatedoc.egg-info/PKG-INFO
+validatedoc.egg-info/SOURCES.txt
+validatedoc.egg-info/dependency_links.txt
+validatedoc.egg-info/entry_points.txt
+validatedoc.egg-info/top_level.txt
