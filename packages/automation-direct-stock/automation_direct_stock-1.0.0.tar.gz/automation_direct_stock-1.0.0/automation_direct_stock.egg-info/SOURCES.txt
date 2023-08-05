@@ -1,0 +1,11 @@
+README.md
+setup.py
+automation_direct_stock/__init__.py
+automation_direct_stock/__main__.py
+automation_direct_stock/checker.py
+automation_direct_stock.egg-info/PKG-INFO
+automation_direct_stock.egg-info/SOURCES.txt
+automation_direct_stock.egg-info/dependency_links.txt
+automation_direct_stock.egg-info/requires.txt
+automation_direct_stock.egg-info/top_level.txt
+bin/adstock
