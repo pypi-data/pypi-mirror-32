@@ -1,0 +1,19 @@
+Metadata-Version: 2.0
+Name: prostagma
+Version: 0.1
+Summary: Hyperparameters Tuning Library
+Home-page: https://github.com/Skopos-team/Prostagma
+Author: Skopos-team
+Author-email: skopos.library@gmail.com
+License: Apache2
+Download-URL: https://github.com/Skopos-team/Prostagma/archive/0.1.tar.gz
+Keywords: testing,logging,example
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+
+UNKNOWN
+
+
