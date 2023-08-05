@@ -1,0 +1,2 @@
+include *.md
+graft django_fido/locale/cs
