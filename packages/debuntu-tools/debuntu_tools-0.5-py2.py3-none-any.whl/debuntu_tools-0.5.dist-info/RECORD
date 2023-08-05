@@ -1,0 +1,12 @@
+debuntu_tools/__init__.py,sha256=wTDlCblVLISI86EFGDvl2C17eh3XkekxlVrpQdPn_F0,1207
+debuntu_tools/kernel_manager.py,sha256=XMaHlrLMbnc-GEdt9E-szh-Rcx_Zm_E8kSZCMo_LxrM,28147
+debuntu_tools/nodejs_installer.py,sha256=yVJBeiUynyEeRwZUwFwsrOLndwomsEg8w7iSkzZCGus,10896
+debuntu_tools/remote_reboot.py,sha256=soVFoEs5-WRWPL4no5Ttt-a7X5L1Hk-NHbbAwYK89fg,7583
+debuntu_tools/remote_unlock.py,sha256=8v_80II-DrN-9itRxh2KyO3NuD1GaV8lYhpB1YrssL4,46614
+debuntu_tools-0.5.dist-info/DESCRIPTION.rst,sha256=1yLSsRpV8ZRqOspVwjBcyPyDHa4BnmvQZt_15JERhTE,16647
+debuntu_tools-0.5.dist-info/METADATA,sha256=D0srROxRYAAr3k2_JO5MN1rXtTseAVdMPUUUVDVAgE4,19278
+debuntu_tools-0.5.dist-info/RECORD,,
+debuntu_tools-0.5.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+debuntu_tools-0.5.dist-info/entry_points.txt,sha256=TC0fwi8GzAzNz_S22rvqFbI3yLLva1a0UzK9Sab5Auw,253
+debuntu_tools-0.5.dist-info/metadata.json,sha256=jZVJ8_5P3wpVdQw42QsWUMyKPOIYImtmd4BIGQb-lyI,2526
+debuntu_tools-0.5.dist-info/top_level.txt,sha256=8qwwqQ3S49pZ4qU0qgckqJnQAjAu5KIwrDGuRnv5xDQ,14
