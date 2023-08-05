@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: bacli
+Version: 0.1
+Summary: Born Again Command Line Interface.
+Home-page: https://github.com/JoeyDP/bacli
+Author: Joey De Pauw
+Author-email: joeydepauw@gmail.com
+License: UNKNOWN
+Description: # bacli
+        Born Again Command Line Interface.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
