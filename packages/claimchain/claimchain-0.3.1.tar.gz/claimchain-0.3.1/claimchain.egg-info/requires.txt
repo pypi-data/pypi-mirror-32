@@ -1,0 +1,9 @@
+six
+petlib
+pyyaml
+attrs
+base58
+statistics
+defaultcontext
+hippiehug>=0.1.3
+profiled
