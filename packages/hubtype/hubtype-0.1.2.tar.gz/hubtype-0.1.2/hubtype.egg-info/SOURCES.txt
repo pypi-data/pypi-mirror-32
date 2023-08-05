@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+hubtype/__init__.py
+hubtype/ht.py
+hubtype.egg-info/PKG-INFO
+hubtype.egg-info/SOURCES.txt
+hubtype.egg-info/dependency_links.txt
+hubtype.egg-info/entry_points.txt
+hubtype.egg-info/requires.txt
+hubtype.egg-info/top_level.txt

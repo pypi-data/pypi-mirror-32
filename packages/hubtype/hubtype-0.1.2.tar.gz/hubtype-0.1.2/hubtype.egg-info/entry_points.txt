@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        ht=hubtype.ht:ht
+    

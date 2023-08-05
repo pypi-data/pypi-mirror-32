@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: hubtype
+Version: 0.1.2
+Summary: Cli tool to automate common tasks with Hubtype Bots
+Home-page: http://www.hubtype.com
+Author: Hubtype
+Author-email: info@hubtype.com
+License: UNKNOWN
+Description: # hubtype-cli
+Platform: UNKNOWN

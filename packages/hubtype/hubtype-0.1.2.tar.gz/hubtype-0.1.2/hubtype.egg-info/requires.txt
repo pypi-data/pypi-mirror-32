@@ -1,0 +1,5 @@
+click==6.6
+click-log==0.1.4
+sh==1.11
+requests==2.18.4
+inquirer==2.2.0
