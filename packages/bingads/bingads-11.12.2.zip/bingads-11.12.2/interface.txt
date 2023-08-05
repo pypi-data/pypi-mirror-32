@@ -1,0 +1,912 @@
+
+Prefixes:
+     xsd: http://www.w3.org/2001/XMLSchema
+     ns0: http://schemas.microsoft.com/2003/10/Serialization/
+     ns1: https://bingads.microsoft.com/CampaignManagement/v12
+     ns2: http://schemas.microsoft.com/2003/10/Serialization/Arrays
+     ns3: http://schemas.datacontract.org/2004/07/System.Collections.Generic
+     ns4: http://schemas.datacontract.org/2004/07/System
+     ns5: https://adapi.microsoft.com
+
+Global elements:
+     ns3:ArrayOfKeyValuePairOfstringstring(ns3:ArrayOfKeyValuePairOfstringstring)
+     ns3:KeyValuePairOfstringstring(ns3:KeyValuePairOfstringstring)
+     ns4:ArrayOfNullableOflong(ns4:ArrayOfNullableOflong)
+     ns2:ArrayOfKeyValueOfstringstring(ns2:ArrayOfKeyValueOfstringstring)
+     ns2:ArrayOflong(ns2:ArrayOflong)
+     ns2:ArrayOfstring(ns2:ArrayOfstring)
+     ns0:QName(xsd:QName)
+     ns0:anyType(None)
+     ns0:anyURI(xsd:anyURI)
+     ns0:base64Binary(xsd:base64Binary)
+     ns0:boolean(xsd:boolean)
+     ns0:byte(xsd:byte)
+     ns0:char(ns0:char)
+     ns0:dateTime(xsd:dateTime)
+     ns0:decimal(xsd:decimal)
+     ns0:double(xsd:double)
+     ns0:duration(ns0:duration)
+     ns0:float(xsd:float)
+     ns0:guid(ns0:guid)
+     ns0:int(xsd:int)
+     ns0:long(xsd:long)
+     ns0:short(xsd:short)
+     ns0:string(xsd:string)
+     ns0:unsignedByte(xsd:unsignedByte)
+     ns0:unsignedInt(xsd:unsignedInt)
+     ns0:unsignedLong(xsd:unsignedLong)
+     ns0:unsignedShort(xsd:unsignedShort)
+     
+     ns5:AdApiError(ns5:AdApiError)
+     ns5:AdApiFaultDetail(ns5:AdApiFaultDetail)
+     ns5:ApplicationFault(ns5:ApplicationFault)
+     ns5:ArrayOfAdApiError(ns5:ArrayOfAdApiError)
+     ns1:AccountMigrationStatusesInfo(ns1:AccountMigrationStatusesInfo)
+     ns1:AccountProperty(ns1:AccountProperty)
+     ns1:AccountPropertyName(ns1:AccountPropertyName)
+     ns1:Ad(ns1:Ad)
+     ns1:AdEditorialStatus(ns1:AdEditorialStatus)
+     ns1:AdExtension(ns1:AdExtension)
+     ns1:AdExtensionAssociation(ns1:AdExtensionAssociation)
+     ns1:AdExtensionAssociationCollection(ns1:AdExtensionAssociationCollection)
+     ns1:AdExtensionEditorialReason(ns1:AdExtensionEditorialReason)
+     ns1:AdExtensionEditorialReasonCollection(ns1:AdExtensionEditorialReasonCollection)
+     ns1:AdExtensionEditorialStatus(ns1:AdExtensionEditorialStatus)
+     ns1:AdExtensionIdToEntityIdAssociation(ns1:AdExtensionIdToEntityIdAssociation)
+     ns1:AdExtensionIdentity(ns1:AdExtensionIdentity)
+     ns1:AdExtensionStatus(ns1:AdExtensionStatus)
+     ns1:AdExtensionsTypeFilter(ns1:Anonymous[])
+     ns1:AdGroup(ns1:AdGroup)
+     ns1:AdGroupCriterion(ns1:AdGroupCriterion)
+     ns1:AdGroupCriterionAction(ns1:AdGroupCriterionAction)
+     ns1:AdGroupCriterionEditorialStatus(ns1:AdGroupCriterionEditorialStatus)
+     ns1:AdGroupCriterionStatus(ns1:AdGroupCriterionStatus)
+     ns1:AdGroupCriterionType(ns1:Anonymous[])
+     ns1:AdGroupNegativeSites(ns1:AdGroupNegativeSites)
+     ns1:AdGroupPrivacyStatus(ns1:AdGroupPrivacyStatus)
+     ns1:AdGroupStatus(ns1:AdGroupStatus)
+     ns1:AdRotation(ns1:AdRotation)
+     ns1:AdRotationType(ns1:AdRotationType)
+     ns1:AdStatus(ns1:AdStatus)
+     ns1:AdType(ns1:AdType)
+     ns1:AddAdExtensionsRequest(AccountId: xsd:long, AdExtensions: ns1:ArrayOfAdExtension)
+     ns1:AddAdExtensionsResponse(AdExtensionIdentities: ns1:ArrayOfAdExtensionIdentity, NestedPartialErrors: ns1:ArrayOfBatchErrorCollection)
+     ns1:AddAdGroupCriterionsRequest(AdGroupCriterions: ns1:ArrayOfAdGroupCriterion, CriterionType: ns1:Anonymous[])
+     ns1:AddAdGroupCriterionsResponse(AdGroupCriterionIds: ns4:ArrayOfNullableOflong, IsMigrated: xsd:boolean, NestedPartialErrors: ns1:ArrayOfBatchErrorCollection)
+     ns1:AddAdGroupsRequest(CampaignId: xsd:long, AdGroups: ns1:ArrayOfAdGroup, ReturnInheritedBidStrategyTypes: xsd:boolean)
+     ns1:AddAdGroupsResponse(AdGroupIds: ns4:ArrayOfNullableOflong, InheritedBidStrategyTypes: ns2:ArrayOfstring, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:AddAdsRequest(AdGroupId: xsd:long, Ads: ns1:ArrayOfAd)
+     ns1:AddAdsResponse(AdIds: ns4:ArrayOfNullableOflong, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:AddAudiencesRequest(Audiences: ns1:ArrayOfAudience)
+     ns1:AddAudiencesResponse(AudienceIds: ns4:ArrayOfNullableOflong, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:AddBudgetsRequest(Budgets: ns1:ArrayOfBudget)
+     ns1:AddBudgetsResponse(BudgetIds: ns4:ArrayOfNullableOflong, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:AddCampaignCriterionsRequest(CampaignCriterions: ns1:ArrayOfCampaignCriterion, CriterionType: ns1:Anonymous[])
+     ns1:AddCampaignCriterionsResponse(CampaignCriterionIds: ns4:ArrayOfNullableOflong, IsMigrated: xsd:boolean, NestedPartialErrors: ns1:ArrayOfBatchErrorCollection)
+     ns1:AddCampaignsRequest(AccountId: xsd:long, Campaigns: ns1:ArrayOfCampaign)
+     ns1:AddCampaignsResponse(CampaignIds: ns4:ArrayOfNullableOflong, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:AddConversionGoalsRequest(ConversionGoals: ns1:ArrayOfConversionGoal)
+     ns1:AddConversionGoalsResponse(ConversionGoalIds: ns4:ArrayOfNullableOflong, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:AddKeywordsRequest(AdGroupId: xsd:long, Keywords: ns1:ArrayOfKeyword, ReturnInheritedBidStrategyTypes: xsd:boolean)
+     ns1:AddKeywordsResponse(InheritedBidStrategyTypes: ns2:ArrayOfstring, KeywordIds: ns4:ArrayOfNullableOflong, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:AddLabelsRequest(Labels: ns1:ArrayOfLabel)
+     ns1:AddLabelsResponse(LabelIds: ns4:ArrayOfNullableOflong, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:AddListItemsToSharedListRequest(ListItems: ns1:ArrayOfSharedListItem, SharedList: ns1:SharedList)
+     ns1:AddListItemsToSharedListResponse(ListItemIds: ns2:ArrayOflong, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:AddMediaRequest(AccountId: xsd:long, Media: ns1:ArrayOfMedia)
+     ns1:AddMediaResponse(MediaIds: ns2:ArrayOflong)
+     ns1:AddNegativeKeywordsToEntitiesRequest(EntityNegativeKeywords: ns1:ArrayOfEntityNegativeKeyword)
+     ns1:AddNegativeKeywordsToEntitiesResponse(NegativeKeywordIds: ns1:ArrayOfIdCollection, NestedPartialErrors: ns1:ArrayOfBatchErrorCollection)
+     ns1:AddSharedEntityRequest(SharedEntity: ns1:SharedEntity, ListItems: ns1:ArrayOfSharedListItem)
+     ns1:AddSharedEntityResponse(ListItemIds: ns2:ArrayOflong, PartialErrors: ns1:ArrayOfBatchError, SharedEntityId: xsd:long)
+     ns1:AddUetTagsRequest(UetTags: ns1:ArrayOfUetTag)
+     ns1:AddUetTagsResponse(UetTags: ns1:ArrayOfUetTag, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:Address(ns1:Address)
+     ns1:AgeCriterion(ns1:AgeCriterion)
+     ns1:AgeRange(ns1:AgeRange)
+     ns1:ApiFaultDetail(ns1:ApiFaultDetail)
+     ns1:AppAdExtension(ns1:AppAdExtension)
+     ns1:AppInstallAd(ns1:AppInstallAd)
+     ns1:AppInstallGoal(ns1:AppInstallGoal)
+     ns1:AppUrl(ns1:AppUrl)
+     ns1:AppealEditorialRejectionsRequest(EntityIdToParentIdAssociations: ns1:ArrayOfEntityIdToParentIdAssociation, EntityType: ns1:EntityType, JustificationText: xsd:string)
+     ns1:AppealEditorialRejectionsResponse(PartialErrors: ns1:ArrayOfBatchError)
+     ns1:AppealStatus(ns1:AppealStatus)
+     ns1:ApplicationToken(xsd:string)
+     ns1:ApplyOfflineConversionsRequest(OfflineConversions: ns1:ArrayOfOfflineConversion)
+     ns1:ApplyOfflineConversionsResponse(PartialErrors: ns1:ArrayOfBatchError)
+     ns1:ApplyProductPartitionActionsRequest(CriterionActions: ns1:ArrayOfAdGroupCriterionAction)
+     ns1:ApplyProductPartitionActionsResponse(AdGroupCriterionIds: ns4:ArrayOfNullableOflong, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:ArrayOfAccountMigrationStatusesInfo(ns1:ArrayOfAccountMigrationStatusesInfo)
+     ns1:ArrayOfAccountProperty(ns1:ArrayOfAccountProperty)
+     ns1:ArrayOfAccountPropertyName(ns1:ArrayOfAccountPropertyName)
+     ns1:ArrayOfAd(ns1:ArrayOfAd)
+     ns1:ArrayOfAdExtension(ns1:ArrayOfAdExtension)
+     ns1:ArrayOfAdExtensionAssociation(ns1:ArrayOfAdExtensionAssociation)
+     ns1:ArrayOfAdExtensionAssociationCollection(ns1:ArrayOfAdExtensionAssociationCollection)
+     ns1:ArrayOfAdExtensionEditorialReason(ns1:ArrayOfAdExtensionEditorialReason)
+     ns1:ArrayOfAdExtensionEditorialReasonCollection(ns1:ArrayOfAdExtensionEditorialReasonCollection)
+     ns1:ArrayOfAdExtensionIdToEntityIdAssociation(ns1:ArrayOfAdExtensionIdToEntityIdAssociation)
+     ns1:ArrayOfAdExtensionIdentity(ns1:ArrayOfAdExtensionIdentity)
+     ns1:ArrayOfAdGroup(ns1:ArrayOfAdGroup)
+     ns1:ArrayOfAdGroupCriterion(ns1:ArrayOfAdGroupCriterion)
+     ns1:ArrayOfAdGroupCriterionAction(ns1:ArrayOfAdGroupCriterionAction)
+     ns1:ArrayOfAdGroupNegativeSites(ns1:ArrayOfAdGroupNegativeSites)
+     ns1:ArrayOfAdType(ns1:ArrayOfAdType)
+     ns1:ArrayOfAppUrl(ns1:ArrayOfAppUrl)
+     ns1:ArrayOfArrayOfMediaAssociation(ns1:ArrayOfArrayOfMediaAssociation)
+     ns1:ArrayOfAudience(ns1:ArrayOfAudience)
+     ns1:ArrayOfBMCStore(ns1:ArrayOfBMCStore)
+     ns1:ArrayOfBatchError(ns1:ArrayOfBatchError)
+     ns1:ArrayOfBatchErrorCollection(ns1:ArrayOfBatchErrorCollection)
+     ns1:ArrayOfBudget(ns1:ArrayOfBudget)
+     ns1:ArrayOfCampaign(ns1:ArrayOfCampaign)
+     ns1:ArrayOfCampaignCriterion(ns1:ArrayOfCampaignCriterion)
+     ns1:ArrayOfCampaignNegativeSites(ns1:ArrayOfCampaignNegativeSites)
+     ns1:ArrayOfCampaignSize(ns1:ArrayOfCampaignSize)
+     ns1:ArrayOfConversionGoal(ns1:ArrayOfConversionGoal)
+     ns1:ArrayOfCustomParameter(ns1:ArrayOfCustomParameter)
+     ns1:ArrayOfDayTime(ns1:ArrayOfDayTime)
+     ns1:ArrayOfEditorialError(ns1:ArrayOfEditorialError)
+     ns1:ArrayOfEditorialReason(ns1:ArrayOfEditorialReason)
+     ns1:ArrayOfEditorialReasonCollection(ns1:ArrayOfEditorialReasonCollection)
+     ns1:ArrayOfEntityIdToParentIdAssociation(ns1:ArrayOfEntityIdToParentIdAssociation)
+     ns1:ArrayOfEntityNegativeKeyword(ns1:ArrayOfEntityNegativeKeyword)
+     ns1:ArrayOfIdCollection(ns1:ArrayOfIdCollection)
+     ns1:ArrayOfKeyword(ns1:ArrayOfKeyword)
+     ns1:ArrayOfLabel(ns1:ArrayOfLabel)
+     ns1:ArrayOfLabelAssociation(ns1:ArrayOfLabelAssociation)
+     ns1:ArrayOfMedia(ns1:ArrayOfMedia)
+     ns1:ArrayOfMediaAssociation(ns1:ArrayOfMediaAssociation)
+     ns1:ArrayOfMediaMetaData(ns1:ArrayOfMediaMetaData)
+     ns1:ArrayOfMediaRepresentation(ns1:ArrayOfMediaRepresentation)
+     ns1:ArrayOfMigrationStatusInfo(ns1:ArrayOfMigrationStatusInfo)
+     ns1:ArrayOfNegativeKeyword(ns1:ArrayOfNegativeKeyword)
+     ns1:ArrayOfOfflineConversion(ns1:ArrayOfOfflineConversion)
+     ns1:ArrayOfOperationError(ns1:ArrayOfOperationError)
+     ns1:ArrayOfPriceTableRow(ns1:ArrayOfPriceTableRow)
+     ns1:ArrayOfProductCondition(ns1:ArrayOfProductCondition)
+     ns1:ArrayOfRuleItem(ns1:ArrayOfRuleItem)
+     ns1:ArrayOfRuleItemGroup(ns1:ArrayOfRuleItemGroup)
+     ns1:ArrayOfSetting(ns1:ArrayOfSetting)
+     ns1:ArrayOfSharedEntity(ns1:ArrayOfSharedEntity)
+     ns1:ArrayOfSharedEntityAssociation(ns1:ArrayOfSharedEntityAssociation)
+     ns1:ArrayOfSharedListItem(ns1:ArrayOfSharedListItem)
+     ns1:ArrayOfTargetSettingDetail(ns1:ArrayOfTargetSettingDetail)
+     ns1:ArrayOfUetTag(ns1:ArrayOfUetTag)
+     ns1:ArrayOfWebpageCondition(ns1:ArrayOfWebpageCondition)
+     ns1:AssociationType(ns1:AssociationType)
+     ns1:Audience(ns1:Audience)
+     ns1:AudienceCriterion(ns1:AudienceCriterion)
+     ns1:AudienceType(ns1:Anonymous[])
+     ns1:AuthenticationToken(xsd:string)
+     ns1:BMCStore(ns1:BMCStore)
+     ns1:BMCStoreSubType(ns1:BMCStoreSubType)
+     ns1:BatchError(ns1:BatchError)
+     ns1:BatchErrorCollection(ns1:BatchErrorCollection)
+     ns1:Bid(ns1:Bid)
+     ns1:BidMultiplier(ns1:BidMultiplier)
+     ns1:BidOption(ns1:BidOption)
+     ns1:BiddableAdGroupCriterion(ns1:BiddableAdGroupCriterion)
+     ns1:BiddableCampaignCriterion(ns1:BiddableCampaignCriterion)
+     ns1:BiddingScheme(ns1:BiddingScheme)
+     ns1:Budget(ns1:Budget)
+     ns1:BudgetLimitType(ns1:BudgetLimitType)
+     ns1:BusinessGeoCodeStatus(ns1:BusinessGeoCodeStatus)
+     ns1:CallAdExtension(ns1:CallAdExtension)
+     ns1:CallToAction(ns1:CallToAction)
+     ns1:CalloutAdExtension(ns1:CalloutAdExtension)
+     ns1:Campaign(ns1:Campaign)
+     ns1:CampaignCriterion(ns1:CampaignCriterion)
+     ns1:CampaignCriterionStatus(ns1:CampaignCriterionStatus)
+     ns1:CampaignCriterionType(ns1:Anonymous[])
+     ns1:CampaignNegativeSites(ns1:CampaignNegativeSites)
+     ns1:CampaignSize(ns1:CampaignSize)
+     ns1:CampaignStatus(ns1:CampaignStatus)
+     ns1:CampaignType(ns1:Anonymous[])
+     ns1:CoOpSetting(ns1:CoOpSetting)
+     ns1:ConversionGoal(ns1:ConversionGoal)
+     ns1:ConversionGoalCountType(ns1:ConversionGoalCountType)
+     ns1:ConversionGoalRevenue(ns1:ConversionGoalRevenue)
+     ns1:ConversionGoalRevenueType(ns1:ConversionGoalRevenueType)
+     ns1:ConversionGoalStatus(ns1:ConversionGoalStatus)
+     ns1:ConversionGoalTrackingStatus(ns1:ConversionGoalTrackingStatus)
+     ns1:ConversionGoalType(ns1:Anonymous[])
+     ns1:Criterion(ns1:Criterion)
+     ns1:CriterionBid(ns1:CriterionBid)
+     ns1:CriterionTypeGroup(ns1:CriterionTypeGroup)
+     ns1:CustomAudience(ns1:CustomAudience)
+     ns1:CustomEventsRule(ns1:CustomEventsRule)
+     ns1:CustomParameter(ns1:CustomParameter)
+     ns1:CustomParameters(ns1:CustomParameters)
+     ns1:CustomerAccountId(xsd:string)
+     ns1:CustomerId(xsd:string)
+     ns1:Date(ns1:Date)
+     ns1:Day(ns1:Day)
+     ns1:DayTime(ns1:DayTime)
+     ns1:DayTimeCriterion(ns1:DayTimeCriterion)
+     ns1:DeleteAdExtensionsAssociationsRequest(AccountId: xsd:long, AdExtensionIdToEntityIdAssociations: ns1:ArrayOfAdExtensionIdToEntityIdAssociation, AssociationType: ns1:AssociationType)
+     ns1:DeleteAdExtensionsAssociationsResponse(PartialErrors: ns1:ArrayOfBatchError)
+     ns1:DeleteAdExtensionsRequest(AccountId: xsd:long, AdExtensionIds: ns2:ArrayOflong)
+     ns1:DeleteAdExtensionsResponse(PartialErrors: ns1:ArrayOfBatchError)
+     ns1:DeleteAdGroupCriterionsRequest(AdGroupCriterionIds: ns2:ArrayOflong, AdGroupId: xsd:long, CriterionType: ns1:Anonymous[])
+     ns1:DeleteAdGroupCriterionsResponse(IsMigrated: xsd:boolean, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:DeleteAdGroupsRequest(CampaignId: xsd:long, AdGroupIds: ns2:ArrayOflong)
+     ns1:DeleteAdGroupsResponse(PartialErrors: ns1:ArrayOfBatchError)
+     ns1:DeleteAdsRequest(AdGroupId: xsd:long, AdIds: ns2:ArrayOflong)
+     ns1:DeleteAdsResponse(PartialErrors: ns1:ArrayOfBatchError)
+     ns1:DeleteAudiencesRequest(AudienceIds: ns2:ArrayOflong)
+     ns1:DeleteAudiencesResponse(PartialErrors: ns1:ArrayOfBatchError)
+     ns1:DeleteBudgetsRequest(BudgetIds: ns2:ArrayOflong)
+     ns1:DeleteBudgetsResponse(PartialErrors: ns1:ArrayOfBatchError)
+     ns1:DeleteCampaignCriterionsRequest(CampaignCriterionIds: ns2:ArrayOflong, CampaignId: xsd:long, CriterionType: ns1:Anonymous[])
+     ns1:DeleteCampaignCriterionsResponse(IsMigrated: xsd:boolean, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:DeleteCampaignsRequest(AccountId: xsd:long, CampaignIds: ns2:ArrayOflong)
+     ns1:DeleteCampaignsResponse(PartialErrors: ns1:ArrayOfBatchError)
+     ns1:DeleteKeywordsRequest(AdGroupId: xsd:long, KeywordIds: ns2:ArrayOflong)
+     ns1:DeleteKeywordsResponse(PartialErrors: ns1:ArrayOfBatchError)
+     ns1:DeleteLabelAssociationsRequest(EntityType: ns1:EntityType, LabelAssociations: ns1:ArrayOfLabelAssociation)
+     ns1:DeleteLabelAssociationsResponse(PartialErrors: ns1:ArrayOfBatchError)
+     ns1:DeleteLabelsRequest(LabelIds: ns2:ArrayOflong)
+     ns1:DeleteLabelsResponse(PartialErrors: ns1:ArrayOfBatchError)
+     ns1:DeleteListItemsFromSharedListRequest(ListItemIds: ns2:ArrayOflong, SharedList: ns1:SharedList)
+     ns1:DeleteListItemsFromSharedListResponse(PartialErrors: ns1:ArrayOfBatchError)
+     ns1:DeleteMediaRequest(AccountId: xsd:long, MediaIds: ns2:ArrayOflong)
+     ns1:DeleteMediaResponse(PartialErrors: ns1:ArrayOfBatchError)
+     ns1:DeleteNegativeKeywordsFromEntitiesRequest(EntityNegativeKeywords: ns1:ArrayOfEntityNegativeKeyword)
+     ns1:DeleteNegativeKeywordsFromEntitiesResponse(NestedPartialErrors: ns1:ArrayOfBatchErrorCollection)
+     ns1:DeleteSharedEntitiesRequest(SharedEntities: ns1:ArrayOfSharedEntity)
+     ns1:DeleteSharedEntitiesResponse(PartialErrors: ns1:ArrayOfBatchError)
+     ns1:DeleteSharedEntityAssociationsRequest(Associations: ns1:ArrayOfSharedEntityAssociation)
+     ns1:DeleteSharedEntityAssociationsResponse(PartialErrors: ns1:ArrayOfBatchError)
+     ns1:DeveloperToken(xsd:string)
+     ns1:DeviceCriterion(ns1:DeviceCriterion)
+     ns1:DistanceUnit(ns1:DistanceUnit)
+     ns1:DurationGoal(ns1:DurationGoal)
+     ns1:DynamicSearchAd(ns1:DynamicSearchAd)
+     ns1:DynamicSearchAdsSetting(ns1:DynamicSearchAdsSetting)
+     ns1:DynamicSearchAdsSource(ns1:DynamicSearchAdsSource)
+     ns1:EditorialApiFaultDetail(ns1:EditorialApiFaultDetail)
+     ns1:EditorialError(ns1:EditorialError)
+     ns1:EditorialErrorCollection(ns1:EditorialErrorCollection)
+     ns1:EditorialReason(ns1:EditorialReason)
+     ns1:EditorialReasonCollection(ns1:EditorialReasonCollection)
+     ns1:EnhancedCpcBiddingScheme(ns1:EnhancedCpcBiddingScheme)
+     ns1:EntityIdToParentIdAssociation(ns1:EntityIdToParentIdAssociation)
+     ns1:EntityNegativeKeyword(ns1:EntityNegativeKeyword)
+     ns1:EntityScope(ns1:EntityScope)
+     ns1:EntityType(ns1:EntityType)
+     ns1:EventGoal(ns1:EventGoal)
+     ns1:ExpandedTextAd(ns1:ExpandedTextAd)
+     ns1:ExpressionOperator(ns1:ExpressionOperator)
+     ns1:FixedBid(ns1:FixedBid)
+     ns1:GenderCriterion(ns1:GenderCriterion)
+     ns1:GenderType(ns1:GenderType)
+     ns1:GeoPoint(ns1:GeoPoint)
+     ns1:GetAccountMigrationStatusesRequest(AccountIds: ns2:ArrayOflong, MigrationType: xsd:string)
+     ns1:GetAccountMigrationStatusesResponse(MigrationStatuses: ns1:ArrayOfAccountMigrationStatusesInfo)
+     ns1:GetAccountPropertiesRequest(AccountPropertyNames: ns1:ArrayOfAccountPropertyName)
+     ns1:GetAccountPropertiesResponse(AccountProperties: ns1:ArrayOfAccountProperty, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:GetAdExtensionIdsByAccountIdRequest(AccountId: xsd:long, AdExtensionType: ns1:Anonymous[], AssociationType: ns1:AssociationType)
+     ns1:GetAdExtensionIdsByAccountIdResponse(AdExtensionIds: ns2:ArrayOflong)
+     ns1:GetAdExtensionsAssociationsRequest(AccountId: xsd:long, AdExtensionType: ns1:Anonymous[], AssociationType: ns1:AssociationType, EntityIds: ns2:ArrayOflong)
+     ns1:GetAdExtensionsAssociationsResponse(AdExtensionAssociationCollection: ns1:ArrayOfAdExtensionAssociationCollection, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:GetAdExtensionsByIdsRequest(AccountId: xsd:long, AdExtensionIds: ns2:ArrayOflong, AdExtensionType: ns1:Anonymous[])
+     ns1:GetAdExtensionsByIdsResponse(AdExtensions: ns1:ArrayOfAdExtension, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:GetAdExtensionsEditorialReasonsRequest(AccountId: xsd:long, AdExtensionIdToEntityIdAssociations: ns1:ArrayOfAdExtensionIdToEntityIdAssociation, AssociationType: ns1:AssociationType)
+     ns1:GetAdExtensionsEditorialReasonsResponse(EditorialReasons: ns1:ArrayOfAdExtensionEditorialReasonCollection, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:GetAdGroupCriterionsByIdsRequest(AdGroupCriterionIds: ns2:ArrayOflong, AdGroupId: xsd:long, CriterionType: ns1:Anonymous[])
+     ns1:GetAdGroupCriterionsByIdsResponse(AdGroupCriterions: ns1:ArrayOfAdGroupCriterion)
+     ns1:GetAdGroupsByCampaignIdRequest(CampaignId: xsd:long)
+     ns1:GetAdGroupsByCampaignIdResponse(AdGroups: ns1:ArrayOfAdGroup)
+     ns1:GetAdGroupsByIdsRequest(CampaignId: xsd:long, AdGroupIds: ns2:ArrayOflong)
+     ns1:GetAdGroupsByIdsResponse(AdGroups: ns1:ArrayOfAdGroup, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:GetAdsByAdGroupIdRequest(AdGroupId: xsd:long, AdTypes: ns1:ArrayOfAdType)
+     ns1:GetAdsByAdGroupIdResponse(Ads: ns1:ArrayOfAd)
+     ns1:GetAdsByEditorialStatusRequest(AdGroupId: xsd:long, EditorialStatus: ns1:AdEditorialStatus, AdTypes: ns1:ArrayOfAdType)
+     ns1:GetAdsByEditorialStatusResponse(Ads: ns1:ArrayOfAd)
+     ns1:GetAdsByIdsRequest(AdGroupId: xsd:long, AdIds: ns2:ArrayOflong, AdTypes: ns1:ArrayOfAdType)
+     ns1:GetAdsByIdsResponse(Ads: ns1:ArrayOfAd, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:GetAudiencesByIdsRequest(AudienceIds: ns2:ArrayOflong, Type: ns1:Anonymous[])
+     ns1:GetAudiencesByIdsResponse(Audiences: ns1:ArrayOfAudience, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:GetBMCStoresByCustomerIdRequest()
+     ns1:GetBMCStoresByCustomerIdResponse(BMCStores: ns1:ArrayOfBMCStore)
+     ns1:GetBSCCountriesRequest()
+     ns1:GetBSCCountriesResponse(CountryCodes: ns2:ArrayOfstring)
+     ns1:GetBudgetsByIdsRequest(BudgetIds: ns2:ArrayOflong)
+     ns1:GetBudgetsByIdsResponse(Budgets: ns1:ArrayOfBudget, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:GetCampaignCriterionsByIdsRequest(CampaignCriterionIds: ns2:ArrayOflong, CampaignId: xsd:long, CriterionType: ns1:Anonymous[])
+     ns1:GetCampaignCriterionsByIdsResponse(CampaignCriterions: ns1:ArrayOfCampaignCriterion, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:GetCampaignIdsByBudgetIdsRequest(BudgetIds: ns2:ArrayOflong)
+     ns1:GetCampaignIdsByBudgetIdsResponse(CampaignIdCollection: ns1:ArrayOfIdCollection, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:GetCampaignSizesByAccountIdRequest(AccountId: xsd:long, CampaignIds: ns2:ArrayOflong)
+     ns1:GetCampaignSizesByAccountIdResponse(CampaignSizes: ns1:ArrayOfCampaignSize)
+     ns1:GetCampaignsByAccountIdRequest(AccountId: xsd:long, CampaignType: ns1:Anonymous[])
+     ns1:GetCampaignsByAccountIdResponse(Campaigns: ns1:ArrayOfCampaign)
+     ns1:GetCampaignsByIdsRequest(AccountId: xsd:long, CampaignIds: ns2:ArrayOflong, CampaignType: ns1:Anonymous[])
+     ns1:GetCampaignsByIdsResponse(Campaigns: ns1:ArrayOfCampaign, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:GetConfigValueRequest(ConfigKey: xsd:string)
+     ns1:GetConfigValueResponse(ConfigValue: xsd:string)
+     ns1:GetConversionGoalsByIdsRequest(ConversionGoalIds: ns2:ArrayOflong, ConversionGoalTypes: ns1:Anonymous[])
+     ns1:GetConversionGoalsByIdsResponse(ConversionGoals: ns1:ArrayOfConversionGoal, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:GetConversionGoalsByTagIdsRequest(TagIds: ns2:ArrayOflong, ConversionGoalTypes: ns1:Anonymous[])
+     ns1:GetConversionGoalsByTagIdsResponse(ConversionGoals: ns1:ArrayOfConversionGoal, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:GetEditorialReasonsByIdsRequest(AccountId: xsd:long, EntityIdToParentIdAssociations: ns1:ArrayOfEntityIdToParentIdAssociation, EntityType: ns1:EntityType)
+     ns1:GetEditorialReasonsByIdsResponse(EditorialReasons: ns1:ArrayOfEditorialReasonCollection, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:GetGeoLocationsFileUrlRequest(Version: xsd:string, LanguageLocale: xsd:string)
+     ns1:GetGeoLocationsFileUrlResponse(FileUrl: xsd:string, FileUrlExpiryTimeUtc: xsd:dateTime, LastModifiedTimeUtc: xsd:dateTime)
+     ns1:GetKeywordsByAdGroupIdRequest(AdGroupId: xsd:long)
+     ns1:GetKeywordsByAdGroupIdResponse(Keywords: ns1:ArrayOfKeyword)
+     ns1:GetKeywordsByEditorialStatusRequest(AdGroupId: xsd:long, EditorialStatus: ns1:KeywordEditorialStatus)
+     ns1:GetKeywordsByEditorialStatusResponse(Keywords: ns1:ArrayOfKeyword)
+     ns1:GetKeywordsByIdsRequest(AdGroupId: xsd:long, KeywordIds: ns2:ArrayOflong)
+     ns1:GetKeywordsByIdsResponse(Keywords: ns1:ArrayOfKeyword, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:GetLabelAssociationsByEntityIdsRequest(EntityIds: ns2:ArrayOflong, EntityType: ns1:EntityType)
+     ns1:GetLabelAssociationsByEntityIdsResponse(LabelAssociations: ns1:ArrayOfLabelAssociation, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:GetLabelAssociationsByLabelIdsRequest(EntityType: ns1:EntityType, LabelIds: ns2:ArrayOflong, PageInfo: ns1:Paging)
+     ns1:GetLabelAssociationsByLabelIdsResponse(LabelAssociations: ns1:ArrayOfLabelAssociation, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:GetLabelsByIdsRequest(LabelIds: ns2:ArrayOflong, PageInfo: ns1:Paging)
+     ns1:GetLabelsByIdsResponse(Labels: ns1:ArrayOfLabel, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:GetListItemsBySharedListRequest(SharedList: ns1:SharedList)
+     ns1:GetListItemsBySharedListResponse(ListItems: ns1:ArrayOfSharedListItem)
+     ns1:GetMediaAssociationsRequest(MediaEnabledEntities: ns1:Anonymous[], MediaIds: ns2:ArrayOflong)
+     ns1:GetMediaAssociationsResponse(MediaAssociations: ns1:ArrayOfArrayOfMediaAssociation, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:GetMediaMetaDataByAccountIdRequest(MediaEnabledEntities: ns1:Anonymous[])
+     ns1:GetMediaMetaDataByAccountIdResponse(MediaMetaData: ns1:ArrayOfMediaMetaData)
+     ns1:GetMediaMetaDataByIdsRequest(MediaIds: ns2:ArrayOflong)
+     ns1:GetMediaMetaDataByIdsResponse(MediaMetaData: ns1:ArrayOfMediaMetaData, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:GetNegativeKeywordsByEntityIdsRequest(EntityIds: ns2:ArrayOflong, EntityType: xsd:string, ParentEntityId: xsd:long)
+     ns1:GetNegativeKeywordsByEntityIdsResponse(EntityNegativeKeywords: ns1:ArrayOfEntityNegativeKeyword, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:GetNegativeSitesByAdGroupIdsRequest(CampaignId: xsd:long, AdGroupIds: ns2:ArrayOflong)
+     ns1:GetNegativeSitesByAdGroupIdsResponse(AdGroupNegativeSites: ns1:ArrayOfAdGroupNegativeSites, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:GetNegativeSitesByCampaignIdsRequest(AccountId: xsd:long, CampaignIds: ns2:ArrayOflong)
+     ns1:GetNegativeSitesByCampaignIdsResponse(CampaignNegativeSites: ns1:ArrayOfCampaignNegativeSites, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:GetProfileDataFileUrlRequest(LanguageLocale: xsd:string, ProfileType: ns1:Anonymous[])
+     ns1:GetProfileDataFileUrlResponse(FileUrl: xsd:string, FileUrlExpiryTimeUtc: xsd:dateTime, LastModifiedTimeUtc: xsd:dateTime)
+     ns1:GetSharedEntitiesByAccountIdRequest(SharedEntityType: xsd:string)
+     ns1:GetSharedEntitiesByAccountIdResponse(SharedEntities: ns1:ArrayOfSharedEntity)
+     ns1:GetSharedEntityAssociationsByEntityIdsRequest(EntityIds: ns2:ArrayOflong, EntityType: xsd:string, SharedEntityType: xsd:string)
+     ns1:GetSharedEntityAssociationsByEntityIdsResponse(Associations: ns1:ArrayOfSharedEntityAssociation, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:GetSharedEntityAssociationsBySharedEntityIdsRequest(EntityType: xsd:string, SharedEntityIds: ns2:ArrayOflong, SharedEntityType: xsd:string)
+     ns1:GetSharedEntityAssociationsBySharedEntityIdsResponse(Associations: ns1:ArrayOfSharedEntityAssociation, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:GetUetTagsByIdsRequest(TagIds: ns2:ArrayOflong)
+     ns1:GetUetTagsByIdsResponse(UetTags: ns1:ArrayOfUetTag, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:IdCollection(ns1:IdCollection)
+     ns1:Image(ns1:Image)
+     ns1:ImageAdExtension(ns1:ImageAdExtension)
+     ns1:ImageMediaRepresentation(ns1:ImageMediaRepresentation)
+     ns1:InMarketAudience(ns1:InMarketAudience)
+     ns1:InStoreTransactionGoal(ns1:InStoreTransactionGoal)
+     ns1:InheritFromParentBiddingScheme(ns1:InheritFromParentBiddingScheme)
+     ns1:IntentOption(ns1:IntentOption)
+     ns1:ItemAction(ns1:ItemAction)
+     ns1:Keyword(ns1:Keyword)
+     ns1:KeywordEditorialStatus(ns1:KeywordEditorialStatus)
+     ns1:KeywordStatus(ns1:KeywordStatus)
+     ns1:Label(ns1:Label)
+     ns1:LabelAssociation(ns1:LabelAssociation)
+     ns1:LocationAdExtension(ns1:LocationAdExtension)
+     ns1:LocationCriterion(ns1:LocationCriterion)
+     ns1:LocationIntentCriterion(ns1:LocationIntentCriterion)
+     ns1:ManualCpcBiddingScheme(ns1:ManualCpcBiddingScheme)
+     ns1:MatchType(ns1:MatchType)
+     ns1:MaxClicksBiddingScheme(ns1:MaxClicksBiddingScheme)
+     ns1:MaxConversionsBiddingScheme(ns1:MaxConversionsBiddingScheme)
+     ns1:Media(ns1:Media)
+     ns1:MediaAssociation(ns1:MediaAssociation)
+     ns1:MediaEnabledEntityFilter(ns1:Anonymous[])
+     ns1:MediaMetaData(ns1:MediaMetaData)
+     ns1:MediaRepresentation(ns1:MediaRepresentation)
+     ns1:MigrationStatus(ns1:MigrationStatus)
+     ns1:MigrationStatusInfo(ns1:MigrationStatusInfo)
+     ns1:Minute(ns1:Minute)
+     ns1:NegativeAdGroupCriterion(ns1:NegativeAdGroupCriterion)
+     ns1:NegativeCampaignCriterion(ns1:NegativeCampaignCriterion)
+     ns1:NegativeKeyword(ns1:NegativeKeyword)
+     ns1:NegativeKeywordList(ns1:NegativeKeywordList)
+     ns1:Network(ns1:Network)
+     ns1:NumberOperator(ns1:NumberOperator)
+     ns1:OfflineConversion(ns1:OfflineConversion)
+     ns1:OfflineConversionGoal(ns1:OfflineConversionGoal)
+     ns1:OperationError(ns1:OperationError)
+     ns1:PageVisitorsRule(ns1:PageVisitorsRule)
+     ns1:PageVisitorsWhoDidNotVisitAnotherPageRule(ns1:PageVisitorsWhoDidNotVisitAnotherPageRule)
+     ns1:PageVisitorsWhoVisitedAnotherPageRule(ns1:PageVisitorsWhoVisitedAnotherPageRule)
+     ns1:PagesViewedPerVisitGoal(ns1:PagesViewedPerVisitGoal)
+     ns1:Paging(ns1:Paging)
+     ns1:Password(xsd:string)
+     ns1:PriceAdExtension(ns1:PriceAdExtension)
+     ns1:PriceExtensionType(ns1:PriceExtensionType)
+     ns1:PriceQualifier(ns1:PriceQualifier)
+     ns1:PriceTableRow(ns1:PriceTableRow)
+     ns1:PriceUnit(ns1:PriceUnit)
+     ns1:ProductAd(ns1:ProductAd)
+     ns1:ProductAudience(ns1:ProductAudience)
+     ns1:ProductAudienceType(ns1:Anonymous[])
+     ns1:ProductCondition(ns1:ProductCondition)
+     ns1:ProductPartition(ns1:ProductPartition)
+     ns1:ProductPartitionType(ns1:ProductPartitionType)
+     ns1:ProductScope(ns1:ProductScope)
+     ns1:ProfileCriterion(ns1:ProfileCriterion)
+     ns1:ProfileType(ns1:Anonymous[])
+     ns1:RadiusCriterion(ns1:RadiusCriterion)
+     ns1:RemarketingList(ns1:RemarketingList)
+     ns1:RemarketingRule(ns1:RemarketingRule)
+     ns1:ResponsiveAd(ns1:ResponsiveAd)
+     ns1:ReviewAdExtension(ns1:ReviewAdExtension)
+     ns1:RuleItem(ns1:RuleItem)
+     ns1:RuleItemGroup(ns1:RuleItemGroup)
+     ns1:Schedule(ns1:Schedule)
+     ns1:SetAccountPropertiesRequest(AccountProperties: ns1:ArrayOfAccountProperty)
+     ns1:SetAccountPropertiesResponse()
+     ns1:SetAdExtensionsAssociationsRequest(AccountId: xsd:long, AdExtensionIdToEntityIdAssociations: ns1:ArrayOfAdExtensionIdToEntityIdAssociation, AssociationType: ns1:AssociationType)
+     ns1:SetAdExtensionsAssociationsResponse(PartialErrors: ns1:ArrayOfBatchError)
+     ns1:SetLabelAssociationsRequest(EntityType: ns1:EntityType, LabelAssociations: ns1:ArrayOfLabelAssociation)
+     ns1:SetLabelAssociationsResponse(PartialErrors: ns1:ArrayOfBatchError)
+     ns1:SetNegativeSitesToAdGroupsRequest(CampaignId: xsd:long, AdGroupNegativeSites: ns1:ArrayOfAdGroupNegativeSites)
+     ns1:SetNegativeSitesToAdGroupsResponse(PartialErrors: ns1:ArrayOfBatchError)
+     ns1:SetNegativeSitesToCampaignsRequest(AccountId: xsd:long, CampaignNegativeSites: ns1:ArrayOfCampaignNegativeSites)
+     ns1:SetNegativeSitesToCampaignsResponse(PartialErrors: ns1:ArrayOfBatchError)
+     ns1:SetSharedEntityAssociationsRequest(Associations: ns1:ArrayOfSharedEntityAssociation)
+     ns1:SetSharedEntityAssociationsResponse(PartialErrors: ns1:ArrayOfBatchError)
+     ns1:Setting(ns1:Setting)
+     ns1:SharedEntity(ns1:SharedEntity)
+     ns1:SharedEntityAssociation(ns1:SharedEntityAssociation)
+     ns1:SharedList(ns1:SharedList)
+     ns1:SharedListItem(ns1:SharedListItem)
+     ns1:ShoppingSetting(ns1:ShoppingSetting)
+     ns1:SitelinkAdExtension(ns1:SitelinkAdExtension)
+     ns1:StringOperator(ns1:StringOperator)
+     ns1:StringRuleItem(ns1:StringRuleItem)
+     ns1:StructuredSnippetAdExtension(ns1:StructuredSnippetAdExtension)
+     ns1:TargetCpaBiddingScheme(ns1:TargetCpaBiddingScheme)
+     ns1:TargetSetting(ns1:TargetSetting)
+     ns1:TargetSettingDetail(ns1:TargetSettingDetail)
+     ns1:TextAd(ns1:TextAd)
+     ns1:TrackingId(xsd:string)
+     ns1:UetTag(ns1:UetTag)
+     ns1:UetTagTrackingStatus(ns1:UetTagTrackingStatus)
+     ns1:UpdateAdExtensionsRequest(AccountId: xsd:long, AdExtensions: ns1:ArrayOfAdExtension)
+     ns1:UpdateAdExtensionsResponse(NestedPartialErrors: ns1:ArrayOfBatchErrorCollection)
+     ns1:UpdateAdGroupCriterionsRequest(AdGroupCriterions: ns1:ArrayOfAdGroupCriterion, CriterionType: ns1:Anonymous[])
+     ns1:UpdateAdGroupCriterionsResponse(IsMigrated: xsd:boolean, NestedPartialErrors: ns1:ArrayOfBatchErrorCollection)
+     ns1:UpdateAdGroupsRequest(CampaignId: xsd:long, AdGroups: ns1:ArrayOfAdGroup, UpdateAudienceAdsBidAdjustment: xsd:boolean, ReturnInheritedBidStrategyTypes: xsd:boolean)
+     ns1:UpdateAdGroupsResponse(InheritedBidStrategyTypes: ns2:ArrayOfstring, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:UpdateAdsRequest(AdGroupId: xsd:long, Ads: ns1:ArrayOfAd)
+     ns1:UpdateAdsResponse(PartialErrors: ns1:ArrayOfBatchError)
+     ns1:UpdateAudiencesRequest(Audiences: ns1:ArrayOfAudience)
+     ns1:UpdateAudiencesResponse(PartialErrors: ns1:ArrayOfBatchError)
+     ns1:UpdateBudgetsRequest(Budgets: ns1:ArrayOfBudget)
+     ns1:UpdateBudgetsResponse(PartialErrors: ns1:ArrayOfBatchError)
+     ns1:UpdateCampaignCriterionsRequest(CampaignCriterions: ns1:ArrayOfCampaignCriterion, CriterionType: ns1:Anonymous[])
+     ns1:UpdateCampaignCriterionsResponse(IsMigrated: xsd:boolean, NestedPartialErrors: ns1:ArrayOfBatchErrorCollection)
+     ns1:UpdateCampaignsRequest(AccountId: xsd:long, Campaigns: ns1:ArrayOfCampaign)
+     ns1:UpdateCampaignsResponse(PartialErrors: ns1:ArrayOfBatchError)
+     ns1:UpdateConversionGoalsRequest(ConversionGoals: ns1:ArrayOfConversionGoal)
+     ns1:UpdateConversionGoalsResponse(PartialErrors: ns1:ArrayOfBatchError)
+     ns1:UpdateKeywordsRequest(AdGroupId: xsd:long, Keywords: ns1:ArrayOfKeyword, ReturnInheritedBidStrategyTypes: xsd:boolean)
+     ns1:UpdateKeywordsResponse(InheritedBidStrategyTypes: ns2:ArrayOfstring, PartialErrors: ns1:ArrayOfBatchError)
+     ns1:UpdateLabelsRequest(Labels: ns1:ArrayOfLabel)
+     ns1:UpdateLabelsResponse(PartialErrors: ns1:ArrayOfBatchError)
+     ns1:UpdateSharedEntitiesRequest(SharedEntities: ns1:ArrayOfSharedEntity)
+     ns1:UpdateSharedEntitiesResponse(PartialErrors: ns1:ArrayOfBatchError)
+     ns1:UpdateUetTagsRequest(UetTags: ns1:ArrayOfUetTag)
+     ns1:UpdateUetTagsResponse(PartialErrors: ns1:ArrayOfBatchError)
+     ns1:UrlGoal(ns1:UrlGoal)
+     ns1:UserName(xsd:string)
+     ns1:ValueOperator(ns1:ValueOperator)
+     ns1:Webpage(ns1:Webpage)
+     ns1:WebpageCondition(ns1:WebpageCondition)
+     ns1:WebpageConditionOperand(ns1:WebpageConditionOperand)
+     ns1:WebpageParameter(ns1:WebpageParameter)
+
+Global types:
+     xsd:anyType
+     ns3:ArrayOfKeyValuePairOfstringstring(KeyValuePairOfstringstring: ns3:KeyValuePairOfstringstring[])
+     ns3:KeyValuePairOfstringstring(key: xsd:string, value: xsd:string)
+     ns4:ArrayOfNullableOflong(long: xsd:long[])
+     ns2:ArrayOfKeyValueOfstringstring(KeyValueOfstringstring: {Key: xsd:string, Value: xsd:string}[])
+     ns2:ArrayOflong(long: xsd:long[])
+     ns2:ArrayOfstring(string: xsd:string[])
+     ns0:char
+     ns0:duration
+     ns0:guid
+     xsd:ENTITIES
+     xsd:ENTITY
+     xsd:ID
+     xsd:IDREF
+     xsd:IDREFS
+     xsd:NCName
+     xsd:NMTOKEN
+     xsd:NMTOKENS
+     xsd:NOTATION
+     xsd:Name
+     xsd:QName
+     xsd:anySimpleType
+     xsd:anyURI
+     xsd:base64Binary
+     xsd:boolean
+     xsd:byte
+     xsd:date
+     xsd:dateTime
+     xsd:decimal
+     xsd:double
+     xsd:duration
+     xsd:float
+     xsd:gDay
+     xsd:gMonth
+     xsd:gMonthDay
+     xsd:gYear
+     xsd:gYearMonth
+     xsd:hexBinary
+     xsd:int
+     xsd:integer
+     xsd:language
+     xsd:long
+     xsd:negativeInteger
+     xsd:nonNegativeInteger
+     xsd:nonPositiveInteger
+     xsd:normalizedString
+     xsd:positiveInteger
+     xsd:short
+     xsd:string
+     xsd:time
+     xsd:token
+     xsd:unsignedByte
+     xsd:unsignedInt
+     xsd:unsignedLong
+     xsd:unsignedShort
+     ns5:AdApiError(Code: xsd:int, Detail: xsd:string, ErrorCode: xsd:string, Message: xsd:string)
+     ns5:AdApiFaultDetail(TrackingId: xsd:string, Errors: ns5:ArrayOfAdApiError)
+     ns5:ApplicationFault(TrackingId: xsd:string)
+     ns5:ArrayOfAdApiError(AdApiError: ns5:AdApiError[])
+     ns1:AccountMigrationStatusesInfo(AccountId: xsd:long, MigrationStatusInfos: ns1:ArrayOfMigrationStatusInfo)
+     ns1:AccountProperty(Name: ns1:AccountPropertyName, Value: xsd:string)
+     ns1:AccountPropertyName
+     ns1:Ad(AdFormatPreference: xsd:string, DevicePreference: xsd:long, EditorialStatus: ns1:AdEditorialStatus, FinalAppUrls: ns1:ArrayOfAppUrl, FinalMobileUrls: ns2:ArrayOfstring, FinalUrls: ns2:ArrayOfstring, ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Id: xsd:long, Status: ns1:AdStatus, TrackingUrlTemplate: xsd:string, Type: ns1:AdType, UrlCustomParameters: ns1:CustomParameters)
+     ns1:AdEditorialStatus
+     ns1:AdExtension(DevicePreference: xsd:long, ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Id: xsd:long, Scheduling: ns1:Schedule, Status: ns1:AdExtensionStatus, Type: xsd:string, Version: xsd:int)
+     ns1:AdExtensionAssociation(AdExtension: ns1:AdExtension, AssociationType: ns1:AssociationType, EditorialStatus: ns1:AdExtensionEditorialStatus, EntityId: xsd:long)
+     ns1:AdExtensionAssociationCollection(AdExtensionAssociations: ns1:ArrayOfAdExtensionAssociation)
+     ns1:AdExtensionEditorialReason(Location: xsd:string, PublisherCountries: ns2:ArrayOfstring, ReasonCode: xsd:int, Term: xsd:string)
+     ns1:AdExtensionEditorialReasonCollection(AdExtensionId: xsd:long, Reasons: ns1:ArrayOfAdExtensionEditorialReason)
+     ns1:AdExtensionEditorialStatus
+     ns1:AdExtensionIdToEntityIdAssociation(AdExtensionId: xsd:long, EntityId: xsd:long)
+     ns1:AdExtensionIdentity(Id: xsd:long, Version: xsd:int)
+     ns1:AdExtensionStatus
+     ns1:AdGroup(AdRotation: ns1:AdRotation, AudienceAdsBidAdjustment: xsd:int, BiddingScheme: ns1:BiddingScheme, CpcBid: ns1:Bid, EndDate: ns1:Date, ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Id: xsd:long, Language: xsd:string, Name: xsd:string, Network: ns1:Network, PrivacyStatus: ns1:AdGroupPrivacyStatus, Settings: ns1:ArrayOfSetting, StartDate: ns1:Date, Status: ns1:AdGroupStatus, TrackingUrlTemplate: xsd:string, UrlCustomParameters: ns1:CustomParameters)
+     ns1:AdGroupCriterion(AdGroupId: xsd:long, Criterion: ns1:Criterion, Id: xsd:long, Status: ns1:AdGroupCriterionStatus, Type: xsd:string)
+     ns1:AdGroupCriterionAction(Action: ns1:ItemAction, AdGroupCriterion: ns1:AdGroupCriterion)
+     ns1:AdGroupCriterionEditorialStatus
+     ns1:AdGroupCriterionStatus
+     ns1:AdGroupNegativeSites(AdGroupId: xsd:long, NegativeSites: ns2:ArrayOfstring)
+     ns1:AdGroupPrivacyStatus
+     ns1:AdGroupStatus
+     ns1:AdRotation(EndDate: xsd:dateTime, StartDate: xsd:dateTime, Type: ns1:AdRotationType)
+     ns1:AdRotationType
+     ns1:AdStatus
+     ns1:AdType
+     ns1:Address(CityName: xsd:string, CountryCode: xsd:string, PostalCode: xsd:string, ProvinceCode: xsd:string, ProvinceName: xsd:string, StreetAddress: xsd:string, StreetAddress2: xsd:string)
+     ns1:AgeCriterion(Type: xsd:string, AgeRange: ns1:AgeRange)
+     ns1:AgeRange
+     ns1:ApiFaultDetail(TrackingId: xsd:string, BatchErrors: ns1:ArrayOfBatchError, OperationErrors: ns1:ArrayOfOperationError)
+     ns1:AppAdExtension(DevicePreference: xsd:long, ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Id: xsd:long, Scheduling: ns1:Schedule, Status: ns1:AdExtensionStatus, Type: xsd:string, Version: xsd:int, AppPlatform: xsd:string, AppStoreId: xsd:string, DestinationUrl: xsd:string, DisplayText: xsd:string, FinalAppUrls: ns1:ArrayOfAppUrl, FinalMobileUrls: ns2:ArrayOfstring, FinalUrls: ns2:ArrayOfstring, TrackingUrlTemplate: xsd:string, UrlCustomParameters: ns1:CustomParameters)
+     ns1:AppInstallAd(AdFormatPreference: xsd:string, DevicePreference: xsd:long, EditorialStatus: ns1:AdEditorialStatus, FinalAppUrls: ns1:ArrayOfAppUrl, FinalMobileUrls: ns2:ArrayOfstring, FinalUrls: ns2:ArrayOfstring, ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Id: xsd:long, Status: ns1:AdStatus, TrackingUrlTemplate: xsd:string, Type: ns1:AdType, UrlCustomParameters: ns1:CustomParameters, AppPlatform: xsd:string, AppStoreId: xsd:string, Text: xsd:string, Title: xsd:string)
+     ns1:AppInstallGoal(ConversionWindowInMinutes: xsd:int, CountType: ns1:ConversionGoalCountType, Id: xsd:long, Name: xsd:string, Revenue: ns1:ConversionGoalRevenue, Scope: ns1:EntityScope, Status: ns1:ConversionGoalStatus, TagId: xsd:long, TrackingStatus: ns1:ConversionGoalTrackingStatus, Type: ns1:Anonymous[], AppPlatform: xsd:string, AppStoreId: xsd:string)
+     ns1:AppUrl(OsType: xsd:string, Url: xsd:string)
+     ns1:AppealStatus
+     ns1:ArrayOfAccountMigrationStatusesInfo(AccountMigrationStatusesInfo: ns1:AccountMigrationStatusesInfo[])
+     ns1:ArrayOfAccountProperty(AccountProperty: ns1:AccountProperty[])
+     ns1:ArrayOfAccountPropertyName(AccountPropertyName: ns1:AccountPropertyName[])
+     ns1:ArrayOfAd(Ad: ns1:Ad[])
+     ns1:ArrayOfAdExtension(AdExtension: ns1:AdExtension[])
+     ns1:ArrayOfAdExtensionAssociation(AdExtensionAssociation: ns1:AdExtensionAssociation[])
+     ns1:ArrayOfAdExtensionAssociationCollection(AdExtensionAssociationCollection: ns1:AdExtensionAssociationCollection[])
+     ns1:ArrayOfAdExtensionEditorialReason(AdExtensionEditorialReason: ns1:AdExtensionEditorialReason[])
+     ns1:ArrayOfAdExtensionEditorialReasonCollection(AdExtensionEditorialReasonCollection: ns1:AdExtensionEditorialReasonCollection[])
+     ns1:ArrayOfAdExtensionIdToEntityIdAssociation(AdExtensionIdToEntityIdAssociation: ns1:AdExtensionIdToEntityIdAssociation[])
+     ns1:ArrayOfAdExtensionIdentity(AdExtensionIdentity: ns1:AdExtensionIdentity[])
+     ns1:ArrayOfAdGroup(AdGroup: ns1:AdGroup[])
+     ns1:ArrayOfAdGroupCriterion(AdGroupCriterion: ns1:AdGroupCriterion[])
+     ns1:ArrayOfAdGroupCriterionAction(AdGroupCriterionAction: ns1:AdGroupCriterionAction[])
+     ns1:ArrayOfAdGroupNegativeSites(AdGroupNegativeSites: ns1:AdGroupNegativeSites[])
+     ns1:ArrayOfAdType(AdType: ns1:AdType[])
+     ns1:ArrayOfAppUrl(AppUrl: ns1:AppUrl[])
+     ns1:ArrayOfArrayOfMediaAssociation(ArrayOfMediaAssociation: ns1:ArrayOfMediaAssociation[])
+     ns1:ArrayOfAudience(Audience: ns1:Audience[])
+     ns1:ArrayOfBMCStore(BMCStore: ns1:BMCStore[])
+     ns1:ArrayOfBatchError(BatchError: ns1:BatchError[])
+     ns1:ArrayOfBatchErrorCollection(BatchErrorCollection: ns1:BatchErrorCollection[])
+     ns1:ArrayOfBudget(Budget: ns1:Budget[])
+     ns1:ArrayOfCampaign(Campaign: ns1:Campaign[])
+     ns1:ArrayOfCampaignCriterion(CampaignCriterion: ns1:CampaignCriterion[])
+     ns1:ArrayOfCampaignNegativeSites(CampaignNegativeSites: ns1:CampaignNegativeSites[])
+     ns1:ArrayOfCampaignSize(CampaignSize: ns1:CampaignSize[])
+     ns1:ArrayOfConversionGoal(ConversionGoal: ns1:ConversionGoal[])
+     ns1:ArrayOfCustomParameter(CustomParameter: ns1:CustomParameter[])
+     ns1:ArrayOfDayTime(DayTime: ns1:DayTime[])
+     ns1:ArrayOfEditorialError(EditorialError: ns1:EditorialError[])
+     ns1:ArrayOfEditorialReason(EditorialReason: ns1:EditorialReason[])
+     ns1:ArrayOfEditorialReasonCollection(EditorialReasonCollection: ns1:EditorialReasonCollection[])
+     ns1:ArrayOfEntityIdToParentIdAssociation(EntityIdToParentIdAssociation: ns1:EntityIdToParentIdAssociation[])
+     ns1:ArrayOfEntityNegativeKeyword(EntityNegativeKeyword: ns1:EntityNegativeKeyword[])
+     ns1:ArrayOfIdCollection(IdCollection: ns1:IdCollection[])
+     ns1:ArrayOfKeyword(Keyword: ns1:Keyword[])
+     ns1:ArrayOfLabel(Label: ns1:Label[])
+     ns1:ArrayOfLabelAssociation(LabelAssociation: ns1:LabelAssociation[])
+     ns1:ArrayOfMedia(Media: ns1:Media[])
+     ns1:ArrayOfMediaAssociation(MediaAssociation: ns1:MediaAssociation[])
+     ns1:ArrayOfMediaMetaData(MediaMetaData: ns1:MediaMetaData[])
+     ns1:ArrayOfMediaRepresentation(MediaRepresentation: ns1:MediaRepresentation[])
+     ns1:ArrayOfMigrationStatusInfo(MigrationStatusInfo: ns1:MigrationStatusInfo[])
+     ns1:ArrayOfNegativeKeyword(NegativeKeyword: ns1:NegativeKeyword[])
+     ns1:ArrayOfOfflineConversion(OfflineConversion: ns1:OfflineConversion[])
+     ns1:ArrayOfOperationError(OperationError: ns1:OperationError[])
+     ns1:ArrayOfPriceTableRow(PriceTableRow: ns1:PriceTableRow[])
+     ns1:ArrayOfProductCondition(ProductCondition: ns1:ProductCondition[])
+     ns1:ArrayOfRuleItem(RuleItem: ns1:RuleItem[])
+     ns1:ArrayOfRuleItemGroup(RuleItemGroup: ns1:RuleItemGroup[])
+     ns1:ArrayOfSetting(Setting: ns1:Setting[])
+     ns1:ArrayOfSharedEntity(SharedEntity: ns1:SharedEntity[])
+     ns1:ArrayOfSharedEntityAssociation(SharedEntityAssociation: ns1:SharedEntityAssociation[])
+     ns1:ArrayOfSharedListItem(SharedListItem: ns1:SharedListItem[])
+     ns1:ArrayOfTargetSettingDetail(TargetSettingDetail: ns1:TargetSettingDetail[])
+     ns1:ArrayOfUetTag(UetTag: ns1:UetTag[])
+     ns1:ArrayOfWebpageCondition(WebpageCondition: ns1:WebpageCondition[])
+     ns1:AssociationType
+     ns1:Audience(AudienceNetworkSize: xsd:long, Description: xsd:string, ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Id: xsd:long, MembershipDuration: xsd:int, Name: xsd:string, ParentId: xsd:long, Scope: ns1:EntityScope, SearchSize: xsd:long, SupportedCampaignTypes: ns2:ArrayOfstring, Type: ns1:Anonymous[])
+     ns1:AudienceCriterion(Type: xsd:string, AudienceId: xsd:long, AudienceType: ns1:Anonymous[])
+     ns1:BMCStore(HasCatalog: xsd:boolean, Id: xsd:long, IsActive: xsd:boolean, IsProductAdsEnabled: xsd:boolean, Name: xsd:string, SubType: ns1:BMCStoreSubType)
+     ns1:BMCStoreSubType
+     ns1:BatchError(Code: xsd:int, Details: xsd:string, ErrorCode: xsd:string, FieldPath: xsd:string, ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Index: xsd:int, Message: xsd:string, Type: xsd:string)
+     ns1:BatchErrorCollection(BatchErrors: ns1:ArrayOfBatchError, Code: xsd:int, Details: xsd:string, ErrorCode: xsd:string, FieldPath: xsd:string, ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Index: xsd:int, Message: xsd:string, Type: xsd:string)
+     ns1:Bid(Amount: xsd:double)
+     ns1:BidMultiplier(Type: xsd:string, Multiplier: xsd:double)
+     ns1:BidOption
+     ns1:BiddableAdGroupCriterion(AdGroupId: xsd:long, Criterion: ns1:Criterion, Id: xsd:long, Status: ns1:AdGroupCriterionStatus, Type: xsd:string, CriterionBid: ns1:CriterionBid, DestinationUrl: xsd:string, EditorialStatus: ns1:AdGroupCriterionEditorialStatus, FinalAppUrls: ns1:ArrayOfAppUrl, FinalMobileUrls: ns2:ArrayOfstring, FinalUrls: ns2:ArrayOfstring, TrackingUrlTemplate: xsd:string, UrlCustomParameters: ns1:CustomParameters)
+     ns1:BiddableCampaignCriterion(CampaignId: xsd:long, Criterion: ns1:Criterion, ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Id: xsd:long, Status: ns1:CampaignCriterionStatus, Type: xsd:string, CriterionBid: ns1:CriterionBid)
+     ns1:BiddingScheme(Type: xsd:string)
+     ns1:Budget(Amount: xsd:decimal, AssociationCount: xsd:int, BudgetType: ns1:BudgetLimitType, Id: xsd:long, Name: xsd:string)
+     ns1:BudgetLimitType
+     ns1:BusinessGeoCodeStatus
+     ns1:CallAdExtension(DevicePreference: xsd:long, ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Id: xsd:long, Scheduling: ns1:Schedule, Status: ns1:AdExtensionStatus, Type: xsd:string, Version: xsd:int, CountryCode: xsd:string, IsCallOnly: xsd:boolean, IsCallTrackingEnabled: xsd:boolean, PhoneNumber: xsd:string, RequireTollFreeTrackingNumber: xsd:boolean)
+     ns1:CallToAction
+     ns1:CalloutAdExtension(DevicePreference: xsd:long, ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Id: xsd:long, Scheduling: ns1:Schedule, Status: ns1:AdExtensionStatus, Type: xsd:string, Version: xsd:int, Text: xsd:string)
+     ns1:Campaign(AudienceAdsBidAdjustment: xsd:int, BiddingScheme: ns1:BiddingScheme, BudgetType: ns1:BudgetLimitType, DailyBudget: xsd:double, Description: xsd:string, ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Id: xsd:long, Name: xsd:string, Status: ns1:CampaignStatus, SubType: xsd:string, TimeZone: xsd:string, TrackingUrlTemplate: xsd:string, UrlCustomParameters: ns1:CustomParameters, CampaignType: ns1:Anonymous[], Settings: ns1:ArrayOfSetting, BudgetId: xsd:long, Languages: ns2:ArrayOfstring)
+     ns1:CampaignCriterion(CampaignId: xsd:long, Criterion: ns1:Criterion, ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Id: xsd:long, Status: ns1:CampaignCriterionStatus, Type: xsd:string)
+     ns1:CampaignCriterionStatus
+     ns1:CampaignNegativeSites(CampaignId: xsd:long, NegativeSites: ns2:ArrayOfstring)
+     ns1:CampaignSize(CampaignId: xsd:long, Size: xsd:long)
+     ns1:CampaignStatus
+     ns1:CoOpSetting(Type: xsd:string, BidBoostValue: xsd:double, BidMaxValue: xsd:double, BidOption: ns1:BidOption)
+     ns1:ConversionGoal(ConversionWindowInMinutes: xsd:int, CountType: ns1:ConversionGoalCountType, Id: xsd:long, Name: xsd:string, Revenue: ns1:ConversionGoalRevenue, Scope: ns1:EntityScope, Status: ns1:ConversionGoalStatus, TagId: xsd:long, TrackingStatus: ns1:ConversionGoalTrackingStatus, Type: ns1:Anonymous[])
+     ns1:ConversionGoalCountType
+     ns1:ConversionGoalRevenue(CurrencyCode: xsd:string, Type: ns1:ConversionGoalRevenueType, Value: xsd:decimal)
+     ns1:ConversionGoalRevenueType
+     ns1:ConversionGoalStatus
+     ns1:ConversionGoalTrackingStatus
+     ns1:Criterion(Type: xsd:string)
+     ns1:CriterionBid(Type: xsd:string)
+     ns1:CriterionTypeGroup
+     ns1:CustomAudience(AudienceNetworkSize: xsd:long, Description: xsd:string, ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Id: xsd:long, MembershipDuration: xsd:int, Name: xsd:string, ParentId: xsd:long, Scope: ns1:EntityScope, SearchSize: xsd:long, SupportedCampaignTypes: ns2:ArrayOfstring, Type: ns1:Anonymous[])
+     ns1:CustomEventsRule(Type: xsd:string, Action: xsd:string, ActionOperator: ns1:StringOperator, Category: xsd:string, CategoryOperator: ns1:StringOperator, Label: xsd:string, LabelOperator: ns1:StringOperator, Value: xsd:decimal, ValueOperator: ns1:NumberOperator)
+     ns1:CustomParameter(Key: xsd:string, Value: xsd:string)
+     ns1:CustomParameters(Parameters: ns1:ArrayOfCustomParameter)
+     ns1:Date(Day: xsd:int, Month: xsd:int, Year: xsd:int)
+     ns1:Day
+     ns1:DayTime(Day: ns1:Day, EndHour: xsd:int, EndMinute: ns1:Minute, StartHour: xsd:int, StartMinute: ns1:Minute)
+     ns1:DayTimeCriterion(Type: xsd:string, Day: ns1:Day, FromHour: xsd:int, FromMinute: ns1:Minute, ToHour: xsd:int, ToMinute: ns1:Minute)
+     ns1:DeviceCriterion(Type: xsd:string, DeviceName: xsd:string, OSName: xsd:string)
+     ns1:DistanceUnit
+     ns1:DurationGoal(ConversionWindowInMinutes: xsd:int, CountType: ns1:ConversionGoalCountType, Id: xsd:long, Name: xsd:string, Revenue: ns1:ConversionGoalRevenue, Scope: ns1:EntityScope, Status: ns1:ConversionGoalStatus, TagId: xsd:long, TrackingStatus: ns1:ConversionGoalTrackingStatus, Type: ns1:Anonymous[], MinimumDurationInSeconds: xsd:int)
+     ns1:DynamicSearchAd(AdFormatPreference: xsd:string, DevicePreference: xsd:long, EditorialStatus: ns1:AdEditorialStatus, FinalAppUrls: ns1:ArrayOfAppUrl, FinalMobileUrls: ns2:ArrayOfstring, FinalUrls: ns2:ArrayOfstring, ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Id: xsd:long, Status: ns1:AdStatus, TrackingUrlTemplate: xsd:string, Type: ns1:AdType, UrlCustomParameters: ns1:CustomParameters, Path1: xsd:string, Path2: xsd:string, Text: xsd:string)
+     ns1:DynamicSearchAdsSetting(Type: xsd:string, DomainName: xsd:string, Language: xsd:string, PageFeedIds: ns2:ArrayOflong, Source: ns1:DynamicSearchAdsSource)
+     ns1:DynamicSearchAdsSource
+     ns1:EditorialApiFaultDetail(TrackingId: xsd:string, BatchErrors: ns1:ArrayOfBatchError, EditorialErrors: ns1:ArrayOfEditorialError, OperationErrors: ns1:ArrayOfOperationError)
+     ns1:EditorialError(Code: xsd:int, Details: xsd:string, ErrorCode: xsd:string, FieldPath: xsd:string, ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Index: xsd:int, Message: xsd:string, Type: xsd:string, Appealable: xsd:boolean, DisapprovedText: xsd:string, Location: xsd:string, PublisherCountry: xsd:string, ReasonCode: xsd:int)
+     ns1:EditorialErrorCollection(BatchErrors: ns1:ArrayOfBatchError, Code: xsd:int, Details: xsd:string, ErrorCode: xsd:string, FieldPath: xsd:string, ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Index: xsd:int, Message: xsd:string, Type: xsd:string, Appealable: xsd:boolean, DisapprovedText: xsd:string, Location: xsd:string, PublisherCountry: xsd:string, ReasonCode: xsd:int)
+     ns1:EditorialReason(Location: xsd:string, PublisherCountries: ns2:ArrayOfstring, ReasonCode: xsd:int, Term: xsd:string)
+     ns1:EditorialReasonCollection(AdGroupId: xsd:long, AdOrKeywordId: xsd:long, AppealStatus: ns1:AppealStatus, Reasons: ns1:ArrayOfEditorialReason)
+     ns1:EnhancedCpcBiddingScheme(Type: xsd:string)
+     ns1:EntityIdToParentIdAssociation(EntityId: xsd:long, ParentId: xsd:long)
+     ns1:EntityNegativeKeyword(EntityId: xsd:long, EntityType: xsd:string, NegativeKeywords: ns1:ArrayOfNegativeKeyword)
+     ns1:EntityScope
+     ns1:EntityType
+     ns1:EventGoal(ConversionWindowInMinutes: xsd:int, CountType: ns1:ConversionGoalCountType, Id: xsd:long, Name: xsd:string, Revenue: ns1:ConversionGoalRevenue, Scope: ns1:EntityScope, Status: ns1:ConversionGoalStatus, TagId: xsd:long, TrackingStatus: ns1:ConversionGoalTrackingStatus, Type: ns1:Anonymous[], ActionExpression: xsd:string, ActionOperator: ns1:ExpressionOperator, CategoryExpression: xsd:string, CategoryOperator: ns1:ExpressionOperator, LabelExpression: xsd:string, LabelOperator: ns1:ExpressionOperator, Value: xsd:decimal, ValueOperator: ns1:ValueOperator)
+     ns1:ExpandedTextAd(AdFormatPreference: xsd:string, DevicePreference: xsd:long, EditorialStatus: ns1:AdEditorialStatus, FinalAppUrls: ns1:ArrayOfAppUrl, FinalMobileUrls: ns2:ArrayOfstring, FinalUrls: ns2:ArrayOfstring, ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Id: xsd:long, Status: ns1:AdStatus, TrackingUrlTemplate: xsd:string, Type: ns1:AdType, UrlCustomParameters: ns1:CustomParameters, Domain: xsd:string, Path1: xsd:string, Path2: xsd:string, Text: xsd:string, TitlePart1: xsd:string, TitlePart2: xsd:string)
+     ns1:ExpressionOperator
+     ns1:FixedBid(Type: xsd:string, Amount: xsd:double)
+     ns1:GenderCriterion(Type: xsd:string, GenderType: ns1:GenderType)
+     ns1:GenderType
+     ns1:GeoPoint(LatitudeInMicroDegrees: xsd:int, LongitudeInMicroDegrees: xsd:int)
+     ns1:IdCollection(Ids: ns4:ArrayOfNullableOflong)
+     ns1:Image(Id: xsd:long, MediaType: xsd:string, Type: xsd:string, Data: xsd:string)
+     ns1:ImageAdExtension(DevicePreference: xsd:long, ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Id: xsd:long, Scheduling: ns1:Schedule, Status: ns1:AdExtensionStatus, Type: xsd:string, Version: xsd:int, AlternativeText: xsd:string, Description: xsd:string, DestinationUrl: xsd:string, FinalAppUrls: ns1:ArrayOfAppUrl, FinalMobileUrls: ns2:ArrayOfstring, FinalUrls: ns2:ArrayOfstring, ImageMediaIds: ns2:ArrayOflong, TrackingUrlTemplate: xsd:string, UrlCustomParameters: ns1:CustomParameters)
+     ns1:ImageMediaRepresentation(Name: xsd:string, Type: xsd:string, Url: xsd:string, Height: xsd:int, Width: xsd:int)
+     ns1:InMarketAudience(AudienceNetworkSize: xsd:long, Description: xsd:string, ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Id: xsd:long, MembershipDuration: xsd:int, Name: xsd:string, ParentId: xsd:long, Scope: ns1:EntityScope, SearchSize: xsd:long, SupportedCampaignTypes: ns2:ArrayOfstring, Type: ns1:Anonymous[])
+     ns1:InStoreTransactionGoal(ConversionWindowInMinutes: xsd:int, CountType: ns1:ConversionGoalCountType, Id: xsd:long, Name: xsd:string, Revenue: ns1:ConversionGoalRevenue, Scope: ns1:EntityScope, Status: ns1:ConversionGoalStatus, TagId: xsd:long, TrackingStatus: ns1:ConversionGoalTrackingStatus, Type: ns1:Anonymous[])
+     ns1:InheritFromParentBiddingScheme(Type: xsd:string, InheritedBidStrategyType: xsd:string)
+     ns1:IntentOption
+     ns1:ItemAction
+     ns1:Keyword(Bid: ns1:Bid, BiddingScheme: ns1:BiddingScheme, DestinationUrl: xsd:string, EditorialStatus: ns1:KeywordEditorialStatus, FinalAppUrls: ns1:ArrayOfAppUrl, FinalMobileUrls: ns2:ArrayOfstring, FinalUrls: ns2:ArrayOfstring, ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Id: xsd:long, MatchType: ns1:MatchType, Param1: xsd:string, Param2: xsd:string, Param3: xsd:string, Status: ns1:KeywordStatus, Text: xsd:string, TrackingUrlTemplate: xsd:string, UrlCustomParameters: ns1:CustomParameters)
+     ns1:KeywordEditorialStatus
+     ns1:KeywordStatus
+     ns1:Label(ColorCode: xsd:string, Description: xsd:string, Id: xsd:long, Name: xsd:string)
+     ns1:LabelAssociation(EntityId: xsd:long, LabelId: xsd:long)
+     ns1:LocationAdExtension(DevicePreference: xsd:long, ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Id: xsd:long, Scheduling: ns1:Schedule, Status: ns1:AdExtensionStatus, Type: xsd:string, Version: xsd:int, Address: ns1:Address, CompanyName: xsd:string, GeoCodeStatus: ns1:BusinessGeoCodeStatus, GeoPoint: ns1:GeoPoint, PhoneNumber: xsd:string)
+     ns1:LocationCriterion(Type: xsd:string, DisplayName: xsd:string, EnclosedLocationIds: ns2:ArrayOflong, LocationId: xsd:long, LocationType: xsd:string)
+     ns1:LocationIntentCriterion(Type: xsd:string, IntentOption: ns1:IntentOption)
+     ns1:ManualCpcBiddingScheme(Type: xsd:string)
+     ns1:MatchType
+     ns1:MaxClicksBiddingScheme(Type: xsd:string, MaxCpc: ns1:Bid)
+     ns1:MaxConversionsBiddingScheme(Type: xsd:string, MaxCpc: ns1:Bid)
+     ns1:Media(Id: xsd:long, MediaType: xsd:string, Type: xsd:string)
+     ns1:MediaAssociation(EntityId: xsd:long, MediaEnabledEntity: ns1:Anonymous[], MediaId: xsd:long)
+     ns1:MediaMetaData(Id: xsd:long, MediaType: xsd:string, Representations: ns1:ArrayOfMediaRepresentation, Type: xsd:string)
+     ns1:MediaRepresentation(Name: xsd:string, Type: xsd:string, Url: xsd:string)
+     ns1:MigrationStatus
+     ns1:MigrationStatusInfo(MigrationType: xsd:string, StartTimeInUtc: xsd:dateTime, Status: ns1:MigrationStatus)
+     ns1:Minute
+     ns1:NegativeAdGroupCriterion(AdGroupId: xsd:long, Criterion: ns1:Criterion, Id: xsd:long, Status: ns1:AdGroupCriterionStatus, Type: xsd:string)
+     ns1:NegativeCampaignCriterion(CampaignId: xsd:long, Criterion: ns1:Criterion, ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Id: xsd:long, Status: ns1:CampaignCriterionStatus, Type: xsd:string)
+     ns1:NegativeKeyword(ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Type: xsd:string, Id: xsd:long, MatchType: ns1:MatchType, Text: xsd:string)
+     ns1:NegativeKeywordList(AssociationCount: xsd:int, ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Id: xsd:long, Name: xsd:string, Type: xsd:string, ItemCount: xsd:int)
+     ns1:Network
+     ns1:NumberOperator
+     ns1:OfflineConversion(ConversionCurrencyCode: xsd:string, ConversionName: xsd:string, ConversionTime: xsd:dateTime, ConversionValue: xsd:double, MicrosoftClickId: xsd:string)
+     ns1:OfflineConversionGoal(ConversionWindowInMinutes: xsd:int, CountType: ns1:ConversionGoalCountType, Id: xsd:long, Name: xsd:string, Revenue: ns1:ConversionGoalRevenue, Scope: ns1:EntityScope, Status: ns1:ConversionGoalStatus, TagId: xsd:long, TrackingStatus: ns1:ConversionGoalTrackingStatus, Type: ns1:Anonymous[])
+     ns1:OperationError(Code: xsd:int, Details: xsd:string, ErrorCode: xsd:string, Message: xsd:string)
+     ns1:PageVisitorsRule(Type: xsd:string, RuleItemGroups: ns1:ArrayOfRuleItemGroup)
+     ns1:PageVisitorsWhoDidNotVisitAnotherPageRule(Type: xsd:string, ExcludeRuleItemGroups: ns1:ArrayOfRuleItemGroup, IncludeRuleItemGroups: ns1:ArrayOfRuleItemGroup)
+     ns1:PageVisitorsWhoVisitedAnotherPageRule(Type: xsd:string, AnotherRuleItemGroups: ns1:ArrayOfRuleItemGroup, RuleItemGroups: ns1:ArrayOfRuleItemGroup)
+     ns1:PagesViewedPerVisitGoal(ConversionWindowInMinutes: xsd:int, CountType: ns1:ConversionGoalCountType, Id: xsd:long, Name: xsd:string, Revenue: ns1:ConversionGoalRevenue, Scope: ns1:EntityScope, Status: ns1:ConversionGoalStatus, TagId: xsd:long, TrackingStatus: ns1:ConversionGoalTrackingStatus, Type: ns1:Anonymous[], MinimumPagesViewed: xsd:int)
+     ns1:Paging(Index: xsd:int, Size: xsd:int)
+     ns1:PriceAdExtension(DevicePreference: xsd:long, ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Id: xsd:long, Scheduling: ns1:Schedule, Status: ns1:AdExtensionStatus, Type: xsd:string, Version: xsd:int, Language: xsd:string, PriceExtensionType: ns1:PriceExtensionType, TableRows: ns1:ArrayOfPriceTableRow, TrackingUrlTemplate: xsd:string, UrlCustomParameters: ns1:CustomParameters)
+     ns1:PriceExtensionType
+     ns1:PriceQualifier
+     ns1:PriceTableRow(CurrencyCode: xsd:string, Description: xsd:string, FinalMobileUrls: ns2:ArrayOfstring, FinalUrls: ns2:ArrayOfstring, Header: xsd:string, Price: xsd:double, PriceQualifier: ns1:PriceQualifier, PriceUnit: ns1:PriceUnit, TermsAndConditions: xsd:string, TermsAndConditionsUrl: xsd:string)
+     ns1:PriceUnit
+     ns1:ProductAd(AdFormatPreference: xsd:string, DevicePreference: xsd:long, EditorialStatus: ns1:AdEditorialStatus, FinalAppUrls: ns1:ArrayOfAppUrl, FinalMobileUrls: ns2:ArrayOfstring, FinalUrls: ns2:ArrayOfstring, ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Id: xsd:long, Status: ns1:AdStatus, TrackingUrlTemplate: xsd:string, Type: ns1:AdType, UrlCustomParameters: ns1:CustomParameters, PromotionalText: xsd:string)
+     ns1:ProductAudience(AudienceNetworkSize: xsd:long, Description: xsd:string, ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Id: xsd:long, MembershipDuration: xsd:int, Name: xsd:string, ParentId: xsd:long, Scope: ns1:EntityScope, SearchSize: xsd:long, SupportedCampaignTypes: ns2:ArrayOfstring, Type: ns1:Anonymous[], ProductAudienceType: ns1:Anonymous[], TagId: xsd:long)
+     ns1:ProductCondition(Attribute: xsd:string, Operand: xsd:string)
+     ns1:ProductPartition(Type: xsd:string, Condition: ns1:ProductCondition, ParentCriterionId: xsd:long, PartitionType: ns1:ProductPartitionType)
+     ns1:ProductPartitionType
+     ns1:ProductScope(Type: xsd:string, Conditions: ns1:ArrayOfProductCondition)
+     ns1:ProfileCriterion(Type: xsd:string, ProfileId: xsd:long, ProfileType: ns1:Anonymous[])
+     ns1:RadiusCriterion(Type: xsd:string, LatitudeDegrees: xsd:double, LongitudeDegrees: xsd:double, Name: xsd:string, Radius: xsd:long, RadiusUnit: ns1:DistanceUnit)
+     ns1:RemarketingList(AudienceNetworkSize: xsd:long, Description: xsd:string, ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Id: xsd:long, MembershipDuration: xsd:int, Name: xsd:string, ParentId: xsd:long, Scope: ns1:EntityScope, SearchSize: xsd:long, SupportedCampaignTypes: ns2:ArrayOfstring, Type: ns1:Anonymous[], Rule: ns1:RemarketingRule, TagId: xsd:long)
+     ns1:RemarketingRule(Type: xsd:string)
+     ns1:ResponsiveAd(AdFormatPreference: xsd:string, DevicePreference: xsd:long, EditorialStatus: ns1:AdEditorialStatus, FinalAppUrls: ns1:ArrayOfAppUrl, FinalMobileUrls: ns2:ArrayOfstring, FinalUrls: ns2:ArrayOfstring, ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Id: xsd:long, Status: ns1:AdStatus, TrackingUrlTemplate: xsd:string, Type: ns1:AdType, UrlCustomParameters: ns1:CustomParameters, BusinessName: xsd:string, CallToAction: ns1:CallToAction, Headline: xsd:string, LandscapeImageMediaId: xsd:long, LandscapeLogoMediaId: xsd:long, LongHeadline: xsd:string, SquareImageMediaId: xsd:long, SquareLogoMediaId: xsd:long, Text: xsd:string)
+     ns1:ReviewAdExtension(DevicePreference: xsd:long, ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Id: xsd:long, Scheduling: ns1:Schedule, Status: ns1:AdExtensionStatus, Type: xsd:string, Version: xsd:int, IsExact: xsd:boolean, Source: xsd:string, Text: xsd:string, Url: xsd:string)
+     ns1:RuleItem(Type: xsd:string)
+     ns1:RuleItemGroup(Items: ns1:ArrayOfRuleItem)
+     ns1:Schedule(DayTimeRanges: ns1:ArrayOfDayTime, EndDate: ns1:Date, StartDate: ns1:Date, UseSearcherTimeZone: xsd:boolean)
+     ns1:Setting(Type: xsd:string)
+     ns1:SharedEntity(AssociationCount: xsd:int, ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Id: xsd:long, Name: xsd:string, Type: xsd:string)
+     ns1:SharedEntityAssociation(EntityId: xsd:long, EntityType: xsd:string, SharedEntityId: xsd:long, SharedEntityType: xsd:string)
+     ns1:SharedList(AssociationCount: xsd:int, ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Id: xsd:long, Name: xsd:string, Type: xsd:string, ItemCount: xsd:int)
+     ns1:SharedListItem(ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Type: xsd:string)
+     ns1:ShoppingSetting(Type: xsd:string, LocalInventoryAdsEnabled: xsd:boolean, Priority: xsd:int, SalesCountryCode: xsd:string, StoreId: xsd:long)
+     ns1:SitelinkAdExtension(DevicePreference: xsd:long, ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Id: xsd:long, Scheduling: ns1:Schedule, Status: ns1:AdExtensionStatus, Type: xsd:string, Version: xsd:int, Description1: xsd:string, Description2: xsd:string, DestinationUrl: xsd:string, DisplayText: xsd:string, FinalAppUrls: ns1:ArrayOfAppUrl, FinalMobileUrls: ns2:ArrayOfstring, FinalUrls: ns2:ArrayOfstring, TrackingUrlTemplate: xsd:string, UrlCustomParameters: ns1:CustomParameters)
+     ns1:StringOperator
+     ns1:StringRuleItem(Type: xsd:string, Operand: xsd:string, Operator: ns1:StringOperator, Value: xsd:string)
+     ns1:StructuredSnippetAdExtension(DevicePreference: xsd:long, ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Id: xsd:long, Scheduling: ns1:Schedule, Status: ns1:AdExtensionStatus, Type: xsd:string, Version: xsd:int, Header: xsd:string, Values: ns2:ArrayOfstring)
+     ns1:TargetCpaBiddingScheme(Type: xsd:string, MaxCpc: ns1:Bid, TargetCpa: xsd:double)
+     ns1:TargetSetting(Type: xsd:string, Details: ns1:ArrayOfTargetSettingDetail)
+     ns1:TargetSettingDetail(CriterionTypeGroup: ns1:CriterionTypeGroup, TargetAndBid: xsd:boolean)
+     ns1:TextAd(AdFormatPreference: xsd:string, DevicePreference: xsd:long, EditorialStatus: ns1:AdEditorialStatus, FinalAppUrls: ns1:ArrayOfAppUrl, FinalMobileUrls: ns2:ArrayOfstring, FinalUrls: ns2:ArrayOfstring, ForwardCompatibilityMap: ns3:ArrayOfKeyValuePairOfstringstring, Id: xsd:long, Status: ns1:AdStatus, TrackingUrlTemplate: xsd:string, Type: ns1:AdType, UrlCustomParameters: ns1:CustomParameters, DestinationUrl: xsd:string, DisplayUrl: xsd:string, Text: xsd:string, Title: xsd:string)
+     ns1:UetTag(Description: xsd:string, Id: xsd:long, Name: xsd:string, TrackingNoScript: xsd:string, TrackingScript: xsd:string, TrackingStatus: ns1:UetTagTrackingStatus)
+     ns1:UetTagTrackingStatus
+     ns1:UrlGoal(ConversionWindowInMinutes: xsd:int, CountType: ns1:ConversionGoalCountType, Id: xsd:long, Name: xsd:string, Revenue: ns1:ConversionGoalRevenue, Scope: ns1:EntityScope, Status: ns1:ConversionGoalStatus, TagId: xsd:long, TrackingStatus: ns1:ConversionGoalTrackingStatus, Type: ns1:Anonymous[], UrlExpression: xsd:string, UrlOperator: ns1:ExpressionOperator)
+     ns1:ValueOperator
+     ns1:Webpage(Type: xsd:string, Parameter: ns1:WebpageParameter)
+     ns1:WebpageCondition(Argument: xsd:string, Operand: ns1:WebpageConditionOperand)
+     ns1:WebpageConditionOperand
+     ns1:WebpageParameter(Conditions: ns1:ArrayOfWebpageCondition, CriterionName: xsd:string)
+
+Bindings:
+     Soap11Binding: {https://bingads.microsoft.com/CampaignManagement/v12}BasicHttpBinding_ICampaignManagementService
+
+Service: CampaignManagementService
+     Port: BasicHttpBinding_ICampaignManagementService (Soap11Binding: {https://bingads.microsoft.com/CampaignManagement/v12}BasicHttpBinding_ICampaignManagementService)
+         Operations:
+            AddAdExtensions(AccountId: xsd:long, AdExtensions: ns1:ArrayOfAdExtension, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {AdExtensionIdentities: ns1:ArrayOfAdExtensionIdentity, NestedPartialErrors: ns1:ArrayOfBatchErrorCollection}
+            AddAdGroupCriterions(AdGroupCriterions: ns1:ArrayOfAdGroupCriterion, CriterionType: ns1:Anonymous[], _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {AdGroupCriterionIds: ns4:ArrayOfNullableOflong, IsMigrated: xsd:boolean, NestedPartialErrors: ns1:ArrayOfBatchErrorCollection}
+            AddAdGroups(CampaignId: xsd:long, AdGroups: ns1:ArrayOfAdGroup, ReturnInheritedBidStrategyTypes: xsd:boolean, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {AdGroupIds: ns4:ArrayOfNullableOflong, InheritedBidStrategyTypes: ns2:ArrayOfstring, PartialErrors: ns1:ArrayOfBatchError}
+            AddAds(AdGroupId: xsd:long, Ads: ns1:ArrayOfAd, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {AdIds: ns4:ArrayOfNullableOflong, PartialErrors: ns1:ArrayOfBatchError}
+            AddAudiences(Audiences: ns1:ArrayOfAudience, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {AudienceIds: ns4:ArrayOfNullableOflong, PartialErrors: ns1:ArrayOfBatchError}
+            AddBudgets(Budgets: ns1:ArrayOfBudget, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {BudgetIds: ns4:ArrayOfNullableOflong, PartialErrors: ns1:ArrayOfBatchError}
+            AddCampaignCriterions(CampaignCriterions: ns1:ArrayOfCampaignCriterion, CriterionType: ns1:Anonymous[], _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {CampaignCriterionIds: ns4:ArrayOfNullableOflong, IsMigrated: xsd:boolean, NestedPartialErrors: ns1:ArrayOfBatchErrorCollection}
+            AddCampaigns(AccountId: xsd:long, Campaigns: ns1:ArrayOfCampaign, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {CampaignIds: ns4:ArrayOfNullableOflong, PartialErrors: ns1:ArrayOfBatchError}
+            AddConversionGoals(ConversionGoals: ns1:ArrayOfConversionGoal, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {ConversionGoalIds: ns4:ArrayOfNullableOflong, PartialErrors: ns1:ArrayOfBatchError}
+            AddKeywords(AdGroupId: xsd:long, Keywords: ns1:ArrayOfKeyword, ReturnInheritedBidStrategyTypes: xsd:boolean, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {InheritedBidStrategyTypes: ns2:ArrayOfstring, KeywordIds: ns4:ArrayOfNullableOflong, PartialErrors: ns1:ArrayOfBatchError}
+            AddLabels(Labels: ns1:ArrayOfLabel, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {LabelIds: ns4:ArrayOfNullableOflong, PartialErrors: ns1:ArrayOfBatchError}
+            AddListItemsToSharedList(ListItems: ns1:ArrayOfSharedListItem, SharedList: ns1:SharedList, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {ListItemIds: ns2:ArrayOflong, PartialErrors: ns1:ArrayOfBatchError}
+            AddMedia(AccountId: xsd:long, Media: ns1:ArrayOfMedia, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {MediaIds: ns2:ArrayOflong}
+            AddNegativeKeywordsToEntities(EntityNegativeKeywords: ns1:ArrayOfEntityNegativeKeyword, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {NegativeKeywordIds: ns1:ArrayOfIdCollection, NestedPartialErrors: ns1:ArrayOfBatchErrorCollection}
+            AddSharedEntity(SharedEntity: ns1:SharedEntity, ListItems: ns1:ArrayOfSharedListItem, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {ListItemIds: ns2:ArrayOflong, PartialErrors: ns1:ArrayOfBatchError, SharedEntityId: xsd:long}
+            AddUetTags(UetTags: ns1:ArrayOfUetTag, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {UetTags: ns1:ArrayOfUetTag, PartialErrors: ns1:ArrayOfBatchError}
+            AppealEditorialRejections(EntityIdToParentIdAssociations: ns1:ArrayOfEntityIdToParentIdAssociation, EntityType: ns1:EntityType, JustificationText: xsd:string, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {PartialErrors: ns1:ArrayOfBatchError}
+            ApplyOfflineConversions(OfflineConversions: ns1:ArrayOfOfflineConversion, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {PartialErrors: ns1:ArrayOfBatchError}
+            ApplyProductPartitionActions(CriterionActions: ns1:ArrayOfAdGroupCriterionAction, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {AdGroupCriterionIds: ns4:ArrayOfNullableOflong, PartialErrors: ns1:ArrayOfBatchError}
+            DeleteAdExtensions(AccountId: xsd:long, AdExtensionIds: ns2:ArrayOflong, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {PartialErrors: ns1:ArrayOfBatchError}
+            DeleteAdExtensionsAssociations(AccountId: xsd:long, AdExtensionIdToEntityIdAssociations: ns1:ArrayOfAdExtensionIdToEntityIdAssociation, AssociationType: ns1:AssociationType, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {PartialErrors: ns1:ArrayOfBatchError}
+            DeleteAdGroupCriterions(AdGroupCriterionIds: ns2:ArrayOflong, AdGroupId: xsd:long, CriterionType: ns1:Anonymous[], _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {IsMigrated: xsd:boolean, PartialErrors: ns1:ArrayOfBatchError}
+            DeleteAdGroups(CampaignId: xsd:long, AdGroupIds: ns2:ArrayOflong, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {PartialErrors: ns1:ArrayOfBatchError}
+            DeleteAds(AdGroupId: xsd:long, AdIds: ns2:ArrayOflong, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {PartialErrors: ns1:ArrayOfBatchError}
+            DeleteAudiences(AudienceIds: ns2:ArrayOflong, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {PartialErrors: ns1:ArrayOfBatchError}
+            DeleteBudgets(BudgetIds: ns2:ArrayOflong, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {PartialErrors: ns1:ArrayOfBatchError}
+            DeleteCampaignCriterions(CampaignCriterionIds: ns2:ArrayOflong, CampaignId: xsd:long, CriterionType: ns1:Anonymous[], _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {IsMigrated: xsd:boolean, PartialErrors: ns1:ArrayOfBatchError}
+            DeleteCampaigns(AccountId: xsd:long, CampaignIds: ns2:ArrayOflong, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {PartialErrors: ns1:ArrayOfBatchError}
+            DeleteKeywords(AdGroupId: xsd:long, KeywordIds: ns2:ArrayOflong, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {PartialErrors: ns1:ArrayOfBatchError}
+            DeleteLabelAssociations(EntityType: ns1:EntityType, LabelAssociations: ns1:ArrayOfLabelAssociation, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {PartialErrors: ns1:ArrayOfBatchError}
+            DeleteLabels(LabelIds: ns2:ArrayOflong, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {PartialErrors: ns1:ArrayOfBatchError}
+            DeleteListItemsFromSharedList(ListItemIds: ns2:ArrayOflong, SharedList: ns1:SharedList, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {PartialErrors: ns1:ArrayOfBatchError}
+            DeleteMedia(AccountId: xsd:long, MediaIds: ns2:ArrayOflong, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {PartialErrors: ns1:ArrayOfBatchError}
+            DeleteNegativeKeywordsFromEntities(EntityNegativeKeywords: ns1:ArrayOfEntityNegativeKeyword, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {NestedPartialErrors: ns1:ArrayOfBatchErrorCollection}
+            DeleteSharedEntities(SharedEntities: ns1:ArrayOfSharedEntity, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {PartialErrors: ns1:ArrayOfBatchError}
+            DeleteSharedEntityAssociations(Associations: ns1:ArrayOfSharedEntityAssociation, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {PartialErrors: ns1:ArrayOfBatchError}
+            GetAccountMigrationStatuses(AccountIds: ns2:ArrayOflong, MigrationType: xsd:string, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {MigrationStatuses: ns1:ArrayOfAccountMigrationStatusesInfo}
+            GetAccountProperties(AccountPropertyNames: ns1:ArrayOfAccountPropertyName, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {AccountProperties: ns1:ArrayOfAccountProperty, PartialErrors: ns1:ArrayOfBatchError}
+            GetAdExtensionIdsByAccountId(AccountId: xsd:long, AdExtensionType: ns1:Anonymous[], AssociationType: ns1:AssociationType, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {AdExtensionIds: ns2:ArrayOflong}
+            GetAdExtensionsAssociations(AccountId: xsd:long, AdExtensionType: ns1:Anonymous[], AssociationType: ns1:AssociationType, EntityIds: ns2:ArrayOflong, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {AdExtensionAssociationCollection: ns1:ArrayOfAdExtensionAssociationCollection, PartialErrors: ns1:ArrayOfBatchError}
+            GetAdExtensionsByIds(AccountId: xsd:long, AdExtensionIds: ns2:ArrayOflong, AdExtensionType: ns1:Anonymous[], _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {AdExtensions: ns1:ArrayOfAdExtension, PartialErrors: ns1:ArrayOfBatchError}
+            GetAdExtensionsEditorialReasons(AccountId: xsd:long, AdExtensionIdToEntityIdAssociations: ns1:ArrayOfAdExtensionIdToEntityIdAssociation, AssociationType: ns1:AssociationType, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {EditorialReasons: ns1:ArrayOfAdExtensionEditorialReasonCollection, PartialErrors: ns1:ArrayOfBatchError}
+            GetAdGroupCriterionsByIds(AdGroupCriterionIds: ns2:ArrayOflong, AdGroupId: xsd:long, CriterionType: ns1:Anonymous[], _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {AdGroupCriterions: ns1:ArrayOfAdGroupCriterion}
+            GetAdGroupsByCampaignId(CampaignId: xsd:long, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {AdGroups: ns1:ArrayOfAdGroup}
+            GetAdGroupsByIds(CampaignId: xsd:long, AdGroupIds: ns2:ArrayOflong, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {AdGroups: ns1:ArrayOfAdGroup, PartialErrors: ns1:ArrayOfBatchError}
+            GetAdsByAdGroupId(AdGroupId: xsd:long, AdTypes: ns1:ArrayOfAdType, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {Ads: ns1:ArrayOfAd}
+            GetAdsByEditorialStatus(AdGroupId: xsd:long, EditorialStatus: ns1:AdEditorialStatus, AdTypes: ns1:ArrayOfAdType, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {Ads: ns1:ArrayOfAd}
+            GetAdsByIds(AdGroupId: xsd:long, AdIds: ns2:ArrayOflong, AdTypes: ns1:ArrayOfAdType, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {Ads: ns1:ArrayOfAd, PartialErrors: ns1:ArrayOfBatchError}
+            GetAudiencesByIds(AudienceIds: ns2:ArrayOflong, Type: ns1:Anonymous[], _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {Audiences: ns1:ArrayOfAudience, PartialErrors: ns1:ArrayOfBatchError}
+            GetBMCStoresByCustomerId(_soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {BMCStores: ns1:ArrayOfBMCStore}
+            GetBSCCountries(_soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {CountryCodes: ns2:ArrayOfstring}
+            GetBudgetsByIds(BudgetIds: ns2:ArrayOflong, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {Budgets: ns1:ArrayOfBudget, PartialErrors: ns1:ArrayOfBatchError}
+            GetCampaignCriterionsByIds(CampaignCriterionIds: ns2:ArrayOflong, CampaignId: xsd:long, CriterionType: ns1:Anonymous[], _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {CampaignCriterions: ns1:ArrayOfCampaignCriterion, PartialErrors: ns1:ArrayOfBatchError}
+            GetCampaignIdsByBudgetIds(BudgetIds: ns2:ArrayOflong, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {CampaignIdCollection: ns1:ArrayOfIdCollection, PartialErrors: ns1:ArrayOfBatchError}
+            GetCampaignSizesByAccountId(AccountId: xsd:long, CampaignIds: ns2:ArrayOflong, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {CampaignSizes: ns1:ArrayOfCampaignSize}
+            GetCampaignsByAccountId(AccountId: xsd:long, CampaignType: ns1:Anonymous[], _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {Campaigns: ns1:ArrayOfCampaign}
+            GetCampaignsByIds(AccountId: xsd:long, CampaignIds: ns2:ArrayOflong, CampaignType: ns1:Anonymous[], _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {Campaigns: ns1:ArrayOfCampaign, PartialErrors: ns1:ArrayOfBatchError}
+            GetConfigValue(ConfigKey: xsd:string, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {ConfigValue: xsd:string}
+            GetConversionGoalsByIds(ConversionGoalIds: ns2:ArrayOflong, ConversionGoalTypes: ns1:Anonymous[], _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {ConversionGoals: ns1:ArrayOfConversionGoal, PartialErrors: ns1:ArrayOfBatchError}
+            GetConversionGoalsByTagIds(TagIds: ns2:ArrayOflong, ConversionGoalTypes: ns1:Anonymous[], _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {ConversionGoals: ns1:ArrayOfConversionGoal, PartialErrors: ns1:ArrayOfBatchError}
+            GetEditorialReasonsByIds(AccountId: xsd:long, EntityIdToParentIdAssociations: ns1:ArrayOfEntityIdToParentIdAssociation, EntityType: ns1:EntityType, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {EditorialReasons: ns1:ArrayOfEditorialReasonCollection, PartialErrors: ns1:ArrayOfBatchError}
+            GetGeoLocationsFileUrl(Version: xsd:string, LanguageLocale: xsd:string, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {FileUrl: xsd:string, FileUrlExpiryTimeUtc: xsd:dateTime, LastModifiedTimeUtc: xsd:dateTime}
+            GetKeywordsByAdGroupId(AdGroupId: xsd:long, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {Keywords: ns1:ArrayOfKeyword}
+            GetKeywordsByEditorialStatus(AdGroupId: xsd:long, EditorialStatus: ns1:KeywordEditorialStatus, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {Keywords: ns1:ArrayOfKeyword}
+            GetKeywordsByIds(AdGroupId: xsd:long, KeywordIds: ns2:ArrayOflong, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {Keywords: ns1:ArrayOfKeyword, PartialErrors: ns1:ArrayOfBatchError}
+            GetLabelAssociationsByEntityIds(EntityIds: ns2:ArrayOflong, EntityType: ns1:EntityType, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {LabelAssociations: ns1:ArrayOfLabelAssociation, PartialErrors: ns1:ArrayOfBatchError}
+            GetLabelAssociationsByLabelIds(EntityType: ns1:EntityType, LabelIds: ns2:ArrayOflong, PageInfo: ns1:Paging, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {LabelAssociations: ns1:ArrayOfLabelAssociation, PartialErrors: ns1:ArrayOfBatchError}
+            GetLabelsByIds(LabelIds: ns2:ArrayOflong, PageInfo: ns1:Paging, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {Labels: ns1:ArrayOfLabel, PartialErrors: ns1:ArrayOfBatchError}
+            GetListItemsBySharedList(SharedList: ns1:SharedList, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {ListItems: ns1:ArrayOfSharedListItem}
+            GetMediaAssociations(MediaEnabledEntities: ns1:Anonymous[], MediaIds: ns2:ArrayOflong, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {MediaAssociations: ns1:ArrayOfArrayOfMediaAssociation, PartialErrors: ns1:ArrayOfBatchError}
+            GetMediaMetaDataByAccountId(MediaEnabledEntities: ns1:Anonymous[], _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {MediaMetaData: ns1:ArrayOfMediaMetaData}
+            GetMediaMetaDataByIds(MediaIds: ns2:ArrayOflong, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {MediaMetaData: ns1:ArrayOfMediaMetaData, PartialErrors: ns1:ArrayOfBatchError}
+            GetNegativeKeywordsByEntityIds(EntityIds: ns2:ArrayOflong, EntityType: xsd:string, ParentEntityId: xsd:long, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {EntityNegativeKeywords: ns1:ArrayOfEntityNegativeKeyword, PartialErrors: ns1:ArrayOfBatchError}
+            GetNegativeSitesByAdGroupIds(CampaignId: xsd:long, AdGroupIds: ns2:ArrayOflong, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {AdGroupNegativeSites: ns1:ArrayOfAdGroupNegativeSites, PartialErrors: ns1:ArrayOfBatchError}
+            GetNegativeSitesByCampaignIds(AccountId: xsd:long, CampaignIds: ns2:ArrayOflong, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {CampaignNegativeSites: ns1:ArrayOfCampaignNegativeSites, PartialErrors: ns1:ArrayOfBatchError}
+            GetProfileDataFileUrl(LanguageLocale: xsd:string, ProfileType: ns1:Anonymous[], _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {FileUrl: xsd:string, FileUrlExpiryTimeUtc: xsd:dateTime, LastModifiedTimeUtc: xsd:dateTime}
+            GetSharedEntitiesByAccountId(SharedEntityType: xsd:string, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {SharedEntities: ns1:ArrayOfSharedEntity}
+            GetSharedEntityAssociationsByEntityIds(EntityIds: ns2:ArrayOflong, EntityType: xsd:string, SharedEntityType: xsd:string, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {Associations: ns1:ArrayOfSharedEntityAssociation, PartialErrors: ns1:ArrayOfBatchError}
+            GetSharedEntityAssociationsBySharedEntityIds(EntityType: xsd:string, SharedEntityIds: ns2:ArrayOflong, SharedEntityType: xsd:string, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {Associations: ns1:ArrayOfSharedEntityAssociation, PartialErrors: ns1:ArrayOfBatchError}
+            GetUetTagsByIds(TagIds: ns2:ArrayOflong, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {UetTags: ns1:ArrayOfUetTag, PartialErrors: ns1:ArrayOfBatchError}
+            SetAccountProperties(AccountProperties: ns1:ArrayOfAccountProperty, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {}
+            SetAdExtensionsAssociations(AccountId: xsd:long, AdExtensionIdToEntityIdAssociations: ns1:ArrayOfAdExtensionIdToEntityIdAssociation, AssociationType: ns1:AssociationType, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {PartialErrors: ns1:ArrayOfBatchError}
+            SetLabelAssociations(EntityType: ns1:EntityType, LabelAssociations: ns1:ArrayOfLabelAssociation, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {PartialErrors: ns1:ArrayOfBatchError}
+            SetNegativeSitesToAdGroups(CampaignId: xsd:long, AdGroupNegativeSites: ns1:ArrayOfAdGroupNegativeSites, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {PartialErrors: ns1:ArrayOfBatchError}
+            SetNegativeSitesToCampaigns(AccountId: xsd:long, CampaignNegativeSites: ns1:ArrayOfCampaignNegativeSites, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {PartialErrors: ns1:ArrayOfBatchError}
+            SetSharedEntityAssociations(Associations: ns1:ArrayOfSharedEntityAssociation, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {PartialErrors: ns1:ArrayOfBatchError}
+            UpdateAdExtensions(AccountId: xsd:long, AdExtensions: ns1:ArrayOfAdExtension, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {NestedPartialErrors: ns1:ArrayOfBatchErrorCollection}
+            UpdateAdGroupCriterions(AdGroupCriterions: ns1:ArrayOfAdGroupCriterion, CriterionType: ns1:Anonymous[], _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {IsMigrated: xsd:boolean, NestedPartialErrors: ns1:ArrayOfBatchErrorCollection}
+            UpdateAdGroups(CampaignId: xsd:long, AdGroups: ns1:ArrayOfAdGroup, UpdateAudienceAdsBidAdjustment: xsd:boolean, ReturnInheritedBidStrategyTypes: xsd:boolean, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {InheritedBidStrategyTypes: ns2:ArrayOfstring, PartialErrors: ns1:ArrayOfBatchError}
+            UpdateAds(AdGroupId: xsd:long, Ads: ns1:ArrayOfAd, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {PartialErrors: ns1:ArrayOfBatchError}
+            UpdateAudiences(Audiences: ns1:ArrayOfAudience, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {PartialErrors: ns1:ArrayOfBatchError}
+            UpdateBudgets(Budgets: ns1:ArrayOfBudget, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {PartialErrors: ns1:ArrayOfBatchError}
+            UpdateCampaignCriterions(CampaignCriterions: ns1:ArrayOfCampaignCriterion, CriterionType: ns1:Anonymous[], _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {IsMigrated: xsd:boolean, NestedPartialErrors: ns1:ArrayOfBatchErrorCollection}
+            UpdateCampaigns(AccountId: xsd:long, Campaigns: ns1:ArrayOfCampaign, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {PartialErrors: ns1:ArrayOfBatchError}
+            UpdateConversionGoals(ConversionGoals: ns1:ArrayOfConversionGoal, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {PartialErrors: ns1:ArrayOfBatchError}
+            UpdateKeywords(AdGroupId: xsd:long, Keywords: ns1:ArrayOfKeyword, ReturnInheritedBidStrategyTypes: xsd:boolean, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {InheritedBidStrategyTypes: ns2:ArrayOfstring, PartialErrors: ns1:ArrayOfBatchError}
+            UpdateLabels(Labels: ns1:ArrayOfLabel, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {PartialErrors: ns1:ArrayOfBatchError}
+            UpdateSharedEntities(SharedEntities: ns1:ArrayOfSharedEntity, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {PartialErrors: ns1:ArrayOfBatchError}
+            UpdateUetTags(UetTags: ns1:ArrayOfUetTag, _soapheaders={ApplicationToken: xsd:string, AuthenticationToken: xsd:string, CustomerAccountId: xsd:string, CustomerId: xsd:string, DeveloperToken: xsd:string, Password: xsd:string, UserName: xsd:string}) -> header: {TrackingId: xsd:string}, body: {PartialErrors: ns1:ArrayOfBatchError}
+
