@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+sphinx_autorun_ebs/__init__.py
+sphinx_autorun_ebs/pycon.py
+sphinx_autorun_ebs/version.py
+sphinx_autorun_ebs.egg-info/PKG-INFO
+sphinx_autorun_ebs.egg-info/SOURCES.txt
+sphinx_autorun_ebs.egg-info/dependency_links.txt
+sphinx_autorun_ebs.egg-info/requires.txt
+sphinx_autorun_ebs.egg-info/top_level.txt
