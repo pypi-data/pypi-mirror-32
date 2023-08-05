@@ -1,0 +1,12 @@
+RNWS/__init__.py,sha256=8AnSIYgce87q0riUujWvc5Bc9onpnR7ck7WKxU9CFiI,185
+RNWS/detect.py,sha256=9dXbeF65BREP_VdGZhWQPwXACpss8e3uKdU0I_4Pyfc,265
+RNWS/read.py,sha256=b85leK1eUddCMODHr-2odr_K9lUt23ra7v4ouOu4T6s,4063
+RNWS/update.py,sha256=xUQrrq-6HF7HHATr7JG-Stu7h3ePn9uc3Qlc5DSl1gY,618
+RNWS/write.py,sha256=odRlYqfDQGzY3zsy_1V0FiDj7OFj7Cz9wiJmW6vPugs,1418
+RNWS/data/trading_date.csv,sha256=Zxjd8oAxTfMKXNMqltfnrCrMQsrCEU2wrlVoPe8GNGY,21880
+RNWS-0.0.8.dist-info/DESCRIPTION.rst,sha256=Cuv0SiUaarqaOLka03Kybk4cNZWBzbzSS6MKe1BSVsw,45
+RNWS-0.0.8.dist-info/METADATA,sha256=CowqsUV5ftdSXcrWMWK3J64MdP_IztWBcewPdfCIA50,255
+RNWS-0.0.8.dist-info/RECORD,,
+RNWS-0.0.8.dist-info/WHEEL,sha256=Ds0ba8WsPJtjBPzEMyPOBG3qfPa6B4mlzB-vhzorIZs,97
+RNWS-0.0.8.dist-info/metadata.json,sha256=0yt0L7rHCgCDdyWcmRnRYYLsQaXjAZ1B7aR8boidMAQ,347
+RNWS-0.0.8.dist-info/top_level.txt,sha256=uuSFc8gpdYkkY6lg_VrNKNgZT2WcnYBtO0J02GxjRqc,5
