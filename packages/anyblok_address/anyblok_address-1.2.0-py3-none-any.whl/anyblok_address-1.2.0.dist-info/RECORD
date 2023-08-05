@@ -1,0 +1,11 @@
+anyblok_address/__init__.py,sha256=4JtfiwDFyA_91agHyZgpSq1CS7hj9lyb3L86E7XS9oo,373
+anyblok_address/bloks/__init__.py,sha256=4JtfiwDFyA_91agHyZgpSq1CS7hj9lyb3L86E7XS9oo,373
+anyblok_address/bloks/address/__init__.py,sha256=gQpIukVpwpLRjYaFwp7SnDwS__ZZgouFKJonohb_5XA,781
+anyblok_address/bloks/address/address.py,sha256=a01AZKc1KtvKP0M4mLEjnrIUFq-9V6ruBZHrKGP_BRg,2034
+anyblok_address/bloks/address/tests/__init__.py,sha256=4JtfiwDFyA_91agHyZgpSq1CS7hj9lyb3L86E7XS9oo,373
+anyblok_address/bloks/address/tests/test_model.py,sha256=JnUMvhS_GqGgAfEoGOO64HPzccWJ2rpDS297I50TjTA,1934
+anyblok_address-1.2.0.dist-info/METADATA,sha256=sOKRbJ4bLALkmG8i5PNGBtYRu8xROtZ0k_2K5-hHPio,2880
+anyblok_address-1.2.0.dist-info/RECORD,,
+anyblok_address-1.2.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+anyblok_address-1.2.0.dist-info/entry_points.txt,sha256=ObU9c3APz4ZHhYSOA6A6S9uIBep15oSQguzUsMk-aAE,61
+anyblok_address-1.2.0.dist-info/top_level.txt,sha256=FWCT65b-P7ThSrqZNRczkSZBFU2NsNlsTLZo1U1iNEg,16
