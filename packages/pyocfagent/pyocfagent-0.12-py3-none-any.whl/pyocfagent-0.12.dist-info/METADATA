@@ -1,0 +1,23 @@
+Metadata-Version: 2.0
+Name: pyocfagent
+Version: 0.12
+Summary: Python OCF Resource Agent Framework for Pacemaker Clusters
+Home-page: https://github.com/CygnusNetworks/pyocfagent
+Author: Dr. Torge Szczepanek
+Author-email: info@cygnusnetworks.de
+License: GPLv2
+Download-URL: https://github.com/CygnusNetworks/pyocfagent/tarball/v0.12
+Keywords: pacemaker,ocf,agent,python
+Platform: POSIX
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: POSIX
+Classifier: Topic :: Internet
+Classifier: Topic :: System :: Networking
+Requires-Dist: lxml
+
+This is a Python OCF Cluster Resource Agent Framework for implementing OCF Resource Agents in Python. It allows you to implement a OCF compatible resource agent for Pacemaker with pure Python logic. Most Resource agents are implemented as Shell Scripts (see Debian Package resource-agents for examples). The pyocfagent allows you to implement such resource agents directly in Python. The framework creates resource agent meta-data on the fly from your source code by introspection of your derived Pyhon class.
+
+

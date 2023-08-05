@@ -1,0 +1,10 @@
+ocfagent/__init__.py,sha256=T5YgZRLnH4lNpfwyC8MgzFpTgub1_NB9jdHNA651brY,268
+ocfagent/agent.py,sha256=-6_iOxlWnXj2NLXmVCFFRuLMQmHW7HT7aoAbxpwLo_A,11253
+ocfagent/error.py,sha256=SUy2PWP6LgWCIoYN1eBmSZPeVI49F4m4poRp3RLMgTU,7641
+ocfagent/parameter.py,sha256=cKrlDKDWrCUn5DfbBsofmcTRrQvS1zFYXhpOFot37w0,3816
+pyocfagent-0.12.dist-info/DESCRIPTION.rst,sha256=O_ELAfkII5y8jrQc8kwDmjzLWKe8zdYaXY806l-7c9E,512
+pyocfagent-0.12.dist-info/METADATA,sha256=974QzjyP0wGY3FgiFpVP3fZCISkkNW1gzeHznL-Rvss,1253
+pyocfagent-0.12.dist-info/RECORD,,
+pyocfagent-0.12.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+pyocfagent-0.12.dist-info/metadata.json,sha256=11zSzav8SLazmC2Dfm5t2-Tdxj6SHRAnoW01sYT5lb8,961
+pyocfagent-0.12.dist-info/top_level.txt,sha256=W7YalZU0VkITPxp7ffA8KVAaG-2OButDuSC8TMCgF9w,9
