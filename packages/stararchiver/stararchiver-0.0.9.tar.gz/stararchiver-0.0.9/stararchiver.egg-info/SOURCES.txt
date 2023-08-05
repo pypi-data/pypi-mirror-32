@@ -1,0 +1,8 @@
+README.md
+setup.py
+stararchiver
+stararchiver.egg-info/PKG-INFO
+stararchiver.egg-info/SOURCES.txt
+stararchiver.egg-info/dependency_links.txt
+stararchiver.egg-info/requires.txt
+stararchiver.egg-info/top_level.txt
