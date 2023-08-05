@@ -1,0 +1,12 @@
+cwl_upgrader-0.4.0.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+cwl_upgrader-0.4.0.dist-info/METADATA,sha256=UmmwT9dnAqAJnSvSiU8bXIkFy1aVicWTHrxdge07XEQ,2049
+cwl_upgrader-0.4.0.dist-info/RECORD,,
+cwl_upgrader-0.4.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+cwl_upgrader-0.4.0.dist-info/entry_points.txt,sha256=GYxJwAvY9vtor6PVnqSNdYVBxgqHV_6eekX7Hgr7Mv0,56
+cwl_upgrader-0.4.0.dist-info/top_level.txt,sha256=NErYxtP5-uVAsNI7qRKhPao5nNBUGtbgRChrxDtYykI,12
+cwl_upgrader-0.4.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cwlupgrader/__init__.py,sha256=8z1z2CBysvOMVJyQmJbGXC80x-Eexe2I9b6hRPDnkV4,79
+cwlupgrader/main.py,sha256=6CU-xaW9t9w-yT8Cmp_dA30bMQiBoXHqnFdv4ONTTek,8987
+cwlupgrader/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cwlupgrader/tests/test_complete.py,sha256=Q9Sc__5jTF7LM6Z7weVHsBbGN5LvDQ6IVBsYbk1Ap4U,479
+cwlupgrader/tests/util.py,sha256=zadYFf_H_5tIFWIRgfvTmiZltfYjFyk_6g6Ll0dcizY,896
