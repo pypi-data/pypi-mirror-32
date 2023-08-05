@@ -1,0 +1,9 @@
+steampi/__init__.py,sha256=Wi2O_7HJhsm3GuygDEQV0IKP8CAADg8Ar_ZgQskos9w,103
+steampi/api.py,sha256=cdCbAcH8PSeCYgDQnOV2ym-R-cF4W0d5f3QG2QIVP4k,1747
+steampi/calendar.py,sha256=u8PjRgpw2v7h-km88AlOdVsePEj9-84gBrrQGkQmw50,1264
+steampi/json_utils.py,sha256=7F2S2ZC9uBdVhOstdZiT24OssbpaXQNviQWlTp-0YTI,839
+steampi/text_distances.py,sha256=iEaqHt62zfhMJOPxnyYdfawtaYVEt_FNg-bwjGJwgJ8,942
+steampi-0.2.4.dist-info/METADATA,sha256=ucSEApgcBytI7MlfwdLCEV6BIysO8VpKjxxWuEnwls4,661
+steampi-0.2.4.dist-info/RECORD,,
+steampi-0.2.4.dist-info/WHEEL,sha256=CG516Me1TEyQqkQMqQpnDadrWi7ujPk88poSAu3OliQ,116
+steampi-0.2.4.dist-info/top_level.txt,sha256=DzhHUrZ3gGR7Gbgx2OMZVmlAX_5bHg1s7sUouR3XFHo,8
