@@ -1,0 +1,9 @@
+[console_scripts]
+baseq = baseq.cmd:cli
+baseq-BAM = baseq.bam:cli
+baseq-CNV = baseq.cnv:cli
+baseq-Drop = baseq.drops:cli
+baseq-RNA = baseq.rna:cli
+baseq-SNV = baseq.snv.cmd:cli
+baseq-fastq = baseq.fastq:cli
+
