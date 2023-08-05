@@ -1,0 +1,12 @@
+Data_Analysis_Lib-2.0.dist-info/METADATA,sha256=1nAP_6cXaEz5m0sLygllFO6grZTYeCZVDc-FM96mN9c,501
+Data_Analysis_Lib-2.0.dist-info/RECORD,,
+Data_Analysis_Lib-2.0.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+Data_Analysis_Lib-2.0.dist-info/top_level.txt,sha256=QLDZtUC5zFf2NOhyHHZvgG2Av8-5c5EvtAJh76CwzuU,16
+dataanalysislib/__init__.py,sha256=_JN-7pEeeT30YCOEqa04cS1UiEd6VNL9JhTBmt-KRFs,305
+dataanalysislib/dataset.py,sha256=lxCBhbfFeSYAQGhU_0UDxLYTXzW3ZXwSSkECswsaL5w,4698
+dataanalysislib/global_enums.py,sha256=Ph2uWGlbqg9RyOEu5p8sWxV523QKUlIKFUk3vIaXUEQ,187
+dataanalysislib/global_funcs.py,sha256=QPp11RbxrNN1O62jLZoWXDNO1SB1DvV19-ojGcCciGs,2609
+dataanalysislib/pascoparser.py,sha256=AvXyDr_S21PTssFysaKqu_vSPFOzgTXsblGGWt4saaM,4129
+dataanalysislib/xydatafit.py,sha256=HMfqhG8WAHQAkBThWk0nZ9WVRoht-SBKVWhiRueQ-k0,8896
+dataanalysislib/xydataset.py,sha256=8mPr8sr7zQ5UbbeCdugglRFxj3QZxTGCumqdmVdNWjQ,9328
+dataanalysislib/xyfit.py,sha256=QYuDCtENMTjkZIiGtwZ6r3AS81jtnjS4u56leAeOxP4,13875
