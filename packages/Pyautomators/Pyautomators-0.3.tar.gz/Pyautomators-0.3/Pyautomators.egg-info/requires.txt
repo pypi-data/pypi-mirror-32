@@ -1,0 +1,16 @@
+pytesseract
+pillow
+pyautogui
+assertpy
+cx_Oracle
+selenium
+pytractor
+numpy
+mysqlclient
+opencv-python
+Appium-Python-Client
+pynput
+behave2cucumber
+python-jenkins
+behave
+django
