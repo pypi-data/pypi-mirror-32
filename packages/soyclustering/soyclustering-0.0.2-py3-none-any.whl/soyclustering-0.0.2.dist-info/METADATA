@@ -1,0 +1,16 @@
+Metadata-Version: 2.0
+Name: soyclustering
+Version: 0.0.2
+Summary: Python library for document clustering
+Home-page: https://github.com/lovit/clustering4docs
+Author: Lovit
+Author-email: soy.lovit@gmail.com
+License: UNKNOWN
+Keywords: document clustering,clustering labeling
+Platform: UNKNOWN
+Requires-Dist: numpy (>=1.14.2)
+Requires-Dist: scikit-learn (>=0.18.0)
+
+Python library for document clustering
+
+
