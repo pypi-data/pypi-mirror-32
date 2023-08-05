@@ -1,0 +1,8 @@
+README.rst
+setup.py
+echosun/__init__.py
+echosun/pip.py
+echosun.egg-info/PKG-INFO
+echosun.egg-info/SOURCES.txt
+echosun.egg-info/dependency_links.txt
+echosun.egg-info/top_level.txt
