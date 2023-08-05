@@ -1,0 +1,58 @@
+Metadata-Version: 2.0
+Name: oplus
+Version: 6.0.0b0
+Summary: UNKNOWN
+Home-page: https://github.com/Openergy/oplus
+Author: Geoffroy d'Estaintot
+Author-email: geoffroy.destaintot@openergy.fr
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: French
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Dist: nose (<4.1,>=1.3.7)
+Requires-Dist: nose-exclude (>=0.4.1,<1.0.0)
+Requires-Dist: pandas (>=0.16.2,<1.0.0)
+Requires-Dist: plotly (<2.0.0,>=1.9.6)
+Requires-Dist: unidecode (>=1.0.22,<2.0)
+
+# oplus
+
+A python package wrapper of Energy Plus.
+
+## Documentation
+* For users: see doc-users.md (use odocgen to improve)
+* For developers: see doc-developers.md
+
+## Tests
+
+### Energy plus versions
+
+Oplus is supposed to work with multiple versions of Energy Plus.
+Currently, it is tested with the following versions (listed in TESTED_EPLUS_VERSIONS : oplus.tests.util):
+* 8.5.0
+* 8.6.0
+
+Each test is therefore run multiple times : once per tested version. To automatically run a test on all versions, use
+eplus_tester function (oplus.tests.util).
+
+### Operating system
+
+Oplus is supposed to work on multiple operating systems. The tested operating systems must be exposed in the RELEASE
+file. For versions with no OS specified, the only covered os is the continuous integration server os (Ubuntu 16.04).
+
+### Simulations
+
+In order to limit the testing time, we limit the number of simulations performed during tests : only one test performs 
+a simulation (one simulation per eplus version). This simulation must be as quick as possible.
+
+When testing objects that manipulate simulation outputs, simulation must be performed once by the developer, and it's
+outputs are saved in the source code. In order to keep the repo size low, we try as much as possible to mutualize
+tested outputs, and we limit it's size (limit simulation timestep, time range, ...).
+
+
