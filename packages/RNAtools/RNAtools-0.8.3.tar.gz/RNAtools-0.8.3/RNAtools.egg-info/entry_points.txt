@@ -1,0 +1,6 @@
+[console_scripts]
+arcsRNA = RNAtools.scripts.arcsRNA:main
+cleanCT = RNAtools.scripts.cleanCT:main
+colorRNA = RNAtools.scripts.colorRNA:main
+dot2ct = RNAtools.scripts.dot2ct:main
+
