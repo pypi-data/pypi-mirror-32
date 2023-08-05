@@ -1,0 +1,4 @@
+
+            [console_scripts]
+            nw=nwapp.scripts.nw:cli
+        
