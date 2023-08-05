@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: xgp
+Version: 0.0.2
+Summary: XGP Python package with a scikit-learn interface
+Home-page: https://maxhalford.github.io/xgp
+Author: Max Halford
+Author-email: maxhalford25@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: nose (>=1.1.2)
+Requires-Dist: scikit-learn (>=0.17)
+
+UNKNOWN
+
+
