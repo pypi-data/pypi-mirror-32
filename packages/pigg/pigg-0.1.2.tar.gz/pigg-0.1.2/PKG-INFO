@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: pigg
+Version: 0.1.2
+Summary: a machine learning api frame
+Home-page: https://github.com/zcfrank1st/piggy
+Author: zcfrank1st
+Author-email: zhchaos@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: tornado (==4.5.3)
