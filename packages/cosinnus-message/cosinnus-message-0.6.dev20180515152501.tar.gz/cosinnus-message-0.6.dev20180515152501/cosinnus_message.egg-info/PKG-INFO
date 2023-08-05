@@ -1,0 +1,31 @@
+Metadata-Version: 1.1
+Name: cosinnus-message
+Version: 0.6.dev20180515152501
+Summary: cosinnus user messaging application
+Home-page: UNKNOWN
+Author: Sinnwerkstatt Medienagentur GmbH Berlin
+Author-email: web@Sinnwerkstatt.com
+License: UNKNOWN
+Description: =========================
+        Messages - Current Status
+        =========================
+        
+        .. note::
+        
+           Messages is a cosinnus app that lets users of a group write a message text for a group and automatically send it by email to some (or all) members of that group.
+           
+           It is currently WIP. Templates, Views, Forms and Models are implemented and recipients can be selected. The actual sending of the mail is stubbed and needs to be implemented. 
+           
+           See tickets for details.
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Framework :: Django
