@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+storyblok/__init__.py
+storyblok/client.py
+storyblok.egg-info/PKG-INFO
+storyblok.egg-info/SOURCES.txt
+storyblok.egg-info/dependency_links.txt
+storyblok.egg-info/requires.txt
+storyblok.egg-info/top_level.txt
