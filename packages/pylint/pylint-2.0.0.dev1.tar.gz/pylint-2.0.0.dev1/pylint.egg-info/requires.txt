@@ -1,0 +1,7 @@
+astroid>=1.6
+six
+isort>=4.2.5
+mccabe
+
+[:sys_platform=="win32"]
+colorama
