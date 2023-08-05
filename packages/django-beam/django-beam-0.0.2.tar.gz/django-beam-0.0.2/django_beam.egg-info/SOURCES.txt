@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+django-beam/__init__.py
+django_beam.egg-info/PKG-INFO
+django_beam.egg-info/SOURCES.txt
+django_beam.egg-info/dependency_links.txt
+django_beam.egg-info/requires.txt
+django_beam.egg-info/top_level.txt
