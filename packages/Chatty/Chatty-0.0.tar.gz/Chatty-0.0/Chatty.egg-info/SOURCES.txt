@@ -1,0 +1,11 @@
+README.md
+setup.py
+Chatty.egg-info/PKG-INFO
+Chatty.egg-info/SOURCES.txt
+Chatty.egg-info/dependency_links.txt
+Chatty.egg-info/requires.txt
+Chatty.egg-info/top_level.txt
+chatty/__init__.py
+chatty/exceptions.py
+chatty/support.py
+chatty/types.py

@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: Chatty
+Version: 0.0
+Summary: Chat bot framework
+Home-page: https://github.com/hosford42/Chatty
+Author: Aaron Hosford
+Author-email: hosford42@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: xmpp
+Provides-Extra: slack
+Provides-Extra: tkinter
