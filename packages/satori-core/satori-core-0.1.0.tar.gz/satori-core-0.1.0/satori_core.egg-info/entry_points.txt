@@ -1,0 +1,3 @@
+[console_scripts]
+satori-file = satoricore.file.__main__:main
+
