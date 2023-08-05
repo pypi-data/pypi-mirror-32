@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: cabot_check_prometheus
+Version: 1.0.1
+Summary: A Prometheus plugin for Cabot
+Home-page: https://github.com/widen/cabot-check-prometheus
+Author: Widen Enterprises
+Author-email: pgarland@widen.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
