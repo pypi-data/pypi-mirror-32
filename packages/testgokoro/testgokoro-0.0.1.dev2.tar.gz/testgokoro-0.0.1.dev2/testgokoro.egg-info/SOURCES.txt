@@ -1,0 +1,7 @@
+README.md
+setup.py
+testgokoro/__init__.py
+testgokoro.egg-info/PKG-INFO
+testgokoro.egg-info/SOURCES.txt
+testgokoro.egg-info/dependency_links.txt
+testgokoro.egg-info/top_level.txt
