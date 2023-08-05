@@ -1,0 +1,11 @@
+passwordgenerator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+passwordgenerator/pwgenerator.py,sha256=bctPHArcIhpxs7XkWcPWDsekkUBNKIKYtsi3QyiBBPY,3624
+passwordgenerator/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+passwordgenerator/data/english.py,sha256=-KWb19sPCY6vZt5JA-tD2Jr1Tb8YjgpMn_tc5_4R5uM,344510
+passwordgenerator-1.2.dist-info/DESCRIPTION.rst,sha256=A4tBYOI11tCfsHlTt06ZtlVmQM96xgysDFVN4rEzh9U,2468
+passwordgenerator-1.2.dist-info/METADATA,sha256=Q9iZzV86UGjXpjVcrrwneRMn53wdR2iKfUNC8kT0Kkg,3185
+passwordgenerator-1.2.dist-info/RECORD,,
+passwordgenerator-1.2.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+passwordgenerator-1.2.dist-info/entry_points.txt,sha256=Y2X4z5vRc1-baq2dU1Y564jb4s_AFonyZGaxDdIvAhQ,74
+passwordgenerator-1.2.dist-info/metadata.json,sha256=0s_M0Q5MgJAjOaZ-pWwPXhI4_-T15xNpAGwB8Yflpps,1078
+passwordgenerator-1.2.dist-info/top_level.txt,sha256=Sw1Ab9pb2eTYPaecRstM9TnK4nC9saVWgDbsNAuJ7ws,18
