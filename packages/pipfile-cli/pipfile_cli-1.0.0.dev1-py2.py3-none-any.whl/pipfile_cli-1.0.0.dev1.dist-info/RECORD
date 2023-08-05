@@ -1,0 +1,8 @@
+pipfile_cli/__init__.py,sha256=x-u2NnE0-ZlrrkWllfBYHG5LN0PchzNwvqEcZ9hhrXM,112
+pipfile_cli/__main__.py,sha256=vh31rh6rVfMuHYLIgnv8w3SJPVx-XyWxv2WqHSn8YBE,2253
+pipfile_cli/version.txt,sha256=OFxIPXF_plBVJo_u2330yiiUu_GrRZEscc4zc4hVSig,11
+pipfile_cli-1.0.0.dev1.dist-info/METADATA,sha256=iXxhEyMxcSfi6BGPzaMIywpJ-Qvl-X9n-KuXeNcFSVM,1697
+pipfile_cli-1.0.0.dev1.dist-info/RECORD,,
+pipfile_cli-1.0.0.dev1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+pipfile_cli-1.0.0.dev1.dist-info/entry_points.txt,sha256=rxaOW3xtekzJ2r8N4EU2jwRJORC23f2uTJDKh11lFiQ,54
+pipfile_cli-1.0.0.dev1.dist-info/top_level.txt,sha256=PvFlSuwGt-otdGyr8y7YZOIErFXYGx-F0XH9eMJDiiU,12
