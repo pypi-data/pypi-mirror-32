@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+avtraj/__init__.py
+avtraj/av.py
+avtraj/av_functions.py
+avtraj/dye_definition.json
+avtraj/elements.json
+avtraj.egg-info/PKG-INFO
+avtraj.egg-info/SOURCES.txt
+avtraj.egg-info/dependency_links.txt
+avtraj.egg-info/requires.txt
+avtraj.egg-info/top_level.txt
+examples/hGBP1_distance.json
+examples/hGBP1_out_3.h5
