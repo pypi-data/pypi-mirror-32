@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: jmeterWebReport
+Version: 0.0.3
+Summary: Display JMeter HTML report
+Home-page: https://github.com/magaofei/jmeterWebReport
+Author: mark
+Author-email: mamian521@gmail.com
+License: Apache License
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+More convenient to show JMeter's web page report
+
+
