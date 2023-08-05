@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+rcolor/__init__.py
+rcolor/colores.py
+rcolor/main.py
+rmcolor.egg-info/PKG-INFO
+rmcolor.egg-info/SOURCES.txt
+rmcolor.egg-info/dependency_links.txt
+rmcolor.egg-info/top_level.txt
