@@ -1,0 +1,10 @@
+tsam/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tsam/timeseriesaggregation.py,sha256=F3zkn3Gg6hlIXyHGWZp4QfCY0MvhMnPZYZQ0Bxx96O0,44130
+tsam/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tsam/utils/k_medoids_exact.py,sha256=fILVjabWvOuhGcAIeCy_5XYrCsW_bDFNTsPaDc0jfSg,8146
+tsam-0.9.6.dist-info/METADATA,sha256=TQmKIo0u7SUi3Tm280Q3Huzmg-fvjgFVGaFbApW4Y8w,6838
+tsam-0.9.6.dist-info/PKG-INFO_conflict-20180213-081321,sha256=8msmAROw8j1s_1W_hy5qpOVqSvxfED65BHPtsXR9D3M,195
+tsam-0.9.6.dist-info/RECORD,,
+tsam-0.9.6.dist-info/SOURCES_conflict-20180213-081322.txt,sha256=V7czhLLjgn4dFsryXHyRomhVfZmfY3aJva2XKf3jiDY,238
+tsam-0.9.6.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+tsam-0.9.6.dist-info/top_level.txt,sha256=MFI15PnPuMv8F1hTAOXbjGu41z-l6dJbnK69WlIQNcM,5
