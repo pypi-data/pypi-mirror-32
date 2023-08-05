@@ -1,0 +1,223 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-05 13:07+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Files"
+msgstr ""
+
+msgctxt "the_app"
+msgid "file"
+msgstr ""
+
+msgid "A user uploaded a new file"
+msgstr ""
+
+#, python-format
+msgid "New file by %(sender_name)s"
+msgstr ""
+
+#, python-format
+msgid "%(sender_name)s created a new file"
+msgstr ""
+
+#, python-format
+msgid "A new file: \"%(object_name)s\" was created in %(team_name)s."
+msgstr ""
+
+msgid "Latest Files"
+msgstr ""
+
+msgid "No files"
+msgstr ""
+
+msgid "Pictures"
+msgstr ""
+
+msgid "Documents"
+msgstr ""
+
+msgid "Audio Files"
+msgstr ""
+
+msgid "Videos"
+msgstr ""
+
+msgid "Created By"
+msgstr ""
+
+msgid "File Type"
+msgstr ""
+
+msgid "File Name"
+msgstr ""
+
+msgid "File Name (descending)"
+msgstr ""
+
+msgid "Newest Created"
+msgstr ""
+
+msgid "Smallest Files"
+msgstr ""
+
+msgid "Largest Files"
+msgstr ""
+
+msgid "Note"
+msgstr ""
+
+msgid "File"
+msgstr ""
+
+msgid "Path"
+msgstr ""
+
+msgid "Uploaded by"
+msgstr ""
+
+msgid "Uploaded on"
+msgstr ""
+
+msgid "No files selected."
+msgstr ""
+
+msgctxt "special_folder_type"
+msgid "Attachments"
+msgstr ""
+
+msgid "There was an error in one of the fields you entered. Please correct it before saving!"
+msgstr ""
+
+msgid "File title"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "File description"
+msgstr ""
+
+msgid "Preview"
+msgstr ""
+
+msgid "Original filename"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+#, python-format
+msgid "Do you really want to delete file „%(title)s“?"
+msgstr ""
+
+msgid "Delete file"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Download this folder"
+msgstr ""
+
+msgid "No files have been uploaded yet."
+msgstr ""
+
+#, python-format
+msgid ""
+"Hi %(receiver_name)s,\n"
+"\n"
+"a new file \"%(object_name)s\" in %(team_name)s was uploaded by %(sender_name)s. \n"
+"\n"
+"You can find it by following this link: %(object_url)s\n"
+"\n"
+"\n"
+"\n"
+"(Follow this link to edit your notification preferences: %(notification_settings_url)s )\n"
+"\n"
+"Your %(site_name)s Team."
+msgstr ""
+
+#, python-format
+msgid "A new file: \"%(object_name)s\" was uploaded in %(team_name)s."
+msgstr ""
+
+msgid "Move to another Folder"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "More"
+msgstr ""
+
+msgid "Latest files"
+msgstr ""
+
+msgid "There are no files  yet"
+msgstr ""
+
+#, python-format
+msgid "File \"%(title)s\" was uploaded successfully."
+msgstr ""
+
+#, python-format
+msgid "File \"%(title)s\" could not be uploaded."
+msgstr ""
+
+#, python-format
+msgid "File \"%(title)s\" could not be added."
+msgstr ""
+
+#, python-format
+msgid "Folder \"%(title)s\" was created successfully."
+msgstr ""
+
+msgid "File does not exist or you are not allowed to delete it."
+msgstr ""
+
+#, python-format
+msgid "A problem occurred during export. The following file is missing: %(filename)s."
+msgid_plural "A problem occurred during export. The following files are missing: %(filename)s."
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Invalid request."
+msgstr ""
+
+#, python-format
+msgid "File \"%(title)s\" was updated successfully."
+msgstr ""
+
+#, python-format
+msgid "File \"%(title)s\" could not be updated."
+msgstr ""
+
+msgid "Downloading failed, the target object was not a folder!"
+msgstr ""
+
+msgid "Canceled the download because there seem to be no files in this folder."
+msgstr ""
+
+#, python-format
+msgid "%(count)d File was added successfully."
+msgid_plural "%(count)d Files were added successfully."
+msgstr[0] ""
+msgstr[1] ""
