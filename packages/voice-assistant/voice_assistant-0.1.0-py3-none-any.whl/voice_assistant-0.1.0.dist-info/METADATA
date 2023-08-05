@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: voice-assistant
+Version: 0.1.0
+Summary: Python library to build a Voice Assistant
+Home-page: https://github.com/noviluni/voice_assistant
+Author: Marc H.
+Author-email: noviluni@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: SpeechRecognition (==3.8.1)
+Requires-Dist: google-speech (==1.0.16)
+Requires-Dist: PyAudio (==0.2.11)
+
+UNKNOWN
+
+

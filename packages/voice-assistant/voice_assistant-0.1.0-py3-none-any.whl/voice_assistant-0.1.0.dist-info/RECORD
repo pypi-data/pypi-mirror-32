@@ -1,0 +1,7 @@
+voice_assistant/__init__.py,sha256=eg8MCBHMo0ADyeQlqH5Tm_qwXEgQJW74UPeSWoorL8g,79
+voice_assistant/core.py,sha256=kbOfM9hWfm2RB0HxzgUI6-PHz9wsgI3jzmR2py2fTS0,5283
+voice_assistant/databases.py,sha256=fmHxp2dSym-55hHLaermxhQ59hOxW6djmQkZWGkYf8U,2362
+voice_assistant-0.1.0.dist-info/METADATA,sha256=VJA05jHPxzrSSTWJLXjjQcy1fq-bdyIyB0XufqDuoS0,373
+voice_assistant-0.1.0.dist-info/RECORD,,
+voice_assistant-0.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+voice_assistant-0.1.0.dist-info/top_level.txt,sha256=GEF3JVxmVQJVIFMR2pOJMnQI7WZ96tDVVTovsha9GRw,16
