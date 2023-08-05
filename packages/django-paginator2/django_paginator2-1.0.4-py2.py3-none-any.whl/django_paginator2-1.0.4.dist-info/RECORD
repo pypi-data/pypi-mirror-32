@@ -1,0 +1,6 @@
+django_paginator2-1.0.4.dist-info/METADATA,sha256=DeK_xrHGRQ0NFCbMYNPSBmADCMl7A8jodkiOz0E-I68,1183
+django_paginator2-1.0.4.dist-info/RECORD,,
+django_paginator2-1.0.4.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+django_paginator2-1.0.4.dist-info/top_level.txt,sha256=-wb-dnz7oj9cLsgNjw96SAhnKb4ca0-mEbfxcVjzVDI,10
+paginator/__init__.py,sha256=mwC7NGkcdM2TfydjAgCEphFUlalAsYw-IEaQXPd3wA8,63
+paginator/page.py,sha256=EYttXCyZ0P675RAILLrDHmTM3fvzMwd78CDAWSs51u8,402
