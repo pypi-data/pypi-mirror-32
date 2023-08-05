@@ -1,0 +1,9 @@
+README.md
+setup.py
+aispeech_logger/logformat.py
+aispeech_logger/logger.py
+aispeech_logger.egg-info/PKG-INFO
+aispeech_logger.egg-info/SOURCES.txt
+aispeech_logger.egg-info/dependency_links.txt
+aispeech_logger.egg-info/requires.txt
+aispeech_logger.egg-info/top_level.txt
