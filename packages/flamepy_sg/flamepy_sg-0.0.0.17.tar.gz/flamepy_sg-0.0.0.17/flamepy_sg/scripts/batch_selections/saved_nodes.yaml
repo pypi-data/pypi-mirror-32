@@ -1,0 +1,6 @@
+- data: [comp1]
+  name: selection_01
+- data: [Source02, Source01]
+  name: selection_02
+- data: [clrmgmt84]
+  name: selection_03

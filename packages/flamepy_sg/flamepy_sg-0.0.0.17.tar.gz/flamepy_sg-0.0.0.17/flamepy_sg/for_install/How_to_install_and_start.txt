@@ -1,0 +1,9 @@
+For install only.
+
+The 'flame_start' folder should be copied or moved  next to the 'flamepy_sg' module.
+
+Then source the OS appropriate env lines from the '...bash_profile' file.
+
+You'll need to edit this file for your specific path.
+
+The filepath to add is to the 'flame_start', and the 'flamepy_sg' folder will be next to it.

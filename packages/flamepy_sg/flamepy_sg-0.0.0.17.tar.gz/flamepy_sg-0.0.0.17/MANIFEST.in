@@ -1,0 +1,16 @@
+include LICENSE
+include readme.md
+include requirements.txt
+
+include flamepy_sg/for_install/bash_profile_Linux_a52
+include flamepy_sg/for_install/bash_profile_mac_stef
+include flamepy_sg/for_install/How_to_install_and_start.txt
+
+include flamepy_sg/scripts/text_files/*.txt
+include flamepy_sg/scripts/text_files/*.rtf
+
+include flamepy_sg/scripts/batch_selections/*
+include flamepy_sg/scripts/batch_selections/icons/*
+include flamepy_sg/scripts/batch_selections/icons/blue2/*
+include flamepy_sg/scripts/project_config/*.yaml
+
