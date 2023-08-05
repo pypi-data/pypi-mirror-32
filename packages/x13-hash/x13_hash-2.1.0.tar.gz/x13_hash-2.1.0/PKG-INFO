@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: x13_hash
+Version: 2.1.0
+Summary: Bindings for proof of work used by x13
+Home-page: https://github.com/MaruCoinOfficial/x13-hash
+Author: Sean McCaffery
+Author-email: john.smart9@gmail.com
+License: UNKNOWN
+Description: Credits: MaruCoin's Developer Team: https://github.com/MaruCoinOfficial/x13-hash
+Platform: UNKNOWN
