@@ -1,0 +1,4 @@
+[console_scripts]
+PPMSconfig = PPMSplot.generate_config.__main__:main
+PPMSplot = PPMSplot.__main__:main
+
