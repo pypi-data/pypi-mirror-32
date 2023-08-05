@@ -1,0 +1,2 @@
+include README.md
+include atlas_sdk/version.py
