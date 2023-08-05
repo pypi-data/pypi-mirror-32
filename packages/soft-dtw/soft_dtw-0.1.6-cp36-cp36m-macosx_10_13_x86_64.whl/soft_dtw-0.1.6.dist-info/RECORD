@@ -1,0 +1,13 @@
+sdtw/__init__.py,sha256=jxt4dlxKUSVfTgRF-63u-PWKbJ6Qcpi8X0PrxL6_i4U,30
+sdtw/barycenter.py,sha256=4ZpJ-GfW6lvRIOyvTAE9Oi38k6-TfSlyHrEy_q-AJEg,1883
+sdtw/chainer_func.py,sha256=0WmdxxRFFeNcugQ1SAjpTh0dR_1A2CjallGuDTGEbo0,988
+sdtw/dataset.py,sha256=my1cdfXbdWZHsei8XzSPVd4egZKMllI8qhLMfnfDvvk,1111
+sdtw/distance.py,sha256=3exnV5XqP_fIEJMo6MIA5PSujvfUl7_8TXS0pCM421Y,1233
+sdtw/path.py,sha256=dnfS6lv_qtHljTdnMvKS7BVx-lZJqKDHiudczmKMBWA,1818
+sdtw/setup.py,sha256=sTPwlVLtXrWnllpCJrxUZV9B9usxYnQ4E752EAyPvk8,511
+sdtw/soft_dtw.py,sha256=b0M5X7MVCfbWfPWjAa6fBMC0mzYtCojbFTQ9cU-KQcc,2162
+sdtw/soft_dtw_fast.cpython-36m-darwin.so,sha256=CUeeBp_iRROuMzGpi7Vkb6q7yQ89NumARqhDcnK5Wh0,58032
+soft_dtw-0.1.6.dist-info/METADATA,sha256=pWXpSWHorJph5MdIXL_ayFLrujp-FqhjHPlhqmhk7N4,3983
+soft_dtw-0.1.6.dist-info/RECORD,,
+soft_dtw-0.1.6.dist-info/WHEEL,sha256=RAKZceQadgvsh5lTcite2djFea5bPggV_oZLUtgekwY,111
+soft_dtw-0.1.6.dist-info/top_level.txt,sha256=r_mYv_mNXtrN4DGYit4bmQtQHZuHOrTvChacKaano60,5
