@@ -1,0 +1,17 @@
+Metadata-Version: 1.0
+Name: scipyplot
+Version: 0.0.1.dev0
+Summary: A Python Toolbox for Creating Scientific Article Figures
+Home-page: https://github.com/robertocalandra/scipyplot
+Author: Roberto Calandra
+Author-email: roberto.calandra@berkeley.edu
+License: LICENSE.txt
+Description: # SciPyPlot
+        A Python Toolbox for Creating Scientific Article's Figures
+        
+        
+        
+        **Under Development**
+        
+Keywords: visualization
+Platform: UNKNOWN
