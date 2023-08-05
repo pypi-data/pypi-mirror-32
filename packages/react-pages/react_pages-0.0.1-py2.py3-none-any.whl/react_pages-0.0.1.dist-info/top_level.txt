@@ -1,0 +1,2 @@
+react_pages
+react_pages_django

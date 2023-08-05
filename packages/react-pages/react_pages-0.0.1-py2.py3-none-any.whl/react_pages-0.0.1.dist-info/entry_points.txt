@@ -1,0 +1,3 @@
+[console_scripts]
+react-pages = react_pages.react_pages_cli:cli
+
