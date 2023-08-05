@@ -1,0 +1,14 @@
+vplot/__init__.py,sha256=TSWNoxbGhNB_awKt9dQmHcDeEGVUrl7NTX2_UtKUQGI,791
+vplot/defaults.py,sha256=MHEFuME5fHKL20mvG06vJy_YE1lFWDlZHP2doRzWRq4,7007
+vplot/log.py,sha256=YrC7Tj03celjUdbMFURYWg-763q8HnxeackV9o81yQA,5594
+vplot/plot.py,sha256=1nTqGvcMoAS9FGW3LF10tPx1--sCZm00htQ2_aPpFYc,2694
+vplot/quickplot.py,sha256=pDWP0uS89qQRFn1m3z3T3dDD7_Mz4RLcyJYDNgM2jnY,9620
+vplot/utils.py,sha256=zn1RPLWqXRk0p9gEloHx7UQDD-h7poc7ab6YHhp00QY,15293
+vplot/vplot.mplstyle,sha256=KmTDgWApoU9vDfv033qNJ0t9OFuuxLTIa3b4ZQfp8bQ,6607
+vplot-0.3.1.data/scripts/vplot,sha256=fxCLNE_cwUa3fOdkV3oejKpt5Bc6yQ9NmX6qn6yj-Ts,1433
+vplot-0.3.1.dist-info/DESCRIPTION.rst,sha256=AcWMadxupOsapmuoXQBUEJ0zyMaCEJ-wyg_YCDgMPhM,1411
+vplot-0.3.1.dist-info/METADATA,sha256=PPRThOpIPMnX-Fi5KHo53K3QCwgD4RlJpBgLGsftmcU,1937
+vplot-0.3.1.dist-info/RECORD,,
+vplot-0.3.1.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+vplot-0.3.1.dist-info/metadata.json,sha256=4-nOvnrPs9lgjcKUSN3qLSbgA4f4NAsJlA2iDQw0LVk,708
+vplot-0.3.1.dist-info/top_level.txt,sha256=ZktumigE4q6itx4Y20rZ8kY18JV82GxYNhjDMyyE21o,6
