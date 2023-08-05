@@ -1,0 +1,3 @@
+[console_scripts]
+upnpport = upnpport.__main__:main
+
