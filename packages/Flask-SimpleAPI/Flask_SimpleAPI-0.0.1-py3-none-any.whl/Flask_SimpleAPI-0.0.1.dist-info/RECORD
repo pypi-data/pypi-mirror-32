@@ -1,0 +1,9 @@
+Flask_SimpleAPI-0.0.1.dist-info/METADATA,sha256=sbGs8PRxKpGySN4lAYoSAD__vJwFoEoPLWRJJY3-M5o,776
+Flask_SimpleAPI-0.0.1.dist-info/RECORD,,
+Flask_SimpleAPI-0.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+Flask_SimpleAPI-0.0.1.dist-info/top_level.txt,sha256=zZ1tiuzLZowPD-YkXw79pbNw6VIKxWOOYAJifgRMelA,22
+flask_simpleapi/__init__.py,sha256=-4erNtbW8I_ScgGM_-GKdJZ_omJUoFeyMZ0JdlbcYBg,4323
+flask_simpleapi/test_all.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_simpleapi.py,sha256=XVWkZO3qI-tDop4GcRRMDLs5CEukbivt1RSq7U9xGnc,582
+tests/user.py,sha256=5Kkq6UmZ1NzUKlkt58LpG-xnPl720rq_GiS5ql0NuNc,103
