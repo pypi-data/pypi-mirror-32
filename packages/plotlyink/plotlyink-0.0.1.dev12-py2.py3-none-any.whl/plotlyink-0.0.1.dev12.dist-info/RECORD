@@ -1,0 +1,13 @@
+plotlyink/__init__.py,sha256=2TVm-Y_kv7VIHWTe6PwGyLd-RpAW6aVfSy9MJOWc7Tc,420
+plotlyink/cli.py,sha256=Poe07FQYmelF8sZPQEU1ziaeKQkG-WfN7ySsBgH1G4A,1497
+plotlyink/colors.py,sha256=zG1iGQPjkNy4T-6Eynr7r5Wf-5_SnMx5odIH7orc2EE,2697
+plotlyink/config.py,sha256=PxAA9h3TUmnxRHFqGRNicqYvZF_PXyVXyrdphH-5B3k,416
+plotlyink/core.py,sha256=3nJHIinP2k2ukgu0zryPXLTDOmHrLc-xM1lV2YzVGjE,5012
+plotlyink/register_pandas_accessors.py,sha256=OoSnjKqto8SSlR4-tpWVWQjk3HK58Na_Ma03Yy1y-UA,2041
+plotlyink/utils.py,sha256=fXr2KV5MCQhMqrYEdvupNwJSZtZgXc8JjJ3qhVQ584Q,1579
+plotlyink-0.0.1.dev12.dist-info/METADATA,sha256=oYZwX8v6LO9StwtluKBciqPnnpNeZMjVz8jFUYHg71o,1567
+plotlyink-0.0.1.dev12.dist-info/RECORD,,
+plotlyink-0.0.1.dev12.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+plotlyink-0.0.1.dev12.dist-info/entry_points.txt,sha256=KKDUM3QXICdvVv3HJoyApfujcwXc2WRiMNo1fEVhCoY,46
+plotlyink-0.0.1.dev12.dist-info/pbr.json,sha256=k5QloHRzsG3Kih3dXkNWQTukNNVqwjayUGZrZCowuao,47
+plotlyink-0.0.1.dev12.dist-info/top_level.txt,sha256=yhyzinSDea8MBFGn6PbuEUCzVU5g-CHLta795sD8W-U,10

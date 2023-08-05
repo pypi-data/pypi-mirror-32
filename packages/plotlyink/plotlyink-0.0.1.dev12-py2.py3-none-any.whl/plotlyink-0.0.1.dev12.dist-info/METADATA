@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: plotlyink
+Version: 0.0.1.dev12
+Summary: Productivity Tools for Plotly + Pandas
+Home-page: https://github.com/gjeusel/plotlyink
+Author: See AUTHORS
+Author-email: jeusel.guillaume@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: pandas (>=0.23.0)
+Requires-Dist: numpy
+Requires-Dist: plotly
+Requires-Dist: colorlover
+
+.. |build| image:: https://img.shields.io/travis/gjeusel/plotlyink/master.svg
+    :target: https://travis-ci.org/gjeusel/plotlyink
+.. |status| image:: https://img.shields.io/badge/State-Beta-yellow.svg
+.. |license| image:: https://img.shields.io/github/license/gjeusel/plotlyink.svg
+
+|build| |status| |license|
+
+Plotlyink
+==========
+.. _plotly: http://www.plot.ly
+.. _pandas: http://pandas.pydata.org/
+
+Plotlyink aims at marrying plotly_ with pandas_ for quick and easy plotting.
+
+
+.. code:: python
+
+    import pandas as pd
+    import plotlyink
+    df = pd.DataFrame({
+        'one' : [1., 2., 3., 4.],
+        'two' : [4., 3., 2., 1.],
+        })
+
+    # open .html in your brother:
+    df.iplot.scatter()
+
+    # get figure:
+    fig = df.iplot.scatter(as_figure=True)
+
+
+For more, see: `Tutorial Notebook <https://github.com/gjeusel/plotlyink/blob/master/notebooks/tutorial.ipynb>`_.
+
+
+
