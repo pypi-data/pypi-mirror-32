@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup_test.py
+todolist/LICENSE
+todolist/__init__.py
+todolist/__main__.py
+todolist/todolistdb.py
+todolist.egg-info/PKG-INFO
+todolist.egg-info/SOURCES.txt
+todolist.egg-info/dependency_links.txt
+todolist.egg-info/entry_points.txt
+todolist.egg-info/not-zip-safe
+todolist.egg-info/top_level.txt
