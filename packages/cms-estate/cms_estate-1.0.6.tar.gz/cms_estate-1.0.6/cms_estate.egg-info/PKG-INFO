@@ -1,0 +1,132 @@
+Metadata-Version: 1.1
+Name: cms-estate
+Version: 1.0.6
+Summary: Best CMS for website of Real Estate agency. FREE! Reservation calendar, Mobile version, SEO, Admin panel , Classified ads. Django + ReactJS.
+Home-page: https://github.com/reactpython/best_script_for_agencies
+Author: ReactScripts
+Author-email: imconfirmer@gmail.com
+License: Apache License 2.0
+Download-URL: https://github.com/reactpython/best_script_for_agencies
+Description: .. figure:: https://github.com/reactpython/cms_estate/blob/master/cms_estate.gif?raw=true
+           :alt: cms_estate
+        
+           cms_estate
+        
+        Stable version 1.0.6
+        
+        This script can help you to start own Internet business anywhere in the world. The system allows you to run a super-modern, interactive and fast website.
+        ---------------------------------------------------------------------------------------------------------------------------------------------------------
+        
+        `CMS for Real
+        Estate <https://github.com/reactpython/best_script_for_agencies>`__
+        
+        The script supports:
+        ====================
+        
+        -  **Selling Entertainment, Tours & Everything!**
+        -  **AirBNB script for Property Rental**
+        -  **Classified for Real Estate agency**
+        
+        Demo:
+        =====
+        
+        -  **Website:** https://mirador.online
+        -  **Admin:** https://mirador.online/admin/
+        -  **Login:** demo
+        -  **Password:** demodemo
+        
+        Real example `We know what to do in Tenerife! <https://tenerifebook.com>`__
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        
+        Modules
+        =======
+        
+        **Mobile version** Our script based on ReactJS technology and works
+        great on all smartphones and tablets — check!
+        
+        **SEO** The site is perfectly adapted for search engines and supports
+        the Open-Graph & JsonLD protocols. The news section allows you to post
+        SEO-text with automatic relinking.
+        
+        **Discount system** Allows you to set global discounts or hold one-time
+        promotions. The discount is calculated from the amount of your
+        commission which specified into the price of each offer.
+        
+        **TripAdvisor Reviews** Automatic parsing reviews with auto-rewriting
+        text. Gradual addition of reviews to your website with cross-linking,
+        for the natural increasing of content.
+        
+        **Flexible price management** The final price of your offers on the site
+        is formed from the basic price of the supplier and your commission.
+        
+        **Support Chat** Dynamic form placed in all pages of the site, allowing
+        customers to send requests to your email.
+        
+        **Customers and orders** All orders arriving in the system have extended
+        data of prices with a convenient system of customer management.
+        
+        **Personal Area** You can allow your users to add their objects to your
+        website through their personal account.
+        
+        Other features:
+        ===============
+        
+        -  **Booking in two clicks** — the interface allows you to make an order
+           easily and simply!
+        -  **White-Label** — we do not place our logos.
+        -  **Unlimited** number of copies of your script.
+        -  **Auto-scaling photos** — don’t think about the size of photos, our
+           script optimizes them independently.
+        -  **Youtube-video** — specify the link to the video and the video will
+           appear at the offer page.
+        -  **Caching algorithm** — loading pages occurs faster than 1 second.
+        -  **SSL-security** certificate based on CloudFlare. Your site will work
+           through a secure https protocol.
+        -  **Email notifications.** Receive email notifications for orders.
+        -  **Auto-update system.**
+        
+        In the near future:
+        -------------------
+        
+        -  Integration with several languages.
+        -  Payments by cards
+        -  Autoposting to Facebook, Instagram
+        
+        Installation
+        ------------
+        
+        **Script made with:** ReactJS, Django v2, Ubuntu. Installation takes
+        place automatically in 5 minutes, via the Docker system. First
+        installation for free!
+        
+            *Detailed installation instructions you will receive by email.* *If
+            necessary, we can adapt templates for your business — the cost
+            depends on the amount of work.*
+        
+        Contact us
+        ----------
+        
+        -  `Contact Us <mailto:imconfirmer@gmail.com>`__
+        -  `At
+           Facebook <https://www.facebook.com/profile.php?id=100000600443708>`__
+        
+Keywords: property vacation real estate agency script cms system website plugin widget extension library airbnb saas cms crm script themeforest wordpress woocommerce drupal instagram facebook monstertemplates python reactjs django python
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet
+Classifier: Topic :: Scientific/Engineering :: Information Analysis

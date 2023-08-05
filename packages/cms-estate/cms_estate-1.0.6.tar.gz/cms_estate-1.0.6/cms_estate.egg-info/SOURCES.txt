@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README
+README.md
+setup.cfg
+setup.py
+cms_estate/__init__.py
+cms_estate/cms_estate.py
+cms_estate.egg-info/PKG-INFO
+cms_estate.egg-info/SOURCES.txt
+cms_estate.egg-info/dependency_links.txt
+cms_estate.egg-info/entry_points.txt
+cms_estate.egg-info/not-zip-safe
+cms_estate.egg-info/requires.txt
+cms_estate.egg-info/top_level.txt
+data/data_file

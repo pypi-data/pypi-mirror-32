@@ -1,0 +1,3 @@
+[console_scripts]
+cms_estate = cms_estate.cms_estate:BESTSCRIPT
+
