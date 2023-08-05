@@ -1,0 +1,7 @@
+setup.py
+SpherePointGenerator/__init__.py
+SpherePointGenerator/main.py
+SpherePointGenerator.egg-info/PKG-INFO
+SpherePointGenerator.egg-info/SOURCES.txt
+SpherePointGenerator.egg-info/dependency_links.txt
+SpherePointGenerator.egg-info/top_level.txt
