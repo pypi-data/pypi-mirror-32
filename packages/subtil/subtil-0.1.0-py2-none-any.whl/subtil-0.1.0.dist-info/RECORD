@@ -1,0 +1,13 @@
+subtil/__init__.py,sha256=KEz6oPsxmfogX3DUnBqmDXIOovtTBiGzx6823FEj7jI,80
+subtil/data.py,sha256=X6HAjmgRZ1SuvsGW9VmLYX7m5eIxsUlNNABgyIWkEAI,33290
+subtil/database.py,sha256=9xwP6yWV1R6fE5vBpJR_p4h3Z7AhZEXZXezyARgjDZY,33670
+subtil/datamining.py,sha256=fCKJ5YLELvlQfMI4-ZLpj_mne-20jFRn-_hs5hEtH2U,30740
+subtil/modeltree.py,sha256=5nWSQDg4eukcrLyztKCxl0-gItHhdu4JWQts2LNJpe8,4573
+subtil/plotting.py,sha256=Jj4amJp66SxsYmK2G8pOiLK3MOeQLyoG2R-KNaBDEDE,10413
+subtil/subtildb-structure-sqlite.sql,sha256=brELYS-WlFkG_opHIxddJFLxFIxqsmSChAdpIsioLWU,2771
+subtil/utils.py,sha256=o64MapPjkX4I0VLX1tz_ktFoapt5fAi8j0jTo8Rzgrg,3888
+subtil-0.1.0.dist-info/LICENSE.txt,sha256=aAxLPfBf09hfuZY9UAJXtk590QuxVG6VmqVeCGhpGWI,1052
+subtil-0.1.0.dist-info/METADATA,sha256=oqgaCjME4RiUjDJ7n91koBEVjWtZEP4cJmex34E812I,2476
+subtil-0.1.0.dist-info/RECORD,,
+subtil-0.1.0.dist-info/WHEEL,sha256=oGGm_O4g839AJOrCbXq_ZxGrWdwSrjduga8Rn8cINEs,97
+subtil-0.1.0.dist-info/top_level.txt,sha256=AZQqIGJPEZr9sU4H9e6E0wSAmUgwwgqMlmBri7vTVLg,7
