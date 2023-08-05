@@ -1,0 +1,14 @@
+Metadata-Version: 1.0
+Name: urwide
+Version: 0.2.1
+Summary: High-Level interface and DSL to create console interfaces
+Home-page: https://github.com/sebastien/urwide
+Author: Sebastien Pierre
+Author-email: sebastien.pierre@gmail.com
+License: Revised BSD License
+Description: The main idea behind URWIDE is to extend URWID with a *domain-specific language
+        to describe console-based interfaces*, drastically reducing the amount of code
+        required to create console-based applications.
+        
+Keywords: tool,interface,gui,command-line
+Platform: UNKNOWN
