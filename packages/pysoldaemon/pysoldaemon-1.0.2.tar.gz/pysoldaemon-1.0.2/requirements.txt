@@ -1,0 +1,7 @@
+# gevent stack
+greenlet
+gevent
+
+# pysol
+pysolbase >= 1.0.5
+
