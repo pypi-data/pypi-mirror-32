@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pyspark-hyperloglog
+Version: 2.1.1
+Summary: PySpark UDFs for HyperLogLog
+Home-page: https://github.com/mozilla/spark-hyperloglog
+Author: Anthony Miyaguchi
+Author-email: amiyaguchi@mozilla.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: spark,udf,hyperloglog
+Platform: UNKNOWN
+Provides-Extra: dev
