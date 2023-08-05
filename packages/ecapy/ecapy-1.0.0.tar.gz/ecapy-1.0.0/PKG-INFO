@@ -1,0 +1,24 @@
+Metadata-Version: 1.2
+Name: ecapy
+Version: 1.0.0
+Summary: Evolutionary Centers Algorithm: Module for Python coded in C
+Home-page: https://github.com/jmejia8/ecapy
+Author: Jesus Mejia
+Author-email: jesusmejded@gmail.com
+License: MIT
+Project-URL: Bug Reports, https://github.com/jmejia8/ecapy/issues
+Project-URL: Funding, https://donate.pypi.org
+Project-URL: Say Thanks!, http://saythanks.io/to/example
+Project-URL: Source, https://github.com/jmejia8/ecapy/
+Description-Content-Type: text/markdown
+Description: # ECA for Python
+Keywords: optimization evolutionary metaheuristic
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
