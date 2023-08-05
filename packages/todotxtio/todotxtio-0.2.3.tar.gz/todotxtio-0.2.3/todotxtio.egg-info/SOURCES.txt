@@ -1,0 +1,7 @@
+README.md
+setup.py
+todotxtio.py
+todotxtio.egg-info/PKG-INFO
+todotxtio.egg-info/SOURCES.txt
+todotxtio.egg-info/dependency_links.txt
+todotxtio.egg-info/top_level.txt
