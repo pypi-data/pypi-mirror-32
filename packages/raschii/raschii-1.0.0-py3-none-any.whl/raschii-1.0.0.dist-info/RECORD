@@ -1,0 +1,14 @@
+raschii/__init__.py,sha256=A2rXmYgVNR6jg6nGardYoh5BCoe_-hgwvC8GLJf8F5Q,1596
+raschii/air_phase.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+raschii/air_phase_constant.py,sha256=74a-sAG0FSeWtIDegCya4jFWXeJ9ck6wpgDLs1vz9NI,2459
+raschii/air_phase_fenton.py,sha256=SWzet9jSxQJIrP9tENrisBqsk2Lw8M8AR0AXfBLdVn8,5746
+raschii/airy.py,sha256=vrDXoEE34ZjWE2nbvQD5KJ4MnZ60GnI-EKzvXVx78Ug,4407
+raschii/common.py,sha256=T61U7xCtYZ_k56uqqusj9RwwTnx-v7choPwmIV24AzI,6723
+raschii/fenton.py,sha256=WE5idutj1qzRHmpHqSzPrlxDNXifLxSenGZbUveXbvQ,16199
+raschii/stokes.py,sha256=Nvv3YGTrZ3dydsZzLcfpRQd5vs9TKjhm1VKxkCfauf8,9937
+raschii-1.0.0.dist-info/METADATA,sha256=jG8xoJpcTBr1LI4YiCuEsUESA2VYNOvHRi0MH8KwHzA,4389
+raschii-1.0.0.dist-info/RECORD,,
+raschii-1.0.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+raschii-1.0.0.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+raschii-1.0.0.dist-info/top_level.txt,sha256=AYc9mZXOM6pjoGi22B_EFShhNPiKHeutIsFYuVrcgh8,8
+raschii-1.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
