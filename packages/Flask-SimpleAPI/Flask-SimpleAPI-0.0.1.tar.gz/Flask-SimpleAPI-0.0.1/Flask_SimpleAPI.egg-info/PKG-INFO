@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: Flask-SimpleAPI
+Version: 0.0.1
+Summary: Very simple way to create an API with Flask
+Home-page: http://hthieu.xyz
+Author: Bkinno
+Author-email: tronghieu.ha@gmail.com
+License: MIT
+Description: 
+        Flask-SimpleAPI
+        -------------
+        
+        Very simple way to create an API with Flask and MongoDB:
+        - simple route
+        - auto detect and render json if dict, list or MongoEngine object
+        
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
