@@ -1,0 +1,9 @@
+scorch/__init__.py,sha256=UwXyo5mqTEte2rfQqNswGJtgYZjr579RgaV_zV6FvfA,23
+scorch/conll.py,sha256=m2v4LaoHjGpfxzWRmJHsnxNS-4uaOkmoUQWWayf97Hg,6727
+scorch/scorch.py,sha256=DavA2is4vNFH5uhgARzMFc6Umb8Pvxm1UcWrmkXavWU,7731
+scorch/scores.py,sha256=HITkce0Oc37SXWo0TNpoFG89Wh9ibbNxPjaO6RKiHnk,9380
+scorch-0.0.17.dist-info/METADATA,sha256=gvg8oqWjc0rd1ToQqEwg2BqSzq0CC3872J2pFYU6EmY,7516
+scorch-0.0.17.dist-info/RECORD,,
+scorch-0.0.17.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+scorch-0.0.17.dist-info/entry_points.txt,sha256=AH-URg_amHgTSikdEYGwcmuj2b4qG_LF-38w_8f2jP8,59
+scorch-0.0.17.dist-info/top_level.txt,sha256=dXCjweOR4nF-nOF-c_6xs8MPYKvlYHALsQt1aCCJD6Y,7
