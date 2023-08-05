@@ -1,0 +1,3 @@
+[console_scripts]
+satori-remote = satoriremote.__main__:main
+

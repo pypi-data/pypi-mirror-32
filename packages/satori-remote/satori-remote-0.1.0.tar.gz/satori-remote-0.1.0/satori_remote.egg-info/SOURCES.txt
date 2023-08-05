@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+satori_remote.egg-info/PKG-INFO
+satori_remote.egg-info/SOURCES.txt
+satori_remote.egg-info/dependency_links.txt
+satori_remote.egg-info/entry_points.txt
+satori_remote.egg-info/requires.txt
+satori_remote.egg-info/top_level.txt
+satoriremote/__init__.py
+satoriremote/__main__.py
+satoriremote/sftp.py
+satoriremote/smb.py
