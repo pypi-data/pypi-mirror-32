@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+isaExplorer/__init__.py
+isaExplorer/isaExplorer.py
+isaExplorer.egg-info/PKG-INFO
+isaExplorer.egg-info/SOURCES.txt
+isaExplorer.egg-info/dependency_links.txt
+isaExplorer.egg-info/requires.txt
+isaExplorer.egg-info/top_level.txt
+isaExplorer.egg-info/zip-safe
+isaExplorer/tests/__init__.py
+isaExplorer/tests/test_exploreISA.py

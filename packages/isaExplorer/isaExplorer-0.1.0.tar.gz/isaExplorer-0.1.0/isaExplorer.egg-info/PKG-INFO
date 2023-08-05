@@ -1,0 +1,31 @@
+Metadata-Version: 1.1
+Name: isaExplorer
+Version: 0.1.0
+Summary: Explore and manipulate the contents of ISATAB files
+Home-page: http://github.com/phenomecentre/isaexplorer
+Author: Noureddin Sadawi
+Author-email: n.sadawi@gmail.com
+License: MIT
+Description:         Module for querying ISATAB study design files
+                ---------------------------------------------
+        
+                .. image:: https://travis-ci.org/phenomecentre/isaExplorer.svg?branch=master
+                :target: https://travis-ci.org/phenomecentre/isaExplorer
+                :alt: Travis CI build status
+        
+                .. image:: https://codecov.io/gh/phenomecentre/isaExplorer/branch/master/graph/badge.svg
+                :target: https://codecov.io/gh/phenomecentre/isaExplorer
+                :alt: Test coverage
+        
+                |
+        
+                Tools for querying `ISA-TAB <http://isa-tools.org>`_ study description files.
+        
+                
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
