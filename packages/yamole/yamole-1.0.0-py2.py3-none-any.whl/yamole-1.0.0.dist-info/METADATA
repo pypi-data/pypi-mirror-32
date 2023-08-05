@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: yamole
+Version: 1.0.0
+Summary: A YAML parser that resolves JSON references
+Home-page: UNKNOWN
+Author: Yago González
+License: MIT
+Project-URL: Source, https://github.com/YagoGG/yamole/
+Project-URL: Tracker, https://github.com/YagoGG/yamole/issues
+Keywords: yaml json references parser openapi swagger
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: DFSG approved
+Classifier: License :: OSI Approved
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+
+yamole
+======
+
+Dig through the JSON references inside a YAML file, the kind of situation
+you may run into when parsing [OpenAPI](https://www.openapis.org/) files.
+
+The result is a single, big YAML file with all the references resolved (i.e.
+with their contents replaced in the corresponding places).
+
+---
+
+(c) 2018 Yago González. All rights reserved
+
+
