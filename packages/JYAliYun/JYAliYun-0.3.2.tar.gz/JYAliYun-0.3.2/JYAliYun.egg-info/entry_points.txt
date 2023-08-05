@@ -1,0 +1,6 @@
+[console_scripts]
+            oss-head=JYAliYun.AliYunOSS.cli:oss_head
+            head-oss=JYAliYun.AliYunOSS.cli:oss_head
+            publish-message=JYAliYunMNS.cli:publish_message
+            mns-pm=JYAliYunMNS.cli:publish_message
+      
