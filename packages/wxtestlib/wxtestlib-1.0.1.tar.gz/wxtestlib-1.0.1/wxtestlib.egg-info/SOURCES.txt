@@ -1,0 +1,10 @@
+MANIFEST.in
+README.rst
+Tool.py
+setup.py
+wxlib/__init__.py
+wxlib/wxlibone.py
+wxtestlib.egg-info/PKG-INFO
+wxtestlib.egg-info/SOURCES.txt
+wxtestlib.egg-info/dependency_links.txt
+wxtestlib.egg-info/top_level.txt
