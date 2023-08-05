@@ -1,0 +1,16 @@
+trytond/modules/twilio_messages/__init__.py,sha256=3snMn6_mo0KYHt2rzINmGjSPEUXHR96eJOV0HqhRYas,378
+trytond/modules/twilio_messages/routes.py,sha256=55U-qOE3E2NGLhjQ4YLX5rxm-ZwJhmavepujFAxzYzQ,873
+trytond/modules/twilio_messages/tryton.cfg,sha256=465UkA9O3A3pIM4ggEO2qYxiKYPRVCVcF3J_9WQBhUI,68
+trytond/modules/twilio_messages/twilio_messages.py,sha256=afMctHGLReMDcKjagu2qsw_TYYCRVLWwqTWBzN_wLwI,5435
+trytond/modules/twilio_messages/twilio_messages.xml,sha256=TJhcIhFZ91Hy_aDcBZ0SeT9Yn5_qz9Ro13SxLr9phFo,1982
+trytond/modules/twilio_messages/tests/__init__.py,sha256=gSBtA_l5V2ZuZN_Y_ETOGOyb9RamqjKJT-N7r3xsnCw,171
+trytond/modules/twilio_messages/tests/scenario_twilio_messages.rst,sha256=NOgrxoPidJTeRdWVuHhKMp_3zTHFeq2OkfpOGkd7HAc,606
+trytond/modules/twilio_messages/tests/test_twilio_messages.py,sha256=fJaoQvnqONJFapZlnw-twAiQBfeh8APEF1Png2XgyFw,3437
+trytond/modules/twilio_messages/view/message_form.xml,sha256=IbABkypndYirCywh41Xhx7qlXiZrHvDxhy36uXU9w38,565
+trytond/modules/twilio_messages/view/message_list.xml,sha256=EXfxgfxgu73UhLLKmfkGIHDPBZwk3A-c9yDV364jiFk,166
+trytond/modules/twilio_messages/view/send_message_view_form.xml,sha256=Mk-W6_bPh1VA2chdq6C9l5M0TsKV5HBLxy7Tnonft2Y,283
+trytonlls_twilio_messages-4.4.0.dist-info/METADATA,sha256=6jzxVggEKwBEK9kMfzK7FTdCG5A487fQE9-kKEIqovM,1897
+trytonlls_twilio_messages-4.4.0.dist-info/RECORD,,
+trytonlls_twilio_messages-4.4.0.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+trytonlls_twilio_messages-4.4.0.dist-info/entry_points.txt,sha256=KLyY1zIl7savPnQ87hgXGro6k-vv-aro5tPe69GDIaY,81
+trytonlls_twilio_messages-4.4.0.dist-info/top_level.txt,sha256=1UNriCfRfjRjutJbJ_B8i13huVUoV_Otp9RlW3mCfw4,8
