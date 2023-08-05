@@ -1,0 +1,12 @@
+fedmsg_migration_tools/__init__.py,sha256=cd7O6UbJSWf8xdaLAPaL6tW3jgk92OVoUtcS2M_F0lA,788
+fedmsg_migration_tools/bridges.py,sha256=U0L7JyyZEfFv_AsW3qB3wKJexPi7JE9MsDRmAgsLc5k,3918
+fedmsg_migration_tools/cli.py,sha256=ab7jWnwNWeRr4V2iRcEuwap5U2SBq6zFvwywE3ckJOM,3633
+fedmsg_migration_tools/config.py,sha256=e92JtD7oAMPUwBuYhiKthIotpm1feLqLHw3DSfLGKYk,4714
+fedmsg_migration_tools/verify_missing.py,sha256=oc7VWc5LoCOe6g0iYeHMqW9UPPfWk-rKJqzUMms2YGQ,5408
+fedmsg_migration_tools/verify_missing_asyncio.py,sha256=FCbHHZUON-f7Y_jlfViBPPT3fl9-txKiDh22i4YT_PU,5405
+fedmsg_migration_tools/verify_missing_twisted.py,sha256=x6gHETdswBbf3EeKxNQ-Byg7dBwFIF7MnXaVHMIjR_M,5915
+fedmsg_migration_tools-0.1.1.dist-info/METADATA,sha256=QYU2KJ3QCYO0BSSiSLGuMjk4ywLtrzYFMt56Mu31gn4,1290
+fedmsg_migration_tools-0.1.1.dist-info/RECORD,,
+fedmsg_migration_tools-0.1.1.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+fedmsg_migration_tools-0.1.1.dist-info/entry_points.txt,sha256=JOOskIWmb85ZmXerwOaqPFRi0MmS7bytAtTM51W-HKA,75
+fedmsg_migration_tools-0.1.1.dist-info/top_level.txt,sha256=wD84vtppxixHmFTQ-ADUFfoV2QqfYTYuYTFtaprp5dM,23
