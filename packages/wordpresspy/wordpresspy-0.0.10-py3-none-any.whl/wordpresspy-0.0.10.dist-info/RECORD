@@ -1,0 +1,10 @@
+wordpresspy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wordpresspy/api.py,sha256=D14J88Fdrd0dFm94gqVMRjWtlkK55p3bot56M6hk2HE,2597
+wordpresspy/errors.py,sha256=-MG-eBaAEUMj3-lIb0q0Bkng4K6BD2AFN7PYzMYh0-Q,305
+wordpresspy/http_method.py,sha256=08NU4xo8cS9vYT2jbZfYaBVulflzQtYGYaIvmn-mP-8,80
+wordpresspy/utils.py,sha256=a0YgNuivyiw9hEOq0Ph6luGDI2mBfirXAFyqyiVxnSk,859
+wordpresspy/wordpress.py,sha256=JLJZyo4TFII4YKYBzGYqxg5v7czb4spHfULrx6WX7_k,5418
+wordpresspy-0.0.10.dist-info/METADATA,sha256=lW00OVRO5VokQjuqpFC96wp2G_rxU6zU5D3ZEGM4iIk,504
+wordpresspy-0.0.10.dist-info/RECORD,,
+wordpresspy-0.0.10.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+wordpresspy-0.0.10.dist-info/top_level.txt,sha256=lsD29okI0foPlI5hiGl58HGpXW2CktKZPjKlLWLsPEU,12
