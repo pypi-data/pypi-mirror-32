@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: sine.threads
+Version: 0.1.3
+Summary: stoppable and restartable thread simply using an event
+Home-page: https://github.com/SineObama/
+Author: Xian Zheng
+Author-email: 714186139@qq.com
+License: MIT
+Description: 
+        ```python
+        def func(stop_event):
+        	while True:
+        		if stop_event.is_set():
+        			break
+        		# do something
+        
+        thread = StoppableThread(target=func)
+        thread.start()
+        # ...
+        thread.stop()
+        # thread.stopped() == True
+        
+        thread = ReStartableThread(target=func, event_name='stop_event') # can specify the parameter's name
+        thread.start()
+        # ...
+        thread.stop()
+        # ...
+        thread.start()
+        # ...
+        thread.stop()
+        # ...
+        ```
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=2.7.0
+Description-Content-Type: text/markdown
