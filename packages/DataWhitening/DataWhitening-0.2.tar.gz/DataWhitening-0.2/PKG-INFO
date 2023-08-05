@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: DataWhitening
+Version: 0.2
+Summary: A dicision making helper for black box algorithm library
+Home-page: https://gitlab.com/SBINX/DataWhitening
+Author: Seddik Belkoura
+Author-email: seddik.belkoura@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/SBINX/DataWhitening/archive/0.1.tar.gz
+Description: UNKNOWN
+Keywords: testing,logging,example
+Platform: UNKNOWN
