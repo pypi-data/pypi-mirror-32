@@ -1,0 +1,41 @@
+sample:
+
+from alpha_factory import factor_gen,df_gen
+import pandas as pd
+from RNWS import read
+
+# 1
+df_gen.generator(20,'.../frames_new.csv')
+
+# 2
+factor_path='.../factor_path_test'
+
+df=pd.read_csv('.../frames_new.csv',index_col=0)
+factor_gen.find_dependency(df)
+
+exr=read.read_df('.../exr',file_pattern='exr',start=20140101,end=20140201)
+cap=read.read_df('.../cap',file_pattern='cap',header=0,dat_col='cap',start=20140101,end=20140201)
+open_price,close,vwap,high,low,volume=read.read_df(r'.../mkt_data',file_pattern='mkt',start=20140101,end=20140201,header=0,dat_col=['open','close','vwap','high','low','volume'])
+ind1,ind2,ind3=read.read_df(r'.../ind',file_pattern='ind',start=20140101,end=20140201,header=0,dat_col=['level1','level2','level3'])
+parms={'exr':exr
+       ,'cap':cap
+       ,'open':open_price
+       ,'close':close
+       ,'vwap':vwap
+       ,'high':high
+       ,'low':low
+       ,'volume':volume
+       ,'ind1':ind1
+       ,'ind2':ind2
+       ,'ind3':ind3}
+
+#3 generate new factors
+with factor_gen.generator_class(df=df,factor_path=factor_path,**parms) as gc:
+    gc=factor_gen.generator_class(df=df,factor_path=factor_path,**parms)
+    gc.generator(batch_size=3)
+    gc.generator(batch_size=5)
+
+# update
+with factor_gen.generator_class(df=df,factor_path=factor_path,**parms) as gc:
+    gc.reload_factors()
+    gc.generator(batch_size=3)
