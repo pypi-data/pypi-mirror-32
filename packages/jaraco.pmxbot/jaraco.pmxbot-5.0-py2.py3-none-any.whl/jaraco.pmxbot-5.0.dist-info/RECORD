@@ -1,0 +1,12 @@
+jaraco.pmxbot-5.0-py3.6-nspkg.pth,sha256=Tr3Ap28XLzXVIejA1-jRQg4hHIGiCuCk-3j9JZMkTZA,539
+jaraco/pmxbot/__init__.py,sha256=GbtPVoHrDBCF1Rfw1I8AVA75kiPAq18VG7LihS7z9KA,172
+jaraco/pmxbot/notification.py,sha256=C0VvfhjEQ7lyS3hdQu_jpQ96hR8JaAZFT_prapa7T8Y,1021
+jaraco.pmxbot-5.0.dist-info/LICENSE.txt,sha256=pV4v_ptEmY5iHVHYwJS-0JrMS1I27nPX3zlaM7o8GP0,1050
+jaraco.pmxbot-5.0.dist-info/METADATA,sha256=CTDiUyrquIGF3tZkM5hQxj0SU7jEszgzM2oAhdz7OEA,1701
+jaraco.pmxbot-5.0.dist-info/RECORD,,
+jaraco.pmxbot-5.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+jaraco.pmxbot-5.0.dist-info/entry_points.txt,sha256=r20rHkQxhcuwtWgQHC0A_lIXTRlHZsu3-gbAPVy2_lw,91
+jaraco.pmxbot-5.0.dist-info/namespace_packages.txt,sha256=0JnN3LfXH4LIRfXL-QFOGCJzQWZO3ELx4R1d_louoQM,7
+jaraco.pmxbot-5.0.dist-info/top_level.txt,sha256=fEaqiBN_pusE4WSnMG01FE7SgMQ9hMFil1owm6gKSWc,13
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_notification.py,sha256=5m3P0vjxyK2kykRDgFC8woXJr2eCbFI0bY8LJX83aBA,709
