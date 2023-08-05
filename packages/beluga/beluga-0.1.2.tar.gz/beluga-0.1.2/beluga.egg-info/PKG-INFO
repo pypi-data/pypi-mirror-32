@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: beluga
+Version: 0.1.2
+Summary: An indirect trajectory optimization framework.
+Home-page: https://github.com/Rapid-Design-of-Systems-Laboratory/beluga
+Author: Michael Sparapany
+Author-email: msparapa@purdue.edu
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: any
