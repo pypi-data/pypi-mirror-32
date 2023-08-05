@@ -1,0 +1,13 @@
+swepy/__init__.py,sha256=HNl7seaLHP9QcOwHoAyrVYGmZKWmqQjXWTi7ti0tGyQ,15
+swepy/ease2conv.py,sha256=G2-y5_ltjsSrr-0WyeqqJrMJ7C6480uUNvZKHHNzUdI,8517
+swepy/full_workflow.py,sha256=iD3rLwwe6amYhA-rYvKWLkvOR0vHzl8Xxg4Q1Ek1fjo,2392
+swepy/nsidcDownloader.py,sha256=vPbIjLFP2zvP2GmRELnplYvVHULPjNOI7AkgYnX3r20,5792
+swepy/swepy.py,sha256=sxrgIIzINXoQYcVWV6RUoDuCjTZxUas81cpqnrYaEAI,9560
+swepy/nsdicDownloader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swepy/nsdicDownloader/nsidcDownloader.py,sha256=1daeUdI9Znnu9vBKr9i4l5BRJ59uuqJpzUKFHETS-sA,5791
+swepy/nsidcDownloader/__init__.py,sha256=vmt78HTEDbgYjbESWvJOiFuXq6_Q5Y9KR8o5tdQVjHc,25
+swepy/nsidcDownloader/nsidcDownloader.py,sha256=vPbIjLFP2zvP2GmRELnplYvVHULPjNOI7AkgYnX3r20,5792
+swepy-0.0.4.dist-info/METADATA,sha256=3EiAkcr79vObCI3mVmEpT0e3MQfHbWSJqFciXVjt_7I,5309
+swepy-0.0.4.dist-info/RECORD,,
+swepy-0.0.4.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+swepy-0.0.4.dist-info/top_level.txt,sha256=A2pZsZLvXxIFsmKrIrXCl6wDxzVIiYHl-51ZeI8RBgE,6
