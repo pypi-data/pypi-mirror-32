@@ -1,0 +1,4 @@
+
+            [console_scripts]
+            hello123=nwapp.scripts.hello:cli
+        
