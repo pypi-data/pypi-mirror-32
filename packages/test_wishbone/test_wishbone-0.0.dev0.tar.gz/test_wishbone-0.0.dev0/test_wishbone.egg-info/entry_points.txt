@@ -1,0 +1,6 @@
+[wishbone_external.function.template]
+uptime = wishbone_external.function.template.uptime:Uptime
+
+[wishbone_external.module.grandtotal]
+grandtotal = wishbone_external.module.grandtotal:GrandTotal
+
