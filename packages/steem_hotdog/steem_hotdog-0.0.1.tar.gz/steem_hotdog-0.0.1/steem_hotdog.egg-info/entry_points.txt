@@ -1,0 +1,3 @@
+[console_scripts]
+hotdog = hotdog.indexer:main
+

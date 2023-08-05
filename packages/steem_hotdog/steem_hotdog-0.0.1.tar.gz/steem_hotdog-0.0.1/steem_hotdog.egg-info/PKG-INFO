@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: steem-hotdog
+Version: 0.0.1
+Summary: A mongodb indexer for custom_json operations
+Home-page: http://github.com/emre/hotdog
+Author: emre yilmaz
+Author-email: mail@emreyilmaz.me
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
