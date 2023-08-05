@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+pyuptimerobot/__init__.py
+pyuptimerobot.egg-info/PKG-INFO
+pyuptimerobot.egg-info/SOURCES.txt
+pyuptimerobot.egg-info/dependency_links.txt
+pyuptimerobot.egg-info/top_level.txt
