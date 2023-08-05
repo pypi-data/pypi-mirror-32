@@ -1,0 +1,10 @@
+formic/LICENSE.txt,sha256=o-O8elq_8PMPAV0hUB_y5aVNKZ04vqYRK-br5-DUIWk,33040
+formic/VERSION.txt,sha256=v-wuNFg62n5q8stzmT-3Wj9xR6bJQ-X_X1xClPxXe5A,5
+formic/__init__.py,sha256=ZCM6XFnT6xzOXjhSndkAIG-fEcyaQV2WeoZmBUamgBk,1257
+formic/command.py,sha256=KjZMXgpxZkkTLAvqT3zIdPsmhddYuT53iRV8TWbzyw4,8548
+formic/formic.py,sha256=GvQvmxjKAPFu6O_0o3RsJ9AwjO99oflmlOlvz4mB5gU,48669
+formic2-1.0.2.dist-info/METADATA,sha256=6Y1-iCJwtw77m3uaKePzjQn54eskHMImGDMrYG31t_w,5780
+formic2-1.0.2.dist-info/RECORD,,
+formic2-1.0.2.dist-info/WHEEL,sha256=pZyAqgNAylOf0KG_hPHMtuuY08rV3WzWwZu2OTsNnnw,97
+formic2-1.0.2.dist-info/entry_points.txt,sha256=O4fq4FbQzaTkkCF3f3HLAwpPSvL1xcg0L6SWmtgc6KY,55
+formic2-1.0.2.dist-info/top_level.txt,sha256=419Wcm6qr-M-ta1wKZwjLpSOoiVvWgg-OAW0z7HSYC8,7
