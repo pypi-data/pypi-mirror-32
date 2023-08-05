@@ -1,0 +1,3 @@
+[console_scripts]
+sjb-todo = sjb.td.main:main
+
