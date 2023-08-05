@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: zaruti-trading
+Version: 1.0.3
+Summary: ZARUTI trading client
+Home-page: https://github.com/zaruti/trading
+Author: ZARUTI
+Author-email: admin@zaruti.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Dist: requests (==2.18.4)
+
+ZARUTI trading client
+
+
