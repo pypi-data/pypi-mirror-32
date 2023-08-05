@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: cms7
+Version: 0.1a20
+Summary: Simple static site generator
+Home-page: https://github.com/freenode/cms7
+Author: Ed Kellett
+Author-email: e@kellett.im
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
