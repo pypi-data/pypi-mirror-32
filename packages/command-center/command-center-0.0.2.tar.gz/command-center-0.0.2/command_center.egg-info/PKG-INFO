@@ -1,0 +1,51 @@
+Metadata-Version: 1.1
+Name: command-center
+Version: 0.0.2
+Summary: GUI window to easily run your own frequently used commands
+Home-page: https://github.com/miniscruff/python-command-center
+Author: Ronnie Smith
+Author-email: halfpint1170@gmail.com
+License: UNKNOWN
+Description: =====================
+        Python Command Center
+        =====================
+        
+        GUI window to easily run your own frequently used commands
+        
+        Installation
+        ============
+        Install from pypi using pip::
+        
+           pip install command-center
+        
+        Usage
+        =====
+        Simply run pcc in the terminal::
+        
+           $ pcc
+        
+        Options
+        =======
+        
+        Columns
+        -------
+        You can change the number of columns that command center will display by
+        including a ``--col=N`` argument.::
+        
+           $ pcc --col=4
+        
+        Extra Commands
+        --------------
+        You can include additional commands for only the next execution by including
+        key value pair arguments such as ``key=value``. Note that unless your key and
+        value do not include spacing you will need to double quote the argument.::
+        
+           $ pcc "pytest abc=pytest a/b/c.py -x"
+        
+Keywords: development
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
