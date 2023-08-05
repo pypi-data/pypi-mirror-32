@@ -1,0 +1,7 @@
+include README.rst
+
+graft misc
+
+recursive-include theriddler/data *
+recursive-include theriddler/riddles *
+recursive-include theriddler/tests *
