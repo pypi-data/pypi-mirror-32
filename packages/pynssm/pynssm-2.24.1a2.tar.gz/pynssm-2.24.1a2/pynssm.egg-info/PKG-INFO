@@ -1,0 +1,29 @@
+Metadata-Version: 1.2
+Name: pynssm
+Version: 2.24.1a2
+Summary: Python wrapper for NSSM - the Non-Sucking Service Manager (nssm.cc)
+Home-page: https://github.com/LNSD/pynssm
+Author: Lorenzo Delgado
+Author-email: lorenzo.delgado@lnsd.es
+Maintainer: Lorenzo Delgado
+Maintainer-email: lorenzo.delgado@lnsd.es
+License: UNKNOWN
+Download-URL: https://github.com/LNSD/pynssm/archive/2.24.1-alpha.2.tar.gz
+Description: PyNSSM
+        ======
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Documentation
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Installation/Setup
+Classifier: Topic :: System :: Software Distribution
