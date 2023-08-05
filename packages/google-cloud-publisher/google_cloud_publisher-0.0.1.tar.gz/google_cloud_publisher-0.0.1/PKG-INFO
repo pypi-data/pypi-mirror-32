@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: google_cloud_publisher
+Version: 0.0.1
+Summary: Publish to Google Cloud PubSub from App Engine Standard
+Home-page: https://github.com/pypa/example-project
+Author: Ivan Parra
+Author-email: ivantrips1@gmail.com
+License: UNKNOWN
+Description: ### Google Cloud Publisher
+        
+        This package is intended to publish in Google Cloud Pubsub from App Engine Standard because at the time of writing Google doesn't support this with their library
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
