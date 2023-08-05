@@ -1,0 +1,9 @@
+muacryptcc/__init__.py,sha256=iPlYCcIzuzW7T2HKDkmYlMkRI51dBLfNRxPPiWrfw9U,22
+muacryptcc/commands.py,sha256=G3Sd2z9bbGtm8uO9ePypxSIdL5Ejam2xJPi26oClliE,1173
+muacryptcc/filestore.py,sha256=Nf6-W0SkoSI2Y5sa76d9r6KeAWnNcor-UWhlY528o1U,2752
+muacryptcc/plugin.py,sha256=WOXCnFOM3TaSEbUaNC1bXjWi1cLVRRtF9_mr6at41Cw,7343
+muacryptcc-0.8.0.dist-info/METADATA,sha256=sujTqKxIjYjpVCw8uZJ5lO0-HOqWyhnOQ9YDxOsnstk,2904
+muacryptcc-0.8.0.dist-info/RECORD,,
+muacryptcc-0.8.0.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+muacryptcc-0.8.0.dist-info/entry_points.txt,sha256=MPlQdoHyWrd7BAzjh_oNQLEDd2HNw7_B54igBj6braI,43
+muacryptcc-0.8.0.dist-info/top_level.txt,sha256=c87ICrZs2rXmxx1OG5mmQGK536sdlYYYFH7jIYOwwsY,11
