@@ -1,0 +1,12 @@
+aiossdb/__init__.py,sha256=G1KW_REpFswwoON3UO10nUyB9amRp-Jb-nkmSnHWp3M,362
+aiossdb/client.py,sha256=Qq7wKf69LC2xHIBLBkzKzVuQiXzRyjazpfz5lsU1zjk,1590
+aiossdb/connection.py,sha256=qRzgBO9DUlIhVPsJt7mh4P0tlBDJhgVJDrFwcVV6lG4,8682
+aiossdb/errors.py,sha256=8Qr4FVAzHGf2DQho4o56tsZQgdBBCKt1iEshSj_rpKg,639
+aiossdb/log.py,sha256=SHWTX866I8AdQs_3ghYd-wIQ1hr3UzarbFtZ-3or86I,392
+aiossdb/parser.py,sha256=39XFDninoKtltsmMUOp3MGfvue0PiT1DsMvzhvvrdiA,4169
+aiossdb/pool.py,sha256=gNAYNJb3uKLhcWslID-ka2Abk1bFg0BFcu8yqMJqCOc,9573
+aiossdb/utils.py,sha256=oNZFPKDgqKh14Hje1GmStRYliXolYaTYXBwwbXZg3o4,3012
+aiossdb-0.0.5.dist-info/METADATA,sha256=zeYXwyKzWddL5UXUwJ0mkhWF1cLyfnBeYfgLgQVCimo,4197
+aiossdb-0.0.5.dist-info/RECORD,,
+aiossdb-0.0.5.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+aiossdb-0.0.5.dist-info/top_level.txt,sha256=_Gb6nQq8UD6W7g-lUI7I4M198bM4IUKFwwnUb_uq0E4,8
