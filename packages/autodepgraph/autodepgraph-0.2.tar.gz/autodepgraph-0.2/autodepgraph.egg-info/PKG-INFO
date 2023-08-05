@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: autodepgraph
+Version: 0.2
+Summary: automated tuning based on dependency graph
+Home-page: https://github.com/AdriaanRol/AutoDepGraph
+Author: Adriaan Rol et al
+Author-email: adriaan.rol@gmail.com
+License: BSD
+Description: UNKNOWN
+Keywords: graph,calibration framework
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires: qcodes
+Requires: pytools
+Requires: numpy
+Requires: pytest
+Requires: matplotlib
