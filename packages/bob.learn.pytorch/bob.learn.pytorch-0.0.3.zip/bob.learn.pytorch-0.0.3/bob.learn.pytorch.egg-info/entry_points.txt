@@ -1,0 +1,3 @@
+[console_scripts]
+train_cnn.py = bob.learn.pytorch.scripts.train_cnn:main
+

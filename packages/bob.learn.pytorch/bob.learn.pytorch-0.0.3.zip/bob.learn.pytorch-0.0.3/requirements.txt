@@ -1,0 +1,10 @@
+setuptools
+docopt
+matplotlib
+numpy
+bob.extension
+bob.core
+bob.io.base
+bob.io.image
+torch == 0.4.0
+torchvision == 0.2.0
