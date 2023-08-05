@@ -1,0 +1,9 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    i18n_domain="brasil.gov.facetada">
+
+  <!-- Conteudos -->
+  <include package='.faceted' />
+  <include package='.scaleimage' />
+
+</configure>
