@@ -1,0 +1,6 @@
+[datalad.extensions]
+hirni = datalad_hirni:command_suite
+
+[datalad.tests]
+hirni = datalad_hirni
+
