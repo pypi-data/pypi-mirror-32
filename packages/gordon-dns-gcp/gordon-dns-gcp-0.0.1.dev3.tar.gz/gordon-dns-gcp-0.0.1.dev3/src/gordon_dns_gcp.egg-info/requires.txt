@@ -1,0 +1,5 @@
+aiohttp
+google-auth
+google-cloud-pubsub
+gordon-dns
+jsonschema
