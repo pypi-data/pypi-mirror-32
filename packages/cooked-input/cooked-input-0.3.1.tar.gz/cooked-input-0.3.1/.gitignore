@@ -1,0 +1,10 @@
+*.pyc
+.idea
+.pypirc
+.coverage
+docs/_build
+build/*
+dist/*
+.cache/*
+cooked_input.egg-info/*
+mk_build
