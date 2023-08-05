@@ -1,0 +1,15 @@
+goorm/NanumBarunGothic.ttf,sha256=m4cncxNOLk2MCxcCEmZ4ZXbbBshD7eDQtSOyFKRQdWw,4186060
+goorm/__init__.py,sha256=qZQ1Vr3AVxAmY6DRCtL6U3pZnwyWZdcSXG3GbWw7rts,311
+goorm/cli.py,sha256=K7Yff_fMaYcCXmXmO-CdLQSgkFWpicEG4YiOGjeVIQM,7016
+goorm/color_from_image.py,sha256=7wbJ1eW11TyNiiIRlXxcfkKVFEqTGziuqgsprm14pMU,2671
+goorm/query_integral_image.cp36-win_amd64.pyd,sha256=auGW3q-CIwgdGikKK085JPS4ReAyd-PYFiczM62KuUo,112128
+goorm/stopwords,sha256=TDA4MKWaBDOqkXzf09_Kdzc_OujvrSRzBujoTC4MktQ,1224
+goorm/tokenization.py,sha256=_rFA-2V0dy95xZutJw-yNEltoQ-iOyfnriCYx1IUEzI,5240
+goorm/wordcloud.py,sha256=GTUQ6xuj5Sy9LdcQaqPMFr1IlUXo-kgKuUA3nBf4VZE,28066
+goorm-0.3.9.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+goorm-0.3.9.0.dist-info/LICENSE.txt,sha256=2M29IqPlitHgNKvSF3A6Rrv7ERH62Y_gnbZDxDnemUA,1125
+goorm-0.3.9.0.dist-info/METADATA,sha256=7EbeqvcRaKYUZjFoCCHDtn9HKhMK0WEynveKNNEzTAo,384
+goorm-0.3.9.0.dist-info/RECORD,,
+goorm-0.3.9.0.dist-info/WHEEL,sha256=4fkP9V5fUlnPlEu2h0nt7u0cPpJipYsJO32nXNevnFk,106
+goorm-0.3.9.0.dist-info/metadata.json,sha256=KkKjrDSaSLJT_cJzpVzTXpnklshM1OBzBaxKsUMlFQs,591
+goorm-0.3.9.0.dist-info/top_level.txt,sha256=_KUgmcBRegRNtsrmApLnGqiA0uaOGQA2tG_Nr5VehAw,6
