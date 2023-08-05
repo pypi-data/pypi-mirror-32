@@ -1,0 +1,20 @@
+Metadata-Version: 2.0
+Name: odoo10-addon-mis-builder-operating-unit
+Version: 10.0.1.0.0.99.dev5
+Summary: MIS Builder with Operating Unit
+Home-page: http://www.eficent.com
+Author: Eficent Business and IT Consulting Services S.L., Serpent Consulting Services Pvt. Ltd.,ACSONE SA/NV,Odoo Community Association (OCA)
+Author-email: support@odoo-community.org
+License: LGPL-3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Requires-Python: ~=2.7
+Requires-Dist: odoo (<10.1dev,>=10.0)
+Requires-Dist: odoo10-addon-account-operating-unit
+Requires-Dist: odoo10-addon-mis-builder
+
+UNKNOWN
+
+
