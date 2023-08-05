@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: spvcm
+Version: 0.0.8
+Summary: Fit spatial multilevel models and diagnose convergence
+Home-page: https://github.com/ljwolf/spvcm
+Author: Levi John Wolf
+Author-email: levi.john.wolf@gmail.com
+License: 3-Clause BSD
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
