@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: psims
+Version: 0.1.9
+Summary: Writers and controlled vocabulary manager for PSI-MS's mzML and mzIdentML standards
+Home-page: https://github.com/mobiusklein/psims
+Maintainer: Joshua Klein
+Maintainer-email: jaklein@bu.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: lxml
+Requires-Dist: six
+Requires-Dist: sqlalchemy
+Requires-Dist: numpy
+
+UNKNOWN
+
+
