@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: pyqtlet
+Version: 0.2.beta1
+Summary: Using leaflet maps in PyQt
+Home-page: https://github.com/skylarkdrones/pyqtlet
+Author: Samarth Hattangady
+Author-email: samhattangady@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/skylarkdrones/pyqtlet/archive/0.2.beta1.tar.gz
+Description: UNKNOWN
+Keywords: leaflet,pyqt,maps
+Platform: UNKNOWN
