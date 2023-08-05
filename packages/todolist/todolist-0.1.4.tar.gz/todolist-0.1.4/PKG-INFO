@@ -1,0 +1,21 @@
+Metadata-Version: 1.2
+Name: todolist
+Version: 0.1.4
+Summary: The Open Source CLI To Do List App
+Home-page: https://github.com/StillnessFate/todo-list-cli
+Author: Kang MinSeok
+Author-email: stillnessfate@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/StillnessFate/todo-list-cli/archive/master.tar.gz
+Description: # Open-Source-ToDo-List
+        The Open Source CLI To Do List App
+        
+Keywords: todo list,task manager
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3
