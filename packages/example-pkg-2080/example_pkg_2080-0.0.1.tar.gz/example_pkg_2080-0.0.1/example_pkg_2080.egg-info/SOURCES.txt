@@ -1,0 +1,7 @@
+README.md
+setup.py
+example_pkg_2080/__init__.py
+example_pkg_2080.egg-info/PKG-INFO
+example_pkg_2080.egg-info/SOURCES.txt
+example_pkg_2080.egg-info/dependency_links.txt
+example_pkg_2080.egg-info/top_level.txt
