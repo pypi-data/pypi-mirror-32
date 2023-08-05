@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: bakercm
+Version: 0.4.1
+Summary: Baker is a decentralized configuration management based on files
+Home-page: https://github.com/lucasb/BakerCM
+Author: Lucas Boscaini
+Author-email: lucasboscaini@gmail.com
+License: BSD3
+Keywords: baker configuration management
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: System :: Software Distribution
+Classifier: Topic :: Utilities
+Requires-Dist: pycryptodome (==3.4.11)
+
+BakerCM
+=======
+|gitter| |travisci| |codecov| |codeclimate| |license|
+
+BakerCM is a Decentralized Configuration Management Based on Files.
+
+
+.. |gitter| image:: https://img.shields.io/gitter/room/TechnologyAdvice/Stardust.svg?style=flat
+   :target: https://gitter.im/bakerchat/Lobby
+.. |travisci| image:: https://travis-ci.org/lucasb/BakerCM.svg?branch=master
+    :target: https://travis-ci.org/lucasb/BakerCM   
+.. |codecov| image:: https://codecov.io/gh/lucasb/BakerCM/branch/master/graph/badge.svg
+    :target: https://codecov.io/gh/lucasb/BakerCM
+.. |codeclimate| image:: https://codeclimate.com/github/lucasb/BakerCM/badges/gpa.svg
+    :target: https://codeclimate.com/github/lucasb/BakerCM
+.. |license| image:: https://img.shields.io/badge/license-BSD3-green.svg
+
+

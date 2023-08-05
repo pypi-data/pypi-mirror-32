@@ -1,0 +1,15 @@
+baker/__init__.py,sha256=-Ir0_0Ig3VdmDo5KIE2V9ZUOtc0lXI0W-C7jAZB9M3k,703
+baker/cli.py,sha256=yq5roj1ilmK4FQ3K38vTsCuiQg8LdqlZxrZyQZ0OrDo,3906
+baker/commands.py,sha256=80Faihg95q7m6QEkFFwiFHYbpV2TkR1TzMCV28lu3Y0,3365
+baker/logger.py,sha256=cSZC-dsw_39OHKt-QE10xNQ7ueo91ldCKFo4BC236Ek,677
+baker/recipe.py,sha256=JOZ8rtVySYG5ZIBeGG_s5UqVM3OY5-k65IeAi5uSKtc,4473
+baker/repository.py,sha256=D_qNsUeboBIyV7TOb9-p0cq4JSxh8cRvA4U62uDYDkM,7515
+baker/secret.py,sha256=PBOLEk-ZJN4-PgCvvjcNYWqTPFssptYl2LOGaHl2z5M,3314
+baker/settings.py,sha256=T32k0pis8mg7WZ_vQuvxAweDhfNWVSJLVbjTqXPsHgw,3534
+baker/storage.py,sha256=vUZv38IUaeSmCJz8eoHdIkKgY6NNEAheYQ2gDu6hEgQ,2316
+baker/template.py,sha256=BU9BChcIEmouyQ5-0zUejBZqYUOHaX9W218i1XDTldM,3552
+bakercm-0.4.1.dist-info/METADATA,sha256=G5Lx3j1el6jQPQmmPyMEjvJC1GzwaUVmezRWmu4OCmk,1387
+bakercm-0.4.1.dist-info/RECORD,,
+bakercm-0.4.1.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+bakercm-0.4.1.dist-info/entry_points.txt,sha256=21jJYPiUobHAqPRWhQJM9TegtMF12l_6GDxV6csvGL8,38
+bakercm-0.4.1.dist-info/top_level.txt,sha256=MZqwd51bhk9OorfP4Q2TIzJVCmjx_IvbxbZ49ye-FLc,6
