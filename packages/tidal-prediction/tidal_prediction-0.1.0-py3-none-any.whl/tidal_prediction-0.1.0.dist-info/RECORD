@@ -1,0 +1,16 @@
+tidal_prediction/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tidal_prediction/convert/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tidal_prediction/convert/io_nc.py,sha256=krBeZ4Ne1_u2gHqu1INSilbAm3GTEA6y0SzE2XhgXYM,428
+tidal_prediction/tide/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tidal_prediction/tide/nc.py,sha256=l-u3juO5E4UA1SZ_ixizUQMAFYLdX4jfl4RvPQ1F_IM,3466
+tidal_prediction/tide/tideconstit.py,sha256=5kKackth4brqRdJIsAWw4-ZHWZkf8Hzu9t6lYQ4i98s,3908
+tidal_prediction/tide/tidemodel.py,sha256=QRTq4cUqkZOlJ8dhiQZ6il9iE0Ppz4G-iXnYs5OqdN8,11833
+tidal_prediction/tide/tideutils.py,sha256=dhlXZm4RwFzOIhN91nKKr5oaZzCPiZumJLbgggCpeGI,26874
+tidal_prediction-0.1.0.data/scripts/extract_local_model.py,sha256=TFsZ1vO6kPRMvA6fZZdz3DmNUbqzZ9Zh5gwN2lVMAmM,28392
+tidal_prediction-0.1.0.data/scripts/predict_tide.py,sha256=tFp1nVlgvFzsxogySrqs6BHunjFoSSQPoY7QROFlMMY,1736
+tidal_prediction-0.1.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+tidal_prediction-0.1.0.dist-info/METADATA,sha256=2Wy-WtKB0qZ-mAZlgwDOuOKEqeDgdksB7np0TtzX10s,349
+tidal_prediction-0.1.0.dist-info/RECORD,,
+tidal_prediction-0.1.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+tidal_prediction-0.1.0.dist-info/metadata.json,sha256=9im43TxxJXewo4kL2Z1pXiqA2X0XyhEsvpUtc3b3pD0,525
+tidal_prediction-0.1.0.dist-info/top_level.txt,sha256=Dwe7VKzZ6-NlU3J3UTtNbPRYr_GLxgV61g_FfO5eeY0,17
