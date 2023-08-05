@@ -1,0 +1,6 @@
+README.md
+setup.py
+ai_face.egg-info/PKG-INFO
+ai_face.egg-info/SOURCES.txt
+ai_face.egg-info/dependency_links.txt
+ai_face.egg-info/top_level.txt
