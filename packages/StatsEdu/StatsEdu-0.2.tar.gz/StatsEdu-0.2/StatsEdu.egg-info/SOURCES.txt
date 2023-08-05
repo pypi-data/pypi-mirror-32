@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+StatsEdu/__init__.py
+StatsEdu/stat_functions.py
+StatsEdu.egg-info/PKG-INFO
+StatsEdu.egg-info/SOURCES.txt
+StatsEdu.egg-info/dependency_links.txt
+StatsEdu.egg-info/requires.txt
+StatsEdu.egg-info/top_level.txt

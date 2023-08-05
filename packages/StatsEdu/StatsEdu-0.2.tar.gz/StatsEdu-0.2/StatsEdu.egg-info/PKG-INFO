@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: StatsEdu
+Version: 0.2
+Summary: Statistic package. Include functions to calculate different descriptive statistics and build plot, histogram or boxplot.
+Home-page: https://pypi.org/user/Feesterra
+Author: Elena Golosovskaia
+Author-email: elena.golosovskaia@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Topic :: Education
+Classifier: Programming Language :: Python :: 3.6
