@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+arxivcli/__init__.py
+arxivcli/cli.py
+arxivcli.egg-info/PKG-INFO
+arxivcli.egg-info/SOURCES.txt
+arxivcli.egg-info/dependency_links.txt
+arxivcli.egg-info/entry_points.txt
+arxivcli.egg-info/not-zip-safe
+arxivcli.egg-info/requires.txt
+arxivcli.egg-info/top_level.txt
