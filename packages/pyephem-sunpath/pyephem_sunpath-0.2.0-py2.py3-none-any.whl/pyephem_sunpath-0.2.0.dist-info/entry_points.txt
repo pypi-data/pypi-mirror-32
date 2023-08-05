@@ -1,0 +1,3 @@
+[console_scripts]
+pyephem_sunpath = pyephem_sunpath.cli:main
+
