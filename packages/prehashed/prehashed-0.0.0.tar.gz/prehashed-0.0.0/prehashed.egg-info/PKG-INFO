@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: prehashed
+Version: 0.0.0
+Summary: Prehashed
+Home-page: https://github.com/blester125/prehashed
+Author: blester125
+Author-email: blester125@gmail.com
+License: MIT
+Download-URL: https://github.com/blester125/prehashed/archive/0.0.0.tar.gz
+Description: # Prehashed
+        <!---[<img src="https://travis-ci.com/blester125/prehashed.svg?branch=master" alt="Build Status">](https://travis-ci.com/blester125/prehashed)--->
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering
+Classifier: Intended Audience :: Science/Research
+Classifier: Environment :: Console
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: test
