@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: pydesk
+Version: 0.0.1
+Summary: A small module to support automation of generating valid python variable names from external data.
+Home-page: https://github.com/yehonadav/pydesk
+Author: Yehonadav
+Author-email: yonadav.barilan@gmail.com
+License: Apache Software
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: dev
+Requires-Dist: pytest (>=3); extra == 'dev'
+Requires-Dist: coverage; extra == 'dev'
+Requires-Dist: tox; extra == 'dev'
+Requires-Dist: sphinx; extra == 'dev'
+Provides-Extra: dotenv
+Requires-Dist: python-dotenv; extra == 'dotenv'
+
+# pydesk is a desktop automation in python
+
+# usage example:
+
+
+from pydesk import desktop
+
+pptx = desktop.PPTX()
+
+pptx.open('/path/to/pptx_file.pptx')
+
+pptx.start_presentation_mode()
+
+pptx.next_slide(wait=2)
+
+pptx.next_slide(wait=2)
+
+pptx.next_slide(wait=2)
+
+pptx.previous_slide(wait=2)
+
+pptx.previous_slide(wait=2)
+
+pptx.previous_slide(wait=2)
+
+pptx.go_to_slide(2)
+
+pptx.exit_presentation_mode()
+
+pptx.close()
+
+desktop.switch_window(5)
+
+
