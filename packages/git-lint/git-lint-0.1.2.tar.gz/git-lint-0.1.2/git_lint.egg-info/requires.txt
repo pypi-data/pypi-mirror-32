@@ -1,0 +1,10 @@
+pyyaml
+termcolor
+docopt
+html-linter
+template-remover
+docutils
+pathlib2
+
+[:python_version == "2.7"]
+futures
