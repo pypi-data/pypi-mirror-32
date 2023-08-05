@@ -1,0 +1,4 @@
+[console_scripts]
+iotronic-conductor = iotronic.cmd.conductor:main
+iotronic-wamp-agent = iotronic.cmd.wamp_agent:main
+
