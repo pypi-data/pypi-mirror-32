@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: lektor-read-full-post
+Version: 0.3
+Summary: UNKNOWN
+Home-page: https://andrewshay.me
+Author: Andrew Shay
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+
+Lektor plugin that allows blog listing posts to be shortened with a link to the full post.
+
+
