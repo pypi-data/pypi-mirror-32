@@ -1,0 +1,10 @@
+README.md
+setup.py
+apistar_websocket/__init__.py
+apistar_websocket/app.py
+apistar_websocket/websocket.py
+apistar_websocket.egg-info/PKG-INFO
+apistar_websocket.egg-info/SOURCES.txt
+apistar_websocket.egg-info/dependency_links.txt
+apistar_websocket.egg-info/requires.txt
+apistar_websocket.egg-info/top_level.txt
