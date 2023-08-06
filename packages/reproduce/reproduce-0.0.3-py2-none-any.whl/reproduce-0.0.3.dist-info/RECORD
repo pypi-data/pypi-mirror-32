@@ -1,0 +1,9 @@
+reproduce/__init__.py,sha256=BS3DVpbZ_xZRKpqNAB872RCxb6RzHIMbEOIYV9h2l2w,72
+reproduce/hash_and_rename.py,sha256=6isfbw6CrrRS4me4R5CRJFHCIrhvDPDuTvdAZF54oQE,654
+reproduce/reproduce.py,sha256=5itE4v9Joyieq1seLbWhWG-XErSOqqyk4641fC7u004,10620
+reproduce-0.0.3.dist-info/DESCRIPTION.rst,sha256=zxohOl-SooMDzBZzEZhlWWI0mIbI5zgo6TKe75oO1Xw,355
+reproduce-0.0.3.dist-info/METADATA,sha256=7CiIdYZzVLzVhYuqLPiN6yM28pT7YaYK8maMAaOr18k,1047
+reproduce-0.0.3.dist-info/RECORD,,
+reproduce-0.0.3.dist-info/WHEEL,sha256=90z-L1FjHEv_g8pMPaPbaXuhBIvSlvYObRaa122x8ag,97
+reproduce-0.0.3.dist-info/metadata.json,sha256=gIHOk96bI9zZTlr25TQ71RYZjaSVUgEUqUk-cbrVSmg,791
+reproduce-0.0.3.dist-info/top_level.txt,sha256=Uvm1t3DpWXD_9wwGkIgz-QaW0_PhlLLODfbAOkZimls,10
