@@ -1,0 +1,15 @@
+matplotlib
+pandas
+numpy
+scipy
+pyyaml
+PyQt5
+PyVISA
+trackpy
+scikit_image
+ipywidgets
+PIMS
+Pillow
+peakutils
+pyserial
+pylabcontrol
