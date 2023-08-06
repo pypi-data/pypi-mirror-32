@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: aiologger
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/diogommartins/aiologger
+Author: Diogo Magalhães Martins
+Author-email: magalhaesmartins@icloud.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: logging json log output
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.6

@@ -1,0 +1,5 @@
+setup.py
+aiologger.egg-info/PKG-INFO
+aiologger.egg-info/SOURCES.txt
+aiologger.egg-info/dependency_links.txt
+aiologger.egg-info/top_level.txt
