@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: FixedWidth
+Version: 1.2
+Summary: Two-way fixed-width <--> Python dict converter.
+Home-page: https://github.com/ShawnMilo/fixedwidth
+Author: Shawn Milochik
+Author-email: shawn@milochik.com
+License: BSD
+Keywords: fixed width
+Platform: UNKNOWN
+Requires-Dist: six
+
+UNKNOWN
+
+
