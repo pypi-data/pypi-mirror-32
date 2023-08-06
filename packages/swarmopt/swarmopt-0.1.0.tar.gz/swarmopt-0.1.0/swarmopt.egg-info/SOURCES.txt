@@ -1,0 +1,10 @@
+README.md
+setup.py
+swarmopt/__init__.py
+swarmopt/functions.py
+swarmopt/swarm.py
+swarmopt.egg-info/PKG-INFO
+swarmopt.egg-info/SOURCES.txt
+swarmopt.egg-info/dependency_links.txt
+swarmopt.egg-info/not-zip-safe
+swarmopt.egg-info/top_level.txt
