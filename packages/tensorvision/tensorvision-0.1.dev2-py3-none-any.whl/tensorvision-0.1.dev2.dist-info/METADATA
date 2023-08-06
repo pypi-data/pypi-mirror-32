@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: tensorvision
+Version: 0.1.dev2
+Summary: A library to build and train neural networks in with TensorFlow for Computer Vision
+Home-page: https://github.com/MarvinTeichmann/TensorVision
+Author: Marvin Teichman, Martin Thoma
+Author-email: marvin.teichmann@googlemail.com, info@martin-thoma.de
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 7 - Inactive
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+Requires-Dist: numpy
+Requires-Dist: scipy
+Provides-Extra: testing
+Requires-Dist: mock; extra == 'testing'
+Requires-Dist: pytest; extra == 'testing'
+Requires-Dist: pytest-cov; extra == 'testing'
+Requires-Dist: pytest-pep8; extra == 'testing'
+
+[![Documentation Status](https://readthedocs.org/projects/tensorvision/badge/?version=latest)](http://tensorvision.readthedocs.org/en/latest/?badge=latest)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/
+TensorVision/TensorVision/blob/master/LICENSE)
+
+TensorVision is a simple toolkit to easily apply image classification networks.
+
+
+## Installation
+
+You can install TensorVision and its requirements via:
+
+```bash
+$ pip install -r https://raw.githubusercontent.com/TensorVision/TensorVision/master/requirements.txt
+$ pip install https://github.com/TensorVision/TensorVision/archive/master.zip
+```
+
+For more details, please have a look at the
+[installation instructions](http://tensorvision.readthedocs.io/en/latest/user/installation.html)
+in the documentation.
+
+
+## Documentation
+
+Documentation is available online: http://tensorvision.readthedocs.io
+
+## Examples
+
+Examples of how to utilize TensorVision to perform various tasks can be found in our [KittiSeg](https://github.com/MarvinTeichmann/KittiSeg#kittiseg), [KittiBox](https://github.com/MarvinTeichmann/KittiBox#kittibox) and [MultiNet](https://github.com/MarvinTeichmann/MultiNet) repository.
+
+
+
+
+## Changelog
+
+#### Breaking Changes
+
+- Module: `optimizer` Function: `get_learning_rate` Change: Added, now needs to be implemented.
+- Module: `optimizer` Function: `training` Change: Parameter `learning_rate` added.
+

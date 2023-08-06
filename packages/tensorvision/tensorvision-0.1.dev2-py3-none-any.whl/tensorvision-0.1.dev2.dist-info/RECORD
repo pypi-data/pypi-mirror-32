@@ -1,0 +1,14 @@
+tensorvision/__init__.py,sha256=BhSs3cLD-2PNErVm4yng1uked1ECHy5JLmMT_aa0zho,98
+tensorvision/analyze.py,sha256=mlZyDeivxixw2OUf8KxQFqp6OjQ1ZNnUe7kd2Mj9EaA,12439
+tensorvision/continue.py,sha256=WhMisMmqc9RDkt3NtIq4bZBVrBjZr8Qwrf5CfNx4FyA,1879
+tensorvision/core.py,sha256=1_srUmZdInDOJWYvGptLa6WARAZivEUD3ioa7M3sNGM,5646
+tensorvision/eval.py,sha256=5QTGHgWoNGenKxLKKGizIMwyd3tXOU321EtAV1NlNnY,3517
+tensorvision/train.py,sha256=-EvhrgsNM3VEQINqPs_oOsem6yN3ZXfT1mc1FX1ig8M,16667
+tensorvision/utils.py,sha256=RkW5I1wEBtoQSY7baHgE_jWwwfweJOS8YcS9YJrBzm0,20256
+tensorvision-0.1.dev2.data/scripts/tv-analyze,sha256=_KVtETh35d6nndBNViCmKDGw33pdFsPn-fUyDhjs-Pk,920
+tensorvision-0.1.dev2.data/scripts/tv-continue,sha256=PB2jxr9ECdSz6g9HdSBKPtlxVGuKH9uEpUYvHqpodcY,1418
+tensorvision-0.1.dev2.data/scripts/tv-train,sha256=hkyBD_Qu-aOB3Oe6OIuZzPHP65T0Y9FUw2bo-xDiBOU,1877
+tensorvision-0.1.dev2.dist-info/METADATA,sha256=zNOljG2p68PEVsjQ8QzzBTrpx6P3eV7OjgC44bxFSOg,2502
+tensorvision-0.1.dev2.dist-info/RECORD,,
+tensorvision-0.1.dev2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+tensorvision-0.1.dev2.dist-info/top_level.txt,sha256=3h89Wqz4rz_vc-TgzKLHEf_5BzacLlA5AjQZA1VFa6o,13
