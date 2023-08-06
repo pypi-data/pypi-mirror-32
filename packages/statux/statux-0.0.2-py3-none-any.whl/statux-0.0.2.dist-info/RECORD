@@ -1,0 +1,16 @@
+statux/__init__.py,sha256=ATyIcjFMlmpNqEJrfC3YhwCzHvGm2_xFCBXEBCwYpS8,616
+statux/_conversions.py,sha256=wH0QyUQRbm-Scv3Y7NKxSWW21YV8EYSd-MopKcOXSbY,3305
+statux/battery.py,sha256=GFZkfU-ThHxywNWkHue6ijnia0XmDBGM3PxRTJIRWTM,6707
+statux/cpu.py,sha256=3i3Lsv2ekmqgtEwg2Nddi27zzJFbHzrtwKqYOmrEvaI,5854
+statux/cpu2.py,sha256=6bfMr2mneLexTQOkG1ys6vF9mdvTlL1DwvZn1cG-CCg,7316
+statux/disks.py,sha256=_I6A8gV5ldmFLm3vY-Sw6Y-9o8ZfAr4T50uunHpOw2o,10429
+statux/net.py,sha256=4kqWi78_6dsYUeA_MFIutwMNqqzBtdvi-oTb0lwCnjU,5362
+statux/ram.py,sha256=8OnpF5WkGvImH_zx-P2HzmOY281kLLkKHM6qfltF4ZI,4032
+statux/system.py,sha256=N1spisQVTeCHKXr3wYilN-_HIA-CFXHc1XzgJDKDc1A,2631
+statux/temp.py,sha256=IIBxrtyBjj98aFKED-whAszBZnII748nk1gRaWhFtJM,4998
+statux-0.0.2.dist-info/DESCRIPTION.rst,sha256=nShINP3-cJjwOkwRFfionHPtXzJ0kmbksxX5bBOQaH0,9125
+statux-0.0.2.dist-info/METADATA,sha256=lXHc_wsdOcajDykHv1fX09vlVy8ITEA32C5Hj0Bztco,10031
+statux-0.0.2.dist-info/RECORD,,
+statux-0.0.2.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+statux-0.0.2.dist-info/metadata.json,sha256=-Zfv_920N6PNVDPlNnAm8ZKvA5R4YLU9jVfV1sA3dTg,1083
+statux-0.0.2.dist-info/top_level.txt,sha256=ox-sSWRsBJ38U5AwWUKFzqvBaiX4AopzCOxHVcffhQA,7
