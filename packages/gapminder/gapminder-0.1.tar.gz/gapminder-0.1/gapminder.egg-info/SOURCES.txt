@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+gapminder/__init__.py
+gapminder/data.py
+gapminder/gapminder.csv
+gapminder/version.py
+gapminder.egg-info/PKG-INFO
+gapminder.egg-info/SOURCES.txt
+gapminder.egg-info/dependency_links.txt
+gapminder.egg-info/not-zip-safe
+gapminder.egg-info/requires.txt
+gapminder.egg-info/top_level.txt
