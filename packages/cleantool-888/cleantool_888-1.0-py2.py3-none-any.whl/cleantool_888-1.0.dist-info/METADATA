@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cleantool-888
+Version: 1.0
+Summary: UNKNOWN
+Home-page: http://www.baidu.com
+Author: yuan
+Author-email: 3089328436@qq.com
+License: UNKNOWN
+Platform: all
+Requires-Dist: xlrd
+Requires-Dist: openpyxl
+Requires-Dist: pandas
+
+UNKNOWN
+
+
