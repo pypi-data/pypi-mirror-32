@@ -1,0 +1,14 @@
+MANIFEST.in
+setup.cfg
+setup.py
+data/data.txt
+fidding_cli.egg-info/PKG-INFO
+fidding_cli.egg-info/SOURCES.txt
+fidding_cli.egg-info/dependency_links.txt
+fidding_cli.egg-info/entry_points.txt
+fidding_cli.egg-info/not-zip-safe
+fidding_cli.egg-info/requires.txt
+fidding_cli.egg-info/top_level.txt
+python_cli/__init__.py
+python_cli/script/__init__.py
+python_cli/script/cli.py
