@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+ndicom_kmeans/__init__.py
+ndicom_kmeans/plugin.py
+ndicom_kmeans.egg-info/PKG-INFO
+ndicom_kmeans.egg-info/SOURCES.txt
+ndicom_kmeans.egg-info/dependency_links.txt
+ndicom_kmeans.egg-info/requires.txt
+ndicom_kmeans.egg-info/top_level.txt
