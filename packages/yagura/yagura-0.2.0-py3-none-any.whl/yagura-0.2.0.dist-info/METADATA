@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: yagura
+Version: 0.2.0
+Summary: Simple website monitoring kit
+Home-page: https://gitlab.com/attakei/yagura
+Author: attakei
+Author-email: attakei@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: Django (>=2.0.0<2.1)
+Requires-Dist: django-bootstrap4
+Requires-Dist: django-crontab
+
+======
+Yagura
+======
+
+Simple site monitoring web-app for small team.
+
+
+Description
+===========
+
+Yagura is simple website monitoring kit based by Django framework.
+Yagura provides website monitorings, alerts and status reportings.
+
+
+Features
+========
+
+* Health-check report of websites
+
+
+NOT Features
+============
+
+* User management(if use ``yagura.url`` , include ``django.contrib.auth`` )
+* Notifications (Planned to implement)
+
+Initial user
+============
+
+* Username: ``admin``
+* Password: ``Yagura!!``
+
+

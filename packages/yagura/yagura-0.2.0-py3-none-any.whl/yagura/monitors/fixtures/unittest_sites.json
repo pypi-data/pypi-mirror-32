@@ -1,0 +1,12 @@
+[
+    {
+        "model": "monitors.target",
+        "pk": 1,
+        "fields": {"site": "aaaaaaaa-bbbb-4ccc-dddd-eeeeeeeeee01"}
+    },
+    {
+        "model": "monitors.target",
+        "pk": 2,
+        "fields": {"site": "aaaaaaaa-bbbb-4ccc-dddd-eeeeeeeeee02"}
+    }
+]
