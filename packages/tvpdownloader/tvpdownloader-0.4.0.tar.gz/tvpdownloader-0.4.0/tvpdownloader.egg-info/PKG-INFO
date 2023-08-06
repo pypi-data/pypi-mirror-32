@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: tvpdownloader
+Version: 0.4.0
+Summary: Download episodes from vod.tvp.pl
+Home-page: https://github.com/patkub/tvpdownloader
+Author: Patrick Kubiak
+Author-email: pk9948@rit.edu
+License: UNKNOWN
+Description: # tvpdownloader
+        [![PyPi version](https://img.shields.io/pypi/v/tvpdownloader.svg)](https://pypi.org/project/tvpdownloader/)
+        
+        > Download episodes from vod.tvp.pl
+        
+        ### Install:
+        ```sh
+        pip install tvpdownloader
+        ```
+        
+        ### Usage:
+        ```sh
+        python3 tvpdownloader.py
+        ```
+        
+        ### Publishing:
+        ```sh
+        python3 setup.py sdist
+        twine upload dist/tvpdownloader-0.1.0.tar.gz
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
