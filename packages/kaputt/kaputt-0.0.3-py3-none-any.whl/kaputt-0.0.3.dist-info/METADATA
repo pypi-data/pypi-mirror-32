@@ -1,0 +1,32 @@
+Metadata-Version: 2.0
+Name: kaputt
+Version: 0.0.3
+Summary: python library for making stuff go kaputt
+Home-page: https://github.com/montoyamoraga/kaputtpy
+Author: montoyamoraga
+Author-email: montoyamoraga@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2
+Description-Content-Type: text/markdown
+
+# kaputtpy
+
+## About
+
+This is a project by [Aarón Montoya-Moraga](http://montoyamoraga.io/).
+
+kaputt.py is a Python library for making stuff go kaputt.
+
+## Reference
+
+* [Packaging Python Projects](https://packaging.python.org/tutorials/packaging-projects/)
+
+## License
+
+MIT
+
+
