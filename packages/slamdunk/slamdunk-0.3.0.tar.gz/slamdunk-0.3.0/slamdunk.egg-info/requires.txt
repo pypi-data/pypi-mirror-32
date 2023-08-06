@@ -1,0 +1,7 @@
+Cython>=0.20.1
+biopython>=1.63
+intervaltree>=2.1.0
+joblib>=0.9.4
+pandas>=0.13.1
+pybedtools>=0.6.4
+pysam>=0.8.3
