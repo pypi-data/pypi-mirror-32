@@ -1,0 +1,18 @@
+include MANIFEST.in
+
+include COPYING
+exclude README.rst
+include doc/*.txt
+include doc/COPYING
+include doc/README
+include doc/api/*.rst
+include doc/api/conf.py
+include doc/changelog
+
+include examples/*
+
+recursive-include djvu *.py *.pxi *.pxd *.pyx
+
+recursive-include tests *.py Makefile *.tex *.djvu
+
+include private/*
