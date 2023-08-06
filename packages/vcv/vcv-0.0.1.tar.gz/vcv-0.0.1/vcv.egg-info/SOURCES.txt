@@ -1,0 +1,11 @@
+README.md
+setup.py
+data/datafile
+hand_detector/__init__.py
+hand_detector/hd03.py
+vcv.egg-info/PKG-INFO
+vcv.egg-info/SOURCES.txt
+vcv.egg-info/dependency_links.txt
+vcv.egg-info/entry_points.txt
+vcv.egg-info/requires.txt
+vcv.egg-info/top_level.txt
