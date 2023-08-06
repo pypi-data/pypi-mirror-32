@@ -1,0 +1,6 @@
+setuptools
+django<2.0,>=1.11.13
+django-compressor==2.2
+django-templatetag-handlebars
+django_mobileesp
+django-userservice<3.0,>=2.0.2
