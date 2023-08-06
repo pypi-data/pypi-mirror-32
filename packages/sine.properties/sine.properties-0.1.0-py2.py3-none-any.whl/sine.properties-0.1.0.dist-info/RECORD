@@ -1,0 +1,13 @@
+sine.properties-0.1.0-py2.7-nspkg.pth,sha256=41hjz9sZBTLOviGJrS2zL0qmq-dO48JkCJbkZPrPG8A,530
+sine/properties/__init__.py,sha256=kZ9tEU0fgNLF8PDY12TxSzX1JfwJw48Ardy_L3XxTs4,103
+sine/properties/__version__.py,sha256=y_abB2YCSqKTOP4S7cq5IkO3PKl2h0_xYLbXK-aspLg,250
+sine/properties/core.py,sha256=I6X7GEP_Qsm4PgIsFOFa6XwX7wP90ENBa6J8Y5V6Aww,21303
+sine/properties/properties_tests.py,sha256=tTmioIBnUzNmiGaOl4kaJnGkfahDEeQG7dXNW7IOBOw,131
+sine/properties/tests.py,sha256=kxEeWg4DYPejZcVds_CL6O5e0XW4p8ae-aFN7UhVnfo,4587
+sine.properties-0.1.0.dist-info/DESCRIPTION.rst,sha256=nhmKU86w0_5dWm3LF0YA7na937QWHM44Q2AMp6A_NVk,1669
+sine.properties-0.1.0.dist-info/METADATA,sha256=fNg7szK-zdVL--6SFdydWJc29Ju8o2NpwLwE2iDwCZk,2355
+sine.properties-0.1.0.dist-info/RECORD,,
+sine.properties-0.1.0.dist-info/WHEEL,sha256=9Z5Xm-eel1bTS7e6ogYiKz0zmPEqDwIypurdHN1hR40,116
+sine.properties-0.1.0.dist-info/metadata.json,sha256=HC2cyjsh8WxWcaUoTcvQr39_mdCmcUHiMr6jWG3pldc,770
+sine.properties-0.1.0.dist-info/namespace_packages.txt,sha256=zRgpqydBzVmcwpd8cP-aqPwv4PeWJsxLO8mC4biLp-o,5
+sine.properties-0.1.0.dist-info/top_level.txt,sha256=zRgpqydBzVmcwpd8cP-aqPwv4PeWJsxLO8mC4biLp-o,5
