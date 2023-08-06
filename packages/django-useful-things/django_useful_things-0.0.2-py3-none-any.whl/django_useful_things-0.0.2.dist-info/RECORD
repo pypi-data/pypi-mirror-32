@@ -1,0 +1,13 @@
+django_useful_things/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_useful_things/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+django_useful_things/apps.py,sha256=dXEzXJiOIzP7QvLLK-ZL1MUZMIYMsspLv_yvCzbEvBE,113
+django_useful_things/models.py,sha256=6LKIRLUnRgEDPq0C9CJrel_0V8KaAmCkfjXcOmEM1Tw,4428
+django_useful_things/signals.py,sha256=uygtCDkqnG9kVCgZrbIHbkisnm34dH_OGknSgmMdKOs,223
+django_useful_things/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+django_useful_things/urls.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_useful_things/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+django_useful_things/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_useful_things-0.0.2.dist-info/METADATA,sha256=xGV17Ujo6iAbqhXK7YJinA247j6XhHIxSjK74iHUm28,882
+django_useful_things-0.0.2.dist-info/RECORD,,
+django_useful_things-0.0.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+django_useful_things-0.0.2.dist-info/top_level.txt,sha256=3YDWM0QiPAVg0At08BG43Qj0bn6QqQjFEscS4SX1F9g,21
