@@ -1,0 +1,11 @@
+AUTHORS
+LICENSE
+MANIFEST.in
+README.rst
+pyemailval.py
+setup.cfg
+setup.py
+pyemailval.egg-info/PKG-INFO
+pyemailval.egg-info/SOURCES.txt
+pyemailval.egg-info/dependency_links.txt
+pyemailval.egg-info/top_level.txt
