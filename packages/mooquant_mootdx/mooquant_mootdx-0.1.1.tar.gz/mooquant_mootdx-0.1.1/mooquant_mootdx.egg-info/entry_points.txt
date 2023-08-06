@@ -1,0 +1,3 @@
+[console_scripts]
+mooquant_mootdx = mooquant_mootdx.cli:main
+
