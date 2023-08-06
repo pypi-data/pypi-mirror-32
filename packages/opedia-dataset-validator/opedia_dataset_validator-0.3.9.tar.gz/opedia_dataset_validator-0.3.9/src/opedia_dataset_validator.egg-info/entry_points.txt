@@ -1,0 +1,3 @@
+[console_scripts]
+opedia_dataset_validator = opedia_dataset_validator.cli:main
+
