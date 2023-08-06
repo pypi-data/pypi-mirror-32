@@ -1,0 +1,13 @@
+setup.py
+dagraph/design.py
+dagraph.egg-info/PKG-INFO
+dagraph.egg-info/SOURCES.txt
+dagraph.egg-info/dependency_links.txt
+dagraph.egg-info/top_level.txt
+dagraph/interfaces/constraints.py
+dagraph/interfaces/misc.py
+dagraph/interfaces/model.py
+dagraph/interfaces/optimizer.py
+dagraph/interfaces/variables.py
+dagraph/optimizers/slsqp.py
+dagraph/optimizers/twiddle.py
