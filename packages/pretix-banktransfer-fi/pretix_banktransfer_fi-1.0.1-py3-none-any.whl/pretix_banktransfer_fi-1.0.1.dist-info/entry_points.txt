@@ -1,0 +1,3 @@
+
+[pretix.plugin]
+banktransfer_fi=banktransfer_fi:PretixPluginMeta

@@ -1,0 +1,14 @@
+banktransfer_fi/__init__.py,sha256=7G_DlgH2cFEvKDzJCnVEHO97tDpCUYeict4PUfepl98,668
+banktransfer_fi/payment.py,sha256=rIBTQvDHuFI-mbuQcGB8o2m9VYLP9mr7XxE0ElfcBSY,4313
+banktransfer_fi/signals.py,sha256=_Y0tP7ya2iZdU-d29UFnc49F2c3BAYjK9KXB4UBO4c8,289
+banktransfer_fi/viitenumero.py,sha256=eWpnLLX60g-iswYUBJRydd_FsYQi6dirD6rTPyj-5w0,1266
+banktransfer_fi/templates/banktransfer_fi/checkout_payment_form.html,sha256=F5TUeiVenu6sJ45pHwKNN5k_2ng352qGRD7NIqez3WQ,372
+banktransfer_fi/templates/banktransfer_fi/control.html,sha256=1WPbQMkyLZaWKjrkl0yaHfZ-q-homXMu6sj9-oq2Toc,1154
+banktransfer_fi/templates/banktransfer_fi/pending.html,sha256=wiAuuHODoHQBpZSjgz2w-G6XycPuPAzuxwpzd2pwV3I,389
+banktransfer_fi/templates/banktransfer_fi/email/order_pending.txt,sha256=9UuxEMPBy0ypKElOlzT214bbLqfCZBCfoyK2UmIGajo,298
+pretix_banktransfer_fi-1.0.1.dist-info/LICENSE.txt,sha256=sKYayro9BWlc6vumGHPcX9rtB48BwO0nc0jGeOHDLbo,554
+pretix_banktransfer_fi-1.0.1.dist-info/METADATA,sha256=3xotp4XXUuTAroo6lFD1HDkxJnBB8aE8JJoSo9HIw2Y,1356
+pretix_banktransfer_fi-1.0.1.dist-info/RECORD,,
+pretix_banktransfer_fi-1.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pretix_banktransfer_fi-1.0.1.dist-info/entry_points.txt,sha256=rWYkRn4Ti9fTpP7eIE05wQ3YOvya1dfP03CB2L44_sU,66
+pretix_banktransfer_fi-1.0.1.dist-info/top_level.txt,sha256=mmv4Ydl39oxGNcMQt2pKgzq2iS9e02aUbobdzH_tNHQ,16
