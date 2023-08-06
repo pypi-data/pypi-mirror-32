@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: chartgenerator
+Version: 0.1a7
+Summary: Candlestick chart generator and support/resistance calculator for market data using Plot.ly and peakutils.
+Home-page: https://github.com/hmallen/chartgenerator
+Author: Hunter M. Allen
+Author-email: allenhm@gmail.com
+License: MIT
+Keywords: chart,generator
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.14.3)
+Requires-Dist: pandas (>=0.23.0)
+Requires-Dist: peakutils (>=1.1.1)
+Requires-Dist: plotly (>=2.6.0)
+
+# chartgenerator
+
+Generate candlestick charts from json market data, automatically calculate support and resistance levels, and graph using Plot.ly.
+
+
