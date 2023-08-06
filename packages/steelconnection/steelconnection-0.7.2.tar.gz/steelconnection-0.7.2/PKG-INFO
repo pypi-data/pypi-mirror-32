@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: steelconnection
+Version: 0.7.2
+Summary: Simplify REST API access to Riverbed SteelConnect.
+Home-page: https://github.com/grelleum/SteelConnection
+Author: Greg Mueller
+Author-email: steelconnection@grelleum.com
+License: UNKNOWN
+Download-URL: https://github.com/grelleum/SteelConnection/archive/0.7.2.tar.gz
+Description: SteelConnection
+        
+        Convienience objects for making REST API calls
+        to Riverbed SteelConnect Manager.
+        
+Keywords: SteelConnect,REST,API,Riverbed,Grelleum
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
