@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+requirements-optional.txt
+requirements.txt
+setup.py
+tasks.py
+optimade/__init__.py
+optimade/filter.py
+optimade.egg-info/PKG-INFO
+optimade.egg-info/SOURCES.txt
+optimade.egg-info/dependency_links.txt
+optimade.egg-info/requires.txt
+optimade.egg-info/top_level.txt
+optimade/grammar/v0.9.5.g
+optimade/tests/__init__.py
+optimade/tests/test_filter.py
