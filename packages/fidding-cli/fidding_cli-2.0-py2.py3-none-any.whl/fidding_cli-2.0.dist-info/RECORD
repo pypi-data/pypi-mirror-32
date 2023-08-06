@@ -1,0 +1,12 @@
+fidding_cli-2.0.data/data/my_data/data.txt,sha256=9hK4m828QBN59kTX5IVy40cPd9zUw5QWQF2AlSrXCJ4,7
+fidding_cli-2.0.dist-info/METADATA,sha256=VizWBuGeJEAOhmuv-qHx3RoToGHAr9Yx7V2Vlc-h2nc,1188
+fidding_cli-2.0.dist-info/RECORD,,
+fidding_cli-2.0.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+fidding_cli-2.0.dist-info/entry_points.txt,sha256=FRVhKxB5ojIOS0yVzfndcURJf8CdkcswXyioe0oRPuk,77
+fidding_cli-2.0.dist-info/top_level.txt,sha256=OIBCgBSxYgh-ZdBbWUMMAdA1T4CJd5eCnBre95U9YH4,11
+python-cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python-cli/python_cli.py,sha256=wyrm1lVhR6_lz321hfodUGhlA5xP8QpeU6ESweAJMFE,100
+python_cli/__init__.py,sha256=eO1M6RcPSuNavE-3Krgpbr48aaJCRhMAPJ__RaMRQ14,337
+python_cli/data/data.txt,sha256=0gsRiMwvZ0_XW6VI8z8ISdV8A7102rOHxW99_klW2vg,7
+python_cli/script/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_cli/script/cli.py,sha256=I9gBaBLlVdikCxJZpeOcayTd8rWADuOnhQxBTz0X3Jk,226
