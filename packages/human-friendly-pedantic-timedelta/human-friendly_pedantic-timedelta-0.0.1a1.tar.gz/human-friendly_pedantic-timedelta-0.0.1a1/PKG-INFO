@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: human-friendly_pedantic-timedelta
+Version: 0.0.1a1
+Summary: Human-friendly timedelta formatter
+Home-page: https://github.com/hotoffthehamster/human-friendly_pedantic-timedelta
+Author: HotOffThe Hamster
+Author-email: hotoffthehamster+humanfriendlypedantictimedelta@gmail.com
+License: GPLv3
+Description: #####################################
+        Human-Friendly Pedantic ``timedelta``
+        #####################################
+        
+        A Python ``timedelta`` wrapper.
+        
+        Install with ``pip``::
+        
+            pip install human-friendly_pedantic-timedelta
+        
+        
+        
+        FIXME: Show examples with obvious values.
+        
+        
+        Usage::
+        
+            $ py
+            >>> from pedantic_timedelta from friendly_delta
+            >>> from pedantic_timedelta from readable_delta
+            >>> friendly_delta.time_format_elapsed(datetime.now() - '1 day')
+        
+        
+        .. code-block:: python
+        
+            from pedantic_timedelta from friendly_delta
+        
+            friendly_delta.time_format_elapsed(datetime.now() - '1 day')
+            # OUTPUT:
+            # 1 day
+        
+        
+Keywords: timedelta elapsed time duration human friendly string formatter
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Provides-Extra: dev
+Provides-Extra: test
