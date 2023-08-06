@@ -1,0 +1,14 @@
+aiobotocore/__init__.py,sha256=WwuqIRTCFh7b_zo6Lbu5yNyXE7LHSxvHzXF_n7Hyepk,108
+aiobotocore/args.py,sha256=2mUeWXo-y_Sq8uORh9MZ2EPMK8sz_BCnV5kTkL4-EBA,3584
+aiobotocore/client.py,sha256=WhX3HzR9-vTihGewK6_rSaBxSrcvaeXz_9PlrEw_Lx4,7991
+aiobotocore/config.py,sha256=JoO9EJtBDV7PokmoJ-bKJFG2RWeJXFCK_kTZpcQFsyQ,2308
+aiobotocore/endpoint.py,sha256=dvnXytB2EgNl9ZUE4gh8JkgdM72Y1Y0l5Sg3CW-Ya4U,16466
+aiobotocore/paginate.py,sha256=TtW6x3I9IvVYztGV3oVjYqGJhTxzFZaKdAC3DCowhG4,6754
+aiobotocore/session.py,sha256=STRF79IgNglqtU_e0LzBLRmd1nkFRKo0_MKa3ytUngE,3602
+aiobotocore/waiter.py,sha256=8U9Udpgkx_HeZdiPxdcYzJFCyffUh4rPWanj5orIPeE,4557
+aiobotocore-0.9.1.dist-info/DESCRIPTION.rst,sha256=sYPJ7DkNPglH6NvFJXC9JC0bzItzNMgco_Xz37OGQHA,8550
+aiobotocore-0.9.1.dist-info/METADATA,sha256=dPT_3JcxocpqZudbp7B_oU4NGrq_rDzwLww6-cBOPE4,9562
+aiobotocore-0.9.1.dist-info/RECORD,,
+aiobotocore-0.9.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+aiobotocore-0.9.1.dist-info/metadata.json,sha256=0E1aNdgFsm9n66dwym5qxlXZOMDqXIUV0FeKAx5yoO4,1095
+aiobotocore-0.9.1.dist-info/top_level.txt,sha256=T3M9xMgiH7ds2FkMWbkut4LzgZx48MrZw8xmntgzGu0,12
