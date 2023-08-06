@@ -1,0 +1,9 @@
+fastex/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastex/main.py,sha256=jBJoVqazaAM06oIKSIGM-zjpxkGZw_2tp4cxSdycUBI,3138
+fastex/template.html,sha256=XSmt_hYeadLgi22nckCuuM0DBg6C7WC1AIWu7_MgvYk,2371
+fastex/view.html,sha256=kipnASzk5nDCfcV8Ys_0dUobt8_Vwotl-mrVmzlq-XE,2607
+fastex-0.0.2.dist-info/METADATA,sha256=0Dogm65T3n3CqJQWR3ShYQr8-J_qWns2ljyGW3heAlA,3261
+fastex-0.0.2.dist-info/RECORD,,
+fastex-0.0.2.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+fastex-0.0.2.dist-info/entry_points.txt,sha256=DI4HZ4MzXJyCvb40OO-iI8s4f61BSmvstYhk0Kc2ArQ,42
+fastex-0.0.2.dist-info/top_level.txt,sha256=4GkLm1mKV22TbvSTx6O36lrv4ARNOv8CzpXfk1TvluE,7
