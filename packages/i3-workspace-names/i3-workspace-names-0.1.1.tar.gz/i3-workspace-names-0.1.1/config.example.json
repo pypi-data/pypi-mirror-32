@@ -1,0 +1,22 @@
+{
+	"apps": {
+		"Vivaldi-stable": "chrome",
+		"Termite": "terminal",
+		"Atom": "edit",
+		"Rambox": "comments",
+		"feh": "image",
+		"mpv": "play",
+		"KeePass2": "key"
+	},
+	"icon_replace": {
+		"rtv": "reddit",
+		"messenger": "facebook-messenger",
+		"~": "home",
+		"ranger": "folder",
+		"vim": "edit",
+	},
+	"string_replace": {
+		":": "",
+		" - ": " ",
+		" — ": " ",
+	}}
