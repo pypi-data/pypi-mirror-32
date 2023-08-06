@@ -1,0 +1,10 @@
+django_privates-0.1.dist-info/METADATA,sha256=yOWEyFlNb5aH9xmJBUlFNfLD5DC6Tcqlgxu8jCWvETI,3236
+django_privates-0.1.dist-info/RECORD,,
+django_privates-0.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+django_privates-0.1.dist-info/top_level.txt,sha256=Gc99IQmzSWp0k2xZhuVsvVMF5_xGl278ysAGloYNcFg,9
+privates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+privates/admin.py,sha256=kaWUGnHf7GhQFc-5tvbRa8ShAU3LcxPHQ-mn2An9ouc,2106
+privates/fields.py,sha256=Dai8-OXuBmOkKn57jVSJ2OxF-YKohVDqw5prLaYo0hE,269
+privates/storages.py,sha256=oyrq0Qv8kRORxdVIdBkKPKw_oJdNjxppp3iG5uyl090,687
+privates/views.py,sha256=y1FIIe3rHZSYZMSSmz6APWC7aIAAEaBGcfHs3OZgzZ0,651
+privates/widgets.py,sha256=eHioebDwkNtEo9x8R4fr7pzdza_rwm-0OsuDr4zOWPQ,686
