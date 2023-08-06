@@ -1,0 +1,2 @@
+stsci.tools
+astropy>=0.3.1
