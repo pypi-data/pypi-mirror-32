@@ -1,0 +1,3 @@
+[console_scripts]
+ievm = ievm.__main__:main
+
