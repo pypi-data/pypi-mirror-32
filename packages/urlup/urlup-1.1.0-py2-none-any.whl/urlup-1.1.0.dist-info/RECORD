@@ -1,0 +1,14 @@
+urlup/__init__.py,sha256=8SavRbnLj8omZkkPQx7BW5h5LqyhTh9XxjXfiXC4MHw,691
+urlup/__main__.py,sha256=aqoXDndOPn0zq46rHJ_hpSCkDKeu9yUwLIG2Nqfd1D4,6722
+urlup/__version__.py,sha256=9UTpHZEycJyi42kCpH8WOWN07E7e-vFEFFWc4ytauDk,763
+urlup/http_code.py,sha256=uOlthzlATUe3jlaOi3klt1FrbuJBl1jjRX42bCOrDIQ,14749
+urlup/messages.py,sha256=Bzi7Z1CWaobbctSl5o2esOf2jdo61fMLa-XRvv9OwxE,2652
+urlup/urlup.py,sha256=RYlEoLyG0SYBvXgDOxnFRHNs9-7Ad9kSU5hR3joM2sM,9043
+urlup-1.1.0.data/scripts/urlup,sha256=krm-bAwmTC0o9hZFh3XMzP1cjOkvdDNG73en7dGWWtQ,890
+urlup-1.1.0.dist-info/DESCRIPTION.rst,sha256=7l7mIbs7E4Pel6n-uyjMmpaseiiTx2eAQNYZQHBiw7A,94
+urlup-1.1.0.dist-info/LICENSE.txt,sha256=qwIOtnO8WepZbhyhVGjmjWyGlCfUqdNNDku4P7ZbpGs,1522
+urlup-1.1.0.dist-info/METADATA,sha256=At1G9Z6ErzUbU3MHH5ySulBj_gkiwXomNvlgRLtHrL4,613
+urlup-1.1.0.dist-info/RECORD,,
+urlup-1.1.0.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+urlup-1.1.0.dist-info/metadata.json,sha256=SnLxnoLNT3c4nJkeCRZS9yaH4yrtwixMnxH2Qd9Ml7Y,794
+urlup-1.1.0.dist-info/top_level.txt,sha256=jZmV_VMT6JttVV2vfz-JmTLQ5b1Q3AKfsFxenGvIal0,6
