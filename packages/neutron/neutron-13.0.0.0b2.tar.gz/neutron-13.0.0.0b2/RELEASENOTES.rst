@@ -1,0 +1,140 @@
+=======
+neutron
+=======
+
+.. _neutron_13.0.0.0b2:
+
+13.0.0.0b2
+==========
+
+.. _neutron_13.0.0.0b2_New Features:
+
+New Features
+------------
+
+.. releasenotes/notes/add-port_details-to-floatingip-fefceab2c740e482.yaml @ c760d4f26f4b4753c80269437d2cd0b8f63dbc7c
+
+- Add attribute ``port_details`` to floating IP. The value of this attribute
+  contains information of the associated port.
+
+.. releasenotes/notes/allow-update-subnet-segment-id-association-1fb02ace27e85bb8.yaml @ b6d117fcd577f50a431113c4ad13258a7692e822
+
+- Add support for setting the ``segment_id`` for an existing
+  subnet. This enables users to convert a non-routed network
+  with no subnet/segment association to a routed one. It is
+  only possible to do this migration if both of the following
+  conditions are met - the current ``segment_id`` is ``None``
+  and the network contains a single segment and subnet.
+
+.. releasenotes/notes/support-empty-string-filtering-4a39096b62b9abf2.yaml @ a732bbf19e31f6bab8d1ffd2540f6e367caab4c8
+
+- Add support for filtering attributes with value as empty string. A shim
+  extension is added to indicate if this feature is supported.
+
+
+.. _neutron_13.0.0.0b2_Bug Fixes:
+
+Bug Fixes
+---------
+
+.. releasenotes/notes/ib-dhcp-allocation-fix-a4ebe8b55bb2c065.yaml @ 59bc19c14a84283adad555dce8536fd7198b82b3
+
+- For Infiniband support, Ironic needs to send the 'client-id' DHCP option
+  as a number in order for IP address assignment to work.
+  This is now supported in Neutron, and can be specified as option number
+  61 as defined in RFC 4776.  For more information see bug
+  `1770932 <https://bugs.launchpad.net/neutron/+bug/1770932>`_
+
+
+.. _neutron_13.0.0.0b2_Other Notes:
+
+Other Notes
+-----------
+
+.. releasenotes/notes/ivs-interfacedriver-removal-a9cce87310028b99.yaml @ 3ad91f61f2d40d788764d64b1870d509069aad0a
+
+- The deprecated ``IVSInterfaceDriver`` class has been removed from the code base.  This means neither the ``ivs`` nor the ``neutron.agent.linux.interface.IVSInterfaceDriver`` can any longer be used as a value for the ``interface_driver`` config option in ``neutron.conf``.
+
+
+.. _neutron_13.0.0.0b1:
+
+13.0.0.0b1
+==========
+
+.. _neutron_13.0.0.0b1_Prelude:
+
+Prelude
+-------
+
+.. releasenotes/notes/add-conntrack-workers-89d303e9ec3b4963.yaml @ 65a81623fc0377b26d2d5800607f7c3acc08c45a
+
+In order to reduce the time spent processing security group updates in the L2 agent, conntrack deletion is now performed in a set of worker threads instead of the main agent thread, so it can return to processing other events quickly.
+
+
+.. _neutron_13.0.0.0b1_New Features:
+
+New Features
+------------
+
+.. releasenotes/notes/add-new-harouter-state-5612fc5b5c2043a5.yaml @ b62d1bfdf71c2f8810d9b143d50127b8f3a4942d
+
+- Added new ``unknown`` state for HA routers. Sometimes l3 agents may not be able to update health status to Neutron server due to communication issues. During that time the server may not know whether HA routers hosted by that agent are active or standby.
+
+.. releasenotes/notes/security-groups-port-filtering-69d36ac7db90c9e0.yaml @ 43d3e88a07b4275ad814c6875fa037efd94223bb
+
+- Support port filtering on security group IDs.
+  The feature can be used if 'port-security-group-filtering' extension is available.
+
+
+.. _neutron_13.0.0.0b1_Known Issues:
+
+Known Issues
+------------
+
+.. releasenotes/notes/ovsdb_timeout_override_for_ovs_cleanup_tool-e6ed6db258d0819e.yaml @ 806d96cbbe45fcd473935e777a2a56037fbb9d12
+
+- In the case when the number of ports to clean up in a single bridge is
+  larger than about 10000, it might require an increase in the
+  ``ovsdb_timeout`` config option to some value higher than 600 seconds.
+
+
+.. _neutron_13.0.0.0b1_Upgrade Notes:
+
+Upgrade Notes
+-------------
+
+.. releasenotes/notes/add-conntrack-workers-89d303e9ec3b4963.yaml @ 65a81623fc0377b26d2d5800607f7c3acc08c45a
+
+- On an upgrade, conntrack entries will now be cleaned-up in a worker
+  thread, instead of in the calling thread.
+
+
+.. _neutron_13.0.0.0b1_Bug Fixes:
+
+Bug Fixes
+---------
+
+.. releasenotes/notes/add-conntrack-workers-89d303e9ec3b4963.yaml @ 65a81623fc0377b26d2d5800607f7c3acc08c45a
+
+- Fixes bug `1745468 <https://bugs.launchpad.net/neutron/+bug/1745468>`_.
+
+.. releasenotes/notes/add-new-harouter-state-5612fc5b5c2043a5.yaml @ b62d1bfdf71c2f8810d9b143d50127b8f3a4942d
+
+- Fixes bug `1682145 <https://launchpad.net/bugs/1682145>`_.
+
+.. releasenotes/notes/add-standard-attributes-to-segment-d39c4b89988aa701.yaml @ 4d84c10ba4430752bf8c1227c770fb3c4f0a1618
+
+- Fix an issue that standard attributes, such as ``created_at``,
+  ``updated_at`` and ``revision_number``, are not rendered in the response
+  of segment resource.
+
+.. releasenotes/notes/ovsdb_timeout_override_for_ovs_cleanup_tool-e6ed6db258d0819e.yaml @ 806d96cbbe45fcd473935e777a2a56037fbb9d12
+
+- Fixes bug `1763604 <https://bugs.launchpad.net/neutron/+bug/1763604>`_.
+  Override default value of ``ovsdb_timeout`` config option in
+  ``neutron-ovs-cleanup`` script.
+  The default value is 10 seconds, but that is not enough for the
+  ``neutron-ovs-cleanup`` script when there are many ports to remove from
+  a single bridge, for example, 5000. Because of that, we now override the
+  default value for the config option to be 600 seconds (10 minutes).
+
