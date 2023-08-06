@@ -1,0 +1,7 @@
+
+[console_scripts]
+segtools-aggregation = segtools.aggregation:main
+segtools-feature-distance = segtools.feature_distance:main
+segtools-gmtk-parameters = segtools.gmtk_parameters:main
+segtools-length-distribution = segtools.length_distribution:main
+segtools-preprocess = segtools.preprocess:main
