@@ -1,0 +1,2 @@
+translitcodec==0.4
+six
