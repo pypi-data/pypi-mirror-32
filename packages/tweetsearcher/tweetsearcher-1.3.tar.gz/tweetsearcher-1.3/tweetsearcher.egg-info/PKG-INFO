@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: tweetsearcher
+Version: 1.3
+Summary: Library to bypass limitations of the Twitter Official API
+Home-page: https://github.com/alexanderhudym/tweet-searcher
+Author: Alexander Hudym
+Author-email: alexanderhudym@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/alexanderhudym/tweet-searcher/archive/1.0.tar.gz
+Description: UNKNOWN
+Keywords: tweet,twitter,search,old
+Platform: UNKNOWN
