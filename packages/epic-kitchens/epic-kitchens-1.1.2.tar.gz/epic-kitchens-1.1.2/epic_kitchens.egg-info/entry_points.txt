@@ -1,0 +1,3 @@
+[console_scripts]
+gulp_epic = epic_kitchens.gulp:main
+
