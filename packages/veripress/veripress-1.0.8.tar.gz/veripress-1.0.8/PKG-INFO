@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: veripress
+Version: 1.0.8
+Summary: A blog engine for hackers.
+Home-page: https://github.com/veripress/veripress
+Author: Richard Chien
+Author-email: richardchienthebest@gmail.com
+License: MIT License
+Description: UNKNOWN
+Platform: any
+Requires-Python: >=3.4
