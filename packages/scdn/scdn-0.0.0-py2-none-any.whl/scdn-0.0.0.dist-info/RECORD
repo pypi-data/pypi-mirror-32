@@ -1,0 +1,11 @@
+scdn/CDN_analysis.py,sha256=97SNZ8CM85YIfrKWAjnSm6KSupjadYfBfBwRL1ZDB9E,6251
+scdn/__init__.py,sha256=EMfJ9jHKk5nUFdP8TYyGJPFCk3rR-1b49H72ffwQeQY,81
+scdn/data_preprocess.py,sha256=cuMe9G_2_YmBn2S1xyY3WBj8ohBtrWU38Nc90pOQDC0,9516
+scdn/evaluation_1.py,sha256=G726EmVh5THr3IXtXgvmmh0t95mDcD2cZxorTYXbcBw,5553
+scdn/main_computation.py,sha256=RdRsUucYyX83gZgWn5E0UeOU0UHKKRqc5aKfBZLCHx0,21807
+scdn/model_config.py,sha256=r03mBhJsZiwJ0raS-lXBR-H9AFnxTgI-hY-aMOZZHW4,2966
+scdn/validation_truncation_1.py,sha256=yM4gM6OB9R8HgcxGywwBWI-TqRl0FpLTQFl6fl7w9wI,3416
+scdn-0.0.0.dist-info/METADATA,sha256=Q5ZiGisvz7dhJNbDstRgDnXjEa8a4jFwybKZzKULYtk,2638
+scdn-0.0.0.dist-info/RECORD,,
+scdn-0.0.0.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+scdn-0.0.0.dist-info/top_level.txt,sha256=XvA7Oxzd_rE7cTP0Gbr_14FF2mJRhR_Z9n0-2C3PEKo,5
