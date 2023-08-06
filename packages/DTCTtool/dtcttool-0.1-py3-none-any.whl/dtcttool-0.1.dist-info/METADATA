@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: dtcttool
+Version: 0.1
+Summary: This is a database comparison tool that ignores data structures and database types
+Home-page: https://github.com/1fengchen1/DTCTtool
+Author: ZhangShaoNan
+Author-email: 758896823@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: xlwt
+Requires-Dist: xlrd
+Requires-Dist: xlutils
+
+UNKNOWN
+
+
