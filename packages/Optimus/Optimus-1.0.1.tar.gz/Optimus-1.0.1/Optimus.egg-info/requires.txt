@@ -1,0 +1,9 @@
+six
+docutils>=0.9.1
+click<6.0,>=5.1
+watchdog==0.8.3
+Jinja2>=2.6
+Babel
+webassets
+colorama
+colorlog
