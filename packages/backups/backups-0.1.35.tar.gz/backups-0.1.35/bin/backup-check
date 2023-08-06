@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+echo -e "==> This is backup-check. Part of the \033[32;1mbackups\033[0m pip package."
+echo -e "==> $(pip show backups 2>/dev/null|grep 'Version: ')"
