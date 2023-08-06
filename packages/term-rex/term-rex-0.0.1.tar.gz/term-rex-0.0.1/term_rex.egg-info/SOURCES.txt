@@ -1,0 +1,7 @@
+setup.py
+term-rex/__init__.py
+term-rex/main.py
+term_rex.egg-info/PKG-INFO
+term_rex.egg-info/SOURCES.txt
+term_rex.egg-info/dependency_links.txt
+term_rex.egg-info/top_level.txt
