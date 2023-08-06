@@ -1,0 +1,11 @@
+README.md
+setup.py
+pysmvr/__init__.py
+pysmvr/__main__.py
+pysmvr/core.py
+pysmvr.egg-info/PKG-INFO
+pysmvr.egg-info/SOURCES.txt
+pysmvr.egg-info/dependency_links.txt
+pysmvr.egg-info/entry_points.txt
+pysmvr.egg-info/top_level.txt
+test/test_pysmvr.py

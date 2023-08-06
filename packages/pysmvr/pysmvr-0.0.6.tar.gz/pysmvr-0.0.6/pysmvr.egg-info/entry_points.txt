@@ -1,0 +1,3 @@
+[console_scripts]
+pysmvr = pysmvr.__main__:main
+
