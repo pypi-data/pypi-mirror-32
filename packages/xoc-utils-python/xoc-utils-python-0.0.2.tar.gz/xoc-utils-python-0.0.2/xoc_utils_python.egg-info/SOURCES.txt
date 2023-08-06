@@ -1,0 +1,12 @@
+README.md
+setup.py
+xoc_utils/Singleton.py
+xoc_utils/__init__.py
+xoc_utils/kafka/KConsumer.py
+xoc_utils/kafka/KProducer.py
+xoc_utils/kafka/__init__.py
+xoc_utils_python.egg-info/PKG-INFO
+xoc_utils_python.egg-info/SOURCES.txt
+xoc_utils_python.egg-info/dependency_links.txt
+xoc_utils_python.egg-info/requires.txt
+xoc_utils_python.egg-info/top_level.txt
