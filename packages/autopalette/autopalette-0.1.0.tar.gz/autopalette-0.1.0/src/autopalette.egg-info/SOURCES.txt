@@ -1,0 +1,17 @@
+README.md
+README.rst
+setup.py
+src/autopalette/__init__.py
+src/autopalette/autoformat.py
+src/autopalette/colormatch.py
+src/autopalette/colortrans.py
+src/autopalette/palette.py
+src/autopalette/render.py
+src/autopalette/theme.py
+src/autopalette/utils.py
+src/autopalette.egg-info/PKG-INFO
+src/autopalette.egg-info/SOURCES.txt
+src/autopalette.egg-info/dependency_links.txt
+src/autopalette.egg-info/not-zip-safe
+src/autopalette.egg-info/requires.txt
+src/autopalette.egg-info/top_level.txt

@@ -1,0 +1,6 @@
+colorhash>=1.0.2
+colour>=0.1.5
+kdtree>=0.16
+sty>=1.0.0b6
+emoji2text
+ftfy
