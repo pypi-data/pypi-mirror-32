@@ -1,0 +1,4 @@
+click
+pymusixmatch
+prompt_toolkit
+pygments
