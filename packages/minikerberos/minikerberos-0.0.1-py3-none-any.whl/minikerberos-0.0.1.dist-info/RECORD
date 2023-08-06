@@ -1,0 +1,8 @@
+minikerberos/__init__.py,sha256=f-NKbDQJddvMLMJENjbDU7FIITx-Rlh2QSnWHjK8r3g,21
+minikerberos/asn1_structs.py,sha256=xhjjOFaCaZZ_hD32UPgRZM7bfxYBrkP6MkbC1ZYDH78,12576
+minikerberos/ccache.py,sha256=ZQrNn2E3auJ1iQwgqq-IOlvUAif7hJubdGvNfB6QGB8,10388
+minikerberos-0.0.1.dist-info/METADATA,sha256=rALwquZGuG1Y0HtuIufQk99X0iJRGMAYzy5SrHR1LZM,453
+minikerberos-0.0.1.dist-info/RECORD,,
+minikerberos-0.0.1.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+minikerberos-0.0.1.dist-info/top_level.txt,sha256=8gOOfVyfVgRZ5nG1wlSSl_ydjUA8uJt4Qtn_pEOq_UQ,13
+minikerberos-0.0.1.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
