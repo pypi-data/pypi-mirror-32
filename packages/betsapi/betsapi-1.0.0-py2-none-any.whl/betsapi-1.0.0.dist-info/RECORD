@@ -1,0 +1,15 @@
+betsapi/__init__.py,sha256=-_-avhtv1udSQ9-etYg9dhxZFmEzC_Q1BkGbvs-qWU0,338
+betsapi/baseapi.py,sha256=TyG1S-GZz0Bjem-G7lw09vFemMd2J9psNy_Cp7BUNtk,615
+betsapi/bet365.py,sha256=S6fqDxxsoSPGguahfb0OG98ijoshE_Nes8fjPBgPy5g,4808
+betsapi/betfair.py,sha256=lggsdgeEHAd-aAGRsNK2qsRscCitSCSvQvADlkgYtPw,5573
+betsapi/betway.py,sha256=k6iaZd1fF2NhCrMYsHtpYwjK2Eci5NK9U19F6y-x5-I,3193
+betsapi/bwin.py,sha256=yJG7uCgNMgjBX3w95kiyAQpERd4s3mjdt0wJvlZ7xbw,2598
+betsapi/events.py,sha256=9_zG8C_nkgcqtNk58LU3XIEAKuU1iQnCIBEcfQz9mRs,13356
+betsapi/results.py,sha256=kk8isZMfJcU87KAj7U4xPIQ-XZePSAmWrzdUauUKA2Y,2902
+betsapi/sbobet.py,sha256=cFCd__1hbK8PM5O6-ZMZjls65KGImBqXOCk1i7NJujM,2967
+betsapi-1.0.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+betsapi-1.0.0.dist-info/METADATA,sha256=OicqUrGFuIM_yFGtsoqM-dodqYJ6bryKKPpjPmRyFsE,330
+betsapi-1.0.0.dist-info/RECORD,,
+betsapi-1.0.0.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+betsapi-1.0.0.dist-info/metadata.json,sha256=llm5v7M8xxbzzwiBs83w40UDy3ZcaiilNJHMvHy5A3Q,538
+betsapi-1.0.0.dist-info/top_level.txt,sha256=eCJ7cdu6eQTzBSZNfRg5H4qc0ZeM2cn7y0gjZQMCZLs,8
