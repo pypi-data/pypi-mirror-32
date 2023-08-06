@@ -1,0 +1,12 @@
+django_polymodels-1.5a2.dist-info/LICENSE.txt,sha256=FmcqGy9xA7dhUxId6VHDUtNsSX0uojE3zfqHWuD98m0,1059
+django_polymodels-1.5a2.dist-info/METADATA,sha256=OtjdDbyyZqJ_0Wd8ZMSHdyn1GIm-5h737_d6Rko02I4,6045
+django_polymodels-1.5a2.dist-info/RECORD,,
+django_polymodels-1.5a2.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+django_polymodels-1.5a2.dist-info/top_level.txt,sha256=WSaRdSqQvek0NwYU07l1n_KwHgXuWCVzdYK4f53JbC8,11
+polymodels/__init__.py,sha256=IhUs_5w5BgmbsO8lmQZVmWxh_Mt6umIOyZvNg2nxL4s,155
+polymodels/apps.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+polymodels/fields.py,sha256=NcrAagyNGfAHA8MChAb9q4thmWRCJ-2iD-Ikbv2t-gY,6745
+polymodels/forms.py,sha256=kIe7kmsbA7NsN0SS8SrBaVIQQ0NAYDqqAGFkn5mO0jA,1161
+polymodels/managers.py,sha256=NnEKXjKmf2335JXNiyiBx0ATAdlym8ICF-4S8sY-5tA,4164
+polymodels/models.py,sha256=IBbeKRLNXxlEWkWFb0HPWB-g4t-vk1_PdPKbC_sxmzI,6054
+polymodels/utils.py,sha256=v0nekFeAV1UsZqcbh06oxT5PzpSEpLSMWxfsocUxOoo,705
