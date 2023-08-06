@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: argparse2tool
+Version: 0.4.5
+Summary: Instrument for forming Galaxy XML and CWL tool descriptions from argparse arguments
+Home-page: https://github.com/erasche/argparse2tool
+Author: Helena Rasche, Anton Khodak
+Author-email: hxr@hx42.org
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: Apache Software License
