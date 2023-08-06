@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+pypassvault/__init__.py
+pypassvault/passvault.py
+pypassvault.egg-info/PKG-INFO
+pypassvault.egg-info/SOURCES.txt
+pypassvault.egg-info/dependency_links.txt
+pypassvault.egg-info/entry_points.txt
+pypassvault.egg-info/requires.txt
+pypassvault.egg-info/top_level.txt
