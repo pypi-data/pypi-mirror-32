@@ -1,0 +1,3 @@
+six
+requests<3,>=2.15
+parse<2,>=1.8
