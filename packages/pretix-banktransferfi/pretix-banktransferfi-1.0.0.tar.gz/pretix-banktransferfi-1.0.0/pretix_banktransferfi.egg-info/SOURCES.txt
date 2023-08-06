@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+Makefile
+README.rst
+pretix.cfg
+setup.cfg
+setup.py
+pretix_banktransferfi/__init__.py
+pretix_banktransferfi/payment.py
+pretix_banktransferfi/signals.py
+pretix_banktransferfi/viitenumero.py
+pretix_banktransferfi.egg-info/PKG-INFO
+pretix_banktransferfi.egg-info/SOURCES.txt
+pretix_banktransferfi.egg-info/dependency_links.txt
+pretix_banktransferfi.egg-info/entry_points.txt
+pretix_banktransferfi.egg-info/top_level.txt
