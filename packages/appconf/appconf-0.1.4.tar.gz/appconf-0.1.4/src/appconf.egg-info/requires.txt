@@ -1,0 +1,7 @@
+attrs==16.3.0
+click==6.7
+click-completion==0.3.1
+novo-jsobj==0.0.2
+psutil==5.4.5
+python-nginx==1.4.1
+tabulate==0.8.2
