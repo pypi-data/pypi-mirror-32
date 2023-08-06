@@ -1,0 +1,58 @@
+{% load tirrilee_contact_tags %}
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+<style>
+    @media (max-width: 576px){
+        .contact-field{
+            width:85% !important;
+        }
+        .submit-component .btn{
+            width: 40% !important;
+        }
+    }
+    .contact-field{
+        max-width: 450px;
+        width:60%;
+        margin:auto;
+    }
+    .submit-component{
+        text-align: center;
+    }
+    .submit-component .btn{
+        border-radius: 5px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(70, 80, 93);
+        max-width: 100%;
+        overflow: hidden;
+        margin: auto;
+        font-size: 14px;
+        width: 20%;
+    }
+</style>
+<form class="mt-5" method="post" action="" enctype="multipart/form-data">
+    {% csrf_token %}
+    {% for field in form %}
+        <div class="contact-field mt-2">
+            {{ field }}
+        </div>
+    {% endfor %}
+    <div class="submit-component mt-5 mb-5">
+        <button type="submit" class="btn"><span class="fsize14">메일보내기</span></button>
+    </div>
+    <script>
+        $(".btn").click(function(){
+            var name = $("#contact-name").val();
+            var email = $("#contact-email").val();
+            var subject = $("#contact-subject").val();
+            var message = $("#contact-message").val();
+
+            if ((name!='') && (email!='') && (subject!='') && (message!='')){
+                $('#waiting-cover').css('display', 'block');
+            }
+        });
+    </script>
+</form>

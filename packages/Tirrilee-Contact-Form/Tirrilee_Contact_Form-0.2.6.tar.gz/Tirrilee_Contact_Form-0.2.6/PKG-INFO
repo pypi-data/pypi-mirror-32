@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: Tirrilee_Contact_Form
+Version: 0.2.6
+Summary: Contact Form Package From Tirrilee
+Home-page: https://github.com/Tirrilee/Django-Packages/Contact-Form/
+Author: Aiden
+Author-email: aiden@tirrilee.io
+License: MIT
+Description: # Tirrilee Contact Form Package
+        
+        `pip install Tirrilee-Contact-Form`
+        
+        ## settings.py
+        
+        ```python
+        INSTALLED_APPS = (
+            ...
+        
+            'Tirrilee-Contact-Form',
+        )
+        ```
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
