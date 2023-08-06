@@ -1,0 +1,11 @@
+fithic/__init__.py,sha256=uaKfrrm9hAvVHY31wdPJI-h_h-7xV4JifBOYtLqGj-M,16
+fithic/__main__.py,sha256=e4KlGqe5tiS5_GVMTDC2TneYz87fHTvUFOA_Lxk9xvo,32
+fithic/fithic-runner.py,sha256=Jh_EDcsVXfR_Mc8tIIaID49luZO_ntCmUxf16V96JaU,84
+fithic/fithic.py,sha256=ACZTuWtmRF8YjRp-NUopXms7rS3ir680VZYMs48t8X4,43538
+fithic/myStats.py,sha256=ZD9Oww_hv4rxGTEMLIlvC1NofVZtSGLMeK7-qLW1GOY,2600
+fithic/myUtils.py,sha256=nGR8tCqmG1xv3fkDu0nkTCXxQHBWhDGraSo6qarUWLQ,8051
+fithic-2.0.0.dist-info/METADATA,sha256=l2XajHPIRli63PUhS-mAGeESwLAOrdzRniJWGA1cEmY,567
+fithic-2.0.0.dist-info/RECORD,,
+fithic-2.0.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+fithic-2.0.0.dist-info/entry_points.txt,sha256=vVkoQc1zSlMyUQAI4s8PvLk0F7ebgHsLpS6XgvIdAFY,47
+fithic-2.0.0.dist-info/top_level.txt,sha256=HAulkldqRvMeYgLVkkGD4HaiD-UyaIpK5iW9CXxGBQA,7
