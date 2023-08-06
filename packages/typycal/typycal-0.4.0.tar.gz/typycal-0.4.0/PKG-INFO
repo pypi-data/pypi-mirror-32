@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: typycal
+Version: 0.4.0
+Summary: Easily add type intelligence to simple Python objects
+Home-page: https://github.com/cardinal-health/typycal
+Author: Jackson J. Gilman
+Author-email: jackson.gilman@cardinalhealth.com
+License: Apache License 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Quality Assurance
