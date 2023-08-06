@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+gps_helper/__init__.py
+gps_helper/smoothing.py
+gps_helper.egg-info/PKG-INFO
+gps_helper.egg-info/SOURCES.txt
+gps_helper.egg-info/dependency_links.txt
+gps_helper.egg-info/top_level.txt
