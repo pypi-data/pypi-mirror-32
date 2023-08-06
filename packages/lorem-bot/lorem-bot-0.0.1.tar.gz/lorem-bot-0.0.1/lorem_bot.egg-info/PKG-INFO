@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: lorem-bot
+Version: 0.0.1
+Summary: A bot framework for devolopers
+Home-page: https://github.com/DSW12018/LoremBot
+Author: DSW12018
+Author-email: thiagoflames@gmail.com
+License: MIT
+Description: # LoremBot
+        Microframework to create Telegram's chatbots using Python https://lorembot.gitbook.io/docs
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

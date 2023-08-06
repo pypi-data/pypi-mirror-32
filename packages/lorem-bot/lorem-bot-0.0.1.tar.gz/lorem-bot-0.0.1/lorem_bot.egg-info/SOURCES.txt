@@ -1,0 +1,9 @@
+README.md
+setup.py
+lorem_bot.egg-info/PKG-INFO
+lorem_bot.egg-info/SOURCES.txt
+lorem_bot.egg-info/dependency_links.txt
+lorem_bot.egg-info/top_level.txt
+lorembot/__init__.py
+lorembot/function.py
+lorembot/setFunction.py
