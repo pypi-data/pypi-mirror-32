@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: psyshort
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/Quit3Simpl3/psyshort
+Author: Quit3Simpl3
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: # psyshort
+        Making psycopg2 a little simpler to use.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
