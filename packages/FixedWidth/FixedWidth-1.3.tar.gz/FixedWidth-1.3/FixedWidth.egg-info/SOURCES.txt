@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+FixedWidth.egg-info/PKG-INFO
+FixedWidth.egg-info/SOURCES.txt
+FixedWidth.egg-info/dependency_links.txt
+FixedWidth.egg-info/requires.txt
+FixedWidth.egg-info/top_level.txt
+fixedwidth/__init__.py
+fixedwidth/fixedwidth.py
