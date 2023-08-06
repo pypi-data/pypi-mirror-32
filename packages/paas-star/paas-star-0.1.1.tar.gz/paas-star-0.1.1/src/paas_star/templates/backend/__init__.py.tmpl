@@ -1,0 +1,12 @@
+from random import choice
+from star_builder import Component
+
+from archsdk import get_service
+
+from .{{client.lower()}} import {{client.capitalize()}}
+
+
+class {{client.capitalize()}}Component(Component):
+
+    def resolve(self) -> {{client.capitalize()}}:
+        return {{client.capitalize()}}(**choice(get_service("{{client}}")))
