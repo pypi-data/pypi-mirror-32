@@ -1,0 +1,7 @@
+[console_scripts]
+pyyacc.sources = pyyacc.scripts.compile:sources_main
+pyyacc.validate = pyyacc.scripts.compile:validate_main
+
+[zc.buildout]
+parse = pyyacc.buildout:ParseYAML
+
