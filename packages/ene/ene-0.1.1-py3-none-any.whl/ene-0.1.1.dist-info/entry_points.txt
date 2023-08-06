@@ -1,0 +1,3 @@
+[console_scripts]
+ene=ene:__main__.main
+
