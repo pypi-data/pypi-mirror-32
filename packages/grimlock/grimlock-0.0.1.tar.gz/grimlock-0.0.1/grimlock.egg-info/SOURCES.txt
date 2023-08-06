@@ -1,0 +1,9 @@
+README.md
+setup.py
+grimlock/__init__.py
+grimlock/convenience.py
+grimlock.egg-info/PKG-INFO
+grimlock.egg-info/SOURCES.txt
+grimlock.egg-info/dependency_links.txt
+grimlock.egg-info/requires.txt
+grimlock.egg-info/top_level.txt
