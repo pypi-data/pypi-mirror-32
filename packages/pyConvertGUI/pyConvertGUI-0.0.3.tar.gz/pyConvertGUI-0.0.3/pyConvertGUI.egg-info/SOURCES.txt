@@ -1,0 +1,5 @@
+setup.py
+pyConvertGUI.egg-info/PKG-INFO
+pyConvertGUI.egg-info/SOURCES.txt
+pyConvertGUI.egg-info/dependency_links.txt
+pyConvertGUI.egg-info/top_level.txt
