@@ -1,0 +1,4 @@
+pbxproj
+jinja2
+pyyaml
+colorama
