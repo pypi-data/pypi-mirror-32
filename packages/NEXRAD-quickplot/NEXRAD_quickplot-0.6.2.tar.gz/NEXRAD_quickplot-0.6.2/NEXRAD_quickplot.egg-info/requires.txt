@@ -1,0 +1,17 @@
+python-dateutil
+numpy
+imageio
+scikit-image
+xarray
+
+[plots]
+cartopy
+matplotlib
+seaborn
+
+[tests]
+pytest
+nose
+coveralls
+flake8
+mypy
