@@ -1,0 +1,10 @@
+setup.py
+bbindex/__init__.py
+bbindex/authorize.py
+bbindex/base.py
+bbindex/dataapi.py
+bbindex/vars.py
+bbindex.egg-info/PKG-INFO
+bbindex.egg-info/SOURCES.txt
+bbindex.egg-info/dependency_links.txt
+bbindex.egg-info/top_level.txt
