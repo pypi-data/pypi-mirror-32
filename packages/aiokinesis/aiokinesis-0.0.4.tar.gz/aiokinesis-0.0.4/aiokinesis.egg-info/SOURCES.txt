@@ -1,0 +1,12 @@
+README.md
+setup.py
+aiokinesis/__init__.py
+aiokinesis/consumer.py
+aiokinesis/message_accumulator.py
+aiokinesis/producer.py
+aiokinesis/utils.py
+aiokinesis.egg-info/PKG-INFO
+aiokinesis.egg-info/SOURCES.txt
+aiokinesis.egg-info/dependency_links.txt
+aiokinesis.egg-info/requires.txt
+aiokinesis.egg-info/top_level.txt
