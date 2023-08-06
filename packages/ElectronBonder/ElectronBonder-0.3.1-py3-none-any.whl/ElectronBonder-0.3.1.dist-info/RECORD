@@ -1,0 +1,9 @@
+ElectronBonder-0.3.1.dist-info/DESCRIPTION.rst,sha256=PBAWycDE7AG0o5tuqO0illEzpL624g6xi4vhWO-FgT8,86
+ElectronBonder-0.3.1.dist-info/METADATA,sha256=URjlU7iTyoIoL-Fbe47CYEYIHyMA05oLpXUaAsbbNAM,614
+ElectronBonder-0.3.1.dist-info/RECORD,,
+ElectronBonder-0.3.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+ElectronBonder-0.3.1.dist-info/metadata.json,sha256=wiUJCCwL3DCsAtX2PNbmNVimzZh82cI4JpGCs1ZSF5I,724
+ElectronBonder-0.3.1.dist-info/top_level.txt,sha256=jkEU453WJAe3A-m61LNYxvStOUCwIozPMa7wnPmFdBM,15
+electronbonder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+electronbonder/client/__init__.py,sha256=7IPvsShkJZq_00NMaGzz98YPHJXI9he0rPvl-tuoTUM,37
+electronbonder/client/web_client.py,sha256=MFPOtNXLUAZ_K78IEkAohptKppN8vZhxOyc_fCL3qJU,3230
