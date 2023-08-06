@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: chainer-watchdog
+Version: 0.0.1
+Summary: Watchdog extension for Chainer
+Home-page: https://github.com/dtaniwaki/chainer-watchdog
+Author: Daisuke Taniwaki
+Author-email: daisuketaniwaki@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: chainer extension
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
