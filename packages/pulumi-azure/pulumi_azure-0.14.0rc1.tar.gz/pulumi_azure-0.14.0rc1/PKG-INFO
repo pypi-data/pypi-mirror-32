@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: pulumi_azure
+Version: 0.14.0rc1
+Summary: A Pulumi package for creating and managing Microsoft Azure cloud resources.
+Home-page: https://pulumi.io/azure
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Project-URL: Repository, https://github.com/pulumi/pulumi-azure
+Description: UNKNOWN
+Keywords: pulumi azure
+Platform: UNKNOWN
