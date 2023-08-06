@@ -1,0 +1,13 @@
+.gitignore
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+absolang/__init__.py
+absolang/core.py
+absolang.egg-info/PKG-INFO
+absolang.egg-info/SOURCES.txt
+absolang.egg-info/dependency_links.txt
+absolang.egg-info/requires.txt
+absolang.egg-info/top_level.txt
+absolang/dictionaries/absolute-19.json
