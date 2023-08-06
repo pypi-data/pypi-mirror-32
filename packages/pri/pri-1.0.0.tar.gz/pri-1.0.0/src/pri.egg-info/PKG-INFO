@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: pri
+Version: 1.0.0
+Summary: Pip Repository Manager. Switch PyPi mirror.
+Home-page: https://github.com/xiyusullos/PipRepositoryIndex
+Author: xiyusullos
+Author-email: i@xy-jit.cc
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Keywords: python,PyPi mirror,pip repository manager
+Platform: any
