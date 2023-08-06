@@ -1,0 +1,15 @@
+ngofile/__init__.py,sha256=U7_YhzalcXIULh68EIqBtzVO1WRkkGVkXHLAbXAEBRw,185
+ngofile/__main__.py,sha256=otHnf1wgh6j5-MCXIEQ32lXL47_RbPYD-d_zWl0J4XQ,463
+ngofile/_apipkg.py,sha256=WCPmHJ6laajPEecPTvMmqFxPb5sgU6bnTmpjnLW6Z20,882
+ngofile/cli.py,sha256=av_p4GcSP5vmz_r1NnCYnAF7mFA_O35a0vS6EoEvqog,1788
+ngofile/copy.py,sha256=QrKtKnkoD3LRB88a_7p0CgMPbhrDHxn7DJjtHJ9rqEE,5657
+ngofile/exceptions.py,sha256=I_9-po-jzjXQOVBQwoqNb1NQ2dYbQ2XTK63Jbkwalqk,1373
+ngofile/list_files.py,sha256=LMlEwg7JilSGgyyuRjR3DqQgdrs9Br7p_92shLVvq44,8916
+ngofile/pathlist.py,sha256=99iYRBEItEqylNCw22yIZiuj9zcTpea2G4fGLNlB50c,8299
+ngofile-0.1.1.dist-info/DESCRIPTION.rst,sha256=cgFQPP_TaRpXEGAVOpxlKsyXQ5lqsq58RAcAH6n5GTY,662
+ngofile-0.1.1.dist-info/METADATA,sha256=4FkzdppAJcOndcN5SXQxH31WDziZhf30L7GGL_uSsbs,1879
+ngofile-0.1.1.dist-info/RECORD,,
+ngofile-0.1.1.dist-info/WHEEL,sha256=BTHHj6QhsHpWhRUrxioIvCAgjx81u-a8gkPTO6bi_A0,116
+ngofile-0.1.1.dist-info/entry_points.txt,sha256=DYfM67PNFAWtvcEpnX6KRsuZ8GQNJjRkLl4dcAB_CLg,105
+ngofile-0.1.1.dist-info/metadata.json,sha256=NIGqy9e5y_UoJoIr3Pe4efK7oVqqZzF6w-i5ci--PWE,1486
+ngofile-0.1.1.dist-info/top_level.txt,sha256=wW2T3t-CUVmyXBYyV5Uoijh7tIw2u-b--Jo0deH_5Wk,8
