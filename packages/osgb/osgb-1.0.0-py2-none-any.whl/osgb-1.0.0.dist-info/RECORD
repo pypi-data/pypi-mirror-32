@@ -1,0 +1,17 @@
+osgb/__init__.py,sha256=G66ilzcVf3lzoOrhtm18thlZaaxisz1KkvYiWBOMBw0,174
+osgb/convert.py,sha256=2PulTwZ4F3xv80sIWK19GpDrpVkQTUzyQ83TxQoVzYE,24280
+osgb/gb_coastline.shapes,sha256=VpS3u1saK65hPRs1wDTa_Lx7_cX4-ObYJ5T1M80D_nk,587017
+osgb/gridder.py,sha256=0hSUHsJlfsKZKrV8IpishJUGB1-5cGW01zsuYKMM1gc,19858
+osgb/legacy_interface.py,sha256=n6Elf6LLduJ6HUjXvgm2yqUxTcNuJvPVo9YN-YozX4g,3188
+osgb/mapping.data,sha256=iQNxdKBXpRkFIt7uqbArd57cSCbYSbDa9cYUpCYSUsM,529579
+osgb/mapping.py,sha256=pUJqRj8k03DdQoaYZr0xKXy0KoLTeB6OMMqWAV3g6Kc,529953
+osgb/ostn02.data,sha256=5pG6xDRuUEGLU7DahuEtQYCH7BOE_k_opzdecRDV9DU,1979144
+osgb/ostn_east_shift_82140,sha256=LxnzGLPHJWmYOkPp4ZqDAR057a1o9QbXrCaDcO9Ei5Y,1753902
+osgb/ostn_north_shift_-84180,sha256=3B0slKFcykSTATByqMj7wragVOETN2cbn5cngqdFDn8,1753902
+osgb-1.0.0.data/scripts/bngl,sha256=7ET_coWWrYueKRGAuA1-MItOdQATXmpUVtlRdulWOf8,3436
+osgb-1.0.0.data/scripts/plot_maps.py,sha256=iqgLYVjKOu5WbhHtvlBPOmxiowT54sgvMzhZJRwxh70,16911
+osgb-1.0.0.data/scripts/whatmaps.py,sha256=qNvfOEQwzcd0Pay-jlwksVatASOuse7-863J42TnA08,2020
+osgb-1.0.0.dist-info/METADATA,sha256=jqfhVKBHYpsWX72Ec6YblGoxaU5roE5eiHwxfMfa6gk,1039
+osgb-1.0.0.dist-info/RECORD,,
+osgb-1.0.0.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+osgb-1.0.0.dist-info/top_level.txt,sha256=Yrvj1OjBJdiYW03v1APO-3V_-Wx-Mb0hRXkOlkRwyzw,5
