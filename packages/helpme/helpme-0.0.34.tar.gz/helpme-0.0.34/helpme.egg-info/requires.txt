@@ -1,0 +1,11 @@
+requests>=2.18.4
+asciinema>=2.0.1
+uservoice>=0.0.23
+
+[all]
+requests>=2.18.4
+asciinema>=2.0.1
+uservoice>=0.0.23
+
+[uservoice]
+uservoice>=0.0.23
