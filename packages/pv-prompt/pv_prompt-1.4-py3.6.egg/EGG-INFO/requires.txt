@@ -1,0 +1,4 @@
+aiopvapi
+pysmb
+zeroconf
+prompt_toolkit
