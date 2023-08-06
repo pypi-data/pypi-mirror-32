@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: yoyopkg
+Version: 1.1
+Summary: A modular package manager
+Home-page: https://github.com/ethanquix/yoyo
+Author: dwyzlic
+Author-email: dimitriwyzlic@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: colorama
+Requires-Dist: requests
+
+UNKNOWN
+
+
