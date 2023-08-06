@@ -1,0 +1,129 @@
+Metadata-Version: 2.1
+Name: falcon-openapi
+Version: 0.1.6
+Summary: Falcon router to map openapi spec to resources
+Home-page: https://github.com/StoicPerlman/falcon-openapi/
+Author: Sam Kleiner
+Author-email: sam@skleiner.com
+License: MIT License
+
+Copyright (c) 2018 Sam Kleiner
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Download-URL: https://github.com/StoicPerlman/falcon-openapi/archive/0.1.6.tar.gz
+Description: # Falcon OpenApi
+        
+        Falcon OpenApi is a set of plugins for the [Falcon Web Framework](https://github.com/falconry/falcon). This project is currently in alpha and still under development.
+        
+        ### Install
+        
+        Not yet on pypi.
+        
+        ```bash
+        git clone https://github.com/StoicPerlman/falcon-openapi.git
+        cd falcon-openapi
+        python3 setup.py install
+        ```
+        
+        ## OpenApi Router
+        
+        Reads an openapi spec and provides automatic routing to Falcon resources. This is achieved by defining either an operationId or x-falcon-router property on an endpoint. This removes the need to define all endpoints in your main Falcon file. Instead just set the router to OpenApiRouter.
+        
+        This router inherits from the default Falcon CompiledRouter class, so it supports all methods available to the default router.
+        
+        Supports json files, yaml files, raw json strings, and raw yaml strings. If no params are specified the plugin will attempt to find `openapi-spec.yml` in the same directory.
+        
+        ```python
+        import falcon
+        import json
+        import yaml
+        from falcon_openapi import OpenApiRouter
+        
+        spec = {
+            'paths': {
+                '/foo': {
+                    'get': {
+                        'operationId': 'controllers.foo.Foo.on_get'
+                    }
+                }
+            }
+        }
+        
+        # load from file
+        app = falcon.API(
+            router=OpenApiRouter(file_path='openapi-spec.yml')
+        )
+        
+        # load from raw json
+        app = falcon.API(
+            router=OpenApiRouter(raw_json=json.dumps(spec))
+        )
+        
+        # load from raw yaml
+        app = falcon.API(
+            router=OpenApiRouter(raw_yaml=yaml.dump(spec))
+        )
+        ```
+        
+        ### operationId
+        
+        The example below will route all `GET` `/foo` requests to `controllers.foo.Foo.on_get`. Where `controllers.foo` is the module name, `Foo` is the class name, and `on_get` is the method name. Every operationId in your spec should be unique (See [openapi operationId](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md#operationObject)). All three parts of the operationId must be specified for the router to work.
+        
+        ```yaml
+        openapi: "3.0.0"
+        info:
+          version: 1.0.0
+          title: Falcon Openapi Demo
+        paths:
+          /foo:
+            get:
+              summary: Do foo things
+              operationId: controllers.foo.Foo.on_get
+        ```
+        
+        I am unsure if operationId will make it into the final version. I may change this to only check for the x-falcon-router property. I plan on doing more research to determine if this an appropriate way to use the [operationId property](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md#operationObject).
+        
+        ### x-falcon-router
+        
+        The example below will route all `POST` `/foo` requests to the module `controllers.foo`, the class `Foo`, and the method `post_foo`. Note: the standard in Falcon is to use the naming scheme on_get, on_post, etc. This plugin will allow any method name to be used to handle the request. If no method name is defined in x-falcon-router, the plugin will attempt to route to the appropriate on_* method. Meaning in the example below, removing the `method: post_foo` would cause the router to attempt to find an `on_post` method in `Foo`.
+        
+        ```yaml
+        openapi: "3.0.0"
+        info:
+          version: 1.0.0
+          title: Falcon Openapi Demo
+        paths:
+          /foo:
+            post:
+              summary: Do foo things
+              x-falcon-router:
+                module: controllers.foo
+                class: Foo
+                method: post_foo
+        ```
+        ## OpenApi Validator
+        
+        This plugin is still a work in progress.
+        
+Keywords: falcon,openapi,api
+Platform: UNKNOWN
+Requires-Python: >3.5.0
+Description-Content-Type: text/markdown
+Provides-Extra: dev
