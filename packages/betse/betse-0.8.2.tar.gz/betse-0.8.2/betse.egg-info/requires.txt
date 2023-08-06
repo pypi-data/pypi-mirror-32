@@ -1,0 +1,16 @@
+SciPy>=0.12.0
+setuptools>=3.3
+dill>=0.2.3
+Numpy>=1.8.2
+PyYAML>=3.10
+Pillow>=2.3.0
+six>=1.5.2
+matplotlib>=1.5.0
+
+[all]
+ptpython>=0.29
+pydot>=1.0.28
+networkx!=1.11,>=1.8
+PyYAML>=3.10
+ruamel.yaml>=0.15.24
+pympler>=0.4.1
