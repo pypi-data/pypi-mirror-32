@@ -1,0 +1,61 @@
+#!/usr/bin/python
+
+from emr_launcher.launcher import EmrLauncher, render_template
+from argparse import ArgumentParser
+import logging
+import json
+
+
+def main():
+    """
+        entry-point for the script
+    """
+    parser = ArgumentParser(description='Runs job flows on EMR', version="3.0.0")
+    parser.add_argument('--name', type=str, default=None, help='Name of the cluster')
+    parser.add_argument(
+        '--job-id',
+        type=str,
+        dest='job_id',
+        default=None,
+        help='EMR Job ID to add steps to, using this only takes steps from the passed config'
+    )
+
+    parser.add_argument(
+        '--dry-run',
+        action='store_true',
+        dest='dry_run',
+        help='Does a dry run. Builds the config an dumps it to stdout, without kicking off an EMR job'
+    )
+
+    parser.add_argument(
+        '--distinct',
+        action='store_true',
+        dest='distinct',
+        help='Will only launch the job if another cluster of the same name is *not* running. Otherwise, will throw an error'
+    )
+
+    parser.add_argument(
+        '--replace-existing-cluster',
+        action='store_true',
+        dest='replace_existing_cluster',
+        help='Shuts down an existing cluster with the same name, if more than one cluster exists it will fail.'
+    )
+
+    parser.add_argument('config', type=str, help='path to the config to be used')
+
+    args = parser.parse_args()
+    dry_run_prefix = "[DRY RUN] " if args.dry_run else ""
+    logging.basicConfig(format=dry_run_prefix + '%(asctime)-15s %(message)s', level=logging.INFO)
+    launcher = EmrLauncher()
+    launcher.run(
+        json.loads(render_template(open(args.config).read())),
+        job_id=args.job_id,
+        name=args.name,
+        dry_run=args.dry_run,
+        distinct=args.distinct,
+        replace_existing_cluster=args.replace_existing_cluster
+    )
+
+
+if __name__ == '__main__':
+    main()

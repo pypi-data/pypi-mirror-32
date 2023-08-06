@@ -1,0 +1,63 @@
+Metadata-Version: 1.2
+Name: emr-launcher
+Version: 1.0.0
+Summary: Launches an AWS Elastic MapReduce cluster using templated configuration files written in JSON. Meant to make deployments consistent and reproducable.
+Home-page: https://github.com/tuneinc/emr_launcher
+Author: Nick Rushton
+Author-email: nick@tune.com
+License: MIT
+Description-Content-Type: text/markdown
+Description: 
+        # EMR Launcher
+        
+        Launches EMR clusters using config files for consistent run-time behavior when setting up a cluster.
+        
+        ## To Run
+        
+        Starting a new cluster:
+        ```
+        PYTHONPATH=/path/to/emr_launcher python emr_launcher/launcher.py /path/to/config/<my_config>.json
+        ```
+        
+        Adding steps to an existing cluster
+        ```
+        PYTHONPATH=/path/to/emr_launcher python emr_launcher/launcher.py config/<my_config>.json --job-id <job_id_of_existing_cluster>
+        ```
+        
+        ## Creating configs
+        
+        Create a JSON file in the configs directory. Fill the config based on the parameters defined here: http://boto3.readthedocs.io/en/latest/reference/services/emr.html#EMR.Client.run_job_flow
+        
+        *or*
+        
+        build off the example config
+        
+        ## Using templating in configs
+        
+        In any JSON config file function defined in the `template_functions` module can be used inside the config using jinja2 style templating. If you require a new function, add it to the `template_functions` module and it will be available to use in any config.
+        
+        ## Running on hosts with CONSUL environment variables set (when using consul_get_value in templates)
+        
+        Some hosts will have Consul hosts already set in the environment.
+        
+        ```
+        [nick@dp-nick02-dev.sea1.office.priv ~]$ env | grep CONSUL
+        CONSUL_HTTP_ADDR=172.17.0.1:8500
+        CONSUL_RPC_ADDR=172.17.0.1:8400
+        ```
+        
+        These will override the default values for consul (and any you override on the command line). To prevent this set the environment variables to nothing:
+        
+        ```
+        CONSUL_HTTP_ADDR= CONSUL_RPC_ADDR= ... python emr_launcher.py ...
+        ```
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=2.7.0

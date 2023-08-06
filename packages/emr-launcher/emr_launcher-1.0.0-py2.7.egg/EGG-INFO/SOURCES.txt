@@ -1,0 +1,11 @@
+README.md
+setup.py
+bin/emr_launcher
+emr_launcher/__init__.py
+emr_launcher/launcher.py
+emr_launcher/template_functions.py
+emr_launcher.egg-info/PKG-INFO
+emr_launcher.egg-info/SOURCES.txt
+emr_launcher.egg-info/dependency_links.txt
+emr_launcher.egg-info/requires.txt
+emr_launcher.egg-info/top_level.txt
