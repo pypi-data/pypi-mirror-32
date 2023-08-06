@@ -1,0 +1,12 @@
+dalmatian/__about__.py,sha256=XG8c-Jbchjo-53fLn-Gysg0W_mrwzVE01FzD7jWSrUY,40
+dalmatian/__init__.py,sha256=4EqR7H_2T9_VJKnnGeAFwKVqWoo63bBm6OYu9qqX2CE,44
+dalmatian/core.py,sha256=CmL33i9rBkqL7Hm9X3T-ODzbdWtb-D40S4UWRz20W-c,15583
+dalmatian/test.py,sha256=82GnFXN1CEojTZjppUbEF_8S5T2aBpvctHbCt-l9EME,1580
+dalmatian/wmanager.py,sha256=zfVa7QG8GSbDzktcQuj4UI6CovEoOs7wkarpZhTpiJk,57934
+firecloud_dalmatian-0.0.2.dist-info/DESCRIPTION.rst,sha256=Wr_bGcVvY4b59s8uhLQJie7K87AVwrMMR5VtO96yCyI,3624
+firecloud_dalmatian-0.0.2.dist-info/METADATA,sha256=GlGL9GXPkI54DES7Lfy0JkXk_S-sNMhAZk1aD75HPCw,4335
+firecloud_dalmatian-0.0.2.dist-info/RECORD,,
+firecloud_dalmatian-0.0.2.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+firecloud_dalmatian-0.0.2.dist-info/entry_points.txt,sha256=xqjM0eUR-7xcTn7drJSfAPAGL6L9Y1SatX-pzaHy8f4,51
+firecloud_dalmatian-0.0.2.dist-info/metadata.json,sha256=x64C_d8_m7XgT3HIfONKTxstEt8t9gm6kg21bKPFlxQ,926
+firecloud_dalmatian-0.0.2.dist-info/top_level.txt,sha256=256y2mFQ0uezKVDJaXNVztAFdUYcWEEnWX5-I6TOJ2c,10
