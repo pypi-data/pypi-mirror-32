@@ -1,0 +1,2 @@
+fedoidcendpoint
+fedoidcendpoint/oidc
