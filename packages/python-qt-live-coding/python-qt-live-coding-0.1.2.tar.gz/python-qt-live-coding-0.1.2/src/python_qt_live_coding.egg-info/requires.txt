@@ -1,0 +1,8 @@
+PyQt5
+six
+
+[dev]
+pytest
+pytest-pep8
+pytest-cov
+pytest-qt
