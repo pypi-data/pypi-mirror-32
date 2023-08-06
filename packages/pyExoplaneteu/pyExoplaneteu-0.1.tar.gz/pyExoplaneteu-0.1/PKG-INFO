@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: pyExoplaneteu
+Version: 0.1
+Summary: A pure-Python package to download data fromthe Extrasolar Planets Encyclopaedia
+Home-page: https://github.com/j-faria/pyExoplanet.eu
+Author: João Faria
+Author-email: joao.faria@astro.up.pt
+License: MIT
+Description: # pyExoplanet.eu
+        A Python package to download data from the Extrasolar Planets Encyclopaedia
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
