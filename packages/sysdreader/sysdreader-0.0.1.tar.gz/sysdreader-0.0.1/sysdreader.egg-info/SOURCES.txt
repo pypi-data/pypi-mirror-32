@@ -1,0 +1,9 @@
+README.md
+setup.py
+sysdreader/__init__.py
+sysdreader/journal_reader.py
+sysdreader.egg-info/PKG-INFO
+sysdreader.egg-info/SOURCES.txt
+sysdreader.egg-info/dependency_links.txt
+sysdreader.egg-info/requires.txt
+sysdreader.egg-info/top_level.txt
