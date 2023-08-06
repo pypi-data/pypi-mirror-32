@@ -1,0 +1,8 @@
+README.rst
+setup.py
+enumr/__init__.py
+enumr.egg-info/PKG-INFO
+enumr.egg-info/SOURCES.txt
+enumr.egg-info/dependency_links.txt
+enumr.egg-info/requires.txt
+enumr.egg-info/top_level.txt
