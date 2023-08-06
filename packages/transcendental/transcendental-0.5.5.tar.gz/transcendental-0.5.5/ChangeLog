@@ -1,0 +1,49 @@
+CHANGES
+=======
+
+0.5.5
+-----
+
+* fix module import
+
+0.5.4
+-----
+
+* fix module import
+
+0.5.3
+-----
+
+* fix pep8 imports
+
+0.5.2
+-----
+
+* fix model usage
+* improve requirements
+
+0.5.1
+-----
+
+* fix bad models import
+
+0.5
+---
+
+* fix bad models import
+
+0.4
+---
+
+* fix bad models import
+
+0.3
+---
+
+* improve deployment
+
+0.2
+---
+
+* improve usage
+* first commit
