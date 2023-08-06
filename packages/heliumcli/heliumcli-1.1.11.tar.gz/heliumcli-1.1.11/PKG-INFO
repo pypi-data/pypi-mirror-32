@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: heliumcli
+Version: 1.1.11
+Summary: CLI tool that provides a useful set of tools for maintaining, building, and deploying code in compatible projects
+Home-page: https://github.com/HeliumEdu/heliumcli
+Author: Alex Laird
+Author-email: contact@alexlaird.com
+License: MIT
+Download-URL: https://github.com/HeliumEdu/heliumcli/archive/1.1.11.tar.gz
+Description: CLI tool that provides a useful set of tools for maintaining, building, and deploying code in compatible projects
+Keywords: cli,build,deployment,ansible,git
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Build Tools
