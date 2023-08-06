@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: bfutils
+Version: 0.1.0
+Summary: Basic Fusion utilities
+Home-page: https://github.com/TerraFusion/bfutils
+Author: Landon T. Clipp
+Author-email: clipp2@illinois.edu
+License: UNKNOWN
+Description: bfutils provides a few useful utilities for     interacting with the Basic Fusion data product.
+Keywords: bfutils,bf,utilities,nasa,eos,earth
+Platform: UNKNOWN
