@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+responsys_client/__init__.py
+responsys_client/client.py
+responsys_client/exceptions.py
+responsys_client/tests.py
+responsys_client/utils.py
+responsys_client.egg-info/PKG-INFO
+responsys_client.egg-info/SOURCES.txt
+responsys_client.egg-info/dependency_links.txt
+responsys_client.egg-info/requires.txt
+responsys_client.egg-info/top_level.txt
