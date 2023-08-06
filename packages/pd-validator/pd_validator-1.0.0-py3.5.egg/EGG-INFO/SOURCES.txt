@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pd_validator/__init__.py
+pd_validator/report.py
+pd_validator/schema.py
+pd_validator/validator.py
+pd_validator.egg-info/PKG-INFO
+pd_validator.egg-info/SOURCES.txt
+pd_validator.egg-info/dependency_links.txt
+pd_validator.egg-info/requires.txt
+pd_validator.egg-info/top_level.txt
+tests/__init__.py
+tests/test_report.py
