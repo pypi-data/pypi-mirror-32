@@ -1,0 +1,50 @@
+Metadata-Version: 1.2
+Name: grey
+Version: 0.0.1
+Summary: Grey, because I didn't like Black or White.
+Home-page: https://github.com/skorokithakis/gray
+Author: Stavros Korokithakis
+Author-email: hi@stavros.io
+License: MIT
+Description: 
+        Grey: Black, but brighter, but not as bright as White (arbitrarily–inspired)
+        ============================================================================
+        
+        `Black <https://github.com/ambv/black>`_ is an amazing tool for auto–formatting
+        Python code in a style that I don't really care about, but I like consistency,
+        so I use it in all my projects.
+        
+        It has **one** configuration option — to change its default line–length of ``88``
+        chars to, say, ``120``, like I like.
+        
+        -----------
+        
+        That is *exactly* what **grey** does. It invokes ``$ black --line-length 120`` on your behalf.
+        
+        
+        Usage
+        =====
+        
+        ::
+        
+            $ grey myapp.py
+            reformatted myapp.py
+        
+        
+        
+        Installation
+        ============
+        
+        ::
+        
+        	$ pipenv install white
+        	✨🍰✨
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
