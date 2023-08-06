@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+osmxtract/__init__.py
+osmxtract/cli.py
+osmxtract/errors.py
+osmxtract/location.py
+osmxtract/overpass.py
+osmxtract/seas.py
+osmxtract.egg-info/PKG-INFO
+osmxtract.egg-info/SOURCES.txt
+osmxtract.egg-info/dependency_links.txt
+osmxtract.egg-info/entry_points.txt
+osmxtract.egg-info/not-zip-safe
+osmxtract.egg-info/requires.txt
+osmxtract.egg-info/top_level.txt
