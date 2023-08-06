@@ -1,0 +1,9 @@
+perch/__init__.py,sha256=Jzb_RfgvXCrm_SQ4AfeGVi1N36YybxnM5mpyxrnihgI,33
+perch/main.py,sha256=AuvoeM4z1ubUa-PmhmRXxjeh0QNdvvQzpYuC6jxCeB0,7956
+perch/settings.py,sha256=IR1iY7Zjjq94BHztsq5q8PYWBbAy33d8ylnz30UCDZs,405
+perch/version.py,sha256=mqZgDlW9Wj_wPDvWq18VuceHzL6T6BY4iaT-BVZjE1M,78
+perch-0.0.8.dist-info/METADATA,sha256=wyI7t55jf-mhxliqz22iAyPvC-wyN9ZQM96xcIjpeyg,524
+perch-0.0.8.dist-info/RECORD,,
+perch-0.0.8.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+perch-0.0.8.dist-info/entry_points.txt,sha256=0oxWeDCSQkAC7WC56jo5vqCbHAJkSen_f9UOkD_7OK4,60
+perch-0.0.8.dist-info/top_level.txt,sha256=jMyBU30gW45wsG8eh1YtMD_4YHe9swXJJFRGKBWkVy8,6
