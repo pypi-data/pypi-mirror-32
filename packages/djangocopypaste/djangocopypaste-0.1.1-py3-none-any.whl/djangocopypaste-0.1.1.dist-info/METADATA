@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: djangocopypaste
+Version: 0.1.1
+Summary: django code that I do not want to copy paste
+Home-page: https://gitlab.com/acci/django-copy-paste.git
+Author: acci
+Author-email: acci.valverde@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: Django
+
+UNKNOWN
+
+
