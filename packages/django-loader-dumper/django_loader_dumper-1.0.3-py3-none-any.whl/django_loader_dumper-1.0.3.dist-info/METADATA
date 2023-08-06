@@ -1,0 +1,16 @@
+Metadata-Version: 2.0
+Name: django-loader-dumper
+Version: 1.0.3
+Summary: Commands for loading and dumping fixtures based on app names.
+Home-page: https://github.com/andruten/django_loader_dumper
+Author: Andruten
+Author-email: andusaben@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/andruten/django_loader_dumper/archive/1.0.3.tar.gz
+Description-Content-Type: UNKNOWN
+Keywords: django,fixtures,dumpdata,loaddata,commands,json
+Platform: UNKNOWN
+
+UNKNOWN
+
+
