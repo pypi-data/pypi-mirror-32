@@ -1,0 +1,418 @@
+[[package]]
+name = "alabaster"
+version = "0.7.10"
+description = "A configurable sidebar-enabled Sphinx theme"
+category = "main"
+optional = false
+python-versions = "*"
+platform = "UNKNOWN"
+
+[[package]]
+name = "asn1crypto"
+version = "0.24.0"
+description = "Fast ASN.1 parser and serializer with definitions for private keys, public keys, certificates, CRL, OCSP, CMS, PKCS#3, PKCS#7, PKCS#8, PKCS#12, PKCS#5, X.509 and TSP"
+category = "dev"
+optional = false
+python-versions = "*"
+platform = "*"
+
+[[package]]
+name = "babel"
+version = "2.6.0"
+description = "Internationalization utilities"
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+platform = "*"
+
+[package.dependencies]
+pytz = ">=0a"
+[[package]]
+name = "certifi"
+version = "2018.4.16"
+description = "Python package for providing Mozilla's CA Bundle."
+category = "main"
+optional = false
+python-versions = "*"
+platform = "*"
+
+[[package]]
+name = "cffi"
+version = "1.11.5"
+description = "Foreign Function Interface for Python calling C code."
+category = "dev"
+optional = false
+python-versions = "*"
+platform = "*"
+
+[package.dependencies]
+pycparser = "*"
+[[package]]
+name = "chardet"
+version = "3.0.4"
+description = "Universal encoding detector for Python 2 and 3"
+category = "main"
+optional = false
+python-versions = "*"
+platform = "*"
+
+[[package]]
+name = "colorama"
+version = "0.3.9"
+description = "Cross-platform colored terminal text."
+category = "main"
+optional = false
+python-versions = "*"
+platform = "UNKNOWN"
+
+[package.requirements]
+platform = "win32"
+[[package]]
+name = "cryptography"
+version = "2.2.2"
+description = "cryptography is a package which provides cryptographic recipes and primitives to Python developers."
+category = "dev"
+optional = false
+python-versions = ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*"
+platform = "*"
+
+[package.dependencies]
+idna = ">=2.1"
+asn1crypto = ">=0.21.0"
+six = ">=1.4.1"
+cffi = ">=1.7"
+[[package]]
+name = "docutils"
+version = "0.14"
+description = "Docutils -- Python Documentation Utilities"
+category = "main"
+optional = false
+python-versions = "*"
+platform = "OS-independent"
+
+[[package]]
+name = "entrypoints"
+version = "0.2.3"
+description = "Discover and load entry points from installed packages."
+category = "dev"
+optional = false
+python-versions = ">=2.7"
+platform = "*"
+
+[[package]]
+name = "flinx"
+version = "0.1.1"
+description = "Configuration-free Python doc generation via Sphinx."
+category = "main"
+optional = false
+python-versions = ">=3.5"
+platform = "*"
+
+[package.dependencies]
+Sphinx = "*"
+flit = "*"
+[[package]]
+name = "flit"
+version = "1.0"
+description = "A simple packaging tool for simple packages."
+category = "main"
+optional = false
+python-versions = ">=3"
+platform = "*"
+
+[package.dependencies]
+zipfile36 = "*"
+pytoml = "*"
+requests_download = "*"
+docutils = "*"
+requests = "*"
+[[package]]
+name = "idna"
+version = "2.7"
+description = "Internationalized Domain Names in Applications (IDNA)"
+category = "main"
+optional = false
+python-versions = "*"
+platform = "*"
+
+[[package]]
+name = "imagesize"
+version = "1.0.0"
+description = "Getting image size from png/jpeg/jpeg2000/gif file"
+category = "main"
+optional = false
+python-versions = "*"
+platform = "*"
+
+[[package]]
+name = "jinja2"
+version = "2.10"
+description = "A small but fast and easy to use stand-alone template engine written in pure python."
+category = "main"
+optional = false
+python-versions = "*"
+platform = "*"
+
+[package.dependencies]
+MarkupSafe = ">=0.23"
+[[package]]
+name = "keyring"
+version = "12.2.1"
+description = "Store and access your passwords safely."
+category = "dev"
+optional = false
+python-versions = ">=2.7"
+platform = "*"
+
+[package.dependencies]
+pywin32-ctypes = "<0.1.0 || >0.1.0,<0.1.1 || >0.1.1"
+secretstorage = "<3"
+entrypoints = "*"
+[[package]]
+name = "markupsafe"
+version = "1.0"
+description = "Implements a XML/HTML/XHTML Markup safe string for Python"
+category = "main"
+optional = false
+python-versions = "*"
+platform = "UNKNOWN"
+
+[[package]]
+name = "packaging"
+version = "17.1"
+description = "Core utilities for Python packages"
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+platform = "*"
+
+[package.dependencies]
+pyparsing = ">=2.0.2"
+six = "*"
+[[package]]
+name = "pycparser"
+version = "2.18"
+description = "C parser in Python"
+category = "dev"
+optional = false
+python-versions = "*"
+platform = "Cross Platform"
+
+[[package]]
+name = "pygments"
+version = "2.2.0"
+description = "Pygments is a syntax highlighting package written in Python."
+category = "main"
+optional = false
+python-versions = "*"
+platform = "any"
+
+[[package]]
+name = "pyparsing"
+version = "2.2.0"
+description = "Python parsing module"
+category = "main"
+optional = false
+python-versions = "*"
+platform = "UNKNOWN"
+
+[[package]]
+name = "pytoml"
+version = "0.1.16"
+description = "A parser for TOML-0.4.0"
+category = "main"
+optional = false
+python-versions = "*"
+platform = "*"
+
+[[package]]
+name = "pytz"
+version = "2018.4"
+description = "World timezone definitions, modern and historical"
+category = "main"
+optional = false
+python-versions = "*"
+platform = "Independent"
+
+[[package]]
+name = "pywin32-ctypes"
+version = "0.1.2"
+description = "A (partial) reimplementation of pywin32 that is pure python (uses ctypes/cffi)."
+category = "dev"
+optional = false
+python-versions = "*"
+platform = "*"
+
+[package.requirements]
+platform = "win32"
+[[package]]
+name = "requests"
+version = "2.19.0"
+description = "Python HTTP for Humans."
+category = "main"
+optional = false
+python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+platform = "*"
+
+[package.dependencies]
+certifi = ">=2017.4.17"
+urllib3 = ">=1.21.1,<1.24"
+idna = ">=2.5,<2.8"
+chardet = ">=3.0.2,<3.1.0"
+[[package]]
+name = "requests-download"
+version = "0.1.2"
+description = "Download files using requests and save them to a target path"
+category = "main"
+optional = false
+python-versions = "*"
+platform = "*"
+
+[package.dependencies]
+requests = "*"
+[[package]]
+name = "secretstorage"
+version = "2.3.1"
+description = "Python bindings to FreeDesktop.org Secret Service API"
+category = "dev"
+optional = false
+python-versions = "*"
+platform = "Linux"
+
+[package.dependencies]
+cryptography = "*"
+[package.requirements]
+platform = "linux"
+[[package]]
+name = "setuptools"
+version = "39.2.0"
+description = "Easily download, build, install, upgrade, and uninstall Python packages"
+category = "main"
+optional = false
+python-versions = ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*"
+platform = "*"
+
+[[package]]
+name = "six"
+version = "1.11.0"
+description = "Python 2 and 3 compatibility utilities"
+category = "main"
+optional = false
+python-versions = "*"
+platform = "*"
+
+[[package]]
+name = "snowballstemmer"
+version = "1.2.1"
+description = "This package provides 16 stemmer algorithms (15 + Poerter English stemmer) generated from Snowball algorithms."
+category = "main"
+optional = false
+python-versions = "*"
+platform = "UNKNOWN"
+
+[[package]]
+name = "sphinx"
+version = "1.7.5"
+description = "Python documentation generator"
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+platform = "any"
+
+[package.dependencies]
+colorama = ">=0.3.5"
+typing = "*"
+sphinxcontrib-websupport = "*"
+packaging = "*"
+setuptools = "*"
+requests = ">=2.0.0"
+imagesize = "*"
+alabaster = ">=0.7,<0.8"
+babel = ">=1.3,<2.0 || >2.0"
+snowballstemmer = ">=1.1"
+docutils = ">=0.11"
+Pygments = ">=2.0"
+Jinja2 = ">=2.3"
+six = ">=1.5"
+[[package]]
+name = "sphinxcontrib-websupport"
+version = "1.1.0"
+description = "Sphinx API for Web Apps"
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+platform = "any"
+
+[[package]]
+name = "typing"
+version = "3.6.4"
+description = "Type Hints for Python"
+category = "main"
+optional = false
+python-versions = "*"
+platform = "*"
+
+[package.requirements]
+python = "<3.5"
+[[package]]
+name = "urllib3"
+version = "1.23"
+description = "HTTP library with thread-safe connection pooling, file post, and more."
+category = "main"
+optional = false
+python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, <4"
+platform = "*"
+
+[[package]]
+name = "zipfile36"
+version = "0.1.3"
+description = "Read and write ZIP files - backport of the zipfile module from Python 3.6"
+category = "main"
+optional = false
+python-versions = "*"
+platform = "*"
+
+[package.requirements]
+python = "3.3.* || 3.4.* || 3.5.*"
+
+[metadata]
+python-versions = ">=3.0"
+platform = "*"
+content-hash = "8310c07c5c8208766d743c61a2c5aaa168c3f0600705dc122c5bd39854a51ba6"
+
+[metadata.hashes]
+alabaster = [ "2eef172f44e8d301d25aff8068fddd65f767a3f04b5f15b0f4922f113aa1c732", "37cdcb9e9954ed60912ebc1ca12a9d12178c26637abdf124e3cde2341c257fe0",]
+asn1crypto = [ "2f1adbb7546ed199e3c90ef23ec95c5cf3585bac7d11fb7eb562a3fe89c64e87", "9d5c20441baf0cb60a4ac34cc447c6c189024b6b4c6cd7877034f4965c464e49",]
+babel = [ "6778d85147d5d85345c14a26aada5e478ab04e39b078b0745ee6870c2b5cf669", "8cba50f48c529ca3fa18cf81fa9403be176d374ac4d60738b839122dfaaa3d23",]
+certifi = [ "9fa520c1bacfb634fa7af20a76bcbd3d5fb390481724c597da32c719a7dca4b0", "13e698f54293db9f89122b0581843a782ad0934a4fe0172d2a980ba77fc61bb7",]
+cffi = [ "1b0493c091a1898f1136e3f4f991a784437fac3673780ff9de3bcf46c80b6b50", "87f37fe5130574ff76c17cab61e7d2538a16f843bb7bca8ebbc4b12de3078596", "1553d1e99f035ace1c0544050622b7bc963374a00c467edafac50ad7bd276aef", "151b7eefd035c56b2b2e1eb9963c90c6302dc15fbd8c1c0a83a163ff2c7d7743", "edabd457cd23a02965166026fd9bfd196f4324fe6032e866d0f3bd0301cd486f", "ba5e697569f84b13640c9e193170e89c13c6244c24400fc57e88724ef610cd31", "79f9b6f7c46ae1f8ded75f68cf8ad50e5729ed4d590c74840471fc2823457d04", "b0f7d4a3df8f06cf49f9f121bead236e328074de6449866515cea4907bbc63d6", "4c91af6e967c2015729d3e69c2e51d92f9898c330d6a851bf8f121236f3defd3", "7a33145e04d44ce95bcd71e522b478d282ad0eafaf34fe1ec5bbd73e662f22b6", "95d5251e4b5ca00061f9d9f3d6fe537247e145a8524ae9fd30a2f8fbce993b5b", "b75110fb114fa366b29a027d0c9be3709579602ae111ff61674d28c93606acca", "ae5e35a2c189d397b91034642cb0eab0e346f776ec2eb44a49a459e6615d6e2e", "fdf1c1dc5bafc32bc5d08b054f94d659422b05aba244d6be4ddc1c72d9aa70fb", "9d1d3e63a4afdc29bd76ce6aa9d58c771cd1599fbba8cf5057e7860b203710dd", "be2a9b390f77fd7676d80bc3cdc4f8edb940d8c198ed2d8c0be1319018c778e1", "ed01918d545a38998bfa5902c7c00e0fee90e957ce036a4000a88e3fe2264917", "857959354ae3a6fa3da6651b966d13b0a8bed6bbc87a0de7b38a549db1d2a359", "2ba8a45822b7aee805ab49abfe7eec16b90587f7f26df20c71dd89e45a97076f", "a36c5c154f9d42ec176e6e620cb0dd275744aa1d804786a71ac37dc3661a5e95", "e55e22ac0a30023426564b1059b035973ec82186ddddbac867078435801c7801", "3eb6434197633b7748cea30bf0ba9f66727cdce45117a712b29a443943733257", "ecbb7b01409e9b782df5ded849c178a0aa7c906cf8c5a67368047daab282b184", "770f3782b31f50b68627e22f91cb182c48c47c02eb405fd689472aa7b7aa16dc", "d5d8555d9bfc3f02385c1c37e9f998e2011f0db4f90e250e5bc0c0a85a813085", "3c85641778460581c42924384f5e68076d724ceac0f267d66c757f7535069c93", "e90f17980e6ab0f3c2f3730e56d1fe9bcba1891eeea58966e89d352492cc74f4",]
+chardet = [ "fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691", "84ab92ed1c4d4f16916e05906b6b75a6c0fb5db821cc65e70cbd64a3e2a5eaae",]
+colorama = [ "463f8483208e921368c9f306094eb6f725c6ca42b0f97e313cb5d5512459feda", "48eb22f4f8461b1df5734a074b57042430fb06e1d61bd1e11b078c0fe6d7a1f1",]
+cryptography = [ "abd070b5849ed64e6d349199bef955ee0ad99aefbad792f0c587f8effa681a5e", "3f3b65d5a16e6b52fba63dc860b62ca9832f51f1a2ae5083c78b6840275f12dd", "77d0ad229d47a6e0272d00f6bf8ac06ce14715a9fd02c9a97f5a2869aab3ccb2", "808fe471b1a6b777f026f7dc7bd9a4959da4bfab64972f2bbe91e22527c1c037", "6fef51ec447fe9f8351894024e94736862900d3a9aa2961528e602eb65c92bdb", "60bda7f12ecb828358be53095fc9c6edda7de8f1ef571f96c00b2363643fa3cd", "5cb990056b7cadcca26813311187ad751ea644712022a3976443691168781b6f", "c332118647f084c983c6a3e1dba0f3bcb051f69d12baccac68db8d62d177eb8a", "f57008eaff597c69cf692c3518f6d4800f0309253bb138b526a37fe9ef0c7471", "551a3abfe0c8c6833df4192a63371aa2ff43afd8f570ed345d31f251d78e7e04", "db6013746f73bf8edd9c3d1d3f94db635b9422f503db3fc5ef105233d4c011ab", "d6f46e862ee36df81e6342c2177ba84e70f722d9dc9c6c394f9f1f434c4a5563", "9b62fb4d18529c84b961efd9187fecbb48e89aa1a0f9f4161c61b7fc42a101bd", "9e5bed45ec6b4f828866ac6a6bedf08388ffcfa68abe9e94b34bb40977aba531", "f6c821ac253c19f2ad4c8691633ae1d1a17f120d5b01ea1d256d7b602bc59887", "ba6a774749b6e510cffc2fb98535f717e0e5fd91c7c99a61d223293df79ab351", "9fc295bf69130a342e7a19a39d7bbeb15c0bcaabc7382ec33ef3b2b7d18d2f63",]
+docutils = [ "7a4bd47eaf6596e1295ecb11361139febe29b084a87bf005bf899f9a42edc3c6", "02aec4bd92ab067f6ff27a38a38a41173bf01bed8f89157768c1573f53e474a6", "51e64ef2ebfb29cae1faa133b3710143496eca21c530f3f71424d77687764274",]
+entrypoints = [ "10ad569bb245e7e2ba425285b9fa3e8178a0dc92fc53b1e1c553805e15a8825b", "d2d587dde06f99545fb13a383d2cd336a8ff1f359c5839ce3a64c917d10c029f",]
+flinx = [ "09e35bfdcce3d6f66fb39c9b3242cf7cd939f6ff6f9b14ad101307fe4e1021b5", "da6a53c18a1c892834fb2cfd888f174edd8fb0197b5c660db97c9426e58435e8",]
+flit = [ "5eba92b254f198e534855919c1596d68bb46a7ee2adab60037df6268672dba38", "95b8577b2232da39ee14ae237575b7a85afeeabc1e87f4a19485fac34f85aa89",]
+idna = [ "156a6814fb5ac1fc6850fb002e0852d56c0c8d2531923a51032d1b70760e186e", "684a38a6f903c1d71d6d5fac066b58d7768af4de2b832e426ec79c30daa94a16",]
+imagesize = [ "3620cc0cadba3f7475f9940d22431fc4d407269f1be59ec9b8edcca26440cf18", "5b326e4678b6925158ccc66a9fa3122b6106d7c876ee32d7de6ce59385b96315",]
+jinja2 = [ "74c935a1b8bb9a3947c50a54766a969d4846290e1e788ea44c1392163723c3bd", "f84be1bb0040caca4cea721fcbbbbd61f9be9464ca236387158b0feea01914a4",]
+keyring = [ "fd597e72df7240ec5a4215c50957e41c3d4bd321d97bf163f4a8e75ca287d77b", "4498eaa2e32fc69a8b36749116b670c379d36a1a9ad4ab107df1e19c8a120ffe",]
+markupsafe = [ "a6be69091dac236ea9c6bc7d012beab42010fa914c459791d627dad4910eb665",]
+packaging = [ "e9215d2d2535d3ae866c3d6efc77d5b24a0192cce0ff20e42896cc0664f889c0", "f019b770dd64e585a99714f1fd5e01c7a8f11b45635aa953fd41c689a657375b",]
+pycparser = [ "99a8ca03e29851d96616ad0404b4aad7d9ee16f25c9f9708a11faf2810f7b226",]
+pygments = [ "78f3f434bcc5d6ee09020f92ba487f95ba50f1e3ef83ae96b9d5ffa1bab25c5d", "dbae1046def0efb574852fab9e90209b23f556367b5a320c0bcb871c77c3e8cc",]
+pyparsing = [ "fee43f17a9c4087e7ed1605bd6df994c6173c1e977d7ade7b651292fab2bd010", "0832bcf47acd283788593e7a0f542407bd9550a55a8a8435214a1960e04bcb04", "9e8143a3e15c13713506886badd96ca4b579a87fbdf49e550dbfc057d6cb218e", "281683241b25fe9b80ec9d66017485f6deff1af5cde372469134b56ca8447a07", "b8b3117ed9bdf45e14dcc89345ce638ec7e0e29b2b579fa1ecf32ce45ebac8a5", "8f1e18d3fd36c6795bb7e02a39fd05c611ffc2596c1e0d995d34d67630426c18", "e4d45427c6e20a59bf4f88c639dcc03ce30d193112047f94012102f235853a58",]
+pytoml = [ "459cb4b9ced919cefd4d4587498b3379c37924be7aa9ee104e49337a0174ab79",]
+pytz = [ "65ae0c8101309c45772196b21b74c46b2e5d11b6275c45d251b150d5da334555", "c06425302f2cf668f1bba7a0a03f3c1d34d4ebeef2c72003da308b3947c7f749",]
+pywin32-ctypes = [ "4820b830f42e6889d34142bcd07b3896018c3620d8c31f5e13b72caf1f4d1d0f",]
+requests = [ "421cfc8d9dde7d6aff68196420afd86b88c65d77d8da9cf83f4ecad785d7b9d6", "cc408268d0e21589bcc2b2c248e42932b8c4d112f499c12c92e99e2178a6134c",]
+requests-download = [ "994d9d332befae6616f562769bab163f08d6404dc7e28fb7bfed4a0a43a754ad", "92d895a6ca51ea51aa42bab864bddaee31b5601c7e7e1ade4c27b0eb6695d846",]
+secretstorage = [ "3af65c87765323e6f64c83575b05393f9e003431959c9395d1791d51497f29b6",]
+setuptools = [ "8fca9275c89964f13da985c3656cb00ba029d7f3916b37990927ffdf264e7926", "f7cddbb5f5c640311eb00eab6e849f7701fa70bf6a183fc8a2c33dd1d1672fb2",]
+six = [ "832dc0e10feb1aa2c68dcc57dbb658f1c7e65b9b61af69048abc87a2db00a0eb", "70e8a77beed4562e7f14fe23a786b54f6296e34344c23bc42f07b15018ff98e9",]
+snowballstemmer = [ "9f3bcd3c401c3e862ec0ebe6d2c069ebc012ce142cce209c098ccb5b09136e89", "919f26a68b2c17a7634da993d91339e288964f93c274f1343e3bbbe2096e1128",]
+sphinx = [ "85f7e32c8ef07f4ba5aeca728e0f7717bef0789fba8458b8d9c5c294cad134f3", "d45480a229edf70d84ca9fae3784162b1bc75ee47e480ffe04a4b7f21a95d76d",]
+sphinxcontrib-websupport = [ "68ca7ff70785cbe1e7bccc71a48b5b6d965d79ca50629606c7861a21b206d9dd", "9de47f375baf1ea07cdb3436ff39d7a9c76042c10a769c52353ec46e4e8fc3b9",]
+typing = [ "b2c689d54e1144bbcfd191b0832980a21c2dbcf7b5ff7a66248a60c90e951eb8", "3a887b021a77b292e151afb75323dea88a7bc1b3dfa92176cff8e44c8b68bddf", "d400a9344254803a2368533e4533a4200d21eb7b6b729c173bc38201a74db3f2",]
+urllib3 = [ "b5725a0bd4ba422ab0e66e89e030c806576753ea3ee08554382c14e685d117b5", "a68ac5e15e76e7e5dd2b8f94007233e01effe3e50e8daddf69acfd81cb686baf",]
+zipfile36 = [ "f7e48adf627f75cd74cdb50e7d850623b465f4cf5de913809196e8f3aa57dc4b", "a78a8dddf4fa114f7fe73df76ffcce7538e23433b7a6a96c1c904023f122aead",]

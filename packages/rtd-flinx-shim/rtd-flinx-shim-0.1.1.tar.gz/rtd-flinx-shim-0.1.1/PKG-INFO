@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: rtd-flinx-shim
+Version: 0.1.1
+Summary: Trick Read the Docs into using Flinx.
+Home-page: https://github.com/osteele/rtd-flinx-shim
+Author: Oliver Steele
+Author-email: steele@osteele.com
