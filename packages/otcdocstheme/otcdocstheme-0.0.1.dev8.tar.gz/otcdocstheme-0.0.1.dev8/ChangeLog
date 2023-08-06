@@ -1,0 +1,11 @@
+CHANGES
+=======
+
+* add fonts through bindep
+* try enabling zuul checks
+* fix scaling of telekom logo in PDF
+* modify pdf template
+* remove community link to prevent mapping errors
+* Read telekom logo from techblog
+* initial push
+* Initial commit
