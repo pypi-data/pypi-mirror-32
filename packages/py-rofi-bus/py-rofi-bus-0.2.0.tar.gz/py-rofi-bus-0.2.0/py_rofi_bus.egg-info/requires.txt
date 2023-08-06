@@ -1,0 +1,5 @@
+pytest-runner
+PyGObject
+pydbus
+xcffib
+xpybutil
