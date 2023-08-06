@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: ratlog
+Version: 0.1.1
+Summary: :rat: Ratlog Python library - Application Logging for Rats, Humans and Machines
+Home-page: https://github.com/alxwrd/ratlog.py
+Author: Alex Ward
+Author-email: alxwrd@googlemail.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/alxwrd/ratlog.py
+Project-URL: Bug Reports, https://github.com/alxwrd/ratlog.py/issues
+Keywords: logging logger logs logging-library ratlog rats python-logger python-logging
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, <4
+Description-Content-Type: text/markdown
+
+# :rat: Ratlog.py
+
+_Application Logging for Rats, Humans and Machines_
+
+[![Build Status](https://travis-ci.org/alxwrd/ratlog.py.svg?branch=master)](https://travis-ci.org/alxwrd/ratlog.py)
+
+> **Disclaimer:**
+_The [Ratlog specification](https://github.com/ratlog/ratlog.github.io) is
+still alpha status and might be subject to breaking changes. Beware,
+because of that, this API and format might change significantly. We will
+try our best to tag a stable release as soon as possible.
+[Leave feedback](https://github.com/alxwrd/ratlog.py/issues) and help us
+get there faster!_
+
+```python
+>>> import ratlog
+
+>>> log = ratlog.Log()
+
+>>> log("hello world")
+hello world
+
+# Add fields
+>>> log("counting", {"count": 1})
+counting | count: 1
+
+# Add fields and tag
+>>> log("counting", {"count": -1}, "negative")
+[negative] counting | count: -1
+
+# Create another logger bound to a tag
+>>> warn = ratlog.Log("warning")
+>>> warn("disk space low")
+[warning] disk space low
+
+# Adding more tags
+>>> crit = ratlog.Log("warning", "critical")
+>>> crit("shutting down all servers")
+[warning|critical] shutting down all servers
+```
+
+
