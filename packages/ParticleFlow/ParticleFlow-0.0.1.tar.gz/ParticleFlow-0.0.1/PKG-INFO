@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ParticleFlow
+Version: 0.0.1
+Summary: Particle simulations with tensorflow
+Home-page: https://gitlab.com/IPMsim/ParticleFlow
+Author: Dominik Vilsmeier
+Author-email: dominik.vilsmeier1123@gmail.com
+License: GPL-3.0
+Description: UNKNOWN
+Keywords: simulation,framework
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
