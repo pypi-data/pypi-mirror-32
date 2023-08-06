@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: nameko-cachetools
+Version: 0.1.0
+Summary: A few tools to cache interactions between your nameko services, increasing resiliency and performance at the expense of consistency, when it makes sense.
+Home-page: https://github.com/santiycr/nameko-cachetools
+Author: Santiago Suarez Ordonez
+Author-email: santiycr@gmail.com
+License: MIT
+Keywords: nameko-cachetools
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Dist: nameko (>=2.9.0)
+
+=============================
+Nameko Cache Tools
+=============================
+
+.. image:: https://badge.fury.io/py/nameko-cachetools.png
+    :target: http://badge.fury.io/py/nameko-cachetools
+
+.. image:: https://travis-ci.org/santiycr/nameko-cachetools.png?branch=master
+    :target: https://travis-ci.org/santiycr/nameko-cachetools
+
+A few tools to cache interactions between your nameko services, increasing
+resiliency and performance at the expense of consistency, when it makes sense.
+
+
+Features
+--------
+
+* TODO
+
+
+
+
+Documentation
+-------------
+
+The full documentation is at http://nameko-cachetools.rtfd.org.
+
+
+
+History
+-------
+
+0.1.0 (2018-06-10)
+++++++++++++++++++
+
+* First release on PyPI.
+
+
