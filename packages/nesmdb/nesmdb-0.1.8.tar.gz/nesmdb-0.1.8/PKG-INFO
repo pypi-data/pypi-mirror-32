@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: nesmdb
+Version: 0.1.8
+Summary: The NES Music Database (NES-MDB). Use machine learning to compose music for the Nintendo Entertainment System!
+Home-page: https://github.com/chrisdonahue/nesmdb
+Author: Chris Donahue
+Author-email: cdonahue@ucsd.edu
+License: MIT
+Download-URL: https://github.com/chrisdonahue/nesmdb/releases
+Description: UNKNOWN
+Keywords: music nes mir midi
+Platform: UNKNOWN
+Requires-Python: >=2.7,<3.0

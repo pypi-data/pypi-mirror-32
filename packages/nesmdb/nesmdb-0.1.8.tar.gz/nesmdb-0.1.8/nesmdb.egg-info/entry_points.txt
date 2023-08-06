@@ -1,0 +1,3 @@
+[console_scripts]
+nesmdb_convert = nesmdb.convert:main
+
