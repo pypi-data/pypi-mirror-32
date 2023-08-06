@@ -1,0 +1,7 @@
+README.md
+setup.py
+tif_stats.py
+tif_stats.egg-info/PKG-INFO
+tif_stats.egg-info/SOURCES.txt
+tif_stats.egg-info/dependency_links.txt
+tif_stats.egg-info/top_level.txt
