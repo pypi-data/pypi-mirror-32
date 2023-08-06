@@ -1,0 +1,53 @@
+Metadata-Version: 1.1
+Name: untappd_crawler
+Version: 0.2
+Summary: A CLI client for exporting elasticsearch data to csv
+Home-page: https://github.com/therako/untappd_crawler
+Author: Arun Kumar Ramanathan
+Author-email: rako.aka.arun@gmail.com
+License: MIT License
+Description: Tool for crawling and exporting data data from Untappd public site
+        ==================================================================
+        
+        
+        Note
+        ----
+        
+        This is still early in the development and a bit rough around the edges.
+        Any bug reports, feature suggestions, etc are greatly appreciated. :)
+        
+        
+        Installation and usage
+        ----------------------
+        
+        **Installation**
+        Since this is a Python package available on PyPi you can install it like 
+        any other Python package.
+        
+        .. code-block:: shell
+        
+            # on modern systems with Python you can install with pip
+            $ pip install untappd_crawler
+            # on older systems you can install using easy_install
+            $ easy_install untappd_crawler
+        
+        **Usage**
+        The commands should be mostly self-documenting in how they are defined,
+        which is made available through the ``help`` command.
+        
+        .. code-block:: shell
+        
+            $ untappd_crawler
+            usage: untappd_crawler -o <output_file_path> [-u <username>] [-b <beer_ids_repeated>]
+        
+            arguments:
+              -h, --help            show this help message and exit
+              Rest are in the help
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
