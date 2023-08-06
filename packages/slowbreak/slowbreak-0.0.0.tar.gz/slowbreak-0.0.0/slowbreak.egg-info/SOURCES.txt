@@ -1,0 +1,7 @@
+setup.py
+slowbreak/__init__.py
+slowbreak/__version__.py
+slowbreak.egg-info/PKG-INFO
+slowbreak.egg-info/SOURCES.txt
+slowbreak.egg-info/dependency_links.txt
+slowbreak.egg-info/top_level.txt
