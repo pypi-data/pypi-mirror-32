@@ -1,0 +1,41 @@
+Metadata-Version: 1.1
+Name: pyngramgen
+Version: 0.0.2
+Summary: Generate ngram iterator
+Home-page: https://github.com/solopointer/pyngramgen
+Author: huyifeng
+Author-email: solopointer@qq.com
+License: MIT
+Description: Overview
+        ========
+        This lib generate a ngram iterator
+        
+        Usage
+        =====
+        ```
+        import pyngramgen
+        if __name__ == '__main__':
+            if len(sys.argv) != 2:
+                print "python %s n" % (sys.argv[0])
+                quit()
+            while True:
+                iput = raw_input()
+                obj = pyngramgen.PyNgramGen(int(sys.argv[1]), 'abcdefghijklmnopqrstuvwxyz')
+                for i in obj.generator(iput):
+                    print i
+        ```
+        
+        
+Keywords: ngram
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Utilities
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
