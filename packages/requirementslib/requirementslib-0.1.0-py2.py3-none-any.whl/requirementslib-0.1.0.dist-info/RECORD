@@ -1,0 +1,9 @@
+requirementslib/__init__.py,sha256=othGDf0dLdhScqrrLcC-HxWb8AVOLyrcV-jPv5uQprg,84
+requirementslib/_compat.py,sha256=ldrxpeMSRB_ugNUzcUVnMJkZ65xb0uDO7vy3tIsEr3Y,1962
+requirementslib/requirements.py,sha256=04ERMNMoISN2dAVciqSP_yBGjLksnIixqaV8XmsZzss,28816
+requirementslib/utils.py,sha256=Ytnom5gZd91GSQ45sZCLd7k0DnklsMHac79gkjXPX3M,4498
+requirementslib-0.1.0.dist-info/LICENSE.txt,sha256=HKRQs9QAYA1GdlrNBDaJSjwwQrTKSB2TpwcUoZmN_w4,1072
+requirementslib-0.1.0.dist-info/METADATA,sha256=FrJGF-YG0ayuPcXQT1MJCG3t_iM6e8Mi17EpnTH4rRQ,4437
+requirementslib-0.1.0.dist-info/RECORD,,
+requirementslib-0.1.0.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+requirementslib-0.1.0.dist-info/top_level.txt,sha256=62RzC-JqDN0Tka6aDiOwziXeW9gdtztzq2enS-Qu1yo,16
