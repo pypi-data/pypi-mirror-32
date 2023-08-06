@@ -1,0 +1,9 @@
+callgraph/__init__.py,sha256=3DSj6FVPQD-2WtaldEzIrIZ8o6tkbmhNlvYFrX4gUR8,303
+callgraph/decorator.py,sha256=ou9BgKajPArJ7q2nTgtsAb2vN6-LYaYMNBlXtzxjGiw,1664
+callgraph/extension.py,sha256=9OWjelAZZ7xKmoHOcmyUWv_ctc_WFWF7Edz7wDkaw78,4305
+callgraph/instrumentor.py,sha256=qo113f1m_zzlbErwz6VQLY7Jfzdzp24JeOwdQGLOF8E,882
+callgraph/recorder.py,sha256=S3S2gGKpApkq2lDstc-XzUL-QQdl_1h0NNHjuPrNoRk,3664
+callgraph-1.0.0.dist-info/LICENSE,sha256=opuFd6dq4Jo_4L1JJGICvWhiLJAoyyH-UXg7BpxlA-I,1080
+callgraph-1.0.0.dist-info/WHEEL,sha256=JJIJMe3YbUv4boSQQZ-gtLP1eGfirZe1M8ScYeRYZ1M,79
+callgraph-1.0.0.dist-info/METADATA,sha256=uMm6NgfOkG8lZN-ffIUWbICquKv9o0tx9sKcMJ69zmw,5220
+callgraph-1.0.0.dist-info/RECORD,,
