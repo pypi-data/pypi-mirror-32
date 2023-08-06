@@ -1,0 +1,10 @@
+apispec
+
+[dev]
+coverage
+pytest
+pyramid
+tox
+
+[lint]
+black
