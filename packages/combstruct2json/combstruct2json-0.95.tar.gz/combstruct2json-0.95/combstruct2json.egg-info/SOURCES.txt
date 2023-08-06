@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+combstruct2json.h
+lex.yy.c
+parser.tab.c
+parser.tab.h
+setup.cfg
+setup.py
+combstruct2json.egg-info/PKG-INFO
+combstruct2json.egg-info/SOURCES.txt
+combstruct2json.egg-info/dependency_links.txt
+combstruct2json.egg-info/top_level.txt
+src/absyn.c
+src/absyn.h
+src/node.c
+src/node.h
+src/pywrapper.c
