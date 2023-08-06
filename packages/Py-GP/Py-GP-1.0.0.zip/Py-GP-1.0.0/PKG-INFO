@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: Py-GP
+Version: 1.0.0
+Summary: Python for GlobalPlatform library
+Home-page: https://github.com/GPContributors/PyGP
+Author: Hugo Greneche
+Author-email: GPContributors@gmail.com
+License: LGPL
+Description: PyGP is a open source python **globalplatform** client library.
+Keywords: smartcard GlobalPlatform
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Operating System :: Microsoft :: Windows
