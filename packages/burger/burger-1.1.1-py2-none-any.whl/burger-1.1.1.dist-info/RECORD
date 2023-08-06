@@ -1,0 +1,9 @@
+burger/__init__.py,sha256=ZCO9dBEle8zP5-kutWstEpKZqY7EPakGqWGfMX6dvu4,5225
+burger/__pkginfo__.py,sha256=zi99zXnqAvIozO64qHFyd0XBmU1UCdYlLl4VSs28O4Q,838
+burger/buildutils.py,sha256=eLpNij8raeamlt6fj8GvFeMO6rZIc0HJLOkWzrxlYO4,21588
+burger/fileutils.py,sha256=55lU1Px6RB-OXp3JChiQfVFTsqjtHa2w8I7ZJXLTdq4,12378
+burger/strutils.py,sha256=h8pbxQ8h3twxdDnCcBTACmwIDAANd-OirGeCbFTQvrI,8849
+burger-1.1.1.dist-info/METADATA,sha256=qmhDE3GiRv1iMg5F6c_K_P98Arqv501EAXTgGB07_kU,2833
+burger-1.1.1.dist-info/RECORD,,
+burger-1.1.1.dist-info/WHEEL,sha256=oGGm_O4g839AJOrCbXq_ZxGrWdwSrjduga8Rn8cINEs,97
+burger-1.1.1.dist-info/top_level.txt,sha256=4fZ_wT2z331Ko3hlsPanwgvlYojYgZI9BW0Vp5O2Tss,7
