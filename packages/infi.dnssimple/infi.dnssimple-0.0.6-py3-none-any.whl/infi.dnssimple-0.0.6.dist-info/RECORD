@@ -1,0 +1,13 @@
+infi.dnssimple-0.0.6-py3.6-nspkg.pth,sha256=Puo8Dhy7BSgYsqSaXhYQWKH_Zr23iy05JZ2pxHOAtNc,529
+infi/dnssimple/__init__.py,sha256=q3JNmHn0CMPtEqkMR40lkjKQzuWUtT39xIFUYJ-MKIE,56
+infi/dnssimple/__version__.py,sha256=ncfr7PloEgTOfY_w5LHitlHbmu2ZABfzKJWjG6BzITo,583
+infi/dnssimple/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+infi/dnssimple/scripts/ddns.py,sha256=WrI3h_9pHc4VE4HwP3PeVp2UILE3Jjo1dmoHNucdRxo,4385
+infi.dnssimple-0.0.6.dist-info/DESCRIPTION.rst,sha256=f-4p0tboaZq5PJWS8Oa9Rx8giT-ql3MWX1XjyhX8Q_g,18
+infi.dnssimple-0.0.6.dist-info/METADATA,sha256=1i2GPmC_7KmlqqkCAOUVP6_Y_EUeXQewkGHLHYMzuxQ,689
+infi.dnssimple-0.0.6.dist-info/RECORD,,
+infi.dnssimple-0.0.6.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+infi.dnssimple-0.0.6.dist-info/entry_points.txt,sha256=K1PKEjNBuYRYKMIzqe07wpBG9RC5044w2qe3oZXNLbU,75
+infi.dnssimple-0.0.6.dist-info/metadata.json,sha256=keK7aFZQr-clszOfIKQIaZm43wvXQ_hWHoo_eKFAw_Q,1023
+infi.dnssimple-0.0.6.dist-info/namespace_packages.txt,sha256=dXIyYv_pNwpGguxzqhrAAmEyFWegZ_kDeqe_z8cMR5g,5
+infi.dnssimple-0.0.6.dist-info/top_level.txt,sha256=dXIyYv_pNwpGguxzqhrAAmEyFWegZ_kDeqe_z8cMR5g,5
