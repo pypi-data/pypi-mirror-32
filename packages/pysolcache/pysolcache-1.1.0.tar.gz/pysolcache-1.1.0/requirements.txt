@@ -1,0 +1,17 @@
+# PYPI :
+# python setup.py register
+# python setup.py sdist upload
+
+# gevent stack
+greenlet
+gevent == 1.2.2
+
+# pysol
+pysolbase
+pysolmeters
+
+# redis
+redis
+
+# Json
+ujson
