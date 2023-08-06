@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+macondo/__init__.py
+macondo/manage.py
+macondo.egg-info/PKG-INFO
+macondo.egg-info/SOURCES.txt
+macondo.egg-info/dependency_links.txt
+macondo.egg-info/top_level.txt

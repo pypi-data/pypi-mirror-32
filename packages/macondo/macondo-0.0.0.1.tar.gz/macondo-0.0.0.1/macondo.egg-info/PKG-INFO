@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: macondo
+Version: 0.0.0.1
+Summary: A CMS
+Home-page: https://github.com/MacondoSystems/macondo/
+Author: Andres Lujan
+Author-email: info@andresroot.co
+License: UNKNOWN
+Description: # macondo
+        Privacy Oriented Publishing Platform
+        
+Keywords: cms,django,privacy
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
