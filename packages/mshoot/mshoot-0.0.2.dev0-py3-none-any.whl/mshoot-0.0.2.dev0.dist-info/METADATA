@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: mshoot
+Version: 0.0.2.dev0
+Summary: Multiple shooting dynamic optimization
+Home-page: https://github.com/sdu-cfei/mshoot
+Author: Krzysztof Arendt
+Author-email: krzysztof.arendt@gmail.com
+License: BSD
+Keywords: multiple shooting dynamic optimization
+Platform: Windows
+Platform: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: BSD License
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: dask
+
+Nothing here yet...
+
+
