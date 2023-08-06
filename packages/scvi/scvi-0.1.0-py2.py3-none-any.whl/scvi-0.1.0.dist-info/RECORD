@@ -1,0 +1,8 @@
+scvi/__init__.py,sha256=ROVT5TeKVvTgngHGZeUKykztgEex3p79lp9VYKJFBB4,154
+scvi/benchmark.py,sha256=nuqHXdtN_njcC9VkkyF2SrnPkRZa7-vVxbLozI7dC2k,7379
+scvi/train.py,sha256=y2U39joZ0NxX47FmZJuXAbBgFgR_NgsNFmIcWcV89KQ,5929
+scvi/utils.py,sha256=zqSFi7xZa6z0sc9IZG-R6YuShXZYFgjbctWs7aVHXcA,658
+scvi-0.1.0.dist-info/METADATA,sha256=M5xQTL6ECtUKAvmlg2z281yX3w1Qf_XKipjerJUYCLw,2823
+scvi-0.1.0.dist-info/RECORD,,
+scvi-0.1.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+scvi-0.1.0.dist-info/top_level.txt,sha256=tAgmwokZvySUlNrhMfCJd8RLIK_t6DUbLmGgbJ0Gnlo,5
