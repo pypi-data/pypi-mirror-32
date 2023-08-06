@@ -1,0 +1,12 @@
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+MyNQL/MyNQL.py
+MyNQL/__init__.py
+MyNQL/utils.py
+MyNQL.egg-info/PKG-INFO
+MyNQL.egg-info/SOURCES.txt
+MyNQL.egg-info/dependency_links.txt
+MyNQL.egg-info/requires.txt
+MyNQL.egg-info/top_level.txt
