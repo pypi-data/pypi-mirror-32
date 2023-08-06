@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: atnlp
+Version: 0.0.7
+Summary: A tool for natural language processing
+Home-page: https://github.com/wedavey/atnlp
+Author: Will Davey
+Author-email: wedavey@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.5
+Provides-Extra: extras
+Provides-Extra: docs
+Provides-Extra: book
+Provides-Extra: xgb
+Provides-Extra: deep
+Provides-Extra: dev
