@@ -1,0 +1,8 @@
+NEXRAD_quickplot-0.6.1.dist-info/DESCRIPTION.rst,sha256=_FLSf0yuHr6g7SmzxBjv6UtxS8aMfsNUR9OPD-D6xPk,2650
+NEXRAD_quickplot-0.6.1.dist-info/METADATA,sha256=Kv0WcSP_swGt_mGcPbD9RuiBiDMibLu5OZliUrj3lnA,3821
+NEXRAD_quickplot-0.6.1.dist-info/RECORD,,
+NEXRAD_quickplot-0.6.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+NEXRAD_quickplot-0.6.1.dist-info/metadata.json,sha256=SG2Dvwk25k6yntQfB63_xfTfGyK56nprvIN16FVlYKc,1151
+NEXRAD_quickplot-0.6.1.dist-info/top_level.txt,sha256=FYT9yS-I1vJD1aFfqmu5NZKY3Pf96ZK6SBkqhsP0gek,17
+nexrad_quickplot/__init__.py,sha256=Mlplf8crpYvxZutwE1mz73PEbhRx_iU0SuJF7j708Sc,4470
+nexrad_quickplot/plots.py,sha256=mH_ydRijVzdujazUSHwcf4tw30QHuUvPGFi_E9jb28Y,3555
