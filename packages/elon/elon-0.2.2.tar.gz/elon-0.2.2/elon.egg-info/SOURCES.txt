@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+elon/__init__.py
+elon/base.py
+elon/errors.py
+elon/metadata.py
+elon/serialization.py
+elon/status.py
+elon/tracker.py
+elon/util.py
+elon/worker.py
+elon.egg-info/PKG-INFO
+elon.egg-info/SOURCES.txt
+elon.egg-info/dependency_links.txt
+elon.egg-info/requires.txt
+elon.egg-info/top_level.txt
