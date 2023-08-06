@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: sampyl-mcmc
+Version: 0.3
+Summary: MCMC Samplers in Python & Numpy
+Home-page: http://matatat.org/sampyl/
+Author: Mat Leonard
+Author-email: leonard.mat@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Operating System :: OS Independent
