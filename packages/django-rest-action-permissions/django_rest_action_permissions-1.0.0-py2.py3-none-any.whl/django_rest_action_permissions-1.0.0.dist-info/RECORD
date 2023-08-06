@@ -1,0 +1,10 @@
+django_rest_action_permissions-1.0.0.dist-info/METADATA,sha256=l5fFRue_w0za34UPMg0iL8bGnTTdI_rMpdgs2cyv6kw,4575
+django_rest_action_permissions-1.0.0.dist-info/RECORD,,
+django_rest_action_permissions-1.0.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+django_rest_action_permissions-1.0.0.dist-info/top_level.txt,sha256=73qr529A0-KNW4WQvyevFO5bpRVfekXcLX2N6phcPWg,24
+rest_action_permissions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rest_action_permissions/__version__.py,sha256=AX1KhPNSFKjD-nf6D8RgDDPsYhnSrqDh-Pmwo_Aj2vg,316
+rest_action_permissions/base.py,sha256=nYSjozy0H7rP4rq2cMme75er9xTpmaFhbt4R8FCKo2A,1665
+rest_action_permissions/components.py,sha256=1bzLSXgKNafJyk4dqSeV5VDU91lF9f49pOjiexXyC3s,1954
+rest_action_permissions/mixins.py,sha256=MjGMiSfcg7Sxa4y308Fy4JLTW-Nn71iYYqFSsyCgBUY,318
+rest_action_permissions/permissions.py,sha256=yQIWJFasYf7kIQoGgEsOALqCPPU-U_NuPs3s7ZlN06s,3807
