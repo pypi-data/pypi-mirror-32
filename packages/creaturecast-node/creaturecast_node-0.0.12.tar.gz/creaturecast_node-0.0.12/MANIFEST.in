@@ -1,0 +1,2 @@
+include creaturecast_node/data/rig_settings.json
+include creaturecast_node/data/handle_shapes.json

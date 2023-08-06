@@ -1,0 +1,15 @@
+MANIFEST.in
+setup.cfg
+setup.py
+creaturecast_node/__init__.py
+creaturecast_node/node.py
+creaturecast_node/node_factory.py
+creaturecast_node/tests.py
+creaturecast_node.egg-info/PKG-INFO
+creaturecast_node.egg-info/SOURCES.txt
+creaturecast_node.egg-info/dependency_links.txt
+creaturecast_node.egg-info/requires.txt
+creaturecast_node.egg-info/top_level.txt
+creaturecast_node/data/__init__.py
+creaturecast_node/data/handle_shapes.json
+creaturecast_node/data/rig_settings.json
