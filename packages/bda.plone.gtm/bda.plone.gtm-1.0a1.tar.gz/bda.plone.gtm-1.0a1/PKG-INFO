@@ -1,0 +1,124 @@
+Metadata-Version: 1.1
+Name: bda.plone.gtm
+Version: 1.0a1
+Summary: Google Tag Manager Intergation
+Home-page: UNKNOWN
+Author: BlueDynamics Alliance
+Author-email: dev@bluedynamics.com
+License: GNU General Public Licence
+Description-Content-Type: UNKNOWN
+Description: =============
+        bda.plone.gtm
+        =============
+        
+        Google Tag Manager Integration.
+        
+        
+        Installation and Configuration
+        ==============================
+        
+        - Depend your installation to ``bda.plone.gtm``.
+        
+        - Install ``bda.plone.gtm`` via Plone Add-ons control panel.
+        
+        - Naviagte to "Site Setup" -> "Add-on Configuration" -> "Google Tag Manager Settings".
+        
+        - Set "Enabled" checkbox and enter "Container ID". Optionally edit "Layer Name"
+          to your needs. This integration package handles the layer name properly.
+          Anyway you need to be aware that any 3rd party JS using this package may
+          depend hardcoded to the default layer name, so be careful with changing this
+          setting.
+        
+        
+        Providing Data
+        ==============
+        
+        ``bda.plone.gtm`` by default tracks nothing. To track something useful,
+        ``bda.plone.gtm.interfaces.IGTMData`` adapters needs to be provided for the
+        relevant context.
+        
+        The adapter implementation looks like:
+        
+        .. code-block:: python
+        
+            from a.package.interfaces import IMyContextInterface
+            from bda.plone.gtm.interfaces import IGTMData
+            from zope.component import adapter
+            from zope.interface import implementer
+        
+            @implementer(IGTMData)
+            @adapter(IMyContextInterface)
+            class MyContextGTMData(object):
+        
+                def __init__(self, context):
+                    self.context = context
+        
+                @property
+                def data(self):
+                    # data is a dict or a list of dicts.
+                    return {
+                        'pageTitle': 'Home',
+                        'visitorType': 'high-value'
+                    }
+        
+        Register the data adapter:
+        
+        .. code-block:: xml
+        
+            <configure xmlns="http://namespaces.zope.org/zope">
+        
+              <!-- GTM data adapter -->
+              <adapter factory=".data.MyContextGTMData" />
+        
+            </configure>
+        
+        
+        Contributors
+        ============
+        
+        - Robert Niederreiter (Author)
+        Changelog
+        =========
+        
+        1.0a1 (2018-06-06)
+        ------------------
+        
+        - Initial
+        
+        License
+        =======
+        
+        Copyright (c) 2018, BlueDynamics Alliance, Austria
+        All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        * Redistributions of source code must retain the above copyright notice, this 
+          list of conditions and the following disclaimer.
+        * Redistributions in binary form must reproduce the above copyright notice, this 
+          list of conditions and the following disclaimer in the documentation and/or 
+          other materials provided with the distribution.
+        * Neither the name of the BlueDynamics Alliance nor the names of its 
+          contributors may be used to endorse or promote products derived from this 
+          software without specific prior written permission.
+              
+        THIS SOFTWARE IS PROVIDED BY BlueDynamics Alliance ``AS IS`` AND ANY
+        EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+        WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL BlueDynamics Alliance BE LIABLE FOR ANY
+        DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+        (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+        LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+        ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+        (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+        SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Framework :: Plone :: 4.3
+Classifier: Framework :: Plone :: 5.1

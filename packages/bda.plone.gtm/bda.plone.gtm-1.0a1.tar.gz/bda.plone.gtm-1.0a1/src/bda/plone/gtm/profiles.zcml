@@ -1,0 +1,35 @@
+<configure xmlns="http://namespaces.zope.org/zope"
+           xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+           xmlns:zcml="http://namespaces.zope.org/zcml"
+           i18n_domain="bda.plone.gtm">
+
+  <include package="Products.GenericSetup" file="meta.zcml" />
+
+  <genericsetup:registerProfile
+    zcml:condition="not-have plone-5"
+    name="default"
+    title="bda.plone.gtm"
+    directory="profiles/plone4"
+    description="Google Tag Manager Integration"
+    provides="Products.GenericSetup.interfaces.EXTENSION" />
+
+  <genericsetup:registerProfile
+    zcml:condition="have plone-5"
+    name="default"
+    title="bda.plone.gtm"
+    directory="profiles/plone5"
+    description="Google Tag Manager Integration"
+    provides="Products.GenericSetup.interfaces.EXTENSION" />
+
+  <genericsetup:registerProfile
+    name="install-base"
+    title="bda.plone.gtm base"
+    directory="profiles/base"
+    description="Google Tag Manager Integration"
+    provides="Products.GenericSetup.interfaces.EXTENSION" />
+
+  <!-- Hide profiles/products from Quick Installer -->
+  <utility factory=".setuphandlers.HiddenProfiles" name="bda.plone.gtm" />
+  <utility factory=".setuphandlers.HiddenProducts" name="bda.plone.gtm" />
+
+</configure>
