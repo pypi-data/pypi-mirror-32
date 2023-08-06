@@ -1,0 +1,1 @@
+include ndicom_region_growing/extension/build/Darwin/*.dylib

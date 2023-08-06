@@ -1,0 +1,11 @@
+MANIFEST.in
+README.txt
+setup.py
+ndicom_region_growing/__init__.py
+ndicom_region_growing/plugin.py
+ndicom_region_growing.egg-info/PKG-INFO
+ndicom_region_growing.egg-info/SOURCES.txt
+ndicom_region_growing.egg-info/dependency_links.txt
+ndicom_region_growing.egg-info/requires.txt
+ndicom_region_growing.egg-info/top_level.txt
+ndicom_region_growing/extension/build/Darwin/libc_region_growing.dylib
