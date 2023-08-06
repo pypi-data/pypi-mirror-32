@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: GeNESiS-SDK
+Version: 0.0.0
+Summary: UNKNOWN
+Home-page: https://www.bsc.es/
+Author: juan.rodriguez
+Author-email: juan.rodriguez@bsc.es
+License: To be defined
+Download-URL: http://GeNESiS.bsc.es
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Keywords: HPC, Geophysics
+Platform: Linux
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: Free for non-commercial use
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Operating System :: POSIX :: Linux
