@@ -1,0 +1,9 @@
+README.md
+setup.py
+stn/__init__.py
+stn/transformer.py
+stn.egg-info/PKG-INFO
+stn.egg-info/SOURCES.txt
+stn.egg-info/dependency_links.txt
+stn.egg-info/requires.txt
+stn.egg-info/top_level.txt
