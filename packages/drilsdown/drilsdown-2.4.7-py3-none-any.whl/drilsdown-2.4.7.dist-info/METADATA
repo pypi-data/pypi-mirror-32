@@ -1,0 +1,32 @@
+Metadata-Version: 2.0
+Name: drilsdown
+Version: 2.4.7
+Summary: A collection of tools for jupyter notebooks
+Home-page: https://github.com/Unidata/drilsdown
+Author: Drilsdown team
+Author-email: drilsdown@unidata.ucar.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: future
+Requires-Dist: six
+Requires-Dist: ipython-IDV (>=2.4.7')
+Requires-Dist: jython-kernel
+Requires-Dist: ramadda-publish
+Requires-Dist: idv-teleport
+Requires-Dist: ipykernel
+Requires-Dist: jupyter-client
+Requires-Dist: ipywidgets (>=7.1.0rc)
+Requires-Dist: pyviz
+Requires-Dist: xarray
+Requires-Dist: holoviews
+Requires-Dist: cartopy
+Requires-Dist: geoviews
+Requires-Dist: MetPy
+
+UNKNOWN
+
+
