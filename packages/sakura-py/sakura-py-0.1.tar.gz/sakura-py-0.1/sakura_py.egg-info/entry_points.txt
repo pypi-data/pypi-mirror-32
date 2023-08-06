@@ -1,0 +1,4 @@
+[console_scripts]
+sakura-daemon = sakura.daemon.daemon:run
+sakura-hub = sakura.hub.hub:run
+

@@ -1,0 +1,51 @@
+<!--LIG, March 2017-->
+
+<div style="display:none;" id="idDivDatastmpDataMeta" class="classMainDiv">
+
+    <br>
+
+    <!--Information-->
+    <div class="panel panel-default">
+        <div class="panel-heading"><h4 style="margin-bottom: 0px; margin-top: 0px;">General</h4></div>
+        <div class="panel-body" id="web_interface_database_metadata1"></div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 style="margin-bottom: 0px; margin-top: 0px; cursor: pointer;" data-toggle="collapse" href="#web_interface_database_collapse">
+                Access
+            </h4>
+        </div>
+        <div class="panel-body collapse" id="web_interface_database_collapse">
+
+            <div class="row" id="web_interface_database_metadata2">
+            </div>
+
+            <div class="panel panel-default" style="margin-top: 10px;">
+                  <div class="panel-heading"  style="padding-top: 3px; padding-bottom: 3px;">
+                      <h4 style="margin-top: 0px; margin-bottom: 0px;">Collaborators</h4>
+                  </div>
+                  <div class="panel-body" id="web_interface_database_collaborators">
+                      <table width=100%>
+                          <!--<thead>
+                              <tr>
+                                  <th colspan=3> collaborators</th>
+                          </thead>-->
+                          <tbody id="web_interface_database_collaborators_table_body">
+                          </tbody>
+                      </table>
+                      <div class="input-group input-group-sm" style="margin-top: 10px;">
+                          <select data-size="5" id="web_interface_adding_collaborators_select" multiple class="selectpicker form-control" data-live-search="true" title="Please select a login ...">
+                          </select>
+                          <span class="input-group-addon" style="cursor: pointer;" onclick="cleaning_collaborators();"><span class="glyphicon glyphicon-trash"></span></span>
+                          <span class="input-group-addon" style="cursor: pointer;" onclick="adding_collaborators();">Add Collaborator</span>
+                      </div>
+                  </div>
+            </div>
+        </div>
+
+    </div>
+
+    <textarea id='web_interface_database_markdownarea'>
+    </textarea>
+</div>
