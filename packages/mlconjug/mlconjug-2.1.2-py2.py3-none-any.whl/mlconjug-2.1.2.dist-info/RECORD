@@ -1,0 +1,9 @@
+mlconjug/PyVerbiste.py,sha256=k-Es3mCBWypyl5XpY9y59sLvIkbK2ZSpDpEB-WfJmAQ,21515
+mlconjug/__init__.py,sha256=eI3xAHN-ROsZ5MRY51AoHlBPCuNPQaCn17nXa33mB8I,1170
+mlconjug/cli.py,sha256=1kB3YjgqOsq80KBACtOKvKSj1GPKVwUPulE5EYuwfeE,607
+mlconjug/mlconjug.py,sha256=BZnwiBysndPhhjLo4VDVgPL8mQ4--l6Y2Q-29MbIknA,10358
+mlconjug-2.1.2.dist-info/METADATA,sha256=qqd8dvnfn_cYpiukxJbDVWSOMmWveBG-UteySH6Xoso,6311
+mlconjug-2.1.2.dist-info/RECORD,,
+mlconjug-2.1.2.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+mlconjug-2.1.2.dist-info/entry_points.txt,sha256=1qX_1doeXizYMzG6rQVpllQRfqV8bNqLXJ2nqFTItpU,48
+mlconjug-2.1.2.dist-info/top_level.txt,sha256=LAsOq7OwyHU5W3gVplNVmVgYaTgaJEO6XP2DiAHk3i0,9
