@@ -1,0 +1,5 @@
+[console_scripts]
+hl = hl.hl_cli:main_list
+hl-config = hl.hl_cli:main_config
+hl-ssh = hl.hl_cli:main_ssh
+
