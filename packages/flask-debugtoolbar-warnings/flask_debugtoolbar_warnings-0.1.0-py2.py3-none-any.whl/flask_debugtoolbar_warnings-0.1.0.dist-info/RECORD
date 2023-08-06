@@ -1,0 +1,8 @@
+flask_debugtoolbar_warnings/__init__.py,sha256=zTlSVS4SVukMOgAMdXwaT45D67IGjjwKPrdrX-lTAo0,291
+flask_debugtoolbar_warnings/panel.py,sha256=aqgyURFsEY52vxvtEHfGYK6xjQgxpSDoHX90y_HreMM,1352
+flask_debugtoolbar_warnings/warnings_manager.py,sha256=g3mV-VCguVbm25BP2eOBERhl40vR9eioqR9XNpw9CBo,1071
+flask_debugtoolbar_warnings/templates/warnings-panel.html,sha256=utvht4sj3pTEZjBOVEggS7Fx6p4lJ2iN2clBRYeOM2k,682
+flask_debugtoolbar_warnings-0.1.0.dist-info/METADATA,sha256=PZ2r_0Nd6BnAeRGC68DGavKquA0LmPXcaajD1nXWe4w,3466
+flask_debugtoolbar_warnings-0.1.0.dist-info/RECORD,,
+flask_debugtoolbar_warnings-0.1.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+flask_debugtoolbar_warnings-0.1.0.dist-info/top_level.txt,sha256=ltOkS5arDQkQcDr0f2nr5oC1EMKJAAh_69qFepbanjo,28
