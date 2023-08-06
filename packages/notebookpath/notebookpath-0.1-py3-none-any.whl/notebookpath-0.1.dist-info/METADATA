@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: notebookpath
+Version: 0.1
+Summary: A script to find the path to the notebook
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: json
+Requires-Dist: re
+Requires-Dist: ipykernel
+Requires-Dist: requests
+
+UNKNOWN
+
+
