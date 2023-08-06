@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+config.example.json
+i3_workspace_names.py
+requirements.txt
+setup.py
+i3_workspace_names.egg-info/PKG-INFO
+i3_workspace_names.egg-info/SOURCES.txt
+i3_workspace_names.egg-info/dependency_links.txt
+i3_workspace_names.egg-info/entry_points.txt
+i3_workspace_names.egg-info/not-zip-safe
+i3_workspace_names.egg-info/requires.txt
+i3_workspace_names.egg-info/top_level.txt

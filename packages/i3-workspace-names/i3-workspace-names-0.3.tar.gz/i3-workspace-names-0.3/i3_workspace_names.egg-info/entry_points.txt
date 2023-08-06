@@ -1,0 +1,3 @@
+[console_scripts]
+i3-workspace-names = i3_workspace_names:main
+
