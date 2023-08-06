@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+Falcon_OpenApi.egg-info/PKG-INFO
+Falcon_OpenApi.egg-info/SOURCES.txt
+Falcon_OpenApi.egg-info/dependency_links.txt
+Falcon_OpenApi.egg-info/requires.txt
+Falcon_OpenApi.egg-info/top_level.txt
+falcon_openapi/__init__.py
+falcon_openapi/router.py
+falcon_openapi.egg-info/PKG-INFO
+falcon_openapi.egg-info/SOURCES.txt
+falcon_openapi.egg-info/dependency_links.txt
+falcon_openapi.egg-info/requires.txt
+falcon_openapi.egg-info/top_level.txt
