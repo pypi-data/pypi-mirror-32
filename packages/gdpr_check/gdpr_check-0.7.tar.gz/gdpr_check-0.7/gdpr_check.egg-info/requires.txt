@@ -1,0 +1,4 @@
+maxminddb>=1.4.0
+maxminddb-geolite2>=2018.308
+requests>=2.18.4
+geoip2>=2.8.0
