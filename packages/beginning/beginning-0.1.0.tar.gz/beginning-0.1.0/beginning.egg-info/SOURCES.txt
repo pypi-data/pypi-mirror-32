@@ -1,0 +1,8 @@
+setup.py
+beginning/__init__.py
+beginning/decorator.py
+beginning/operator.py
+beginning.egg-info/PKG-INFO
+beginning.egg-info/SOURCES.txt
+beginning.egg-info/dependency_links.txt
+beginning.egg-info/top_level.txt
