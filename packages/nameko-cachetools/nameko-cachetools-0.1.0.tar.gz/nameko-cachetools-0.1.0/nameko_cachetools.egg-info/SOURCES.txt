@@ -1,0 +1,17 @@
+AUTHORS.rst
+CONTRIBUTING.rst
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+nameko_cachetools/__init__.py
+nameko_cachetools/nameko_cachetools.py
+nameko_cachetools.egg-info/PKG-INFO
+nameko_cachetools.egg-info/SOURCES.txt
+nameko_cachetools.egg-info/dependency_links.txt
+nameko_cachetools.egg-info/not-zip-safe
+nameko_cachetools.egg-info/requires.txt
+nameko_cachetools.egg-info/top_level.txt
+test/test_nameko_cachetools.py
