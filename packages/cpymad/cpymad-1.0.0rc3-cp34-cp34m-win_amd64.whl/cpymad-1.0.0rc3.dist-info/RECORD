@@ -1,0 +1,17 @@
+cpymad/__init__.py,sha256=Yu2fB86O7wfWaJAG0iRDggeGXyiyvOmY1_G80zSv7MQ,1518
+cpymad/_rpc.py,sha256=f1hBjo6NyaNVxsw0x5TpHPhebkBzGGmV44VEROevynk,2025
+cpymad/clibmadx.pxd,sha256=kM0FFzoYlIxgQboPoCr-OUtZh4gWoh6ObQ2aOdlN5cU,7569
+cpymad/libmadx.c,sha256=qG8rvOyAMK3ZqrYQNCrqNsA_tsUgGB1Er6R4Iy2neGY,792267
+cpymad/libmadx.pyd,sha256=5T8RESDsgWcYF3UvD4CRdWUsVmNog8mxTxzTxQcR_YA,9440256
+cpymad/libmadx.pyx,sha256=Wy8hY4nYUicFSporLvUGzJVEDfhz_RWLgzhTX1LcGas,37831
+cpymad/madx.py,sha256=eY0-1exbGOpGIHviMen9BS_CKWDUU6BqXXXGXgnLgTE,34449
+cpymad/types.py,sha256=lBN93sFxG5pyJaXLg3aMaNqJRsy7YzcbbaOwFtbseng,1505
+cpymad/util.py,sha256=eqFHgQQ9p_KXxDEd_omfPMBak5k4Z3nxhT9F9d9-tjY,15375
+cpymad/COPYING/cpymad.rst,sha256=byLjW-OHM4fQzQ5Eu-PczNB0ZtWWRm4H4_lGs6VN-FY,1540
+cpymad/COPYING/madx.rst,sha256=vUJyvCpjMEZNWeJ9ESefYx6NVgNxi5zzU3IHGVzFlig,1237
+cpymad-1.0.0rc3.dist-info/DESCRIPTION.rst,sha256=oA4T57Sti-5SP91FRrYzUMgQo4f1NLrM-s8VJCTm70s,4175
+cpymad-1.0.0rc3.dist-info/METADATA,sha256=7cuTNMjsuXrUDhZHfY86Dhq8z6IaC3Ee2tR8DGxHK2c,5202
+cpymad-1.0.0rc3.dist-info/RECORD,,
+cpymad-1.0.0rc3.dist-info/WHEEL,sha256=GxiwFjpOfTmx11V52k6m_oTt7YsjO6k5CAStlBXKEWQ,106
+cpymad-1.0.0rc3.dist-info/metadata.json,sha256=lqPYNmiRtJsRzucSakA0VO-n8HDtD0GfOe6H7roZGAA,1121
+cpymad-1.0.0rc3.dist-info/top_level.txt,sha256=WhqESCx0JaHgVr58nBv6NrA1NXAaRKqme-AURbbpK-M,7
