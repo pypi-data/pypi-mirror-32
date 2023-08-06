@@ -1,0 +1,30 @@
+CHANGES
+=======
+
+* Push development status to Alpha
+* Add category query
+* Add download for image previews
+* Add fields query
+* Change pytest options
+* Add field query
+* Add range endpoints query
+* Add Mults parameter query
+* Use six to fix url tests in python 27
+* Fix Python 27 dict order tests (2)
+* Fix Python27 unorder dict
+* Add files query
+* Add single image query
+* Add images query
+* Reset data array index counter
+* Add time reader
+* Add metadata constraints class
+* Add metadata general constraints
+* Fix iter for python27
+* Add image data output class
+* Fix assert request url on unorder kwargs
+* Update README
+* Chnage file package name
+* Add tests responses mocks
+* Add API count call
+* Fix toxi build testenv
+* Initial commit
