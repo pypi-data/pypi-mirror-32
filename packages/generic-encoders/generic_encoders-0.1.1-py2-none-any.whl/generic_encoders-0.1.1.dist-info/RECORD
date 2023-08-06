@@ -1,0 +1,17 @@
+generic_encoders/__init__.py,sha256=MpQ81TrUDT8i5mvT9Q37y7WFkr66Mehub_CAQOMd_rg,1188
+generic_encoders/encoders/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+generic_encoders/encoders/base64_encoder.py,sha256=DeKOCl8D9CkQ4-FapHbPtSc4zgv0obsX-66a9a8LlxI,600
+generic_encoders/encoders/composed_encoder.py,sha256=lOU1EpMXUkZHIzyWGWvg4d21A8ZmcSb1iSWeInsDC68,2485
+generic_encoders/encoders/dill_encoder.py,sha256=AW5m29OB4T9KBn98lSURNsqyw5rMj-z0hIAGqXB6gqw,326
+generic_encoders/encoders/encoder.py,sha256=5Zjy3dK5sWx2e7JhmzioqPB9WVmbesNe7IX7eWBWIR0,2324
+generic_encoders/encoders/gzip_encoder.py,sha256=ASQYIBsjO1iEcubrs7oc2Mrnig0w6AlDZ6PDdH4EYe8,551
+generic_encoders/encoders/json_encoder.py,sha256=t0yed66LkERW0r_jMLlByBKrS7p4jD43cQeP6LofCKU,918
+generic_encoders/encoders/lz4_encoder.py,sha256=F_6F_P-jXiEoVkGqkCvKtxQdc78bsCPe9mBZ1VJuV94,348
+generic_encoders/encoders/msgpack_encoder.py,sha256=x1mH96KB5oHE_Ef-srOa6-R8otxaBTLdprNFGZH4oXE,1548
+generic_encoders/encoders/text_encoder.py,sha256=FdzFmx7HqbTjTwvK_WUhrnxP4dnRJ8IpQbm4GDaHGJ8,435
+generic_encoders-0.1.1.dist-info/DESCRIPTION.rst,sha256=lSNbYytKrFktvvfyh3uTHVMVRm63I5JOEIS0CS77On4,1727
+generic_encoders-0.1.1.dist-info/METADATA,sha256=yrR_04rSEBgIYOwZwEzsw2mAZ-uIt7dHcNFOPUIzz_U,2193
+generic_encoders-0.1.1.dist-info/RECORD,,
+generic_encoders-0.1.1.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+generic_encoders-0.1.1.dist-info/metadata.json,sha256=nx59qEQaNCBOPeSeybL3MOTE6gm42d4TSNODEp77V1o,657
+generic_encoders-0.1.1.dist-info/top_level.txt,sha256=tL0d2HUDzc3UrmJWzbq6faSnhJDJbpJs4lJ9kkNPdx4,17
