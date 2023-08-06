@@ -1,0 +1,14 @@
+wanakana/__init__.py,sha256=NwTlz8Bn26Imj6hCbbW-PPXKoZBqWh99Tokn5mAh13k,19
+wanakana/constants.py,sha256=RciWAGeDjTzxgTjNmzMH19OJsG8ylvH6HqoZncMZIow,2334
+wanakana/hiragana.py,sha256=xXi_sE58Nq8cmCoQNBSMuVzN2DDSWFwT_Yh2lir3gaw,615
+wanakana/japanese.py,sha256=-0GBq3ZjsdhaYUxDsBTO56ie0BdO-ZQbo8NbrUuKMck,653
+wanakana/kana.py,sha256=lvPlw9D0uCJe1OmcDJbxdWmf0eV8L--xZX9o2mMedHM,506
+wanakana/kanji.py,sha256=cwUJ8ufUIywqNf-uJDoXJTY5HGxLBJp0eHw5q7UmRmw,513
+wanakana/katakana.py,sha256=vFk8Yek8H9Bv8Qm8cOiVLlL8j1reRDiJE_3X6VPzaqc,540
+wanakana/mixed.py,sha256=6ukSY4Fa9jnAxPAzMHK9Zg5hgDJnvJzGiH1wMh01SNM,590
+wanakana/romaji.py,sha256=_V-nazC3WMI7yYLPW4Q-mIdRLahPzix4X2xvEg0xH74,641
+wanakana/utils.py,sha256=AGwLn20zgAXVxu6DMzkEayHpJN_thJNfJjmHIgotHxA,377
+wanakana-1.0.0.dist-info/METADATA,sha256=wkNxguHSvfD43eJ-e_IoH0awm25kDbyU621C6JIfWEY,1395
+wanakana-1.0.0.dist-info/RECORD,,
+wanakana-1.0.0.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+wanakana-1.0.0.dist-info/top_level.txt,sha256=7NfuU-Z7kjnxERypHqkPt5EQm-hGb9RNPk810MFkf44,9
