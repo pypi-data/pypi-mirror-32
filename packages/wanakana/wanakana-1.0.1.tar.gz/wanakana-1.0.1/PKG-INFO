@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: wanakana
+Version: 1.0.1
+Summary: A library to assist in detecting Japanese text
+Home-page: https://github.com/luke-c/WanaKanaPython
+Author: Luke Casey
+Author-email: lc94dev@gmail.com
+License: UNKNOWN
+Description: <div align="center">
+        <h1>WanaKanaPython</h1>
+        <h4>A Python library to assist in detecting Japanese text</h4>
+        </div>
+        
+        ## Usage
+        
+        ### Install
+        
+        ```shell
+        pip install wanakana
+        ```
+        
+        ```python
+        from wanakana import hiragana
+        hiragana.is_hiragana("げーむ")
+        
+        or
+        
+        from wanakana.hiragana import is_hiragana
+        is_hiragana("げーむ")
+        ```
+        
+        ## Documentation
+        
+        See original [WanaKana docs](http://wanakana.com/docs/global.html) as the functions are near identical.
+        
+        ## Quick Reference
+        
+        ```python
+        is_japanese("泣き虫。！〜２￥ｚｅｎｋａｋｕ")
+        // => true
+        
+        is_kana("あーア")
+        // => true
+        
+        is_hiragana("げーむ")
+        // => true
+        
+        is_katakana("ゲーム")
+        // => true
+        
+        is_kanji("切腹")
+        // => true
+        
+        is_romaji("Tōkyō and Ōsaka")
+        // => true
+        ```
+        
+        ## Credits
+        
+        A partial port of [WanaKana](https://github.com/wanikani/wanakana)
+        
+        ## License
+        
+        Source files of this project are available under the MIT License. See [LICENSE](LICENSE)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Japanese
+Description-Content-Type: text/markdown
