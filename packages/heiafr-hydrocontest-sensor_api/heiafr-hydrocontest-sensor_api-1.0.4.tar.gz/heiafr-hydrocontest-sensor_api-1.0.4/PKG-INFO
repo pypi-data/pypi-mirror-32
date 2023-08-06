@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: heiafr-hydrocontest-sensor_api
+Version: 1.0.4
+Summary: Sensor servers for Telecom Box
+Home-page: UNKNOWN
+Author: Jacques Supcik
+Author-email: jacques.supcik@hefr.ch
+License: Apache License 2.0
+Description: # Sensor API for the Raspberry Pi
+        
+        ## Installation:
+        
+        Install the required software:
+        ```
+        sudo apt update
+        sudo apt install libatlas-base-dev libopenjp2-7-dev gunicorn3
+        ```
+        
+        ## Running
+        
+        ```
+        gunicorn --bind=0.0.0.0:8081 heiafr.hydrocontest.sensor_api:app
+        ```
+        
+        or start using sysdemd (e.g. hydro-sensors.service):
+        
+        ```
+        [Unit]
+        Description=Hydrocontest Sensors server
+        After=network.target
+        
+        [Service]
+        User=root
+        Group=root
+        ExecStart=gunicorn --bind=0.0.0.0:8081 heiafr.hydrocontest.sensor_api:app
+        
+        [Install]
+        WantedBy=multi-user.target
+        ```
+        
+        ## Nginx Configuration
+        
+        ```
+        location /sensors {
+            proxy_set_header    Host $host;
+            proxy_set_header    X-Real-IP $remote_addr;
+            proxy_set_header    X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header    X-Forwarded-Proto $scheme;
+            proxy_pass          http://localhost:8081/;
+            proxy_read_timeout  90;
+        }
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Flask
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: System :: Monitoring
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
