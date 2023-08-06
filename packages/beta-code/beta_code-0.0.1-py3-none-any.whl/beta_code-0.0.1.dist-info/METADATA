@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: beta-code
+Version: 0.0.1
+Summary: Converts Greek beta code to Greek characters and vice versa
+Home-page: https://github.com/zfletch/beta-code-py
+Author: zfletch
+Author-email: zfletch2@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
+
