@@ -1,0 +1,17 @@
+[d3m.primitives]
+sri.autoflow = workaround_ignore_error
+sri.autoflow.Conditioner = sri.autoflow.conditioner:Conditioner
+sri.baseline = workaround_ignore_error
+sri.baseline.MeanBaseline = sri.baseline.mean:MeanBaseline
+sri.graph = workaround_ignore_error
+sri.graph.CollaborativeFilteringParser = sri.graph.collaborative_filtering:CollaborativeFilteringParser
+sri.graph.GraphMatchingParser = sri.graph.graph_matching:GraphMatchingParser
+sri.graph.GraphTransformer = sri.graph.transform:GraphTransformer
+sri.psl = workaround_ignore_error
+sri.psl.CollaborativeFilteringLinkPrediction = sri.psl.collaborative_filtering_link_prediction:CollaborativeFilteringLinkPrediction
+sri.psl.GraphMatchingLinkPrediction = sri.psl.graph_matching_link_prediction:GraphMatchingLinkPrediction
+sri.psl.LinkPrediction = sri.psl.link_prediction:LinkPrediction
+sri.tpot = workaround_ignore_error
+sri.tpot.StackingOperator = sri.tpot.stacking:StackingOperator
+sri.tpot.ZeroCount = sri.tpot.zerocount:ZeroCount
+
