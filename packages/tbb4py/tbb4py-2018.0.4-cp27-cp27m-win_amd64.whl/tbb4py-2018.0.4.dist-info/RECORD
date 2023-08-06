@@ -1,0 +1,14 @@
+tbb4py-2018.0.4.data/data/Lib/site-packages/TBB.py,sha256=8lIBZfpB-Ceq9KpoyT1rke_WTDcBq_zSQklDqn3nnCU,1132
+tbb4py-2018.0.4.data/data/Lib/site-packages/tbb/__init__.py,sha256=ehMAAojFUm-vW0YGxIdyoCzDqauQwPqNUjMVbJd3AEI,12835
+tbb4py-2018.0.4.data/data/Lib/site-packages/tbb/__main__.py,sha256=OWeG024bC-g6VK3O1Blj6Vvl-meD-K7tJRZmZhmmjqI,1045
+tbb4py-2018.0.4.data/data/Lib/site-packages/tbb/_api.pyd,sha256=RWSSzTvoxZ7MDFtMfaSwwmzi8Bx6nClva8lM_m8t28s,59904
+tbb4py-2018.0.4.data/data/Lib/site-packages/tbb/api.py,sha256=_cZJRQwNmXuiDW8QQfk-aPBYbsd6mBQjw_HS3M8q63g,8652
+tbb4py-2018.0.4.data/data/Lib/site-packages/tbb/pool.py,sha256=YnUFAw2GG5UGhVvYu7ZFGRvpy-_mufBQIGOT-Y5mTYo,25529
+tbb4py-2018.0.4.data/data/Lib/site-packages/tbb/test.py,sha256=UAMVPX8PsXScGDywalETovWhNLQ84Pzk8Cy6ww8GFIs,6856
+tbb4py-2018.0.4.data/data/Scripts/python-tbb-script.py,sha256=Ox0Kp3RbOhMTJ0Dx1Q0Fq9RfJL-YdH-4VmegHoJQOHU,199
+tbb4py-2018.0.4.data/data/Scripts/python-tbb.exe,sha256=YvpS4VLfC7oQTRlTHgSFxmksb01ZXMtblHHVF_QkIcA,49232
+tbb4py-2018.0.4.dist-info/LICENSE.txt,sha256=sR8UB0nfHu63BI5PiZxGnhoBgQwMd7VZH5ToCr3Vtp8,4693
+tbb4py-2018.0.4.dist-info/METADATA,sha256=y3js3wUe_kt4TOJ6Q11qVTbnC9MjkJI0vJYt4WisnWE,866
+tbb4py-2018.0.4.dist-info/RECORD,,
+tbb4py-2018.0.4.dist-info/WHEEL,sha256=Ptz3unOFZJvhFO2dezgdx2x4dLYmB-QCz1M3T2F5g_A,104
+tbb4py-2018.0.4.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
