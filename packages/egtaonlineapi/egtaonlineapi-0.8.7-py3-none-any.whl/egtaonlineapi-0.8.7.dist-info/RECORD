@@ -1,0 +1,9 @@
+egtaonline/__init__.py,sha256=-5iymdTcSPAJvTFv-n1IFHoLP8cdD1H10AsQX1dgjmg,55
+egtaonline/__main__.py,sha256=kvIUGgIdrfEbd7e4WHPpmnMj17yzjQw9aIM24zyZ2-g,19777
+egtaonline/api.py,sha256=RRmudhwq-jbunM6xQb4HNUMdjzEN-wz7dvuSo6PbU08,50680
+egtaonline/mockserver.py,sha256=QyRT_ksdM7vVAgnvIlX7WZ61syHkCa-nXPABLuPFpoo,37726
+egtaonlineapi-0.8.7.dist-info/METADATA,sha256=d0a314s_3X0XKjONhAPtrMxFvGa3zNVs_nwuVS2Jt-M,2300
+egtaonlineapi-0.8.7.dist-info/RECORD,,
+egtaonlineapi-0.8.7.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+egtaonlineapi-0.8.7.dist-info/entry_points.txt,sha256=_0nz0v-KKRId6a1iMGi0O4FDtwtuo9lYLPoI8_Bmzmw,49
+egtaonlineapi-0.8.7.dist-info/top_level.txt,sha256=SCyrdpaGa87Wpzp95sqAJQC6zteGpMOuulB1i2QWxUU,11
