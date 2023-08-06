@@ -1,0 +1,11 @@
+nbkickoff/__about__.py,sha256=hUbRKLN5vsqXCizCsnzzX6XRW3tv7jMCCs_SH1uClKY,313
+nbkickoff/__init__.py,sha256=fKKmP-CvwjR-dumJImz-NkUjXr5KAwg477FxsHAHNa0,217
+nbkickoff/__main__.py,sha256=ZBVjuN6AV1XOm6jVIayaOG7aK9_5Fm9gdlJswb82YgE,37
+nbkickoff/nbkickoff.py,sha256=l7AxboYloSJ0HOmhF939iWwzLypI6t5JsBkDz-s7l9M,3401
+nbkickoff/template.py,sha256=YQCTprkMvNA-2t4iWbt-SS0jUEwYYmVSkBHechRjoHY,1350
+nbkickoff-0.1.0.dist-info/LICENSE.txt,sha256=mvFOpxMwxXBICkuiS_Gg_xN7Fw4dr3AaTlBtBAy-Bvs,9624
+nbkickoff-0.1.0.dist-info/METADATA,sha256=AKSVLERGqbou16zHPDzLRHeAkzcyQyPw9T1UgSvYvLE,2397
+nbkickoff-0.1.0.dist-info/RECORD,,
+nbkickoff-0.1.0.dist-info/WHEEL,sha256=pZyAqgNAylOf0KG_hPHMtuuY08rV3WzWwZu2OTsNnnw,97
+nbkickoff-0.1.0.dist-info/entry_points.txt,sha256=cQmirdQq8GfbN6ZSH5msSiqUIRKAmn1E_-upC_qtyEs,56
+nbkickoff-0.1.0.dist-info/top_level.txt,sha256=L8LKA6qcQPxCSQ4dQtAnRzHzEOU7s-4xEP5tWHljJ2w,10
