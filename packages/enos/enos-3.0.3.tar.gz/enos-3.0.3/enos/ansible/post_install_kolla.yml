@@ -1,0 +1,10 @@
+---
+- name: Fix single interface deployment
+  hosts: network
+  roles:
+    - { role: utils,
+        tags: ['post_install_single_interface']
+        when: post_install_single_interface
+      }
+vars:
+action: post_install_single_interface
