@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: cbthelper
+Version: 0.1.0
+Summary: a helper library for cross browser testing's selenium api
+Home-page: https://github.com/TimmyTango/hackathon2018
+Author: Tim Hamilton
+Author-email: timh@crossbrowsertesting.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: fuzzywuzzy
+
+pip dependencies:
+
+- requests
+- selenium
+
+You can also use the requirements.txt file
+
+```
+pip install -r requirements.txt
+```
+
+Don't forget to set username and authkey in main.py. You can also set the environment variables CBT\_USERNAME and CBT\_AUTHKEY.
+
+[Grab the documentation here](https://cbthelper.readthedocs.io/en/latest/)
+
+
