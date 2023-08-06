@@ -1,0 +1,10 @@
+README.md
+setup.py
+itunesmusicsearch/__init__.py
+itunesmusicsearch/result_item.py
+itunesmusicsearch/track.py
+itunesmusicsearch.egg-info/PKG-INFO
+itunesmusicsearch.egg-info/SOURCES.txt
+itunesmusicsearch.egg-info/dependency_links.txt
+itunesmusicsearch.egg-info/requires.txt
+itunesmusicsearch.egg-info/top_level.txt
