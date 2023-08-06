@@ -1,0 +1,10 @@
+pytwis/__init__.py,sha256=P5Ocy37GfkDP-jha_EX_EU_53VREwZIS53e0XY_FImE,110
+pytwis/pytwis.py,sha256=ozpsMBiXiAQxzsjXANgESHxcOmNSktmarlvLfcyQ5Go,35454
+pytwis/pytwis_clt.py,sha256=ZrWmDrNvuabXQ4CjBC59AnAhzovl0A-oeojE7vhwSYI,28554
+pytwis/pytwis_clt_constants.py,sha256=yAefkHTB2flvWRy7L-43HR_RQnuRjbQRCrXirqcZko8,737
+pytwis/pytwis_constants.py,sha256=ClAwylRAnoVnCfF04jxhkAwR1rMZvb6aE6OchXOI3b0,1960
+pytwis-0.5.1.dist-info/METADATA,sha256=qoql6GfDby6sIWCZiselHgz4ZuY6T0aN5ve-sh7sN3A,11726
+pytwis-0.5.1.dist-info/RECORD,,
+pytwis-0.5.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pytwis-0.5.1.dist-info/entry_points.txt,sha256=-jPbJmkOWfypJLy_YtIsInM3oxUzkU23Y5ZRngCt9MY,61
+pytwis-0.5.1.dist-info/top_level.txt,sha256=zDwaffgixz5k-V3Uyl1-B8_kZnwp8ELjE2FLwudh3no,7
