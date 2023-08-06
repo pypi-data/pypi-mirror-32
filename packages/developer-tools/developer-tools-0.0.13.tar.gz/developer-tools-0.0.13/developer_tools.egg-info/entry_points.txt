@@ -1,0 +1,10 @@
+[autopip]
+ansible = 2.5.4
+ansible-hostmanager = latest
+autopip = latest
+awscli = 1.15
+flake8 = 3
+rstcheck = 3.0.1
+twine = 1
+workspace-tools = latest
+
