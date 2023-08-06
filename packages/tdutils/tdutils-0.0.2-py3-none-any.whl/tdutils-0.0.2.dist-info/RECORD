@@ -1,0 +1,17 @@
+tdutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tdutils/agolutil.py,sha256=SRbUamwUeGd-dEJyocX4GTb8vrLjRHAHsKHidkIsABw,4580
+tdutils/argutil.py,sha256=LBxt1-FR1e7eVvG4Ru4Stq_kRaOPfG3hc-osbb2vZ8I,2348
+tdutils/cctvutil.py,sha256=wjge_jWVXcvKSWa6Et28Ci0OLvcqcG2ipzMa8yC4qD4,650
+tdutils/datautil.py,sha256=W2RtFG80uH9whjSeWVUV7os6mRFesHusaCwwbLVAlcQ,12125
+tdutils/emailutil.py,sha256=gKYPMpghye7h4qRaeUz-gwnccVl8UiQJEnVSHlDa3K0,490
+tdutils/fulcutil.py,sha256=bzvvsiNaKF836MGCL10mA7JY7UqZKWQH4fStFP2-3Yw,1601
+tdutils/jobutil.py,sha256=bhsyyAnrx36qTnrbSI2ZCw80tPbcBsQ9dywQ4ZSaJd4,5434
+tdutils/kitsutil.py,sha256=FsKqR4qVawUnVCz8xcayzoSRh8Ov__gviaVGamjHKew,2481
+tdutils/knackutil.py,sha256=c2gsqysW--0qFABRH5Vn7QiSoQX2AusnaBUOVMGkSNs,946
+tdutils/logutil.py,sha256=kbcA0Y-DmNKlqHLdi86YX0j9LNzKdUtupoerKdvcU9o,439
+tdutils/pgrestutil.py,sha256=ZJvHifFue8JS80RFhxmYlxj-x2EyUWZRR9GCYHe_Z3M,2704
+tdutils/socratautil.py,sha256=j2fuTLgYCkw5lE66t541s6Qdwq4gZskKw6qzj9KQKiw,5199
+tdutils-0.0.2.dist-info/METADATA,sha256=-qsvwJAbleoVqoIJy7Oc30wvBUgIAfgRHcNXMltGOck,965
+tdutils-0.0.2.dist-info/RECORD,,
+tdutils-0.0.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+tdutils-0.0.2.dist-info/top_level.txt,sha256=kcq1Sc2PCo-ww19W01Jh860rbPRT-7EabBKWbvdB9Pg,8
