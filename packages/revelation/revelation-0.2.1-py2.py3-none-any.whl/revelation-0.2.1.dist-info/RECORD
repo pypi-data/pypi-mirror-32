@@ -1,0 +1,16 @@
+revelation/__init__.py,sha256=8c758nDPC4a80o4-UZ0UnryfkYYharqq4L-UVN4yeak,213
+revelation/app.py,sha256=mdQ98VEgX1O5QkBCCaRro0jqXVbLQYEnq31yTVzlh8g,3087
+revelation/cli.py,sha256=I1XaMoOc29VdF2hshAINb5zoPuWwPOF5buu3ptzbET4,3883
+revelation/config.py,sha256=brYg90EU2cZidwX0qCWDSSJ1rIQIkALY2nVE4PGnUPw,1644
+revelation/default_config.py,sha256=ig4ZucVEZCgXUrFklnglgi_OAHp8uM2O5azOCfnIVjQ,3024
+revelation/utils.py,sha256=qjkSolDzqQ7e8g0idNuWhOJ_wet5uwCZpAN9DU0ncGs,3231
+revelation/templates/presentation.html,sha256=DRqK8I8M13mCCu4XgIglRFG6_1eG_n-8IZDA1nt5NUQ,3341
+revelation-0.2.1.dist-info/METADATA,sha256=xumeqcOJvXYpZyDnODdAShzvjGPD537yhqH5mQOGNCU,9313
+revelation-0.2.1.dist-info/RECORD,,
+revelation-0.2.1.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+revelation-0.2.1.dist-info/entry_points.txt,sha256=mk8yubkguxmdU-iOD1p6OgOnxSgmmrc6cV48iZVMaDE,51
+revelation-0.2.1.dist-info/top_level.txt,sha256=3QEHXKoS9b3KIOyOQI48EjBTRedSOfEYXZD8bXNhWhU,17
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_app.py,sha256=1pcF8UnZTCR4H1mLVcyCQlhR6G8-VG78ZRSuHr-oK-w,983
+tests/test_config.py,sha256=oqqQ7tdfvs4Iuf0dIh0pJpJJE66HaHAzD0DmEY8mABQ,1170
+tests/test_utils.py,sha256=9amqa_o6nRaO6rxdop8YsoMMX36SnBWbBn7EwnEOkQ4,4102
