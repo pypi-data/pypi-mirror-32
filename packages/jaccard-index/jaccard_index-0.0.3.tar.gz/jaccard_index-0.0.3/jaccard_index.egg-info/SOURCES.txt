@@ -1,0 +1,8 @@
+README.md
+setup.py
+jaccard_index/__init__.py
+jaccard_index/jaccard.py
+jaccard_index.egg-info/PKG-INFO
+jaccard_index.egg-info/SOURCES.txt
+jaccard_index.egg-info/dependency_links.txt
+jaccard_index.egg-info/top_level.txt
