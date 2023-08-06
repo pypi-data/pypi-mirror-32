@@ -1,0 +1,4 @@
+afnumpy
+afnumpy/core
+afnumpy/lib
+afnumpy/linalg

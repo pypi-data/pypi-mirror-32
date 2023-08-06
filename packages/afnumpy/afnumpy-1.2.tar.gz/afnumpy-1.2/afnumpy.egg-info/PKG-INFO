@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: afnumpy
+Version: 1.2
+Summary: A GPU-ready drop-in replacement for numpy
+Home-page: https://github.com/FilipeMaia/afnumpy
+Author: Filipe Maia
+Author-email: filipe.c.maia@gmail.com
+License: BSD
+Download-URL: https://github.com/FilipeMaia/afnumpy/archive/1.2.tar.gz
+Description: # afnumpy
+        Aims to be a GPU-ready drop-in replacement for numpy. Uses [ArrayFire](http://github.com/arrayfire/arrayfire) to do the actual computing.
+        
+        [![Build Status](https://travis-ci.org/FilipeMaia/afnumpy.svg)](https://travis-ci.org/FilipeMaia/afnumpy) [![codecov.io](https://codecov.io/github/FilipeMaia/afnumpy/coverage.svg?branch=master)](https://codecov.io/github/FilipeMaia/afnumpy?branch=master)
+        [![DOI](https://zenodo.org/badge/35001963.svg)](https://zenodo.org/badge/latestdoi/35001963)
+        
+        
+        ### How to cite
+        Please cite afnumpy as:
+        
+        Filipe R. N. C. Maia. (2017). afnumpy: A GPU-ready drop-in replacement for NumPy, http://doi.org/10.5281/zenodo.262201
+        
+        ### Git commit
+        [a468875](http://github.com/FilipeMaia/afnumpy/commit/a468875)
+Keywords: arrayfire,numpy,GPU
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Description-Content-Type: text/markdown
