@@ -1,0 +1,15 @@
+README.md
+setup.py
+standardnotes_fs/__init__.py
+standardnotes_fs/__main__.py
+standardnotes_fs/api.py
+standardnotes_fs/crypt.py
+standardnotes_fs/itemmanager.py
+standardnotes_fs/sn_fuse.py
+standardnotes_fs/standardnotes_fs.py
+standardnotes_fs.egg-info/PKG-INFO
+standardnotes_fs.egg-info/SOURCES.txt
+standardnotes_fs.egg-info/dependency_links.txt
+standardnotes_fs.egg-info/entry_points.txt
+standardnotes_fs.egg-info/requires.txt
+standardnotes_fs.egg-info/top_level.txt
