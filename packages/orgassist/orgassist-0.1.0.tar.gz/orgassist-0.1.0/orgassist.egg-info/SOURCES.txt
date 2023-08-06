@@ -1,0 +1,12 @@
+README.md
+assist.py
+setup.py
+orgassist/__init__.py
+orgassist/assistant.py
+orgassist/config.py
+orgassist/templates.py
+orgassist.egg-info/PKG-INFO
+orgassist.egg-info/SOURCES.txt
+orgassist.egg-info/dependency_links.txt
+orgassist.egg-info/requires.txt
+orgassist.egg-info/top_level.txt
