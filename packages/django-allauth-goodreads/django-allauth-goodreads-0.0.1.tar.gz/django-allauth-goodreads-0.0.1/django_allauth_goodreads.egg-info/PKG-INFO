@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: django-allauth-goodreads
+Version: 0.0.1
+Summary: Django applications addressingauthentication with goodreads.com as a django-allauth module
+Home-page: https://github.com/stefanw/django-allauth-goodreads
+Author: Stefan Wehrmeyer
+Author-email: mail@stefanwehrmeyer.com
+License: UNKNOWN
+Description: # Goodreads OAuth Provider for Django-Allauth
+        
+Keywords: django auth account social oauth goodreads registration
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Environment :: Web Environment
+Classifier: Topic :: Internet
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Framework :: Django

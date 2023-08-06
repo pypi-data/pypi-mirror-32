@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+django_allauth_goodreads.egg-info/PKG-INFO
+django_allauth_goodreads.egg-info/SOURCES.txt
+django_allauth_goodreads.egg-info/dependency_links.txt
+django_allauth_goodreads.egg-info/requires.txt
+django_allauth_goodreads.egg-info/top_level.txt
+goodreads_auth/__init__.py
+goodreads_auth/api.py
+goodreads_auth/models.py
+goodreads_auth/provider.py
+goodreads_auth/tests.py
+goodreads_auth/urls.py
+goodreads_auth/views.py
