@@ -1,0 +1,3 @@
+[console_scripts]
+pinhole = pinhole.run:main
+
