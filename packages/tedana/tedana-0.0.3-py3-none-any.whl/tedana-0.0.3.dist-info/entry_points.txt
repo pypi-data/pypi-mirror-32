@@ -1,0 +1,4 @@
+[console_scripts]
+t2smap = tedana.cli.run_t2smap:main
+tedana = tedana.cli.run_tedana:main
+
