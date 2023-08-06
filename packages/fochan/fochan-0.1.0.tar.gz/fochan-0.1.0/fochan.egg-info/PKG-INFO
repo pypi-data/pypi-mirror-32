@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: fochan
+Version: 0.1.0
+Summary: 4chan thread downloader
+Home-page: https://github.com/mrfgl/fochan
+Author: Maroof
+Author-email: i@imrfgl.me
+License: UNKNOWN
+Description: Command-line program to download 4chan threads
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

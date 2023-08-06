@@ -1,0 +1,9 @@
+README.md
+setup.py
+fochan/__init__.py
+fochan/fc.py
+fochan.egg-info/PKG-INFO
+fochan.egg-info/SOURCES.txt
+fochan.egg-info/dependency_links.txt
+fochan.egg-info/entry_points.txt
+fochan.egg-info/top_level.txt
