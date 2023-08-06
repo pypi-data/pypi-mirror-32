@@ -1,0 +1,4 @@
+include *.md
+include COPYING
+include morphology/tests/*.py
+include morphology/tests/*.md
