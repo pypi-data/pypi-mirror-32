@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pep263
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/B3QL/pep263
+Author: Bartłomiej Kurzeja
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Provides-Extra: test

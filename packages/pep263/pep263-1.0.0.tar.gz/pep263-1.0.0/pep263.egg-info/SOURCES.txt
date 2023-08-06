@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pep263/__init__.py
+pep263/cli.py
+pep263/core.py
+pep263/decorators.py
+pep263/errors.py
+pep263.egg-info/PKG-INFO
+pep263.egg-info/SOURCES.txt
+pep263.egg-info/dependency_links.txt
+pep263.egg-info/entry_points.txt
+pep263.egg-info/requires.txt
+pep263.egg-info/top_level.txt
