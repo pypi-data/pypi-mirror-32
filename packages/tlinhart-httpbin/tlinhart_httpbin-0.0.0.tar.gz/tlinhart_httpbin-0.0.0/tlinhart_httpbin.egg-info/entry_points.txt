@@ -1,0 +1,3 @@
+[console_scripts]
+tlinhart-httpbin = tlinhart_httpbin.console:entrypoint
+
