@@ -1,0 +1,50 @@
+Login redirection
+-----------------
+redirect to login url
+redirect to ADFS authorization endpoint
+
+
+ADFS callback
+-------------
+callback URL with authorization code
+callback URL without authorization code
+
+
+Redirection
+-----------
+Correct "next" param for "login required" view
+redirect to "next" param
+next param with invalid url (other site)
+
+
+Auto config
+-----------
+Auto config + login against 2012
+Auto config + login against 2016
+Auto config + login against Azure
+
+
+Settings
+--------
+Missing required setting
+Invalid combination of settings
+Unknown setting
+Incorrect client ID
+
+
+Access token
+------------
+No token response from ADFS
+Single group in token
+Missing claim for required user field
+Missing claim for optional user field
+Claim for non-existing user field
+Boolean claim for non-existing user flag field
+Boolean group claim for non-existing user flag field
+User being added to groups
+User being removed from groups
+flag on user being set due to group membership
+flag on user being set due to boolean claim mapping
+flag on user being removed due to group membership
+flag on user being removed due to boolean claim mapping
+inactive user should remain inactive
