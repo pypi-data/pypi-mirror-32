@@ -1,0 +1,8 @@
+requests==2.18.4
+
+[ci]
+python-coveralls
+
+[test]
+pytest
+pytest-cov

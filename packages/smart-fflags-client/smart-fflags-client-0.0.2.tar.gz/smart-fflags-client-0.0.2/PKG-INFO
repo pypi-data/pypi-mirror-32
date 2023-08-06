@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: smart-fflags-client
+Version: 0.0.2
+Summary: Smart Dashboard to manage feature flags Client
+Home-page: https://github.com/debonzi/smartflags-client.git
+Author: Daniel Debonzi
+Author-email: debonzi@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Provides-Extra: test
+Provides-Extra: ci
