@@ -1,0 +1,4 @@
+requests[socks]
+requests-html
+Click
+six
