@@ -1,0 +1,2 @@
+include *.cfg Makefile LICENSE
+recursive-include banktransfer_fi/templates *
