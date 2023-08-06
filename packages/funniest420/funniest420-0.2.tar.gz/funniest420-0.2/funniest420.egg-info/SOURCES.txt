@@ -1,0 +1,7 @@
+setup.py
+funniest/__init__.py
+funniest420.egg-info/PKG-INFO
+funniest420.egg-info/SOURCES.txt
+funniest420.egg-info/dependency_links.txt
+funniest420.egg-info/not-zip-safe
+funniest420.egg-info/top_level.txt
