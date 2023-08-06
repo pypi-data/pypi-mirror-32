@@ -1,0 +1,9 @@
+README.md
+setup.py
+bl_title_amaz/__init__.py
+bl_title_amaz/title_filter.py
+bl_title_amaz.egg-info/PKG-INFO
+bl_title_amaz.egg-info/SOURCES.txt
+bl_title_amaz.egg-info/dependency_links.txt
+bl_title_amaz.egg-info/requires.txt
+bl_title_amaz.egg-info/top_level.txt
