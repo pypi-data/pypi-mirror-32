@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        fidding-cli=python_cli.script.cli:cli
+    
