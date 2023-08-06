@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: preset
+Version: 0.1.0
+Summary: Some preset things
+Home-page: https://github.com/qileroro/preset/
+Author: qileroro
+Author-email: qileroro@qq.com
+License: Apache License, Version 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: nameko (>=2.0.0)
+
+# preset
+
+some preset things.
+
+## Installation
+```
+pip install preset
+```
+
+## Usage
+
+
