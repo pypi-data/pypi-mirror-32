@@ -1,0 +1,10 @@
+pyATC-1.0.4.dist-info/DESCRIPTION.rst,sha256=X8c9Ryk6oHS3TVTrz-u9RSYz1-fVr6QxDm8FzA74xZw,50
+pyATC-1.0.4.dist-info/LICENSE.txt,sha256=xGfeLJUKD7V3TIm9d4HoijLzbD49f74Akhwzk61_zQk,1071
+pyATC-1.0.4.dist-info/METADATA,sha256=2yaULWMDdNwJv6RtCGXGzIvEQ7t4b8adpuKdSx5we00,655
+pyATC-1.0.4.dist-info/RECORD,,
+pyATC-1.0.4.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+pyATC-1.0.4.dist-info/metadata.json,sha256=bHZWZv4lv3XZrBsZo4UiHxLTIP-uvMALSAyxUkXr_uY,860
+pyATC-1.0.4.dist-info/top_level.txt,sha256=GkoXGZqvbGn1Ce3qhrXV2DgwIjhHxvexsbSRjq_z2AI,6
+pyatc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyatc/pyatc.py,sha256=vqZhw68QCNb1SA4hCrNhNnj-0UfLMCxLR3Kpvg8kxaI,22825
+pyatc/test.py,sha256=gPEjaujwCWO3nCf1SKZLIXHYbQi6P5M-Qu2ehAKImro,1497
