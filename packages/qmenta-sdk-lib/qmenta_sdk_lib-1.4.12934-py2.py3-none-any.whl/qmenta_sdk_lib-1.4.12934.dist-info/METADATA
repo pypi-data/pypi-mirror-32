@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: qmenta-sdk-lib
+Version: 1.4.12934
+Summary: This is a Python SDK to build tools that can be executed on the QMENTA cloud platform.
+Home-page: http://www.qmenta.com
+Author: QMENTA
+Author-email: dev@qmenta.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Provides-Extra: sphinx
+Requires-Dist: humanfriendly
+Requires-Dist: requests
+Requires-Dist: future
+Provides-Extra: sphinx
+Requires-Dist: sphinx-rtd-theme; extra == 'sphinx'
+
+UNKNOWN
+
+
