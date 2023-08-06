@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+cyclicmodel/__init__.py
+cyclicmodel/define_model.py
+cyclicmodel.egg-info/PKG-INFO
+cyclicmodel.egg-info/SOURCES.txt
+cyclicmodel.egg-info/dependency_links.txt
+cyclicmodel.egg-info/requires.txt
+cyclicmodel.egg-info/top_level.txt
+tests/__init__.py
+tests/context.py
+tests/test_define_model.py
