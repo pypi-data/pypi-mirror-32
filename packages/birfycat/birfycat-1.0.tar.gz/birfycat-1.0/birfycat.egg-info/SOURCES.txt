@@ -1,0 +1,7 @@
+setup.py
+birfycat/__init__.py
+birfycat.egg-info/PKG-INFO
+birfycat.egg-info/SOURCES.txt
+birfycat.egg-info/dependency_links.txt
+birfycat.egg-info/entry_points.txt
+birfycat.egg-info/top_level.txt
