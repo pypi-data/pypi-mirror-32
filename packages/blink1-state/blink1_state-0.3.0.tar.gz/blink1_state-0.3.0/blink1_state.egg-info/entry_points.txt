@@ -1,0 +1,3 @@
+[console_scripts]
+sm_demo = blink1_state:main
+
