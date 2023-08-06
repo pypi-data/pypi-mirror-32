@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: transcendental
+Version: 0.5.0
+Summary: Minimal IA for image recognition
+Home-page: https://github.com/4383/transcendental
+Author: hervé beraud
+Author-email: herveberaud.pro@gmail.com
+License: UNKNOWN
+Description: # Transcendental (π)
+        
+        Artificial Intelligence image recognition.
+        
+        Learn from input data and generate model, predict from previous generated model
+        
+        ## Disclaimer
+        
+        This is testing project purpose so it's currently in development and features
+        are minimal don't juge me :)
+        
+        ## Features
+        
+        - Recognize cats
+        - Recognize dogs
+        
+        ## Install
+        
+        ```shell
+        $ pip install transcendental
+        ```
+        
+        ## Usage
+        
+        ### trans-predict
+        
+        This command allow you to recognize an image passed in argument.
+        
+        Predict take exactly one argument who is the image to predict
+        ```shell
+        $ trans-predict --help 
+        usage: trans-predict [-h] image
+        
+        Recognize cat and dogs
+        
+        positional arguments:
+          image       an image to analyze
+        
+          optional arguments:
+            -h, --help  show this help message and exit
+        
+        $ trans-predict ./image.png
+        ```
+        
+        ### trans-train
+        
+        This command allow you to train your IA.
+        
+        This command generate models automaticaly used by predict at launch
+        
+        Currently in development!
+        
+        ## Resources
+        - https://becominghuman.ai/building-an-image-classifier-using-deep-learning-in-python-totally-from-a-beginners-perspective-be8dbaf22dd8
+        - https://drive.google.com/drive/folders/1XaFM8BJFligrqeQdE-_5Id0V_SubJAZe
+        - https://machinelearningmastery.com/save-load-keras-deep-learning-models/
+        - https://www.quora.com/How-do-artificial-neural-networks-work
+        - http://torch.ch/blog/2015/11/13/gan.html
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires: pbd
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: devel
