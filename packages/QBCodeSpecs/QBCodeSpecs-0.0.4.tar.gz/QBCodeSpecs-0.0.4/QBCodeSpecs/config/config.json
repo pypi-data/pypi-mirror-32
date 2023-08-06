@@ -1,0 +1,16 @@
+{
+	"ignorePath": [
+		".+/Pods/.+"
+	],
+	"rules": {
+		"ClassName": {
+			"Regex": "[A-Z]"
+		},
+		"MethodName": {
+			"Regex": "[a-z]"
+		}
+
+	},
+	"invalidRules": [""]
+
+}
