@@ -1,0 +1,6 @@
+README.rst
+setup.py
+connection_pool.egg-info/PKG-INFO
+connection_pool.egg-info/SOURCES.txt
+connection_pool.egg-info/dependency_links.txt
+connection_pool.egg-info/top_level.txt
