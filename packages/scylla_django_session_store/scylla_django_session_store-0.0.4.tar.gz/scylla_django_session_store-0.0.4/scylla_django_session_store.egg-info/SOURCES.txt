@@ -1,0 +1,15 @@
+README.md
+setup.py
+scylla_django_session_store.egg-info/PKG-INFO
+scylla_django_session_store.egg-info/SOURCES.txt
+scylla_django_session_store.egg-info/dependency_links.txt
+scylla_django_session_store.egg-info/requires.txt
+scylla_django_session_store.egg-info/top_level.txt
+scylla_sessions/__init__.py
+scylla_sessions/sessions.py
+scylla_sessions/management/__init__.py
+scylla_sessions/management/commands/__init__.py
+scylla_sessions/management/commands/create_scylla_session_table.py
+scylla_sessions/management/commands/delete_scylla_session_records.py
+tests/__init__.py
+tests/tests.py
