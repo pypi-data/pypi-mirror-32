@@ -1,0 +1,11 @@
+ranking_sorting/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ranking_sorting/hackernews_hot.py,sha256=tgg66ctQnajklFbisnZjKetaBEZIogcwmKKN5j5uwVU,323
+ranking_sorting/wilson_score.py,sha256=be2TU-9xEccp36CYKGsg8XirZQtaoUXnv5_6FMMRnGs,426
+ranking_sorting-0.0.2.dist-info/DESCRIPTION.rst,sha256=LnDWPfxox3YiBCPUU5FeE5JAzW45qdDrnFlOw-r35SU,66
+ranking_sorting-0.0.2.dist-info/METADATA,sha256=sEM3uHt9Jjf5sEd2mjPBAkB2YM2U60vAophXAkmhVmw,509
+ranking_sorting-0.0.2.dist-info/RECORD,,
+ranking_sorting-0.0.2.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+ranking_sorting-0.0.2.dist-info/metadata.json,sha256=EIxAbZEghGsNoOxabTb-hnRoVfeHwwKTyiWrxgIsWbU,632
+ranking_sorting-0.0.2.dist-info/top_level.txt,sha256=fooIjmzElRY6FE6dQZC60Xa7GDUrsf3T2I5jHH1Sw8A,22
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_dummy.py,sha256=cmyjvMA9HJUlzDEcATSHAC81gGMKronYgrlskfINWBQ,118
