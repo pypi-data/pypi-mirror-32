@@ -1,0 +1,7 @@
+boto3
+Scrapy
+six
+pytest
+pytest-cov
+moto
+pytest-env
