@@ -1,0 +1,1 @@
+{"generator": "bdist_wheel (0.24.0)", "summary": "Aexpect", "metadata_version": "2.0", "name": "aexpect", "version": "1.5.1", "extensions": {"python.details": {"project_urls": {"Home": "http://avocado-framework.github.io/"}, "contacts": [{"email": "avocado-devel@redhat.com", "name": "Aexpect developers", "role": "author"}], "document_names": {"description": "DESCRIPTION.rst"}}}}
