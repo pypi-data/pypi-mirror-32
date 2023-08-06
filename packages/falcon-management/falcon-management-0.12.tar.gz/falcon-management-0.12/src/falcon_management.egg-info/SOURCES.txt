@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/falcon_management/__init__.py
+src/falcon_management/command.py
+src/falcon_management/exceptions.py
+src/falcon_management/logger.py
+src/falcon_management/manager.py
+src/falcon_management.egg-info/PKG-INFO
+src/falcon_management.egg-info/SOURCES.txt
+src/falcon_management.egg-info/dependency_links.txt
+src/falcon_management.egg-info/top_level.txt
