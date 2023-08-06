@@ -1,0 +1,9 @@
+globuslite/__init__.py,sha256=GbXdeHzSuS-poi95ad1lVEdpvpdAGbEh23HxAvH-2bA,225
+globuslite/auth.py,sha256=0B2ne72WhgZU6f7Ieowkq1QEIGeV9oL-z1kk-zXVQ_g,2023
+globuslite/config.py,sha256=1e3LlzgXy55bAZA6ePBNuTkECQ0Hm2ijqvxpV-OInz8,2217
+globuslite/transfer.py,sha256=k0gaWu-eeeFdiXIvJhNYyXdMdgRM1dXKcXmaqY37a0k,1145
+globuslite/version.py,sha256=3Obb-DWxHlQubwvXLcIcvkso1SEr5GgOMFsRXsjsjso,72
+globuslite-0.2.1.dist-info/METADATA,sha256=8KAIicaLtdYZE5-IPKTA-pJHBgSf66OEcrFmUn97oQg,719
+globuslite-0.2.1.dist-info/RECORD,,
+globuslite-0.2.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+globuslite-0.2.1.dist-info/top_level.txt,sha256=bHdVuAmbC1P9IbYDPp7uhcFDboGLrtt3dfFzQvCPeN4,11
