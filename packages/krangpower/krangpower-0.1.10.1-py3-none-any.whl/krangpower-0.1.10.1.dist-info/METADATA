@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: krangpower
+Version: 0.1.10.1
+Summary: Distribution System Simulator based on OpenDSS
+Home-page: https://krangpower.readthedocs.io
+Author: Federico Rosato
+Author-email: federico.rosato@supsi.ch
+License: MIT
+Download-URL: https://github.com/supsi-dacd-isaac/krangpower
+Keywords: OpenDSS,pint,DSS
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Provides-Extra: extras
+Provides-Extra: dev
+Requires-Dist: canonicaljson
+Requires-Dist: OpenDSSDirect.py
+Requires-Dist: networkx
+Requires-Dist: pint
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: python-dateutil
+Requires-Dist: tqdm
+Provides-Extra: dev
+Provides-Extra: extras
+
+[![Latest Version](https://img.shields.io/pypi/v/krangpower.svg)](https://pypi.python.org/pypi/krangpower/)
+[![Documentation Status](https://readthedocs.org/projects/krangpower/badge/?version=master)](https://krangpower.readthedocs.io/en/master/?badge=master)
+
+# krangpower
+Distribution System Simulator based on OpenDSS and OpenDSSDirect.py. Modern Syntax, DataFrames, Pint, Networkx.
+
+# Acknowledgements
+The authors would like to thank the Swiss Federal Office of Energy (SFOE) and the Swiss Competence Center for Energy Research - Future Swiss Electrical Infrastructure (SCCER-FURIES), for their financial and technical support to this research work.
+
+
