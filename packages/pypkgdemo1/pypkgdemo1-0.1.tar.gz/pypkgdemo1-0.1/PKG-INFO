@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: pypkgdemo1
+Version: 0.1
+Summary: The funniest joke in the world
+Home-page: https://github.com/tkmktime/pypkgdemo1.git
+Author: Tim
+Author-email: tkmktime@gmail.com
+License: UNKNOWN
+Description: # pypkgdemo1
+        
+        This is a simple example package. You can use 
+        [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+        to write your content.
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License

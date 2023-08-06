@@ -1,0 +1,6 @@
+setup.py
+pypkgdemo1/__init__.py
+pypkgdemo1.egg-info/PKG-INFO
+pypkgdemo1.egg-info/SOURCES.txt
+pypkgdemo1.egg-info/dependency_links.txt
+pypkgdemo1.egg-info/top_level.txt
