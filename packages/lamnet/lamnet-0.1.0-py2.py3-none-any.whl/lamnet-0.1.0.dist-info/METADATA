@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: lamnet
+Version: 0.1.0
+Summary: A lamnet
+Home-page: http://appsaigon.com/
+Author: laamp
+Author-email: laampt@gmail.com
+License: UNKNOWN
+Keywords: netral network machine learning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
+Requires-Dist: numpy
+Provides-Extra: dev
+Requires-Dist: check-manifest; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage; extra == 'test'
+
+if you are practitioner of machine learning, you should code a neural net from scratch.
+
+

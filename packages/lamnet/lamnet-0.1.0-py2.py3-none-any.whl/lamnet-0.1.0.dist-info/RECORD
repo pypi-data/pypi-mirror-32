@@ -1,0 +1,14 @@
+lamnet/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lamnet/data.py,sha256=jPrtkf7MYpH-K1xcOAjtG4f9gVlzY8rZOMDDqZs90Ac,941
+lamnet/layers.py,sha256=WNdUbZ6zpqLTAh8BbUSh66kGWxjhYGqH-d0iQeIUy9I,2921
+lamnet/loss.py,sha256=yPEY7EJRTSFttF_ke379TLW3I540hyI6V9TFKkThYtU,658
+lamnet/nn.py,sha256=gMQY2cNVKF6ZVrb5VeJHYWBU8KEpkvqu_SUqzFAkljs,800
+lamnet/optim.py,sha256=0GAX5B5cc2SqYkRdv5qQysIFh4-2XwMR7t9m3OdB6uI,478
+lamnet/tensor.py,sha256=7BQ5QfQ7rvxYJZbgQTu3qKSZhOmkBkskn2fpeeqOZJY,76
+lamnet/train.py,sha256=R7sV7d-Nb8GnUYeJ95IHJcBIfuYFOfip4cMu00i1AEM,800
+lamnet-0.1.0.dist-info/LICENSE.txt,sha256=ceC9ZJOV9H6CtQDcYmHOS46NA3dHJ_WD4J9blH513pc,1081
+lamnet-0.1.0.dist-info/METADATA,sha256=mpN2xFtSCEnUE3FeLHojgCkYCftj7v1mJTSlQ695jf4,790
+lamnet-0.1.0.dist-info/RECORD,,
+lamnet-0.1.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+lamnet-0.1.0.dist-info/top_level.txt,sha256=ESQ5vY7jXru6MVwrKOumnX0Aq50ofU9vBqyQGO4FYTc,14
+sample/__init__.py,sha256=awvrxda4UmMqBv2yIsWjcvBwBMM7YROwWnuZ6w-7gjI,112
