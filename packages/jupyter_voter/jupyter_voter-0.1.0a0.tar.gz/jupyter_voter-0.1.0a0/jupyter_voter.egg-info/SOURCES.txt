@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+jupyter_voter.json
+setup.cfg
+setup.py
+jupyter_voter/__init__.py
+jupyter_voter/_version.py
+jupyter_voter/map.py
+jupyter_voter.egg-info/PKG-INFO
+jupyter_voter.egg-info/SOURCES.txt
+jupyter_voter.egg-info/dependency_links.txt
+jupyter_voter.egg-info/not-zip-safe
+jupyter_voter.egg-info/requires.txt
+jupyter_voter.egg-info/top_level.txt
+jupyter_voter/static/extension.js
+jupyter_voter/static/index.js
+jupyter_voter/static/index.js.map
