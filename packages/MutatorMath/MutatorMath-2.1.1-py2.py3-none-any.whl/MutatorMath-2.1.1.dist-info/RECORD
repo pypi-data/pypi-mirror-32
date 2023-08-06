@@ -1,0 +1,14 @@
+MutatorMath-2.1.1.dist-info/LICENSE.txt,sha256=8Y3NLUKOAkyeSeme64kLjBLobAl6Ym0NudR9i_VRwnI,1504
+MutatorMath-2.1.1.dist-info/METADATA,sha256=WNHc9nQsCmvNH10D7vU5Y24UjFBQzvRhCBbfG7DPFpY,11174
+MutatorMath-2.1.1.dist-info/RECORD,,
+MutatorMath-2.1.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+MutatorMath-2.1.1.dist-info/top_level.txt,sha256=3SlQlkCT6NLwwS98AgmgNHSdZUmZEJIZrXfWYoewzoY,12
+mutatorMath/__init__.py,sha256=rTJI0LllGA8P3is3KdS9NbErqjKXUxhyaVHalo74OF0,1661
+mutatorMath/objects/__init__.py,sha256=tUrf9oKxYldgJYqZTcXrxYTLHFm1xoPK1q9QRU9jA60,32
+mutatorMath/objects/bender.py,sha256=vCaZFJSHdhL6IwxKa9OlDVj8xZu2mHKnYzIHNHPPs70,8195
+mutatorMath/objects/error.py,sha256=HgIdyQ421tU7KH17uMFvG4Tlwk2mGEbBm915kqmMRuk,239
+mutatorMath/objects/location.py,sha256=oqIRumLcfgxkf7FF_7L1TdCUj8YpQ7Wk0BXP8sHD4sA,21772
+mutatorMath/objects/mutator.py,sha256=Gm1BIhB9j6_43nOH28PEqkxZ6aubou6-pFi68XzA1UU,15386
+mutatorMath/ufo/__init__.py,sha256=m5U26sejbxbCtbsdx0qxd4S3Q4LswOP2uQopbrXbvgc,1655
+mutatorMath/ufo/document.py,sha256=XNclPHwaUBoZJjVRVqpAVW6cugmrbMu63JGKPLY0zpc,35772
+mutatorMath/ufo/instance.py,sha256=25InzO8PNLW72lZjI7ldWlN8SbiI3MFv7aJbQikcU2E,15853
