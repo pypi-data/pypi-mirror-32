@@ -1,0 +1,8 @@
+README.md
+setup.py
+pymedphys/__init__.py
+pymedphys.egg-info/PKG-INFO
+pymedphys.egg-info/SOURCES.txt
+pymedphys.egg-info/dependency_links.txt
+pymedphys.egg-info/requires.txt
+pymedphys.egg-info/top_level.txt
