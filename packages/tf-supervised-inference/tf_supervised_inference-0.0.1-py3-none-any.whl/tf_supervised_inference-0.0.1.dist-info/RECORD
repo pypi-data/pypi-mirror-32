@@ -1,0 +1,6 @@
+tf_supervised_inference/__init__.py,sha256=KLfduhE8JvBX_KO8hrdg4TRnuQoi5RVacOF9ovf2Obs,29
+tf_supervised_inference/distributions.py,sha256=PwTjINn4DmllXRpEfXvobllBIwlgCD9s9IJJUQUAUIg,4340
+tf_supervised_inference-0.0.1.dist-info/METADATA,sha256=bs4Qf5adKyKfRwBIJhp3rrwCYX1gqNSa4YJXA1XQeNU,277
+tf_supervised_inference-0.0.1.dist-info/RECORD,,
+tf_supervised_inference-0.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+tf_supervised_inference-0.0.1.dist-info/top_level.txt,sha256=jJpTuj88NCMetBye36ooLkC49BTIUAZuQkIr-7f-aQM,24
