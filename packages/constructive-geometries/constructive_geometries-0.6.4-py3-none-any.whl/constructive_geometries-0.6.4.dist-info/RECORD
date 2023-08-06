@@ -1,0 +1,9 @@
+constructive_geometries/__init__.py,sha256=17A8UoJ-BexQqAEGF2LBTcOld1gSzySSRbE1MlC8k-w,114
+constructive_geometries/cg.py,sha256=DJ5ij70YU4TsY0OfnKzPfZZOwlLJVsiVZnOFKgU63Is,7793
+constructive_geometries/geomatcher.py,sha256=hMUePqV7S7lFhflps6KOUd--ec9-ex4XvR61o-IBppM,11556
+constructive_geometries/data/faces.gpkg,sha256=MTccetTRMfWyaF2OIK1tab0XhhAwyfs7H-zqtZkO0YY,12775424
+constructive_geometries/data/faces.json,sha256=VrKpwMGrih_Pq57DKiLqwg8yCnujtFYFxaSuRDprOWs,822735
+constructive_geometries-0.6.4.dist-info/METADATA,sha256=GbCX5y_rHkjZ2eCrR1bEnAOhVhOn1tEi7lBbDGx2qXo,3966
+constructive_geometries-0.6.4.dist-info/RECORD,,
+constructive_geometries-0.6.4.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+constructive_geometries-0.6.4.dist-info/top_level.txt,sha256=hgZUbd-5AQp27LgXUCDPj_QO_YGzRf7tXGDNLQruk0I,24
