@@ -1,0 +1,8 @@
+freshservice/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+freshservice/api.py,sha256=fA6r7CxtZLrJs2UJNhuml65_sxoHY0Sme-HELMkM_Nw,17395
+freshservice/errors.py,sha256=PiLYi31b-l1x2RM6h9QWIK1jPY1pdnyveqFrHEy1e_I,1236
+freshservice/models.py,sha256=ck9tHv4thvboOpLEJzO6gMhBSP8hUkMagO8XzdkltpQ,8563
+freshservice_wrapper-1.1.dist-info/METADATA,sha256=W1KXR9efYxvlfnWI4h45ICi--6EPNfUW4rK11CyvRh8,6341
+freshservice_wrapper-1.1.dist-info/RECORD,,
+freshservice_wrapper-1.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+freshservice_wrapper-1.1.dist-info/top_level.txt,sha256=fljCDwZCOypIMlIFxIR8Q2XFlxvRx4WBrfuJGvKhoKA,13
