@@ -1,0 +1,16 @@
+README.md
+setup.cfg
+setup.py
+taffrail/__init__.py
+taffrail/heapster_api_source.py
+taffrail/kube_state_metrics_source.py
+taffrail/metrics.py
+taffrail/metrics_response.py
+taffrail/metrics_server_source.py
+taffrail/prometheus_metrics_source.py
+taffrail/taffrail_client.py
+taffrail.egg-info/PKG-INFO
+taffrail.egg-info/SOURCES.txt
+taffrail.egg-info/dependency_links.txt
+taffrail.egg-info/requires.txt
+taffrail.egg-info/top_level.txt
