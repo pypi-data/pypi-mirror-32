@@ -1,0 +1,6 @@
+helloworld.py
+setup.py
+samp_project_be.egg-info/PKG-INFO
+samp_project_be.egg-info/SOURCES.txt
+samp_project_be.egg-info/dependency_links.txt
+samp_project_be.egg-info/top_level.txt
