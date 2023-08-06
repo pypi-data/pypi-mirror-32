@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+sklearn2gem/__init__.py
+sklearn2gem/__main__.py
+sklearn2gem/__version__.py
+sklearn2gem/templates.py
+sklearn2gem.egg-info/PKG-INFO
+sklearn2gem.egg-info/SOURCES.txt
+sklearn2gem.egg-info/dependency_links.txt
+sklearn2gem.egg-info/entry_points.txt
+sklearn2gem.egg-info/requires.txt
+sklearn2gem.egg-info/top_level.txt
