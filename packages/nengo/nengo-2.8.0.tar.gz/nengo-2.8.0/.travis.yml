@@ -1,0 +1,64 @@
+language: c
+sudo: false
+notifications:
+  email:
+    - tbekolay@gmail.com
+
+env:
+  global:
+    - NUMPY="1.14"
+    - SCIPY="false"
+    - COVERAGE="false"
+    - STATIC="false"
+    - DOCS="false"
+
+matrix:
+  include:
+    - env: PYTHON="2.7" STATIC="true"
+    - env: PYTHON="2.7" COVERAGE="true"
+    - env: PYTHON="2.7" NUMPY="1.8"
+    - env: PYTHON="2.7" NUMPY="1.9"
+    - env: PYTHON="2.7" NUMPY="1.10"
+    - env: PYTHON="2.7" NUMPY="1.11"
+    - env: PYTHON="2.7" NUMPY="1.12"
+    - env: PYTHON="2.7" NUMPY="1.13"
+    - env: PYTHON="3.4" NUMPY="1.11"  # <=1.12 not packaged for py34 in conda
+    - env: PYTHON="3.5"
+    - env: PYTHON="3.6" COVERAGE="true" SCIPY="true"
+    - env: PYTHON="3.6" DOCS="true"
+
+before_install:
+  - source .ci/conda.sh install
+
+install:
+  - if [[ "$COVERAGE" == "true" ]]; then
+      .ci/coverage.sh install;
+    fi
+  - if [[ "$DOCS" == "true" ]]; then
+      .ci/docs.sh install;
+    fi
+  - if [[ "$STATIC" == "true" ]]; then
+      .ci/static.sh install;
+    else
+      .ci/test.sh install;
+    fi
+
+script:
+  - if [[ "$STATIC" == "true" ]]; then
+      .ci/static.sh run;
+    elif [[ "$COVERAGE" == "true" ]]; then
+      .ci/coverage.sh run;
+    elif [[ -n "$TRAVIS_TAG" && "$DOCS" == "true" ]]; then
+      .ci/docs.sh run;
+    elif [[ "$DOCS" == "true" ]]; then
+      .ci/docs.sh check;
+    else
+      .ci/test.sh run;
+    fi
+
+after_success:
+  - if [[ "$COVERAGE" == "true" ]]; then
+      .ci/coverage.sh upload;
+    elif [[ -n "$TRAVIS_TAG" && "$DOCS" == "true" ]]; then
+      .ci/docs.sh upload;
+    fi
