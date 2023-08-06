@@ -1,0 +1,9 @@
+tabulate
+tqdm
+numpy
+pandas
+matplotlib
+seaborn
+openpyxl
+xlrd
+xlwt
