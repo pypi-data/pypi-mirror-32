@@ -1,0 +1,6 @@
+[console_scripts]
+implant=implant.scripts:run
+
+[pytest11]
+implant=implant.testing
+
