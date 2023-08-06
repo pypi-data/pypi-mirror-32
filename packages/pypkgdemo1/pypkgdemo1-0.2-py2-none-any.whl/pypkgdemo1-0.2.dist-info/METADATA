@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: pypkgdemo1
+Version: 0.2
+Summary: The funniest joke in the world
+Home-page: https://github.com/tkmktime/pypkgdemo1.git
+Author: Tim
+Author-email: tkmktime@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+
+# pypkgdemo1
+
+This is a simple example package. You can use 
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+
+This page explain about packging python projects and upload to pypi.
+https://packaging.python.org/tutorials/packaging-projects/
+
+
+## build
+pip install --upgrade pip setuptools wheel
+
+pytyhon setup.py sdist bdist_wheel
+
+ls dist/
+
+
+
+## upload to TestPypi
+
+pip install --upgrade twine
+
+twine upload --repository -url https://test.pypi.org/legacy/ dist/*
+
+## upload to TestPypi
+
+## install from TestPypi
+
+pip install --index-url https://test.pypi.org/simple/ pypkgdemo1
+
+## testing pypkgdemo1
+
+python
+
+import pypkgdemo1
+
+pypkgdemo1.joke()
+
+## uninstall pypkgdemo1
+
+pip uninstall pypkgdemo1
+
+
+## upload to Pypi
+
+pip install --upgrade twine
+
+twine upload dist/*
+
+## install from Pypi
+
+pip install pypkgdemo1
+
+
+
+
