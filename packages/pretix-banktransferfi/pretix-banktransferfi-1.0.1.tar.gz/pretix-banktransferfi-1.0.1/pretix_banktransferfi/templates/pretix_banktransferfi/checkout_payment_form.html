@@ -1,0 +1,12 @@
+{% load i18n %}
+
+<p>{% blocktrans trimmed %}
+    After completing your purchase, we will ask you to transfer the money to the following bank account:
+{% endblocktrans %}</p>
+
+<address>
+    {{ details|linebreaksbr }}<br /><br />
+    <strong>
+        {% trans "We will give you the reference code/number (viitenumero) after you place the order." %}
+    </strong>
+</address>
