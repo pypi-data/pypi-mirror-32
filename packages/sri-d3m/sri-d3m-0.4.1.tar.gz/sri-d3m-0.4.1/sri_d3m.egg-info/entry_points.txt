@@ -1,0 +1,12 @@
+[d3m.primitives]
+sri.autoflow_Conditioner = sri.autoflow.conditioner:Conditioner
+sri.baseline_MeanBaseline = sri.baseline.mean:MeanBaseline
+sri.graph_CollaborativeFilteringParser = sri.graph.collaborative_filtering:CollaborativeFilteringParser
+sri.graph_GraphMatchingParser = sri.graph.graph_matching:GraphMatchingParser
+sri.graph_GraphTransformer = sri.graph.transform:GraphTransformer
+sri.psl_CollaborativeFilteringLinkPrediction = sri.psl.collaborative_filtering_link_prediction:CollaborativeFilteringLinkPrediction
+sri.psl_GraphMatchingLinkPrediction = sri.psl.graph_matching_link_prediction:GraphMatchingLinkPrediction
+sri.psl_LinkPrediction = sri.psl.link_prediction:LinkPrediction
+sri.tpot_StackingOperator = sri.tpot.stacking:StackingOperator
+sri.tpot_ZeroCount = sri.tpot.zerocount:ZeroCount
+
