@@ -1,0 +1,44 @@
+Metadata-Version: 1.1
+Name: evilmc
+Version: 0.1.0
+Summary: A python version of the EVIL-MC code
+Home-page: https://github.com/BoiseStatePlanetary/evilmc
+Author: Brian Jackson
+Author-email: bjackson@boisestate.edu
+License: BSD
+Download-URL: https://github.com/BoiseStatePlanetary/evilmc/archive/0.1.0.tar.gz
+Description: evilmc
+        ======
+        
+        .. image:: https://img.shields.io/pypi/v/evilmc.svg
+            :target: https://pypi.python.org/pypi/evilmc
+            :alt: Latest PyPI version
+        
+        .. image:: https://travis-ci.org/borntyping/cookiecutter-pypackage-minimal.png
+           :target: https://travis-ci.org/borntyping/cookiecutter-pypackage-minimal
+           :alt: Latest Travis CI build status
+        
+        A python version of the EVIL-MC code
+        
+        Usage
+        -----
+        
+        Installation
+        ------------
+        
+        Requirements
+        ^^^^^^^^^^^^
+        
+        Compatibility
+        -------------
+        
+        License
+        -------
+        
+        Authors
+        -------
+        
+        `evilmc` was written by `Brian Jackson <bjackson@boisestate.edu>`_.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
