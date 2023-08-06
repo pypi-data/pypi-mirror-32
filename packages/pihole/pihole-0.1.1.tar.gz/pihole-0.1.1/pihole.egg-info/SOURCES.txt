@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+pihole/__init__.py
+pihole/exceptions.py
+pihole.egg-info/PKG-INFO
+pihole.egg-info/SOURCES.txt
+pihole.egg-info/dependency_links.txt
+pihole.egg-info/requires.txt
+pihole.egg-info/top_level.txt
+pihole.egg-info/zip-safe
