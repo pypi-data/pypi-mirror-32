@@ -1,0 +1,3 @@
+markdown
+tqdm
+gensim
