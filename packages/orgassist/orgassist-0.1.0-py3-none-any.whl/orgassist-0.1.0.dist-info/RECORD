@@ -1,0 +1,9 @@
+orgassist/__init__.py,sha256=kwrC3MWoeuA5cmzBJ7P48S64U0BXpLDixDBfDYXlWqs,198
+orgassist/assistant.py,sha256=wkxDg1qFh45AW2PtAIuoFzx88M18tM3zyS3UepOPDok,6711
+orgassist/config.py,sha256=96jjWZauBhU02fxeO8BAL7RxWNWvacLhCFDUr2pbJt4,3850
+orgassist/templates.py,sha256=1vpNBrqzqfSLnHAV1rSq3-R91D5NwnNhyjSIG1Qi_3g,308
+orgassist-0.1.0.data/scripts/assist.py,sha256=n-m11tRqAoTagHujA-DKWD1ZV69q1XChbC8RbC_uQcE,3055
+orgassist-0.1.0.dist-info/METADATA,sha256=X8zpMxu0OzVaWuk9VnPe7UsZ29_ZTQKnCHLxYGgxcEw,3510
+orgassist-0.1.0.dist-info/RECORD,,
+orgassist-0.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+orgassist-0.1.0.dist-info/top_level.txt,sha256=Zgq3wLKeaIgeRZq1jnuGw7kAAZf_aM7O3jaUzmWLltI,10
