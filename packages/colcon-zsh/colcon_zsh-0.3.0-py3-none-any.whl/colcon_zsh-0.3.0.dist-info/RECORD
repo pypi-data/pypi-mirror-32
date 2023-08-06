@@ -1,0 +1,14 @@
+colcon_zsh/__init__.py,sha256=cDgTbwYYftcmRAAF4dVj8Br0jVg225jMwNzgkwRjeFQ,106
+colcon_zsh/shell/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colcon_zsh/shell/zsh.py,sha256=mGyYXKQAOOxOW8ttGVK8VKAfD8T6K1rhMkX-LF6E_XA,2580
+colcon_zsh/shell/template/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colcon_zsh/shell/template/package.zsh.em,sha256=edWN_fFsm6bzxgPzoeMFJ9mLqhurPN2Lae-uNVO6Csg,1756
+colcon_zsh/shell/template/prefix.zsh.em,sha256=vKQ9RDOC7N8hdXTtyCVu7-qaVMfxWQB88p0rLlqiC_s,4022
+colcon_zsh/shell/template/prefix_chain.zsh.em,sha256=euYddU3TrUMWrvaCrx5WUZIu893wrZ4y31P2tjHntWc,1244
+colcon_zsh-0.3.0.dist-info/DESCRIPTION.rst,sha256=890TFEfVhx010aNz6Ew0wLVhbD4pT5bXIQo90be612E,149
+colcon_zsh-0.3.0.dist-info/METADATA,sha256=su4AGUr5V-0_yt7vrDvhxYtuneGrUh6oKLDDgR17KSI,1034
+colcon_zsh-0.3.0.dist-info/RECORD,,
+colcon_zsh-0.3.0.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+colcon_zsh-0.3.0.dist-info/entry_points.txt,sha256=bp5XyF3cm_6gXVIroJvVSzi9U_cU-bD8_pc-xOC4mPM,55
+colcon_zsh-0.3.0.dist-info/metadata.json,sha256=jvOYjEFrula-W5JlDWbGFIMfzCodJV1qXEWVy0c5CWM,1383
+colcon_zsh-0.3.0.dist-info/top_level.txt,sha256=gaM9SOLgzkpDUBsDWuOzCE-FhgNqyVkb6C8CAGI1oRE,11
