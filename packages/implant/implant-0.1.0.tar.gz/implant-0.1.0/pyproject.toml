@@ -1,0 +1,60 @@
+[build-system]
+requires = ["setuptools>=34.4.0", "wheel"]
+
+#[build-system]
+#requires = ["poetry"]
+#build-backend = "poetry.api:main"
+
+[tool.poetry]
+name = "implant"
+version = "0.1.0"
+description = "Remote execution via stdin/stdout messaging."
+
+license = "Apache-2.0"
+
+authors = [
+    "Oliver Berger <diefans@gmail.com>"
+]
+
+readme = 'README.rst'  # Markdown files are supported
+
+repository = "https://github.com/diefans/implant"
+homepage = "https://github.com/diefans/implant"
+
+keywords = ["asyncio", "ssh", "RPC", "bot", "implant", "inject", "code", "remote"]
+
+[tool.poetry.dependencies]
+python = "^3.5"
+click = "*"
+"ruamel.yaml" = "0.15.37"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+pytest-random = "*"
+pytest-cov = "*"
+pytest-asyncio = "*"
+pytest-cache = "*"
+async_generator = "*"
+coverage = "*"
+pylama = "*"
+pylama-pylint = "*"
+pycodestyle = "*"
+pydocstyle = "*"
+radon = "*"
+isort = "*"
+ipython = "*"
+pdbpp = "*"
+colorlog = "*"
+tox = "*"
+
+[tool.poetry.scripts]
+implant = 'implant.scripts:run'
+
+[tool.poetry.plugins] # Optional super table
+
+[tool.poetry.plugins.pytest11]
+implant = "implant.testing"
+
+[package]
+include = ["LICENSE.txt"]
+recursive-include = ["src", "*.fmt", "*.yaml"]
