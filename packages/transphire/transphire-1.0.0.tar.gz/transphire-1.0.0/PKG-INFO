@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: transphire
+Version: 1.0.0
+Summary: Automated post data aquisition processing tool
+Home-page: https://github.com/mstabrin/transphire
+Author: Markus Stabrin
+Author-email: markus.stabrin@tu-dortmund.de
+License: GPLv3
+Description: # transphire
+        cryo-EM on the fly processing pipeline
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Environment :: X11 Applications :: Qt
+Classifier: Development Status :: 4 - Beta
