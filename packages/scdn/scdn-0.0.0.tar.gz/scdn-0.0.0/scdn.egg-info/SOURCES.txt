@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+scdn/CDN_analysis.py
+scdn/__init__.py
+scdn/data_preprocess.py
+scdn/evaluation_1.py
+scdn/main_computation.py
+scdn/model_config.py
+scdn/validation_truncation_1.py
+scdn.egg-info/PKG-INFO
+scdn.egg-info/SOURCES.txt
+scdn.egg-info/dependency_links.txt
+scdn.egg-info/requires.txt
+scdn.egg-info/top_level.txt
