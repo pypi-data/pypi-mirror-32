@@ -1,0 +1,7 @@
+README.md
+setup.py
+spaw/__init__.py
+spaw.egg-info/PKG-INFO
+spaw.egg-info/SOURCES.txt
+spaw.egg-info/dependency_links.txt
+spaw.egg-info/top_level.txt
