@@ -1,0 +1,10 @@
+sridentify/__init__.py,sha256=HLbYZkos6f5cE-kJVT_0pLZNjwq8aAZR7PyrS1QAEzE,4674
+sridentify/cli.py,sha256=yTN5UYDIEtikHuN85U2vtNTFmu98Yz-jM9aek3ECPYA,446
+sridentify/epsg.db,sha256=iEdcVt9CGkkvFGl9ASQlT-XpkFTLiaCxxrL9gX5iX1A,4628480
+sridentify-0.4.0.dist-info/DESCRIPTION.rst,sha256=t-ls_YWmMBDQtSFy4GIaozAD5cDSQjU0Rqb7MK1XG1I,5108
+sridentify-0.4.0.dist-info/METADATA,sha256=C0BXjxdDfJ_yyjC-ZiW2sOo_6tX7e6wU32Tf1Dgd8Bg,5987
+sridentify-0.4.0.dist-info/RECORD,,
+sridentify-0.4.0.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+sridentify-0.4.0.dist-info/entry_points.txt,sha256=uNcDV_nuY833qvhbl-Doeg_qiQ7-okhFvVIwX62Hiw4,52
+sridentify-0.4.0.dist-info/metadata.json,sha256=EAD-H024WJ6TJx5U3OyNKs-iU0HsKUdl4sn23STwma0,1135
+sridentify-0.4.0.dist-info/top_level.txt,sha256=OT74gXQEKD_RlRNGdof8EwL3j_ka6hjBwOCLanQHrEI,11
