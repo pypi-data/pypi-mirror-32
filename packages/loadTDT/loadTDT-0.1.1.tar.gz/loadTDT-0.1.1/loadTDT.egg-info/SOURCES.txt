@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+loadTDT/__init__.py
+loadTDT/loadTDT.py
+loadTDT/test.py
+loadTDT/test_new.py
+loadTDT.egg-info/PKG-INFO
+loadTDT.egg-info/SOURCES.txt
+loadTDT.egg-info/dependency_links.txt
+loadTDT.egg-info/not-zip-safe
+loadTDT.egg-info/requires.txt
+loadTDT.egg-info/top_level.txt
