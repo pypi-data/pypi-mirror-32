@@ -1,0 +1,3 @@
+[console_scripts]
+formulka-httpbin = formulka_httpbin.console:entrypoint
+
