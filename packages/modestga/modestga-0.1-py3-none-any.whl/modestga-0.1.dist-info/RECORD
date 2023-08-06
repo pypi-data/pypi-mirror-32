@@ -1,0 +1,9 @@
+modestga/__init__.py,sha256=uFd0sdtX_2mkzE2B3XovH7IG9rwHZ4haDnignHBcAEs,32
+modestga/ga.py,sha256=DjDGMjgplyaeZuldmMh04EocDVoDqRlwYpjfvSric2c,5767
+modestga/individual.py,sha256=J4iGZM7mks9WEuGpeUCHovFqoU3v4Z322O84OtwhPzk,2022
+modestga/operators.py,sha256=rmdwz2JoRUVFarEvZsPff9LHCuiRNtXIRt8Cx0HdC40,1315
+modestga/population.py,sha256=FFpu9PqOQ95Y2RVAnGaCM8ZMrIGamB-Hd8wUk4w2MMA,940
+modestga-0.1.dist-info/METADATA,sha256=Ocm7ZwzjRehg_yCwFipDTnxEn4AHHaDQtySq_WnbzRs,500
+modestga-0.1.dist-info/RECORD,,
+modestga-0.1.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+modestga-0.1.dist-info/top_level.txt,sha256=-gkULGgoLW2hptLMI5g0eOZHwY-Fk_bmkHihzXboGQQ,9
