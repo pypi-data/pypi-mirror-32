@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: OpenEnsembles
+Version: 1.1.1
+Summary: UNKNOWN
+Home-page: https://github.com/NaegleLab/OpenEnsembles
+Author: Naegle Lab
+Author-email: UNKNOWN
+License: GNU General Public License v3
+Description: An open source Python package for performing, finishing, and analyzing ensemble clustering.
+Platform: UNKNOWN
