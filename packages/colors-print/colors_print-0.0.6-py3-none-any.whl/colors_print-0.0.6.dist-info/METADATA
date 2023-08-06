@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: colors-print
+Version: 0.0.6
+Summary: description
+Home-page: https://github.com/Jie-Yuan/colors-print
+Author: JieYuan
+Author-email: 313303303@qq.com
+Maintainer: JieYuan
+Maintainer-email: 313303303@qq.com
+License: MIT
+Keywords: DeepLearning,313303303@qq.com
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=2.7, <4
+Description-Content-Type: text/markdown
+
+[![Build Status](https://travis-ci.org/EVasseure/cprint.svg?branch=master)](https://travis-ci.org/EVasseure/cprint)
+
+## Colors-print
+
+Do you find it annoying when you have to search for a certain debug, or error, line in your console? Have you ever dreamed of a simple and quick way to make your debug print truly visible? Well here is your solution !  
+cprint is a minimalist python library which gives you the possibility to print in color.  
+
+## Install
+
+```sh
+pip install Colors-print
+```
+
+## Usage
+- **`ccprint`**
+> 加强版
+```python
+from cprint import ccprint
+
+ccprint('Hello Word')
+```
+
+- **`cprint`**
+```python
+from cprint import cprint
+
+cprint(arg) 							# WHITE
+cprint.ok(arg)							# BLUE
+cprint.info(arg)						# GREEN
+cprint.warn(arg)						# YELLOW
+cprint.err(arg, interrupt=False)		# BROWN
+cprint.fatal(arg, interrupt=False)		# RED
+```
+
+![Demo](/img/screen.png)
+
+
+

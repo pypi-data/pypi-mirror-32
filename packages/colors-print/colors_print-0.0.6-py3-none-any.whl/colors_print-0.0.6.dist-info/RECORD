@@ -1,0 +1,9 @@
+colors_print-0.0.6.dist-info/METADATA,sha256=AcV9806fhoIrfd0cay6wEJvxrRL6-o7H0gB_PcmI3g4,1837
+colors_print-0.0.6.dist-info/RECORD,,
+colors_print-0.0.6.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+colors_print-0.0.6.dist-info/top_level.txt,sha256=EJAOwFVc3VMD0CZf1kIIbLrVB7KHKtAEnnGWxlOwjM0,13
+cprint/__init__.py,sha256=0odZSaPSWEzKbgB3kSGTa-s30t7NBVcD-Uwx6W-o-Jw,164
+cprint/cprint.py,sha256=CXo1PkQfbAzfJr21kIC_ZdPDJoKIpaatU8auxZImJiw,2305
+cprint/myprint.py,sha256=IpN6SM5m92w9xGS0DBOGVuwJPzQGboyLbNTOujB_ziY,1302
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test.py,sha256=fqkypsvaZ64aMpNpscC9BGHk2kf3VR27PNZ6nqp2urM,1043
