@@ -1,0 +1,17 @@
+celery_loaders/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+celery_loaders/celery_worker.py,sha256=8f6tYc1FaKLtnHjBQjVJtvgKOqyNBoRNjljYnbo-vlI,1342
+celery_loaders/log/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+celery_loaders/log/setup_logging.py,sha256=WmlHbeWz3HgB_uGR4wzDTw2asdxVFzrqShnmOAPv6-g,3599
+celery_loaders/work_tasks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+celery_loaders/work_tasks/always_fails_tasks.py,sha256=t-yRLGyj6fGeECqbBQ_hRAhOJsHRa3BfN-uLEmTlW4A,808
+celery_loaders/work_tasks/celery_config.py,sha256=p41YJCYzIz-U1_tVc-L3uFHx8XdmkdVH_DKJQA_SCjo,1283
+celery_loaders/work_tasks/custom_task.py,sha256=s_-W4qw_LD3_aiPi7N1PrdU5thqdU-gPt5EBjQ5_kyo,1551
+celery_loaders/work_tasks/get_celery_app.py,sha256=kQmwMVM3PDKpaQSdV2fEkLRyaAPBgjPcc7enaEAQZdw,2322
+celery_loaders/work_tasks/tasks.py,sha256=gRw_mqSvNAMtTFjyNT_Qz4BRZjiAvhtRxsWOxGnbVCY,871
+celery_loaders-1.0.5.data/scripts/run-celery-task.py,sha256=Xa611mWxsVn5LsrTOuSnwEYVRJZY7RX5NmBflIylbTI,3435
+celery_loaders-1.0.5.dist-info/DESCRIPTION.rst,sha256=zUnZFUZ9CY-PXTnu9Uq4-Gh1uqlfcQ_2DZZsUHNyTv4,78
+celery_loaders-1.0.5.dist-info/METADATA,sha256=S3w90S8vr5GrTi360titi2kKGxPMQ4red6HOK_bM3ho,1175
+celery_loaders-1.0.5.dist-info/RECORD,,
+celery_loaders-1.0.5.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+celery_loaders-1.0.5.dist-info/metadata.json,sha256=mv1Z6iWb_6ovGmvSblOtBzDo12OjLz-tVuFZFThSJ74,1141
+celery_loaders-1.0.5.dist-info/top_level.txt,sha256=vNKAacOp_wBNu1g5mXapzHoGQSkpGo6pN2EIvjKzQ_0,15
