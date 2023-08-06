@@ -1,0 +1,9 @@
+README.md
+setup.py
+paganini/__init__.py
+paganini/__main__.py
+paganini.egg-info/PKG-INFO
+paganini.egg-info/SOURCES.txt
+paganini.egg-info/dependency_links.txt
+paganini.egg-info/entry_points.txt
+paganini.egg-info/top_level.txt
