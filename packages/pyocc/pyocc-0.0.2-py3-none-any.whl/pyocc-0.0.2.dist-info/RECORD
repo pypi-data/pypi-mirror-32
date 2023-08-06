@@ -1,0 +1,10 @@
+pyocc/__init__.py,sha256=crslZ2IRFBiwttUBbt4X5NqB5ZhLFEljjSAiWBcilRg,191
+pyocc/__main__.py,sha256=w7HQC4WCcnwmSPFGF14ahd8fKTgje7LPWckPzD2fEoc,742
+pyocc/pyocc.py,sha256=HabUL9B-7DPqCgpabljDpcke7VOOke_1TcQ7DZhm5iw,4049
+pyocc-0.0.2.dist-info/METADATA,sha256=nzOcNDWTqf_Uky-3HkpQ6sAfvHyo8-_Hkw56vacgBDI,1828
+pyocc-0.0.2.dist-info/RECORD,,
+pyocc-0.0.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pyocc-0.0.2.dist-info/entry_points.txt,sha256=aZWA5RAQ_o4fc6NSPEBHhlHjKVwxuLrsdIgh_5D9Aao,47
+pyocc-0.0.2.dist-info/top_level.txt,sha256=xCumvmFVqPZUNM5y0sZkMIkaEeUH-YiOWATOaMlr1Wg,12
+tests/__init__.py,sha256=VkTS5gEMmh-RlfTS5APdmgTlvYsYI-KYNiQJb3oZETI,60
+tests/test_pyocc.py,sha256=84VZwTNetw0zsux6QWfHODC0zzHWxv9Qvp7ElsCL-hQ,950

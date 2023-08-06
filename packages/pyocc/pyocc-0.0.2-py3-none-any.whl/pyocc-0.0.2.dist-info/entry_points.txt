@@ -1,0 +1,3 @@
+[console_scripts]
+pyocc = pyocc.__main__:main
+
