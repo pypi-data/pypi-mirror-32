@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: jamaddr
+Version: 0.5
+Summary: IP Subnet package
+Home-page: https://github.com/talbiston/jamaddr.git
+Author: Jamison Emilio & Todd Albiston
+Author-email: foxtrot711@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Jamaddr Python Package
+
+This package Created by Jamison Emilio and packaged by Todd Albiston
+
+## Installation Python3.6 and above
+```markdown
+pip3 install jamaddr 
+```
+for python 2.7.12 and above see jamaddr27 https://github.com/talbiston/jamaddr27
+
+## Description:
+Python Package adds functions to convert IP address or subnet masks to bits and bits back to IP address.
+
+
+```python
+from jamaddr import JamAddr
+ipbits = JamAddr.ip_to_bits("192.168.0.23")
+ipbits
+
+returns = '11000000101010000000000000010111'
+```
+
+```python
+from jamaddr import JamAddr
+bitsip = JamAddr.bits_to_ip("11000000101010000000000000010111")
+bitsip
+
+returns = '192.168.0.23'
+```
+
+Of course you could also enter a subnet mask to convert to bits then do the same with its corresponding IP, then
+work out what the network ID or Broadcast IPs would be or use your imagination on what other use cases could be.
+
+```python
+from jamaddr import JamAddr
+
+def network_id(ip_cidr):
+
+    ip, cidr = ip_cidr.split('/')
+    ip_bits = JamAddr.ip_to_bits(ip)[:int(cidr)] + '0' * (32 - int(cidr))
+    return '{}/{}'.format(JamAddr.bits_to_ip(ip_bits), cidr)
+
+networkID = network_id("192.168.0.23/28")
+print(networkID)
+
+returns = 192.168.0.16/28
+```
+
+This example above is already included as a function in this package so you could just do the following, but you get the point. 
+
+```python
+from jamaddr import JamAddr
+
+networkID = JamAddr.network_id("192.168.0.23/28")
+print(networkID)
+
+returns = 192.168.0.16/28
+```
+
