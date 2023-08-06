@@ -1,0 +1,3 @@
+[console_scripts]
+strakspos = strakspos.minipos:main
+
