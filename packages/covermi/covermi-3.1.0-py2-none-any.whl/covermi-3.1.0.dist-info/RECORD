@@ -1,0 +1,26 @@
+covermi/__init__.py,sha256=YQpTTMO0_PF3vzJ4fJHfpQ-k4MN3uzjuXhKBbZZDDto,560
+covermi/annotate.py,sha256=UyZxkBcXpmXprJ9Kgv6SzKJUts6CMUgzSQ8HhLrKXUU,20476
+covermi/annotatetsca.py,sha256=1ZE7RXIeBN37GcNpL52RAFig6otgy6ltTmjLb_loUZ0,5655
+covermi/bringmiup.py,sha256=Iqay36QC6LHJcPkFwDCVcBJBuBmUpahFvofmt3LMfWw,1250
+covermi/cache.py,sha256=MkAzCRRXcJUThCVyKV_GSLtgxsKX-HnlYhI2SxJqp58,3017
+covermi/clinicalreport.py,sha256=r3VPmGfATmbr2gZxLqX8Ygx4J4emdSSwFR7PfA1xeYs,6430
+covermi/cov.py,sha256=jFwW6PGN_HNEwu4mARBQLK4_PS0Cq8S1G10s4H-Zo9A,33940
+covermi/covermigui.py,sha256=CmZgXi7RaOjaKUrmzFIoangdqjAGKkzRz5kZpqAivZE,6993
+covermi/covermimain.py,sha256=HGPpM34p2si1LDQ45OZUvxSzlAd7Eh5xdEavjs69mIU,5180
+covermi/covermiplot (copy).py,sha256=JIrhwSsmWrVZ_aiNG6W3F58nGnxrQlExifTnc8A6p-c,7312
+covermi/covermiplot.py,sha256=JFMa0oqNxq3QTFaU-kwYVYJ7L4p_vmMT_r3CNOzACfQ,7925
+covermi/covermiwgsgui.py,sha256=xggucAoZNtRSIIbQ86x8oV1IETRlyjisnWnJ0vAvx58,3875
+covermi/covermiwgsmain.py,sha256=3Zc8gWbuLPp1OdOh0CvwpTfUtZ8sM0YuBmUIA8Qzn5Y,2513
+covermi/designreport.py,sha256=nz23fsIHECTDDvDMpi7ZBhT9Fb5iIxSyihOwFIT7rfo,7737
+covermi/gr.py,sha256=r940nbUwUTVlJuho78kAmQyCIdaXK65KdwG2imHjQ0Y,59731
+covermi/include.py,sha256=yN2nrhZKSd5-Ggm2YZKT5528Qfvr4s0ePaBPKyhBzpE,573
+covermi/panel.py,sha256=2Zc7EComEXoAKp9z9LvgR6w9FuIpF_HYj03VDFH9I-U,15222
+covermi/reportfunctions.py,sha256=ROjAfmNBKCga7_Jn08d6LzUROn7SPCV_Yzdsu92o8Xo,4066
+covermi/tablereport.py,sha256=frrrxrX17qaA7ZXP4YRK4739DUaYKmKnJH6bZ9EgcXc,1074
+covermi/technicalreport.py,sha256=ZLUt2LcOYH8PU4IIA-0z2gaFJV_yCYkdlZbZUtrlqEc,2063
+covermi-3.1.0.dist-info/METADATA,sha256=1UQSkIPQCtHweItaYu1L-_rCy7yqk08U1-srhy-kmws,267
+covermi-3.1.0.dist-info/RECORD,,
+covermi-3.1.0.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+covermi-3.1.0.dist-info/entry_points.txt,sha256=JuiwwUOAWMlOwtdZzW2EAQNAxMK_ro_NgVDqPBnxwLI,129
+covermi-3.1.0.dist-info/top_level.txt,sha256=TM-LMEQrRHEg364RAYhoNSZpHwRBS240MVLOujxOeQ8,8
+covermi-3.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
