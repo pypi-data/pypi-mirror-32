@@ -1,0 +1,9 @@
+vsts/__init__.py,sha256=esvSQn_r-zXPXNO7TjzsPPuPLf-AuAC2bym_OxlZnJQ,414
+vsts/cli/__init__.py,sha256=esvSQn_r-zXPXNO7TjzsPPuPLf-AuAC2bym_OxlZnJQ,414
+vsts/cli/work/__init__.py,sha256=esvSQn_r-zXPXNO7TjzsPPuPLf-AuAC2bym_OxlZnJQ,414
+vsts/cli/work/common/__init__.py,sha256=tgaJt_VIxea35CzjM39E07y-i1owyPUjHAP34jCm2ts,349
+vsts/cli/work/common/work_item.py,sha256=mutFI7zspEfVqiZJZ9nZfKb1T5M0taRsyqkXffEN3t8,19508
+vsts_cli_work_common-0.1.1.dist-info/METADATA,sha256=2kdMEW_p_pvH1RJBL1xzPiUWlaQlvtvviovWYRd8xOw,914
+vsts_cli_work_common-0.1.1.dist-info/RECORD,,
+vsts_cli_work_common-0.1.1.dist-info/WHEEL,sha256=pZyAqgNAylOf0KG_hPHMtuuY08rV3WzWwZu2OTsNnnw,97
+vsts_cli_work_common-0.1.1.dist-info/top_level.txt,sha256=r-Q1CPVoe51isile67MY1CdCYdDF5a1ghu3YlrUuU0E,5
