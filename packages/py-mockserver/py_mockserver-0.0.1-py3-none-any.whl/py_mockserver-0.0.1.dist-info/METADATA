@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: py-mockserver
+Version: 0.0.1
+Summary: Python client for mockserver
+Home-page: https://github.com/danggrianto/py-mockserver
+Author: Daniel Anggrianto
+Author-email: d.anggrianto@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# py-mockserver
+mockserver client for james bloom's mockserver https://github.com/jamesdbloom/mockserver
+
+

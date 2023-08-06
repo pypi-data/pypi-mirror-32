@@ -1,0 +1,12 @@
+py_mockserver-0.0.1.dist-info/METADATA,sha256=RPtPgmXH7Jtt2Ny-KJVh_xp9XxUCtZc1mQ4QA1CcgQo,567
+py_mockserver-0.0.1.dist-info/RECORD,,
+py_mockserver-0.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+py_mockserver-0.0.1.dist-info/top_level.txt,sha256=iBmJZ8xPFiKPfzv4RJD3YhcXo96AGM1NaulxDj1fAbE,19
+pymockserver/__init__.py,sha256=TnnaDV56k7OsIxDyFWdlyrmC0D872drWjauHa1EhWCk,87
+pymockserver/client.py,sha256=f3GSKAAXJFVBCVu7axC0ADMgrveEcijI8payHSyvCYA,1792
+pymockserver/request.py,sha256=MRH0ssDB0Vnw4TeZ_U26D4qtvjYv_jGKQpfYzdDCBSk,818
+pymockserver/response.py,sha256=i3d45RvHqkhAb3HhC97w04NtVF1B7oE0GtFQ6w7h47E,695
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/client_test.py,sha256=1WnvTV_TGMid7tW_aotgup0mQJKh5Pu5vp2xFSBfZrU,2020
+tests/request_test.py,sha256=YosVrD441l6sMU0sRiLqRfHHoq_YCkRdxhGGZMUbJZc,665
+tests/response_test.py,sha256=z-0yCMCzdD55MJ-__GctFKBIw7p95y3ZMc1rz3nDPdU,651
