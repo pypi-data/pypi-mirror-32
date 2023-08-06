@@ -1,0 +1,11 @@
+gkeepapi/__init__.py,sha256=tlIZGi-p0yjn1HKYf8Zw7MUoTZq5NfooqXnW5KPVDsU,23480
+gkeepapi/exception.py,sha256=BxUV3R2ZgKdRoH-c4Ha4nGg2c5DUufaHur3X9rN8oqk,565
+gkeepapi/node.py,sha256=KLK3st1ciXOkofKSoHPl1gtbEblmoHGt6jUyuRybVLg,37876
+gkeepapi-0.10.7.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+gkeepapi-0.10.7.dist-info/METADATA,sha256=HsQXrsaecEYS5NI7qVvCBh3JEEtUi4RsNYpUqbe8HXM,764
+gkeepapi-0.10.7.dist-info/RECORD,,
+gkeepapi-0.10.7.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+gkeepapi-0.10.7.dist-info/metadata.json,sha256=EpMPI-YE_IXo8mV2GhX8CyqoZralPjdkHxJ80VeA1e8,945
+gkeepapi-0.10.7.dist-info/top_level.txt,sha256=d3QQ-9H4MBm37EL4JpIdhWb-3lsW8zBpufnVzjtNBVg,14
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_nodes.py,sha256=SjLTizgcfasCHn-mOy2MCCPN-HF-8PMtejCH_cCRAVU,9260
