@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: vakt
+Version: 1.0.2
+Summary: Attribute-based access control (ABAC) SDK for Python
+Home-page: https://github.com/kolotaev/vakt
+Author: Egor Kolotaev
+Author-email: ekolotaev@gmail.com
+License: Apache 2.0 license
+Description: UNKNOWN
+Keywords: ACL RBAC access policy security
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: PyPy
