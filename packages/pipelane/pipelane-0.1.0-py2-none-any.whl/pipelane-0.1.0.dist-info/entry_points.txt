@@ -1,0 +1,3 @@
+[console_scripts]
+pipelane = pipelane.cli:main
+
