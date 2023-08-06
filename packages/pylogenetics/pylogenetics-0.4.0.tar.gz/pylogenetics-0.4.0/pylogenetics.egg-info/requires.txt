@@ -1,0 +1,4 @@
+nose
+networkx
+numpy
+requests
