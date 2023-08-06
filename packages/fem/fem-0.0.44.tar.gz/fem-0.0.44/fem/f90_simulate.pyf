@@ -1,0 +1,26 @@
+!    -*- f90 -*-
+! Note: the context of this file is case sensitive.
+
+python module f90_simulate ! in 
+    interface  ! in :f90_simulate
+        subroutine simulate_data(par,nm,pq_sum,degs,p,q,k,x_idx,pdegs_sum,n,m,p_sum,l,x) ! in :f90_simulate:f90_simulate.f90
+            real*8 dimension(nm,pq_sum) :: par
+            integer, optional,check(shape(par,0)==nm),depend(par) :: nm=shape(par,0)
+            integer, optional,check(shape(par,1)==pq_sum),depend(par) :: pq_sum=shape(par,1)
+            integer dimension(k) :: degs
+            integer dimension(k),depend(k) :: p
+            integer dimension(k),depend(k) :: q
+            integer, optional,check(len(degs)>=k),depend(degs) :: k=len(degs)
+            integer dimension(pdegs_sum) :: x_idx
+            integer, optional,check(len(x_idx)>=pdegs_sum),depend(x_idx) :: pdegs_sum=len(x_idx)
+            integer :: n
+            integer :: m
+            integer :: p_sum
+            integer :: l
+            integer dimension(p_sum,l),intent(out),depend(p_sum,l) :: x
+        end subroutine simulate_data
+    end interface 
+end python module f90_simulate
+
+! This file was auto-generated with f2py (version:2).
+! See http://cens.ioc.ee/projects/f2py2e/
