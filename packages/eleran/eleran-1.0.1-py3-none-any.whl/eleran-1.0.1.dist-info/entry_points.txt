@@ -1,0 +1,4 @@
+
+		[console_scripts]
+		eleran=eleran.main:cli
+	
