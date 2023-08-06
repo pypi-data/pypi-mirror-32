@@ -1,0 +1,4 @@
+[plover.dictionary]
+yaml = plover_yaml_dictionary:YAMLDictionary
+yml = plover_yaml_dictionary:YAMLDictionary
+
