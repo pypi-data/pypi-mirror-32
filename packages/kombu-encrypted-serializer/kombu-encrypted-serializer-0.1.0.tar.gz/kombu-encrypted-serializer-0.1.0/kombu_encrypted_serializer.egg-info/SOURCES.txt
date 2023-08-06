@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+kombu_encrypted_serializer/__init__.py
+kombu_encrypted_serializer/exceptions.py
+kombu_encrypted_serializer/serialization.py
+kombu_encrypted_serializer.egg-info/PKG-INFO
+kombu_encrypted_serializer.egg-info/SOURCES.txt
+kombu_encrypted_serializer.egg-info/dependency_links.txt
+kombu_encrypted_serializer.egg-info/not-zip-safe
+kombu_encrypted_serializer.egg-info/requires.txt
+kombu_encrypted_serializer.egg-info/top_level.txt
+tests/__init__.py
+tests/test_serialization.py
+tests/test_setup.py
