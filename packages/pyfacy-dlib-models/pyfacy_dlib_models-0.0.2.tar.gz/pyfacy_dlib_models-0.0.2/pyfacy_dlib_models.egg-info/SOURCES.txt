@@ -1,0 +1,8 @@
+README.md
+setup.py
+pyfacy_dlib_models/__init__.py
+pyfacy_dlib_models.egg-info/PKG-INFO
+pyfacy_dlib_models.egg-info/SOURCES.txt
+pyfacy_dlib_models.egg-info/dependency_links.txt
+pyfacy_dlib_models.egg-info/not-zip-safe
+pyfacy_dlib_models.egg-info/top_level.txt
