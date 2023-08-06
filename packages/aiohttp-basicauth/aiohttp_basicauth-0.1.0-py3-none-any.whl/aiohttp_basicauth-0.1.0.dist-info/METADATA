@@ -1,0 +1,16 @@
+Metadata-Version: 2.0
+Name: aiohttp-basicauth
+Version: 0.1.0
+Summary: HTTP basic authentication middleware for aiohttp 3.0+
+Home-page: https://github.com/romis2012/aiohttp-basicauth
+Author: Roman Snegirev
+Author-email: snegiryev@gmail.com
+License: Apache 2
+Description-Content-Type: UNKNOWN
+Keywords: aiohttp http basic auth
+Platform: UNKNOWN
+Requires-Dist: aiohttp (>=3.0)
+
+HTTP basic authentication middleware for aiohttp 3.0+. See https://github.com/romis2012/aiohttp-basicauth for more information
+
+
