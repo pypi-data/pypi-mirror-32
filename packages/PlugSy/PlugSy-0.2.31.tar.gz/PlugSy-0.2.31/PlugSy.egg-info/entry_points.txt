@@ -1,0 +1,3 @@
+[console_scripts]
+LaunchPlugsyGui = plugsy.utils.LaunchPlugsyGui:Go
+
