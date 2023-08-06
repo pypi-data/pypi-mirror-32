@@ -1,0 +1,9 @@
+git_stalk/__init__.py,sha256=rmyFTn3UEcUWwu0pM6-7Ai6AkFR8uaIK7f9GK0n16ms,126
+git_stalk/stalk.py,sha256=Q95cWKa6OAfLSwx9xyecE21T1WlGVW2Ulu2Jq0N2VKY,3698
+git_stalk-1.0.0.dist-info/METADATA,sha256=Jn8mBpQsctaPLPVeskUb8el_pDs5DlepfDROdQTOYo0,2348
+git_stalk-1.0.0.dist-info/RECORD,,
+git_stalk-1.0.0.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+git_stalk-1.0.0.dist-info/entry_points.txt,sha256=MSZZ6HHCJMZsQr6AF11Y8gZWqRKMSmmqc_JavXo8ayM,47
+git_stalk-1.0.0.dist-info/top_level.txt,sha256=fjyRXFH_1ALAXSILEXhRGX0UEiMzBiUejccbLNS2m5k,16
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_contri.py,sha256=XbmwoGuFylrvyPtKMMAfN2sR-vhNbZ4IIjoY7WtnfFE,149
