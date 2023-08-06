@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: scylla_django_session_store
+Version: 0.0.3
+Summary: Syclla/Cassandra django session store. 
+Home-page: https://github.com/mwaaas/scylla_django_session_store
+Author: francismwangi
+Author-email: francismwangi152@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
