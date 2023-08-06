@@ -1,0 +1,10 @@
+bravado-core>=5.0.1
+msgpack-python
+python-dateutil
+pyyaml
+requests>=2.4
+six
+monotonic
+
+[fido]
+fido>=4.2.1
