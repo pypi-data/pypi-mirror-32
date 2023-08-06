@@ -1,0 +1,5 @@
+[gui_scripts]
+EasySetupPy = easysetuppy:main
+build = easysetuppy:build_and_upload
+easysetuppy = easysetuppy:main
+
