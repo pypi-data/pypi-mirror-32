@@ -1,0 +1,3 @@
+[console_scripts]
+jen2jen = jen2jen.jen2jen:main
+

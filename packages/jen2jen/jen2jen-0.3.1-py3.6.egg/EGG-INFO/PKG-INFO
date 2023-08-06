@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: jen2jen
+Version: 0.2.0
+Summary: Python command line Jenkins cloning and backing up tool, provides methods to interact with Jenkins
+Home-page: https://helgie.github.io/jen2jen/
+Author: Oleg 'helgie' Lymarchuk
+Author-email: oleg.lymarchuk@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: Jenkins jobs pipelines save clone backup build continuous deployment
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
