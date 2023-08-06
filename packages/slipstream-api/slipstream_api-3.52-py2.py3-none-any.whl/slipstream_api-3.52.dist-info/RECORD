@@ -1,0 +1,11 @@
+slipstream_api-3.52-py2.7-nspkg.pth,sha256=byqMuLQjzRxuqODlSNmH1mrwn5WMsl-4CatxigXKdzo,559
+slipstream/api/__init__.py,sha256=JwZ9WqXiOKmnGsFePpa1x-X0O2d2-CCRpFjkPgKN2fU,64
+slipstream/api/api.py,sha256=bb40ST4Xb7DuUTf6-HPiVGBT4k14pdjZPjBi3-I5Y0E,62164
+slipstream/api/models.py,sha256=CVqfSodqBo2FOkfDBczmEhIjR2wkl9XN9BRXhI46oyI,5071
+slipstream_api-3.52.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+slipstream_api-3.52.dist-info/METADATA,sha256=0iK97a1HlaHoVStAQ-aiYv6yP6RAJRCzu2bRAmyqOSE,1142
+slipstream_api-3.52.dist-info/RECORD,,
+slipstream_api-3.52.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+slipstream_api-3.52.dist-info/metadata.json,sha256=jq4qMARF-6vs2XAnQ6R1r6aj6gCBjHLU3j35H2Hpb9s,1230
+slipstream_api-3.52.dist-info/namespace_packages.txt,sha256=KTQNyCcrjCMaYG1hCyNjT3GU34U-NVsJlhQ1BRZAsjQ,11
+slipstream_api-3.52.dist-info/top_level.txt,sha256=KTQNyCcrjCMaYG1hCyNjT3GU34U-NVsJlhQ1BRZAsjQ,11
