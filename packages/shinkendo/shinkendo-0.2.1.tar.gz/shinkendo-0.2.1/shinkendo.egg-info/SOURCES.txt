@@ -1,0 +1,9 @@
+README.md
+setup.py
+shinkendo.py
+shinkendo.egg-info/PKG-INFO
+shinkendo.egg-info/SOURCES.txt
+shinkendo.egg-info/dependency_links.txt
+shinkendo.egg-info/entry_points.txt
+shinkendo.egg-info/requires.txt
+shinkendo.egg-info/top_level.txt
