@@ -1,0 +1,6 @@
+chardet
+geopy>=1.14
+texttable
+pager
+pycurl
+cachecontrol>=0.12.4
