@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: moria
+Version: 0.0.0
+Summary: Just a placeholder for my intended app
+Home-page: UNKNOWN
+Author: Jan Musílek
+Author-email: jan.musilek@matfyz.cz
+License: UNKNOWN
+Description: =======
+         Moria
+        =======
+        
+        Just a placeholder for my intended app.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6

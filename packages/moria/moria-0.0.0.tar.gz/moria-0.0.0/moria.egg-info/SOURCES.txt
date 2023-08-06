@@ -1,0 +1,7 @@
+MANIFEST.in
+README.rst
+setup.py
+moria.egg-info/PKG-INFO
+moria.egg-info/SOURCES.txt
+moria.egg-info/dependency_links.txt
+moria.egg-info/top_level.txt
