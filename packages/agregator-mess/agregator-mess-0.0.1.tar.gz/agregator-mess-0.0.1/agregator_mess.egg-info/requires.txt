@@ -1,0 +1,3 @@
+vk_api
+PyQt5
+telethon
