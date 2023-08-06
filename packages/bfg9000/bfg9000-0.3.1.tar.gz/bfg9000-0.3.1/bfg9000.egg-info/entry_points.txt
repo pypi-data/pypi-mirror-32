@@ -1,0 +1,18 @@
+[bfg9000.backends]
+make = bfg9000.backends.make.writer
+msbuild = bfg9000.backends.msbuild.writer [msbuild]
+ninja = bfg9000.backends.ninja.writer
+
+[bfg9000.platforms]
+cygwin = bfg9000.platforms.windows:CygwinPlatform
+darwin = bfg9000.platforms.posix:DarwinPlatform
+linux = bfg9000.platforms.posix:LinuxPlatform
+posix = bfg9000.platforms.posix:PosixPlatform
+windows = bfg9000.platforms.windows:WindowsPlatform
+
+[console_scripts]
+9k = bfg9000.driver:simple_main
+bfg9000 = bfg9000.driver:main
+bfg9000-depfixer = bfg9000.depfixer:main
+bfg9000-jvmoutput = bfg9000.jvmoutput:main
+
