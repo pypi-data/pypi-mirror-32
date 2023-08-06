@@ -1,0 +1,3 @@
+[console_scripts]
+visualpic = VisualPIC.__main__:display_gui
+
