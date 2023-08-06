@@ -1,0 +1,4 @@
+catkin_pkg
+colcon-cmake>=0.2.0
+colcon-core>=0.2.0
+colcon-python-setup-py
