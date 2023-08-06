@@ -1,0 +1,13 @@
+madarrays/__init__.py,sha256=55eezOLWlO66g9_fGQNH6A9awj57xbvVOuP9lHJpmNA,1445
+madarrays/mad_array.py,sha256=46w2-283PRMAEpBr5yspEZA1QhaAvdmxyqAWBcKUDFc,24424
+madarrays/waveform.py,sha256=KXVpKcCYfVy695tFqz_U_pkwOGeyYfVt03cscaL1SCw,26416
+madarrays/tests/__init__.py,sha256=8pTuKZbU2nC4EBeWGMjctt1yzPllu714B2UV4E92sxY,1308
+madarrays/tests/test_madarray.py,sha256=E0tujaT712gkl49qs2XFL_xU3zzrVab45lVpw8Gms2w,30391
+madarrays/tests/test_waveform.py,sha256=Fz_hFlo-TTBlln5Lee661sx709CmzcFzaDcNxSpecGY,44248
+madarrays/tests/utils.py,sha256=cSDZYCrOJyrG8BeIV5vOTkehuE48_H_XRCTUn58yJXU,1803
+madarrays-1.0.4.dist-info/DESCRIPTION.rst,sha256=HPuZ4v8SxY7frl0TpFM-Br3CjcS9lgreSemG5xZ75qk,1445
+madarrays-1.0.4.dist-info/METADATA,sha256=CLAdUGRgC3aHRZ4EBpCYphRN-XwTECsyE_Fy7pGRusY,3146
+madarrays-1.0.4.dist-info/RECORD,,
+madarrays-1.0.4.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+madarrays-1.0.4.dist-info/metadata.json,sha256=I4Fw6WYXsh2dOnv3cWSrKxjygUtn4jzQfPT-OyKm7Ro,1583
+madarrays-1.0.4.dist-info/top_level.txt,sha256=V6_ETIQ8eAjXIQEYJ8zUMF4F0ek3Reo-Li7IcTA8LiY,10
