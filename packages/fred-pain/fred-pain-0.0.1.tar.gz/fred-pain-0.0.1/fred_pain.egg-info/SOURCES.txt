@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+fred_pain/__init__.py
+fred_pain.egg-info/PKG-INFO
+fred_pain.egg-info/SOURCES.txt
+fred_pain.egg-info/dependency_links.txt
+fred_pain.egg-info/requires.txt
+fred_pain.egg-info/top_level.txt

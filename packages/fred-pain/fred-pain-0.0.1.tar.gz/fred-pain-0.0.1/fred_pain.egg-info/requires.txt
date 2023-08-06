@@ -1,0 +1,7 @@
+django-pain
+
+[quality]
+isort
+flake8
+pydocstyle
+mypy
