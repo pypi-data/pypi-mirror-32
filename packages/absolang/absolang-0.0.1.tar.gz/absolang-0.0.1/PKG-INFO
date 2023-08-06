@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: absolang
+Version: 0.0.1
+Summary: A sentiment analysis library for detecting absolutist language.
+Home-page: http://github.com/prodigyfinance/absolang
+Author: Prodigy Finance
+Author-email: devops@prodigyfinance.com
+License: Unknown
+Description: Absolang
+        ========
+        
+        A sentiment analysis library for detecting absolutist language.
+        
+        Installing
+        ----------
+        
+        ::
+        
+            $ pip install absolang
+            $ python -m spacy download en_core_web_sm
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Provides-Extra: dev

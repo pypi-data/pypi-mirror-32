@@ -1,0 +1,6 @@
+spacy
+
+[dev]
+flake8
+pytest==3.6.0
+pytest-flake8==1.0.1
