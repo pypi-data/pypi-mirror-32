@@ -1,0 +1,72 @@
+twweb (0.4.0)
+
+  * Read user configuration from TWWEB_SETTINGS envvar.
+  * Added table view which is now a default one.
+  * Added "Remember me" to login process.
+  * Chosen views are saved in a session.
+  * Runtime configuration validation.
+  * Expire CSRF token with a session by default.
+  * Preserve some form data between requests.
+  * Changed config-dev to default config.
+  * Version service worker's cache.
+  * Added offline page for PWA.
+  * Updated service worker
+  * Added a logo to the navbar.
+  * Changed text color for completed tasks.
+  * Added back background_color to manifest.json
+  * Minor accessability and performance fixes.
+  * Bugfix: Close <li> tag.
+  * Bugfix: Register service worker only in browsers which support it.
+
+ -- Michał Góral <dev@mgoral.org> Sat, 16 June 2018 00:28:09 +0200
+
+twweb (0.3.0)
+
+  * Moved source code to Gitlab.
+  * Separate common jinja variables into page and user groups.
+  * Render nicer error pages (for 404, failed login or CSRF validation).
+  * Improved accessability of the site.
+  * Show task projects in a card view.
+  * Changed theme-color to match navbar.
+  * Added a footer to templates.
+  * Added a heading to each page.
+  * Bugfix: Disallow caching of some important pages with CSRF tokens.
+  * Bugfix: Fixed style.css URI.
+  * Bugfix: Fixed incorrect action forms names inside templates.
+  * Bugfix: Fixed duplicate input ids.
+
+ -- Michał Góral <dev@mgoral.org> Wed, 06 June 2018 23:07:50 +0200
+
+twweb (0.2.2)
+
+  * Bugfix: Added missing icons for PWA
+
+ -- Michał Góral <dev@mgoral.org> Fri, 01 June 2018
+
+twweb (0.2.1)
+
+  * Implemented Progressive Web App
+
+ -- Michał Góral <dev@mgoral.org> Fri, 01 June 2018
+
+twweb (0.1.2)
+
+  * Added README.
+  * Renamed everything in example configuration files from tww to twweb.
+  * Bugfix: Fixed module name in uwsgi configuration.
+
+ -- Michał Góral <dev@mgoral.org> Thu, 31 May 2018
+
+twweb (0.1.1)
+
+  * Bugfix: Added missing files to pypi package.
+
+ -- Michał Góral <dev@mgoral.org> Thu, 31 May 2018
+
+twweb (0.1.0)
+
+  * Initial release
+  * Add and edit tasks
+  * Filter and sort tasks
+
+ -- Michał Góral <dev@mgoral.org> Thu, 31 May 2018
