@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: OpticalRS
+Version: 1.0.4
+Summary: OpticalRS is a Python implementation of optical remote sensing methods for mapping of submerged habitats.
+Home-page: https://github.com/jkibele/OpticalRS
+Author: Jared Kibele
+Author-email: jkibele@gmail.com
+License: BSD
+Description: OpticalRS is a free and open source Python implementation of passive optical remote sensing methods for the derivation of bathymetric maps and maps of submerged habitats.
+Keywords: OpticalRS
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
