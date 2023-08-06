@@ -1,0 +1,17 @@
+AUTHORS.rst
+CONTRIBUTING.rst
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+tests/__init__.py
+tests/test_tusharedeps.py
+tushare_deps.egg-info/PKG-INFO
+tushare_deps.egg-info/SOURCES.txt
+tushare_deps.egg-info/dependency_links.txt
+tushare_deps.egg-info/not-zip-safe
+tushare_deps.egg-info/requires.txt
+tushare_deps.egg-info/top_level.txt
+tusharedeps/__init__.py
