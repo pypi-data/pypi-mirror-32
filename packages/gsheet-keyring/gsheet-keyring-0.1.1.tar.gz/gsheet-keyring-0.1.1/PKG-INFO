@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: gsheet-keyring
+Version: 0.1.1
+Summary: This package provides a Keyring back end backed by a Google Sheet.
+Home-page: https://github.com/osteele/gsheet-keyring
+Author: Oliver Steele
+Author-email: steele@osteele.com
