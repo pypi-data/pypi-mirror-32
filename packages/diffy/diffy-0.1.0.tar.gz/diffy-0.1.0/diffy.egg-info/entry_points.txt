@@ -1,0 +1,13 @@
+[console_scripts]
+diffy = diffy_cli.core:entry_point
+
+[diffy.plugins]
+aws_collection_ssm = diffy.plugins.diffy_aws.plugin:SSMCollectionPlugin
+aws_persistence_s3 = diffy.plugins.diffy_aws.plugin:S3PersistencePlugin
+aws_target_auto_scaling_group = diffy.plugins.diffy_aws.plugin:AutoScalingTargetPlugin
+local_analysis_cluster = diffy.plugins.diffy_local.plugin:ClusterAnalysisPlugin
+local_analysis_simple = diffy.plugins.diffy_local.plugin:SimpleAnalysisPlugin
+local_payload_command = diffy.plugins.diffy_local.plugin:CommandPayloadPlugin
+local_persistence_file = diffy.plugins.diffy_local.plugin:FilePersistencePlugin
+osquery_payload = diffy.plugins.diffy_osquery.plugin:OSQueryPayloadPlugin
+
