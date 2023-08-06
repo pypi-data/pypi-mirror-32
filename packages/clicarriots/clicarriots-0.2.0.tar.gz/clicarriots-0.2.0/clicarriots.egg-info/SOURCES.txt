@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+clicarriots/__init__.py
+clicarriots/api.py
+clicarriots/client.py
+clicarriots.egg-info/PKG-INFO
+clicarriots.egg-info/SOURCES.txt
+clicarriots.egg-info/dependency_links.txt
+clicarriots.egg-info/top_level.txt
