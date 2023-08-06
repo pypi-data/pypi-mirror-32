@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: udevbackup
+Version: 0.1
+Summary: No description yet.
+Home-page: UNKNOWN
+Author: flanker
+Author-email: flanker@19pouces.net
+License: CeCILL-B
+Description: UdevBackup
+        ==========
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: CEA CNRS Inria Logiciel Libre License, version 2.1 (CeCILL-2.1)
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
