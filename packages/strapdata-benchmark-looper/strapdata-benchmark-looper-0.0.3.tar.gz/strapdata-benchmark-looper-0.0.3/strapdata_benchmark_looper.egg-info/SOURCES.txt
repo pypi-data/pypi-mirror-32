@@ -1,0 +1,10 @@
+MANIFEST.in
+docker-compose.yml
+setup.py
+todo-example.json
+./benchmark-looper.py
+strapdata_benchmark_looper.egg-info/PKG-INFO
+strapdata_benchmark_looper.egg-info/SOURCES.txt
+strapdata_benchmark_looper.egg-info/dependency_links.txt
+strapdata_benchmark_looper.egg-info/requires.txt
+strapdata_benchmark_looper.egg-info/top_level.txt
