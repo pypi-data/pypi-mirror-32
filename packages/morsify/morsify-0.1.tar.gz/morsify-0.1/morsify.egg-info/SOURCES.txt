@@ -1,0 +1,7 @@
+morsify.py
+setup.py
+morsify.egg-info/PKG-INFO
+morsify.egg-info/SOURCES.txt
+morsify.egg-info/dependency_links.txt
+morsify.egg-info/requires.txt
+morsify.egg-info/top_level.txt
