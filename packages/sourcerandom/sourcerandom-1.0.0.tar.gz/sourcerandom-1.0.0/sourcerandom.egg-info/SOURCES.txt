@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+sourcerandom/__init__.py
+sourcerandom/__version__.py
+sourcerandom/core.py
+sourcerandom.egg-info/PKG-INFO
+sourcerandom.egg-info/SOURCES.txt
+sourcerandom.egg-info/dependency_links.txt
+sourcerandom.egg-info/requires.txt
+sourcerandom.egg-info/top_level.txt
