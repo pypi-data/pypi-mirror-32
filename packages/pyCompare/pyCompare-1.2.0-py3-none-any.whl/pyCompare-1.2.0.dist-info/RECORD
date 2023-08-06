@@ -1,0 +1,10 @@
+pyCompare/__init__.py,sha256=eApTmoqUQOOztHdgh9Xw-MPp2XPW_9kg2zffNsI81Og,203
+pyCompare/_carkeetCIest.py,sha256=cJH-5UMJ-spPNAiviI_FHRgMIBklbqf43D6Y7FJ5chc,2868
+pyCompare/_detrend.py,sha256=GgcjFDXmydVIimAZ6yTZOg6AV3PJCG1thwu6legAgqU,1055
+pyCompare/_plotBlandAltman.py,sha256=bofrt--hArTCbxR2o0NKObizqBVRt33OtuhtBrX85T0,7263
+pyCompare/_rangeFrameLocator.py,sha256=wSvrZ2K5oyIzy4TeZanSTCShnDI9NusRdY2wtEf1wAs,875
+pyCompare-1.2.0.dist-info/METADATA,sha256=kSHg5Cj3pBxnIY6LDXKfNFJN-FGWosBEEdSo6accDDQ,1368
+pyCompare-1.2.0.dist-info/RECORD,,
+pyCompare-1.2.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pyCompare-1.2.0.dist-info/top_level.txt,sha256=QUB_1BVdF27ETeALMTtbM2U3PEqo_yvMmtzjZU15LWU,10
+pyCompare-1.2.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
