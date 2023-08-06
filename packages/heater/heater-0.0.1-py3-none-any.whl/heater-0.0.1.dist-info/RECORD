@@ -1,0 +1,9 @@
+heater/__init__.py,sha256=KbFHgCdoBH3nHeAFeQs_WND145610EwLML-ue1WEETs,83
+heater/__main__.py,sha256=mDfk_S3ZzhOxdXD0o4Lf75ibM0sXcQHMIufCX_QeHO8,912
+heater/heater.py,sha256=80pHmzUSMZmuLViO9tkh4hMI-eOTl82b0cDassNgGJM,2197
+heater/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+heater/resources/dot.png,sha256=pHv7gtu9rQ14MsOPBqYZycNthYYbnufHXtLu914TexQ,27756
+heater/resources/scale.png,sha256=zzbDvGUOI8FwiWsFvKbgCZh9NrM2QUWQWhnG09qzFFE,7948
+heater-0.0.1.dist-info/WHEEL,sha256=1hFNIBVr0mqHdj15Z6oCbvlD10kJ17hbew1sSEPQkj8,83
+heater-0.0.1.dist-info/METADATA,sha256=LBiJlA9haT17q_7ejARHrw1McpdGzwry-3_xu8uY3rU,1178
+heater-0.0.1.dist-info/RECORD,,
