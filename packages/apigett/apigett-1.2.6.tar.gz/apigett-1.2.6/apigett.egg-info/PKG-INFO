@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: apigett
+Version: 1.2.6
+Summary: Gets JSON-based API query result and saves them in a JSON, CSV or TXT file format.
+Home-page: https://github.com/OdilonVieira/apigett
+Author: Odilon Vieira
+Author-email: odilon.vieira95@gmail.com
+License: GNU
+Description: More informations in: https://github.com/OdilonVieira/apigett
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Utilities
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Natural Language :: English

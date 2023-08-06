@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+apigett/__init__.py
+apigett.egg-info/PKG-INFO
+apigett.egg-info/SOURCES.txt
+apigett.egg-info/dependency_links.txt
+apigett.egg-info/entry_points.txt
+apigett.egg-info/not-zip-safe
+apigett.egg-info/requires.txt
+apigett.egg-info/top_level.txt
