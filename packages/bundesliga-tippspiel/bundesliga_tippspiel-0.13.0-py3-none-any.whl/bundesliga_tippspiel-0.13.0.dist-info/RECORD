@@ -1,0 +1,9 @@
+bundesliga_tippspiel/__init__.py,sha256=25XBK9XkLkAeGsCB9EW8gSZm8w4atyOof_TDBbS5amQ,757
+bundesliga_tippspiel/router.py,sha256=MbjdYrg0--XXUU-cBtLSx3PwBQBQrTZLH99_J23QF3Y,861
+bundesliga_tippspiel/static/style.css,sha256=L9n4MEDCGM68PY2Hjm2FEkodF1wPyob0WqOtp-44VBE,741
+bundesliga_tippspiel/templates/header.html,sha256=wuiUWQ_N3xqDJutJjGr6uT2Di4jbVJotkyauftEvSPE,967
+bundesliga_tippspiel-0.13.0.dist-info/METADATA,sha256=pGg7pT7pZDJ4ag6b24BBp3Zw_eLevDyoJXAnQarK0sE,2136
+bundesliga_tippspiel-0.13.0.dist-info/RECORD,,
+bundesliga_tippspiel-0.13.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+bundesliga_tippspiel-0.13.0.dist-info/top_level.txt,sha256=S7xR_4FOfAtIpiFABpX5WQimg_qfPs6fyC8_NkZoKms,26
+test/__init__.py,sha256=25XBK9XkLkAeGsCB9EW8gSZm8w4atyOof_TDBbS5amQ,757
