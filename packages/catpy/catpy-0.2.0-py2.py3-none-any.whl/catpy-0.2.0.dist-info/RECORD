@@ -1,0 +1,10 @@
+catpy/__init__.py,sha256=E0UFwXDVgsZzQLd_Ti6R_rYt8pCQuuJNWHHy6piFH8o,379
+catpy/author.py,sha256=CmaQr5lQ_BCRx52KC0z0kBLlF9VanESLYyQYYxBAAdE,99
+catpy/client.py,sha256=TkBeECQUh6XYxplqn6D_ryy4iMsHfm1Y84FNpUjJevY,27331
+catpy/export.py,sha256=-pYavIC0xb4waRv3C_7GOcoZlZDr9M9cyeqhyE39T7k,5356
+catpy/image.py,sha256=3rh9TWSvaLcciFYF4q-bHR8LCD3Yy83EAMIzbOZiwKY,36009
+catpy/version.py,sha256=i-2MKLbtj1O_n-jltolZwF_AfuwFqGZ5mPVG7abJICk,112
+catpy-0.2.0.dist-info/METADATA,sha256=m4vGX6xomKczE5y_7rSiikA7h4pJxRMp3YTsA9ZlVJU,2093
+catpy-0.2.0.dist-info/RECORD,,
+catpy-0.2.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+catpy-0.2.0.dist-info/top_level.txt,sha256=Yhg76Iyl7o_9PYspRPNsc95t1u3i1LM-4hy_wmuCUXU,6
