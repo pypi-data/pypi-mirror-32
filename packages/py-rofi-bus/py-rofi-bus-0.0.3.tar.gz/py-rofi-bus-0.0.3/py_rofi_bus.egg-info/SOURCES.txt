@@ -1,0 +1,14 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+py_rofi_bus/__init__.py
+py_rofi_bus/__init__.pyc
+py_rofi_bus/dbus_server.py
+py_rofi_bus/rofi_window_script.py
+py_rofi_bus/window_listener.py
+py_rofi_bus.egg-info/PKG-INFO
+py_rofi_bus.egg-info/SOURCES.txt
+py_rofi_bus.egg-info/dependency_links.txt
+py_rofi_bus.egg-info/requires.txt
+py_rofi_bus.egg-info/top_level.txt
