@@ -1,0 +1,11 @@
+setup.py
+tag_counter/__init__.py
+tag_counter/core.py
+tag_counter/tests.py
+tag_counter/web.py
+tag_counter.egg-info/PKG-INFO
+tag_counter.egg-info/SOURCES.txt
+tag_counter.egg-info/dependency_links.txt
+tag_counter.egg-info/entry_points.txt
+tag_counter.egg-info/requires.txt
+tag_counter.egg-info/top_level.txt

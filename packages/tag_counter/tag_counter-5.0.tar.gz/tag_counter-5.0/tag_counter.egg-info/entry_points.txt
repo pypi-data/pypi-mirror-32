@@ -1,0 +1,4 @@
+[console_scripts]
+serve = tag_counter.web:run_server
+tag_counter = tag_counter.core:print_message
+
