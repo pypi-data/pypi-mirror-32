@@ -1,0 +1,6 @@
+[nose.plugins.0.10]
+pandokia = pandokia.helpers.nose_plugin:Pdk
+
+[pytest11]
+pandokia = pandokia.helpers.pytest_plugin
+

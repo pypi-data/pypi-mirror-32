@@ -1,0 +1,2 @@
+pandokia
+stsci_regtest

@@ -1,0 +1,261 @@
+
+
+START
+test_run=user_jhunk_2018-06-11-15-21-34
+project=default
+host=gumb
+location=/Users/jhunk/Downloads/pandokia/tests/nose_smoke/test_tra_exception.py
+test_runner=nose
+context=default
+SETDEFAULT
+
+
+START
+test_run=user_jhunk_2018-06-11-15-21-34
+project=default
+host=gumb
+location=/Users/jhunk/Downloads/pandokia/tests/nose_smoke/test_tra_exception.py
+test_runner=nose
+context=default
+SETDEFAULT
+test_name=Users/jhunk/Downloads/pandokia/tests/nose_smoke/test_tra_exception.test_long_exception_traceback
+status=E
+start_time=2018-06-11 15:21:34.938
+end_time=2018-06-11 15:21:34.938
+tra_exception:
+.ValueError: 
+.********************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+
+log:
+.  File "/Users/jhunk/miniconda3/envs/pandokia/lib/python3.6/unittest/case.py", line 59, in testPartExecutor
+.    yield
+.  File "/Users/jhunk/miniconda3/envs/pandokia/lib/python3.6/unittest/case.py", line 605, in run
+.    testMethod()
+.  File "/Users/jhunk/miniconda3/envs/pandokia/lib/python3.6/site-packages/nose/case.py", line 197, in runTest
+.    self.test(*self.arg)
+.  File "/Users/jhunk/Downloads/pandokia/tests/nose_smoke/test_tra_exception.py", line 21, in test_long_exception_traceback
+.    raise ValueError(output)
+.
+.EXCEPTION
+.Type: ValueError
+.Message: 
+.********************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.Trigger: raise ValueError(output)
+
+END
+test_name=Users/jhunk/Downloads/pandokia/tests/nose_smoke/test_tra_exception.test_long_exception_stdout_traceback
+status=E
+start_time=2018-06-11 15:21:34.977
+end_time=2018-06-11 15:21:34.977
+tra_exception:
+.ValueError: 
+.********************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+
+log:
+.
+._STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT_
+._STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT_
+._STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT_
+._STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT_
+._STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT_
+._STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT_
+._STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT_
+._STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT_
+._STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT_
+._STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT_
+._STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT_
+._STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT_
+._STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT_
+._STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT_
+._STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT_
+._STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT_
+._STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT_
+._STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT_
+._STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT_
+._STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT_
+._STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT_
+._STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT_
+._STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT_
+._STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT_
+._STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT_
+._STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT__STDOUT_
+.  File "/Users/jhunk/miniconda3/envs/pandokia/lib/python3.6/unittest/case.py", line 59, in testPartExecutor
+.    yield
+.  File "/Users/jhunk/miniconda3/envs/pandokia/lib/python3.6/unittest/case.py", line 605, in run
+.    testMethod()
+.  File "/Users/jhunk/miniconda3/envs/pandokia/lib/python3.6/site-packages/nose/case.py", line 197, in runTest
+.    self.test(*self.arg)
+.  File "/Users/jhunk/Downloads/pandokia/tests/nose_smoke/test_tra_exception.py", line 28, in test_long_exception_stdout_traceback
+.    raise ValueError(output)
+.
+.EXCEPTION
+.Type: ValueError
+.Message: 
+.********************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.*******************************************************************************
+.
+.Trigger: raise ValueError(output)
+
+END
+test_name=Users/jhunk/Downloads/pandokia/tests/nose_smoke/test_tra_exception.test_exception_traceback
+status=E
+start_time=2018-06-11 15:21:34.979
+end_time=2018-06-11 15:21:34.979
+tra_exception=ValueError: I recieved the wrong value. Le whoops.
+log:
+.  File "/Users/jhunk/miniconda3/envs/pandokia/lib/python3.6/unittest/case.py", line 59, in testPartExecutor
+.    yield
+.  File "/Users/jhunk/miniconda3/envs/pandokia/lib/python3.6/unittest/case.py", line 605, in run
+.    testMethod()
+.  File "/Users/jhunk/miniconda3/envs/pandokia/lib/python3.6/site-packages/nose/case.py", line 197, in runTest
+.    self.test(*self.arg)
+.  File "/Users/jhunk/Downloads/pandokia/tests/nose_smoke/test_tra_exception.py", line 32, in test_exception_traceback
+.    raise ValueError('I recieved the wrong value. Le whoops.')
+.
+.EXCEPTION
+.Type: ValueError
+.Message: I recieved the wrong value. Le whoops.
+.Trigger: raise ValueError('I recieved the wrong value. Le whoops.')
+
+END
+test_name=Users/jhunk/Downloads/pandokia/tests/nose_smoke/test_tra_exception.test_exception_failure_ignore_tra
+status=F
+start_time=2018-06-11 15:21:34.979
+end_time=2018-06-11 15:21:34.979
+log:
+.  File "/Users/jhunk/miniconda3/envs/pandokia/lib/python3.6/unittest/case.py", line 59, in testPartExecutor
+.    yield
+.  File "/Users/jhunk/miniconda3/envs/pandokia/lib/python3.6/unittest/case.py", line 605, in run
+.    testMethod()
+.  File "/Users/jhunk/miniconda3/envs/pandokia/lib/python3.6/site-packages/nose/case.py", line 197, in runTest
+.    self.test(*self.arg)
+.  File "/Users/jhunk/Downloads/pandokia/tests/nose_smoke/test_tra_exception.py", line 36, in test_exception_failure_ignore_tra
+.    assert 1 == 0, 'This should not be in the tra_exception field'
+.
+.EXCEPTION
+.Type: AssertionError
+.Message: This should not be in the tra_exception field
+.Trigger: assert 1 == 0, 'This should not be in the tra_exception field'
+
+END
+test_name=Users/jhunk/Downloads/pandokia/tests/nose_smoke/test_tra_exception.test_exception_failure_ignore_tra_stdout
+status=F
+start_time=2018-06-11 15:21:34.980
+end_time=2018-06-11 15:21:34.980
+log:
+.This should not be in the tra_exception field
+.  File "/Users/jhunk/miniconda3/envs/pandokia/lib/python3.6/unittest/case.py", line 59, in testPartExecutor
+.    yield
+.  File "/Users/jhunk/miniconda3/envs/pandokia/lib/python3.6/unittest/case.py", line 605, in run
+.    testMethod()
+.  File "/Users/jhunk/miniconda3/envs/pandokia/lib/python3.6/site-packages/nose/case.py", line 197, in runTest
+.    self.test(*self.arg)
+.  File "/Users/jhunk/Downloads/pandokia/tests/nose_smoke/test_tra_exception.py", line 41, in test_exception_failure_ignore_tra_stdout
+.    assert 1 == 0, 'Nor should this be in the tra_exception field'
+.
+.EXCEPTION
+.Type: AssertionError
+.Message: Nor should this be in the tra_exception field
+.
+.Trigger: assert 1 == 0, 'Nor should this be in the tra_exception field'
+
+END
