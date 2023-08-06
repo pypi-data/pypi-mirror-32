@@ -1,0 +1,16 @@
+messages/__init__.py,sha256=W3sOP2VUwOz7RhRNvFqWjWOMJvmxXjQ7t7azZnlMlTw,554
+messages/_eventloop.py,sha256=FoPwjRXPttSn5Mrd_VQG-Y-1nJYeuONhmcM1zuiy3t0,726
+messages/_interface.py,sha256=mt1zMP0eEoi1jaOCu86CgEpLMNOJMYZH5VQPGDReAg0,750
+messages/_utils.py,sha256=FAnajwjHsxU51Bb-8BkTnJP--D1BVDReUbWn1iLn7iA,1922
+messages/api.py,sha256=T97lPuJS9zdG1GgSZIJpRjgPTf4HYBAp8KumAafXpXE,2061
+messages/cli.py,sha256=HhEJjNoS2CzFPc-hjdHc-E1YI7SJwgfh9Xl83rdJqEw,3941
+messages/config.py,sha256=8VWgh_lANX-VAGI0z3neuT92VwRjGhLSrwGjzNhx5L4,3177
+messages/email_.py,sha256=e6orWjkvTz2FfTzdfa1OnlBDRPWYpm-73zq8MbPPOtQ,7132
+messages/exceptions.py,sha256=e1YcTDgX7Z1sosgwKP5FVPmVVd7xjO6wIZ5bqi48IvE,1105
+messages/slack.py,sha256=79_2fRkwyPnAq9UWDLDD2sVBBuE8c5R5DWyUNGW2Vqg,3495
+messages/text.py,sha256=qFZboNmb9_H74UnOxeilefcNtcQfzCxYEekkBguTJGU,3267
+messages-0.3.4.dist-info/METADATA,sha256=c4N9zZgMpgT70cA-IW-cE4ZaxVU35f-2RzxQYeOFcc4,2860
+messages-0.3.4.dist-info/RECORD,,
+messages-0.3.4.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+messages-0.3.4.dist-info/entry_points.txt,sha256=IRgAiUsgph1H0ukDlOoadOF65VmesKCwtlIYR989y38,48
+messages-0.3.4.dist-info/top_level.txt,sha256=UXczbKO-hJGmgEXBzogL4VoTsvoMEhAH8LwzsahFH3s,9
