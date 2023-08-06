@@ -1,0 +1,11 @@
+supy/SUEWS_driver.so,sha256=OD6FfdFdk3JVmuxiMFrXhc9OTqJm0MLTGAvWAkZg8eU,4744668
+supy/SuPy_module.py,sha256=5a2UnFpfqY4IiimAOmqmXsdrSOdrchSusM34HfGMw2k,48118
+supy/__init__.py,sha256=1l5ad0CLs5D7HYnb4T-7VUH6doEudGY3ws5kf6HDj9E,407
+supy/code2file.json,sha256=Huui7fR6sgKsO_2CBxn5cpcBXyZfYuZ65iKSy--fFgw,7462
+supy/var2siteselect.json,sha256=fC4ZouKv6DaaztHaWrHXtBRF5js0xo4YYEfsgTw-Dsg,19057
+supy/SUEWS_driver.so.dSYM/Contents/Info.plist,sha256=X4-IRSG7KF-rfYu4k5RgPHTnodQ8PhFHCFXtE9B4TCo,644
+supy/SUEWS_driver.so.dSYM/Contents/Resources/DWARF/SUEWS_driver.so,sha256=jJV2pGvTQ9Z2GN9l-8ZIKI2G6dOf1cxVxXOjY2wlExM,2923149
+supy-0.3.1.dist-info/METADATA,sha256=uboXQ-b_N_WCKdiDihucqBs4BbSnQTFhYkI1vZzFNoY,355
+supy-0.3.1.dist-info/RECORD,,
+supy-0.3.1.dist-info/WHEEL,sha256=9HJ_U9V68fI__eDvhmxm-_kG6cjmlHGXX9PEgfVVzzw,111
+supy-0.3.1.dist-info/top_level.txt,sha256=PLA0Ofny9HkM1cdMYkCcd91PdxUIA6jBC6mkiaEFwwk,5
