@@ -1,0 +1,10 @@
+alosi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alosi/bridge_api.py,sha256=Ci2yR-_96IB2IhQvB-QX6jfpZmSSQiU1GTmplOJiGh0,1493
+alosi/engine.py,sha256=sBpbI9bQP26gstoLXMdZb6rMXc9ugz_eqaD9-9cyKBc,24707
+alosi/engine_api.py,sha256=ZIiyHqDfcj1M7Zamk0HvVDJ-9LnfOFuXN18-mlgbZT8,1468
+alosi/google_drive.py,sha256=haEofvn2f1F7dERzQKpxEeItbH7Y8km488CNHHuzn9g,3762
+alosi-0.0.4.dist-info/LICENSE.txt,sha256=cM-mX6_QhBdsT47tCfNIOT3lwLRQyiOJ6VWtrQ1cxFo,11370
+alosi-0.0.4.dist-info/METADATA,sha256=wXrmpY6UGqzHA01TsiFP1sJBD3oDYlTXBNU2GBEhtWU,477
+alosi-0.0.4.dist-info/RECORD,,
+alosi-0.0.4.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+alosi-0.0.4.dist-info/top_level.txt,sha256=cTxNtx52tE3zDGN43dg5EzHZeqLcPv8VHxJ2BPzy28A,6
