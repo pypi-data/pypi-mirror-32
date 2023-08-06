@@ -1,0 +1,9 @@
+README.rst
+setup.py
+gitls/__init__.py
+gitls/cli.py
+gitls.egg-info/PKG-INFO
+gitls.egg-info/SOURCES.txt
+gitls.egg-info/dependency_links.txt
+gitls.egg-info/entry_points.txt
+gitls.egg-info/top_level.txt
