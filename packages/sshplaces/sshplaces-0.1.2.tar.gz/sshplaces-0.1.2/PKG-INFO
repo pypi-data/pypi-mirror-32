@@ -1,0 +1,25 @@
+Metadata-Version: 1.0
+Name: sshplaces
+Version: 0.1.2
+Summary: A curses menu of ssh places.
+Home-page: http://pypi.python.org/pypi/sshplaces/
+Author: Steven hk Wong
+Author-email: steven@wongsrus.net
+License: LICENSE.txt
+Description: A simple python program to help manage ssh to places you want to be.
+        Built on the curses menu work from:
+        
+             https://gist.github.com/abishur/2482046
+             http://blog.skeltonnetworks.com/2010/03/python-curses-custom-menu/
+        
+        Usage: sshplaces.py [-h] [-f configfile]
+        
+        servers.yaml is a default configfile
+        
+        
+        
+        
+        
+             
+        
+Platform: UNKNOWN
