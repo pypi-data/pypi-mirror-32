@@ -1,0 +1,9 @@
+README.md
+setup.py
+figures/__init__.py
+figures/default.py
+figures/windows.py
+python_figures.egg-info/PKG-INFO
+python_figures.egg-info/SOURCES.txt
+python_figures.egg-info/dependency_links.txt
+python_figures.egg-info/top_level.txt
