@@ -1,0 +1,7 @@
+jieba
+scikit-learn
+tensorflow==1.2.0
+numpy
+scipy
+nltk
+pandas
