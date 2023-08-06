@@ -1,0 +1,5 @@
+google-auth
+pydot
+requests[security]
+six
+pylint==1.7.2
