@@ -1,0 +1,10 @@
+PyYaml
+SQLAlchemy
+aiohttp
+prometheus-aioexporter>=1.4.0
+prometheus-client
+sqlalchemy_aio
+toolrack>=2.1.0
+
+[testing]
+asynctest
