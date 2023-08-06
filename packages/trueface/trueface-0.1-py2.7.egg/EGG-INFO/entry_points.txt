@@ -1,0 +1,4 @@
+[console_scripts]
+enroll = trueface.enroll:main
+trueface = trueface.trueface:main
+
