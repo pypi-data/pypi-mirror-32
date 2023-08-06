@@ -1,0 +1,9 @@
+README.md
+setup.py
+robogit/RoboGit.py
+robogit/__init__.py
+robogit/RoboGit.egg-info/PKG-INFO
+robogit/RoboGit.egg-info/SOURCES.txt
+robogit/RoboGit.egg-info/dependency_links.txt
+robogit/RoboGit.egg-info/requires.txt
+robogit/RoboGit.egg-info/top_level.txt
