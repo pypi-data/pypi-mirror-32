@@ -1,0 +1,8 @@
+setup.py
+nlp_zero/__init__.py
+nlp_zero/dic.txt
+nlp_zero/nlp_zero.py
+nlp_zero.egg-info/PKG-INFO
+nlp_zero.egg-info/SOURCES.txt
+nlp_zero.egg-info/dependency_links.txt
+nlp_zero.egg-info/top_level.txt

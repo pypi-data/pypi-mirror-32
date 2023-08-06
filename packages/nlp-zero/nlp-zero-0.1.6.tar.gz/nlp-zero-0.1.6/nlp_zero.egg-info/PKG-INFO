@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: nlp-zero
+Version: 0.1.6
+Summary: 无监督NLP工具包|unsupervised nlp toolkit
+Home-page: https://kexue.fm
+Author: bojone
+Author-email: bojone@spaces.ac.cn
+License: MIT Licence
+Description: 基于最小熵原理设计的nlp工具包，可以实现新词发现、分词系统、句模版构建等
+Keywords: nlp tokenizer unsupervised parser 互信息 新词发现
+Platform: any
