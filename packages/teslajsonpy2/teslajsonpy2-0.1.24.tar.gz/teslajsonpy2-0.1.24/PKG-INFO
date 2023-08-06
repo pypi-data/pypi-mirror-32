@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: teslajsonpy2
+Version: 0.1.24
+Summary: A library to work with Tesla API.
+Home-page: https://github.com/rudical/teslajsonpy2
+License: WTFPL
+Description: A library to work with Tesla car API.
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Internet
+Requires-Python: >=3
