@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: twinthread
+Version: 0.4.0
+Summary: Twinthread data access for data science exploration
+Home-page: https://github.com/brentbaum/twinthread
+Author: Brent Baumgartner
+Author-email: brent.baumgartner@twinthread.com
+License: MIT license
+Description: ==========
+        twinthread
+        ==========
+        
+        
+        
+        Twinthread data access for data science exploration
+        
+        
+        
+        Installation
+        ------------
+        
+        ::
+        
+            git clone {this repo}
+            cd project_directory
+            # activate your venv i.e.
+            pipenv shell
+            pip install -e .[dev]
+        
+        Usage
+        ---------
+        
+        Use Pipenv to install new modules so they're tracked correctly in the Pipfile::
+        
+            pipenv install new-package
+        
+        To run the app locally and/or deploy to cloudfoundry::
+        
+            twinthread runserver
+            twinthread dev deploy
+        
+Keywords: twinthread
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Provides-Extra: test
+Provides-Extra: development
+Provides-Extra: testing
+Provides-Extra: dev
