@@ -1,0 +1,10 @@
+vin_decoder/__init__.py,sha256=jd-qYY17wKBVbM5gNWbGCi-HBMfF5bwpNgHynCIuu2c,607
+vin_decoder/decode.py,sha256=s5dayB_SjdUtIbqOVxFxgrlJLnCqbBClwJfxZ4HWyvc,7305
+vin_decoder/generate_country_table.py,sha256=tYuvd5xOtkHy4yhKvjEldrQum6h47mMkdw-ZU9Dt8Rk,3845
+vin_decoder/generate_manufacturer_table.py,sha256=xdAXZvBfvbvpIkheYY5WxaxApr9z1GqPVNkDfhHZqE8,14180
+vin_decoder/vdsnissan.py,sha256=DRMpqCac7XL9ZPCAnWVp0wpJoCVLntb9a0Vyd_Psob8,4563
+vin_decoder-0.1.1.data/scripts/vin_decoder,sha256=-3JMIr9mEY22ckX3d1D9NKKurR_zCHvfpO23E8oetcU,1371
+vin_decoder-0.1.1.dist-info/METADATA,sha256=VLizyS0Pt2BtLlPL-2xuhDFi6taCnpT47a2nNxGHKSY,2299
+vin_decoder-0.1.1.dist-info/RECORD,,
+vin_decoder-0.1.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+vin_decoder-0.1.1.dist-info/top_level.txt,sha256=H97YU2yZoR1btYXa1HM4vH7gxt5R44Vh-UJpjEMiH7g,12
