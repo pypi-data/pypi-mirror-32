@@ -1,0 +1,13 @@
+indico_custom_footer/__about__.py,sha256=eu8-thR-OWaBwbmnQEfXk_BQYiBK67NTKlFxsJCnxgY,2948
+indico_custom_footer/__init__.py,sha256=pll0iqn6oFXBC9m3gBe81QifAgzFAzRarstGwkZl6Kg,819
+indico_custom_footer/forms.py,sha256=1B_kMBK0Z_TOjmiQHArdf8NEUY5Sy-J6w_62LwiyRxs,1988
+indico_custom_footer/plugin.py,sha256=ofnDcwdqaG92n8LaxtHa6FGqvvu0gpSmHrEhmOQQF64,1879
+indico_custom_footer/utility.py,sha256=9HvtSzsheQHxssgFXQg6BJO-AwbW0Yf_H7XWwRkLKyQ,879
+indico_plugin_custom_footer-2.0.1.dist-info/DESCRIPTION.rst,sha256=kOQ2up4S9XiH2WSvECgcoKlOOdRcjjHahM5y3YN4ocM,1813
+indico_plugin_custom_footer-2.0.1.dist-info/METADATA,sha256=gyQvQMFhufjQYvyMxYpyXErjMAHkE_20ye82e7QZ5J0,2755
+indico_plugin_custom_footer-2.0.1.dist-info/RECORD,,
+indico_plugin_custom_footer-2.0.1.dist-info/WHEEL,sha256=hZvi-8L6mc2COqhOUWREM_h2lvnJbaHycZt8eohtmso,92
+indico_plugin_custom_footer-2.0.1.dist-info/entry_points.txt,sha256=3cALfDKJMDk3l4SPTawFAeaa5lZmZS3khFkrOXX66Wo,88
+indico_plugin_custom_footer-2.0.1.dist-info/metadata.json,sha256=ecFG2kiMG7N-rgTTDdYueFvR5BGlDzV9qqEURfwB-vI,1215
+indico_plugin_custom_footer-2.0.1.dist-info/top_level.txt,sha256=VwitYM70-Q0tw3dVTf9cjUv1ZKNzNT_VrPftpCchVAM,21
+indico_plugin_custom_footer-2.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
