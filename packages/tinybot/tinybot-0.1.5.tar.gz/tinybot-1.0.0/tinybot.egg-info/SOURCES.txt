@@ -1,0 +1,13 @@
+MANIFEST.in
+readme.markdown
+setup.py
+tinybot/__init__.py
+tinybot/logger.py
+tinybot/runner.py
+tinybot/webapi.py
+tinybot.egg-info/PKG-INFO
+tinybot.egg-info/SOURCES.txt
+tinybot.egg-info/dependency_links.txt
+tinybot.egg-info/not-zip-safe
+tinybot.egg-info/requires.txt
+tinybot.egg-info/top_level.txt
