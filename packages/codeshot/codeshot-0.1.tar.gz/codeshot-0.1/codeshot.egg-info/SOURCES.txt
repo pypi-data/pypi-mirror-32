@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+codeshot/__init__.py
+codeshot/main.py
+codeshot.egg-info/PKG-INFO
+codeshot.egg-info/SOURCES.txt
+codeshot.egg-info/dependency_links.txt
+codeshot.egg-info/entry_points.txt
+codeshot.egg-info/requires.txt
+codeshot.egg-info/top_level.txt
