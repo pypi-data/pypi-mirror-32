@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: django-adminx
+Version: 2.0.3
+Summary: django extended admin
+Home-page: https://github.com/kerol/django-adminx
+Author: kerol
+Author-email: ikerol@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: Django (>2.0.0)
+Requires-Dist: django-crispy-forms (>1.6.0)
+Requires-Dist: django-reversion
+Requires-Dist: django-formtools
+Requires-Dist: xlwt
+Requires-Dist: six
+Requires-Dist: django-import-export
+Requires-Dist: future
+Requires-Dist: httplib2
+Requires-Dist: xlsxwriter
+
+### django-adminx
+patch [xadmin](https://github.com/sshwsfc/xadmin/), support django2 and python3.
+
+
