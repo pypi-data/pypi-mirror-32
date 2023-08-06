@@ -1,0 +1,6 @@
+chainer
+cupy>=5.0.0a1
+chainercv
+fcn
+scikit-image
+scikit-learn
