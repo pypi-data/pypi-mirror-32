@@ -1,0 +1,14 @@
+trio_amqp/__init__.py,sha256=3YsOxXaoRQ_I8zWUpYNAp4lRBvjLx_0WvO5goQUfbvw,1475
+trio_amqp/_version.py,sha256=Lu_IbMXOUC_DYnEkf8ffFNTCQ0SN6JSfXLuZ04pSm8Y,52
+trio_amqp/channel.py,sha256=vosjjfAYf4_XKPPdlK3-TBrYrfFvZyl3j7PpGRbrmz8,43952
+trio_amqp/constants.py,sha256=vxS1dpKgVcBym5uPjGLkTGCfG5GsuK2LsXwuh1BqHXw,2213
+trio_amqp/envelope.py,sha256=2ho1n_08ayawMKQ9fYXfljEof2zApPLtREAPEad1HWo,893
+trio_amqp/exceptions.py,sha256=NYHrVRyqVUVk79-upX_gXo3dm-Bms1SQrWb7wGCr-_Y,1402
+trio_amqp/frame.py,sha256=lSfHbrlWQ9yp44Uk0V4i7iqpaMoAZyW5Olba_P4GunA,20595
+trio_amqp/future.py,sha256=VDvN7TYRTHzGD--Dcba-lJJHD8IBMWEZlHWQA_HhUco,1099
+trio_amqp/properties.py,sha256=f-H219YwfsyZJPOVRCgPtrq0aqY8F4-DbS_Oge_mrnM,1075
+trio_amqp/protocol.py,sha256=cV8FDrOzzwnzWKNhoCRBSF5-zfUDnPAop4sJqeSCTL8,23349
+trio_amqp-0.2.8.dist-info/METADATA,sha256=-BAwn8aZUaTlUlUatOdxbbH0RG6oMvXy_Mt2A0v1PKU,2730
+trio_amqp-0.2.8.dist-info/RECORD,,
+trio_amqp-0.2.8.dist-info/WHEEL,sha256=fKgkW3CgiX5KmC0UfWGWe_0Otvp7Ic6dhgRkSUJOOiY,131
+trio_amqp-0.2.8.dist-info/top_level.txt,sha256=Ju0p-Ne49kltfK0ULYn7rMSbbt0IPKvMz7-a5K6Rf34,10
