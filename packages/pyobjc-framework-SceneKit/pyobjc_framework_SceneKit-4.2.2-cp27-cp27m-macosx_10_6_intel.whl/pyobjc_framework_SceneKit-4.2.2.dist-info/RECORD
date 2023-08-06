@@ -1,0 +1,8 @@
+SceneKit/_SceneKit.so,sha256=qTZCORYpmpLWUf5p0jjJXJ081DnNn-j1zzbButAQRVQ,50996
+SceneKit/__init__.py,sha256=ZbkPAktVU1l0VVxPFspB0-cH3JfUbUmx0Vb-gGX76s8,1239
+SceneKit/_inlines.so,sha256=eGPM-Hj2tokgUALyxe9DS7xFYTlRyGCuCLOsyLbYMmU,58928
+SceneKit/_metadata.py,sha256=6omVudMThDtrgZupMkZ9oIVC7bqIo7HOU5TB7Hzq2hc,45704
+pyobjc_framework_SceneKit-4.2.2.dist-info/METADATA,sha256=PKq15uRVQruwBo1XJxOyAh8wUl-v1XEPPo4G_BGjeZ8,2170
+pyobjc_framework_SceneKit-4.2.2.dist-info/RECORD,,
+pyobjc_framework_SceneKit-4.2.2.dist-info/WHEEL,sha256=F1TCjYjTFxks-nqiDpERoLzySPhR94sDPjBYFZlcSxk,109
+pyobjc_framework_SceneKit-4.2.2.dist-info/top_level.txt,sha256=_7EB7slh_d5YNPX_L7q0WgOt3hOc59D_9z9f1uvQC6I,9
