@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+django_numpy_json_encoder/__init__.py
+django_numpy_json_encoder/numpy_encoder.py
+django_numpy_json_encoder.egg-info/PKG-INFO
+django_numpy_json_encoder.egg-info/SOURCES.txt
+django_numpy_json_encoder.egg-info/dependency_links.txt
+django_numpy_json_encoder.egg-info/requires.txt
+django_numpy_json_encoder.egg-info/top_level.txt
+django_numpy_json_encoder.egg-info/zip-safe
