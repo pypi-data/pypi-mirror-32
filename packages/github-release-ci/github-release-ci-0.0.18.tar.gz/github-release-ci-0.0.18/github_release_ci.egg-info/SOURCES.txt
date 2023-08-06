@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+VERSION
+setup.py
+github_release_ci/__init__.py
+github_release_ci/base.py
+github_release_ci/download.py
+github_release_ci/upload.py
+github_release_ci.egg-info/PKG-INFO
+github_release_ci.egg-info/SOURCES.txt
+github_release_ci.egg-info/dependency_links.txt
+github_release_ci.egg-info/entry_points.txt
+github_release_ci.egg-info/not-zip-safe
+github_release_ci.egg-info/requires.txt
+github_release_ci.egg-info/top_level.txt
