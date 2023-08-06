@@ -1,0 +1,12 @@
+README.md
+setup.py
+rishab/feed_data.py
+rishab/map_reduce.py
+rishab/server.py
+rishab/test.py
+rishab.egg-info/PKG-INFO
+rishab.egg-info/SOURCES.txt
+rishab.egg-info/dependency_links.txt
+rishab.egg-info/entry_points.txt
+rishab.egg-info/requires.txt
+rishab.egg-info/top_level.txt

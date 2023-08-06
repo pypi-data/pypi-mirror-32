@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: rishab
+Version: 0.0.1
+Summary: A library to auto construct DL Models using an API service
+Home-page: https://github.com/rishab-sharma/rishab.git
+Author: Rishab Sharma
+Author-email: rishabsharmaddn@gmail.com
+License: MIT
+Description:  
+        	
+        	Rishab - Python Packages
+        	Copyright @ 2018 - http://www.rishab.co
+        
+        	Warning: Use without Permission of the authors is restricted and  if permission is granted please Cite as Rishab Sharma @ CSE  MAIT, GGSIPU New, Delhi
+        	
+        	
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2
