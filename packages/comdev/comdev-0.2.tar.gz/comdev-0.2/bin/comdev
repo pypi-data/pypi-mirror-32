@@ -1,0 +1,211 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+# Author: Chris Ward <cward@redhat.com>
+
+'''
+'''
+
+import logging
+import os
+import subprocess
+
+import click
+
+from comdev import __app__
+from comdev.lib import render_template, load_config, get_jinja2_env, dumps
+from comdev.lib import expand_path, mkdirs, touch, copy
+
+# Setup console logging; since this is a bin script, grab root
+log = logging.getLogger(__app__)
+
+
+@click.group()
+@click.argument('app-name', type=str)
+@click.option('--quiet', '-q', is_flag=True, default=False)
+@click.option('--debug', '-d', is_flag=True, default=False)
+@click.pass_context
+def cli(ctx, quiet, debug, app_name):
+    if quiet:
+        log.setLevel(logging.WARN)
+    elif debug:
+        log.setLevel(logging.DEBUG)
+    else:
+        log.setLevel(logging.INFO)
+
+    ctx.obj['app_name'] = app_name
+
+
+@cli.command('build')
+@click.option('--config-dir', '-c', type=str, default=None)
+@click.option('--relative-urls', '-r', is_flag=True, default=False)
+@click.pass_context
+def build(ctx, config_dir, relative_urls):
+    app_name = ctx.obj['app_name']
+
+    config_dir = config_dir or './'
+
+    config = load_config(app_name, config_dir).get()
+    locales = config['locales']
+    paths = config['paths']
+    path_templates = expand_path(paths['templates'])
+    path_build = expand_path(paths['build'])
+    path_static = expand_path(paths['static'])
+    path_locale = expand_path(paths['locale'])
+
+    # Build all the pages for the site
+    templates = config['templates']
+    params = {}
+
+    jinja2_env = get_jinja2_env(
+        path_templates, relative_urls, path_build, path_locale, path_static)
+
+    for path in templates:
+        for locale in locales:
+            os.environ['LOCALE'] = locale
+            lang = locale.split('_')[0]
+            params['lang'] = lang
+            content = render_template(
+                jinja2_env, path, params, inline_css=False, locale=locale,
+                path_locale=path_locale)
+            # Save the rendered page to disk
+            if lang == 'en':
+                # FIXME: set default as global and respect that?
+                # en should be build as default page (without lang tag)
+                dest_file = os.path.join(path_build, path)
+            else:
+                _path = path.split('.')
+                _path = '.'.join([''.join(_path[0:-1]), lang, _path[-1]])
+                dest_file = os.path.join(path_build, _path)
+
+            dumps(content, dest_file)
+
+
+@cli.command('i18n')
+@click.argument('action',
+                type=click.Choice(['extract', 'init', 'update', 'compile']))
+@click.pass_context
+def i18n(ctx, action):
+    '''
+    Initialize, update and compile gettext i18n strings
+    '''
+
+    '''
+    Create the folder structure (no whitespace after the commas!)
+    > mkdir -pv ./i18n/{en_US,cs_CZ,sk_SK}/LC_MESSAGES/
+    > pybabel -v extract -F babel.cfg -o ./i18n/messages.pot ./
+
+    Init/Update
+    3.1 Init
+    > pybabel init -l en_US -d ./i18n -i ./i18n/messages.pot
+    > pybabel init -l cs_CZ -d ./i18n -i ./i18n/messages.pot
+    > pybabel init -l sk_SK -d ./i18n -i ./i18n/messages.pot
+
+    3.2 Update
+    > pybabel update -l en_US -d ./i18n -i ./i18n/messages.pot
+    > pybabel update -l cs_CZ -d ./i18n -i ./i18n/messages.pot
+    > pybabel update -l sk_SK -d ./i18n -i ./i18n/messages.pot
+
+    Compile
+    > pybabel compile -f -d ./i18n
+
+    What if the strings change? Create a new messages.pot and merge the changes
+    > pybabel update -d ./i18n -i ./i18n/messages.pot
+    '''
+
+    # These are the languages we want to build for
+    languages = ['en_US', 'cs_CZ', 'sk_SK']
+
+    if 'extract' == action:
+        cmd = 'pybabel -v extract -F babel.cfg -o ./i18n/messages.pot ./'
+        subprocess.run(cmd, shell=True)
+
+    if 'init' == action:
+        cmd = 'pybabel init -l {} -d ./i18n -i ./i18n/messages.pot'
+        for lang in languages:
+            subprocess.run(cmd.format(lang), shell=True)
+
+    if 'update' == action:
+        cmd = 'pybabel update -l {} -d ./i18n -i ./i18n/messages.pot'
+        for lang in languages:
+            subprocess.run(cmd.format(lang), shell=True)
+
+    if 'compile' == action:
+        cmd = 'pybabel compile -f -d ./i18n'
+        subprocess.run(cmd, shell=True)
+
+
+@cli.command('newsite')
+@click.argument('basepath', type=str, required=True)
+@click.pass_context
+def newsite(ctx, basepath):
+    '''
+    Create a new comdev default site.
+    '''
+    # FIXME: include default config yaml's in .config/{app_name} ?
+
+    app_name = ctx.obj['app_name']
+    join = os.path.join
+
+    config = load_config(__app__).get()
+    src_path = expand_path(config['paths']['src_repo'])
+
+    # needs to have the ending '/' to be considered a path by mkdirs()
+    repo_path = join(expand_path(basepath), app_name) + '/'
+    mkdirs(repo_path)
+
+    paths = {
+        'copy': {
+            'templates': 'templates/',
+            'path_static': 'static/',
+            'path_media': 'media/',
+            'path_i18n': 'i18n/',
+            'path_babel_cfg': 'babel.cfg',
+            'path_config': 'config.yaml',
+        },
+        'mkdir': {
+            'path_pymod': app_name + '/',
+        },
+        'touch': {
+            'path_pymod_init': join(app_name, '__init__.py'),
+        },
+    }
+
+    # ## FIXME: touch __init__.py isn't right, we need a template
+    # file with __app__ and author, etc.
+    #
+    # Also, FIXME need to copy in a default setup.py as well
+
+    _paths = sorted(paths['copy'].values(), key=lambda x: len(x.split('/')))
+    [copy(join(src_path, _), join(repo_path, _)) for _ in _paths]
+
+    _paths = sorted(paths['mkdir'].values(), key=lambda x: len(x.split('/')))
+    [mkdirs(join(repo_path, _)) for _ in _paths]
+
+    _paths = sorted(paths['touch'].values(), key=lambda x: len(x.split('/')))
+    [touch(join(repo_path, _)) for _ in _paths]
+
+
+@cli.command('serve')
+@click.pass_context
+def serve(ctx):
+    '''
+    Launch flask application to serve up the pages dynamically
+    '''
+
+    from comdev.flask_app import app
+    # FIXME: why doesn't debug info log when running this way?
+    app.run(debug=True)
+
+
+@cli.command('visa')
+@click.pass_context
+def visa(ctx):
+    '''
+    Generate a visa letter and email it to said recipients
+    '''
+    from comdev.visa import Viser
+    Viser
+
+
+if __name__ == '__main__':
+    cli(obj={})
