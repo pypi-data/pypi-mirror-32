@@ -1,0 +1,9 @@
+roll/__init__.py,sha256=2IKfCmN2XNFT8qW19WM-pE5betYp-kDNOe6lG53FtLo,22372
+roll/extensions.py,sha256=NWGapT6il0Bg18T92yYTWjFOAn6cWYLljjB9Kw8m8lI,4430
+roll/testing.py,sha256=UkkaM4Uk7hFwcVxw3h4akk7SyXQASbgCqoUltvYPXfY,7911
+roll/worker.py,sha256=sDC_iykqy1MboV8JiFiwvAAqnm0jeNpk-LthmPUXoYc,1711
+roll-0.9.1.dist-info/METADATA,sha256=E6QMMUmrm7USlQlTWbwUTOsXJe85GRwAx4pzc487CeU,1291
+roll-0.9.1.dist-info/RECORD,,
+roll-0.9.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+roll-0.9.1.dist-info/entry_points.txt,sha256=jDvgkw1AEdV2Pijcl4UhXqZ1Cw3HGEsIH6aIIyrXDFQ,32
+roll-0.9.1.dist-info/top_level.txt,sha256=CfXlN8WqJfN1BjUFIZa55b1w2Xz1WymG0m84y_97if8,5
