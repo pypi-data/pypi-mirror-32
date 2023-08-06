@@ -1,0 +1,3 @@
+[console_scripts]
+aws-switchrole = aws_switchrole.aws_switchrole:main
+

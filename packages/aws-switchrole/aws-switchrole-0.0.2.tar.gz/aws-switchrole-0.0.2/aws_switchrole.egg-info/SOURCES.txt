@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+aws_switchrole/__init__.py
+aws_switchrole/aws_switchrole.py
+aws_switchrole.egg-info/PKG-INFO
+aws_switchrole.egg-info/SOURCES.txt
+aws_switchrole.egg-info/dependency_links.txt
+aws_switchrole.egg-info/entry_points.txt
+aws_switchrole.egg-info/requires.txt
+aws_switchrole.egg-info/top_level.txt

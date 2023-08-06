@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: aws-switchrole
+Version: 0.0.2
+Summary: a tool to allow you to switch AWS roles on your console
+Home-page: https://github.com/hybby/aws-switchrole
+Author: hybby
+Author-email: iamdrew@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/hybby/aws-switchrole/archive/0.0.2.tar.gz
+Description: UNKNOWN
+Keywords: aws,iam,sts
+Platform: UNKNOWN
