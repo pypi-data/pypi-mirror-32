@@ -1,0 +1,14 @@
+README.md
+README.rst
+setup.py
+wsnotifier/__init__.py
+wsnotifier/constants.py
+wsnotifier/notifier.py
+wsnotifier/notify.py
+wsnotifier.egg-info/PKG-INFO
+wsnotifier.egg-info/SOURCES.txt
+wsnotifier.egg-info/dependency_links.txt
+wsnotifier.egg-info/entry_points.txt
+wsnotifier.egg-info/requires.txt
+wsnotifier.egg-info/top_level.txt
+wsnotifier.egg-info/zip-safe

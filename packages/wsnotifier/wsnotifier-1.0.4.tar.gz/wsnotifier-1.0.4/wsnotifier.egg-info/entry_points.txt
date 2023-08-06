@@ -1,0 +1,3 @@
+[console_scripts]
+wsnotifier = wsnotifier.notifier:run_wsnotifier_with_default_config
+
