@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/pri/__init__.py
+src/pri/__main__.py
+src/pri/repositories.json
+src/pri/version.py
+src/pri.egg-info/PKG-INFO
+src/pri.egg-info/SOURCES.txt
+src/pri.egg-info/dependency_links.txt
+src/pri.egg-info/entry_points.txt
+src/pri.egg-info/requires.txt
+src/pri.egg-info/top_level.txt
+src/pri.egg-info/zip-safe
