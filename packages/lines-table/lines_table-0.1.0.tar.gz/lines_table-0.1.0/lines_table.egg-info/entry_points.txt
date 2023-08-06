@@ -1,0 +1,3 @@
+[console_scripts]
+lines_table = lines_table.cli:main
+
