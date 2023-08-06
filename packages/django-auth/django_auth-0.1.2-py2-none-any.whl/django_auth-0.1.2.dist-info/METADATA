@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: django-auth
+Version: 0.1.2
+Summary: Django auth app!
+Home-page: http://github.com/noahzaozao/django-auth
+Author: Noah Wang
+Author-email: 234082230@qq.com
+License: UNKNOWN
+Keywords: django
+Platform: UNKNOWN
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Requires-Dist: six
+Requires-Dist: Django (>=1.10.0)
+
+This project is still under development!
+
+
