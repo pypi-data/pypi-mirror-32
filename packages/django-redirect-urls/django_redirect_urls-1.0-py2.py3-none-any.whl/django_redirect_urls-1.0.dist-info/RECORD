@@ -1,0 +1,11 @@
+django_redirect_urls-1.0.dist-info/LICENSE.txt,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+django_redirect_urls-1.0.dist-info/METADATA,sha256=XEcApaaj5ma3F0gXH8cJpEiWTe5U6Q0KrGTGVaR6_HI,5016
+django_redirect_urls-1.0.dist-info/RECORD,,
+django_redirect_urls-1.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+django_redirect_urls-1.0.dist-info/top_level.txt,sha256=ow-ZKsWlgIdHJvm4QfVlLV-yMdau_PBa4aRIfXMoFZE,14
+redirect_urls/__init__.py,sha256=iAt0E2KHLJcy_XQ6pU_KGOcnbTg6Wt64DGgtT46CQu0,251
+redirect_urls/apps.py,sha256=mg-lDDABf3OohJ4rurfMI4aqEzb9sPZgihR9cZF3HCw,481
+redirect_urls/decorators.py,sha256=mzUiezJXd5Lzc58n-KRsW2w1MeaFJBTnwL5E03g9gKY,751
+redirect_urls/middleware.py,sha256=fmysHKtvK7Hpo1r6c6BDNzcD_Cw2gKUMUFZBVOwFPAw,787
+redirect_urls/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+redirect_urls/utils.py,sha256=NbDgslx2j-5zdTQLkrHWMDUZ2ZGKvQUf67y8E47kcr4,9664
