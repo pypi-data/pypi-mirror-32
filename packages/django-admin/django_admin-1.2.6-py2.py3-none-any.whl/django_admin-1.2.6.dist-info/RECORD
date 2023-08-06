@@ -1,0 +1,13 @@
+django_admin/__init__.py,sha256=3h65QxZ4jSsEXqtLvg3MfOyXQ3G4N28FKfkSYm3nhNs,302
+django_admin/djadmin.py,sha256=NK9YMcOZkf9eXqhfox-SxFi963qSrSII_l4DJa7vSIk,7101
+django_admin/templates/admin/addonly_form.html,sha256=SJoPvsEe-xsB3EALy3Y0fHxjoHibQ1vq-ay77_H2Mh8,142
+django_admin/templates/admin/addonly_submit_line.html,sha256=cAHK9Y9MVjCUrWiQPkJyEgqgaXJ_EKXjbhWIo9MURz4,839
+django_admin/templates/admin/deleteonly_form.html,sha256=HMpAdNC0xI4c8gMGLF5Z3mhpBbrOGb1H2jHjyZKInuU,145
+django_admin/templates/admin/deleteonly_submit_line.html,sha256=pt26yWzc5wk0BH1mtv5Ag99wRwhqf-DSNyaJ_m8oYRc,806
+django_admin/templates/admin/readonly_form.html,sha256=S8zbadLR-TFKoiX5csgWXzKw8M8NY0uO4_Sl5AjSTbs,104
+django_admin/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_admin/templatetags/djadmin_modify.py,sha256=Iyrm7REMFBwZrpSYhJ5aBfNqtQJZwvVI0FhOvDj6Amc,2127
+django_admin-1.2.6.dist-info/METADATA,sha256=DmEw27xAE20HSSdTRFOhJm-q7AljJSuDPw4DReNuldI,3737
+django_admin-1.2.6.dist-info/RECORD,,
+django_admin-1.2.6.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+django_admin-1.2.6.dist-info/top_level.txt,sha256=WcEpG280ZwJ3-Ce-sZRfaNOo8y178biRO1NlAG3oJUo,13
