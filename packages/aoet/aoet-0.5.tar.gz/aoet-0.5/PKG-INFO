@@ -1,0 +1,14 @@
+Metadata-Version: 1.0
+Name: aoet
+Version: 0.5
+Summary: Automation of Exploratory Testing
+Home-page: https://gitlab.tubit.tu-berlin.de/abar/aoet
+Author: Anton Bardishev
+Author-email: abar@protonmail.ch
+License: MIT
+Description: Automation of Exploratory Testing
+        ------------
+        
+        This package provides CLI utility which is capable of executing forking tests, recording results, 
+        clustering the responses and outputting HTML report with all differences in the responses plotted on a chart.
+Platform: UNKNOWN
