@@ -1,0 +1,9 @@
+README.md
+setup.py
+ndicom_thresholding/__init__.py
+ndicom_thresholding/plugin.py
+ndicom_thresholding.egg-info/PKG-INFO
+ndicom_thresholding.egg-info/SOURCES.txt
+ndicom_thresholding.egg-info/dependency_links.txt
+ndicom_thresholding.egg-info/requires.txt
+ndicom_thresholding.egg-info/top_level.txt

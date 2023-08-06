@@ -1,0 +1,4 @@
+pydicom
+dipy
+numpy
+opencv-python
