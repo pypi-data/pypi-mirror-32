@@ -1,0 +1,11 @@
+COPYING.txt
+MANIFEST.in
+README.rst
+setup.py
+windnd/__init__.py
+windnd/windnd.py
+windnd.egg-info/PKG-INFO
+windnd.egg-info/SOURCES.txt
+windnd.egg-info/dependency_links.txt
+windnd.egg-info/top_level.txt
+windnd.egg-info/zip-safe
