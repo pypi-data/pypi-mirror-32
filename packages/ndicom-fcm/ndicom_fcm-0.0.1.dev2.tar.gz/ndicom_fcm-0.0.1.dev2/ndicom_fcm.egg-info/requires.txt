@@ -1,0 +1,5 @@
+pydicom
+dipy
+numpy
+opencv-python
+scikit-fuzzy
