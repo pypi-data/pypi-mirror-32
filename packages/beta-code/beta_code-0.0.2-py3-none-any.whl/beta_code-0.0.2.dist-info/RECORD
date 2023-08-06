@@ -1,0 +1,8 @@
+beta_code/__init__.py,sha256=1GvlklRo2FjSHmoKHOVivBjCsf8O_v-I23WaIaV7mjM,82
+beta_code/beta_code.py,sha256=I6sa8VG31ZL1-RsYSFRRksEfMHIK4psXJI3OwXG8KAY,1563
+beta_code/vendor/beta-code-json/beta_code_to_unicode.json,sha256=9CifGKPk-N_CRC2bjfhtgO-g2FS4CaSYyR-csFRg6Pg,8172
+beta_code/vendor/beta-code-json/unicode_to_beta_code.json,sha256=t5itqG8x7tlbgmwCwlWaNY7ukrtVOtDemDQndvlotw4,4313
+beta_code-0.0.2.dist-info/METADATA,sha256=Amzqri7qm5K--d3v7iyQ811NMUd4685h9ArTAEEbj4Q,1332
+beta_code-0.0.2.dist-info/RECORD,,
+beta_code-0.0.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+beta_code-0.0.2.dist-info/top_level.txt,sha256=rtQH1IJjtSbKOOlzfwprzOzfFpD5PBpB4UnRv5lfusk,10
