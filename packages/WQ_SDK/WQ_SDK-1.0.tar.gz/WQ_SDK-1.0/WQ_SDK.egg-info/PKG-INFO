@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: WQ-SDK
+Version: 1.0
+Summary: WangQing Python SDK。
+Home-page: https://github.com/gdky005/WQPythonSDK
+Author: gdky005
+Author-email: 741227905@qq.com
+License: BSD3 License
+Description-Content-Type: UNKNOWN
+Description: .. topic:: The end
+           :class: exceptional
+           :name: say-no-more
+        
+           A final word.
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
