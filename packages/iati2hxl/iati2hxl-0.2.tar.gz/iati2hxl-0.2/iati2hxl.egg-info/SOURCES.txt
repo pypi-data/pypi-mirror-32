@@ -1,0 +1,10 @@
+README.md
+setup.py
+iati2hxl/__init__.py
+iati2hxl/generator.py
+iati2hxl/mappings.py
+iati2hxl.egg-info/PKG-INFO
+iati2hxl.egg-info/SOURCES.txt
+iati2hxl.egg-info/dependency_links.txt
+iati2hxl.egg-info/requires.txt
+iati2hxl.egg-info/top_level.txt
