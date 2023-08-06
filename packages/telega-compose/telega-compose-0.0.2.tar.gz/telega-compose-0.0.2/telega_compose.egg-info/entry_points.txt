@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    tcompose=telega_compose.main:cli
+    
