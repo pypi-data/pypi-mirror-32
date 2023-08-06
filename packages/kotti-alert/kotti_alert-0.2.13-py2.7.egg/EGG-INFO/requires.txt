@@ -1,0 +1,4 @@
+Kotti>=1.0.0
+kotti_tinymce
+kotti_controlpanel>=1.0.6
+zope.interface>=4.1.0
