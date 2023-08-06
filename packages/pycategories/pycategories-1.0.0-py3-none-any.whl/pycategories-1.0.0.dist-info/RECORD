@@ -1,0 +1,14 @@
+categories/__init__.py,sha256=s3uEJ2Af_4OIxBHZC1L6-7vRaAXWmO7n3KuESaoDUZ4,305
+categories/applicative.py,sha256=jLj9NrzEcJZlvUY3Pwf2NA8L_Zy3Z8JGVS5pOR5CRpg,2826
+categories/builtins.py,sha256=XaSW82yWbG40Cr3Wcnn2G9xPj8MBoeUIC-lZtnHlbLk,2011
+categories/either.py,sha256=uyQOLQKB5dtH1hNi_9nkplHGlg6x4O2jNzh6l7cjoR4,1231
+categories/functor.py,sha256=HCcf6_WuziO_2-tVvHwozMBolaqujgd6y_3ztlFDGl4,897
+categories/instances.py,sha256=N8iEjJn4cA3S4u4GucLhE5Jd74UI28zC_E_i1IihGuc,576
+categories/maybe.py,sha256=5DVWYI9YQS8DTEsREAiugHI0MDwHkW-W_Aig33AStSU,1421
+categories/monad.py,sha256=BvRls-wUn7Zml9kajGqmr3P8UOyJdIW7Dy5NiRyI9vY,1440
+categories/monoid.py,sha256=h02rfYbSGq49bwiqu43LtxjDc0VYo4yHxw5bXFbPvpY,1103
+categories/utils.py,sha256=WTvMZwmEkitH9QuOMQVQjd_IkINk9XCtcj1bfQyHClc,595
+pycategories-1.0.0.dist-info/METADATA,sha256=e0tCcUjCjLBVShXB5deCqdDjRRnO-gEtS7sF5L40TxA,2405
+pycategories-1.0.0.dist-info/RECORD,,
+pycategories-1.0.0.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+pycategories-1.0.0.dist-info/top_level.txt,sha256=t17b33GZCpOT85_HvS_8CrQcVqmvajrs41nWXGmOb04,11
