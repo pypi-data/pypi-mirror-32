@@ -1,0 +1,8 @@
+README.md
+setup.py
+bin/shellgraph
+shellgraph.egg-info/PKG-INFO
+shellgraph.egg-info/SOURCES.txt
+shellgraph.egg-info/dependency_links.txt
+shellgraph.egg-info/requires.txt
+shellgraph.egg-info/top_level.txt
