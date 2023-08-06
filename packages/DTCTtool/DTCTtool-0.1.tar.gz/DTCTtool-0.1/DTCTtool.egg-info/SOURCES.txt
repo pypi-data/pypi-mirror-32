@@ -1,0 +1,8 @@
+README.md
+setup.py
+DTCTtool.egg-info/PKG-INFO
+DTCTtool.egg-info/SOURCES.txt
+DTCTtool.egg-info/dependency_links.txt
+DTCTtool.egg-info/entry_points.txt
+DTCTtool.egg-info/requires.txt
+DTCTtool.egg-info/top_level.txt
