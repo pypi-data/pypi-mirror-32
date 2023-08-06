@@ -1,0 +1,11 @@
+dotbot/__init__.py,sha256=tGgqFRHu715jtGC8U2CMIOc_22NQpfII4EtG961T4Wc,73
+dotbot/cli.py,sha256=zqqBaKBFM44SiSwxTzhCC6vJ5i14Hh0bzRQh2W_qCGU,3573
+dotbot/config.py,sha256=cTJGqk2i4x-jeRMBT1OlKFNgcystm7hPZpKhhxg5NCA,759
+dotbot/context.py,sha256=-35vxqNtflarN4Yv21THVBt1X-3QD1EBdlZNw7lbDrk,536
+dotbot/dispatcher.py,sha256=ff3x0A78MPrW34ukS1297RCwmiSfZEHumwWKds3hIzk,1778
+dotbot/plugin.py,sha256=XYMaAiDg9lMIDFHEDKvtTaUnp23xtih4hxA5tna6Vlo,620
+dotbot-1.12.2.dist-info/METADATA,sha256=kFkOkxO2BG0bDfY6Q_Vedqqw0oNWWSbJrbYlvvKx8x8,13155
+dotbot-1.12.2.dist-info/RECORD,,
+dotbot-1.12.2.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+dotbot-1.12.2.dist-info/entry_points.txt,sha256=Od0VVeyTsghZN0H_UcBEFEVfnpVCtDTd72e9Apr38E8,40
+dotbot-1.12.2.dist-info/top_level.txt,sha256=he7-rdjlV635DKR8CI7AmHw3c-YV6Z9ta--npOjd2Sg,7
