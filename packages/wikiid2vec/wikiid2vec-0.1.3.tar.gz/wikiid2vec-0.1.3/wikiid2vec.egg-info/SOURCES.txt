@@ -1,0 +1,10 @@
+README.md
+setup.py
+wiki2vec/__init__.py
+wiki2vec/wiki2vec.py
+wikiid2vec.egg-info/PKG-INFO
+wikiid2vec.egg-info/SOURCES.txt
+wikiid2vec.egg-info/dependency_links.txt
+wikiid2vec.egg-info/not-zip-safe
+wikiid2vec.egg-info/requires.txt
+wikiid2vec.egg-info/top_level.txt

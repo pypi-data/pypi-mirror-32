@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: wikiid2vec
+Version: 0.1.3
+Summary: Word2Vec model trained by WIKI Indonesia articles
+Home-page: http://github.com/xhijack/wiki2vec
+Author: xhijack
+Author-email: xhijack@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
