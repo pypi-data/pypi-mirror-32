@@ -1,0 +1,8 @@
+setup.py
+iview/__init__.py
+iview.egg-info/PKG-INFO
+iview.egg-info/SOURCES.txt
+iview.egg-info/dependency_links.txt
+iview.egg-info/not-zip-safe
+iview.egg-info/requires.txt
+iview.egg-info/top_level.txt
