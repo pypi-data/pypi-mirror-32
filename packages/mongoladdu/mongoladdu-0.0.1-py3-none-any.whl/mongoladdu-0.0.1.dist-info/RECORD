@@ -1,0 +1,9 @@
+mongoladdu/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mongoladdu/cli.py,sha256=X9rGjbYImkHxzU2uN5quTTr8ZsyJkuNY9fc3JTHq5fk,338
+mongoladdu/logger.py,sha256=-ioYDJiHcp26f_V6aJAOdZBdspA9-rZRR2A3gTEZ-dE,421
+mongoladdu/migrations.py,sha256=a3DOiA2KdG4a1ojjGJag0i8sEEJgz0fuMGX5b1VK4Qs,3203
+mongoladdu-0.0.1.dist-info/METADATA,sha256=gZTEbl6fqe72H4hr-mE3i9H9XjgKIFHMh0o5W0pWd8M,874
+mongoladdu-0.0.1.dist-info/RECORD,,
+mongoladdu-0.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+mongoladdu-0.0.1.dist-info/entry_points.txt,sha256=JvmaxXfT844aHNzyFFr3Ceu8ABnXFNoh3BIgsivmciA,69
+mongoladdu-0.0.1.dist-info/top_level.txt,sha256=MxjGvHvzrlH4iTuRY0KbFHqwdjuTssweVpR2j-62zlA,11

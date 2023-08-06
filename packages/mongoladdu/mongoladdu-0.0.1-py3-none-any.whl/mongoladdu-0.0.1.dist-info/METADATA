@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: mongoladdu
+Version: 0.0.1
+Summary: MongoDB migration manager
+Home-page: https://github.com/dataladdu/mongoladdu
+Author: Deepan Subramani
+Author-email: subramani.deepan@gmail.com
+License: MIT
+Download-URL: https://github.com/dataladdu/mongoladdu/archive/0.0.1.tar.gz
+Keywords: mongodb,migration
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.4
+Requires-Dist: pymongo (>=3.6.1)
+Requires-Dist: click (>=6.7)
+Requires-Dist: PyYAML (>=3.12)
+
+Light weight migration manager for MongoDB using pymongo
+
+
