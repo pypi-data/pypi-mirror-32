@@ -1,0 +1,4 @@
+[console_scripts]
+dockerize = djocker.scripts.dockerize:main
+manage_with_compose = djocker.scripts.manage_with_compose:main
+
