@@ -1,0 +1,7 @@
+apispec_oneofschema.py
+setup.py
+apispec_oneofschema.egg-info/PKG-INFO
+apispec_oneofschema.egg-info/SOURCES.txt
+apispec_oneofschema.egg-info/dependency_links.txt
+apispec_oneofschema.egg-info/requires.txt
+apispec_oneofschema.egg-info/top_level.txt

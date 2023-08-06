@@ -1,0 +1,3 @@
+apispec
+marshmallow-oneofschema
+marshmallow<3.0.0
