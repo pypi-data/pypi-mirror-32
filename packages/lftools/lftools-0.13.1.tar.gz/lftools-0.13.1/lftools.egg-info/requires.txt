@@ -1,0 +1,9 @@
+click
+pyyaml
+requests~=2.18.0
+setuptools>=36.5.0
+python-jenkins~=0.4.16  # Regression in run_script() with 1.0.0
+netifaces==0.10.5
+
+[openstack]
+shade~=1.27.1
