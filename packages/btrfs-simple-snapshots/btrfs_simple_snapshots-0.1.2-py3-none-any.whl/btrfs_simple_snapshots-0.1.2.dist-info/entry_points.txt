@@ -1,0 +1,3 @@
+[console_scripts]
+btrfs-simple-snapshots = btrfs_simple_snapshots:main
+
