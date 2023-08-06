@@ -1,0 +1,95 @@
+Metadata-Version: 2.0
+Name: iris-ued
+Version: 5.0.1
+Summary: Ultrafast electron diffraction data exploration
+Home-page: http://iris-ued.readthedocs.io
+Author: Laurent P. René de Cotret
+Author-email: laurent.renedecotret@mail.mcgill.ca
+License: MIT
+Download-URL: http://github.com/LaurentRDC/iris-ued
+Description-Content-Type: text/x-rst
+Keywords: ultrafast electron diffraction visualization pyqtgraph
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >= 3.6
+Requires-Dist: PyQt5
+Requires-Dist: cached-property (>=1.3)
+Requires-Dist: h5py (>=2.6.0)
+Requires-Dist: npstreams (>=1.5.0)
+Requires-Dist: numpy (>=1.12)
+Requires-Dist: pyqtgraph (>=0.10)
+Requires-Dist: qdarkstyle (>=2.5.4)
+Requires-Dist: scikit-image (>=0.13)
+Requires-Dist: scikit-ued (>=0.5.9)
+Requires-Dist: scipy (>=0.17)
+
+Iris
+====
+
+.. image:: https://img.shields.io/appveyor/ci/LaurentRDC/iris-ued/master.svg
+    :target: https://ci.appveyor.com/project/LaurentRDC/iris-ued
+    :alt: Windows Build Status
+.. image:: https://readthedocs.org/projects/iris-ued/badge/?version=master
+    :target: http://iris-ued.readthedocs.io/
+    :alt: Documentation Build Status
+.. image:: https://img.shields.io/pypi/v/iris-ued.svg
+    :target: https://pypi.python.org/pypi/iris-ued
+    :alt: PyPI Version
+
+
+Iris is both a library for interacting with ultrafast electron diffraction data, as well as a GUI frontend
+for interactively exploring this data.
+
+Iris also includes a plug-in manager so that you can explore your data.
+
+Installation
+------------
+
+To install the latest development version from `Github <https://github.com/LaurentRDC/iris-ued>`_::
+
+    python -m pip install git+git://github.com/LaurentRDC/iris-ued.git
+
+Iris is available on PyPI; it can be installed with `pip <https://pip.pypa.io>`_.::
+
+    python -m pip install iris-ued
+
+Each version is tested against Python 3.6. If you are using a different version, tests can be run
+using the standard library's `unittest` module.
+
+Usage
+-----
+
+Once installed, the package can be imported as :code:`iris`. 
+
+The GUI component can be launched from a command line interpreter as :code:`python -m iris`
+or :code:`pythonw -m iris` (no console window).
+
+Documentation
+-------------
+
+The `Documentation on readthedocs.io <https://iris-ued.readthedocs.io>`_ provides API-level documentation, as 
+well as tutorials.
+
+Support / Report Issues
+-----------------------
+
+All support requests and issue reports should be
+`filed on Github as an issue <https://github.com/LaurentRDC/iris-ued/issues>`_.
+
+License
+-------
+
+iris is made available under the MIT License. For more details, see `LICENSE.txt <https://github.com/LaurentRDC/iris-ued/blob/master/LICENSE.txt>`_.
+
+
