@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+release.sh
+setup.py
+cffi/madx_builder.py
+examples/lhc/job.madx
+examples/lhc/test_lhc.py
+examples/simple/test_simple.py
+madxpy/__init__.py
+madxpy/madx.py
+madxpy.egg-info/PKG-INFO
+madxpy.egg-info/SOURCES.txt
+madxpy.egg-info/dependency_links.txt
+madxpy.egg-info/top_level.txt
