@@ -1,0 +1,3 @@
+[console_scripts]
+OskarGottlieb-httpbin = OskarGottlieb_httpbin.console:entrypoint
+
