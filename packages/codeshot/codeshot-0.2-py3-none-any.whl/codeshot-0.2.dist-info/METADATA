@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: codeshot
+Version: 0.2
+Summary: convert code file to image
+Home-page: https://github.com/pythonml/codeshot
+Author: Zhongqiang Shen
+Author-email: shenzhongqiang@msn.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: selenium
+Requires-Dist: pygments
+
+UNKNOWN
+
+
