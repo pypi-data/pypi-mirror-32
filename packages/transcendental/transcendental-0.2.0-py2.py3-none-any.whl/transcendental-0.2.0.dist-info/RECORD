@@ -1,0 +1,11 @@
+transcendental/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+transcendental/learn.py,sha256=PMMyt5SNDhktoSnPPsnzuxkcChzuivdf44UhD6S13M0,1724
+transcendental/predict.py,sha256=RNoxwalMBzblB3y8VLhN6kgsO9GInnnh9oNlaZaCAQE,1738
+transcendental-0.2.0.data/data/models/model.h5,sha256=8PVwsZVZ4aGKgWtguWaUqFm3gjPvlak42jZVjEssPgo,15766064
+transcendental-0.2.0.data/data/models/model.yaml,sha256=0MEVyBv_kWBbLDAfm7jOMKdkiaJ_CeQND7YG-MfYDjY,1994
+transcendental-0.2.0.dist-info/METADATA,sha256=PqeMjPp0z8jdeEyE19FXDkC5PvCAbgRcVwdTnpCsI-k,1906
+transcendental-0.2.0.dist-info/RECORD,,
+transcendental-0.2.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+transcendental-0.2.0.dist-info/entry_points.txt,sha256=Jcie9jxWXaEwyDwvUYSNyMfOCmDm2FENtboI6LgKJz8,103
+transcendental-0.2.0.dist-info/pbr.json,sha256=EHqhw7jyG_skC9u4g2AYFlY-wQx7slboew924mtPYm0,47
+transcendental-0.2.0.dist-info/top_level.txt,sha256=QJlr-im3KHAI_TeRAfUxMJrHHb1_L1vNXDqPzNamHaQ,15
