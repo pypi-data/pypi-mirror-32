@@ -1,0 +1,5 @@
+click
+terminaltables
+kamonohashi-sdk
+requests
+six
