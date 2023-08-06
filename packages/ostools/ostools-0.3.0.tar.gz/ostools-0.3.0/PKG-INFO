@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ostools
+Version: 0.3.0
+Summary: A simple object-oriented set of OS utilities
+Home-page: https://github.com/bluepython508/filepath
+Author: bluepython508
+Author-email: bluepython508@gmail.com
+License: MIT
+Project-URL: Bug Reports, https://github.com/bluepython508/filepath/issues
+Project-URL: Source, https://github.com/bluepython508/filepath/
+Description: # FilePath
+        FilePath is a simple object-oriented approach to paths.
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: System
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: ~=3.6
+Description-Content-Type: text/markdown

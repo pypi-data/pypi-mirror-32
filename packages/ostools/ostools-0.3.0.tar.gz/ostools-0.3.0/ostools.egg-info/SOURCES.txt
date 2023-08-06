@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+ostools/__init__.py
+ostools/exceptions.py
+ostools/filepath.py
+ostools/utils.py
+ostools.egg-info/PKG-INFO
+ostools.egg-info/SOURCES.txt
+ostools.egg-info/dependency_links.txt
+ostools.egg-info/top_level.txt
