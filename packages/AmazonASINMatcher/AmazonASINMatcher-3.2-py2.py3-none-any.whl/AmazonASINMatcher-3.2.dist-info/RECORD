@@ -1,0 +1,11 @@
+AmazonASINMatcher/Check_Url.py,sha256=FyiFe-TPuChhC7mhQu418rW41Mg5yy6p389wwdcDLLU,196
+AmazonASINMatcher/Check_pattern.py,sha256=MAiKE0gtt7piNoT6H-EzkE-FrokWjDbq6NBfRiudl_8,341
+AmazonASINMatcher/Link.py,sha256=9Cg41H_ephMgvQKpeMMaynCZLz3RBs8RQsWRhkEKAP8,2233
+AmazonASINMatcher/Link_object.py,sha256=AolHJzjebOJ4bO6o-LMAaYeCQ5drIrvNSoUozon5WSU,246
+AmazonASINMatcher/Region.py,sha256=2W2IgYPTFW3Cj7mdOBef58MPpJOGB_US4m6wGtSksQ0,437
+AmazonASINMatcher/__init__.py,sha256=XiE7iuTyaDXOLd7v8Kh4f6hvNuRzn9QCxM5Jrte625o,772
+AmazonASINMatcher-3.2.dist-info/LICENSE.txt,sha256=DIlFPn0SByCQ9Yo17k9tT_lOnUI32CTC4DYG_hOsO5U,1080
+AmazonASINMatcher-3.2.dist-info/METADATA,sha256=Ej0F8AtH69lymYECodT36BlHW1Psn9BndZOEJjGLfsM,1430
+AmazonASINMatcher-3.2.dist-info/RECORD,,
+AmazonASINMatcher-3.2.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+AmazonASINMatcher-3.2.dist-info/top_level.txt,sha256=ld718YpVPPSgl-IuIShJKuaC6tyyAdYSb18GKZe7blU,18
