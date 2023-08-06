@@ -1,0 +1,3 @@
+[console_scripts]
+ddcafe = ddcafe.ddcafe:main
+

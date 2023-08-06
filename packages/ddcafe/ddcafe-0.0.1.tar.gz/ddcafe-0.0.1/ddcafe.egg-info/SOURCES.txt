@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+ddcafe/__init__.py
+ddcafe/ddcafe.py
+ddcafe.egg-info/PKG-INFO
+ddcafe.egg-info/SOURCES.txt
+ddcafe.egg-info/dependency_links.txt
+ddcafe.egg-info/entry_points.txt
+ddcafe.egg-info/not-zip-safe
+ddcafe.egg-info/top_level.txt
+ddcafe/data/.DS_Store
+ddcafe/data/ddcafe.json
