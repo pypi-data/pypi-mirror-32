@@ -1,0 +1,11 @@
+# gevent stack
+greenlet
+gevent == 1.2.2
+
+# pysol
+pysolbase
+pysolmeters
+
+# Socks
+PySocks
+
