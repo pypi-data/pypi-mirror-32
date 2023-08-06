@@ -1,0 +1,15 @@
+djangorestframework_discovery-0.1.7.dist-info/METADATA,sha256=J_xb-t_OTP5_-XD8adXTCRmeLCiYD5pwjXduxtt58c8,3374
+djangorestframework_discovery-0.1.7.dist-info/RECORD,,
+djangorestframework_discovery-0.1.7.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+djangorestframework_discovery-0.1.7.dist-info/top_level.txt,sha256=nXstBaWGTS0p1AKYB9lgRsVk3kZKda-dWTB2-Xp1Mts,31
+rest_framework_discovery/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rest_framework_discovery/apps.py,sha256=4wPcT9e3aLKkoN5AYj0Nxct7Ghqu9Dqm2FJC8Xb3zc0,108
+rest_framework_discovery/introspect.py,sha256=ngicJWLDeT0uOM8jeVFWZtYiBlXijuhv22mN5FCK-Fs,4265
+rest_framework_discovery/settings.py,sha256=Qa6_OJauCcfCPEUOb2VJ0BzCnAZePtvHO7YuVarzZSY,797
+rest_framework_discovery/urls.py,sha256=CUksaXpxytk_9NAex7ORMXqFjzoicowmdGu32y2RCFE,376
+rest_framework_discovery/views.py,sha256=mhPhJ90dUvsKvdBoykClC0paoOA9Gdv7kEG5kr6CxY0,2519
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/models.py,sha256=gIebKkmuNKugGYWb2GvfpFG5mXe8rawHpjyoRIOSlbs,445
+tests/settings.py,sha256=EJ8f_QurHwMNYbi88xsw4WeTfFQB3dV1Nxlg85WHgZY,1497
+tests/tests.py,sha256=I4dQaFBPREUQ6jPWk9Po85Gqs7LWPfHR3r-SsR_UKTA,5516
+tests/urls.py,sha256=VqisV4lApE1cLIa6ynAWytDvpR9gy482rpDkzZFfdYM,115
