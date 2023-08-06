@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>      
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>index</title>     
+    <link href="/static/bootstrap/dist/css/bootstrap.css" rel="stylesheet"></link>
+    {% block head_css %}
+         <link href="/static/css/index.css" rel="stylesheet"></link>
+    {% end %}
+    
+    {% block extends_css %}
+    {% end %}
+</head>     
+<body>      
+    <div class="main" class='main'>
+        <div class="body">
+            {% block content_d %}
+            <div class="content col-md-9 col-sm-8 col-xs-9">
+                <div class="head">
+                </div>
+            {% block content %}
+            <!-- <textarea name="content" id="editor" class="ckeditor">
+                
+            </textarea> -->
+            <div class="document-editor">
+                <div class="document-editor__toolbar"></div>
+                <div class="document-editor__editable-container">
+                    <div class="document-editor__editable">
+                        <p>The initial editor data.</p>
+                    </div>
+                </div>
+            </div>
+                
+            {% end %}
+            </div>
+            {% end %}
+        </div>
+        <div class="tail">
+        {% block tail %}
+        {% end %}
+        </div>
+    </div>
+    <input type="hidden" value="keep" id="temp" >
+    <form class="form-inline" action="/edit" method="post">
+      <div class="form-group">
+        <label for="exampleInputName2">Name</label>
+        <input name="file_name" type="text" class="form-control" id="file_name" placeholder="Readme.md">
+      </div>
+      <button type="submit" id='save_file'  class="btn btn-default">Save </button>
+      <div class="form-group">
+        <select name="select_file" id="select_files" class="form-control">
+            {% for file in files %}
+                <option>{{ file }}</option>
+            {% end %}
+        </select>
+      </div>
+      
+    </form>
+
+    <script src="/static/jquery/dist/jquery.min.js"></script>
+    <script src="/static/bootstrap/dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/static/js/ckeditor.js"></script>
+    <script type="text/javascript" src="/static/js/dckeditor.js"></script>
+    {% block body_js %}
+        <script src="/static/js/index.js"></script>
+        
+        <script type="text/javascript">
+            
+            websocket = new web_client("ws://{{ my_ip }}:59999/socketapi")
+            
+
+            var Editor = null;
+            // ClassicEditor
+            DecoupledEditor
+                .create( document.querySelector(  '.document-editor__editable'  ) )
+                .then( editor => {
+                    const toolbarContainer = document.querySelector( '.document-editor__toolbar' );
+
+                    toolbarContainer.appendChild( editor.ui.view.toolbar.element );
+
+                    window.editor = editor;
+
+                    console.log( editor );
+                    Editor = editor;
+                    editor.model.document.on('change', () =>{
+                        if ($("#temp")[0].value != "keep"){
+                            text = editor.getData()
+                            console.log(text)
+                            websocket.send(text)    
+                            $("#temp")[0].value = "keep"    
+                        }else{
+
+                            
+                            $("#temp")[0].value = "nokeep"    
+                            
+                            
+                        }
+                        
+                    })
+
+                    websocket.on_msg(function(json){
+                        console.log(json);
+                        // var sel = editor.modal.document.selection;
+                        if (json.hasOwnProperty("sendto")){
+                            $("#temp")[0].value  = "keep"
+                            editor.setData(json.text);
+                        }else{
+                            $("#temp")[0].value  = "nokeep"
+                        }
+                        
+                        // var ranges = editor.model.document.selection._ranges
+                        // ranges[0].setStart(element.getFirst(), 0);
+                        // ranges[0].setEnd(element.getFirst(), 0); //cursor
+                    })
+                })
+                .catch( error => {
+                    console.error( error );
+                
+                });
+
+                $("#save_file").click(function(){
+                    text=Editor.getData()
+                    file_name = $("#file_name")[0].value
+                    JsonPost("/edit", {
+                        'req':{
+                            "text":text,
+                            "file":file_name    
+                        }
+                        
+                    })
+                    return false
+                })
+
+                $("#select_files").bind("change",function(){
+                    var dataname = $(this).val();
+                    JsonPost("/edit", {
+                        'req':{
+                            'file':dataname
+                        }
+                    }, function(data){
+                        Editor.setData(data.text);
+                    })
+                })
+
+        </script> 
+        
+    {% end %}
+</body>     
+</html>
+    
