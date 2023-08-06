@@ -1,0 +1,12 @@
+infi.sysv_service-0.1.17-py2.7-nspkg.pth,sha256=Puo8Dhy7BSgYsqSaXhYQWKH_Zr23iy05JZ2pxHOAtNc,529
+infi/sysv_service/__init__.py,sha256=mIp2NJdwvord_D-A4t0SgSzQRTYmvYHeEUPXwBYnf9I,6051
+infi/sysv_service/__version__.py,sha256=rd9SY6TRaeOfD4TJ7hH0AU4mLyn2hpTeJemqV5wcGzA,467
+infi/sysv_service/tests.py,sha256=MK8QU_uMKWJfqF6qX-JckU5PheOrPyHsL5R-Boa98FI,3994
+infi.sysv_service-0.1.17.dist-info/DESCRIPTION.rst,sha256=Z0eLEitPoonf5RZxCT_HBjMq66hEfv6PY-cGTpBKaaA,56
+infi.sysv_service-0.1.17.dist-info/METADATA,sha256=2Hv7QVHn9PbVSeE-lj4S7FXshD39RdY-KwZXLT7ZukA,687
+infi.sysv_service-0.1.17.dist-info/RECORD,,
+infi.sysv_service-0.1.17.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+infi.sysv_service-0.1.17.dist-info/entry_points.txt,sha256=mUNMmpYTR3SQX28bXHIajDqBXHktexsbcq1_r41xrys,36
+infi.sysv_service-0.1.17.dist-info/metadata.json,sha256=aL4tGM_gJE0or2r-EMbAUNRfLY4p7fxWtphQmOVORfk,923
+infi.sysv_service-0.1.17.dist-info/namespace_packages.txt,sha256=dXIyYv_pNwpGguxzqhrAAmEyFWegZ_kDeqe_z8cMR5g,5
+infi.sysv_service-0.1.17.dist-info/top_level.txt,sha256=dXIyYv_pNwpGguxzqhrAAmEyFWegZ_kDeqe_z8cMR5g,5
