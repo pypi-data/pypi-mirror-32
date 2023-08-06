@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: zaggregator
+Version: 0.0.1
+Summary: Per-process stat monitoring solution for Zabbix
+Home-page: https://github.com/fordindin/zaggregator
+Author: Denis Barov
+Author-email: dindin+zaggregator@dindin.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+
+## Install ##
+
+
