@@ -1,0 +1,10 @@
+ipython_IDV/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ipython_IDV/drilsdown.py,sha256=TAWRc-6_a_JQwtzkh8rvcyyWBCSgvtgAqHfGqXIna-g,54927
+ipython_IDV-2.4.4.dist-info/DESCRIPTION.rst,sha256=yfwu7jQGAPX5-YKnKmsMTPrmyF_ADx3YAPwKzr1hq7g,5273
+ipython_IDV-2.4.4.dist-info/METADATA,sha256=Pw_vqDvsJd_Z2q_X7HJ7D1BihhdVekt0_Z_fIk9pt7M,5937
+ipython_IDV-2.4.4.dist-info/RECORD,,
+ipython_IDV-2.4.4.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+ipython_IDV-2.4.4.dist-info/metadata.json,sha256=BnxzftnVMPjNuTKIKEaoWX--2Q4xs7oqDrVxQ29KjYo,772
+ipython_IDV-2.4.4.dist-info/top_level.txt,sha256=XTGGvZyvV83GRr0dkku7yDTivMWVyZrqx98yEwsIHqw,28
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_sample.py,sha256=MtVTQ3Sg0Aix6BEH2dzKxT1xoBjSpXxyqD-9aRVmrss,98
