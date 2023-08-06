@@ -1,0 +1,13 @@
+networkx==1.11
+sqlalchemy
+click
+requests
+requests_file
+pyparsing
+six
+tqdm
+
+# Extras
+indra[indra]
+ndex2[ndex]
+py2neo[neo4j]
