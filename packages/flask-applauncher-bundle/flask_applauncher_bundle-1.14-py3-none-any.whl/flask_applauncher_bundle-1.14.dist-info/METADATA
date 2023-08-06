@@ -1,0 +1,22 @@
+Metadata-Version: 2.0
+Name: flask-applauncher-bundle
+Version: 1.14
+Summary: flask support for applauncher
+Home-page: https://github.com/applauncher-team/flask_bundle
+Author: Alvaro Garcia Gomez
+Author-email: maxpowel@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/applauncher-team/flask_bundle/archive/master.zip
+Keywords: flask,web,api
+Platform: UNKNOWN
+Classifier: Topic :: Adaptive Technologies
+Classifier: Topic :: Software Development
+Classifier: Topic :: System
+Classifier: Topic :: Utilities
+Requires-Dist: Flask
+Requires-Dist: applauncher
+Requires-Dist: flask-cors
+
+UNKNOWN
+
+
