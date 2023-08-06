@@ -1,0 +1,7 @@
+sanic_json_logging/__init__.py,sha256=uOf69VmUtiRKvVBJ_ksow_a1LRlfMCsjS0shunuhGfc,2969
+sanic_json_logging/formatters.py,sha256=Vs6U35dquI3P6W22bldkAuusbxQtmgsw9HAlEJ8NTv8,5515
+sanic_json_logging/sanic_app.py,sha256=ycpXkpKz8iyUTeSKx00VRUf3kKlcK4Amojv08QH8H5k,614
+sanic_json_logging-0.3.0.dist-info/METADATA,sha256=T_KEKQUYEW2-BI2PvfIvLBTKLLPGDuWeN8WpqzoELSo,3610
+sanic_json_logging-0.3.0.dist-info/RECORD,,
+sanic_json_logging-0.3.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+sanic_json_logging-0.3.0.dist-info/top_level.txt,sha256=n6K8qE7dpthvuy1AEkHsGBq_t5WkJG_c8Ke6mfF-BP4,19
