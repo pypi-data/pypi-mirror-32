@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+ag.egg-info/PKG-INFO
+ag.egg-info/SOURCES.txt
+ag.egg-info/dependency_links.txt
+ag.egg-info/entry_points.txt
+ag.egg-info/top_level.txt

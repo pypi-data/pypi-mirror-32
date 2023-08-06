@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: ag
+Version: 1.0
+Summary: AlgoLib Project
+Home-page: UNKNOWN
+Author: Simon
+Author-email: s.wang@gmail.com
+License: AlgoLib Free
+Description: Coming soon.
+Keywords: packaging example
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3.6
