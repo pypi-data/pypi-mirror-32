@@ -1,0 +1,18 @@
+sphinx-rigado-theme/__init__.py,sha256=CxTb1XqOOCFtQ1AXb7Gn-JUs824kkcZWTrAAh256kzM,736
+sphinx-rigado-theme/_version.py,sha256=YJdRr2NzLp3AnzNC-Z_Qi39VyWdTx37GNdOukdxptNg,80
+sphinx_rigado_theme/__init__.py,sha256=tvX9j-euI7CXkaVaNMnQrAYmsIt7mUbI30agHnvANLU,390
+sphinx_rigado_theme/globaltoc.html,sha256=QTqe3UScQ8LdxRrTzz1S8_a352KZ82VU5-ACxo-aKwA,232
+sphinx_rigado_theme/layout.html,sha256=BLQ60_RJ4zp9eN1tE7kG-yOLxY-c_REU1MEucMncZ9I,3444
+sphinx_rigado_theme/localtoc.html,sha256=r3wNzjzOT0zAfH596mft09RahWrpTQd9cUJ0gnwWF2A,298
+sphinx_rigado_theme/page.html,sha256=twl_NgwjJmCQ1DN8OsBZjVbdMwNRC9wLvqDTXNPCF1s,849
+sphinx_rigado_theme/searchbar.html,sha256=3sbwsK7GPLP9OWZ7huJfSNMXSrp4aI2pZnSXhQRLCEQ,635
+sphinx_rigado_theme/sourcelink.html,sha256=i36rFpWvkVmHbVIo6Df7e_0FIz8v7EiMj8TTidjbVJI,400
+sphinx_rigado_theme/theme.conf,sha256=Yza8HbDIBau7zSU-jCfhSC23j2dmIMJCc5N6GkuT76k,153
+sphinx_rigado_theme/static/css/rigado.css,sha256=UGiipc-UgIdUEqUtjr788Gxi_-6-dXsjEfD-0M5cADI,3514
+sphinx_rigado_theme/static/images/R 32x32.ico,sha256=tKwjWTvO6e0WsEVWom9PkmDYKfwjwqzgpZQ74l0Mrgg,5430
+sphinx_rigado_theme/static/images/RigadoFullColor-800px.png,sha256=nH7abElD3t5NLjzAjMIQPADlxN-R_W9ZDnerChlPyks,14593
+sphinx_rigado_theme-0.0.3.dist-info/METADATA,sha256=UTA6BAEROD_e3PAbFbutsVTn-0VGP_kMlijWkA1ddsA,1116
+sphinx_rigado_theme-0.0.3.dist-info/RECORD,,
+sphinx_rigado_theme-0.0.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+sphinx_rigado_theme-0.0.3.dist-info/entry_points.txt,sha256=c08agMphu-Ii9wg78b_tdq-Zmg11Sg1bdS47VQXe5YA,64
+sphinx_rigado_theme-0.0.3.dist-info/top_level.txt,sha256=Qdxn3szQE7rtHMlOzhrPLYuQ2NxQvatN82bbrbd6_JQ,20
