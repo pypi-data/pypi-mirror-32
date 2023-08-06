@@ -1,0 +1,4 @@
+pywinrm
+sshtunnel
+pysmb
+pyopenssl
