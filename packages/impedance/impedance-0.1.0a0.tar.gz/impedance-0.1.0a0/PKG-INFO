@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: impedance
+Version: 0.1.0a0
+Summary: A Python package for working with impedance data
+Home-page: https://impedancepy.readthedocs.io/en/latest/
+Author: impedance.py developers
+Author-email: mmurbach@uw.edu
+License: UNKNOWN
+Description: [![Build Status](https://travis-ci.org/ECSHackWeek/impedance.py.svg?branch=master)](https://travis-ci.org/ECSHackWeek/impedance.py)
+        
+        [![Coverage Status](https://coveralls.io/repos/github/ECSHackWeek/impedance.py/badge.svg?branch=master)](https://coveralls.io/github/ECSHackWeek/impedance.py?branch=master)
+        
+        [![Documentation Status](https://readthedocs.org/projects/impedancepy/badge/?version=latest)](https://impedancepy.readthedocs.io/en/latest/?badge=latest)
+        
+        # impedance.py is a Python package for working with impedance data
+        
+        Using a [scikit-learn-like API](https://arxiv.org/abs/1309.0238), we hope to make visualizing, fitting, and analyzing impedance spectra more intuitive and reproducible.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
