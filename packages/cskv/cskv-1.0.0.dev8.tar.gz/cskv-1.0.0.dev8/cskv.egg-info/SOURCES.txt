@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+bin/cskv
+cskv/__init__.py
+cskv.egg-info/PKG-INFO
+cskv.egg-info/SOURCES.txt
+cskv.egg-info/dependency_links.txt
+cskv.egg-info/top_level.txt
+cskv/tests/__init__.py
+cskv/tests/test_cskv.py
+tests/__init__.py
+tests/test_cskv.py
