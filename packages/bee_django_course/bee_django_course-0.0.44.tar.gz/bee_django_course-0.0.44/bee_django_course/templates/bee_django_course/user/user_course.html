@@ -1,0 +1,36 @@
+{% extends "bee_django_course/user_base.html" %}
+
+{% block content %}
+
+    <div class="col-md-12">
+        <h3>学习中的课程</h3>
+        {% if current_course.exists %}
+            {% for e in current_course %}
+                <div class="well">
+                    <a href="{% url 'bee_django_course:user_course_section_list' user_course_id=e.id %}">
+                        <h4>{{ e.course.name }}</h4>
+                    </a>
+                </div>
+            {% endfor %}
+        {% else %}
+            <h3>没有学习中的课程</h3>
+            {#            <a href="{% url 'bee_django_course:view_courses' %}" class="btn btn-primary">查看课程</a>#}
+        {% endif %}
+    </div>
+
+    <div class="col-md-12">
+        <h3>已完成的课程</h3>
+        {% if finished_course.exists %}
+            {% for e in finished_course %}
+                <div>
+                    {{ e.course.name }}
+                </div>
+            {% endfor %}
+        {% else %}
+            <h4>没有完成的课程</h4>
+            {#            <a href="{% url 'bee_django_course:view_courses' %}" class="btn btn-primary">查看课程</a>#}
+        {% endif %}
+    </div>
+
+
+{% endblock content %}
