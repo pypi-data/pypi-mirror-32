@@ -1,0 +1,148 @@
+<!doctype html>
+<!--
+STRAKS POS web front-end page template
+Author: STRAKS Team
+Project page: https://github.com/straks/strakspos
+This program is free software, released under the Apache License, Version 2.0. See the LICENSE file for more information
+-->
+<html>
+	<head>
+			<title>STRAKS Pos - Request</title>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<link href="bootstrap.min.css" rel="stylesheet">
+			<link href="bootstrap-reset.css" rel="stylesheet">
+			<link href="font-awesome.css" rel="stylesheet" />
+			<link href="framework.css" rel="stylesheet">
+			<link href="reset-responsive.css" rel="stylesheet" />
+			<link rel="shortcut icon" href="favicon.png">
+			<script src="scripts.js"></script>
+			<script>
+				var currencies = {currencies};
+				var welcome_timeout = {timeout};
+			</script>
+	</head>
+	<body>
+		<section id="container" class="">
+			<header class="header white-bg">
+				<div class="sidebar-toggle-box">
+					<div data-original-title="Toggle Navigation" data-placement="right" class="icon-reorder tooltips"></div>
+				</div>
+				<a href="/welcome" class="logo" ><b>STRAKS</b><span>pos</span></a>
+			</header>
+			<aside>
+				<div id="sidebar"  class="nav-collapse">
+					<ul class="sidebar-menu" id="nav-accordion">
+						<li>
+							<a href="/welcome">
+								<i class="icon-dashboard"></i>
+								<span>Home</span>
+							</a>
+						</li>
+						<li>
+							<a href="/request">
+								<i class="icon-cloud-download"></i>
+								<span>Create invoice</span>
+							</a>
+						</li>
+						<li>
+							<a href="/logs">
+								<i class="icon-bar-chart"></i>
+								<span>Logs</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</aside>
+			<section id="main-content">
+				<section class="wrapper site-min-height">
+					<form method="get" action="invoice">
+						<div id="keypad">
+							<div style="padding-left:15px;padding-right:15px;">
+								<div class="row">
+									<div class="col-xs-9 no-padding">
+										<input type="text" class="form-control input-lg" id="amountbox" name="amount" pattern="[0-9.]+(\.[0-9][0-9]?)?" onkeypress="setTimeout(validateInput, 1)" required>
+									</div>
+									<div class="col-xs-3 no-padding">
+										<input type="button" class="btn btn-success btn-lg btn-block" {currency_disabled} value="{cur}" id="currency" onclick="cycleCurrency()" style="margin-top:0px;">
+									</div>
+									<input type="hidden" value="{cur}" id="currencybox" name="currency">
+								</div>
+								<div class="row">
+									<div class="col-xs-3 no-padding">
+										<input type="button" class="btn btn-secondary btn-lg btn-block" value="1" onclick="textAppend(1)">
+									</div>
+									<div class="col-xs-3 no-padding">
+										<input type="button" class="btn btn-secondary btn-lg btn-block" value="2" onclick="textAppend(2)">
+									</div>
+									<div class="col-xs-3 no-padding">
+										<input type="button" class="btn btn-secondary btn-lg btn-block" value="3" onclick="textAppend(3)">
+									</div>
+									<div class="col-xs-3 no-padding">
+										<input type="button" class="btn btn-warning btn-lg btn-block" value="&#9003;" onclick="textRemove()">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-3 no-padding">
+										<input type="button" class="btn btn-secondary btn-lg btn-block" value="4" onclick="textAppend(4)">
+									</div>
+									<div class="col-xs-3 no-padding">
+										<input type="button" class="btn btn-secondary btn-lg btn-block" value="5" onclick="textAppend(5)">
+									</div>
+									<div class="col-xs-3 no-padding">
+										<input type="button" class="btn btn-secondary btn-lg btn-block" value="6" onclick="textAppend(6)">
+									</div>
+									<div class="col-xs-3 no-padding">
+										<input type="reset" class="btn btn-danger btn-lg btn-block" value="C" onclick="return_timer = 0">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-3 no-padding">
+										<input type="button" class="btn btn-secondary btn-lg btn-block" value="7" onclick="textAppend(7)">
+									</div>
+									<div class="col-xs-3 no-padding">
+										<input type="button" class="btn btn-secondary btn-lg btn-block" value="8" onclick="textAppend(8)">
+									</div>
+									<div class="col-xs-3 no-padding">
+										<input type="button" class="btn btn-secondary btn-lg btn-block" value="9" onclick="textAppend(9)">
+									</div>
+									<div class="col-xs-3 no-padding">
+										<input type="button" class="btn btn-primary btn-lg btn-block" value="&equiv;" onclick="openLogs()">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-3 no-padding">
+										<input type="button" class="btn btn-secondary btn-lg btn-block" id="cents" value="{centkey}" onclick="addCents()">
+									</div>
+									<div class="col-xs-3 no-padding">
+										<input type="button" class="btn btn-secondary btn-lg btn-block" value="0" onclick="textAppend(0)">
+									</div>
+									<div class="col-xs-3 no-padding">
+										<input type="button" class="btn btn-info btn-lg btn-block" {tax_disabled} value="%" onclick="addTax()">
+									</div>
+									<div class="col-xs-3 no-padding">
+										<input type="submit" class="btn btn-success btn-lg btn-block" value="&#10003;">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-12 no-padding">
+										<p>{tax}: <span id="percents">{taxrate}%</span></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</section>
+			</section>
+		</section>
+		<div class="preloader-wrapper">
+			<div class="preloader text-center">
+				<p>LOADING...</p>
+			</div>
+		</div>
+		<script src="jquery.js"></script>
+		<script src="bootstrap.js"></script>
+		<script src="jquery.dcjqaccordion.2.7.js" class="include" type="text/javascript"></script>
+		<script src="jquery.base.js"></script>
+	</body>
+</html>
