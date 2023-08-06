@@ -1,0 +1,8 @@
+README.md
+setup.py
+precursion/__init__.py
+precursion/precursion.py
+precursion.egg-info/PKG-INFO
+precursion.egg-info/SOURCES.txt
+precursion.egg-info/dependency_links.txt
+precursion.egg-info/top_level.txt
