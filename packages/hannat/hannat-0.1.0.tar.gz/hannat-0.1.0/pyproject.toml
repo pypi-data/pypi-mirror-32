@@ -1,0 +1,11 @@
+[tool.poetry]
+name = "hannat"
+version = "0.1.0"
+description = ""
+authors = ["Nyanye <iam@nyanye.com>"]
+
+[tool.poetry.dependencies]
+python = "~2.7 || ^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
