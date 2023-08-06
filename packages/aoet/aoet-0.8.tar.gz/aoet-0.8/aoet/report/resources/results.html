@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+    body {
+        font: 10px sans-serif;
+    }
+    .axis path,
+    .axis line {
+        fill: none;
+        stroke: #000;
+        shape-rendering: crispEdges;
+    }
+    .dot {
+        stroke: #000;
+    }
+    svg {
+        float: left;
+    }
+
+    div {
+        float: left;
+    }
+
+</style>
+<body>
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script>
+
+    var margin = {top: 20, right: 20, bottom: 20, left: 40},
+        width = 800 - margin.left - margin.right,
+        height = 700 - margin.top - margin.bottom;
+
+    var x = d3.scale.linear()
+        .range([margin.right, width]);
+
+    var y = d3.scale.linear()
+        .range([height, margin.top]);
+
+    var color = d3.scale.category10();
+
+    var xAxis = d3.svg.axis()
+        .scale(x)
+        .orient("bottom");
+
+    var yAxis = d3.svg.axis()
+        .scale(y)
+        .orient("left");
+
+    var svg = d3.select("body").append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+    var requests = [];
+    var prd = [];
+    var tst = [];
+    var stats = {'labels': null, 'clusters': null, 'outliers': null, 'core_samples': null};
+    var outlier = 0;
+    d3.json("requests.json", function(error, data) {
+        requests = data;
+    });
+
+    d3.json("prd.json", function(error, pdata) {
+        prd = pdata;
+    });
+    d3.json("tst.json", function(error, tdata) {
+        tst = tdata;
+    });
+    d3.json("stats.json", function(error, sdata) {
+        stats = sdata;
+        updateStats();
+    });
+
+    function updateStats() {
+        document.getElementById("clusters").innerText = stats.clusters;
+        document.getElementById("outliers").innerText = outlier + " / " + stats.outliers;
+
+    }
+
+    function selectCluster(d) {
+        if(d == -1) {
+            if(outlier + 1 >= stats.outliers)
+                outlier = 0;
+            else outlier++;
+            updateStats();
+            var foundOutliers = 0;
+            for(var i = 0; i < stats.labels.length; i++) {
+                if(stats.labels[i] == -1)
+                    foundOutliers++;
+                if(foundOutliers > outlier) {
+                    mouseover(null, i);
+                    return;
+                }
+            }
+        } else {
+            mouseover(null, stats.core_samples[d]);
+        }
+    }
+
+    function mouseover(d, i) {
+        document.getElementById("method").innerText = requests[i].method;
+        document.getElementById("path").innerText = requests[i].path;
+        document.getElementById("headers").innerText = JSON.stringify(requests[i].headers, null, ' ');
+        document.getElementById("body").innerText = JSON.stringify(requests[i].body, null, ' ');
+
+        document.getElementById("prd_status").innerText = prd[i].status;
+        document.getElementById("prd_headers").innerText = JSON.stringify(prd[i].headers, null, ' ');
+        document.getElementById("prd_body").innerText = JSON.stringify(prd[i].body, null, ' ');
+
+        document.getElementById("tst_status").innerText = tst[i].status;
+        document.getElementById("tst_headers").innerText = JSON.stringify(tst[i].headers, null, ' ');
+        document.getElementById("tst_body").innerText = JSON.stringify(tst[i].body, null, ' ');
+    }
+
+    d3.json("results.json", function(error, data) {
+        if (error) throw error;
+
+        x.domain(d3.extent(data, function(d) { return d.x; })).nice();
+        y.domain(d3.extent(data, function(d) { return d.y; })).nice();
+
+        svg.append("g")
+            .attr("class", "x axis")
+            .attr("transform", "translate(0," + height + ")")
+            .call(xAxis)
+            .append("text")
+            .attr("class", "label")
+            .attr("x", width)
+            .attr("y", -6)
+            .style("text-anchor", "end")
+            .text("Sepal Width (cm)");
+
+        svg.append("g")
+            .attr("class", "y axis")
+            .call(yAxis)
+            .append("text")
+            .attr("class", "label")
+            .attr("transform", "rotate(-90)")
+            .attr("y", 6)
+            .attr("dy", ".71em")
+            .style("text-anchor", "end")
+            .text("Sepal Length (cm)");
+
+        svg.selectAll(".dot")
+            .data(data)
+            .enter().append("circle")
+            .attr("class", "dot")
+            .attr("r", 3.5)
+            .attr("cx", function(d) { return x(d.x); })
+            .attr("cy", function(d) { return y(d.y); })
+            .style("fill", function(d) { return d.label == -1 ? 'black' : color(d.label); })
+            .on("mouseover", mouseover);
+        var legend = svg.selectAll(".legend")
+            .data(color.domain().concat(-1))
+            .enter().append("g")
+            .attr("class", "legend")
+            .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+        var rects = legend.append("rect")
+            .attr("x", width - 18)
+            .attr("width", 18)
+            .attr("height", 18)
+            .style("fill", function(d) { return d == -1 ? 'black' : color(d); });
+
+        var texts = legend.append("text")
+            .attr("x", width - 24)
+            .attr("y", 9)
+            .attr("dy", ".35em")
+            .style("text-anchor", "end")
+            .text(function(d) { return d; });
+
+
+        texts.on("click", function(d){
+            selectCluster(d);
+        });
+
+        rects.on("click", function(d){
+            selectCluster(d);
+        });
+
+    });
+
+</script>
+<div>
+    <p>Stats: <b id="clusters">???</b> clusters; <b id="outliers"></b> outliers.</p>
+    <p id="method"></p>
+    <b id="path"></b>
+    <br/>
+    <pre id="headers"></pre>
+    <pre id="body"></pre>
+    <hr>
+    <div style="width: 50%">
+        <b id="prd_status"></b>
+        <br/>
+        <pre id="prd_headers"></pre>
+        <pre id="prd_body"></pre>
+    </div>
+    <div style="width: 50%">
+        <b id="tst_status"></b>
+        <br/>
+        <pre id="tst_headers"></pre>
+        <pre id="tst_body"></pre>
+    </div>
+</div>
+</body>
+
