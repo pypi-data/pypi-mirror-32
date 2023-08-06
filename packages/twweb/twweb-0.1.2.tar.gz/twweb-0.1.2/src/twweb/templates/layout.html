@@ -1,0 +1,117 @@
+<!doctype html>
+
+{% set categories = {'error': 'danger',
+                     'message': 'primary',} %}
+{% macro bscat(name) %}
+{{categories[name]|default(name)}}
+{%- endmacro %}
+
+{% macro responsive_nav_link(label, url, icon_class, link_class='nav-link') %}
+<li class="nav-item d-none d-sm-block">
+    <a href="{{ url }}" role="button" class="{{ link_class }} align-middle ml-2" title="{{ label }}" aria-label="{{ label }}"><i class="{{ icon_class }}"></i></a>
+</li>
+<li class="nav-item d-sm-none">
+    <a href="{{ url }}" role="button" class="nav-link"><i class="{{ icon_class }}"></i> {{ label }}</a>
+</li>
+{%- endmacro %}
+
+{% macro responsive_nav_button(label, form_id, icon_class, btn_class='btn') %}
+<li class="nav-item d-none d-sm-block">
+    <button type="submit" class="{{ btn_class }}" form="{{ form_id }}" title="{{ label }}" aria-label="{{ label }}"><i class="{{ icon_class }}"></i></button>
+</li>
+<li class="nav-item d-sm-none">
+    <button type="submit" class="btn btn-link nav-link" form="{{ form_id }}"><i class="{{ icon_class }}"></i> {{ label }}</button>
+</li>
+{%- endmacro %}
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+
+        <title>{% block title %}TWWeb{% endblock title %}</title>
+    </head>
+    <body style="padding-top: 100px">
+        {% block navbar %}
+        <nav class="navbar navbar-expand-sm fixed-top bg-dark navbar-dark">
+            <a class="navbar-brand" href="/" title="Home">TWWeb</a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsible-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapsible-nav">
+                <!-- Navbar links -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item {{ 'active' if eq_query(status='pending') else ''  }}">
+                        <a class="nav-link" href="{{url_for('task.tasks', status='pending')}}">Pending</a>
+                    </li>
+                    <li class="nav-item {{ 'active' if has_query(status='pending', sort='urgency', ord='desc', limit='12') else ''  }}">
+                        <a class="nav-link" href="{{url_for('task.tasks', status='pending', sort='urgency', ord='desc', limit='12')}}">Most important</a>
+                    </li>
+
+                    {% if reports %}
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Show</a>
+                        <div class="dropdown-menu">
+                            {% for rname in reports %}
+                            <a class="dropdown-item" href="{{ url_for('task.tasks', filter=reports[rname]) }}" title="{{ reports[rname]|capitalize }}">{{ rname|capitalize }}</a>
+                            {% endfor %}
+                            {% if reports %}<div class="dropdown-divider"></div>{% endif %}
+                            <a class="dropdown-item" href="{{url_for('task.tasks')}}">All Tasks</a>
+                        </div>
+                    </li>
+                    {% endif %}
+                </ul>
+
+
+                <ul class="navbar-nav">
+                    {{ responsive_nav_button('Synchronize', 'synchronize-form', 'fas fa-sync-alt', 'btn btn-outline-light') }}
+                    {{ responsive_nav_link('New task', url_for('task.add'), 'fas fa-plus', 'btn btn-outline-light') }}
+
+                    {% if current_user.is_authenticated %}
+                    {{ responsive_nav_link('Logout', url_for('task.logout'), 'fas fa-power-off', 'btn btn-danger') }}
+                    {% endif %}
+                </ul>
+
+                <form id="synchronize-form" action="{{ url_for('task.sync') }}" method="post">
+                    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+                </form>
+            </div>
+        </nav>
+        {% endblock navbar %}
+
+        <main role="main" class="container">
+            {% block messages %}
+                {% with flashed = get_flashed_messages(with_categories=true) %}
+                    {% if messages or flashed %}
+                        {% for category, message in messages + flashed %}
+                        <div class="row">
+                            <div class="col">
+                                <div class="alert alert-dismissible alert-{{bscat(category)}}">
+                                    <button type="button" class="close" data-dismiss="alert">&times;</button>
+                                    {{ message }}
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    {% endif %}
+                {% endwith %}
+            {% endblock messages %}
+            {% block content %}
+            {% endblock content %}
+        </main>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+    </body>
+</html>
+

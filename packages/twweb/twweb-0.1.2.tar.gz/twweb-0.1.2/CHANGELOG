@@ -1,0 +1,21 @@
+twweb (0.1.2)
+
+  * Added README.
+  * Renamed everything in example configuration files from tww to twweb.
+  * Bugfix: Fixed module name in uwsgi configuration.
+
+ -- Michał Góral <dev@mgoral.org> Thu, 31 May 2018
+
+twweb (0.1.1)
+
+  * Bugfix: Added missing files to pypi package.
+
+ -- Michał Góral <dev@mgoral.org> Thu, 31 May 2018
+
+twweb (0.1.0)
+
+  * Initial release
+  * Add and edit tasks
+  * Filter and sort tasks
+
+ -- Michał Góral <dev@mgoral.org> Thu, 31 May 2018
