@@ -1,0 +1,4 @@
+PytableBox.egg-info/PKG-INFO
+PytableBox.egg-info/SOURCES.txt
+PytableBox.egg-info/dependency_links.txt
+PytableBox.egg-info/top_level.txt
