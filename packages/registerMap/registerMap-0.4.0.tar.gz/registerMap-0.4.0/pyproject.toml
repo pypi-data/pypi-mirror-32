@@ -1,0 +1,17 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "registerMap"
+author = "Russell Smiley"
+author-email = "im.russell.smiley@gmail.com"
+home-page = "https://gitlab.com/blueskyjunkie/registerMap"
+classifiers = ["License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)"]
+requires = [ "jinja2", "pyyaml" ]
+description-file = "README.rst"
+keywords = "registermap register digital electronic design"
+requires-python = ">=3"
+
+[tool.flit.scripts]
+export-map = "registerMap.exporter:entry"
