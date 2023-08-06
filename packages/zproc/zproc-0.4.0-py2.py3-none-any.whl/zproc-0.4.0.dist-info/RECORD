@@ -1,0 +1,15 @@
+zproc.py,sha256=TIBslMtxgQmkll3n5a6M1peDBkQxChc-aTIl9IOj_hA,10900
+zproc_server.py,sha256=ckcY8Od2oWmNPFVKkIcp2RJu0sY7qhF2nRraUxyhNjk,5846
+source/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+source/zproc.py,sha256=QdjaP7EfmkMWchiRayjoz5RTvtYA6IHJee0_B9DiGL4,11702
+source/zproc_server.py,sha256=ckcY8Od2oWmNPFVKkIcp2RJu0sY7qhF2nRraUxyhNjk,5846
+zproc/__init__.py,sha256=Kwjfb5Y9Tx0v3JfOm_53wfbUukPJGViM0nQu0S9_0D4,26
+zproc/storage.py,sha256=J506xkidf0IZBhkXCbG2tFiAuEsFvqTLrv8bbLDmSMw,2630
+zproc/util.py,sha256=gVG6dHYa-7Kh0T6w_KH2tXlkIsX-lKnrDeRszkFyPGs,4232
+zproc/utils.py,sha256=svrDN2EmX-13-2G1vpUVTigWXdZlKlVV4rOjpdr8uL0,6217
+zproc/zproc.py,sha256=yDp1k_Jxgdx0qdRfpm3_3_lzAVP6g5kHitn4Sh2nrP8,28334
+zproc/zproc_server.py,sha256=1RI3EZR37G1IRobLNh3F6IfIkTMkUkickA6cqRZ6JGU,3293
+zproc-0.4.0.dist-info/METADATA,sha256=4eThBGF1naB8GCiA8qVyNw5VZh6HeAo7d9JjayootQU,8160
+zproc-0.4.0.dist-info/RECORD,,
+zproc-0.4.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+zproc-0.4.0.dist-info/top_level.txt,sha256=KVWTyj6X7KlzbRurR0VMzW5tGm4vQ9Raz1EuaVvu2d0,6
