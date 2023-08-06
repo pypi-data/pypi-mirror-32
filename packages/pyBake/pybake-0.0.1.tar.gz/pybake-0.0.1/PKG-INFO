@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pybake
+Version: 0.0.1
+Summary: Build single file Python scripts with builtin frozen file system
+Home-page: https://github.com/sourcesimian/pyBake
+Author: Source Simian
+Author-email: sourcesimian@users.noreply.github.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
