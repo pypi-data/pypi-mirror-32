@@ -1,0 +1,8 @@
+aiohttp==3.2.1
+aiohttp_cors==0.7.0
+jsonrpcserver==3.5.4
+jsonrpcclient==2.5.2
+web3==4.2.1
+mnemonic==0.18
+bip32utils==0.3.post3
+ecdsa==0.13

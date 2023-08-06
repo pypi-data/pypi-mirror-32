@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+bin/snetd
+snetd_alpha/__init__.py
+snetd_alpha/blockchain.py
+snetd_alpha/configuration.py
+snetd_alpha/daemon.py
+snetd_alpha.egg-info/PKG-INFO
+snetd_alpha.egg-info/SOURCES.txt
+snetd_alpha.egg-info/dependency_links.txt
+snetd_alpha.egg-info/requires.txt
+snetd_alpha.egg-info/top_level.txt
+snetd_alpha/resources/Agent.json
