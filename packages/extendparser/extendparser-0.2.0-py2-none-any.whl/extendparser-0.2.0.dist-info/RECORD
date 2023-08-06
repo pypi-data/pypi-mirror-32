@@ -1,0 +1,13 @@
+extendparser/__init__.py,sha256=rCqW47bnJYQLw_BYR_YxcIJ7rr_aJpeDW9R7cbw_KI0,595
+extendparser/get.py,sha256=AZL5tiRu54t2TrZ77c625IwxGFJ_DNLYpXiRp4wA8xc,3195
+extendparser/include.py,sha256=-ZMPX7r92XjYbb9zUdmNL1rDD8otbk-G_Y2w3qVwwgc,2185
+extendparser/to3.py,sha256=gQQQYP-tKHRVJLOvQtAazBWjpS5pJJ_VaHaz219eM34,534
+extendparser-0.2.0.data/data/share/doc/extendparser/AUTHORS,sha256=8CLH4ixMyVILztKa0_3aDaCcJAXYKMNLBiEZOPXoJ8s,34
+extendparser-0.2.0.data/data/share/doc/extendparser/CONTRIBUTION.rst,sha256=EFCytCyLeXNtkHYEAtyTp6deyLM1LUEe5Nyp6LBQJ0Y,699
+extendparser-0.2.0.data/data/share/doc/extendparser/COPYING,sha256=mqgJrav8mD81zbDg-NNTB_-Tvks2YJVzkwlLQd0pGiA,1520
+extendparser-0.2.0.data/data/share/doc/extendparser/ChangeLog,sha256=BXBAzOWdYVqYO9ssZUxnV_X7m5-Eg8sq-e6nh7OmJbE,299
+extendparser-0.2.0.data/data/share/doc/extendparser/README.rst,sha256=mHFoUCH8eiaNGT5irR67XjRVJQJ-JIQCyX58NbvgKag,1730
+extendparser-0.2.0.dist-info/METADATA,sha256=SpsaxfyU8Y4iBDJx4YngYBLdYYuhDacWp0iYaUVYyFs,2386
+extendparser-0.2.0.dist-info/RECORD,,
+extendparser-0.2.0.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+extendparser-0.2.0.dist-info/top_level.txt,sha256=ztw9flKXs5NOaK5BRgI30IdnmS-IXTcnfdBnixyoB7I,13
