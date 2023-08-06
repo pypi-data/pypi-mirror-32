@@ -1,0 +1,5 @@
+setup.py
+readN.egg-info/PKG-INFO
+readN.egg-info/SOURCES.txt
+readN.egg-info/dependency_links.txt
+readN.egg-info/top_level.txt
