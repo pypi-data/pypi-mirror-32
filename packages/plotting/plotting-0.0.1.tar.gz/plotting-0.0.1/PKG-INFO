@@ -1,0 +1,23 @@
+Metadata-Version: 1.0
+Name: plotting
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Michael Rossol
+Author-email: mrossol@gmail.com
+License: UNKNOWN
+Description: # plotting
+        
+        ## Install
+        
+        ```bash
+        pip install plotting
+        ```
+        
+        If you will to develop `plotting`:
+        
+        ```bash
+        pip install -e .
+        ```
+        
+Platform: UNKNOWN
