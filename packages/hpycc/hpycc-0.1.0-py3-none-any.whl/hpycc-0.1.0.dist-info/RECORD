@@ -1,0 +1,14 @@
+hpycc/__init__.py,sha256=noa9sH6ZQ2i0sPERwoN2PKttxHzvI_thIe43PDzP8XI,420
+hpycc/connection.py,sha256=tqUehMGg_Sr1_BlJdrvrNjMGKZP9OLS7yJd_HYZeehI,10985
+hpycc/delete.py,sha256=IGYKriB5RgOEMBEs4y0owMriE2iCg2ujwijm0z-3EVs,509
+hpycc/get.py,sha256=n1FyniH9fNzNICdMu5i7X_AkG63cGf2okdUHVO0pHsA,5376
+hpycc/run.py,sha256=i7pBl1X5QGROpaUeX9wpIijCa3vpJi6Ml3xlvjOt8Zw,839
+hpycc/save.py,sha256=wGW02puNU5XCJjGitMDly89AQfHNrSDloFqBBa48umA,5188
+hpycc/spray.py,sha256=RuVeGb_s5T1X9-57wpsSDs6i4F_aJIueiFic4NqoCpk,6716
+hpycc-0.1.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+hpycc-0.1.0.dist-info/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+hpycc-0.1.0.dist-info/METADATA,sha256=PDrU0bXfrNYB_AJEuAnhIozjQrDbnYA_XUXUO2QBj9E,859
+hpycc-0.1.0.dist-info/RECORD,,
+hpycc-0.1.0.dist-info/WHEEL,sha256=Ds0ba8WsPJtjBPzEMyPOBG3qfPa6B4mlzB-vhzorIZs,97
+hpycc-0.1.0.dist-info/metadata.json,sha256=8YpBoizL9Gz72ymx_21KMthxrMgz407HXaw8DYXSCos,1034
+hpycc-0.1.0.dist-info/top_level.txt,sha256=50VQywRKtZyhwcLvAcxhxjIfCvdjqUcaz9MNQ_2ADGc,6
