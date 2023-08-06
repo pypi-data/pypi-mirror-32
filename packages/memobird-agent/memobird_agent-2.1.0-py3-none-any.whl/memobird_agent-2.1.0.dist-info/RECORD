@@ -1,0 +1,12 @@
+memobird_agent/__init__.py,sha256=xmZlqqifgPhlbcCnqeMfRMvKwIPgauecxUyZfSJ32O4,6422
+memobird_agent/config.py,sha256=h4KRGeqQ7MxmxyL3pMWYGB32s3gdar5l03fVIZB8um0,1364
+memobird_agent/security.py,sha256=R_DyGIIy6L-qvWVRMqyiIPPuw0oCgQG1e1CYkQNNvIk,1350
+memobird_agent/script/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+memobird_agent/script/document.py,sha256=SaWepygFbK18ZB1XbugrLL0kRpa-AjJpLizxIU9e8fI,1172
+memobird_agent/script/machine_monitor.py,sha256=LeA0LA1jtLCwUCHzAIfhWJ9LKjWBe0egTso44vvlhfg,839
+memobird_agent/script/service_monitor.py,sha256=HaHfbh_zjqGnSfA3890Es5RabLSXM96Og7mdia8SH9I,1878
+memobird_agent-2.1.0.dist-info/METADATA,sha256=WflqubfjzCyA_mvq1zmiNggy_dpNpQCyOPryb9b6FDg,2854
+memobird_agent-2.1.0.dist-info/RECORD,,
+memobird_agent-2.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+memobird_agent-2.1.0.dist-info/entry_points.txt,sha256=zCKKap5KF9mKihnT5XU_hb8g5hs4CFBeBzlhdQXboRA,151
+memobird_agent-2.1.0.dist-info/top_level.txt,sha256=puFS4PCD9u0Wqtbrv1HqzOPeqzrjT1WOfcVHziFo_R0,15
