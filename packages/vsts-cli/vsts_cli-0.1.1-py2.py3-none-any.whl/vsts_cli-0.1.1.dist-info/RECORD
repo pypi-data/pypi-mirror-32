@@ -1,0 +1,11 @@
+vsts/__init__.py,sha256=esvSQn_r-zXPXNO7TjzsPPuPLf-AuAC2bym_OxlZnJQ,414
+vsts/cli/__init__.py,sha256=wUxI5dBzuJm8IGfBK2one-nQCPhHd8q5obuSc_zKJoc,478
+vsts/cli/__main__.py,sha256=qjoZY9LX8Rb_MWMZyaEMMJ7W64CzCx2MdKMGkiZ8EBk,625
+vsts/cli/vsts_cli.py,sha256=29iXjb7VGEpDsmc__xyhl6b1h9VkFhkp62Nq8rz_k_s,4789
+vsts/cli/vsts_cli_help.py,sha256=4qQonFhzzme2ZqSsf-eadh4grgF5Nv1KU43HJLqZ0_c,1430
+vsts/cli/vsts_commands_loader.py,sha256=YO8g_RD_VqED5poltZ-uE3S7zkUxLl7D0v_Kl0hJiIg,1398
+vsts_cli-0.1.1.dist-info/METADATA,sha256=WKKgKVZKA23_tcJX9FfXIfyUM3GRVIORmEUaWfG9NV4,993
+vsts_cli-0.1.1.dist-info/RECORD,,
+vsts_cli-0.1.1.dist-info/WHEEL,sha256=saUSQBLOUjf5ACZdNkhQ0lB6XrHU-l4vpzxq_W1n_AY,116
+vsts_cli-0.1.1.dist-info/entry_points.txt,sha256=LFzmrTl64ZwFPQfkU3AgupL1QW-hLZDnBJgOR53UJFo,49
+vsts_cli-0.1.1.dist-info/top_level.txt,sha256=r-Q1CPVoe51isile67MY1CdCYdDF5a1ghu3YlrUuU0E,5
