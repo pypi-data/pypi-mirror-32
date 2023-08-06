@@ -1,0 +1,12 @@
+psrqpy/__init__.py,sha256=ZmfxMn71g4ogH6UVznCpDl1XuiS8MO1GaelCd1bT_Xw,557
+psrqpy/config.py,sha256=O9fs8LvUdAvFpZL8ZjvKflCFhxIZgYGKDDRUkM4Ysik,30042
+psrqpy/consts.py,sha256=3WVM19x-4ZY0j_rAuS577UZ7dFMPH8OSkAO3CDljGZo,193
+psrqpy/pulsar.py,sha256=3792d-XzlY2R05kXiVlf8x0UOrfA1zARKRzl05nYoj0,13130
+psrqpy/search.py,sha256=GGSLKMHyGsV2UtWuRggxSc4U2ltz5DhVH1eKB2ELMFw,52694
+psrqpy/utils.py,sha256=4DCiZw_d-pBSxTv1Y3LAYuCqPv0WCL0UqdoPRaJPIb8,21882
+psrqpy-0.5.3.dist-info/DESCRIPTION.rst,sha256=Qve6zO0VWjZcfNAwh7xsYJdIqY_Vh0iNJOrmmqc63UA,6995
+psrqpy-0.5.3.dist-info/METADATA,sha256=rZiUIgv-IeqSusehAtHrkzqP8jiPMW5tihmUz7ZIYe0,7479
+psrqpy-0.5.3.dist-info/RECORD,,
+psrqpy-0.5.3.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+psrqpy-0.5.3.dist-info/metadata.json,sha256=yklaSQjnNv6_uprnf-5xqP51MxlEmD0y2RbENsBpmGo,704
+psrqpy-0.5.3.dist-info/top_level.txt,sha256=cXfJzu98gyKQroOwsJDgl8_bwn1EOxkWRLXW8Q4DiE4,7
