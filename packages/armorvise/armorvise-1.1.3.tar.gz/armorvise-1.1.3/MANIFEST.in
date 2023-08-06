@@ -1,0 +1,3 @@
+recursive-include src process *.json
+include README.md
+include *.rst
