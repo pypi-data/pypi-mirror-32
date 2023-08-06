@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: falcon-management
+Version: 0.11
+Summary: Management Commands Python Library
+Home-page: https://github.com/chris-cmsoft/falcon-management
+Author: Chris Vermeulen
+Author-email: chris@cmsoft.co.za
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/chris-cmsoft/falcon-management/issues
+Project-URL: Source, https://github.com/chris-cmsoft/falcon-management/
+Description: Python library for simple management commands
+Keywords: Python Management CLI
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >3.2, <4
+Description-Content-Type: text/markdown
