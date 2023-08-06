@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: pixstem
+Version: 0.2.1.dev2
+Summary: Library for processing scanning transmission electron microscopy data acquired using a pixelated detector
+Home-page: UNKNOWN
+Author: Magnus Nord
+Author-email: magnunor@gmail.com
+License: GPL v3
+Description: UNKNOWN
+Keywords: STEM,data analysis,microscopy
+Platform: UNKNOWN
