@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: alignak_backend
+Version: 1.4.10
+Summary: Alignak REST backend
+
+    This module is an Alignak REST backend
+Home-page: https://github.com/Alignak-monitoring-contrib/alignak-backend
+Author: Alignak team
+Author-email: david.durieux@alignak.net
+License: GNU Affero General Public License, version 3
+Description: UNKNOWN
+        
+Keywords: alignak monitoring backend
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Topic :: System :: Monitoring
+Classifier: Topic :: System :: Systems Administration

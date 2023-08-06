@@ -1,0 +1,13 @@
+python-dateutil
+flask-bootstrap
+docopt
+jsonschema
+eve-swagger
+configparser
+future
+influxdb
+flask-apscheduler
+werkzeug
+flask
+Eve
+statsd
