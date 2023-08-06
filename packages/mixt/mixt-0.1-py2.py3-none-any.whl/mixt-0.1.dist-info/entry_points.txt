@@ -1,0 +1,4 @@
+[console_scripts]
+mixt-post-install = mixt.scripts.mixt_post_install:main
+parse-mixt = mixt.pyxl.scripts.parse_file:main
+
