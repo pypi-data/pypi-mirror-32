@@ -1,0 +1,31 @@
+Metadata-Version: 1.1
+Name: asynapplicationinsights
+Version: 0.0.1
+Summary: Azure Application Insights client using asyncio
+Home-page: https://github.com/RobertoPrevato/asynapplicationinsights
+Author: Roberto Prevato
+Author-email: roberto.prevato@gmail.com
+License: MIT
+Description: Azure Application Insights client using asyncio and aiohttp
+        ----------------------------------------------------------------
+        Azure Application Insights client using asyncio, including a middleware for *aiohttp* web framework.
+        
+        To install:
+            >>> pip install asynapplicationinsights
+        
+        Repository
+        ----------------------------------------------------------------
+        GitHub: https://github.com/RobertoPrevato/asynapplicationinsights
+        
+        Documentation
+        ----------------------------------------------------------------
+        Wiki: https://github.com/RobertoPrevato/asynapplicationinsights/wiki
+        
+        
+Keywords: asyncio aiohttp azure application insights telemetry
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: AsyncIO
