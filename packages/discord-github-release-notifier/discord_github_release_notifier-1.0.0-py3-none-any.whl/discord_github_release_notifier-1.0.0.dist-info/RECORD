@@ -1,0 +1,10 @@
+discord_github_release_notifier-1.0.0.dist-info/METADATA,sha256=pEH0fral1wDtmy64NPHJNVZNaMJmhphF8tVLjleLnGA,3848
+discord_github_release_notifier-1.0.0.dist-info/RECORD,,
+discord_github_release_notifier-1.0.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+discord_github_release_notifier-1.0.0.dist-info/entry_points.txt,sha256=sURozRG9YcFRIjyTsan5YT1NPyBjTgKrZLK0dK1aqzI,86
+discord_github_release_notifier-1.0.0.dist-info/top_level.txt,sha256=eVjCcs6qras2G7mSEUj9KV3uOU9AqUXe8ngS3eqLa9I,24
+github_release_notifier/__init__.py,sha256=2teXKp0g9wA7kGZg0_OZkHuw5yXXjjgLU8EF16TyFRo,143
+github_release_notifier/cli.py,sha256=iUcwpii3f-48vOSxmuUwClPLzun7Q5aWgzvOte29USI,1135
+github_release_notifier/notifier.py,sha256=6vqfXtzpIgMGTfnAzWxVN681wBHBLR6OmP7KRhNuQu4,2031
+github_release_notifier/parser.py,sha256=8cysr4DWxybpE5i_6jJRSqJ-X3ztcGlVEfA9kXTtZxg,2357
+github_release_notifier/webhook.py,sha256=wd1yIDgBgMOmeO6imZHY9pOa-fPRYta_HOY68wjOiiQ,2155
