@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: rpgrand
+Version: 0.2.1
+Summary: Create structured randomized output from yaml or json files.
+Home-page: https://github.com/zls/rpgrand
+License: UNKNOWN
+Project-URL: Source, https://github.com/zls/rpgrand
+Project-URL: Tracker, https://github.com/zls/rpgrand/issues
+Description: UNKNOWN
+Keywords: rpg randomizer
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3
