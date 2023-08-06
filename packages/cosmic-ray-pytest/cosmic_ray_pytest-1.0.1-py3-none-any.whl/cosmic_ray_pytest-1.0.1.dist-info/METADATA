@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: cosmic-ray-pytest
+Version: 1.0.1
+Summary: Pytest test-runner plugin for Cosmic Ray.
+Home-page: https://gitlab.com/pv.zarubin/cosmic_ray_plugins
+Author: Sixty North AS
+License: MIT License
+Platform: UNKNOWN
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+
+[![pipeline status](https://gitlab.com/pv.zarubin/cosmic_ray_plugins/badges/master/pipeline.svg)](https://gitlab.com/pv.zarubin/cosmic_ray_plugins/commits/master)
+
+Plugins for Cosmic Ray (python 3)
+=================================
+
+1. pip install cosmic-ray-pytest
+2. pip install cosmic-ray-localpool
+
+
