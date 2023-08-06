@@ -1,0 +1,3 @@
+[console_scripts]
+pr_clt = pr_clt.pr_clt:main
+
