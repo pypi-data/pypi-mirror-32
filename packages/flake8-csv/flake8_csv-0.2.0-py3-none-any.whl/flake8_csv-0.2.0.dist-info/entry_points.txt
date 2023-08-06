@@ -1,0 +1,4 @@
+[flake8.report]
+csv = flake8_csv:CSVFormatter
+csv_categories = flake8_csv:CategorizedCSVFormatter
+
