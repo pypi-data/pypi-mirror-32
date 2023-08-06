@@ -1,0 +1,10 @@
+README.md
+setup.py
+sysfsgpio/__init__.py
+sysfsgpio/__main__.py
+sysfsgpio/version.py
+test/test.py
+trimarlib_sysfsgpio.egg-info/PKG-INFO
+trimarlib_sysfsgpio.egg-info/SOURCES.txt
+trimarlib_sysfsgpio.egg-info/dependency_links.txt
+trimarlib_sysfsgpio.egg-info/top_level.txt
