@@ -1,0 +1,13 @@
+---
+version: 2
+title: Run docker container.
+subtasks:
+- title: Run a container from 'ubuntu' image and execute simple command
+  scenario:
+    Docker.run_container:
+      command: echo 'Hello world!'
+      image_name: ubuntu
+  runner:
+    constant:
+      concurrency: 2
+      times: 10
