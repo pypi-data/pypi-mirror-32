@@ -1,0 +1,3 @@
+[console_scripts]
+fochan = fochan:main
+
