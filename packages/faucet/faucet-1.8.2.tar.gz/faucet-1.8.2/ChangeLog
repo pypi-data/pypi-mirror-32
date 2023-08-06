@@ -1,0 +1,332 @@
+CHANGES
+=======
+
+1.8.2
+-----
+
+* Default proactive limit should be 2\*max\_hosts
+* Add note to deconfigure Avahi
+* Upgrade to Ryu 4.25
+* Update ryu from 4.24 to 4.25
+* Update ryu from 4.24 to 4.25
+* Update sphinx from 1.7.4 to 1.7.5
+* Expand use of mypy in pre-commit
+* pytype checking for clib
+* Improve clib pytype
+* Increase min lint score
+* pytype/pylint
+* pylint/pytype fix
+* enable pytype on unit tests
+* Add set\_field api to valve\_of
+* pylint
+* Use default priority transit goto flow
+* Only learn for locally expressed VLANs, and support transit stacking (where a stacked switch might not have any locally expressed VLANs)
+* Pylint cleanup
+* Attempt standard install method for apt dependencies
+* Remove now empty gitlab build stage
+* Revert "Run apt-update."
+* Run apt-update
+* Making docker tests actually run
+* Implement dp\_acls with test
+* Initial dp\_acls field support
+* Refresh encrypted travis deploy password
+* Wrong usage of tempfile
+* Of course, config should be updated with a write/rename, not in place
+* write conf files unbuffered
+* Wait longer for conf file to be written
+* LLDP processing should be enabled always for stacking links, and LLDP probes on stacking links should not be ratelimited
+* Add missing multiarch hook for docker CI
+* Tidy up tutorials
+* Preversion 1.8.2
+
+1.8.1
+-----
+
+* Gauge package should use /var/log/faucet for logging
+* Fix example configuration to remove ambiguity
+* Fix line under heading
+* Update VM documentation
+* Switch VM build from python packages to debian packages
+* Bump version
+* Add config test/doc for force\_port\_vlan
+* Update docker documentation
+* Remove old faucet-yaml.dot
+* Skip tests on armhf docker builds
+* Split gNMI into it's own repo
+* Remove CI Dockerfile
+* Removing documentation on how to manually build faucet dockers
+* Add hook for docker cloud to allow cross compiling
+* Upgrade grafana
+* Simplify gitlab ci setup
+* Attempt to tame our Dockerfile problem
+* Run pylint on clib as well
+* Add clib path to git hook
+* pylint
+* pylint
+* Add lint checking of test directory
+* pylint
+* Wrong test sense, for nonblocking test
+* pylint
+* test\_tcpdump\_nextline can fail becaise ping only tries twice, and might exit before the test can terminate it
+* Handle invalid UTF-8 in ofdesc messages
+* Add note that test interfaces should be unmanaged to avoid conflict with tests
+* Add beka dependancy to debian/control
+* update docs for running only a single int test
+* Common tmpdir method for test results
+* Should use common test result base class
+* Move test results to "tests" json blob
+* use stat based reload for RandVlan test
+* Revert "Report test output in json format."
+* Report test output in json format
+* Log result of SanityTest
+* Add jsonreport option to tests
+* Randomized VID test
+* Stricter checking of eth\_dst when receiving LLDP
+* Fix BRIDGE\_GROUP\_MASK
+* Use 5 byte mask for bridge addresses
+* Don't flood 01:80:c2:00:00:00 to 0f addresses per 802.1D
+* Drop LLDP/BDPUs in flood table, enabling bridge local traffic to be learned
+* Removing gasket Dockerfiles which are not useful yet
+* Revert "pylint."
+* Revert "Fix match.match."
+* Fix match.match
+* pylint
+* pylint
+* Pre-version 1.8.1
+
+1.8.0
+-----
+
+* Bump version to 1.8.0
+* Fix group\_id check
+* Condense GroupTable tests
+* Test IPv6 VIPs are inconsistent
+* Make FaucetGroupTableUntaggedIPv6RouteTest unreliable
+* Missing group\_id
+* tcpdump\_helper fix
+* pylint
+* pylint
+* pylint
+* pylint
+* FaucetConfigStatReloadAclTest should not hup
+* Simplify FaucetUntaggedHUPTest
+* verify\_faucet\_func() can take list of callables
+* Fix tabs\_are\_bad()
+* change\_port\_config() missing arg
+* reload\_conf() arg cleanup
+* reload\_conf needs to pass verify arguments
+* verify\_faucet\_reconf() should check warm/cold start counters
+* cleanup reload\_conf()
+* Revert "Use reload\_conf args consistently."
+* Revert "verify\_faucet\_reconf smarter, verifies reconf type."
+* configure isn't smart enough to glob a path
+* DPDK 18.02.1 has a slightly different install path and needs python-six
+* More predictable tcpdump test
+* Fixing flaky tcpdump behavior
+* Upgrade Beka to 0.3.3
+* Don't provision VIP table either, if no routing configured
+* OFPTFPT\_NEXT\_TABLES is automatically generated
+* Don't provision unused tables on TFM switches
+* Rewrite OFPTableFeaturePropNextTables
+* Don't provision unused routing tables
+* Send switch\_features() handler on every cold start
+* Use route manager active flag
+* Revert "virtual method for \_update."
+* virtual method for \_update
+* Reload test can use same config
+* Hide common test classes from unittest discovery. Test coverage for stack edges
+* Test coverage for valves\_manager
+* Minimum test coverage to 93%
+* Coverage for watchers.py
+* add in missing keywords for ping tests
+* test should be less than minimum, not also equal
+* pylint
+* Handle deconfigured VLAN while BGP active
+* Better pick unused vid
+* Pick unused VID
+* Don't use an unused port to force cold start
+* Add test for \_\_dict\_\_ on port/vlan/dp
+* Config test for DP
+* It's better to use the generic set\_fields modifier
+* Fix typo
+* Grafana doesn't call this "proxy" anymore
+* ACLs should be rejected when output port can't be resolved
+* Add Port unit tests
+* Add more VLAN unit tests
+* Must resolve all ports
+* Adding tcpdump\_helper unit-test
+* Add Sam Russell to authors
+* Fix VLAN.to\_conf() for faucet\_vips
+* Fix VLAN.to\_conf() route format
+* Port.to\_conf() serialises VLAN names correctly
+* Make test\_gauge quiet
+* Make test\_fctl.py quieter
+* Work-around for docker users missing from system
+* Testability update to check\_faucet\_config.py
+* Upgrade grafana images to 5.1.x
+* LLDP test did not handle long DPIDs
+* use rst's note
+* Add documentation on developing faucet with PyCharm
+* added configration documentation for meters
+* return value not correct
+* pylint
+* Use common resolve\_handler callable
+* Simplify dead nexthop expiry
+* Should not use max\_age for nexthop dead ness
+* Reduce number of cache lookups getting list of not fresh nexthops
+* Fix initial retry counter not incremented when proactively resolving
+* Incremental simplification of nexthop resolution
+* Simplify dead nexthop implementation
+* Adding docker host capability and test
+* Reduce boilerplate event scheduling code
+* We have migrated from travis-ci.org to travis-ci.com
+* Verify packet in counter
+* Increase minimum test coverage to 90%
+* Add smoke test for group support
+* Add test for port override output port
+* Test coverage for get\_tables()
+* Remove unused method
+* pylint
+* Test API call for config
+* Remove unused method
+* Learn on stack port
+* Add test coverage for stack edge learning
+* Increase test coverage to 88%
+* Test coverage for LACP
+* Incremental coverage for LACP
+* Standardize how coverage reporting is run
+* Coverage reporting uses wrong directory
+* Run unit tests with coverage tool to accurately include module imports
+* git pre-commit hook now runs coverage tests
+* pylint
+* Test ofdesc handler
+* Test packet in rate limit
+* Add test for reconnect handler
+* Test scrape http failure
+* Test coverage for test\_check\_config
+* logging level always set
+* Test coverage for check\_faucet\_config.py
+* Test no dp conf
+* Increase test coverage to 85%
+* Test coverage for push/pop VLAN config
+* Add test coverage for ACL config
+* Smoke test for idle needs correct table ID
+* Increase coverage for idle algorithm (flow\_timeout())
+* Increase test coverage to 84%
+* Can't use parallel to run pytype due to multiple egg cache access
+* Smoke test BGP route handler
+* Smoke test coverage for the idle-flow based learning manager
+* Preversion 1.7.7
+
+1.7.6
+-----
+
+* Bump README version
+* Use last\_retry\_time from cache entry
+* Max proactive limit needs to be same as test
+* pytype check for is None for a nexthop cache entry
+* Reduce default limit on proactive ARP/ND further (more sane limit)
+* last\_retry time must be last
+* Simplify ICMPv6 handler
+* Delete host routes that are too old, as well has that have been retried too many times
+* Don't send delete flows for host routes where the host was never learned
+* Update sphinx\_rtd\_theme from 0.3.0 to 0.3.1
+* Add error messages and remove try/catch
+* Replace use of assert statements in valve\_of.py
+* Replace use of assert statements in valve\_acl.py
+* Replace use of assert statements in router.py
+* Replace use of assert statements in vlan.py
+* pylint
+* Increase min lint score to 9.2
+* Increase min lint score to 9.1
+* pylint
+* pylint
+* Increase test coverage to 83%
+* Gauge should use ryu\_event timestamp
+* More test coverage for ryu\_event handlers
+* Test coverage for ryu\_event handlers
+* Test coverage for faucet.py
+* Add test coverage directly, for experimental API
+* Increase test coverage minimum to 82%
+* Test notifier check\_path()
+* Move logging to gauge\_poller
+* pylint
+* Simplify Gauge OF reply handler
+* Protect event handlers where DP is required to be running
+* Use common datapath config
+* Common datapath connect/disconnect/reconnect handlers
+* Use common \_CONTEXT
+* Use common handler to manage datapath objects for both FAUCET and Gauge
+* ofmsgs overridden on warm start
+* ofmsgs missing reference
+* Add events for config reloads
+* \_get\_valve() normalizes ryu\_event contents
+* Rearrange args for \_get\_valve()
+* Lock onto ubuntu 16.04 to allow builds on docker cloud
+* Preversion 1.7.6
+
+1.7.5
+-----
+
+* pylint
+* Add clib unit test submodule
+* Don't run any LLDP sender code if LLDP not enabled
+* Don't reference LLDP chassis ID/TTL where LLDP not enabled
+* Randomize ARP/ND/RA flood port order
+* Interface range with single port as an int doesn't parse
+* Randomize LLDP beacon port order
+* Pretty print cache entries
+* Increase minimum test coverage to 81%
+* Incremental test coverage for Prometheus flow table export
+* Test valid Gauge config
+* Move Gauge smoke test to test\_gauge
+* Minimum test coverage is now 80%
+* Smoke test config reload
+* Smoke test reload config
+* Test more initializers
+* Use test registry
+* Smoke test metrics initialization
+* Gauge missing call to override registry
+* Revert "Prometheus client can take a registry argument, so can be initialized in test."
+* Revert "Smoke test reload\_config()."
+* Revert "Restrict test registry scope."
+* Restrict test registry scope
+* Use REGISTRY not core.REGISTRY
+* Smoke test reload\_config()
+* Prometheus client can take a registry argument, so can be initialized in test
+* Allow Prometheus client to take registry argument
+* Test coverage for version
+* Test coverage for \_\_main\_\_.py
+* Run loop\_protect in unit test
+* instantiate FaucetExperimentalAPI
+* Implement of\_vlan\_packet\_ins
+* Move more services out of \_\_init\_\_ to start()
+* Revert "Revert "Avoid initializing Prometheus client in \_\_init\_\_().""
+* Revert "Avoid initializing Prometheus client in \_\_init\_\_()."
+* Increase minimum test coverage to 79%
+* Avoid initializing Prometheus client in \_\_init\_\_()
+* Smoke test for Gauge
+* Smoke test Faucet class
+* Start BGP in unit tests
+* placate pylint
+* Pre-version 1.7.5
+
+1.7.4
+-----
+
+* Bump version to 1.7.4
+* Don't upgrade pip (best practice as of pip 10)
+* Preversion 1.7.4
+
+1.7.3
+-----
+
+* Bump README version
+* Adding -i test flag for integration tests only
+* Add utility script for local testing
+* freeradius 3.0 for gasket
+* Use test WSGI server
+* eventlet monkey\_patch needs to come first
+* BGP speaker apparently needs eventlet monkey patch
+* Missed another call to send\_flows() in BGP
+* hostapd now uses alpine
