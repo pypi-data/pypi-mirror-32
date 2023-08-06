@@ -1,0 +1,8 @@
+requests
+maya
+openpyxl
+docopt
+
+[dev]
+twine
+wheel
