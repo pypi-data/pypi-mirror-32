@@ -1,0 +1,12 @@
+coinmarketcap/__init__.py,sha256=oUm52TLB6I_RAwa6jRmTJYZgIs_4NgI0zw3eaBulHKA,23
+coinmarketcap/clients.py,sha256=ZpTQK-eHL1ACGfA-XRpp4rDx4gHpCrnPTmN5wqgEEnY,2189
+coinmarketcap/constants.py,sha256=yEn8sCoy0d0hUI7b48nMkIxL4V3IPZzMCO0CzDGUysI,2193
+coinmarketcap/exceptions.py,sha256=iKb0VQl6wMnPrtuu5opUwrgdUKbZRDw1ja30s-mUkWo,387
+coinmarketcap/parsers.py,sha256=uzJi7n7YiskkqMkEHZxUOmtPx50RPp4clI78UefIVEQ,1136
+coinmarketcap/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coinmarketcap/tests/test_clients.py,sha256=VifhUURshd5ipkVvaF0Bgk5uY66aIvigCed0TOEK93E,6882
+coinmarketcap/tests/test_parsers.py,sha256=ehxPDHN8ANgS_fSB6C1cmm38GyHndidNhKnsblAbbh8,1590
+coinmarketcap_client-2.5.3.dist-info/METADATA,sha256=jspB5r7MlJ0W6Z59Jgt0_28e69rv2fheofMGq_BzdoA,5451
+coinmarketcap_client-2.5.3.dist-info/RECORD,,
+coinmarketcap_client-2.5.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+coinmarketcap_client-2.5.3.dist-info/top_level.txt,sha256=gMafHkmHnvz7PKEW7JrdPnFo0Oii3DofBkkIrM8zPac,14
