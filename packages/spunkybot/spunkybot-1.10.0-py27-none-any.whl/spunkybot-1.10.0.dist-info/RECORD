@@ -1,0 +1,17 @@
+spunky.py,sha256=O3qbObef5zq_Vh165jVy4xdLjIOO6ofh4wGlH4Papw0,221957
+lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lib/pygeoip.py,sha256=l_AjUzCbmby7rPby8o0wuIwNHxllBaVWa0V9IYLIBS8,17857
+lib/pyquake3.py,sha256=JTVWIxVSbOSyeNKbt3I7_vOdeJAnzmirXdm3fJ47T8A,6747
+lib/schedule.py,sha256=EO2Q_Wy2hWXWLfxCC1yPB-OzkPPXKHNcc5YcDKW7yWs,16150
+spunkybot-1.10.0.data/data/LICENSE,sha256=M173GfDdrVzoEO9D9gq4kRBxg71ulHLT53hMZVFwnfQ,1115
+spunkybot-1.10.0.data/data/README.md,sha256=Pt_6SB_84M2P6FkuNRQAZX_D6NONrJg549hVXDfx2M0,8615
+spunkybot-1.10.0.data/data/debian-startscript,sha256=tOWbBl6s3WKB3zls8GLxxOCsh-vYVJWkJmNf9X0C2rs,2270
+spunkybot-1.10.0.data/data/systemd-spunkybot.service,sha256=-RipiUprbpFRr1Ro306WeGTO79nTXYFpCxgM2BAId38,548
+spunkybot-1.10.0.data/data/lib/GeoIP.dat,sha256=vAf_ItTuC2-vzBJILs8pgcFypnIZTGR87fm00hWtl0A,1242574
+spunkybot-1.10.0.dist-info/DESCRIPTION.rst,sha256=-H_-_D7GeOlsUC4PIpLb_POfO2iAcuILHcOIDCoIPHU,1603
+spunkybot-1.10.0.dist-info/LICENSE.txt,sha256=M173GfDdrVzoEO9D9gq4kRBxg71ulHLT53hMZVFwnfQ,1115
+spunkybot-1.10.0.dist-info/METADATA,sha256=LyU36D7Dm8FfU2e4Ymanw5wAdPHqZoUZPgiItKu9XpM,2704
+spunkybot-1.10.0.dist-info/RECORD,,
+spunkybot-1.10.0.dist-info/WHEEL,sha256=IoenFrz6rxsInONKBEEQf-StrkKWOjzwID1uwiy89cE,98
+spunkybot-1.10.0.dist-info/metadata.json,sha256=I6wJPd7ly0-f5u3zPO-BhLAlwEnpQrjTGkgg9QlVGQ8,1193
+spunkybot-1.10.0.dist-info/top_level.txt,sha256=GxgUwDzUSop8MWUe-KsjFva5v0yu5fZNwhZRsT-EvZ8,11
