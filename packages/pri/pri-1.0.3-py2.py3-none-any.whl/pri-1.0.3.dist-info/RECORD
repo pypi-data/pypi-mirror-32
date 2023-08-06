@@ -1,0 +1,12 @@
+pri/__init__.py,sha256=pQHOBMRIGiQ1gRfJm80DyKhMOqI5Ic8eVMkF_hEd4mE,246
+pri/__main__.py,sha256=wZb9O8kPZ29W4v4pAObrAjXNICWnyRFSIOdAll652Ss,2875
+pri/repositories.json,sha256=sJInSHcNsxPxFP5qRdVmTBIus0En1kft5dcxF0-YGQA,404
+pri/version.py,sha256=dk4sFz9Mu_jNCGyfLVSALwCIukkkDY7woc9akMR8FCs,267
+pri-1.0.3.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+pri-1.0.3.dist-info/METADATA,sha256=jRXBLRgtqGVef9xU-5pn9iV7jkBsAHF0ZXvsSG7W7g8,327
+pri-1.0.3.dist-info/RECORD,,
+pri-1.0.3.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+pri-1.0.3.dist-info/entry_points.txt,sha256=KqkElWRNnAFpae6dE3454C1uQYjNZ1fGMNlNMHd6qk0,43
+pri-1.0.3.dist-info/metadata.json,sha256=u_zpUCE2aSxkve_vfcAxiO9c9JKfxJQU0aHG8217noo,720
+pri-1.0.3.dist-info/top_level.txt,sha256=kdM3yZhXuH3xr5FnpY-exaluEJNFiNgziAAUdfNG-FM,4
+pri-1.0.3.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
