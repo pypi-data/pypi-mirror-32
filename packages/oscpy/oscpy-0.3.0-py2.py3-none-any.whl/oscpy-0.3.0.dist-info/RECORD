@@ -1,0 +1,8 @@
+oscpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oscpy/client.py,sha256=7mJ9c7MntSva9RKU-drvAUY0iP6J6VnDnhttyn64MVw,3320
+oscpy/parser.py,sha256=6aPQVQa43-MsbSueUBpQ_rqVHygl309ICVewoV3r3GY,5168
+oscpy/server.py,sha256=46CLpWNZ4zyqmJUTa32kFrt-t2YRD_y1N_gmCe2G5us,13735
+oscpy-0.3.0.dist-info/METADATA,sha256=dow7_b3GtYoFd9lB0zH3kypBlqsX-iXA7PpIPlNxOxQ,4328
+oscpy-0.3.0.dist-info/RECORD,,
+oscpy-0.3.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+oscpy-0.3.0.dist-info/top_level.txt,sha256=LBNi8_vZmSEUsKTe2gim0HcUPk4HFaRObInNpRm6K5o,6
