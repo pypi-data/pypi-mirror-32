@@ -1,0 +1,7 @@
+README.md
+setup.py
+coincap/__init__.py
+coincap.egg-info/PKG-INFO
+coincap.egg-info/SOURCES.txt
+coincap.egg-info/dependency_links.txt
+coincap.egg-info/top_level.txt
