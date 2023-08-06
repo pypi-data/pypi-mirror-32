@@ -1,0 +1,16 @@
+tornado==4.5.3
+ujson
+python-nginx==1.1
+aiocache
+peewee==2.9.1
+peewee-async
+uvloop
+psycopg2
+aiopg
+click
+mock
+utilib
+
+[dev]
+
+[test]
