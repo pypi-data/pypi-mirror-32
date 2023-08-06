@@ -1,0 +1,7 @@
+setup.py
+envtransformer/__init__.py
+envtransformer.egg-info/PKG-INFO
+envtransformer.egg-info/SOURCES.txt
+envtransformer.egg-info/dependency_links.txt
+envtransformer.egg-info/not-zip-safe
+envtransformer.egg-info/top_level.txt
