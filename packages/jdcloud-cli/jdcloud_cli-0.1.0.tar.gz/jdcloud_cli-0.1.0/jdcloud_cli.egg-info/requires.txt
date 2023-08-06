@@ -1,0 +1,9 @@
+websocket-client
+jmespath>=0.6.1,<=0.7.1
+configparser
+requests
+cement>=2.10.4
+argcomplete
+argparse
+jdcloud_sdk==1.1.1
+pyyaml
