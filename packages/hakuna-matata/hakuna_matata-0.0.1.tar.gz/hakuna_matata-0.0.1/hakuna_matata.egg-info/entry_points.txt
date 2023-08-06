@@ -1,0 +1,3 @@
+[console_scripts]
+hakuna_matata = hakuna_matata.cli:main
+
