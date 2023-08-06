@@ -1,0 +1,9 @@
+[simple_af.plugins.config]
+
+
+[simple_af.plugins.listeners]
+keyboard = simple_af._keyboard:launch_keyboard_thread
+
+[simple_af.plugins.osc_handlers]
+
+
