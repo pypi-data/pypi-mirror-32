@@ -1,0 +1,6 @@
+include data *
+include README.rst
+
+recursive-include src *.py		# Include all .py files in the src directory
+
+#recursive-include OGN_Flogger/data *
