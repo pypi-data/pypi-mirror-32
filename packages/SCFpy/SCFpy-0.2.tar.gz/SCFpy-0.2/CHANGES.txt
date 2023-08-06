@@ -1,0 +1,10 @@
+0.1
+------
+
+-  first version of SCFpy!!!!
+
+
+0.2
+------
+
+-  fixed python2 and 3 compatible problems.
