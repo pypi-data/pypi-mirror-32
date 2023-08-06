@@ -1,0 +1,9 @@
+IpcClient.cpp
+PythonVariableConverter.cpp
+README.md
+homegear.cpp
+setup.py
+homegear.egg-info/PKG-INFO
+homegear.egg-info/SOURCES.txt
+homegear.egg-info/dependency_links.txt
+homegear.egg-info/top_level.txt
