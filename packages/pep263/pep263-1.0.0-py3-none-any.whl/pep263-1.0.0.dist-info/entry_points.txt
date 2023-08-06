@@ -1,0 +1,3 @@
+[console_scripts]
+pep263 = pep263.cli:main
+

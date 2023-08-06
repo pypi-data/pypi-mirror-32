@@ -1,0 +1,10 @@
+pep263/__init__.py,sha256=qUiFTL05OrOgpGPdB9SKBWhpY3xZDkJNr-t6wc82WY0,50
+pep263/cli.py,sha256=UvIBa_lllY_cXtM7svVL6PdoJY6JIsZ3LTjW8LUKH3I,1480
+pep263/core.py,sha256=QAZbUywUDjGwAGLGpp_udsQ4_MtQk8NzyF0BhLUfj_0,4109
+pep263/decorators.py,sha256=ty8ipdh0PaooWZIfkfJW9mQJedqdgnbDVrWakkKJZAc,313
+pep263/errors.py,sha256=FAZwRbhD8bo-EreErI829zZRydZe-CgS5dMp5trax3E,486
+pep263-1.0.0.dist-info/METADATA,sha256=078JesSSO9JzCjsWvBqWEEVRa84sWsD1C8xc13BhIl8,789
+pep263-1.0.0.dist-info/RECORD,,
+pep263-1.0.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pep263-1.0.0.dist-info/entry_points.txt,sha256=SblwStNFBDUea506-uBjDfOoiTmIWXkDd0kpqvdzCLs,44
+pep263-1.0.0.dist-info/top_level.txt,sha256=Z2w3q4eLRw6aGQQmuMYnexk7McqF-2_J4-fnZtsO4Nk,7
