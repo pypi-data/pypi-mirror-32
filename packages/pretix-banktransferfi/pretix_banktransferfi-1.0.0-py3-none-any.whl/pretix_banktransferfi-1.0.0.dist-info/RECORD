@@ -1,0 +1,10 @@
+pretix_banktransferfi/__init__.py,sha256=azAIrvAfusQ31qxRHIHLJrVGYd0BviuI7luxkAx1sRQ,680
+pretix_banktransferfi/payment.py,sha256=3DuLDePMF1jik1XAuy_8yg1Go3WH1VLTWdZYveFRrZM,4300
+pretix_banktransferfi/signals.py,sha256=_Y0tP7ya2iZdU-d29UFnc49F2c3BAYjK9KXB4UBO4c8,289
+pretix_banktransferfi/viitenumero.py,sha256=eWpnLLX60g-iswYUBJRydd_FsYQi6dirD6rTPyj-5w0,1266
+pretix_banktransferfi-1.0.0.dist-info/LICENSE.txt,sha256=sKYayro9BWlc6vumGHPcX9rtB48BwO0nc0jGeOHDLbo,554
+pretix_banktransferfi-1.0.0.dist-info/METADATA,sha256=BWucm1DJjmXcpYjQCL0ReUBwxm8QtkqCqPliKg58sA0,1354
+pretix_banktransferfi-1.0.0.dist-info/RECORD,,
+pretix_banktransferfi-1.0.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pretix_banktransferfi-1.0.0.dist-info/entry_points.txt,sha256=-biqZpBY5T_YeSE6Q1VxfQZIwzbnbNrmQTlPZscHF3Y,71
+pretix_banktransferfi-1.0.0.dist-info/top_level.txt,sha256=IIfx7--1QqtxHEjPIDExDO-aPvY2vRMgwl9xS79irzo,22
