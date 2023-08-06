@@ -1,0 +1,6 @@
+[console_scripts]
+rucio-arc = rucio_arc.arc:main
+
+[rucio_transfertools]
+ARC = rucio_arc.arc:ARC
+

@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+rucio_arc/__init__.py
+rucio_arc/arc.py
+rucio_arc.egg-info/PKG-INFO
+rucio_arc.egg-info/SOURCES.txt
+rucio_arc.egg-info/dependency_links.txt
+rucio_arc.egg-info/entry_points.txt
+rucio_arc.egg-info/not-zip-safe
+rucio_arc.egg-info/requires.txt
+rucio_arc.egg-info/top_level.txt
