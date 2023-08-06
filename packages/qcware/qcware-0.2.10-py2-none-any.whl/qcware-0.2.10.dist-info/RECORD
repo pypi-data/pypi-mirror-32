@@ -1,0 +1,9 @@
+qcware/__init__.py,sha256=YMh5AT3INuxd8UUKfEahZ0o6_3TFy6i-AOlDxbq1JiY,49
+qcware/optimization.py,sha256=v01lwzki2X8G1zQhkKtYxVJ8XFhknw2YrQg9rDa1PgE,4305
+qcware/param_utils.py,sha256=YCYXYXCy2WCB1cdGyPTE5c705cSQlCAl_Q_oAk-Rt8A,3785
+qcware/params_pb2.py,sha256=fCbEFE5wfaZmLpgHtzywAVm5EaR3U9KjSKPI4qcNbU4,44359
+qcware/request.py,sha256=iH0HxtAaGMgxO6oydYeOpdnj8C2HVcQUXcWVSTrQH78,911
+qcware-0.2.10.dist-info/METADATA,sha256=WmKCxswbi8mhywk_Sa1dEEbj-xbUGGlph0xW7RQnTmQ,490
+qcware-0.2.10.dist-info/RECORD,,
+qcware-0.2.10.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+qcware-0.2.10.dist-info/top_level.txt,sha256=AlhpEP-nmRn7sC7KFW_TmyvjAaHpOtqtTgMmPMA8V_4,7
