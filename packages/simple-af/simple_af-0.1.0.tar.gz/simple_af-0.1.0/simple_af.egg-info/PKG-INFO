@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: simple-af
+Version: 0.1.0
+Summary: Framework for Animation over OPC and OSC. Is it simple because it's easy to use, or cause it's simple design?
+Home-page: https://github.com/Hall-Ave/simple-af
+Author: David Foregger
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
