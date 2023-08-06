@@ -1,0 +1,8 @@
+README.md
+setup.py
+emr_launcher_artifactory/__init__.py
+emr_launcher_artifactory.egg-info/PKG-INFO
+emr_launcher_artifactory.egg-info/SOURCES.txt
+emr_launcher_artifactory.egg-info/dependency_links.txt
+emr_launcher_artifactory.egg-info/requires.txt
+emr_launcher_artifactory.egg-info/top_level.txt

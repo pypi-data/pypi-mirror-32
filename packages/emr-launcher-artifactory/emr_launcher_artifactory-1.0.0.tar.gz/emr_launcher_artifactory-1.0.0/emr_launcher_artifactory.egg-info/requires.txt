@@ -1,0 +1,2 @@
+artifactory==0.1.17
+requests==2.18.4

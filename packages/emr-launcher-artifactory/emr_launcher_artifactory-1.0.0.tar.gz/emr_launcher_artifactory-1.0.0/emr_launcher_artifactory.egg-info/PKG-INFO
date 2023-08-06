@@ -1,0 +1,27 @@
+Metadata-Version: 1.2
+Name: emr-launcher-artifactory
+Version: 1.0.0
+Summary: Artifactory plugin providing template functions for emr_launcher
+Home-page: https://github.com/tuneinc/emr_launcher_artifactory
+Author: Nick Rushton
+Author-email: nick@tune.com
+License: MIT
+Description-Content-Type: text/markdown
+Description: 
+        # EMR Launcher Artifactory
+        
+        Artifactory plugin providing template functions for [http://www.github.com/tuneinc/emr_launcher](emr_launcher)
+        
+        ## Functions
+        
+        * artifactory.get_last_modified - gets the last modified artifact in a given path
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=2.7.0
