@@ -1,0 +1,3 @@
+fixes:
+  - |
+    Swapped foreground and background colors for palettes added in commit #58842e9.
