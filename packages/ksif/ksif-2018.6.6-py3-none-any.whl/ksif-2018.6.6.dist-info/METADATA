@@ -1,0 +1,22 @@
+Metadata-Version: 2.0
+Name: ksif
+Version: 2018.6.6
+Summary: Quantitative investment tools for KSIF
+Home-page: https://github.com/willbelucky/ksif
+Author: Jaekyoung Kim
+Author-email: jaekyoungkim@kaist.ac.kr
+License: UNKNOWN
+Download-URL: https://github.com/willbelucky/ksif/archive/master.zip
+Keywords: ksif,portfolio,backtest,finance
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Requires-Dist: pandas (>=0.21.1)
+Requires-Dist: tqdm (>=4.19.5)
+
+# ksif
+Data download and back testing tools for KSIF
+
+
