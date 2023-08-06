@@ -1,0 +1,29 @@
+Metadata-Version: 1.1
+Name: visedit
+Version: 1.0.0
+Summary: Python Library to visualize string edit
+Home-page: https://github.com/ukiuki-satoshi/visedit
+Author: uki.uki.satoshi
+Author-email: 39693776+ukiuki-satoshi@users.noreply.github.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: #visedit
+        
+        visualiation library for edit distance
+        
+        ## Main Feature
+        
+        * visualization edits between two strings
+        * output for console and html is supported
+        
+Keywords: EditDistance,LevenshteinDistance,NLP
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
