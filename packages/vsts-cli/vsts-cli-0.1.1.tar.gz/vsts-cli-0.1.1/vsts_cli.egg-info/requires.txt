@@ -1,0 +1,7 @@
+knack==0.3.3
+setuptools
+vsts-cli-common==0.1.1
+vsts-cli-build==0.1.1
+vsts-cli-code==0.1.1
+vsts-cli-team==0.1.1
+vsts-cli-work==0.1.1
