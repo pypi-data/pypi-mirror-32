@@ -1,0 +1,15 @@
+rfgb/__init__.py,sha256=rsOxkmRWopkW_xW61_pV0JaFMBxduhdgXWzlRJPmiZY,1629
+rfgb/__main__.py,sha256=BL1hl0uWbRqoPRewyE8wClglX5vTHZZ-rI0teIf53_w,6053
+rfgb/boosting.py,sha256=GHIph9-OT8rB6VyZ8nwfUD3ou93HTHfDsYuv6lMinkc,8083
+rfgb/logic.py,sha256=Z1bvBbs6BN6VMqirCzJr8Zm6dge_iBPmZtOT3xGkfHc,9394
+rfgb/tree.py,sha256=L8DSrPjGPmZjGkqgstGjzC7OS1jhrrEtfC7dgeMsb_0,9381
+rfgb/utils.py,sha256=gEQrkq88Hv9j6EWK8_Sq-AXijv-8UHvaJX1iDFK0a6s,14176
+rfgb-0.2.0.dist-info/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+rfgb-0.2.0.dist-info/METADATA,sha256=mIQDPLRQGJslAnSeK8Sx3GRrlvYTbGrVk-s09xnnSyY,5224
+rfgb-0.2.0.dist-info/RECORD,,
+rfgb-0.2.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+rfgb-0.2.0.dist-info/top_level.txt,sha256=e9vV-tWmJ5mCTWnm9taDRVmMybAe_evwD6dIgLaPS60,11
+tests/rfgbtests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/rfgbtests/test_Boosting.py,sha256=Z3qBYslphN3uxCtBvVLDc9JlsGLd3R-MDXKomZKxgMc,948
+tests/rfgbtests/test_Tree.py,sha256=MNH0eZT00OLyXZ7SPmrMfljaYddoaEHWSeqVGjMt8hE,1221
+tests/rfgbtests/test_Utils.py,sha256=89sfCs4IwwKTc3GEzFQ0xlW2dBDe5Wib_S2Oq3PMylA,8943
