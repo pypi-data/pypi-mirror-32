@@ -1,0 +1,17 @@
+keras_pandas/Automater.py,sha256=9AE4yYvTjnMmOS9pfYrdfr0J0tqjBSpd8hx4TMTSxqw,17309
+keras_pandas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+keras_pandas/constants.py,sha256=wFhNYWd3HYEloIUQR9J-BDltFCzbM16nnFrKddf1HYg,5321
+keras_pandas/lib.py,sha256=Z5-fxWzDNAocdHJAsMrnUsC5sAQxsj0UwMWCCsUCuik,5481
+keras_pandas/transformations.py,sha256=_lNwqPl-4MfgGFpUoxk90F1x5T69q_pBqd9uVRSafo0,5175
+keras_pandas-1.3.1.dist-info/METADATA,sha256=JR2MUc42bM_4eQY3KTgG4Cc1F8wui4MXdVP9Ry8AL-E,7461
+keras_pandas-1.3.1.dist-info/RECORD,,
+keras_pandas-1.3.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+keras_pandas-1.3.1.dist-info/top_level.txt,sha256=wkeKoMkYdPdfrzQIaU6hiAX6beo533MbK1Fce-D8Hvw,19
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conf.py,sha256=MUV-5byNSNIsQRbQrYttSDMVaK1ZmyLXTw5-hUjLl5M,5124
+tests/testautomater.py,sha256=3lY2BrW0_TQPSvbemG61gSJpqkaGpmf3_JsG-SXe-Ys,4675
+tests/testbase.py,sha256=BqJ_b1OI9zY7LqW9jbKwaR-Li_Ng8fWdDYvGQO3jP10,272
+tests/testcategorical.py,sha256=upZPWbusIe2bz7ZwVKFw5o1IkuMlXxIpYQctoPALokU,5134
+tests/testembeddingvectorizer.py,sha256=LB2uWuos104QV81rUbr_VS_csOjLDbmo9x1UKje8pSo,2064
+tests/testnumeric.py,sha256=XWiKs1DKmnr5I5iLNdhqwrmIHZR3NTV4aO9BDQ3MlP0,3894
+tests/testtext.py,sha256=RrM0udGXxZMnJn4ZnG_knzDUNCV_mztvQdWyJOjpFsQ,2652
