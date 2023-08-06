@@ -1,0 +1,32 @@
+Metadata-Version: 2.0
+Name: py-validate-email
+Version: 1.0.1
+Summary: A Python port to validate disposable emails
+Home-page: https://github.com/bhargavrpatel/py-validate-email
+Author: Bhargav Patel
+Author-email: ziikutv@gmail.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Keywords: validate disposable emails
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Operating System :: OS Independent
+Provides-Extra: tests
+Requires-Dist: pytest; extra == 'tests'
+Requires-Dist: coverage; extra == 'tests'
+Requires-Dist: tox; extra == 'tests'
+
+A Python port to validate disposable emails
+
+
