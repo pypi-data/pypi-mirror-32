@@ -1,0 +1,7 @@
+argparse
+configparser
+decorator
+ordereddict
+pexpect
+pycrypto
+six
