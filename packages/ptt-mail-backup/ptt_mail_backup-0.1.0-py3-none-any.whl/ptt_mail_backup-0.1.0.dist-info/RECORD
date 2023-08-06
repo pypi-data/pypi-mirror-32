@@ -1,0 +1,15 @@
+ptt_mail_backup/__init__.py,sha256=jgr9vG5F72YwtzxjcoIwZxuZ770X0WdB9c3fhD-Lt9w,3401
+ptt_mail_backup/__main__.py,sha256=luB6uMx1P4AifHtoYxUJh2aQRHMmOmCUasZGhtLuCnc,28
+ptt_mail_backup/ansi.py,sha256=9sW6XAciOEGueMO5icRoUNGoYy0l0LhT6L061hwLvAM,2288
+ptt_mail_backup/article.py,sha256=kRskGY58nF_jVM1FJVGrW0O7ncPmebtK5gcCwr5KRyI,3666
+ptt_mail_backup/byte_screen.py,sha256=fZj0sEnSkX3-UQ7mbvNTUahw9ZPVuJBVu_uEUiYSIGg,2981
+ptt_mail_backup/byte_stream.py,sha256=-fNLwF3Jie1vMq5fMgD2RO3yEnbsdDTLXQiH2QcTAHE,587
+ptt_mail_backup/ptt_bot.py,sha256=N9lZbMEoR5PcIqK5pHuHIYY5x1b8hnGdKffcffJ1KV4,9369
+ptt_mail_backup-0.1.0.dist-info/DESCRIPTION.rst,sha256=O8w1zd1Bv2zjkFA7Vs0FS9I-lO1buaLjqQmroG-b3nE,2019
+ptt_mail_backup-0.1.0.dist-info/METADATA,sha256=ngiUIobb79o43CmXdsSo2Fwy0OqqlQi4CGZPcBXHM-w,2764
+ptt_mail_backup-0.1.0.dist-info/RECORD,,
+ptt_mail_backup-0.1.0.dist-info/WHEEL,sha256=Ds0ba8WsPJtjBPzEMyPOBG3qfPa6B4mlzB-vhzorIZs,97
+ptt_mail_backup-0.1.0.dist-info/entry_points.txt,sha256=dBxcfPwdQVJh-BvuYIBnC8A6F1-J8pn4szpuO7hHpyE,58
+ptt_mail_backup-0.1.0.dist-info/metadata.json,sha256=QkH6sV7rKaFh_rtGzJ4Ss-dfy94VYmkqgVsSL_bes-U,1067
+ptt_mail_backup-0.1.0.dist-info/top_level.txt,sha256=caBgBjZjscOMwnQw9dsFeHwXx6rEwvFb_3JR0P8ef8c,16
+ptt_mail_backup-0.1.0.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
