@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        linux-thermaltake-rgb=daemon.main:main
+    
