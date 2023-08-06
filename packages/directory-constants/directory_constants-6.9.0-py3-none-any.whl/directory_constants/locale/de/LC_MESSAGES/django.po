@@ -1,0 +1,175 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-16 08:47+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: directory_constants/constants/choices.py:71
+msgid "Aerospace"
+msgstr ""
+
+#: directory_constants/constants/choices.py:72
+msgid "Advanced manufacturing"
+msgstr ""
+
+#: directory_constants/constants/choices.py:73
+msgid "Airports"
+msgstr ""
+
+#: directory_constants/constants/choices.py:76
+msgid "Agriculture, horticulture and fisheries"
+msgstr ""
+
+#: directory_constants/constants/choices.py:78
+msgid "Automotive"
+msgstr ""
+
+#: directory_constants/constants/choices.py:81
+msgid "Biotechnology and pharmaceuticals"
+msgstr ""
+
+#: directory_constants/constants/choices.py:85
+msgid "Business and consumer services"
+msgstr ""
+
+#: directory_constants/constants/choices.py:87
+msgid "Chemicals"
+msgstr ""
+
+#: directory_constants/constants/choices.py:90
+msgid "Clothing, footwear and fashion"
+msgstr ""
+
+#: directory_constants/constants/choices.py:91
+msgid "Communications"
+msgstr ""
+
+#: directory_constants/constants/choices.py:92
+msgid "Construction"
+msgstr ""
+
+#: directory_constants/constants/choices.py:93
+msgid "Creative and media"
+msgstr ""
+
+#: directory_constants/constants/choices.py:94
+msgid "Education and training"
+msgstr ""
+
+#: directory_constants/constants/choices.py:95
+msgid "Electronics and IT hardware"
+msgstr ""
+
+#: directory_constants/constants/choices.py:96
+msgid "Environment"
+msgstr ""
+
+#: directory_constants/constants/choices.py:99
+msgid "Financial and professional services"
+msgstr ""
+
+#: directory_constants/constants/choices.py:101
+msgid "Food and drink"
+msgstr ""
+
+#: directory_constants/constants/choices.py:104
+msgid "Giftware, jewellery and tableware"
+msgstr ""
+
+#: directory_constants/constants/choices.py:106
+msgid "Global sports infrastructure"
+msgstr ""
+
+#: directory_constants/constants/choices.py:107
+msgid "Healthcare and medical"
+msgstr ""
+
+#: directory_constants/constants/choices.py:110
+msgid "Household goods, furniture and furnishings"
+msgstr ""
+
+#: directory_constants/constants/choices.py:112
+msgid "Life sciences"
+msgstr ""
+
+#: directory_constants/constants/choices.py:113
+msgid "Leisure and tourism"
+msgstr ""
+
+#: directory_constants/constants/choices.py:114
+msgid "Legal services"
+msgstr ""
+
+#: directory_constants/constants/choices.py:115
+msgid "Marine"
+msgstr ""
+
+#: directory_constants/constants/choices.py:118
+msgid "Mechanical electrical and process engineering"
+msgstr ""
+
+#: directory_constants/constants/choices.py:120
+msgid "Metallurgical process plant"
+msgstr ""
+
+#: directory_constants/constants/choices.py:123
+msgid "Metals, minerals and materials"
+msgstr ""
+
+#: directory_constants/constants/choices.py:125
+msgid "Mining"
+msgstr ""
+
+#: directory_constants/constants/choices.py:126
+msgid "Oil and gas"
+msgstr ""
+
+#: directory_constants/constants/choices.py:127
+msgid "Ports and logistics"
+msgstr ""
+
+#: directory_constants/constants/choices.py:128
+msgid "Power"
+msgstr ""
+
+#: directory_constants/constants/choices.py:129
+msgid "Railways"
+msgstr ""
+
+#: directory_constants/constants/choices.py:130
+msgid "Renewable energy"
+msgstr ""
+
+#: directory_constants/constants/choices.py:131
+msgid "Retail and luxury"
+msgstr ""
+
+#: directory_constants/constants/choices.py:132
+msgid "Security"
+msgstr ""
+
+#: directory_constants/constants/choices.py:135
+msgid "Software and computer services"
+msgstr ""
+
+#: directory_constants/constants/choices.py:139
+msgid "Textiles, interior textiles and carpets"
+msgstr ""
+
+#: directory_constants/constants/choices.py:141
+msgid "Water"
+msgstr ""
