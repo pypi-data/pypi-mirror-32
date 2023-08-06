@@ -1,0 +1,3 @@
+[console_scripts]
+forkbuntu = forkbuntu.__main__:main
+
