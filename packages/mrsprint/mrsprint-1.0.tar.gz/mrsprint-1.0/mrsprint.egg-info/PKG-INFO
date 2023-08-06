@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: mrsprint
+Version: 1.0
+Summary: Magnetic Resonance Experiment Simulator and Visualization Tool
+Home-page: UNKNOWN
+Author: Daniel Cosmo Pizetta, Victor Hugo de Mello Pessoa
+Author-email: daniel.pizetta@usp.br, victor.pessoa@usp.br
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
