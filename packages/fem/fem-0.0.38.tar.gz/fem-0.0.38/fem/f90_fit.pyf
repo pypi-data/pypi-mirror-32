@@ -1,0 +1,30 @@
+!    -*- f90 -*-
+! Note: the context of this file is case sensitive.
+
+python module f90_fit ! in 
+    interface  ! in :f90_fit
+        subroutine fit(x,y,p_sum,l,ohx_pinv1,ohx_pinv2,ohx_pinv3,ohx_rank,pq_sum,q,p,k,m_y,max_iters,iters,iter,par,disc) ! in :f90_fit:f90_fit.f90
+            integer dimension(p_sum,l) :: x
+            integer dimension(l),depend(l) :: y
+            integer, optional,check(shape(x,0)==p_sum),depend(x) :: p_sum=shape(x,0)
+            integer, optional,check(shape(x,1)==l),depend(x) :: l=shape(x,1)
+            real*8 dimension(l,ohx_rank),depend(l) :: ohx_pinv1
+            real*8 dimension(ohx_rank),depend(ohx_rank) :: ohx_pinv2
+            real*8 dimension(ohx_rank,pq_sum),depend(ohx_rank) :: ohx_pinv3
+            integer, optional,check(shape(ohx_pinv1,1)==ohx_rank),depend(ohx_pinv1) :: ohx_rank=shape(ohx_pinv1,1)
+            integer, optional,check(shape(ohx_pinv3,1)==pq_sum),depend(ohx_pinv3) :: pq_sum=shape(ohx_pinv3,1)
+            integer dimension(k) :: q
+            integer dimension(k),depend(k) :: p
+            integer, optional,check(len(q)>=k),depend(q) :: k=len(q)
+            integer :: m_y
+            integer :: max_iters
+            integer, optional :: iters
+            integer intent(out) :: iter
+            real*8 dimension(max_iters,m_y,pq_sum),intent(out),depend(max_iters,m_y,pq_sum) :: par
+            real*8 dimension(max_iters),intent(out),depend(max_iters) :: disc
+        end subroutine fit
+    end interface 
+end python module f90_fit
+
+! This file was auto-generated with f2py (version:2).
+! See http://cens.ioc.ee/projects/f2py2e/
