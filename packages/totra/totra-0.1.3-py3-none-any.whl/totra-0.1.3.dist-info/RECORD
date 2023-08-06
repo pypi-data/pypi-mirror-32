@@ -1,0 +1,13 @@
+totra/__init__.py,sha256=wJEU2Er3GOvUm_ENwHNZEYpq3-iCyVDH2ddOhtehDoI,292
+totra/core.py,sha256=vrYLDtQas2m5tpSlEU4SOvQHdZkA-F-H1u1i4GqI0IM,5380
+totra/exceptions.py,sha256=cv4zZ_wzoAC3rLrBxnEYngdCzYztp_ipBPkha5pDFYc,92
+totra/main.py,sha256=qVkoV7kMaajl3t3n3_BqakX8kOyriYOoKnLUoPBSGGI,3034
+totra/output_format.py,sha256=aCNJzfSiW5CmgptcRBsv_NdzrmXlvGSq6xIULOdyQkg,1804
+totra/version.py,sha256=uZsygMXMKRw-7qhWojAjnpm8GFPXU92xW6XA8O5GwFY,22
+totra-0.1.3.data/data/README.md,sha256=TQKHft75u97gNKHPPR5V96nzr3GGwJUO5vGXlR5pyR8,2479
+totra-0.1.3.dist-info/LICENSE.txt,sha256=pUGQ9ZLbzRsINNkni2IfKfxam-XdTv3zTm8w-5mMCss,1075
+totra-0.1.3.dist-info/METADATA,sha256=Ixn7GG7dXK6s0KQ8F-ry5WwOs3vkPtkC_YQWqx6ITHY,3341
+totra-0.1.3.dist-info/RECORD,,
+totra-0.1.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+totra-0.1.3.dist-info/entry_points.txt,sha256=i5uePqG2_zgIAUg10Nl6F4sPDQbH0EwIsh3rAcLILUU,38
+totra-0.1.3.dist-info/top_level.txt,sha256=5rW9djep52vlr_V42mFYlPDJnQS1apwj49VRixYzE64,6
