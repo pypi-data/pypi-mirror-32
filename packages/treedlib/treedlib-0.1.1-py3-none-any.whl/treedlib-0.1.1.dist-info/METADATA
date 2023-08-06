@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: treedlib
+Version: 0.1.1
+Summary: Library of tree features.
+Home-page: https://github.com/HazyResearch/treedlib
+Author: Hazy Research
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: lxml
+
+UNKNOWN
+
+
