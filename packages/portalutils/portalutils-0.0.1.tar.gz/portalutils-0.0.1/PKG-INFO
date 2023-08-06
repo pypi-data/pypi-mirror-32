@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: portalutils
+Version: 0.0.1
+Summary: Portal access utility.
+Home-page: https://github.com/Jack-Kingdom/portalutils.git
+Author: Jack King
+Author-email: email@qiaohong.org
+License: MIT
+Description: # portalutils
+        [![Build Status](https://travis-ci.com/Jack-Kingdom/portalutils.svg?branch=master)](https://travis-ci.com/Jack-Kingdom/portalutils)
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Natural Language :: English
