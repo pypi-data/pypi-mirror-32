@@ -1,0 +1,15 @@
+football/__init__.py,sha256=U5Wz4oboBnNRzPOqZEP02biywGYNvNreDatQX8o5Eq8,31
+football/constants.py,sha256=bJfvT55MyXkOaZeOZk5sXmO_5v9WqLi4mYTWgjgdtfI,14948
+football/football.py,sha256=8YzrFyzWZLOCdzsZMmh8KIQb3E5iWPB3MJ8VruqNN4A,9723
+football/utils.py,sha256=Hng01h_STLUOFE2HKHuXvtQgCd1o16qzAmCam1PySTs,109
+football/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+football/models/competition.py,sha256=opejnNrfQRHey0pF1DwtOuPPJtd4Jc7h54p0iW4R5RE,1758
+football/models/fixture.py,sha256=SonIOmv3VBsB_v-He0Ig2TbRKrJr1FJ66WqHWTu1exY,1964
+football/models/player.py,sha256=HkdqtT3RVjAVvvwHxsbUzXsvwnjS0Kb9WxOyfbCJl7M,1027
+football/models/table.py,sha256=oRVEfkm18KCBn-oLHbvN1CXBbPVjG-HAkgGBlaKiHzg,2184
+football/models/team.py,sha256=cYcs3LWEJKArDJgU8O7YqxBY4zRXP7YJ6VY_SLyTab4,3670
+football-0.2.0.dist-info/LICENSE.txt,sha256=dql8h4yceoMhuzlcK0TT_i-NgTFNIZsgE47Q4t3dUYI,34520
+football-0.2.0.dist-info/METADATA,sha256=VWu5-FPNf_xsN77lb7TOPqJ32Y6S-uqS6bXmNFIsZ0c,570
+football-0.2.0.dist-info/RECORD,,
+football-0.2.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+football-0.2.0.dist-info/top_level.txt,sha256=IFtg7nmRSvagm4lxcLUixeFjZiFLmgc1tOtVD0sUo8g,9
