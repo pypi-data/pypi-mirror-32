@@ -1,0 +1,118 @@
+<!doctype html>
+<!--
+STRAKS POS web front-end page template
+Author: STRAKS Team
+Project page: https://github.com/straks/strakspos
+This program is free software, released under the Apache License, Version 2.0. See the LICENSE file for more information
+-->
+<html>
+    <head>
+        <title>STRAKS Pos - Logs</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="bootstrap.min.css" rel="stylesheet">
+        <link href="bootstrap-reset.css" rel="stylesheet">
+        <link href="font-awesome.css" rel="stylesheet" />
+        <link href="framework.css" rel="stylesheet">
+        <link href="reset-responsive.css" rel="stylesheet" />
+        <link rel="shortcut icon" href="favicon.png">
+        <script src="scripts.js"></script>
+    </head>
+    <body>
+        <section id="container" class="">
+            <header class="header white-bg">
+                <div class="sidebar-toggle-box">
+                    <div data-original-title="Toggle Navigation" data-placement="right" class="icon-reorder tooltips"></div>
+                </div>
+                <a href="/welcome" class="logo" ><b>STRAKS</b><span>pos</span></a>
+            </header>
+            <aside>
+                <div id="sidebar"  class="nav-collapse">
+                    <ul class="sidebar-menu" id="nav-accordion">
+                        <li>
+                            <a href="/welcome">
+                                <i class="icon-dashboard"></i>
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/request">
+                                <i class="icon-cloud-download"></i>
+                                <span>Create invoice</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/logs">
+                                <i class="icon-bar-chart"></i>
+                                <span>Logs</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+            <section id="main-content">
+                <section class="wrapper site-min-height">
+                    <form method="get" action="request">
+                        <div style="padding-left:13px;padding-right:13px;">
+                            <div class="row">
+                                <div class="col-xs-4 no-padding">
+                                    <input type="submit" value="&larr;" class="btn btn-danger btn-lg btn-block">
+                                </div>
+                                <div class="col-xs-4 no-padding">
+                                    <input type="button" id="email" value="Email" class="btn btn-secondary btn-lg btn-block" onclick="sendEmail('{date}')">
+                                </div>
+                                <div class="col-xs-4 no-padding">
+                                    <input type="button" value="Print" class="btn btn-secondary btn-lg btn-block" onclick="window.print()">
+                                </div>
+                            </div>
+                            <div class="row" style="margin-bottom:3px;">
+                                <div class="col-xs-3 no-padding">
+                                    <input type="button" class="btn btn-secondary btn-lg btn-block" value="&lt;" onclick="openLogs('{prev_date}')">
+                                </div>
+                                <div class="col-xs-2 no-padding">
+                                    <input type="button" class="btn btn-secondary btn-lg btn-block" value="{tag_s}" onclick="openLogs('{scope_s}')">
+                                </div>
+                                <div class="col-xs-2 no-padding">
+                                    <input type="button" class="btn btn-secondary btn-lg btn-block" value="{tag_m}" onclick="openLogs('{scope_m}')">
+                                </div>
+                                <div class="col-xs-2 no-padding">
+                                    <input type="button" class="btn btn-secondary btn-lg btn-block" value="{tag_l}" onclick="openLogs('{scope_l}')">
+                                </div>
+                                <div class="col-xs-3 no-padding">
+                                    <input type="button" class="btn btn-secondary btn-lg btn-block" value="&gt;" onclick="openLogs('{next_date}')">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <p style="text-align:center;font-size:18px;width:100%;padding:5px;background-color:#c5d9f7;">{date}</p>
+                        </div>
+                        <div class="col-xs-12">
+                            <p style="text-align:center;font-size:18px;width:100%;padding:5px;background-color:#dff0d8;">Total received: {summary}</p>
+                        </div>
+                        <div class="col-xs-12">
+                            <section class="panel">
+                                <header class="panel-heading">
+                                    Transactions
+                                </header>
+                                {table}
+                            </section>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </section>
+        <div class="preloader-wrapper">
+            <div class="preloader text-center">
+                <p>LOADING...</p>
+            </div>
+        </div>
+        <script src="jquery.js"></script>
+        <script src="bootstrap.js"></script>
+        <script src="jquery.dcjqaccordion.2.7.js" class="include" type="text/javascript"></script>
+        <script src="jquery.base.js"></script>
+        <script src="sweetalert.min.js"></script>
+        <script src="swal.js"></script>
+    </body>
+</html>
