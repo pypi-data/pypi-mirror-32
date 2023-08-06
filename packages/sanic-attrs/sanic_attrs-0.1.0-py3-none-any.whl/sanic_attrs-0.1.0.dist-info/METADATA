@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: sanic-attrs
+Version: 0.1.0
+Summary: OpenAPI / Swagger support for Sanic using attrs
+Home-page: http://github.com/vltr/sanic-attrs/
+Author: Channel Cat
+Author-email: channelcat@gmail.com
+Maintainer: Richard Kuesters
+Maintainer-email: rkuesters@gmail.com
+License: MIT
+Platform: any
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Web Environment
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: sanic (>=0.7.0)
+Requires-Dist: attrs (>=18.0.0)
+
+UNKNOWN
+
+
