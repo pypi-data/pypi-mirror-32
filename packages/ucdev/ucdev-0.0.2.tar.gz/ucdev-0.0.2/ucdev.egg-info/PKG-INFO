@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: ucdev
+Version: 0.0.2
+Summary: Library to access various I2C/SPI/GPIO-accessible chips over Cypress CY7C65211/3/5 USB-to-UART/I2C/SPI/GPIO bridge.
+Home-page: https://github.com/tai/python-ucdev/
+Author: Taisuke Yamada
+Author-email: tai@remove-if-not-spam.rakugaki.org
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
