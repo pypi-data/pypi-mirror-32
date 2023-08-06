@@ -1,0 +1,28 @@
+homeassistant:
+  customize:
+    weblink.cloud:
+      friendly_name: Przejdz do konfiguracji usług online
+    binary_sensor.ping_binary_sensor:
+      friendly_name: Status serwisu AIS dom
+      icon: mdi:cloud
+
+
+binary_sensor:
+  - platform: ping
+    host: powiedz.co
+    count: 2
+    scan_interval: 30
+
+input_boolean:
+  sync_with_ais_cloud:
+    name: Synchronizacja z chmurą AIS dom
+    initial: off
+    icon: mdi:download
+
+group:
+  dom_cloud:
+    entities:
+      - binary_sensor.ping_binary_sensor
+      - weblink.cloud
+      - group.dom_cloud_full
+      - input_boolean.sync_with_ais_cloud
