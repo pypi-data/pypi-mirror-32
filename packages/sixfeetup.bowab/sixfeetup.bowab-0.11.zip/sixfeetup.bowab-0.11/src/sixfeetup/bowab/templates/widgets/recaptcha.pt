@@ -1,0 +1,9 @@
+<span i18n:domain="deform" tal:omit-tag="">
+<input type="hidden" name="__start__" value="${field.name}:mapping"/>
+
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<div class="g-recaptcha" data-sitekey="${public_key}"></div>
+
+
+<input type="hidden" name="__end__" value="${field.name}:mapping"/>
+</span>
