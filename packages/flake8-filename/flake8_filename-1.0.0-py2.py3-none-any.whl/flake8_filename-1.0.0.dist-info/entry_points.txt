@@ -1,0 +1,3 @@
+[flake8.extension]
+N = flake8_filename:FilenameChecker
+
