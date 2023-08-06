@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: psyshort
+Version: 0.0.5
+Summary: UNKNOWN
+Home-page: https://github.com/Quit3Simpl3/psyshort
+Author: Quit3Simpl3
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+Making psycopg2 a little simpler to use.
+
+Usage:
+```python
+from psyshort import Psyshort
+psy = Psyshort(
+    hostname="db.example.com",
+    dbname="example_database",
+    username="postgres_user",
+    password="pa$$w0rd"
+    )
+```
+
