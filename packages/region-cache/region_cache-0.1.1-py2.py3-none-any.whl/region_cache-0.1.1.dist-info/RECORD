@@ -1,0 +1,7 @@
+region_cache/__init__.py,sha256=gKy8BaPyQOOSm3fTPmA3yvIHilQfn_1gK1zCiVjlRG8,2182
+region_cache/region.py,sha256=OjtO26a5g3pxR-5EYqv5_M4RbhLhm-QUef9uhgQwyt8,6741
+region_cache/region_cache.py,sha256=yEPth4rct6xqGHHduUz1-6oDNPItinccuNjdDzAetLQ,2367
+region_cache-0.1.1.dist-info/METADATA,sha256=NmAiQDnA84Gq_YMR9NYpvhJiD7zbzuVlWudaTTC8HCs,3961
+region_cache-0.1.1.dist-info/RECORD,,
+region_cache-0.1.1.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+region_cache-0.1.1.dist-info/top_level.txt,sha256=2CyJ98gwgGn8dLqXngtfDK4KfOneLJIkALa6sQcL7jw,13
