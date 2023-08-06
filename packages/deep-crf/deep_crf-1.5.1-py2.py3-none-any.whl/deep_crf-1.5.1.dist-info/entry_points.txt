@@ -1,0 +1,4 @@
+[console_scripts]
+deepcrf_eval = deepcrf.deepcrf_eval:main
+deepcrf_learn = deepcrf.deepcrf_learn:main
+
