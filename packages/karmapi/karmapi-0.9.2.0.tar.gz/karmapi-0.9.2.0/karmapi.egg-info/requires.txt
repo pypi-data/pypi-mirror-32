@@ -1,0 +1,8 @@
+matplotlib
+pandas
+curio
+blockchain
+Pillow
+pytest
+hypothesis
+requests
