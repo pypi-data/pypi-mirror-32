@@ -1,0 +1,5 @@
+[console_scripts]
+prov-dictionary = extensible_provn.view.prov_dictionary:_main
+provn = extensible_provn.view.provn:_main
+versioned-prov = extensible_provn.view.versioned_prov:_main
+
