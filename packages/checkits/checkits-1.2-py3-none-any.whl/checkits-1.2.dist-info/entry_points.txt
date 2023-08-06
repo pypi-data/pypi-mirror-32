@@ -1,0 +1,3 @@
+[console_scripts]
+checkits = main.main:mainmenu_pre_login
+
