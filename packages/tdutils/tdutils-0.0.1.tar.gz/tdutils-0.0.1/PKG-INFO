@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: tdutils
+Version: 0.0.1
+Summary: Various utilities for managing and pulishing transportation data.
+Home-page: https://github.com/cityofaustin/transportation-data-utils
+Author: City of Austin
+Author-email: transportation.data@austintexas.gov
+License: UNKNOWN
+Description: # transportation-data-utils
+        Try not to repeat yourself.
+        
+        # About
+        This package contains varous utilities for managing and publishing transportation data. It is maintained by the City of Austin Transportation Department.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Public Domain
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Description-Content-Type: text/markdown
