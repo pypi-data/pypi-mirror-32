@@ -1,0 +1,7 @@
+include README.rst
+include requirements.txt
+include LICENSE
+include brittle_wit/rest_api.json
+include brittle_wit/ads_api.json
+include brittle_wit/streaming_api.json
+include brittle_wit/webhooks_api.json
