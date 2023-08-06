@@ -1,0 +1,12 @@
+setup.py
+Cleverbotio/__init__.py
+Cleverbotio/cleverbot.py
+Cleverbotio/cleverbottest.py
+Cleverbotio/async/__init__.py
+Cleverbotio/async/cleverbot.py
+Cleverbotio/async/cleverbottest.py
+cleverbotio.egg-info/PKG-INFO
+cleverbotio.egg-info/SOURCES.txt
+cleverbotio.egg-info/dependency_links.txt
+cleverbotio.egg-info/requires.txt
+cleverbotio.egg-info/top_level.txt

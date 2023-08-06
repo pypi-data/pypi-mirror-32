@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: cleverbotio
+Version: 0.3
+Summary: A Python wrapper for the Cleverbot.io API that has an async option
+Home-page: https://github.com/shadeyg56/cleverbotio.py
+Author: shadeyg56
+Author-email: UNKNOWN
+License: GNU
+Description: readme
+Keywords: cleverbot,async,api-wrapper
+Platform: UNKNOWN
