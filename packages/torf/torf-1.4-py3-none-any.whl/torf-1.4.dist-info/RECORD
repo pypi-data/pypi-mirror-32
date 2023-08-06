@@ -1,0 +1,11 @@
+torf/__init__.py,sha256=NS04IEk1it7B0kf0-z5O10g4QuEXnpcOYigayomBVBs,1224
+torf/_errors.py,sha256=JuCuLSeE4sItLjaU6sfMkEiML_A0z0_qcs55pgB5hAc,3339
+torf/_torrent.py,sha256=l4OnvEYleD0AZBRT8z3X1kF-NMldiZGZtegKaG5yQWw,36003
+torf/_utils.py,sha256=IrnochXI3_wlFHmwiWmzxXUKC4W4UGMSdjkIdnmPTaA,7848
+torf/_version.py,sha256=aU0CrYAWSvFH-3hlNeGmp_pciPYd8oVqLH_AewQvQz0,20
+torf-1.4.dist-info/DESCRIPTION.rst,sha256=WwOHjGLsAZl28xIy3i3CmkyECPinP3vuIZLbh0JEkaI,1600
+torf-1.4.dist-info/METADATA,sha256=esyFFYqvdOjZfID2nKSvsxfyULPyDnj3_mqYSG1zG2Y,2140
+torf-1.4.dist-info/RECORD,,
+torf-1.4.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+torf-1.4.dist-info/metadata.json,sha256=7Zl_7nmayAS_gKW9j78k08w2Xa_k2FJj2WU87LlAYFU,737
+torf-1.4.dist-info/top_level.txt,sha256=Lv8Jd9ianx3c0oXtSDnOuRWXGTPHyDfw4MmAWR4p-AU,5
