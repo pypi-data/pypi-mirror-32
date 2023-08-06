@@ -1,0 +1,8 @@
+README
+setup.py
+with-aws-mfa
+with_aws_mfa.egg-info/PKG-INFO
+with_aws_mfa.egg-info/SOURCES.txt
+with_aws_mfa.egg-info/dependency_links.txt
+with_aws_mfa.egg-info/requires.txt
+with_aws_mfa.egg-info/top_level.txt
