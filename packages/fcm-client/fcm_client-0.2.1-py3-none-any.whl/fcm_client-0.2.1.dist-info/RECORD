@@ -1,0 +1,12 @@
+fcm_client-0.2.1.dist-info/DESCRIPTION.rst,sha256=f_JojXpOJ5y9QWCG53hW7cefVVveQLlAN1jr3ma-LE4,1815
+fcm_client-0.2.1.dist-info/METADATA,sha256=SFBlqhuDtVHe2XByoyHjvx2grBpxTH8zf5Ocl78QEsw,2478
+fcm_client-0.2.1.dist-info/RECORD,,
+fcm_client-0.2.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+fcm_client-0.2.1.dist-info/entry_points.txt,sha256=TbuGbeCp4actbbU93GmK6WekgNQVa3hscipmfB3GDOE,50
+fcm_client-0.2.1.dist-info/metadata.json,sha256=Oo5ZWmOxD4ptuk8eYMHpjJZRUXld0Hb6kJuiq7Spzlk,1025
+fcm_client-0.2.1.dist-info/top_level.txt,sha256=oCDLPK9SvOdAohcqMMWcHS_0UMcPjaoHxcRrluFtL8c,10
+fcmclient/VERSION,sha256=GWZm1qfrRYP7nLHhWZcQELLim1t1Kqc_RW4OIGG2Ql8,5
+fcmclient/__init__.py,sha256=utFYPYRuSpe-Qtf3mI10HwiOVTF71nqHju8JNvMA6I8,936
+fcmclient/api.py,sha256=60cLnbOopm20TW3vkbVdqsNus7oQGE48ELxpjV_cfw4,13503
+fcmclient/cli.py,sha256=8egReebpqfDsVxXfF-qBQcE6fiLB9o9Z-C4dpwyRS5U,1594
+fcmclient/version.py,sha256=HWmRD_RlZBXHe53UXWtDc1gUH_EqrgNyCHN2J9-ht68,269
