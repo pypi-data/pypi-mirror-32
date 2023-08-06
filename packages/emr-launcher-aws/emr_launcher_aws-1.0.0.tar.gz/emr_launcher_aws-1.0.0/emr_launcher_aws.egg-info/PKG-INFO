@@ -1,0 +1,30 @@
+Metadata-Version: 1.2
+Name: emr-launcher-aws
+Version: 1.0.0
+Summary: AWS plugin providing template functions for emr_launcher
+Home-page: https://github.com/tuneinc/emr_launcher_aws
+Author: Nick Rushton
+Author-email: nick@tune.com
+License: MIT
+Description-Content-Type: text/markdown
+Description: 
+        # EMR Launcher AWS
+        
+        AWS plugin providing template functions for [http://www.github.com/tuneinc/emr_launcher](emr_launcher)
+        
+        ## Functions
+        
+        * aws.get_aws_access_key - retrieves the aws access key
+        * aws.get_aws_secret_key - retrieves the aws secret key
+        * aws.upload_to_s3 - uploads a local file to S3 for use in the EMR cluster
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=2.7.0
