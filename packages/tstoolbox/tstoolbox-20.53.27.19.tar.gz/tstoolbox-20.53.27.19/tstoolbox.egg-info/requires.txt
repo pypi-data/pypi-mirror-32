@@ -1,0 +1,15 @@
+future
+dateparser
+tabulate
+docutils
+mando>=0.4
+rst2ansi>=0.1.5
+python-dateutil>=2.1
+scipy
+SkillMetrics
+
+[:python_version < "3.5"]
+pandas<0.21
+
+[:python_version >= "3.5"]
+pandas
