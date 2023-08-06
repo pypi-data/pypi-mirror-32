@@ -1,0 +1,39 @@
+Metadata-Version: 2.0
+Name: fcoin
+Version: 0.1.0
+Summary: fcoin api
+Home-page: UNKNOWN
+Author: wt
+Author-email: UNKNOWN
+License: Apache 2.0
+Keywords: Crypto Asset api
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: License :: OSI Approved :: BSD License
+
+
+FCoin API
+===============
+
+Fcoin data API. 
+
+
+
+Install
+--------------
+
+    pip install fcoin
+
+Upgrade
+---------------
+
+    pip install fcoin --upgrade
+
+
+
+
