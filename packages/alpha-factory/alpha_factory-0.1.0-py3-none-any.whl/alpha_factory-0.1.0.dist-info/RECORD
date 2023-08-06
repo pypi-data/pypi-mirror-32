@@ -1,0 +1,13 @@
+alpha_factory/__init__.py,sha256=8WpD2f0_hXSpFrCQf6UoHgEMEa4x5AneiPO_srx0YIM,180
+alpha_factory/basic_functions.py,sha256=ghOEcvkTFUSuOIl_UtrtzcsRhLXG7yaoTMPFOMUUcIY,4950
+alpha_factory/check_validation.py,sha256=q9Thgz5VWcKr5hYuVO8gIRAV6TZQIYKMnMkO_qjYqzQ,1798
+alpha_factory/df_gen.py,sha256=Dk3rZn1TDRxcSnDIVnZAISbMBEls0UvvsrA9TyiC6cs,3597
+alpha_factory/factor_gen.py,sha256=333DPAvm_20OW_UR7cGUl7CZ0-JhBXTy4XoGxE2xb2o,3096
+alpha_factory/generator_core.py,sha256=-AEEB2fQTmIM-KuFdFo_nne51FS88NIDyqDUFnTSqO4,2325
+alpha_factory/data/functions.csv,sha256=C2u9t4RjEOH7-9HTW26fdKT3QhdjRpYIN63mbrE0VQ4,596
+alpha_factory-0.1.0.dist-info/DESCRIPTION.rst,sha256=XqK5SkiHhg_aOAOTVNkg1sOxGB9CoDScMxzfeKChhoM,1316
+alpha_factory-0.1.0.dist-info/METADATA,sha256=gJHPzxsT1kJLD780mgasQ-TW6QaCbLdH2TWGaUb0F_8,1563
+alpha_factory-0.1.0.dist-info/RECORD,,
+alpha_factory-0.1.0.dist-info/WHEEL,sha256=Ds0ba8WsPJtjBPzEMyPOBG3qfPa6B4mlzB-vhzorIZs,97
+alpha_factory-0.1.0.dist-info/metadata.json,sha256=D-fyHYvI7H1wZXIonIWkaCrEeAE_JUYqC7nRvFGWmFk,423
+alpha_factory-0.1.0.dist-info/top_level.txt,sha256=9TtyBR4Pbnw_J37TEWnj1EyD54qq60vAkGDzCQ47DsU,14
