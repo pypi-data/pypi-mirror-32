@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+ovnlp/__init__.py
+ovnlp.egg-info/PKG-INFO
+ovnlp.egg-info/SOURCES.txt
+ovnlp.egg-info/dependency_links.txt
+ovnlp.egg-info/requires.txt
+ovnlp.egg-info/top_level.txt
+ovnlp/ft/__init__.py
+ovnlp/ft/ftutils.py
+ovnlp/ft/weights.py
+ovnlp/ft/weightsource.json
+ovnlp/txtutils/__init__.py
+ovnlp/txtutils/cleantext.py
