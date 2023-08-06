@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: chistes-gallegos
+Version: 0.8
+Summary: los mejores chistes gallegos
+Home-page: https://github.com/victor-fdez/chistes-gallegos
+Author: victor-fdez
+Author-email: victor.j.fdez@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: ~=3.6
+Description-Content-Type: text/markdown
+
+# chistes-gallegos
+
+A package containing a function that returns randome jokes about Gallegos.
+
+Usage
+=====
+
+### Install
+
+```bash
+pip install chistes-gallegos 
+```
+### Programming
+
+```python
+from chistes_gallegos import get_joke
+
+joke_string = get_joke()
+```
+
+Quickstart
+==========
+
+* Review/edit the generated files
+* Add your code, documentation, etc.
+* Create distribution tarball::
+
+       python setup.py bdist_wheel                                                                                                                           
+* Upload to PyPI::
+
+       twine upload dist/*
+
+
+
