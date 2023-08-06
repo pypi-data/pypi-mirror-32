@@ -1,0 +1,12 @@
+pydevf/__init__.py,sha256=oKA_7ySXiP4HA8ZTmHSZtBAuGyOmN1x14O5YIQQiofI,363
+pydevf/__main__.py,sha256=JYp_7uPdOEEqHvx9s6nrWcnJrYIJNzUhwcAOQIVkX5g,62
+pydevf/_pydevf.py,sha256=UgUPuq9biRWhHq19SPX6ol5-C35U3Y0IHW21H1ElUcY,31111
+pydevf/pydev_formatter.jar,sha256=1nQlpNvIC4l4xh4FV9Nbl1QAtU0zhRhlgRDr03LzxEQ,2639161
+pydevf/version.py,sha256=aBEbDvx4LMg8A1TJJR6dEHu8rQODVin528hLS_EDvuA,22
+pydevf/pydev_formatter_lib/org.eclipse.equinox.common_3.10.0.v20180412-1130.jar,sha256=7YYPRVm0XbFdt6jkLiFZN2AlSLBk9VivStAqoHAaCwI,122021
+pydevf/pydev_formatter_lib/org.eclipse.text_3.6.300.v20180430-1330.jar,sha256=LI7ZoTqCykuDN_t7P15vDER0GWG70uC9ygnBK-R13Z4,269840
+pydevf-0.1.4.dist-info/METADATA,sha256=mc7Co6PCNbnGGNW6K_Np-m2nrfhe3bJH_jWoUCtiTnA,3584
+pydevf-0.1.4.dist-info/RECORD,,
+pydevf-0.1.4.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+pydevf-0.1.4.dist-info/entry_points.txt,sha256=hqBwjg2ln5fuqdPU6Y9XXaUUEc_0kBkeaXi0E4O1YWw,40
+pydevf-0.1.4.dist-info/top_level.txt,sha256=GLvCIjx-SSnwVYdoZKOZbCVQuRD-9q_s9b1YFfSCOZc,7
