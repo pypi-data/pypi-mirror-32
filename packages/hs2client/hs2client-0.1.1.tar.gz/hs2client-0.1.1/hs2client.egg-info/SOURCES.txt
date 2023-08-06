@@ -1,0 +1,15 @@
+README.rst
+setup.py
+hs2client/__init__.py
+hs2client/commons.py
+hs2client/hs2client.py
+hs2client.egg-info/PKG-INFO
+hs2client.egg-info/SOURCES.txt
+hs2client.egg-info/dependency_links.txt
+hs2client.egg-info/requires.txt
+hs2client.egg-info/top_level.txt
+hs2client/genthrift/__init__.py
+hs2client/genthrift/TCLIService/TCLIService.py
+hs2client/genthrift/TCLIService/__init__.py
+hs2client/genthrift/TCLIService/constants.py
+hs2client/genthrift/TCLIService/ttypes.py
