@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: gsheet-keyring
+Version: 0.1.0
+Summary: This package provides a Keyring_ back end that stores passwords in a Google
+Home-page: https://github.com/osteele/gsheet-keyring
+Author: Oliver Steele
+Author-email: steele@osteele.com

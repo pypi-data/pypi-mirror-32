@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[scripts]
+docs = "bash -c 'cd docs && make html'"
+lint = "flake8 *.py"
+precommit = "flake8 *.p"
+
+[requires]
+python_version = "3.6"
+
+[packages]
+gspread = "*"
+keyring = "*"
+
+[dev-packages]
+bumpversion = "*"
+flake8 = "*"
+mccabe = "*"
+pycodestyle = "*"
+pyflakes = "*"
+"oauth2client" = "*"
+sphinx = "*"
+sphinx-rtd-theme = "*"
+recommonmark = "*"
