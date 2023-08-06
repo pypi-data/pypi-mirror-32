@@ -1,0 +1,37 @@
+#jinja2: trim_blocks: False
+[DEFAULT]
+auth_strategy = keystone
+log_dir = /var/log/kolla/aodh
+debug = {{ aodh_logging_debug }}
+notification_topics = notifications
+
+transport_url = {{ rpc_transport_url }}
+
+[api]
+port = {{ aodh_api_port }}
+host = {{ api_interface_address }}
+
+[database]
+connection = mysql+pymysql://{{ aodh_database_user }}:{{ aodh_database_password }}@{{ aodh_database_address }}/{{ aodh_database_name }}
+
+[oslo_middleware]
+enable_proxy_headers_parsing = True
+
+{% if aodh_policy_file is defined %}
+[oslo_policy]
+policy_file = {{ aodh_policy_file }}
+{% endif %}
+
+[service_credentials]
+auth_url = {{ internal_protocol }}://{{ kolla_internal_fqdn }}:{{ keystone_public_port }}/v3
+region_name = {{ openstack_region_name }}
+password = {{ aodh_keystone_password }}
+username = {{ aodh_keystone_user }}
+project_name = service
+project_domain_id = {{ default_project_domain_id }}
+user_domain_id = {{ default_user_domain_id }}
+auth_type = password
+interface = internal
+
+[oslo_messaging_notifications]
+transport_url = {{ notify_transport_url }}
