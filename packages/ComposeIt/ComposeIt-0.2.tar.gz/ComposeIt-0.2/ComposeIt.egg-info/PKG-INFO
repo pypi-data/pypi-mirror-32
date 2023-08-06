@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: ComposeIt
+Version: 0.2
+Summary: Generate docker-compose file from existing containers
+Home-page: https://github.com/kelsey19/ComposeIt
+Author: Kelsey Price
+Author-email: kelseylprice19@gmail.com
+License: UNKNOWN
+Description: # ComposeIt
+        ------------------------------
+        
+        Python tool for creating a docker-compose.yml file from an existing container
+        
+        ## Installing
+        
+        ```bash
+        pip install ComposeIt
+        ```
+        
+        ## Usage
+        
+        ```bash
+        ComposeIt <container id or name>
+        ```
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
