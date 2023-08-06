@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: checkhttpstatuscode
+Version: 1.0.3
+Summary: Check the status codes of http servers
+Home-page: https://gitlab.com/gregoryjordanm/checkhttpstatus
+Author: Jordan Gregory
+Author-email: gregory.jordan.m@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

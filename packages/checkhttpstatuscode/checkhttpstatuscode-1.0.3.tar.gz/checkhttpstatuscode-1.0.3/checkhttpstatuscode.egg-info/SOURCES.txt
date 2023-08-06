@@ -1,0 +1,9 @@
+CheckHttpStatusCode.py
+README.md
+setup.py
+checkhttpstatuscode.egg-info/PKG-INFO
+checkhttpstatuscode.egg-info/SOURCES.txt
+checkhttpstatuscode.egg-info/dependency_links.txt
+checkhttpstatuscode.egg-info/entry_points.txt
+checkhttpstatuscode.egg-info/requires.txt
+checkhttpstatuscode.egg-info/top_level.txt
