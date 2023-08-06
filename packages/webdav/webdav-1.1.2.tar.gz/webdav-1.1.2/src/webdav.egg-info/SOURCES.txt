@@ -1,0 +1,13 @@
+README.rst
+setup.cfg
+setup.py
+src/webdav/__init__.py
+src/webdav/client.py
+src/webdav/connection.py
+src/webdav/exceptions.py
+src/webdav/urn.py
+src/webdav.egg-info/PKG-INFO
+src/webdav.egg-info/SOURCES.txt
+src/webdav.egg-info/dependency_links.txt
+src/webdav.egg-info/requires.txt
+src/webdav.egg-info/top_level.txt
