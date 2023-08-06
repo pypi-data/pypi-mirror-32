@@ -1,0 +1,14 @@
+td_cli-0.0.1.dist-info/LICENSE.txt,sha256=szf46ydF5dx9eoJ0MpxHObIGSX66s9LzIWomnK9fE60,1082
+td_cli-0.0.1.dist-info/METADATA,sha256=Stvc6qH71x13T9LX1_kpTadRecsW4DkULpRdrqCtRTk,837
+td_cli-0.0.1.dist-info/RECORD,,
+td_cli-0.0.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+td_cli-0.0.1.dist-info/entry_points.txt,sha256=N3u22qEfWTkEMfqAE29zG_y4zKxgJC4WI47dnOhffBQ,36
+td_cli-0.0.1.dist-info/top_level.txt,sha256=c1x0MAVpTPy2QFoNZ9fz48_PoX9pcGKJOwNu8vee_hs,5
+todo/__init__.py,sha256=ySc5oysLnBd4XRRXOzgFKKxCxor0c56HEDsWLRZ8eXU,3398
+todo/__main__.py,sha256=PjEIWlEE1wPI8LXMCpP1wdrz2IxSu74kndJabsWVH70,244
+todo/controller.py,sha256=Fbcw9BC0J0vq2S96-n58f_utRTamJtndUftEqENtkqA,4564
+todo/service.py,sha256=OhF2nXeDDji0NHbUupNpMZ7YuyMTggWf8IwTfx0m16g,3108
+todo/utils.py,sha256=ojUtX6KjQ0Id8elCWmt9Qx-6dDGsN75_xcILFw7f-do,435
+todo/services/__init__.py,sha256=3EVWzmIcLiXYQfZsawUFFKyZl7mdIvdRGr6P27h-0dU,1398
+todo/services/group.py,sha256=5d-0uoHzYC9BvMjYZcjUkD5FjPr2VsNKbqyEVW4TmkI,1833
+todo/services/todo.py,sha256=j9IOJMtWol89KCEYA9EYptzluHbb-qT7xeetrAxVN9k,2425
