@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+asset_allocation_inputs/__init__.py
+asset_allocation_inputs/bundle.js
+asset_allocation_inputs/metadata.json
+asset_allocation_inputs/version.py
+asset_allocation_inputs.egg-info/PKG-INFO
+asset_allocation_inputs.egg-info/SOURCES.txt
+asset_allocation_inputs.egg-info/dependency_links.txt
+asset_allocation_inputs.egg-info/top_level.txt

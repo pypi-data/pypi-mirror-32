@@ -1,0 +1,5 @@
+include asset_allocation_inputs/bundle.js
+include asset_allocation_inputs/bundle.js.map
+include asset_allocation_inputs/metadata.json
+include README.md
+include LICENSE.md
