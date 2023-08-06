@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: dataclasses-dict
+Version: 0.0.1
+Summary: Easily convert dataclasses to and from dicts
+Home-page: https://github.com/lidatong/dataclasses-dict
+Author: lidatong
+Author-email: charles.dt.li@gmail.com
+License: Unlicense
+Description: UNKNOWN
+Keywords: dataclasses dict
+Platform: UNKNOWN
+Requires-Python: >=3.6
