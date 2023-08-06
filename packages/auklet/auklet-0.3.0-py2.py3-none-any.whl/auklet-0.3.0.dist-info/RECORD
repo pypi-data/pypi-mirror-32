@@ -1,0 +1,15 @@
+auklet/__about__.py,sha256=pYelhXZlrYBf0WXl4QzAStya0VZ9l6NtcDxohftRB-M,43
+auklet/__init__.py,sha256=DbFF55PckkT3GJjZuz1UW8mtO1dhSwGnVwb_PTs_Ie0,61
+auklet/base.py,sha256=rxBxg2HjXsBBuCXoku99x6haB-vIFFbkvfFrIR-SFpA,14941
+auklet/releases.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auklet/stats.py,sha256=f0Xff1c9oc5dNqIHZV_HJS3eedRjfDXwwDSJV2oJC9w,7933
+auklet/licenses/auklet,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+auklet/licenses/profiling,sha256=vB8E6LUXqwvQ1Ap-z-EypptsomIlgXS2yQdVGhLez9o,1494
+auklet/monitoring/__init__.py,sha256=JFNBCXRGZkGD3_QTHGJDecdzJm99qyVfeYV7lUeK59k,2542
+auklet/monitoring/logging.py,sha256=LQaVz9IBms7VjS_BrD4E6YkJOsvaF_PWMz825Mwpne0,550
+auklet/monitoring/sampling.py,sha256=SndevUpb4-1nhVwxTdQVw9rSU9YQWAeS9QDgaYsFHsY,2550
+auklet-0.3.0.dist-info/METADATA,sha256=jE26RfspVFuRgdD_suX-F63BtOXmMyyhU_-tRE16inM,2169
+auklet-0.3.0.dist-info/RECORD,,
+auklet-0.3.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+auklet-0.3.0.dist-info/top_level.txt,sha256=lnfnmAv1apLRnNMW-yDgKIFQVaAS3qSHZCmF6esrekc,13
+tests/__init__.py,sha256=38pdDhEZk2RiT5kga2DPbhTYeDHdsCXNaEr7HH1-k20,208
