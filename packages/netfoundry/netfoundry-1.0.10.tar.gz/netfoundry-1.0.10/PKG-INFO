@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: netfoundry
+Version: 1.0.10
+Summary: API wrappers and configuration for NetFoundry's Management Orchestration Platform
+Home-page: https://netfoundry.atlassian.net/wiki/spaces/PUB/blog/2017/10/15/11829509/MOP+for+Python
+Author: NetFoundry
+Author-email: ops-mgmt@netfoundry.io
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
