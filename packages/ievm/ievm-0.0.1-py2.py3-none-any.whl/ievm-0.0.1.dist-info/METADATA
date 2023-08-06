@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: ievm
+Version: 0.0.1
+Summary: tool for downloading IE VMs with checksum
+Home-page: https://github.com/zenixls2/ievm
+Author: Zenix Huang
+Author-email: zenixls2@gmail.com
+License: Apache License 2.0
+Keywords: ie vm InternetExplore
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: System :: Monitoring
+Classifier: Topic :: Internet
+Classifier: Topic :: Utilities
+Requires-Dist: requests
+
+ievm is a tool to download Microsoft IE virtual machine images.
+Currently nothing more than download and checksum.
+Create this since the old ievm.sh script is never timely updated.
+
+Usage
+-----
+
+Basic usage::
+
+    $ ievm [OPTIONS]
+
+``OPTIONS `` includes the following required items:
+
+- `-t TYPE`, `--type TYPE`:
+  VM types, valid types are `hyperv`, `vagrant`, `virtualbox`, and `vmware`
+
+- `-v VERSION`, `--version VERSION`:
+  IE versions, valid version are `ie11-win7`, `msedge-win10`, `ie11-win81`,
+  `ie9-win7`, and `ie10-win7`
+
+- `-p PATH`, `--path PATH`:
+  path to save downloaded file
+
+- `-h`, `--help`:
+  show help messages
+
+
+Installation
+------------
+
+Install from PyPI::
+
+    $ pip install ievm
+
+
+License
+-------
+
+ievm is released under Apache License Version 2.0. See the LICENSE_ file for more details.
+
+.. _LICENSE: https://github.com/zenixls2/ievm/blob/master/LICENSE
+
+
