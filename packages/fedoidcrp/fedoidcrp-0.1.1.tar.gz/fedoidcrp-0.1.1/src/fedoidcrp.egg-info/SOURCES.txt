@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/fedoidcrp/__init__.py
+src/fedoidcrp.egg-info/PKG-INFO
+src/fedoidcrp.egg-info/SOURCES.txt
+src/fedoidcrp.egg-info/dependency_links.txt
+src/fedoidcrp.egg-info/not-zip-safe
+src/fedoidcrp.egg-info/requires.txt
+src/fedoidcrp.egg-info/top_level.txt
+src/fedoidcrp/oidc/__init__.py

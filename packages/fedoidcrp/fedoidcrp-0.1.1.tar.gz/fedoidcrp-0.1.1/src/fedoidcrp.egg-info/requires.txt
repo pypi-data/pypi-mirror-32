@@ -1,0 +1,5 @@
+cryptojwt>=0.3.1
+oidcservice>=0.5.10
+oidcrp>=0.4.9
+fedoidcmsg>=0.7.6
+fedoidcservice>=0.1.2
