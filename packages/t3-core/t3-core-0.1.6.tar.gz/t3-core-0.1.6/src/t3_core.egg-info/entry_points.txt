@@ -1,0 +1,5 @@
+[console_scripts]
+cloaked_forge = cloaked_forge:main
+manage = manage:main
+wsgi = wsgi
+
