@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: npmjs-browse-cli
+Version: 0.0.0
+Summary: npmjs.com browse package
+Home-page: https://github.com/looking-for-a-job/npmjs-browse-cli
+License: UNKNOWN
+Description: ### Install
+        
+        ```bash
+        $ [sudo] pip install npmjs-browse-cli
+        ```
+        
+        ### Usage
+        
+        ```bash
+        usage: npmjs-browse
+        ```
+        
+        ### Examples
+        
+        ```bash
+        $ cd path/to/repo
+        $ npmjs-browse
+        ```
+Keywords: npmjs
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Unix Shell
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
