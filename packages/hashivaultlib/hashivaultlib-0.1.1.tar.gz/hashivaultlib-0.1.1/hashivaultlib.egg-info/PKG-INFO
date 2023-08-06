@@ -1,0 +1,41 @@
+Metadata-Version: 1.1
+Name: hashivaultlib
+Version: 0.1.1
+Summary: An extension to hvac, implementing recursive removal and retrieval of secrets and models for tokens and policies.
+Home-page: https://github.com/schubergphilis/hashivaultlib.git
+Author: Costas Tyfoxylos
+Author-email: ctyfoxylos@schubergphilis.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: =============
+        hashivaultlib
+        =============
+        
+        An extension to hvac, implementing recursive removal and retrieval of secrets and models for tokens and policies.
+        
+        
+        * Documentation: http://hashivaultlib.readthedocs.io/en/latest/
+        
+        Features
+        --------
+        
+        * TODO
+        
+        
+        
+        
+        History
+        -------
+        
+        0.1 (2018-05-25)
+        ---------------------
+        
+        * First release
+        
+Keywords: hashivaultlib hashicorp vault
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2.7
