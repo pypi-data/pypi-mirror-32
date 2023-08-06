@@ -1,0 +1,16 @@
+deep_crf-1.5.2.dist-info/METADATA,sha256=ydl4a8_y8c-VF4uKExZf_qJWMTZ3-lSkn6tISPkt3Lw,920
+deep_crf-1.5.2.dist-info/RECORD,,
+deep_crf-1.5.2.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+deep_crf-1.5.2.dist-info/entry_points.txt,sha256=V7lHSXB3qYPGzTYx2eD54XlZiW0AXC9M_pSQgW-niBg,144
+deep_crf-1.5.2.dist-info/top_level.txt,sha256=V81eEHeVUbRVmLyeFZE1OW2k4nsaY7CWrk6X3KAvct0,8
+deepcrf/__init__.py,sha256=1Ex3BWHx52v8_EmH-6oaCWyGrWlEKCltCsT7K_kXqso,216
+deepcrf/config.py,sha256=nKqv714fWLEgdYo_V5V_kQwx60EQ2pI2XUo4w-RGekA,2486
+deepcrf/deepcrf_eval.py,sha256=RegwaPKfdBjKmTtiNbKwf13F7FMefnEpb9MAXxeB6IE,2037
+deepcrf/deepcrf_learn.py,sha256=8MqvUsJ7cXnxRvRZGm_x76W9JgaTzxN2KmJh25SysS8,2871
+deepcrf/deepcrf_save.py,sha256=li_MsclKhs08eX202lrOAttNllPvIrnQk_tGOZstle8,2370
+deepcrf/deevcrf_save.py,sha256=q4H1yJFT-8jyWJ7XazRRi3qUwCkAnJBjQROeO4bqgLM,2332
+deepcrf/default_custom.py,sha256=CQ0H7oTO9LUlImPXPZNhf4JbzkZfGxQzMfFrUU6ga1g,1142
+deepcrf/model.py,sha256=MRBW3gOIeXVup9dMO3PtY7Q1p20WA2YMOdZrZheWvy0,10597
+deepcrf/train.py,sha256=HCjiXeJ19lncaYJV5w1jRnwD4nptwrlEaIVRtkD1NHg,8017
+deepcrf/transform.py,sha256=lSMuiOZYi1GYh0CX7AHduGdJvHuqG7F-kaSFLMeGUJI,12977
+deepcrf/utils.py,sha256=2kt_nIdPPwjwapPEaX-GF080U6qrUqCj6evHDm8NW9I,870
