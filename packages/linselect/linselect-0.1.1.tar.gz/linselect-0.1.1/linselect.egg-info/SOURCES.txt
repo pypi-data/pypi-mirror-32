@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+linselect/__init__.py
+linselect/base.py
+linselect/fwd_select.py
+linselect/gen_select.py
+linselect/rev_select.py
+linselect.egg-info/PKG-INFO
+linselect.egg-info/SOURCES.txt
+linselect.egg-info/dependency_links.txt
+linselect.egg-info/requires.txt
+linselect.egg-info/top_level.txt
