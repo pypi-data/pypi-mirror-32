@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: github-release-ci
+Version: 0.0.21
+Summary: Deployment script for github aimed at using CI
+Home-page: https://github.com/hiroaki-yamamoto/github_release_ci
+Author: Hiroaki Yamamoto
+Author-email: hiroaki@hysoftware.net
+License: MIT
+Description: # Deployment script for Github aimed at CI deployment
+        [![CI]][CI Link]
+        
+        [CI]: https://travis-ci.org/hiroaki-yamamoto/github_release_ci.svg?branch=master
+        [CI Link]: https://travis-ci.org/hiroaki-yamamoto/github_release_ci
+        
+Keywords: deployment github
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Description-Content-Type: text/markdown
