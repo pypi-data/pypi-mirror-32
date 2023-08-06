@@ -1,0 +1,6 @@
+README.md
+setup.py
+robosim.egg-info/PKG-INFO
+robosim.egg-info/SOURCES.txt
+robosim.egg-info/dependency_links.txt
+robosim.egg-info/top_level.txt
