@@ -1,0 +1,12 @@
+textdata/__init__.py,sha256=E8wf1xqovXRHsZ9CWSePz8ZrCMMvdShtexLFbGIXRfY,212
+textdata/attrs.py,sha256=3mnxYst3EGPLKBCG79KmxbIwYbqtT3qXedykX-YUqc4,4365
+textdata/core.py,sha256=Ed9-TwjngusTlZuvBCJgCwkIf0yxZM56v_YycBGJGRc,6935
+textdata/eval.py,sha256=OR7dHsekjWF8XG4np6DysHcPuBJgnuYP91NzO6Ri9ps,1104
+textdata/table.py,sha256=AD7wq9uo2JVnlujAg1wakTl5UyBl1Mr8wI-yJ5zztng,9334
+textdata/version.py,sha256=HVx0XJJ9OYFWBBPBCUFYb8Nm43ChPg9GZLh_dkxh9qI,22
+textdata-2.0.1.dist-info/DESCRIPTION.rst,sha256=n_bz4p7RsfFLXxAyGd8SqIaQzuAOOZg5GjLP_8x9go0,7402
+textdata-2.0.1.dist-info/METADATA,sha256=SlVR-bJ1-X31oPtywl5JxCGRQZf9sA9x0oTvXpWPoKI,8689
+textdata-2.0.1.dist-info/RECORD,,
+textdata-2.0.1.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+textdata-2.0.1.dist-info/metadata.json,sha256=yXsvQxa4nGO0JmkHODvlqDEHmngMdqzmQdWCvayZP3s,1485
+textdata-2.0.1.dist-info/top_level.txt,sha256=0YNhLra4rHnDIQvSZDvYwQsu9DXaJO2DqOCP6otGCxA,9
