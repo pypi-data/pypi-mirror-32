@@ -1,0 +1,14 @@
+README.rst
+setup.py
+django_searchable/__init__.py
+django_searchable/exceptions.py
+django_searchable/models.py
+django_searchable.egg-info/PKG-INFO
+django_searchable.egg-info/SOURCES.txt
+django_searchable.egg-info/dependency_links.txt
+django_searchable.egg-info/requires.txt
+django_searchable.egg-info/top_level.txt
+tests/__init__.py
+tests/models.py
+tests/settings.py
+tests/test_django_search.py
