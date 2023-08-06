@@ -1,0 +1,9 @@
+cyclicmodel/__init__.py,sha256=iXuMP8bk_EWTHD-KErpxgjThNNBrlwSZ59wq6ScOJLI,29
+cyclicmodel/define_model.py,sha256=Xq89HxOqgm-dg4qPBck-SXrXs02rt6kTZQyuL_ft-Zc,5994
+cyclicmodel-0.0.4.dist-info/METADATA,sha256=aQhgYUk0E-17rD089wAPmG8RC8RglOBHVJf-IkwBaFM,2524
+cyclicmodel-0.0.4.dist-info/RECORD,,
+cyclicmodel-0.0.4.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+cyclicmodel-0.0.4.dist-info/top_level.txt,sha256=MVP6zdPraTi0V8vI1Ttyu2qxetJZ6aNS6baw3dHhIu0,18
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/context.py,sha256=xRtOcjGAYX-cSNzxcglnHuwfTYRSw_6gyrS2hQw7_xc,194
+tests/test_define_model.py,sha256=wT0EouLJYvfg5mokXbIFQxVMiUH2xfHOoaKDdYR-UnA,691
