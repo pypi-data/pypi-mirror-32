@@ -1,0 +1,25 @@
+Metadata-Version: 2.0
+Name: req
+Version: 0.0.1
+Summary: Simple format for serialization, similar to json.  Not useful for most general use.
+Home-page: https://github.com/absperf/python-req
+Author: Taylor C. Richberger
+Author-email: tcr@absolute-performance.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: six
+
+UNKNOWN
+
+
