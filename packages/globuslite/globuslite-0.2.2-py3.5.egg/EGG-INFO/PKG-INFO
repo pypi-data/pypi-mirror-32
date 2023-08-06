@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: globuslite
+Version: 0.2.2
+Summary: A lightweight interface to the Globus SDK.
+Home-page: https://github.com/TerraFusion/globuslite
+Author: Landon T. Clipp
+Author-email: clipp2@illinois.edu
+License: UNKNOWN
+Description: globuslite provides a lightweight interface     to the Globus data transfer services. Normally, users must manually     implement the Globus API authentication flow, however this     package abstracts that away from users and manages authorization     tokens automatically. It also provides a simple way to submit transfer     tasks to Globus.
+Keywords: globus,sdk,api,data,transfer,lite,lightweight,light,globuslite
+Platform: UNKNOWN
