@@ -1,0 +1,10 @@
+dotme/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+dotme/cli.py,sha256=TXMYkopXvJKSGNGF_joXojQU_bJVFkAYFaKIsWzqD6Y,7169
+dotme/link.py,sha256=1QQkXnVlfsYRM3VFH5BF1hnehkvIjoLCxzcldB6_DfI,4538
+dotme/profile.py,sha256=szG98sUizpW_prJTguXFjhECxIhsPnn-rXtK0jW54Xc,4798
+dotme/target.py,sha256=_uRtijR94e73A4VynZ7CLLs-T_maDoESWpatVJ0Ezb4,2278
+dotme/utils.py,sha256=Fe_sO1DtTW0B78lmU9KpXVjBj4GQ_kYVjBmGQ6VnvlM,1069
+dotme-0.1.0.dist-info/METADATA,sha256=aNz8UR3N_no-M4H3MUUW98obW7UXp-f8O_q5sVUjAfs,437
+dotme-0.1.0.dist-info/RECORD,,
+dotme-0.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+dotme-0.1.0.dist-info/top_level.txt,sha256=FyHQJJYKVPRtAL4xoSHou3mmuQFtmAVKu58LWSQZVJQ,6
