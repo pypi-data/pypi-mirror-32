@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: scalarmix
+Version: 1.0.0
+Summary: Scalar bimodal Gaussian mixture models
+Home-page: https://github.com/openvax/scalarmix
+Author: Alex Rubinsteyn
+Author-email: alex@openvax.org
+License: http://www.apache.org/licenses/LICENSE-2.0.html
+Description: # Scalar bimodal Gaussian mixture models
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Description-Content-Type: text/markdown

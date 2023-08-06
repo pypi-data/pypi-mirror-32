@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+scalarmix/__init__.py
+scalarmix/bivariate_gaussian.py
+scalarmix.egg-info/PKG-INFO
+scalarmix.egg-info/SOURCES.txt
+scalarmix.egg-info/dependency_links.txt
+scalarmix.egg-info/requires.txt
+scalarmix.egg-info/top_level.txt
+test/test_bivariate_gaussian.py
+test/test_density_functions.py
