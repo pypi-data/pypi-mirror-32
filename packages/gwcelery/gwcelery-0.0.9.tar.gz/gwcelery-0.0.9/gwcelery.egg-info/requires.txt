@@ -1,0 +1,17 @@
+astropy
+celery[redis]>=4.2.0rc2
+celery_eternal>=0.0.3
+dnspython
+flower
+jinja2
+healpy
+h5py
+lalsuite
+ligo-followup-advocate>=0.0.7
+ligo-gracedb>=1.29.dev0
+ligo.skymap>=0.0.7
+lscsoft-glue
+lxml
+numpy
+pygcn>=0.1.16
+pyxmpp2
