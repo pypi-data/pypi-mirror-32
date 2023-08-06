@@ -1,0 +1,10 @@
+pyExoplaneteu-1.0.1.dist-info/DESCRIPTION.rst,sha256=btV9XYC1AFewPL8pxyuR7wES66HO9HCHQk-L4COZQT0,3345
+pyExoplaneteu-1.0.1.dist-info/METADATA,sha256=sUveiwdJgjZANcn2RAMlbyvTV8GAIdF9A8zko_dUX3c,3780
+pyExoplaneteu-1.0.1.dist-info/RECORD,,
+pyExoplaneteu-1.0.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+pyExoplaneteu-1.0.1.dist-info/metadata.json,sha256=EbUnrwWNKOMOpQbFNOkH1KC-hUJ4JDG1a5HaDZekVLM,615
+pyExoplaneteu-1.0.1.dist-info/top_level.txt,sha256=_0SdZudXMK6mT_bltzgZ2IYqv3qv7EneB37f3_8jfRE,14
+pyexoplaneteu/__init__.py,sha256=wJnAsvi07KuGcGmcFciFAVXDMyd9tYU8Mi5xOspD2hA,60
+pyexoplaneteu/config.py,sha256=8h7Qg_U4V5p77OOkWGo73kex_tRrPNbJauvVluvteLs,649
+pyexoplaneteu/pyexoplaneteu.py,sha256=ewSugt0j0_0Vm1CIKIX_5co_ROr1Kyrwj8TXgp0-2xM,4828
+pyexoplaneteu/utils.py,sha256=jivZ4pHvl8vz2fU1gP-Kffe4QETZmv2jzVSS6pBC4B4,1661
