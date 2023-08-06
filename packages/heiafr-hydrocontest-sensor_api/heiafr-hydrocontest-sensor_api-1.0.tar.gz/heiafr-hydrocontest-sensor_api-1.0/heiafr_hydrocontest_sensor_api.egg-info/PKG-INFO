@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: heiafr-hydrocontest-sensor-api
+Version: 1.0
+Summary: Sensor servers for Telecom Box
+Home-page: UNKNOWN
+Author: Jacques Supcik
+Author-email: jacques.supcik@hefr.ch
+License: Apache License 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Flask
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: System :: Monitoring
+Classifier: Programming Language :: Python :: 3
