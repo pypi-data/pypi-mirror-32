@@ -1,0 +1,3 @@
+cwtags>=0.1.1
+cubicweb>=3.24.0
+cubicweb-bootstrap>=1.2.0
