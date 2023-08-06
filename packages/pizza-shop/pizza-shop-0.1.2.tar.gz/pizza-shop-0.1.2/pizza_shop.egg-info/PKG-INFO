@@ -1,0 +1,32 @@
+Metadata-Version: 1.0
+Name: pizza-shop
+Version: 0.1.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: jacksonelfers
+Author-email: JacksonElfers@hotmail.com
+License: Creative Commons Attribution-Noncommercial-Share Alike license
+Description: # Pizza Shop - Command Line Game
+        Play as a pizza shop owner and prepare for the unexpected.
+        
+        ### Motivation
+        I built this game to practice Python and creating PyPi packages.
+        
+        ### Screen Shots
+        ![project image](images/pizza-shop.jpg)
+        ### Technologies
+        - Python
+        - Native Modules
+        
+        ### Install and Play
+        [Available on PyPi](https://pypi.org/project/pizza-shop/)
+        ```
+        pip install pizza-shop
+        pizza-shop
+        ```
+        
+        ### Development
+        ```
+        git clone https://github.com/JacksonElfers/pizza-shop.git
+        ```
+Platform: UNKNOWN
