@@ -1,0 +1,8 @@
+aggregate_prefixes/__init__.py,sha256=q7BzUM6Be9kJariT-L8qQjTsKHoN4zO92O6_5uIucTo,999
+aggregate_prefixes/aggregate_prefixes.py,sha256=TfV3ksDBknKrHm97-uWGkKt2F7JsX42PBQWoXBtATgE,7063
+aggregate_prefixes/cli.py,sha256=yLk2cdz2oGQzAG03rEMp5gOv7GJaL2BbtFUEI6cII8w,3082
+aggregate_prefixes-0.3.dist-info/METADATA,sha256=G8K1RC5blyhoFhz8Vax8MY0r2il1YrxiyhR3n007XI8,1663
+aggregate_prefixes-0.3.dist-info/RECORD,,
+aggregate_prefixes-0.3.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+aggregate_prefixes-0.3.dist-info/entry_points.txt,sha256=Db1iEQJK8nRr0R09es88du44uJ7HdeoIJpCBx_kmeo0,68
+aggregate_prefixes-0.3.dist-info/top_level.txt,sha256=VqxQSvCondkG1GAUABtyKbnQgklZNsIHBgshPGPjTWU,19
