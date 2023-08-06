@@ -1,0 +1,8 @@
+README.md
+setup.py
+okschema/__init__.py
+okschema/schema.py
+okschema.egg-info/PKG-INFO
+okschema.egg-info/SOURCES.txt
+okschema.egg-info/dependency_links.txt
+okschema.egg-info/top_level.txt
