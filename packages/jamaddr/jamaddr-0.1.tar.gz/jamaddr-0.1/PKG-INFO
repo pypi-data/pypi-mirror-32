@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: jamaddr
+Version: 0.1
+Summary: IP Subnet package
+Home-page: https://github.com/talbiston/jamaddr.git
+Author: Jamison Emilio & Todd Albiston
+Author-email: foxtrot711@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2 
+Classifier: Programming Language :: Python :: 3 
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
