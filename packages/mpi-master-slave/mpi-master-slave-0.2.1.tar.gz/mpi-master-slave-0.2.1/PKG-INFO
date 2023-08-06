@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: mpi-master-slave
+Version: 0.2.1
+Summary: An MPI master-slave library for Python
+Home-page: https://github.com/TerraFusion/mpi-master-slave
+Author: luca-s
+Author-email: luca.scarabello@gmail.com
+License: UNKNOWN
+Description: mpi-master-slave is a Python library that provides     an abstraction for a master-slave work paradigm. It rests on top of     mpi4py and handles communication between master and slave ranks.
+Keywords: mpi,master,slave
+Platform: UNKNOWN
