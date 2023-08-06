@@ -1,0 +1,11 @@
+filesdb/__init__.py,sha256=9s6MTmhJyKRbU5vNaY7GKHNtzE1Z-zjD0SLTDM9hG6A,24
+filesdb/__main__.py,sha256=1beQa4JOeywuQ8CYHlpkyvTR2n7D7nzuftcIW8Wq7Nw,3839
+filesdb/_filesdb.py,sha256=cA7mHhquRDLY_Z-M42v1YMMgHfEpBX7yjZonhalzcFg,14382
+filesdb/filesdb.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+filesdb/test_filesdb.py,sha256=9Z_mUVzhwCTl-WOyfdTlG9tA07d1I2ASlJWdp750T0Q,28806
+filesdb-2.1.4.data/scripts/test_filesdb.py,sha256=zx9-RCO3_tf5j-XczanZC8NtvWiORMVaeg_7z3XdZLo,38486
+filesdb-2.1.4.dist-info/METADATA,sha256=68sE-jA48tS3P_FBtHQ5fYOOL-EwgmetpdGffDZRYYg,264
+filesdb-2.1.4.dist-info/RECORD,,
+filesdb-2.1.4.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+filesdb-2.1.4.dist-info/entry_points.txt,sha256=CvJFznLk9tFDXbrdoH4i_8Kzyq605JVyyG0l9KGwwJ8,51
+filesdb-2.1.4.dist-info/top_level.txt,sha256=zTJjy6cXKwmjvgItFAIVZPvYLkcXGLB5k_woFjOXEMg,8
