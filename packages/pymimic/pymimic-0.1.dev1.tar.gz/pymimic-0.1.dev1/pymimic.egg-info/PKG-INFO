@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pymimic
+Version: 0.1.dev1
+Summary: A pure-Python implementation of Gaussian-process emulation and efficient global optimization
+Home-page: https://github.com/AmeryGration/pymimic
+Author: Amery Gration
+Author-email: alg26@le.ac.uk
+License: UNKNOWN
+Description: # PyMimic
+        
+        A pure-Python implementation of Gaussian-process emulation and efficient
+        global optimization.
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

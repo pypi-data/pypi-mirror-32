@@ -1,0 +1,7 @@
+README.md
+setup.py
+pymimic/__init__.py
+pymimic.egg-info/PKG-INFO
+pymimic.egg-info/SOURCES.txt
+pymimic.egg-info/dependency_links.txt
+pymimic.egg-info/top_level.txt
