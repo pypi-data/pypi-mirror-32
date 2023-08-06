@@ -1,0 +1,3 @@
+[console_scripts]
+twitter2eh=twitter2eh:main
+
