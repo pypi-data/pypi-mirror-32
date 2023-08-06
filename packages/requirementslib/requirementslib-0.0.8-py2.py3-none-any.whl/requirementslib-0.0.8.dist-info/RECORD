@@ -1,0 +1,10 @@
+requirementslib/__init__.py,sha256=FCacC_xw7noJQ6dUpbmLUalNlvnKohSJvSr417BONM8,84
+requirementslib/_compat.py,sha256=ru5W7iD5tEzC7U6X0OfqmrmoWYsZoHpA951pLHEg288,1640
+requirementslib/requirements.py,sha256=uZ_34DB7z6uD5Pu3SW0pj8qrKlwPijOV1FRykvW719M,28095
+requirementslib/utils.py,sha256=bPizwcdzREnHdIfmbW9LLv4FnkRNqwvpGV5LQ00kLkM,4211
+requirementslib/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+requirementslib-0.0.8.dist-info/LICENSE.txt,sha256=HKRQs9QAYA1GdlrNBDaJSjwwQrTKSB2TpwcUoZmN_w4,1072
+requirementslib-0.0.8.dist-info/METADATA,sha256=gBO2aI4OGQ424PrIK0BfM_2RDiJn5qCi3F0241fNHGk,4437
+requirementslib-0.0.8.dist-info/RECORD,,
+requirementslib-0.0.8.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+requirementslib-0.0.8.dist-info/top_level.txt,sha256=62RzC-JqDN0Tka6aDiOwziXeW9gdtztzq2enS-Qu1yo,16
