@@ -1,0 +1,35 @@
+Metadata-Version: 1.0
+Name: locust-xmlrpc
+Version: 0.3.0
+Summary: XML-RPC Transport for Locust
+Home-page: https://github.com/gisce/locust-xmlrpc
+Author: GISCE-TI, S.L.
+Author-email: devel@gisce.net
+License: MIT
+Description: XML-RPC for locust
+        ==================
+        
+        .. image:: https://travis-ci.com/gisce/locust-xmlrpc.svg?branch=master
+            :target: https://travis-ci.com/gisce/locust-xmlrpc
+        
+        A XML-RPC Transport to use with `Locust <https://locust.io/>`_
+        
+        Usage in your locustfile:
+        
+        .. code:: python
+        
+          from six.moves import xmlrpc_client  # Python2-3 compat
+          
+          from locust_xmlrpc import LocustXmlRpcTransport
+          from locust import Locust
+          
+          class XmlRpcLocust(Locust):
+            def __init__(self, *args, **kwargs):
+                super(XmlRpcLocust, self).__init__(*args, **kwargs)
+        
+                self.client = xmlrpc_client.ServerProxy(
+                    '{}/xmlrpc'.format(self.host),
+                    transport=LocustXmlRpcTransport()
+                )
+        
+Platform: UNKNOWN
