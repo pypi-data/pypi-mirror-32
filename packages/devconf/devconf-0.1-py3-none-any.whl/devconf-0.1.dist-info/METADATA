@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: devconf
+Version: 0.1
+Summary: Builder scripts for DevConf sites
+Home-page: UNKNOWN
+Author: Chris Ward
+Author-email: cward@redhat.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: comdev (==0.2.1)
+
+Builder scripts for DevConf sites
+
+
