@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+mongoladdu/__init__.py
+mongoladdu/cli.py
+mongoladdu/logger.py
+mongoladdu/migrations.py
+mongoladdu.egg-info/PKG-INFO
+mongoladdu.egg-info/SOURCES.txt
+mongoladdu.egg-info/dependency_links.txt
+mongoladdu.egg-info/entry_points.txt
+mongoladdu.egg-info/requires.txt
+mongoladdu.egg-info/top_level.txt
