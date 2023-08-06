@@ -1,0 +1,18 @@
+Metadata-Version: 2.0
+Name: physicspy
+Version: 0.0.2
+Summary: Compilation of computational methods for use in Physics - Still Under Work!
+Home-page: UNKNOWN
+Author: Jorge A. Garcia
+Author-email: jorgeagr97@gmail.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Keywords: physics math science
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: ~=3.3
+Requires-Dist: numpy
+
+UNKNOWN
+
+
