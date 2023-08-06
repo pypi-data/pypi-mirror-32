@@ -1,0 +1,8 @@
+README.md
+setup.py
+pynanosvg.egg-info/PKG-INFO
+pynanosvg.egg-info/SOURCES.txt
+pynanosvg.egg-info/dependency_links.txt
+pynanosvg.egg-info/top_level.txt
+svg/__init__.c
+svg-stubs/svg.pyi
