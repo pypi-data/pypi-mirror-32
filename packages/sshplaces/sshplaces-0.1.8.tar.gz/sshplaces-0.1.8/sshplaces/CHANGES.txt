@@ -1,0 +1,6 @@
+0.1.8        - Fixed bugs.
+0.1.7        - Search is now usable; Fixed bugs with use of input()
+0.1.6        - Fixed bug with search
+0.1.3        - Added more help
+0.1.0        - initial
+
