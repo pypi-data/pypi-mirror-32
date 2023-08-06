@@ -1,0 +1,13 @@
+composites/__init__.py,sha256=VTGjiRjG4Zv-rZLFB5BaoUSjV9yaDaCjWBF_tNcXJzM,1133
+composites/lamina.py,sha256=Jsl-4h-hCOQeEalkhWRi__Wg2GMX39cBhmOAi6k1xTA,4800
+composites/laminate.py,sha256=xbxLnKxIVtgirxhA1kVxZkz6XiBvjfIAZyGYT3ahLgc,15181
+composites/logger.py,sha256=gu_ZZ5BzWxDUXuu1x1Ss87rKuGq7PeReIvaxbZf1oZw,384
+composites/matlamina.py,sha256=G0i1eEHuggdePuc2pIcyqj8hkKap3ckUDeguvvHJ8xo,9787
+composites/version.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+composites-0.1.1.data/data/LICENSE,sha256=Y3S6ZQBj2Dh8zyDlk-7-QLjiTTQ-x1UqR88D7FhHup0,1333
+composites-0.1.1.data/data/README.md,sha256=ntUwVE-gdBA2elwrUSg-SVSeVtWdeJVHeIGRGv9JFKo,1920
+composites-0.1.1.data/data/version.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+composites-0.1.1.dist-info/METADATA,sha256=pvr7pGIROuWH1kE-8XaJM_3kxLTjXWwLv9s1M85uJOs,2864
+composites-0.1.1.dist-info/RECORD,,
+composites-0.1.1.dist-info/WHEEL,sha256=pZyAqgNAylOf0KG_hPHMtuuY08rV3WzWwZu2OTsNnnw,97
+composites-0.1.1.dist-info/top_level.txt,sha256=8rFKbL1In6cv0XBeSaI5uG5g6oe1tYJjAc1mLlAvhWU,11
