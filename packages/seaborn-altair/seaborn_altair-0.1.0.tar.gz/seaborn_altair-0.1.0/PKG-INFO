@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: seaborn_altair
+Version: 0.1.0
+Summary: Seaborn-compatible API for interactive Vega-Lite plots via Altair
+Home-page: https://github.com/Kitware/seaborn_altair
+Author: Kitware, Inc.
+Author-email: kitware@kitware.com
+License: BSD (3-clause)
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
