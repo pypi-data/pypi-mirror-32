@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: github-codecommit-mirror
+Version: 0.2.0
+Summary: Mirror all repositories of a Github organization or Gitlab groups to AWS CodeCommit, including branches.
+Home-page: https://github.com/dpa-newslab/github-codecommit-mirror
+Author: dpa-infocom GmbH
+Maintainer: Martin Borho
+Maintainer-email: martin@borho.net
+License: Apache Software License (http://www.apache.org/licenses/LICENSE-2.0)
+Description: UNKNOWN
+Keywords: git,github,gitlab,codecommit,mirror,sync
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: Terminals
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Environment :: Console
