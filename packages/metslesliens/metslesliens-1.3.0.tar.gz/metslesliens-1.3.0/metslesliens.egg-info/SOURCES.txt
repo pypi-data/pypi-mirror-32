@@ -1,0 +1,13 @@
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+metslesliens/__init__.py
+metslesliens/candidats.py
+metslesliens/grammaire-liens.txt
+metslesliens.egg-info/PKG-INFO
+metslesliens.egg-info/SOURCES.txt
+metslesliens.egg-info/dependency_links.txt
+metslesliens.egg-info/requires.txt
+metslesliens.egg-info/top_level.txt
+metslesliens.egg-info/zip-safe

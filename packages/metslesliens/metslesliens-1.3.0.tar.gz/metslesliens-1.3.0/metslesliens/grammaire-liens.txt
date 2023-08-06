@@ -1,0 +1,258 @@
+###
+### Points d’entrée
+###
+
+entree = entree_singulier / entree_pluriel
+
+entree_singulier = intro_singulier sujet_singulier
+entree_pluriel = intro_pluriel sujet_pluriel
+
+## Points d’entrée optionnels
+
+entree_optionnelle_Conseil_constitutionnel = nom_Conseil_constitutionnel numero numero_Conseil_constitutionnel du_date?
+nom_Conseil_constitutionnel = ~"décision" ~" +du Conseil constitutionnel"?
+numero_Conseil_constitutionnel = ~"[/0-9A-Za-z-]+" espace ~"QPC|DC|AN|D|ELEC|FNR|I|LOM|LP|L|ORGA|PDR|REF|SEN|AUTR|AR16" nonlettre
+
+
+###
+### Règles principales
+###
+
+
+## Sujets
+
+sujet_singulier = ( alinea_precise_singulier de_unite_base_precisee? ) / unite_base_precisee_singulier
+sujet_pluriel = ( alinea_precise_pluriel de_unite_base_precisee? ) / unite_base_precisee_pluriel
+
+unite_base_singulier = article / chapitre / texte
+unite_base_pluriel = articles / chapitres
+
+unite_base_precisee_singulier = unite_base_singulier ( liaison_singulier unite_base_singulier )*
+unite_base_precisee_pluriel = unite_base_pluriel ( liaison_singulier unite_base_singulier )*
+
+de_unite_base_precisee = de_unite_base_precisee_singulier / de_unite_base_precisee_pluriel
+de_unite_base_precisee_singulier = liaison_singulier unite_base_precisee_singulier
+de_unite_base_precisee_pluriel = liaison_pluriel unite_base_precisee_pluriel
+
+
+
+## Numérotation des alinéas
+
+alinea_precise_singulier = alinea ( enumeration ( aux_alineas / au_alinea ) )*
+alinea_precise_pluriel = alineas ( enumeration ( aux_alineas / au_alinea ) )*
+
+au_alinea = intro_singulier alinea
+aux_alineas = intro_pluriel alineas
+
+alinea = dit_singulier? liste_alinea localisation_alinea*
+alineas = dit_pluriel? ( relatif_pluriel_prepose espace )? liste_alineas localisation_alinea*
+
+localisation_alinea = ( liaison_singulier liste_alinea ) / ( liaison_pluriel liste_alineas ) / alineas_entre_parentheses
+
+alineas_entre_parentheses = ~" +\( *" liste_alinea ~" *\)"
+
+# TODO: plus réfléchir aux différentes formulations possibles – attention à ne pas capturer « [elle] les a [reconnus] » qui pourrait facilement devenir un faux positif dans la loi 78-17
+liste_alinea = ( designation_alinea / plusieurs_alineas_lettres ) ( ( enumeration / plage ) ( designation_alinea / plusieurs_alineas_lettres ) )*
+liste_alineas = liste_plusieurs_alineas / liste_quelques_alineas
+liste_plusieurs_alineas = plusieurs_alineas_lettres ( ( enumeration / plage ) ( designation_alinea / plusieurs_alineas_lettres ) )*
+liste_quelques_alineas = ( designation_alinea / plusieurs_alineas_lettres ) ( ( enumeration / plage ) ( designation_alinea / plusieurs_alineas_lettres ) )+
+
+designation_alinea = un_alinea_lettres / numero_alinea
+
+plusieurs_alineas_lettres = adjectif_numeral_cardinal espace ( adjectif_relatif_pluriel / adjectif_numeral_ordinal ) ~" +alinéas"i
+un_alinea_lettres = ( adjectif_numeral_ordinal / adjectif_relatif_singulier ) ~" +alinéa"i
+
+numero_alinea = ( nombre_romain_cardinal / lettre_minuscule / ( nombre_cardinal "°" ) ) ( espace adverbe_multiplicatif )? nonlettre
+
+
+
+## Numérotation des articles
+
+article = dit_singulier? ( ( ( article_relatif1 espace )? ~"article" espace designation_article ) /
+                           ( article_relatif1 espace ~"article" ) )
+
+articles = dit_pluriel? ( ( ( articles_relatifs1 espace )? ~"articles" espace liste_articles ) /
+                          ( articles_relatifs1 espace ~"articles" ) /
+                          ( ( articles_relatifs1 espace )? ~"articles" espace articles_relatifs2 ) )
+
+article_relatif1 = relatif_singulier_prepose ""
+articles_relatifs1 = relatif_pluriel_prepose ""
+articles_relatifs2 = relatif_pluriel ""
+
+liste_articles = designation_article ( ( enumeration / plage ) ( designation_articles_relatifs / designation_article ) )+
+
+# Désignation d’un article, de façon absolue (avec son numéro ou nom) ou relative (précédent, suivant, …)
+designation_article = ( numero_article ( espace adverbe_relatif )? alineas_entre_parentheses? ) /
+                      ( nom_article ( espace adverbe_relatif )? alineas_entre_parentheses? ) /
+                      adjectif_relatif_singulier
+
+designation_articles_relatifs = adjectif_relatif_pluriel ""
+
+# Type de l’article : issu d’une loi organique, d’une loi, d’un décret pris en Conseil d’État, d’un décret simple, d’un arrêté ; une étoile mentionne un décret pris en conseil des ministres
+type_article = ~"\*?\*?((L\.O|LO|L|R|D|A)\*?\*?\.? *)?"
+
+# Numéro générique d’article, les trois tirets sont U+002D, U+2010 et U+2011
+numero_article = type_article ~"[0-9]+(er|ème|e)?" ( ~" *[-‐‑] *| *\.| +" ( ~"[A-Z0-9]+(er|ème|e)?" / adverbe_multiplicatif ) )*
+
+# Noms spécifiques d’articles
+nom_article = ~"annexe|ex[ée]cution|unique|(pr[ée])?liminaire|pr[ée]ambule"i
+
+
+
+## Numérotations supra-articles
+
+# Le terme de 'chapitre' dans les noms de règles est générique, il s’agit de toutes les divisions supra-articles
+
+chapitre = dit_singulier? ( ( chapitre_relatif1 espace nature_supra_article_singulier ) /
+                            ( nature_supra_article_singulier espace designation_chapitre ) /
+                            ( chapitre_relatif2 espace nature_supra_article_singulier ) /
+                            ( nature_supra_article_singulier espace chapitre_relatif3 ) )
+
+chapitres = dit_pluriel? ( ( nature_supra_article_pluriel espace liste_chapitres ) /
+                           ( chapitres_relatifs1 espace nature_supra_article_pluriel ) /
+                           ( nature_supra_article_pluriel espace chapitres_relatifs2 ) )
+
+chapitre_relatif1 = adjectif_ordinal ""
+chapitre_relatif2 = relatif_singulier_prepose ""
+chapitre_relatif3 = relatif_singulier ""
+chapitres_relatifs1 = relatif_pluriel_prepose ""
+chapitres_relatifs2 = relatif_pluriel ""
+
+liste_chapitres = designation_chapitre ( ( enumeration / plage ) ( designation_chapitres_relatifs / designation_chapitre ) )+
+
+designation_chapitre = ( numero_chapitre ( espace adverbe_relatif )? ) / ( nom_partie ( espace adverbe_relatif )? ) / adjectif_relatif_singulier
+
+designation_chapitres_relatifs = adjectif_relatif_pluriel ""
+
+numero_chapitre = nombre / nombre_romain
+
+nom_partie = ~"(l[ée]gislative|r[ée]glementaire( +ancienne)?( +[:-‐‑] +décrets +(en +Conseil +d['’][ÉE]tat|simples)| +[:-‐‑] +arr[êe]t[ée]s)?|arr[êe]t[ée]s)( +\(?(ancienne|nouvelle)\)?)?"i
+
+
+
+## Désignation des textes
+
+texte = dit_singulier? ( ( ( texte_relatif espace )? ( texte_francais / texte_europeen ) ) /
+                         ( texte_relatif espace ( nom_texte_francais / nom_texte_europeen ) ) )
+
+texte_relatif = relatif_singulier_prepose ""
+
+nom_texte_francais = ~"constitution|loi( +constitutionnelle| +organique)?|code|ordonnance|d[ée]cret(-loi)?|arr[êe]t[ée]|circulaire"i
+nom_texte_europeen = ~"r[èe]glement|directive"i
+code_francais = ( ~"code +"i noms_codes ~" +\((ancien|nouveau)\)"i? ) / ~"livre +des +procédures +fiscales"i / ~"Constitution"
+
+texte_francais = ( nom_texte_francais ( ( numtexte du_date? ) / du_date ) ) / code_francais
+texte_europeen = nom_texte_europeen espace ~"\(UE\) +"? ~"n° *|no *"i? ( ( numero_reglement_europeen du_date? ) /  du_date )
+
+numtexte = numero numero_annee_identifiant
+numero_reglement_europeen = nombre_cardinal "/" nombre_cardinal ~"/CEE?"?
+
+numero_annee_identifiant = ~"[0-9]+-[0-9]+"
+
+
+
+###
+### Règles annexes
+###
+
+# Ces règles sont les éléments terminaux manipulés par les règles principales
+
+
+## Natures
+
+nature_supra_article_singulier = ~"(sous-)?paragraphe|(sous-)?section|chapitre|titre|livre(?! +des +procédures +fiscales)|partie"
+nature_infra_article_singulier = ~"phrase|alinéa"
+
+nature_supra_article_pluriel = nature_supra_article_singulier ~"s"
+nature_infra_article_pluriel = nature_infra_article_singulier ~"s"
+
+nature_singulier = ~"article" / nature_supra_article_singulier
+nature_pluriel = nature_singulier ~"s"
+
+
+
+## Liaisons
+
+# Les introductions introduisent les expressions de liens, elles correspondent aux séparateurs des pré-candidats
+intro_singulier = ~"(au|le|du)( +|(?=dit +))|la( +|(?=dite +))|l['’] *(?=article|alinéa|ordonnance)"i
+intro_pluriel = ~"(aux|les|des)( +|(?=dits +))"i
+
+# Les liaisons lient une première expression de lien à une seconde précisant la localisation, à une échelle plus large
+liaison_singulier = ~" +du( +|(?=dit +))| +de +la( +|(?=dite +))| +de +l['’] *(?=article|alinéa|ordonnance)| +de +(?=ce[ t])"
+liaison_pluriel = ~" +des( +|(?=dits +))| +de +(?=ces +)"
+
+# Deuxième partie de l’introduction ou de la liaison pour les expressions "dudit [article]", cette partie pouvant être signifiante pour localiser le lien
+dit_singulier = ~"dite? +"i
+dit_pluriel = ~"dits +"i
+
+
+
+## Localisations relatives : suivants, précédents, ci-après, même, etc.
+
+adverbe_relatif = ~"ci-(après|avant|desso?us)"
+adjectif_relatif_singulier = ~"présente?|même|précédente?|suivante?|dernier|dernière|pénultième|antepénultième"
+adjectif_relatif_pluriel = adjectif_relatif_singulier ~"s"
+
+relatif_singulier = adverbe_relatif / adjectif_relatif_singulier
+relatif_pluriel = adverbe_relatif / adjectif_relatif_pluriel
+
+relatif_singulier_prepose = ~"(cet? +)?"i adjectif_relatif_singulier
+relatif_pluriel_prepose = ~"(ces +)?"i adjectif_relatif_pluriel
+
+
+
+## Dates
+
+du_date = ~" +du +"i date
+date = jour espace mois espace annee
+jour = ~"1er|[12][0-9]|3[01]|[1-9]"i
+mois = ~"janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre"i
+annee = ~"(1[5-9]|2[0-9])[0-9]{2}"
+
+
+
+## Nombres
+
+nombre = ~"1er|[0-9]+(èm)?e?"
+nombre_cardinal = ~"[0-9]+"
+nombre_ordinal = ~"1er|[0-9]+(èm)?e"
+
+nombre_romain = ~"Ier|[IVXLCDM]+(èm)?e?"
+nombre_romain_cardinal = ~"[IVXLCDM]+"
+nombre_romain_ordinal = ~"Ier|[IVXLCDM]+(èm)?e"
+
+adjectif_numeral_ordinal = ~"premier|second|dixième|onzième|douzième|treizième|quatorzième|quinzième|seizième|(dix-|vingt-|trente-|quarante-|cinquante-|soixante-|soixante-dix-|quatre-vingt-|quatre-vingt-dix-)?(et-)?(un|deux|trois|quatr|cinqu|six|sept|huit|neuv)ième"i
+
+adjectif_ordinal = nombre_ordinal / adjectif_numeral_ordinal
+
+adjectif_numeral_cardinal = ~"(vingt|trente|quarante|cinquante|soixante|septante|quatre-vingt|huitante|octante|nonante)(-et-un|-deux|-trois|-quatre|-cinq|-six|-sept|-huit|-neuf)?|(soixante|quatre-vingt)(-et-onze|-douze|-treize|-quatorze|-quinze|-seize|-dix-sept|-dix-huit|-dix-neuf)?|zéro|un|deux|trois|quatre|cinq|six|sept|huit|neuf|dix|onze|douze|treize|quatorze|quinze|seize|dix-sept|dix-huit|dix-neuf|quatre-vingt-un|quatre-vingt-onze"i
+
+# Numérotation latine - amélioré par https://github.com/regardscitoyens/the-law-factory-parser/commit/5aec3f2
+adverbe_multiplicatif = ~"(un(de?)?|duo(de)?|ter|quater|quin|sex?|sept|octo|novo)?(dec|v[ei]c|tr[ei]c|quadrag|quinquag|sexag|septuag|octog|nonag)ies|semel|bis|ter|quater|(quinqu|sex|sept|oct|no[nv])ies"i
+
+
+
+## Grammaire
+
+# Énumérations
+enumeration = ~" +(et|ou) +|, *((et|ou) +)?"i
+
+# Plages d’articles, d’alinéas, etc
+plage = ~" +à +"i
+
+
+
+## Typographie
+
+espace = ~" +"
+numero = ~" +n° *| +no *"i
+
+lettre_minuscule = ~"[a-záàâäéèêëíìîïóòôöøœúùûüýỳŷÿ]"
+nonlettre = !~"[a-záàâäéèêëíìîïóòôöøœúùûüýỳŷÿ]"i
+
+
+
+## Données lourdes
+
+# Noms des codes, extraits de la base LEGI via legi.py
+noms_codes = ~"de +la +consommation +des +boissons +et +des +mesures +contre +l['’] *alcoolisme +applicable +dans +la +collectivité +territoriale +de +Mayotte|du +domaine +de +l['’] *Etat +et +des +collectivités +publiques +applicable +à +la +collectivité +territoriale +de +Mayotte|des +pensions +de +retraite +des +marins +français +du +commerce, +de +pêche +ou +de +plaisance|des +pensions +militaires +d['’] *invalidité +et +des +victimes +de +la +guerre|des +tribunaux +administratifs +et +des +cours +administratives +d['’] *appel|des +pensions +militaires +d['’] *invalidité +et +des +victimes +de +guerre|de +déontologie +des +professionnels +de +l['’] *expertise +comptable|de +déontologie +de +la +profession +de +commissaire +aux +comptes|de +l['’] *entrée +et +du +séjour +des +étrangers +et +du +droit +d['’] *asile|des +débits +de +boissons +et +des +mesures +contre +l['’] *alcoolisme|du +domaine +public +fluvial +et +de +la +navigation +intérieure|de +la +Légion +d['’] *honneur +et +de +la +médaille +militaire|des +relations +entre +le +public +et +l['’] *administration|de +l['’] *expropriation +pour +cause +d['’] *utilité +publique|général +de +la +propriété +des +personnes +publiques|des +postes +et +des +communications +électroniques|des +pensions +civiles +et +militaires +de +retraite|de +l['’] *Office +national +interprofessionnel +du +blé|de +déontologie +des +agents +de +police +municipale|disciplinaire +et +pénal +de +la +marine +marchande|des +instruments +monétaires +et +des +médailles|de +déontologie +des +chirurgiens-dentistes|général +des +collectivités +territoriales|de +la +construction +et +de +l['’] *habitation|de +déontologie +de +la +police +nationale|des +communes +de +la +Nouvelle-Calédonie|général +des +impôts, +annexe +2, +CGIAN2|général +des +impôts, +annexe +3, +CGIAN3|général +des +impôts, +annexe +4, +CGIAN4|général +des +impôts +annexe +1, +CGIAN1|de +l['’] *action +sociale +et +des +familles|des +procédures +civiles +d['’] *exécution|de +la +famille +et +de +l['’] *aide +sociale|de +l['’] *industrie +cinématographique|du +travail +applicable +à +Mayotte|de +déontologie +des +sages-femmes|de +déontologie +des +architectes|de +la +propriété +intellectuelle|du +cinéma +et +de +l['’] *image +animée|rural +et +de +la +pêche +maritime|de +l['’] *organisation +judiciaire|des +juridictions +financières|de +déontologie +des +médecins|de +l['’] *enseignement +technique|de +la +nationalité +française|de +déontologie +vétérinaire|de +justice +administrative|de +la +sécurité +intérieure|de +déontologie +médicale|général +des +impôts(, +CGI)?|de +la +sécurité +sociale|monétaire +et +financier|des +caisses +d['’] *épargne|de +la +voirie +routière|de +l['’] *aviation +civile|de +justice +militaire|de +la +santé +publique|du +domaine +de +l['’] *Etat|des +marchés +publics( +\(édition +(1964|2001|2004|2006)\))?|de +procédure +civile( +\(1807\))?|de +procédure +pénale|du +travail +maritime|du +service +national|des +ports +maritimes|de +l['’] *environnement|de +la +consommation|de +la +mutualité|de +la +recherche|de +l['’] *artisanat|de +l['’] *éducation|de +l['’] *urbanisme|des +assurances|des +transports|du +patrimoine|de +la +défense|des +communes|de +l['’] *énergie|des +douanes( +de +Mayotte)?|de +commerce|de +la +route|du +tourisme|du +travail|forestier( +de +Mayotte)?|électoral|du +sport|du +blé|du +vin|minier|pénal|rural|civil"i

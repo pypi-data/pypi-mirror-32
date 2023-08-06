@@ -1,0 +1,162 @@
+MetsLesLiens
+============
+
+Recherche ~~et qualifie~~ (pas pour l’instant) des liens dans
+des textes de loi français.
+
+Démarrage rapide
+----------------
+
+Avant de commencer, un résumé de ce qu’on fait :
+
+1. Dans cette première étape, nous cherchons à placer des liens dans des
+   textes de loi français, en gros toutes les expressions ressemblant
+   plus ou moins à « article L. 327-3 quatertricies-0 de la loi n°
+   94-239 du 28 février 1994 ».
+2. Seule une analyse syntaxique est faite à ce stade, il n’est pas
+   affirmé que l’article pointé existe réellement : seront donc
+   retournés à ce stade des *candidats de liens*.
+
+Démonstration
+'''''''''''''
+
+Les sorties de deux textes sont disponibles :
+
+* `la loi 78-17 <https://framagit.org/parlement-ouvert/metslesliens/snippets/1529>`__
+  (`texte <https://framagit.org/parlement-ouvert/metslesliens/snippets/1643>`__)
+* `le code civil <https://framagit.org/parlement-ouvert/metslesliens/snippets/1530>`__
+  (`texte <https://framagit.org/parlement-ouvert/metslesliens/snippets/1644>`__)
+
+Sont présentés successivement les candidats de liens :
+
+* sous forme `texte`, avec leurs index en nombre de caractères et leurs
+  numéro de ligne,
+* sous forme `structuré`, avec les données découpées et ordonnées dans
+  un forme facilement réutilisable en Python,
+* sous forme `arbre`, avec leurs index et l’ensemble des arbres capturés.
+
+Installation et utilisation de base
+'''''''''''''''''''''''''''''''''''
+
+1. Installer Python 3 et pip ;
+2. Télécharger cette librairie :
+   ``git clone https://framagit.org/parlement-ouvert/metslesliens.git``
+3. Installer les dépendances avec pip :
+   ``pip install -r requirements.txt``
+4. Obtenir un texte de loi écrit en texte brut : pas (trop) de HTML, ou
+   du moins il faut que les expressions recherchées ne soient pas
+   entrecoupées de balisages. Les textes écrits en Markdown par `Archéo
+   Lex <https://archeo-lex.fr>`__ sont censés convenir ;
+5. Lancer le programme principal donnelescandidats.py :
+   ``./donnelescandidats.py fichier_du_texte.txt``
+
+Que faire ensuite ?
+-------------------
+
+1. Essayer les formats « structuré » et « arbre » dans une optique de
+   réutilisation de la bibliothèque
+
+   Il est possible d’ajouter un paramètre « format » dans le programme
+   principal et la bibliothèque :
+   ``./donnelescandidats.py --format=structuré fichier_du_texte.txt``
+   ``./donnelescandidats.py --format=arbre fichier_du_texte.txt``
+   Le format « structuré » retourne les structures Python prêtes à être
+   réutilisées dans d’autres programmes, par exemple de visualisation
+   ou de traitement de la loi. La structure est normalement assez
+   naturelle, noter juste que, pour les articles et autres titres,
+   les tuples (str, str) sont les plages d’articles/titres ; par exemple
+   « les articles 34, 41 à 45 et 56 » donnent la liste ['34', ('41', '45'),
+   '56'].
+   Le format « arbre » permet de voir directement la structure retournée
+   par la grammaire via Parsimonious, ce format est utile pour comprendre
+   le fonctionnement interne de la librairie metslesliens et de la grammaire.
+
+2. Vérifier la qualité
+
+   Ce programme est en cours de développement, il faudrait désormais
+   confirmer la qualité de la reconnaissance des liens. Pour cela, les
+   humains lecteurs de cette notice sont invité à comparer les résultats
+   du programme avec ce qu’ils estiment être un lien qu’il faudrait
+   reconnaître de façon automatique.
+
+   Un format spécial a été introduit dans ce but, permettant d’afficher
+   un peu plus de contexte autour des pré-candidats (les expressions
+   susceptibles d’être un lien mais non-vérifiées par la grammaire), cela
+   permet a priori de pouvoir vérifier plus rapidement et facilement les
+   potentiels liens :
+   ``./donnelescandidats.py --format=debug fichier_du_texte.txt``
+   Il y a 20 caractères avant le pré-candidat et 120 pour le pré-candidat,
+   tous sans aucun retour à la ligne. Lorsqu’une expression est reconnue,
+   elle est indiquée entre les caractères "⬤ " (ce caractère se repère
+   bien dans les pavés de texte).
+
+   Si vous effectuez une telle tâche, d’abord « merci ! », ensuite le
+   mieux est de créer une
+   `issue <https://framagit.org/parlement-ouvert/metslesliens/issues>`__
+   pour dire ce que vous avez vérifié (même et surtout si le résultat du
+   programme était correct) et, s’il y a des manques ou au contraire des
+   liens qui n’auraient pas dûs être reconnus, donner les expressions
+   fautives dans la description de l’issue.
+
+   Pour les plus programmeurs, vous pouvez proposer une `merge
+   request <https://framagit.org/parlement-ouvert/metslesliens/merge_requests>`__
+   en modifiant la `grammaire
+   PEG <https://framagit.org/parlement-ouvert/blob/master/metslesliens/grammaire-liens.txt>`__.
+
+3. Améliorer la grammaire
+
+   Alimentées par les vérifications, les problèmes sur la grammaire peuvent
+   être corigés. Ils sont listés dans la colonne `"grammaire" <https://framagit.org/parlement-ouvert/metslesliens/boards>`__
+   de la liste des issues. Il est parfois nécessaire d’une recherche
+   documentaire, par exemple sur la forme des liens vers les directives
+   européennes ou vers les décisions du Conseil constitutionnel. La correction
+   proprement dite se fait en général en changeant seulement le fichier de
+   grammaire, mais il peut être nécessaire d’adapter aussi le code Python
+   (mais si vous ne savez pas coder, la première étape permet déjà d’avancer).
+
+4. Ajouter un autre module de qualification (programmeurs)
+
+   Je pense qu’il faudrait ajouter un deuxième module de qualification
+   des candidats de liens, afin de vérifier que lesdits candidats de
+   liens existent réellement dans les textes cibles.
+
+   Cela suppose d’avoir une base de données exhaustive des articles
+   existants, notamment la base LEGI de la DILA et notamment sa forme
+   structurée `legi.py <https://github.com/Legilibre/legi.py>`__. Il
+   s’agirait donc de créer une fonction vérifiant, pour chaque candidat,
+   qu’il existe dans la base LEGI pour les liens externes ou dans le
+   texte en cours pour les liens internes. Cette recherche utilisera
+   probablement comme pivots : le numéro de l’article, la nature du
+   texte, le numéro du texte, la date de vigueur (qui doit donc être
+   donnée en contexte), possiblement la date du texte.
+
+   Le résultat de cette recherche permettrait d’enrichir le résultat,
+   d’abord avec un booléen "existe ou non" (et une non-existence est un
+   problème dans les données ou dans leur traitement), ensuite avec des
+   données supplémentaires comme les numéros LEGIARTI ou LEGITEXT.
+
+   Voir les issues `#11 <https://framagit.org/parlement-ouvert/metslesliens/issues/11>`__
+   et `#17 <https://framagit.org/parlement-ouvert/metslesliens/issues/17>`__.
+
+5. Discuter
+
+   Possiblement sur `le topic dédié sur le forum Parlement
+   ouvert <https://forum.parlement-ouvert.fr/t/reconnaissance-de-liens/572>`__.
+
+Licence
+-------
+
+La licence est WTFPL 2.0. Au-delà du nom provocateur, cette licence
+permet une redistribution et réutilisation sans limites du code,
+permettant que les meilleures idées puissent être réutilisées et être
+utiles à la société.
+
+Quoique la licence ne l’impose aucunement, les réutilisateurs de cette
+librairie sont invités à se faire connaître, dans les buts : 1)
+d’évaluer la popularité de la librairie – et donc de motiver les
+développeurs et donc de pérenniser le développement ; 2)
+d’éventuellement être prévenus avant un changement
+non-rétro-compatible ; 3) d’éviter que le premier contact ne soit pas à
+l’occasion d’un bug, ce qui n’est pas forcément agréable. Dans la mesure
+du possible et des envies, les réutilisateurs sont également encouragés
+à participer au développement de la librairie.
