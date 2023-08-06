@@ -1,0 +1,15 @@
+README.md
+README.rst
+setup.py
+gcody/__init__.py
+gcody/gcode.py
+gcody/gline.py
+gcody/gsettings.py
+gcody/helper.py
+gcody/readg.py
+gcody/visual.py
+gcody.egg-info/PKG-INFO
+gcody.egg-info/SOURCES.txt
+gcody.egg-info/dependency_links.txt
+gcody.egg-info/requires.txt
+gcody.egg-info/top_level.txt
