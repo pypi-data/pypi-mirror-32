@@ -1,0 +1,9 @@
+README.md
+setup.py
+tfinterp/regular_interp.cc
+tfinterp.egg-info/PKG-INFO
+tfinterp.egg-info/SOURCES.txt
+tfinterp.egg-info/dependency_links.txt
+tfinterp.egg-info/requires.txt
+tfinterp.egg-info/top_level.txt
+tfinterp.egg-info/zip-safe
