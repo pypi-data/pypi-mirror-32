@@ -1,0 +1,29 @@
+Metadata-Version: 1.1
+Name: MyNQL
+Version: 0.1
+Summary: My Network Query Language
+Home-page: https://www.github.com/livinter/MyNQL/
+Author: Florian Scholz
+Author-email: livint@posteo.de
+License: UNKNOWN
+Description: # MyNQL
+        
+        
+        ## Concept
+        
+        **A good foundation is a simple concept:** 
+         * Nodes have the format `table.id` 
+         * Connections have a distance
+        
+        
+Keywords: recommendation query language
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
