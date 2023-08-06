@@ -1,0 +1,8 @@
+README.md
+setup.py
+jamaddr27/JamAddr.py
+jamaddr27/__init__.py
+jamaddr27.egg-info/PKG-INFO
+jamaddr27.egg-info/SOURCES.txt
+jamaddr27.egg-info/dependency_links.txt
+jamaddr27.egg-info/top_level.txt
