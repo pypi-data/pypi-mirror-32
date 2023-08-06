@@ -1,0 +1,6 @@
+setup.py
+ahdcmotor.egg-info/PKG-INFO
+ahdcmotor.egg-info/SOURCES.txt
+ahdcmotor.egg-info/dependency_links.txt
+ahdcmotor.egg-info/requires.txt
+ahdcmotor.egg-info/top_level.txt
