@@ -1,0 +1,3 @@
+[console_scripts]
+gravity = gravity.cli.cli:main
+
