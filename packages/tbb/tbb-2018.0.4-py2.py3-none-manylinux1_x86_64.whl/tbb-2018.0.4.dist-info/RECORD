@@ -1,0 +1,8 @@
+tbb-2018.0.4.data/data/lib/libtbb.so.2,sha256=YzPGDziTzL6QphCZkDUCgY-k7LQDFnNRmbND4eqIKCs,2134264
+tbb-2018.0.4.data/data/lib/libtbbmalloc.so.2,sha256=nwS6_JcgJ-lco5HWQDiRTvRDW895Z0MhNY8pmNdeDqE,787120
+tbb-2018.0.4.data/data/lib/libtbbmalloc_proxy.so.2,sha256=hEWhaYRxOXdOzcwAv72cjZSt4e4i8EFBtjV7ihK96tI,32166
+tbb-2018.0.4.dist-info/LICENSE.txt,sha256=sR8UB0nfHu63BI5PiZxGnhoBgQwMd7VZH5ToCr3Vtp8,4693
+tbb-2018.0.4.dist-info/METADATA,sha256=3UnoTAwa29a821jx3yoKWfip0V61U1M6IiXftTVL2U0,837
+tbb-2018.0.4.dist-info/RECORD,,
+tbb-2018.0.4.dist-info/WHEEL,sha256=RKCzVV1VEHBxbr6U9ZTGbBzV7Z4uhPyY86ToZtYgmc0,138
+tbb-2018.0.4.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
