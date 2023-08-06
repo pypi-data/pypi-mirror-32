@@ -1,0 +1,36 @@
+Metadata-Version: 2.0
+Name: emr-launcher-consul
+Version: 1.2.0
+Summary: Consul plugin providing template functions for emr_launcher
+Home-page: https://github.com/tuneinc/emr_launcher_consul
+Author: Nick Rushton
+Author-email: nick@tune.com
+License: MIT
+Description-Content-Type: text/markdown
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=2.7.0
+Requires-Dist: python-consul (==1.0.1)
+Requires-Dist: requests (==2.18.4)
+
+# EMR Launcher Consul
+
+Consul plugin providing template functions for [http://www.github.com/tuneinc/emr_launcher](emr_launcher)
+
+## Functions
+
+* consul.get_value(key) - gets the value for a given Consul key
+
+## ENV variables
+* CONSUL_ACCESS_TOKEN - REQUIRED, sets the consul token
+* CONSUL_HOST - REQUIRED, sets the consul host to use
+* CONSUL_SCHEME - http or https default: https
+* CONSUL_PORT - port consul api is running on default: 443
+
+
