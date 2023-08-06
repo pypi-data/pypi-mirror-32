@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: SingingGadgets
+Version: 0.0.3
+Summary: Low level tools for singing synthesis
+Home-page: https://github.com/fynv/SingingGadgets
+Author: Fei Yang
+Author-email: hyangfeih@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/fynv/SingingGadgets
+Project-URL: Documentation, https://scoredraft.org
+
+SingingGadgets
+
+
