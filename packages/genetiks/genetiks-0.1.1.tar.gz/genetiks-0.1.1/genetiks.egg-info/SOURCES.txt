@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+genetiks/__init__.py
+genetiks/test.py
+genetiks.egg-info/PKG-INFO
+genetiks.egg-info/SOURCES.txt
+genetiks.egg-info/dependency_links.txt
+genetiks.egg-info/top_level.txt

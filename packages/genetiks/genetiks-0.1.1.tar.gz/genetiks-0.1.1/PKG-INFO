@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: genetiks
+Version: 0.1.1
+Summary: An easy to configure and multi-threaded library for Genetic Algorithms.
+Home-page: https://github.com/vonReany/GeneticAlgorithms
+Author: enescnkr
+Author-email: enescankiri@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/vonReany/GeneticAlgorithms/archive/0.1.1.tar.gz
+Description: UNKNOWN
+Keywords: genetic algorithm,genetics,evolutionary algorithms,genetic optimization,python genetic,optimization,multi threaded,multi processing
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
