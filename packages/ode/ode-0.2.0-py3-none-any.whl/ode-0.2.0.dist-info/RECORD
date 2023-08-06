@@ -1,0 +1,7 @@
+ode/__init__.py,sha256=IS1ppu4OU68MqvCgrTebNo20XQE8I4KAp0b3FlPVMkc,193
+ode/_functions.py,sha256=CxvG_R4JooVyQl_LuHTZx8DwlUe0zxSWwxr5Mw4UrtI,329
+ode/integrators.py,sha256=wTz_6-6qaOcFt_UsNDNqgXYbC9QwV4gmH1zW-czpMXc,9315
+ode-0.2.0.dist-info/METADATA,sha256=GMrkaNDOXA0zYrQqDjqxwAzPJvJA-0hkmn2Xzi-JqOU,1784
+ode-0.2.0.dist-info/RECORD,,
+ode-0.2.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+ode-0.2.0.dist-info/top_level.txt,sha256=CFKVaK0DCW2GBRcZVLjv1aYKdl9XC_nEC9qK-SI9x84,4
