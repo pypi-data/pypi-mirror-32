@@ -1,0 +1,8 @@
+-r test.txt
+cryptography
+flake8
+punch.py
+pystache
+Sphinx
+watchdog
+wheel

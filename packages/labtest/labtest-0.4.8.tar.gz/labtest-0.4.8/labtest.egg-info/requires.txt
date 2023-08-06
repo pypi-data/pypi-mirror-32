@@ -1,0 +1,5 @@
+fabric<2.0
+click
+python-dotenv
+oyaml
+future
