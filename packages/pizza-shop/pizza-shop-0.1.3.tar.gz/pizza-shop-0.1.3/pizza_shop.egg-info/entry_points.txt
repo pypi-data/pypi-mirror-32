@@ -1,0 +1,3 @@
+[console_scripts]
+pizza-shop = pizzashop.main:main
+
