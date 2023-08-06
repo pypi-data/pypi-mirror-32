@@ -1,0 +1,5 @@
+pytz
+tzlocal
+requests
+certifi
+bagit==1.6.4
