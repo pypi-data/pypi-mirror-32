@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: tokima
+Version: 0.0.3
+Summary: A Utility Tools for Akamai Open API
+Home-page: https://github.com/kentaro0919/tokima
+Author: Kentaro Matsuzaki
+Author-email: kentaro0919@gmail.com
+License: UNKNOWN
+Description: # Tokima
+        
+        ## Tools for my own use. using Akamai API
+        
+        To use Akamai API you need some formatted date 'from' and 'to' as '2015-01-31' in 
+        [List Products per Contract](https://developer.akamai.com/api/luna/contracts/resources.html#getproductspercontract)  
+        or in [List Usage per Contract](https://developer.akamai.com/api/luna/billing-usage/resources.html#getcontractmeasure) 
+        
+            tokima = TokimaDate(year="2018", month="6")
+            
+            tokima.month -> 6
+            tokima.year ->  2018
+            tokima.year_month -> "2018-06"
+            tokima.first_day() ->  "2018-06-01"
+            tokima.last_day() ->  "2018-06-30"
+            tokima.day_numbers -> 30
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

@@ -1,0 +1,6 @@
+README.md
+setup.py
+tokima.egg-info/PKG-INFO
+tokima.egg-info/SOURCES.txt
+tokima.egg-info/dependency_links.txt
+tokima.egg-info/top_level.txt
