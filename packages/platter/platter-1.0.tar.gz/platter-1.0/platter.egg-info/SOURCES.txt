@@ -1,0 +1,9 @@
+README
+platter.py
+setup.py
+platter.egg-info/PKG-INFO
+platter.egg-info/SOURCES.txt
+platter.egg-info/dependency_links.txt
+platter.egg-info/entry_points.txt
+platter.egg-info/requires.txt
+platter.egg-info/top_level.txt
