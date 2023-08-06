@@ -1,0 +1,10 @@
+spotify_local.py,sha256=ghCj7XRknFjaLNE6UhYdar6UAn5UPnk36Ny71LAgMTg,2761
+spotify_local/__init__.py,sha256=0pWK-zqtxhjAw2gnnJ9HBQurcPfbYmmveGSsuEZw3XA,32
+spotify_local/core.py,sha256=HN1h2XN_kh32MXwY7WM0tUkoDFML4x64u3VOHp-67lc,3444
+spotify_local/event.py,sha256=NrNJ1cCiqUckDzbzGWrJpLxt8N2xUiP19YGZoafejAo,575
+spotify_local/events.py,sha256=N1_WQGjI_-3DJ3OO8ozYxXRWpsnYPx2o5eqxlhmbnZ8,818
+spotify_local/update_status.py,sha256=p1_DtVNVjad_uhV-m-oCCu4B1kOcyrfYXVWWsSXQJeM,841
+spotify_local_control-0.2.1.dist-info/METADATA,sha256=_Bp-WIY8gGT2J_1VRzHuUIk07ovhMnhtVaV7jaC1A4c,876
+spotify_local_control-0.2.1.dist-info/RECORD,,
+spotify_local_control-0.2.1.dist-info/WHEEL,sha256=CG516Me1TEyQqkQMqQpnDadrWi7ujPk88poSAu3OliQ,116
+spotify_local_control-0.2.1.dist-info/top_level.txt,sha256=T3H8XHH_CW1wMaDRcA1a9DA-MtdBnnrfIAShwRJyeXk,14
