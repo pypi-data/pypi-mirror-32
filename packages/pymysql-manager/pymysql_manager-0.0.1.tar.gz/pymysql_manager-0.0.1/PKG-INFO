@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: pymysql_manager
+Version: 0.0.1
+Summary: pymysql connection & pool manager for python3
+Home-page: https://github.com/zhouyl/pymysql-connection-manager
+Author: zhouyl
+Author-email: 81438567@qq.com
+License: MIT
+Description: pymysql-connection-manager
+        ##########################
+        
+        pymysql connection &amp; pool manager for python3
+        
+Keywords: mysql,pymysql,mysql-connection,mysql-pool,pool,connection-manager
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Database :: Front-Ends

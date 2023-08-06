@@ -1,0 +1,8 @@
+README.rst
+setup.py
+pymysql_manager/__init__.py
+pymysql_manager.egg-info/PKG-INFO
+pymysql_manager.egg-info/SOURCES.txt
+pymysql_manager.egg-info/dependency_links.txt
+pymysql_manager.egg-info/requires.txt
+pymysql_manager.egg-info/top_level.txt
