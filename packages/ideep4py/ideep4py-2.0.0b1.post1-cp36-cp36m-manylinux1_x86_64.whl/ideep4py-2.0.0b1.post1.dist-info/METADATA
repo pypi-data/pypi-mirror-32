@@ -1,0 +1,14 @@
+Metadata-Version: 2.0
+Name: ideep4py
+Version: 2.0.0b1.post1
+Summary: ideep4py is a wrapper for iDeep library. This package is built for device with avx512, for device with avx2, please install ideep4py_avx2
+Home-page: https://github.com/intel/ideep
+Author: Intel
+Author-email: UNKNOWN
+License: MIT License
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+
+UNKNOWN
+
+
