@@ -1,0 +1,16 @@
+colcon_ros/__init__.py,sha256=1kx4__0tGsiwNh7NNnYHTDsCdYkA3YcQnHZoj3iLid4,106
+colcon_ros/argcomplete_completer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colcon_ros/argcomplete_completer/catkin_cmake_args.py,sha256=8mvD3wXHhhgD52Y97gVQDDyIEMsain1WRMLwoMvPk8k,2142
+colcon_ros/package_identification/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colcon_ros/package_identification/ignore.py,sha256=5EXBBDCFpuk3WBlE7kOldUF8uqfFsyCcU0RMqYyj6ko,1333
+colcon_ros/package_identification/ros.py,sha256=C7y6Jwu9AbwI4XH8B0S6RxgZCm8YKNbYLHjDuqalMpE,5824
+colcon_ros/task/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colcon_ros/task/ros.py,sha256=s8vucKIfcG0Mkaj_R1pQ9BI4ownozvhZvqxn67bCGmw,6293
+colcon_ros-0.2.1.dist-info/DESCRIPTION.rst,sha256=V8vMTkKduH_poBZ3FEHS6Yv3dD1fmjgRrWGWKS8BkJ0,146
+colcon_ros-0.2.1.dist-info/METADATA,sha256=lUoI65rw1-wNqZ8mESuzBkQqqbq8eaRAyFNd9KV3Dao,1183
+colcon_ros-0.2.1.dist-info/RECORD,,
+colcon_ros-0.2.1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+colcon_ros-0.2.1.dist-info/entry_points.txt,sha256=oxODuj2baXNXQKnd9RCjj_066ECiQ6-ETkUfmz3_6Ps,570
+colcon_ros-0.2.1.dist-info/metadata.json,sha256=BfV7DT12s7DuBFrvjWEpw3wH389txQYvwokKxpaqrAY,2058
+colcon_ros-0.2.1.dist-info/top_level.txt,sha256=UZHYiLp9Xs_eYgG9FsH8EjUPMJxG8dCfUsv5BE92gPY,11
+colcon_ros-0.2.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
