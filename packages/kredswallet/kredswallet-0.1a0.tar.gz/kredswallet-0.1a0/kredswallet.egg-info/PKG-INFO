@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: kredswallet
+Version: 0.1a0
+Summary: A Python wrapper for the Kredswallet Web API
+Home-page: https://github.com/MustyMouse/kredswallet
+Author: MustyMouse
+Author-email: admin@krux.us
+License: GNU
+Download-URL: https://github.com/MustyMouse/kredswallet/archive/0.1a.tar.gz
+Description: UNKNOWN
+Keywords: kredswallet python wrapper
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6

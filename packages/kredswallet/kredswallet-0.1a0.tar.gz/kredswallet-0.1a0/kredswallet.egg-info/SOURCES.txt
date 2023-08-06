@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+kredswallet/__init__.py
+kredswallet/kredswallet.py
+kredswallet.egg-info/PKG-INFO
+kredswallet.egg-info/SOURCES.txt
+kredswallet.egg-info/dependency_links.txt
+kredswallet.egg-info/requires.txt
+kredswallet.egg-info/top_level.txt
