@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: snetd-alpha
+Version: 0.1.0
+Summary: SingularityNET Alpha Daemon
+Home-page: https://github.com/singnet/alpha-daemon
+Author: SingularityNET
+Author-email: info@singularitynet.io
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: aiohttp (==3.2.1)
+Requires-Dist: aiohttp-cors (==0.7.0)
+Requires-Dist: jsonrpcserver (==3.5.4)
+Requires-Dist: jsonrpcclient (==2.5.2)
+Requires-Dist: web3 (==4.2.1)
+Requires-Dist: mnemonic (==0.18)
+Requires-Dist: bip32utils (==0.3.post3)
+Requires-Dist: ecdsa (==0.13)
+
+UNKNOWN
+
+
