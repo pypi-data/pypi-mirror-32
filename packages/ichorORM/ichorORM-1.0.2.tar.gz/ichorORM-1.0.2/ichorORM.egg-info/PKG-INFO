@@ -1,0 +1,36 @@
+Metadata-Version: 1.2
+Name: ichorORM
+Version: 1.0.2
+Summary: A python library for postgresql focused on performance and supporting ORM and query-building functionality
+Home-page: https://github.com/kata198/ichorORM
+Author: Tim Savannah
+Author-email: kata198@gmail.com
+Maintainer: Tim Savannah
+Maintainer-email: kata198@gmail.com
+License: LGPLv2
+Description: ichorORM
+        ========
+        
+        A python library for postgresql focused on performance and supporting ORM and query-building functionality
+        
+        TODO: Document / examples
+        
+        
+Keywords: python,orm,postgres,postgresql,query,build,select,update,delete,model,psycopg,psycopg2
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2)
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: SQL
+Classifier: Topic :: Database
+Classifier: Topic :: Database :: Front-Ends
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires: psycopg2
