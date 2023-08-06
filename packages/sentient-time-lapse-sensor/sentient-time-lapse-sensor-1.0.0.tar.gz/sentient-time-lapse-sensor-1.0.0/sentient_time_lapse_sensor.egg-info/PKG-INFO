@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sentient-time-lapse-sensor
+Version: 1.0.0
+Summary: Sentient time-lapse sensor software
+Home-page: https://github.com/sentient-controls/shared-libraries
+Author: Sentient Control Systems
+Author-email: levi@sentientcontrolsystems.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
