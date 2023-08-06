@@ -1,0 +1,9 @@
+README.md
+setup.py
+zomathon/__init__.py
+zomathon/zomathon.py
+zomathon.egg-info/PKG-INFO
+zomathon.egg-info/SOURCES.txt
+zomathon.egg-info/dependency_links.txt
+zomathon.egg-info/top_level.txt
+zomathon.egg-info/zip-safe
