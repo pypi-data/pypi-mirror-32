@@ -1,0 +1,11 @@
+README.rst
+setup.cfg
+setup.py
+bdoccore/__init__.py
+bdoccore/commands.py
+bdoccore.egg-info/PKG-INFO
+bdoccore.egg-info/SOURCES.txt
+bdoccore.egg-info/dependency_links.txt
+bdoccore.egg-info/requires.txt
+bdoccore.egg-info/top_level.txt
+bdoccore/configs/__init__.py
