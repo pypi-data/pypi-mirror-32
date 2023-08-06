@@ -1,0 +1,27 @@
+language: python
+cache:
+  - pip
+python:
+  - '2.7'
+  - '3.4'
+  - '3.5'
+  - 3.5-dev
+  - '3.6'
+  - 3.6-dev
+before_install:
+  - pip install -U pip
+  - pip install -U setuptools
+  - pip install -U wheel
+install:
+  - pip install tox-travis .[test]
+script:
+  - tox
+  - python setup.py install
+deploy:
+  - provider: pypi
+    user: 4383
+    password:
+      secure: RoiTCA7pBFMn6n6ARlLhskS2hG3mWnS3Kw0+O9F035NAAdpmg15w/MnBMBfK3J+cI7qmwxGU1S6umQn+WVKkUHhHXL0N5UjpRgUFsCz4HpxjME8q45P+3g6KQQkm3oPMCuRkcHyfYlWccnctblssgE97CEXDz8IyQXPeAGpYeXepkSchBKzKmm9zd4NjHHxDLN6YIwnmbISnuMF1daa/7DiV2glFNv+qt66W9Ybm1LJqbVhU3r7TMmLhhE7mfVs4H/n+k4UqczyxzjNg6qapVThAUcyWIm53gU+RnBquLXxxiTFJ7G1UIAAJfIJYPVUjgPF06IoTw37XuZYvqU/lDCO6+FTId00syQgvGrlFFWCPpnW6ipr7qXfTuR4nQxOWR+3uWHwGi5GR0CnIlfruNRMFhlPr60y0ga+wFH7UI9QDr9RWnwztr/h/9G7dCe0HLJyOOzf1eKgIMBj4uPy5xvfuN4vN5uY/R5iF+P77Bh/mrkPtK4c6jeA2Sa4/+7MJfXvC7UBe10x4hvCOtOqGg9TK9lUkvWuoAEtJj+HtZRpsR4+J2dP1sSsB1mEcxt1A9cHM1mB8PkChdMBZu73iE7lxy/aiOTldBvPv6dZi6t6JPSoRKmW/A1MHeFPqoxBIezMomaeaDX6/X1XBta2eNjbFb9CDhZIKdlro78Y79ek=
+    on:
+      tags: true
+    distributions: sdist bdist_wheel

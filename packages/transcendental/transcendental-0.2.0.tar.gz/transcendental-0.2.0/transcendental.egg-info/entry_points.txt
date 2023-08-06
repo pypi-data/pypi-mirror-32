@@ -1,0 +1,4 @@
+[console_scripts]
+trans-learn = transcendental.learn:main
+trans-predict = transcendental.predict:main
+

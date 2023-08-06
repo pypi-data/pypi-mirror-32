@@ -1,0 +1,5 @@
+include requirements.txt
+recursive-include models/ *
+exclude Pipfile
+exclude README.md
+exclude samples
