@@ -1,0 +1,3 @@
+include *.txt *.ini *.cfg *.md *.html
+include Tirrilee_Contact_Form/templates/tirrilee_contact_form/*.*
+recursive-include myapp *.ico *.png *.css *.gif *.jpg *.txt *.js *.html *.xml
