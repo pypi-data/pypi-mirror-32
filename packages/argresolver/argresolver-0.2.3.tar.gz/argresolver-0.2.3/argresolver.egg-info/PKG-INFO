@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: argresolver
+Version: 0.2.3
+Summary: Resolve missing arguments at runtime
+Home-page: https://github.com/HazardDede/argresolver
+Author: d.muth
+Author-email: d.muth@gmx.net
+License: MIT
+Project-URL: Documentation, https://github.com/HazardDede/argresolver/blob/master/README.md
+Project-URL: Source, https://github.com/HazardDede/argresolver/
+Project-URL: Tracker, https://github.com/HazardDede/argresolver/issues
+Description: # ArgResolver v0.2.3
+        
+        [![Build Status](https://travis-ci.org/HazardDede/argresolver.svg?branch=master)](https://travis-ci.org/HazardDede/argresolver)
+        
+        Resolver is a simple decorator for resolving (missing) arguments at runtime.
+        It performs various tasks from looking up arguments from the environment variable scope to simple service dependency injection.
+        
+        ### Examples
+        
+        More examples will follow. Stay tuned...
+        
+        ## Environment
+        
+            from argresolver import Environment
+            from argresolver.utils import modified_environ  # We use it to alter the environment variables
+        
+            class Connection:
+                @Environment(prefix='DB')
+                def __init__(self, username, password, database='default'):
+                    self.username = username
+                    self.password = password
+                    self.database = database
+        
+                def __str__(self):
+                    # Hint: In a real world example you won't put your password in here ;-)
+                    return "Connection(username={self.username}, password={self.password}, database={self.database})".format(self=self)
+        
+            with modified_environ(DB_USERNAME='admin', DB_PASSWORD='secret'):
+                conn = Connection()
+            print(str(conn))  # Connection(username=admin, password=secret, database=default)
+        
+        
+        Examples will follow...
+        So far see the code for various examples...
+        
+Keywords: args arguments injection resolve resolver
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown

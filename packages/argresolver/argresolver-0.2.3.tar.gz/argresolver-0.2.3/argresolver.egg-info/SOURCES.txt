@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+argresolver/__init__.py
+argresolver/resolver.py
+argresolver/utils.py
+argresolver.egg-info/PKG-INFO
+argresolver.egg-info/SOURCES.txt
+argresolver.egg-info/dependency_links.txt
+argresolver.egg-info/top_level.txt
+examples/connection.py
+tests/__init__.py
+tests/context.py
+tests/test_utils.py
