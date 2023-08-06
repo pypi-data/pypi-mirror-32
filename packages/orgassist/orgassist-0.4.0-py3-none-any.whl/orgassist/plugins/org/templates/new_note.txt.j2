@@ -1,0 +1,10 @@
+{%- if tag -%}
+  ** TODO {{ headline }}{{ tag.rjust(69-headline|length) }}
+{% else -%}
+  {{"** TODO New: " + headline }}
+{% endif %}
+{% if schedule -%}
+  {{"   "}}SCHEDULED: <{{ schedule }}>
+{% endif %}
+   on behalf of {{ sender }}
+   [{{ now.strftime("%Y-%m-%d %a %H:%M") }}]
