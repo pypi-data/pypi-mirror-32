@@ -1,0 +1,4 @@
+setuptools
+oasys1>=1.0.0
+oasys1-srwlib
+wofrysrw>=1.0.10
