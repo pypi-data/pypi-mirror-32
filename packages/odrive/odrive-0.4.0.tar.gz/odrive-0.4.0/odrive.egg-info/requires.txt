@@ -1,0 +1,6 @@
+ipython
+PyUSB
+PySerial
+IntelHex
+matplotlib
+pywin32==222;platform_system=="Windows"
