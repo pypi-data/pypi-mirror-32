@@ -1,0 +1,14 @@
+feincms_simpletable/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+feincms_simpletable/models.py,sha256=52XxTz5Dkn-rUOrRPTPrFJphzuO2ZqJRZjwwc6_kMYo,5021
+feincms_simpletable/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+feincms_simpletable/locale/ru/LC_MESSAGES/django.mo,sha256=37jRVNQXxUFlfy3JdCniVnUoOP8c77lsvX2SPo1jC6U,2442
+feincms_simpletable/locale/ru/LC_MESSAGES/django.po,sha256=q43EpZt_E82dyHptp8anPelsAA6zI5VHSQTd4D45O-Q,3047
+feincms_simpletable/templates/content/simpletable/_body_default.html,sha256=XaXjjDslHdW2A7FELNbso3wsfD6HheGdTFHKICcJR1E,230
+feincms_simpletable/templates/content/simpletable/_body_headless.html,sha256=HD_I-RLZka_jkPtL5vxZhVRjgJFCt0XvNpbJbu5TCkw,211
+feincms_simpletable/templates/content/simpletable/default.html,sha256=QyfgQLF_KZ2Q1G_IDkq_qIVrGFwz-05upIX2uIr-mEM,547
+feincms_simpletable/templates/content/simpletable/headless.html,sha256=uj4l2w6QXoEnN0yuGt-6j1H7q_vf-uYJbNDUxxx8WF4,292
+feincms_simpletable/templates/content/simpletable/prerendered.html,sha256=OBndJfe2_3y0dgVSZ-WPcL-HjR6Vl6cuaBt1WnHxkm4,28
+feincms_simpletable-0.4.0.dist-info/METADATA,sha256=fHDYNVCrxRju_IyrjxCekFjiD6MNcSCdntzSnhZKDWc,2860
+feincms_simpletable-0.4.0.dist-info/RECORD,,
+feincms_simpletable-0.4.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+feincms_simpletable-0.4.0.dist-info/top_level.txt,sha256=cKCcgXkECtGIuJ6j76b-Guk2RDIYaZ4JjjDT8UhV5Rs,20
