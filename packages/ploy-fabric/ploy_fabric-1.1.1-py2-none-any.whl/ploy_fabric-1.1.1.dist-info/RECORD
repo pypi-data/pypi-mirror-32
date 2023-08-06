@@ -1,0 +1,9 @@
+ploy_fabric/__init__.py,sha256=SgQlMfcjNuIZxv2gEu_W8jNd1Yh-WfCTWnkPPKAFuv0,9509
+ploy_fabric/_fabric_integration.py,sha256=zoixVs2WDC6hp0DrZt--J1E-_2Idf7mUZkF8oEeGvYs,680
+ploy_fabric/conftest.py,sha256=ObzvDiTrfBSabXr76rzTHPmZGs2JNRZ5GKz-NIU6vCY,58
+ploy_fabric/test_fabric.py,sha256=lVl5O1KJe3_eT-Fuu2hDtiftAOlcVmGqkGtUshTOqaw,9285
+ploy_fabric-1.1.1.dist-info/METADATA,sha256=j9IgaDImVinQXnTaFvOuwxBbbtLUc-eVcB5ftnFCKmg,6162
+ploy_fabric-1.1.1.dist-info/RECORD,,
+ploy_fabric-1.1.1.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+ploy_fabric-1.1.1.dist-info/entry_points.txt,sha256=5VBKqCPxh7oMMhiaSd5wegX31VgLPf3H5CP55f_Y6m8,64
+ploy_fabric-1.1.1.dist-info/top_level.txt,sha256=9ItHyhQl6DiaHyaH_z9xu06HujN_JcHGvCPvRC7ErU8,12
