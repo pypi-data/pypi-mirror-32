@@ -1,0 +1,11 @@
+README.rst
+setup.cfg
+setup.py
+fastex/__init__.py
+fastex/main.py
+fastex.egg-info/PKG-INFO
+fastex.egg-info/SOURCES.txt
+fastex.egg-info/dependency_links.txt
+fastex.egg-info/entry_points.txt
+fastex.egg-info/requires.txt
+fastex.egg-info/top_level.txt

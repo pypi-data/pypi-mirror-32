@@ -1,0 +1,8 @@
+bottle
+Jinja2
+
+[dev]
+check-manifest
+
+[test]
+coverage
