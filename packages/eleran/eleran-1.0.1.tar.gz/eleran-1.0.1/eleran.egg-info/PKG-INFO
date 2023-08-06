@@ -1,0 +1,99 @@
+Metadata-Version: 1.2
+Name: eleran
+Version: 1.0.1
+Summary: Simple & fast sass compiler and javascript minifier with hot reloading
+Home-page: https://github.com/bapakode/eleran
+Author: Bapakode Open Source
+Author-email: opensource@bapakode.com
+License: MIT
+Description: ******
+        Eleran
+        ******
+        
+        Simple & fast sass compiler and javascript minifier with hot reloading 
+        
+        Install
+        =======
+        
+        Install using pip::
+        
+            pip install eleran
+        
+        Usage
+        =====
+        
+        Command::
+        
+            eleran <command> <path> --mode=<mode>
+        
+        **commad:**
+        
+        - watch
+        
+        - validate
+        
+        - generate
+        
+        **--mode:**
+        
+        - debug
+        
+        Example, generate eleran.json to example directory::
+        
+            eleran generate example
+        
+        Watch::
+        
+            eleran watch example
+        
+        Configuration File
+        ==================
+        
+        eleran.json::
+        
+            [
+                {
+                    "sass": {
+                        "source": "sass/style.scss",
+                        "output": "style.min.css",
+                        "output_style": "compressed",
+                        "source_comments": false
+                    }
+                },
+                {
+                    "js": {
+                        "include": [
+                            "js/foo.js",
+                            "js/bar.js"
+                        ],
+                    "output": "script.min.js"
+        	    }
+                }
+            ]
+        
+        **Sass - output_style:**
+        
+        - compact
+        
+        - compressed
+        
+        - expanded 
+        
+        - nested
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Environment :: MacOS X
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.5
