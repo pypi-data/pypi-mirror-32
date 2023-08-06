@@ -1,0 +1,10 @@
+fedwire/__init__.py,sha256=341dV5Knz1V5l-POtBc6E216FGxd1YOJAVRQScbk5R0,89
+fedwire/format.py,sha256=sQK4Dnaj63H6DpGSKpmcLm48Mpx7GWEr73EOWNIBMvo,8869
+fedwire/generator.py,sha256=TcmbKf6UbNfMOrcKuiGzSHfVuiT51Nxru0vVng73VTQ,541
+fedwire/reader.py,sha256=KXyDYIsARtL5m3kbnam1W8GtX5LHoshd_kh3_Tt0Dwc,2433
+fedwire-0.1.0.dist-info/DESCRIPTION.rst,sha256=a4_Dxa0YhWYfvbxAk3uPQBwspolGjXgDWUH8dhrKsuo,392
+fedwire-0.1.0.dist-info/METADATA,sha256=laobfjGqvAp4Y5yYhPczBaPJJuWyPih9ZSwXCuc3Oeo,721
+fedwire-0.1.0.dist-info/metadata.json,sha256=eJr7oQhGbisPZ8sYi7_k8cM3CLXksnYCHD3-0uhDOto,440
+fedwire-0.1.0.dist-info/RECORD,,
+fedwire-0.1.0.dist-info/top_level.txt,sha256=ngcefYrKvLqLJeHFraJWQu2m9qNh-WRYGqNMx4uTNyM,8
+fedwire-0.1.0.dist-info/WHEEL,sha256=-aSo8rHuuPDEFzkcqqQ55pDyCjy25bYMLxSiHWKAOTc,92
