@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        igamelister=igamelister.__main__:cli
+    

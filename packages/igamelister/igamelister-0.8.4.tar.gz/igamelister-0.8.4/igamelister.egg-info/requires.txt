@@ -1,0 +1,6 @@
+Click
+coloredlogs
+lhafile
+lxml
+requests
+progressbar2
