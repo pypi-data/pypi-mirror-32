@@ -1,0 +1,14 @@
+AniPy/__init__.py,sha256=SNTVAyA1uGpsQPou1xALyqmLwW_Oc04F6w4-a9_6pjk,15
+AniPy/base_models.py,sha256=DdEprdj0R3hdLpUCLD-Bf79k9I2Dd7sZo2KiFmwiI-g,2953
+AniPy/errors.py,sha256=d7LsBqeJ309f0RbgCYhmMnhxPIzQxjnWd0qXjTpvnGI,144
+AniPy/helper.py,sha256=slVZ7CigCJJyQqh-Z5plI7UMxa5qg8LSYXHkSgYKW9g,1037
+AniPy/Anilist/__init__.py,sha256=KtHwuC6h3LZsRH4ZH78n3pQWtT5u9RxLU0gwuEClZLc,691
+AniPy/Anilist/get.py,sha256=CWCdbBLuh0hLSV2CV-FR18Urf4pyA6Y4Bek664ieT1M,1337
+AniPy/Anilist/models.py,sha256=fI8szA_Vcwf98VIDm7ByPyx4H5x6Lb47Re0nMYCfSJw,12305
+AniPy/Anilist/search.py,sha256=ZJyRi8bAuUfpovCys39kXsJ0RKhsAFXVd6rOZoQpvOU,1719
+ani.py-0.1.0.dist-info/METADATA,sha256=l8ThaDIUJ7dCqBhOovYN5tgM_zR3tsh76Mhmna_syOc,503
+ani.py-0.1.0.dist-info/RECORD,,
+ani.py-0.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+ani.py-0.1.0.dist-info/top_level.txt,sha256=fKVHNy6_qy91ZBulE94vNn0ov-3gp6VYe7VkWxF-0ZQ,11
+test/__init__.py,sha256=V9MGn6CEsX8eojmnIwMpnBEOvypekkyCtJy-BWj_jZk,32
+test/test_anilist.py,sha256=0fYylFMDj3umqGn3EdNRLLJZMPJ9zZkKBshk528ymHA,18892
