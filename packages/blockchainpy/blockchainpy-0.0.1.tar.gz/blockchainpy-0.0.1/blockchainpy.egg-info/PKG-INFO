@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: blockchainpy
+Version: 0.0.1
+Summary: A blockchain implementation in Python
+Home-page: https://github.com/rishikant42/blockchain
+Author: Rishi kant
+Author-email: rshkntshrm@gmail.com
+License: MIT
+Description: # blockchain
+        Blockchain implementation in python
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
