@@ -1,0 +1,14 @@
+Metadata-Version: 2.0
+Name: rgbnotes
+Version: 1.0.0
+Summary: Python bindings for the RGB Notes API
+Home-page: https://github.com/rgbnotes/rgb-api-python
+Author: rgbnotes
+Author-email: support@rgbnotes.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: requests (>=0.8.8)
+
+UNKNOWN
+
+
