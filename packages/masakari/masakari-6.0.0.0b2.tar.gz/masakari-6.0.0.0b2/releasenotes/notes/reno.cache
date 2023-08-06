@@ -1,0 +1,28 @@
+---
+file-contents:
+  releasenotes/notes/db-purge-support-7a33e2ea5d2a624b.yaml:
+    features: ["Operators can now purge the soft-deleted records from the database\
+        \ tables.\nAdded below command to purge the records:\n\n  ``masakari-manage\
+        \ db purge --age_in_days <days> --max_rows <rows>``\n\nNOTE: ``notifications``\
+        \ db records will be purged on the basis of ``update_at``\nand ``status``\
+        \ fields (finished, ignored, failed) as these records will not be\nautomatically\
+        \ soft-deleted by the system.\n"]
+  releasenotes/notes/wsgi-applications-3ed7d6b89f1a5785.yaml:
+    upgrade: ['WSGI application script ``masakari-wsgi`` is now available. It allows
+
+        running the masakari APIs using a WSGI server of choice (for example
+
+        nginx and uwsgi, apache2 with mod_proxy_uwsgi or gunicorn).
+
+        The eventlet-based servers are still available, but the WSGI options will
+
+        allow greater deployment flexibility.
+
+        ']
+notes:
+- files:
+  - [releasenotes/notes/wsgi-applications-3ed7d6b89f1a5785.yaml, 5bbd78e326e7726229bb94f887f18f8b27bb7a14]
+  version: 6.0.0.0b2
+- files:
+  - [releasenotes/notes/db-purge-support-7a33e2ea5d2a624b.yaml, 4048b1fd8eae065652105d19892071b0a4fa5533]
+  version: 6.0.0.0b1
