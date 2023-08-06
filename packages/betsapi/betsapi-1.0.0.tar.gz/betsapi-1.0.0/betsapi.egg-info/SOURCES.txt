@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+betsapi/__init__.py
+betsapi/baseapi.py
+betsapi/bet365.py
+betsapi/betfair.py
+betsapi/betway.py
+betsapi/bwin.py
+betsapi/events.py
+betsapi/results.py
+betsapi/sbobet.py
+betsapi.egg-info/PKG-INFO
+betsapi.egg-info/SOURCES.txt
+betsapi.egg-info/dependency_links.txt
+betsapi.egg-info/requires.txt
+betsapi.egg-info/top_level.txt
