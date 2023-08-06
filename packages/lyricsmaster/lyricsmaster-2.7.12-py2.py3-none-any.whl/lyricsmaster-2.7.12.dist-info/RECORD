@@ -1,0 +1,10 @@
+lyricsmaster/__init__.py,sha256=gOiAHzJrLDMuZbj_ciNSYiMPZ1JrJ9ugkZI5wzsY_9M,250
+lyricsmaster/cli.py,sha256=Cz8kXJz21Po8Nc1lQCzG2-PEqgS_r0fcqZ7lVs1YgH8,1882
+lyricsmaster/models.py,sha256=eANJU3LCcvbsYyOVC3jniWr1_6XvKT-yTZNnrYbj6M0,4598
+lyricsmaster/providers.py,sha256=sGsn38pA41ymIbimpwlfm2KrVd__9CQUC0z2idMPqkY,33816
+lyricsmaster/utils.py,sha256=fO8lJC7d5Hdn3lCqeQ8ydY-NSWP2sD4pO9XWrxBBRiw,4209
+lyricsmaster-2.7.12.dist-info/METADATA,sha256=smtS1Mc9Z5lcspwv4IyKVSXi4fk4Ori5Ep5UJW106s0,7720
+lyricsmaster-2.7.12.dist-info/RECORD,,
+lyricsmaster-2.7.12.dist-info/WHEEL,sha256=CG516Me1TEyQqkQMqQpnDadrWi7ujPk88poSAu3OliQ,116
+lyricsmaster-2.7.12.dist-info/entry_points.txt,sha256=cw47Kak_2hVJ96XnxyXVsxKHcCAnGSilTGjOdYN2F00,56
+lyricsmaster-2.7.12.dist-info/top_level.txt,sha256=Wrt_yw4wU_i0QOQVtBYR3VQkeZAQvBje7fr9mcWZNnA,13
