@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: pypH
+Version: 0.1
+Summary: This takes an argument between 0 and 14 and returns info about that level of pH. Additionally, facts about pH.
+Home-page: https://github.com/boxalarm/pypH/blob/master/pypH.py
+Author: Sam Nachman
+Author-email: shnachman1@gmail.com
