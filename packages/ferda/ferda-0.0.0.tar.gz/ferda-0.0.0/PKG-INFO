@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: ferda
+Version: 0.0.0
+Summary: Web admin interface for FRED
+Home-page: UNKNOWN
+Author: Jan Musílek
+Author-email: jan.musilek@nic.cz
+License: UNKNOWN
+Description: =======
+         ferda
+        =======
+        
+        Web admin interface for FRED_.
+        
+        .. _FRED: http://fred.nic.cz
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6

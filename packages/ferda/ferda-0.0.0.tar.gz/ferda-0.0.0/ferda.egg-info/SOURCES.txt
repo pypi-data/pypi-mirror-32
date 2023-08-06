@@ -1,0 +1,7 @@
+MANIFEST.in
+README.rst
+setup.py
+ferda.egg-info/PKG-INFO
+ferda.egg-info/SOURCES.txt
+ferda.egg-info/dependency_links.txt
+ferda.egg-info/top_level.txt
