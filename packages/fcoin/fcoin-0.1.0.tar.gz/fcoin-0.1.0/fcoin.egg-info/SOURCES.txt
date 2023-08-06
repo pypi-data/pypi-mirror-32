@@ -1,0 +1,7 @@
+setup.py
+fcoin/__init__.py
+fcoin/dataapi.py
+fcoin.egg-info/PKG-INFO
+fcoin.egg-info/SOURCES.txt
+fcoin.egg-info/dependency_links.txt
+fcoin.egg-info/top_level.txt
