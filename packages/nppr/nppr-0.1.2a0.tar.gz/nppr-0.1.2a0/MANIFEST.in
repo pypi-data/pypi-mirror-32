@@ -1,0 +1,7 @@
+include setup.py
+include examples.py
+include README.rst
+include requirements.txt
+include LICENSE
+recursive-include nppr/containers *
+prune tests.py

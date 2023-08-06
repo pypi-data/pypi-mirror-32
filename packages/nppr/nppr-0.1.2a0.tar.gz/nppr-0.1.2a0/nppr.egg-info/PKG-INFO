@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: nppr
+Version: 0.1.2a0
+Summary: A nginx/django/postgresql/redis quick deployment tool on dockerUses docker-compose
+Home-page: https://github.com/view868/docker-nppr
+Author: view
+Author-email: view868@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: django,nginx,docker,postgresql,redis
+Platform: Any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
