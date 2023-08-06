@@ -1,0 +1,8 @@
+ndicom_kernel_kmeans/__init__.py,sha256=kpR_N1n1tze5hHRrmZq6wTOhuA7o_JKgg_kmX3o3-e0,26
+ndicom_kernel_kmeans/plugin.py,sha256=h8e_i0rGko5vGbQ8a7E58KRY5CqIQaJGs6Bari_q0m0,1556
+ndicom_kernel_kmeans/extension/build/Darwin/libkernel_kmeans.dylib,sha256=ltZoQnCtNyMPilLQONASn2nv7RAZNGPDudTJNaMUxlo,221156
+ndicom_kernel_kmeans-0.0.1.dev0.dist-info/METADATA,sha256=aOC9hhM8MrVAcptX17JXVYqn1rxRaaOR7t6L2K7SHI8,593
+ndicom_kernel_kmeans-0.0.1.dev0.dist-info/RECORD,,
+ndicom_kernel_kmeans-0.0.1.dev0.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+ndicom_kernel_kmeans-0.0.1.dev0.dist-info/dependency_links.txt,sha256=UzCJo33QH17Ej04CaOLzd7Juy3H8EfleyaCHEJzHmeI,37
+ndicom_kernel_kmeans-0.0.1.dev0.dist-info/top_level.txt,sha256=etYZL7ON-HbIU1jHAlPZsOCIFpACb8tv2gW-mOq8GGQ,21
