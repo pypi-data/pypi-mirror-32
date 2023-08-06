@@ -1,0 +1,6 @@
+requests
+future
+algoliasearch
+
+[:python_version < "2.9"]
+requests[security]
