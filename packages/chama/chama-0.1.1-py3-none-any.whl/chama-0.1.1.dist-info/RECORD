@@ -1,0 +1,15 @@
+chama/__init__.py,sha256=W0Eq2wUqMgqDlTbJJ9oJe5_RO6sSn1VZhAIfBjHHZJo,442
+chama/graphics.py,sha256=r2XL099WcKMA9oZBkPkARD2DCY640pfyD34B7lUZggk,14087
+chama/impact.py,sha256=ejQM9auSdtIy2BEOcLQylrw-9ZDeedtv28lgcp1b9aA,12246
+chama/optimize.py,sha256=qjqo9pfWUYup9JFKLIlJBvOXIG6yBwXyTNcOU9qilb4,33694
+chama/sensors.py,sha256=nBcBIRR8np28ZOh7yLvGHmjLZcxqFAgpelr8KdwGNvA,27393
+chama/simulation.py,sha256=ZT_CToaF_dDofWC7XaWuC5Igx-JJ6HH4TKVbVvC8MhA,14450
+chama/utils.py,sha256=f3u9eKpp7LTrRgTdaVZQbyWEYDTOAq8YIA15mR_ymMQ,2758
+chama/tests/data/Net3_ec.impact,sha256=_2OqMcJLpCRk2YVrutoXcYtw8hBwb1lXkGOegv8eJGk,139584
+chama/tests/data/signals.csv,sha256=clDJ5GNanPXQLzg5yT4Wa6dqjogUnYFtwGH8-ttY208,5623124
+chama-0.1.1.dist-info/DESCRIPTION.rst,sha256=wmyM0n8Uhwz63n10zT1wcuzLb06GYg5xAfhy-3nfnVI,2115
+chama-0.1.1.dist-info/METADATA,sha256=WK5Kp_QgXFMDCSz-1gez7VzIxAfjYQsHK1z7m95M9g4,2349
+chama-0.1.1.dist-info/RECORD,,
+chama-0.1.1.dist-info/WHEEL,sha256=Ds0ba8WsPJtjBPzEMyPOBG3qfPa6B4mlzB-vhzorIZs,97
+chama-0.1.1.dist-info/metadata.json,sha256=e5eDKuMS6aZf9QvYwdu6YLiFv08xkv4swCBVc47P1cQ,420
+chama-0.1.1.dist-info/top_level.txt,sha256=gNJGI2zEQKGB48T31Qk4iw-ndqj1OqdQ60iWy1dQOio,6
