@@ -1,0 +1,11 @@
+Kadal-0.1.4.1.dist-info/METADATA,sha256=jkAEH2oUzmoYGWuV-3H10nkuAtOfTay-hL95Mjd8K1U,627
+Kadal-0.1.4.1.dist-info/RECORD,,
+Kadal-0.1.4.1.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+Kadal-0.1.4.1.dist-info/top_level.txt,sha256=MwrHph5Sd6hwqglsIIJZsd4F81QsaVN2RslLnSSChOo,6
+kadal/__init__.py,sha256=9Nv9iq9A9B0k6qwkTCeSxAlrdXAsezxO8Nh6vKhLndA,141
+kadal/client.py,sha256=Yl9LBZnGGYd6U-EktAyicT1_3-fFZfNwEzo1zJDq6TE,2981
+kadal/media.py,sha256=24wcD3IJUHd22CuTlFXKfWZQ-k1IcDQnzYx-DG4UkIQ,845
+kadal/old.py,sha256=PvpQ5r7VPwezoxFMwOJAzMpJwSocWZ5lZWhjGAKqlcI,8704
+kadal/query.py,sha256=1GvC73w46XW5ipVe7w4Ba0-AdKh2-HY2xYhI0jiAWRQ,1103
+kadal/request.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kadal/utils.py,sha256=RJpjSCtXUfWwCAtpxyBN9OmluzwP-Y7guYbwdoKKDWk,81
