@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pg-cnab240
+Version: 1.0.4
+Summary: A CNAB 240 Package to process Bank payment shipping files and return files.
+Home-page: https://github.com/BancoDeFormaturas/python-pg-cnab240
+Author: Banco de Formaturas
+Author-email: alamo.saravali@bancodeformaturas.com.br
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# pg-cnab240
+
+A CNAB 240 Package to proccess Bank payment shipping files and return files.
+
+### Installation
+
+    pip install pg-cnab240
+
+### Implemented Banks
+
+ - [X] Itau Unibanco
+ - [ ] Banco de Brasil
+ - [ ] Bradesco
+ - [ ] Santander
+
+
