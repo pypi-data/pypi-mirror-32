@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+sports.py.egg-info/PKG-INFO
+sports.py.egg-info/SOURCES.txt
+sports.py.egg-info/dependency_links.txt
+sports.py.egg-info/requires.txt
+sports.py.egg-info/top_level.txt
+sports_py/__init__.py
+sports_py/errors.py
+sports_py/models.py
+sports_py/scores.py
+sports_py/teams.py
