@@ -1,0 +1,11 @@
+nimesh/__init__.py,sha256=K7Cz7fvM_16D6pulU2zLlu0RLDoPtGegRBXum99blFE,2881
+nimesh/asarray.py,sha256=D4UD5C9LzcN_NKjS9EaVK6QZE7hkMzYRRh6dL8MCEMQ,1311
+nimesh/core.py,sha256=qtykGEVRfqPpxQz8M7a1R9Jvi9iG-NsaejfCA-Fzg0A,20207
+nimesh/mixins.py,sha256=tHAf8m_rclgc9EbhNZtnIwJ3ym9B9sHb8iPzgrzExcM,744
+nimesh/io/__init__.py,sha256=l2qlF4lCZDODW3ANFUwtZhf2GLa2ZhfuYR8yoTEHNw4,1388
+nimesh/io/freesurfer.py,sha256=5XUnhHtAUxt8aSyn0pz5QjQ3ILYEdlbBDDrwfnIwLa8,5127
+nimesh/io/gifti.py,sha256=epI0HCAsyvomCE_MABNHOCp8aqbjoTJYgDaAoilXrb8,13817
+nimesh-0.0.0.dist-info/METADATA,sha256=H-CehQz7xGe6q5hYNW-sCFxf1MlvVQ-NgER5OQ0t4Hw,735
+nimesh-0.0.0.dist-info/RECORD,,
+nimesh-0.0.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+nimesh-0.0.0.dist-info/top_level.txt,sha256=PP6bQqk0XDnPqg1_1U1Cz_9zmfZraGtusa1-oN50Zxs,7
