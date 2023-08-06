@@ -1,0 +1,10 @@
+click
+cligj
+Fiona
+numpy
+pyproj
+Shapely
+
+[test]
+pytest
+pytest-cov
