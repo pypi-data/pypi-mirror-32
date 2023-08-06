@@ -1,0 +1,16 @@
+README.rst
+setup.py
+statux/__init__.py
+statux/_conversions.py
+statux/battery.py
+statux/cpu.py
+statux/cpu2.py
+statux/disks.py
+statux/net.py
+statux/ram.py
+statux/system.py
+statux/temp.py
+statux.egg-info/PKG-INFO
+statux.egg-info/SOURCES.txt
+statux.egg-info/dependency_links.txt
+statux.egg-info/top_level.txt
