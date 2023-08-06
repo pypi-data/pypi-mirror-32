@@ -1,0 +1,13 @@
+memobird_agent/__init__.py,sha256=xmZlqqifgPhlbcCnqeMfRMvKwIPgauecxUyZfSJ32O4,6422
+memobird_agent/config.py,sha256=9Ft8bSBSLuN89DCXE2rCvoyJDlhnYG8ywct3GD0FPVM,1364
+memobird_agent/security.py,sha256=R_DyGIIy6L-qvWVRMqyiIPPuw0oCgQG1e1CYkQNNvIk,1350
+memobird_agent/script/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+memobird_agent/script/document.py,sha256=tKIyclwhZc3b0jM6pNQdVO4iUTKJbDToKYZR6nZqsVc,1173
+memobird_agent/script/machine_monitor.py,sha256=Q0BsslBnIaN77-0WJIkPz8xkRkjvPFq_ufuoSum9Fvs,818
+memobird_agent/script/service_monitor.py,sha256=f-i2UH72jxGLzQNTh0JEojrcDuC9RKgjfPsfQCFc72s,1865
+memobird_agent/script/transmission_monitor.py,sha256=DshHABmE3Sp1Hglw9RPwVwO6Js7-d9V9_ohEOlxqzSk,2484
+memobird_agent-2.1.4.dist-info/METADATA,sha256=_0-DYFZC7DJzIindgdlTTpGU0GChHDLQ92RmRkvI6Po,2854
+memobird_agent-2.1.4.dist-info/RECORD,,
+memobird_agent-2.1.4.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+memobird_agent-2.1.4.dist-info/entry_points.txt,sha256=oS7a43H4C2QeyWZx88rEeK5UlqA34ywoOnoAplV_kkU,227
+memobird_agent-2.1.4.dist-info/top_level.txt,sha256=puFS4PCD9u0Wqtbrv1HqzOPeqzrjT1WOfcVHziFo_R0,15
