@@ -1,0 +1,5 @@
+{
+    "require": {
+        "krustnic/docx-merge": "^1.0"
+    }
+}
