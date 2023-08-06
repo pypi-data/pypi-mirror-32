@@ -1,0 +1,10 @@
+agnostic_calculator-1.1.0.dist-info/METADATA,sha256=CAyaRfLKDX5XzeB0ZQ_RlMH1DSwnGywgLdhMJg7PN4I,1689
+agnostic_calculator-1.1.0.dist-info/RECORD,,
+agnostic_calculator-1.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+agnostic_calculator-1.1.0.dist-info/top_level.txt,sha256=7NVeUo1lE_Y5X1yFo5RH_PMguhNYnVEH--xlMHwiOcw,11
+calculator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+calculator/calculator.py,sha256=OoGy2xrYIPZ3Psgp0I4tXdAvveLCes8xT6K421IdWww,1753
+calculator/test_calculator.py,sha256=W--32qXGxxS_XkbCgErX34zZ83tSgDSQqs91uzKkLDE,1968
+calculator/converters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+calculator/converters/roman.py,sha256=VZuoj5PNIzHDgeGGoGYuSQRQGCmmk2chj-6pmPG8nTs,1765
+calculator/converters/test_roman.py,sha256=Po-7O1QhaRKN1-XHoTaJuPaJJn5V5gsxFVkHkkgSNBw,1461
