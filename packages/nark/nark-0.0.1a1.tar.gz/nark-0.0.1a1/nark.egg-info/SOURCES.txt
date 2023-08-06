@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+nark/__init__.py
+nark.egg-info/PKG-INFO
+nark.egg-info/SOURCES.txt
+nark.egg-info/dependency_links.txt
+nark.egg-info/requires.txt
+nark.egg-info/top_level.txt

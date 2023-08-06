@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: nark
+Version: 0.0.1a1
+Summary: Time-based fact storage API, a/k/a journal diary timesheet.
+Home-page: https://github.com/hotoffthehamster/nark
+Author: Hot Off The Hamster
+Author-email: hotoffthehamster@gmail.com
+License: MIT
+Description: ####
+        nark
+        ####
+        
+        ``nark`` is a Hamster API library with advanced filtering and sorting.
+        
+        This PyPI package is a temporary placeholder until all
+        assets are uploaded and put in their right place.
+        
+        (Coming soon!)
+        
+        
+Platform: UNKNOWN
+Provides-Extra: dev
