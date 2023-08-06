@@ -1,0 +1,15 @@
+django_signoff/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+django_signoff/apps.py,sha256=SlcraylbiE30l9HXpUB3msn0qD0wjDAfpsvw4DICvAU,122
+django_signoff/middleware.py,sha256=6f_WN70sXNlVVnMZbLBsejV0yqY4DK-Oe5iabaiWeYY,749
+django_signoff/models.py,sha256=EiVCH8Jji3bg65b7h36_2Fnh-0foq1qbQ1UT_eMfeGY,3417
+django_signoff/urls.py,sha256=Ktw2_1GPTGc5UTq56zmOcmxvFkB5RnYQMzSxOoIFlcA,383
+django_signoff/views.py,sha256=cxMW59iAntBmFfCL8YdVtu0YRrRivTQLCZWgRKk4eAo,1429
+django_signoff/static/css/django_signoff.css,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_signoff/static/js/django_signoff.js,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_signoff/templates/django_signoff/base.html,sha256=zzaUPjEgvwxg-Gn2rZ6gIMWphucmEGvAU_skUXJIcDA,661
+django_signoff-0.1.0.dist-info/DESCRIPTION.rst,sha256=6aiuLaUysZW-a20Tk55snIMXylPorECrf8v1MC37N7w,2443
+django_signoff-0.1.0.dist-info/METADATA,sha256=uFVhOSmOhvBHOYgWWKNWpUkpfdYFSbDEjgPwuu1yqOo,3315
+django_signoff-0.1.0.dist-info/RECORD,,
+django_signoff-0.1.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+django_signoff-0.1.0.dist-info/metadata.json,sha256=cHLHbULIGRzjgOb1M0mC1Pd64hR9uevmEBug0ZvHko0,1019
+django_signoff-0.1.0.dist-info/top_level.txt,sha256=zvuWlcxx2YC13ppV14_vf-XMOOlHYhzkr34dgPIcEl0,15
