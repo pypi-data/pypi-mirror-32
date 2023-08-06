@@ -1,0 +1,3 @@
+[console_scripts]
+pyfuseki = pyfusekiutil.cli:main
+
