@@ -1,0 +1,8 @@
+requests
+
+[dev]
+pytest
+pycodestyle
+flake8
+sphinx
+sphinx-autobuild
