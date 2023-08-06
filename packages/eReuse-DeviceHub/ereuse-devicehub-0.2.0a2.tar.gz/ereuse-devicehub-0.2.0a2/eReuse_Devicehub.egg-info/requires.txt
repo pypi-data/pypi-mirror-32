@@ -1,0 +1,8 @@
+teal
+marshmallow_enum
+ereuse-utils[naming]>=0.3.0b1
+psycopg2-binary
+sqlalchemy-utils
+requests
+requests-toolbelt
+hashids
