@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: omniidl
+Version: 4.2.2
+Summary: omniidl library for writing backends
+Home-page: http://omniorb.sourceforge.net/
+Author: Kevin Kuehler, Tommy Yuan
+Author-email: Kevin.Kuehler@viasat.com, Tommy.Yuan@viasat.com
+License: LGPLv2.1
+Keywords: omniidl omniiorb corba orb
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# omniidl backend code
+
+This does not include all the code to run omniidl, only the 
+enough to write custom backends for omniidl. You can download
+all the omniidl code at the following link:
+
+http://omniorb.sourceforge.net/
+
+For testing I recommend setting up a python virtual environment
+and running `pip install .` in the root of the directory. Once
+you activate the virtual environment, `import omniidl` should work
+with no errors.
+
+
