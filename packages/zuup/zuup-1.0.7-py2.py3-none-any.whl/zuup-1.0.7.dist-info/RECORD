@@ -1,0 +1,12 @@
+zuup/__init__.py,sha256=3pdjaukYgVQ5RpjoMe6caFjaivwjbqxdbQOKeCNLpFE,14128
+zuup/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zuup/tests/base.py,sha256=pgyHZ0FqhTANZcVw8CLiu2p0cBuRgPbB3ByyBavDu8c,794
+zuup/tests/test_zuup.py,sha256=AyBabtQ4MfYhArNpAaUv0R6z6Nnpavl5DxRc_QIx1r8,923
+zuup-1.0.7.dist-info/DESCRIPTION.rst,sha256=6D19HIr-Xva7wZC2KRPdIPf4kPMnTKce-WHej1WHMyE,5896
+zuup-1.0.7.dist-info/METADATA,sha256=Eo_f6bZe3L_5zd_Yd3MDAuAKUJfaW9QuV_-XL124G48,6764
+zuup-1.0.7.dist-info/RECORD,,
+zuup-1.0.7.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+zuup-1.0.7.dist-info/entry_points.txt,sha256=x308reF1ObNE5e_dl1q5J_Z8ksdwZn4nlBTI5lTKjf4,36
+zuup-1.0.7.dist-info/metadata.json,sha256=_LcGG5bBOEmuTQWZrtLtiVr8OsPIZi0saD_e0nPunPw,1342
+zuup-1.0.7.dist-info/pbr.json,sha256=6gKZpelZzi8dkd04LTRylWtwEZJs-tmKUkPZzU2gSfQ,46
+zuup-1.0.7.dist-info/top_level.txt,sha256=RMWE4E7hwoMGU2OUfJkcEB7Csn4PbBZfG3pRTMhhlkk,5
