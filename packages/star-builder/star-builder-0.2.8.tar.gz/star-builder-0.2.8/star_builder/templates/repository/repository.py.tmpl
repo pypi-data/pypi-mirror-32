@@ -1,0 +1,12 @@
+from paas_star import Repository, Session
+
+
+class {{repository.capitalize()}}Repository(Repository):
+
+    def __init__(self):
+        super().__init__(name="{{repository}}")
+
+    def resolve(self, session: Session):
+        super({{repository.capitalize()}}Repository, self).resolve(session)
+        self.session = session
+        return self
