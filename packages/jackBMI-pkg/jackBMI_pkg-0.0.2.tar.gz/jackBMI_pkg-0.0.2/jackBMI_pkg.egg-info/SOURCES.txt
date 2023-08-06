@@ -1,0 +1,6 @@
+README.md
+setup.py
+jackBMI_pkg.egg-info/PKG-INFO
+jackBMI_pkg.egg-info/SOURCES.txt
+jackBMI_pkg.egg-info/dependency_links.txt
+jackBMI_pkg.egg-info/top_level.txt
