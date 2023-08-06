@@ -1,0 +1,4 @@
+[console_scripts]
+golem-admin = golem.core.admin:main
+golm = golm:main
+
