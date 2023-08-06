@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+bin/solu
+solidity_unfolder.egg-info/PKG-INFO
+solidity_unfolder.egg-info/SOURCES.txt
+solidity_unfolder.egg-info/dependency_links.txt
+solidity_unfolder.egg-info/top_level.txt
+unfolder/__init__.py
+unfolder/main.py
