@@ -1,0 +1,9 @@
+keras
+numpy
+pandas
+scikit-learn
+scikit-optimize
+scipy
+simplejson
+dill
+tensorflow==1.5.0
