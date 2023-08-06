@@ -1,0 +1,14 @@
+README.md
+setup.py
+indico_custom_footer/__about__.py
+indico_custom_footer/__init__.py
+indico_custom_footer/forms.py
+indico_custom_footer/plugin.py
+indico_custom_footer/utility.py
+indico_plugin_custom_footer.egg-info/PKG-INFO
+indico_plugin_custom_footer.egg-info/SOURCES.txt
+indico_plugin_custom_footer.egg-info/dependency_links.txt
+indico_plugin_custom_footer.egg-info/entry_points.txt
+indico_plugin_custom_footer.egg-info/requires.txt
+indico_plugin_custom_footer.egg-info/top_level.txt
+indico_plugin_custom_footer.egg-info/zip-safe
