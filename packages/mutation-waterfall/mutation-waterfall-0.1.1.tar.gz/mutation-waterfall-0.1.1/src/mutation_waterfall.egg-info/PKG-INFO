@@ -1,0 +1,76 @@
+Metadata-Version: 1.1
+Name: mutation-waterfall
+Version: 0.1.1
+Summary: Python library for visualizing mutation landscape as waterfall diagram.
+Home-page: https://github.com/dohlee/python-mutation-waterfall
+Author: Dohooon Lee
+Author-email: apap950419@gmail.com
+License: MIT license
+Description: ========
+        Overview
+        ========
+        
+        
+        
+        Python library for visualizing mutation landscape as waterfall diagram.
+        
+        * Free software: MIT license
+        
+        Installation
+        ============
+        
+        ::
+        
+            pip install mutation-waterfall
+        
+        Documentation
+        =============
+        
+        https://python-mutation-waterfall.readthedocs.io/
+        
+        Development
+        ===========
+        
+        To run the all tests run::
+        
+            tox
+        
+        Note, to combine the coverage data from all the tox environments run:
+        
+        .. list-table::
+            :widths: 10 90
+            :stub-columns: 1
+        
+            - - Windows
+              - ::
+        
+                    set PYTEST_ADDOPTS=--cov-append
+                    tox
+        
+            - - Other
+              - ::
+        
+                    PYTEST_ADDOPTS=--cov-append tox
+        
+        
+        Changelog
+        =========
+        
+        0.1.0 (2018-05-31)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: bioinformatics
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Utilities

@@ -1,0 +1,3 @@
+[console_scripts]
+mutation-waterfall = mutation_waterfall.cli:main
+
