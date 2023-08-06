@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pistack/__init__.py
+pistack/commands.py
+pistack/comms.py
+pistack/conversions.py
+pistack/crc.py
+pistack/error_codes.py
+pistack/errors.py
+pistack.egg-info/PKG-INFO
+pistack.egg-info/SOURCES.txt
+pistack.egg-info/dependency_links.txt
+pistack.egg-info/requires.txt
+pistack.egg-info/top_level.txt

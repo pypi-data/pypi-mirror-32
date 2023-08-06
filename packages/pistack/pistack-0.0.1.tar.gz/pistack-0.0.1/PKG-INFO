@@ -1,0 +1,21 @@
+Metadata-Version: 1.2
+Name: pistack
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Philip Basford
+Author-email: p.j.basford@soton.ac.uk
+License: Creative Commons Attribution-ShareAlike 4.0 International Public
+Description: UNKNOWN
+Keywords: pistack
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.3, <4
