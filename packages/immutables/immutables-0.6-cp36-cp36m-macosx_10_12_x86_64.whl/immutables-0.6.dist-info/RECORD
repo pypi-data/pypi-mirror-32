@@ -1,0 +1,9 @@
+immutables/__init__.py,sha256=2ib-nBOCnG5QU0Jx_2KVwrhWMvcy2BCrQ13zh7wyA0Q,187
+immutables/_map.c,sha256=klp2nHfZ26U8eK4fiZFAug8JfFTQilPfUIr6o8mTZAw,83644
+immutables/_map.cpython-36m-darwin.so,sha256=XxuE7CO2omnZamCo2lvwrKe4XoTZocFtXqjOjc7n-YM,35016
+immutables/_map.h,sha256=gZMopti15PVXN03MxHaRSlv-DOaijXSYkKAmL8_DV_M,1747
+immutables/map.py,sha256=Ze-At-jP_3fNiE0HO_vYTD0H53fCKPNiJe7FPTcpoac,13138
+immutables-0.6.dist-info/METADATA,sha256=hPSXuLUFK4anmJALLRHq88wCk8f8qpFnrDXHyvXp_8E,2573
+immutables-0.6.dist-info/RECORD,,
+immutables-0.6.dist-info/WHEEL,sha256=ed0Uzyud1fE1CXS9Gw1ylhWK1Phjz_qBFui1b06Zv-A,111
+immutables-0.6.dist-info/top_level.txt,sha256=0k-CFLiMEiRCfK3Ay3nyfS12m_56e82y15MuVxt364c,11
