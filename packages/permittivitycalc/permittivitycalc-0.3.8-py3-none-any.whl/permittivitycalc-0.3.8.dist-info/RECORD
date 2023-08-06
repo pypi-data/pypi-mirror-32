@@ -1,0 +1,14 @@
+permittivitycalc/__init__.py,sha256=FloRjn1JhkyazTWFTQcDKKkOdUgYpr6Yv86rTurq6n4,338
+permittivitycalc/helper_functions.py,sha256=_LHHEg-eTIiVS-4_Os9jsMdEdrtZ4T_tGZ_gT1YLq4A,5038
+permittivitycalc/permittivity_plot.py,sha256=0by1JcYyGQe3Zpt0HreLXSHcQEvUgIcs0rkULG6aykU,10022
+permittivitycalc/sparam_data.py,sha256=csBwWKJ-T62yWYH6L6yuGs_90pl69p9wch4Mix_dUIk,49144
+permittivitycalc/data/rexolite_PAL.txt,sha256=kzn_cTge84ne1sXmNrBwqV4IP5T_syfFh3clTFyXdWo,134062
+permittivitycalc/data/serpentine_dry.txt,sha256=4cFMoXuq9wbcZiOK0vyWtclkcbPyTpWeLkEuxRDhcRo,133931
+permittivitycalc/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+permittivitycalc/tests/test_helper_functions.py,sha256=h0-iIAMQHzsDqvBtJn6y0SKYCx-k5off3xS0JaUjGbc,6216
+permittivitycalc/tests/test_permittivity_plot.py,sha256=-7SNPLCY6fDKZZt-OS7Lu5DpFjsHx0KYtON1w74zeEc,3346
+permittivitycalc/tests/test_sparam_data.py,sha256=BuCaqnX-eWoTmbOK5F47_EcU3YEghAuzmVRX3tyhriM,8965
+permittivitycalc-0.3.8.dist-info/METADATA,sha256=ctChtsKEKnhv1yTGIPji4GDfOQNSip2EeJ_QU7GnMvQ,6472
+permittivitycalc-0.3.8.dist-info/RECORD,,
+permittivitycalc-0.3.8.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+permittivitycalc-0.3.8.dist-info/top_level.txt,sha256=t0HNHHMrjRT0N6XR2kGQCtxnErJjTfHNmmejfSBFuAA,17
