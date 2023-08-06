@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+VERSION
+setup.cfg
+setup.py
+src/hazy/__init__.py
+src/hazy/command.py
+src/hazy.egg-info/PKG-INFO
+src/hazy.egg-info/SOURCES.txt
+src/hazy.egg-info/dependency_links.txt
+src/hazy.egg-info/entry_points.txt
+src/hazy.egg-info/not-zip-safe
+src/hazy.egg-info/requires.txt
+src/hazy.egg-info/top_level.txt
