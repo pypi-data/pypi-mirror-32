@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: genestack-client
+Version: 0.24.0a1
+Summary: Genestack Python Client Library
+Home-page: https://github.com/genestack/python-client
+Author: Genestack Limited
+Author-email: 
+License: MIT
+Project-URL: Source, https://github.com/genestack/python-client/
+Project-URL: Documentation, http://genestack-client.readthedocs.io/en/stable/
+Project-URL: Tracker, https://github.com/genestack/python-client/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Description-Content-Type: text/x-rst
+Requires-Dist: keyring
+Requires-Dist: requests
+Requires-Dist: pyOpenSSL
+
+????
+
+
