@@ -1,0 +1,8 @@
+verify_email/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+verify_email/fast_verify.py,sha256=2MNkh7Naawk9EGjU1Kxwub_xnyhjHK7j4J9b4OeXnN4,687
+verify_email/usage.py,sha256=VF0yahCVbA_Jhl6NBRPcUIDbwxz_vkWNKDWYvmSfNxQ,240
+verify_email/verify_email.py,sha256=Gs3J9CIJmhRHms0uW_ueS1ofl89pbdYHcXE8ZOtuW8k,2833
+verify_email-1.0.0.dist-info/METADATA,sha256=ee9Wu26pWfoNobllhZZ79MfVcy3xLjTOvTooIqyk_H0,1340
+verify_email-1.0.0.dist-info/RECORD,,
+verify_email-1.0.0.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+verify_email-1.0.0.dist-info/top_level.txt,sha256=qdfHD_1bqDBfk7jWe33PK3F_tbWLnhMw0jAkxDSyOMU,13
