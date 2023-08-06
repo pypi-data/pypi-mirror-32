@@ -1,0 +1,4 @@
+
+      [console_scripts]
+      travdeploy=travdeploy.scripts.cli:cli
+      
