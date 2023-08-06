@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: sysdreader
+Version: 0.0.2
+Summary: A small journalctl reader
+Home-page: UNKNOWN
+Author: Ömer Gök
+Author-email: omergok@outlook.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
