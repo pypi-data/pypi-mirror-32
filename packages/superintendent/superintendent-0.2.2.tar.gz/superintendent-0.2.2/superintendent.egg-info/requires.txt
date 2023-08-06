@@ -1,0 +1,7 @@
+ipywidgets
+ipyevents
+numpy
+pandas
+matplotlib
+scikit-learn
+scipy
