@@ -1,0 +1,12 @@
+dabest/__init__.py,sha256=cND4BX12SKy-2MJzY5LFawXKUtuJFCO4hfyM8xdVVMw,114
+dabest/api.py,sha256=pXWicjvp5o9-cpf5GZ28_fBSW8s3A_aBuoETDt0VR6k,29624
+dabest/bootstrap_tools.py,sha256=v1yCF04u2KfIhj_6nHczBC0Fyda-wI_HyTCWpyhu8gs,12118
+dabest/misc_tools.py,sha256=on1OJL7XBKkJvHe6eICV_w8pJQm-uFVXVYWsw8F1qY0,669
+dabest/plot_tools.py,sha256=qOzpwlLuBG2JSEbEn33Rf1xjSdJYMDwHK2W2vqpvWu8,5346
+dabest/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dabest/tests/test_bootstrap.py,sha256=0VAdf-iKbbBCN08i21YkU39RJQmZLJe_2aKW5PaPQ2k,6882
+dabest/tests/test_plotting.py,sha256=lA4xsfAOvN9hsM5waad5I_tFJsMDyc1Ko78wGmzoyhM,4541
+dabest-0.1.3.dist-info/METADATA,sha256=PSMheOX9Uo_lJ-2KM9MBZvkRdv8GLImsCwVaMkweDeI,338
+dabest-0.1.3.dist-info/RECORD,,
+dabest-0.1.3.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+dabest-0.1.3.dist-info/top_level.txt,sha256=MWW0E7_JW1PSLaZ3FrPU_iZh-AYycSu1T1rT6xcC-uU,7
