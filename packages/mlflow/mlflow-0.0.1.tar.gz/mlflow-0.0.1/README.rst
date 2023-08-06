@@ -1,0 +1,148 @@
+MLflow Internal Prototype
+=========================
+
+Installing
+----------
+MLflow requires ``conda`` to be on the ``PATH`` for the projects feature.
+
+We recommend installing MLflow in its own virtualenv for development, as follows::
+
+    virtualenv env
+    source env/bin/activate
+    pip install -r dev-requirements.txt
+    pip install -r tox-requirements.txt
+    pip install -e .
+
+
+Running a Sample App With the Tracking API
+------------------------------------------
+The programs in ``example`` use the MLflow Tracking API. For instance, run::
+
+    python example/test.py
+
+This program will use MLflow log API, which stores tracking data in ``./mlruns``, which can then be viewed with the Tracking UI.
+
+
+Launching the Tracking UI
+-------------------------
+
+Development Mode
+~~~~~~~~~~~~~~~~
+If you installed MLflow for development (e.g. via ``pip install -e .``), ``npm`` is required to
+build and run the UI. You can verify that ``npm`` is on the PATH by running ``npm -v``, and
+`install npm <https://www.npmjs.com/get-npm>`_ if needed.
+
+We recommend `Running the Javascript Dev Server`_ - otherwise, the tracking frontend will request
+files in the ``mlflow/server/js/build`` directory, which is not checked into Git.
+Alternatively, you can generate the necessary files in ``mlflow/server/js/build`` as described in
+`Building a Distributable Artifact`_.
+
+Starting the UI
+~~~~~~~~~~~~~~~
+The MLflow Tracking UI will show runs logged in ``./mlruns`` at `<http://localhost:5000>`_.
+Start it with::
+
+    mlflow ui
+
+
+Running a Project from a URI
+----------------------------
+The ``mlflow run`` command lets you run a project packaged with a MLproject file from a local path
+or a Git URI::
+
+    mlflow run example/project -P num_dimensions=5
+
+    mlflow run git@github.com:databricks/mlflow-example.git -P num_dimensions=5
+
+See ``example/project`` for a sample project with an MLproject file.
+
+
+Saving and Serving Models
+-------------------------
+To illustrate managing models, the ``mlflow.sklearn`` package can log Scikit-learn models as
+MLflow artifacts and then load them again for serving. There is an example training application in
+``example/test_sklearn.py`` that you can run as follows::
+
+    $ python example/test_sklearn.py
+    Score: 0.666
+    Model saved in run RUN_ID
+
+    $ mlflow sklearn serve -r RUN_ID model
+
+    $ curl -d '[{"x": 1}, {"x": -1}]' -H 'Content-Type: application/json' -X POST localhost:5000/invocations
+
+
+Tests and Lint
+--------------
+.. code::
+
+    pytest
+    ./lint.sh
+
+Install Node Modules
+--------------------
+Before running the Javascript dev server or building a distributable wheel, install Javascript
+dependencies via:
+
+.. code::
+
+   cd mlflow/server/js
+   npm install
+   cd - # go back to root repository directory
+
+If modifying dependencies in mlflow/server/js/package.json, run `npm update` within mlflow/server/js
+to install the updated dependencies.
+
+Running the Javascript Dev Server
+---------------------------------
+`Install Node Modules`_, then run the following:
+
+In one shell:
+
+.. code::
+
+   mlflow ui
+
+In another shell:
+
+.. code::
+
+   cd mlflow/server/js
+   npm start
+
+The MLflow Tracking UI will show runs logged in ``./mlruns`` at `<http://localhost:3000>`_.
+
+Building a Distributable Artifact
+---------------------------------
+`Install Node Modules`_, then run the following:
+
+Generate JS files in ``mlflow/server/js/build``:
+
+.. code::
+
+   cd mlflow/server/js
+   npm run build
+
+Build a pip-installable wheel in ``dist/``:
+
+.. code::
+
+   cd -
+   python setup.py bdist_wheel
+
+
+Writing Docs
+-------------
+Make sure you have the requirements from ``dev-requirements.txt`` installed. Then run
+
+.. code::
+  
+   cd docs
+   make livehtml
+
+
+
+Now Go With the Flow!
+---------------------
+.. image:: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/3Falls_Niagara.jpg/2560px-3Falls_Niagara.jpg
+   :alt: Build Status
