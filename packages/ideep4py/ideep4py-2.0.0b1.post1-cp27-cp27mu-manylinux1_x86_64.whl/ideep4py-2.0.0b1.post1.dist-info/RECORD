@@ -1,0 +1,11 @@
+ideep4py/__init__.py,sha256=irFyzhYLdJ2eeZg-G-tGSBN4A-4jYqFT7miN0dsrZOQ,10521
+ideep4py/_ideep4py.so,sha256=zBTmVKZa431vdrGDR6fgKPGh_NQQ37XqXCVPA2QBYa4,10813144
+ideep4py/lib/libiomp5.so,sha256=FqcvPACIKUuFvfxJXMOEKl7kZexjruD7jyZS0WkUjP0,1842723
+ideep4py/lib/libmkldnn.so,sha256=rixmDre7BrAa24n-rpzVVCuKz5TZ4aLaBWwMWZi_VNc,7094536
+ideep4py/lib/libmkldnn.so.0,sha256=rixmDre7BrAa24n-rpzVVCuKz5TZ4aLaBWwMWZi_VNc,7094536
+ideep4py/lib/libmkldnn.so.0.14.0,sha256=rixmDre7BrAa24n-rpzVVCuKz5TZ4aLaBWwMWZi_VNc,7094536
+ideep4py/lib/libmklml_intel.so,sha256=3vAjPsqwvqvuz6JYWPdxJ8liVu1tk-Fqkraoxt6ka2U,154033966
+ideep4py-2.0.0b1.post1.dist-info/METADATA,sha256=dewscD0d20V3hwg00Op91tYZTCGCpRRNqqy3rLviEuY,335
+ideep4py-2.0.0b1.post1.dist-info/RECORD,,
+ideep4py-2.0.0b1.post1.dist-info/WHEEL,sha256=CglJikwLcMQ_QQfvsYS0JgeRolE2eD7fD8MfL_ao-M0,110
+ideep4py-2.0.0b1.post1.dist-info/top_level.txt,sha256=Z5XeXNgn9vrF73k2acbF4f2A8GXkYOK2GPCNbIWe_SQ,9
