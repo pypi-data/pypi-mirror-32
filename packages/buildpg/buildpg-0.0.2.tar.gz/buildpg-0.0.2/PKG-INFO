@@ -1,0 +1,39 @@
+Metadata-Version: 1.2
+Name: buildpg
+Version: 0.0.2
+Summary: Query building for the postgresql prepared statements and asyncpg.
+Home-page: https://github.com/samuelcolvin/buildpg
+Author: Samuel Colvin
+Author-email: s@muelcolvin.com
+License: MIT
+Description: buildpg
+        =======
+        
+        |BuildStatus| |Coverage| |pypi|
+        
+        Query building for the postgresql prepared statements and asyncpg.
+        
+        .. |BuildStatus| image:: https://travis-ci.com/samuelcolvin/buildpg.svg?branch=master
+           :target: https://travis-ci.com/samuelcolvin/buildpg
+        .. |Coverage| image:: https://codecov.io/gh/samuelcolvin/buildpg/branch/master/graph/badge.svg
+           :target: https://codecov.io/gh/samuelcolvin/buildpg/
+        .. |pypi| image:: https://img.shields.io/pypi/v/buildpg.svg
+           :target: https://pypi.org/project/buildpg/
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Environment :: MacOS X
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Internet
+Requires-Python: >=3.6
