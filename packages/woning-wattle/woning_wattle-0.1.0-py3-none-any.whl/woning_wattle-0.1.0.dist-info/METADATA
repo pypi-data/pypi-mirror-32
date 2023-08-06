@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: woning-wattle
+Version: 0.1.0
+Summary: Library for converting yaml structures to Python objects, based on a predefined object hierarchy schema.
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pyyaml
+
+UNKNOWN
+
+
