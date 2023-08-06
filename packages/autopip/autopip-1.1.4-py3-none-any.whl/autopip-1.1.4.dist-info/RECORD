@@ -1,0 +1,12 @@
+autopip/__init__.py,sha256=ObgWMGrLqfnGAKyFLAOLLNrQlLw0XKX6_0eaFenFWjQ,3211
+autopip/constants.py,sha256=85VcMzL92Lbdc0_Fn3WbLv-V7xCfoRnEN4_F8prI-m0,308
+autopip/crontab.py,sha256=XgYj_Iw9B-bQfh40DBoo-dPktgrQLQf3VMF1H-4pyDo,2208
+autopip/exceptions.py,sha256=x78tmAlFgztUSXUdMqJnwqcYY3MflXh5ouycqFn4qlY,235
+autopip/manager.py,sha256=olWLV5Oqhjob0Nnqz5nCSH_I5-YLOV-o3-xrTIw1DXA,25489
+autopip/embedded/README.rst,sha256=N13gYsxlBPE10ebSY0o9-LFW-91kLOoJ9E_KP5UgH2E,352
+autopip/embedded/activate_this.py,sha256=mYOfRSFey_MroPZyqzVbtVHZ6q4FpyK7BrW5rJseZAY,1145
+autopip-1.1.4.dist-info/METADATA,sha256=AYuEqdjqAFBPbGZEb_rtIOG4b7ESzCJC5OcAl5RULNI,5036
+autopip-1.1.4.dist-info/RECORD,,
+autopip-1.1.4.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+autopip-1.1.4.dist-info/entry_points.txt,sha256=aEnAO99I4M60A4cFbr5d6fHkULpdFAsF3RPrAh4nGY8,61
+autopip-1.1.4.dist-info/top_level.txt,sha256=WD-t6FXt8qdkEzkA3Xqb-lSQ00gPg6NDXjXfxz36AWI,8
