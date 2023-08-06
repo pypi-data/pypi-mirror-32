@@ -1,0 +1,11 @@
+aioneo4j/__init__.py,sha256=m0Q6y1q0Rd3ok9zjqBuWzi1cAE4M1oUxo4rQGMIdlE8,100
+aioneo4j/client.py,sha256=QIN2oVqOOvZGXLZyuJZIq7Ff5Sp3hm1U_7DJjjXOmy4,4074
+aioneo4j/errors.py,sha256=dzd8CijbeJpK0tjdmVdeMrGFUgKz8_6OMk7BV5x15xk,363
+aioneo4j/transport.py,sha256=4c6_t76GHI2hVZEa6K1_QRMi1_4WbRqlg2fKosPfe74,4274
+aioneo4j/utils.py,sha256=AcLu7p5Zroc9QdhqdvmkRMNK2R8ImNNfJpkaQkoIRs8,292
+aioneo4j-0.0.5.dist-info/DESCRIPTION.rst,sha256=KKdf09qX2JPsqFSIheFcuzZx5JF-MHqb-BA3u3O3Woo,703
+aioneo4j-0.0.5.dist-info/METADATA,sha256=HNpLv2XWEhzki6CNkeXnBwip7hy0lFJbD6u21bhwozc,1593
+aioneo4j-0.0.5.dist-info/RECORD,,
+aioneo4j-0.0.5.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+aioneo4j-0.0.5.dist-info/metadata.json,sha256=bY-MiuH0pxgUJpf5cdV9WPsYOujzbTg67aAhuN48-WI,1014
+aioneo4j-0.0.5.dist-info/top_level.txt,sha256=cZj0nhAz-I5R2yG-bwkYSBR9pvJ9T_5nCnQaLGhZF-w,9
