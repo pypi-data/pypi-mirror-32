@@ -1,0 +1,138 @@
+Metadata-Version: 2.1
+Name: robosim
+Version: 1.0
+Summary: A pygame robotics simulator.
+Home-page: https://github.com/lukzmu/robosim
+Author: Lukasz Zmudzinski
+Author-email: lukasz@zmudzinski.me
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+![Under construction](https://img.shields.io/badge/stage-under%20construction-blue.svg)
+![PyPI](https://img.shields.io/pypi/v/robosim.svg)
+![license](https://img.shields.io/github/license/lukzmu/robosim.svg)
+[![Beerpay](https://beerpay.io/lukzmu/robosim/badge.svg?style=flat)](https://beerpay.io/lukzmu/robosim)
+
+# RoboSim
+
+`RoboSim` is a Python 3.6 based simulator for Robotics. I wrote it to test out my PhD AI algorithms and produce paper-ready result images in random mapping environments. The simulator uses `pygame`to present realtime results for robot navigation.
+
+**This project is still under construction, so you might have missing features or bugs.<br/> Please submit issues when that happens.**
+
+##### Features:
+
+- [x] Create randomly generated map,
+- [x] Create paths,
+- [x] Create robots,
+- [x] Run simulation,
+- [ ] Realistic PID controller movement,
+- [ ] Collisions,
+- [ ] Nice looking UI,
+- [ ] Statistics panel,
+- [ ] Sensor simulation,
+- And more... when I think of something else.
+
+## Installation
+
+RoboSim is now available on `pip`, so you just need to run the following command in your command line:
+
+```
+pip install robosim
+```
+
+##### Requirements
+
+- `pygame 1.9.3` (didn't test on other).
+
+
+## Using RoboSim
+
+### Map
+
+Map generation is done using the [Random Walk algorithm](https://en.wikipedia.org/wiki/Random_walk).To generate a new map, you need to create a new `Map` object by writing the following code:
+
+```python
+from robosim import Map
+map = Map()
+```
+
+You can pass the following parameters in the constructor:
+
+- `dimensions` (tuple, default `(32,24)`),
+- `tunnels` (int, default `300`),
+- `tunnel_length` (int, default `10`).
+
+Once you create the object, the `__generate_map()` function is called, and you can access the 2D-array by using the `generated_map` parameter:
+
+```python
+map = Map()
+my_awesome_map_array = map.generated_map
+```
+
+Each map object, has its own map, so you can test out your algorithm on various maps at a time. Below you can see a sample output of the generated map, where `0` mean that the space is used for navigation and `1` that an obstacle is placed there.
+
+```
+[
+    [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 
+    [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 
+    [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 
+    [0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1], 
+    [0, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1], 
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1], 
+    [0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1], 
+    [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1], 
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1], 
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1], 
+    [1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1], 
+    [1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1], 
+    [1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1]
+]
+```
+
+### RoboSim
+
+To run the application, you need to create a `RoboSim` object first:
+
+```python
+from robosim import Map, RoboSim
+
+# Create the map
+map = Map()
+
+# Initialize the simulation
+sim = RoboSim(map)
+sim.run()
+```
+
+The `RoboSim` **requires** the map object as a parameter, but there are also other optional parameters you can add:
+
+- `debug` (boolean) - let's the simulator know, if you want to "click out" the paths,
+- `multipath` (boolean) - allows creating multiple paths in debug mode.
+
+To start the simulation you need to use the `run()` method. The optional parameters are:
+
+- `title` - sets the window title,
+- `size_mult` - drawing size for obstacles (default `20` pixels).
+
+The `run()` method, runs the pygame code on a thread, so you can easily start multiple simulations at once.
+
+### Controls
+
+For now  the simulator doesn't have an UI that will allow you to manipulate what is happening. Here is the key list that are used with a description:
+
+| Key | Mode | Description |
+| :-- | :-- | :-- |
+| `Left click` | Normal | Adds start and goal |
+| `Left click` | Debug | Adds path point |
+| `Right click` | Debug | Creates robot |
+| `1` | All | Starts robot movement |
+| `2` | All | Pauses robot movement |
+| `3` | All | Takes screenthos `NYI` |
+| `4` | All | Start/Stop recording `NYI` |
+
+
+
