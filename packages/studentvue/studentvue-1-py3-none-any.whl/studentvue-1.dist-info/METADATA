@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: studentvue
+Version: 1
+Summary: Python Scraper for StudentVue Portals
+Home-page: https://github.com/kajchang/studentvuescraper
+Author: Kai Chang
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: selenium
+Requires-Dist: robobrowser
+
+UNKNOWN
+
+
