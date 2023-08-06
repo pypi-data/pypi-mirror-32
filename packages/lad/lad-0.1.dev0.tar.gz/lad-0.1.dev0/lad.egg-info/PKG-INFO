@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: lad
+Version: 0.1.dev0
+Summary: Least absolute deviations with L1 regularization using majorization-minimization
+Home-page: https://github.com/mirca/lad
+Author: mirca
+Author-email: jvmirca@gmail.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: # least-absolute-deviations
+        Least absolute deviations using majorization-minimization
+        
+Keywords: statistics optimization
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
