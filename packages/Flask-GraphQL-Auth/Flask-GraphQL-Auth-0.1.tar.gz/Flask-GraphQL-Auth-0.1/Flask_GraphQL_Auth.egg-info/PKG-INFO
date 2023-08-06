@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: Flask-GraphQL-Auth
+Version: 0.1
+Summary: JWT library for flask-graphql
+Home-page: https://github.com/devArtoria/flask-graphql-auth
+Author: Lewis "devArtoria" Kim
+Author-email: artoria@artoria.us
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: Flask
+Requires: pyjwt
