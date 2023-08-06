@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: js-generator
+Version: 0.0.12
+Summary: CLI tool for creating js templates
+Home-page: https://github.com/pypa/example-project
+Author: Gal Ben Haim
+Author-email: gal_ben_haim@yahoo.com
+License: UNKNOWN
+Description: # JavaScript Templates Generator
+        
+        js-generator is a CLI tool that allows you to easily create javascript templates
+        
+        [pip install js-generator](https://pypi.org/project/js-generator/)
+        
+        Add to global path (C:\\Python36\\Lib\\site-packages\\js-generator on windows)
+        
+        usage:
+        
+        generator.py --help
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

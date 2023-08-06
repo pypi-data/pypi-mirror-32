@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+js-generator/__init__.py
+js-generator/constants.py
+js-generator/generator.py
+js-generator/utils.py
+js-generator/validations.py
+js-generator/templates/actions.js
+js-generator/templates/ccc.js
+js-generator/templates/reducer.js
+js-generator/templates/sfc.js
+js-generator/templates/state.js
+js_generator.egg-info/PKG-INFO
+js_generator.egg-info/SOURCES.txt
+js_generator.egg-info/dependency_links.txt
+js_generator.egg-info/top_level.txt
