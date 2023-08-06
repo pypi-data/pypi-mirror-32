@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: suricata-prettifier
+Version: 0.0.2
+Summary: Format and syntax highlight Suricata rules
+Home-page: https://github.com/theY4Kman/suricata-prettifier
+Author: Zach "theY4Kman" Kanzler
+Author-email: they4kman@gmail.com
+License: BSD 2-Clause
+Description: # suricata-prettifier
+        
+        Python package to format and syntax highlight Suricata rules, or: put lipstick on a pig!
+        
+        With a command-line tool, take terse, stuffy Suricata rules like this:
+        
+        ```
+        alert tcp $HOME_NET any -> 94.242.238.242 6565 (msg:"EmergingThreats:Indicator-2405101"; flow:to_server,established; flags:S; reference:url,doc.emergingthreats.net/bin/view/Main/BotCC; reference:url,www.shadowserver.org; threshold: type limit, track by_src, seconds 360, count 1; classtype:trojan-activity; flowbits:set,ET.Evil; flowbits:set,ET.BotccIP; sid: 533; rev:4991;)
+        ```
+        
+        And give them the makeover they deserve
+        
+        ![This signature treated herself](https://user-images.githubusercontent.com/33840/40883915-2600beee-66d6-11e8-9e94-97b7730ebb62.png)
+        
+        ```
+        alert tcp $HOME_NET any -> 94.242.238.242 6565 ( \
+          msg: "EmergingThreats:Indicator-2405101"; \
+          flow: to_server,established; \
+          flags: S; \
+          reference: url,doc.emergingthreats.net/bin/view/Main/BotCC; \
+          reference: url,www.shadowserver.org; \
+          threshold: type limit, track by_src, seconds 360, count 1; \
+          classtype: trojan-activity; \
+          flowbits: set,ET.Evil; \
+          flowbits: set,ET.BotccIP; \
+          sid: 533; \
+          rev: 4991; \
+        )
+        ```
+        
+        Note: options with line continuations are tested working with Suricata 4.0.4.
+        
+        
+        # Installation
+        
+        ```bash
+        pip install suricata-prettifier
+        ```
+        
+        
+        # Usage
+        
+        Highlight and format right in your console. Wow.
+        
+        ```bash
+        prettify-suricata input.rules
+        ```
+        
+        Use it to generate sweet posts for your LiveJournal (Netscape Navigator required to view)
+        
+        ```bash
+        prettify-suricata -f html input.rules input.formatted.html style=vim full=True 
+        ```
+        
+        Read from stdin and write to stdou to create your own pipe dream
+        
+        ```bash
+        head -n 50 input.rules | prettify-suricata -f html - - style=vim full=True | tee input.formatted.html
+        ```
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
