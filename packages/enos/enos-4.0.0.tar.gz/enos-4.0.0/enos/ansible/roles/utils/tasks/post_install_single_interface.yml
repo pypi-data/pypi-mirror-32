@@ -1,0 +1,10 @@
+- name: Fix br-ex wiring
+  shell: |
+    IF={{ interface_to_bridge }}
+    ips=$(ip addr show dev $IF|grep "inet .*/32" | awk '{print $2}')
+    if [[ ! -z "$ips" ]]
+    then
+        echo $ips
+        docker exec -ti openvswitch_vswitchd ovs-vsctl add-port br-ex $IF && ip addr flush $IF && dhclient -nw br-ex
+    fi
+
