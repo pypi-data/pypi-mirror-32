@@ -1,0 +1,44 @@
+{% extends 'layouts/two_pane.html' %}
+{% load bootstrap4 %}
+
+
+{% block content %}
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+  <h2>Site detail</h2>
+</div>
+<div>
+  <h3>Overview</h3>
+  <table class="table keyvalue_table">
+    <tbody>
+      <tr>
+        <th>URL</th><td>{{ site.url }}</td>
+      </tr>
+      <tr>
+        {# TODO: Multiple targets#}
+        {% with site.targets.first.states.last  as last_state %}
+        <th>Current state</th>
+        <td>
+            {{ last_state.state|default:"(None)" }} at {{ last_state.updated_at|default:"???" }}
+        </td>
+        {% endwith %}
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div>
+  <h3>History</h3>
+  <table class="table keyvalue_table">
+    <tbody>
+      <tr>
+        <th>State</th><td>Range</td>
+      </tr>
+      {% for state in site.targets.first.states.all reversed %}
+      <tr>
+        <td>{{ state.state }}</td>
+        <td>{{ state.begin_at }} - {{ state.updated_at }} {% if forloop.first %}(now){% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock %}

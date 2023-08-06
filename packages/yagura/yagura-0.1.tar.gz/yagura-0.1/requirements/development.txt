@@ -1,0 +1,4 @@
+# Local development requirements
+-r ../requirements.txt
+-r lint.txt
+-r test.txt
