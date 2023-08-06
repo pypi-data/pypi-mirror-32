@@ -1,0 +1,21 @@
+Metadata-Version: 1.0
+Name: Chlikelihood
+Version: 0.0.2
+Summary: 用于比较两个中文句子相似度的工具
+Home-page: https://github.com/ZhanPwBibiBibi/CHlikelihood
+Author: ZhanPw
+Author-email: zhanpw97@gmail.com
+License: MIT License
+Description: # CHlikelihood
+        一个用于比较两个中文句子相似度的工具
+        ## 使用方法
+        
+        ```python
+        from CHlikelihood import Likelihood
+        
+            likelihood = Likelihood()
+            likelihood.likelihood('你好', '你好', punctuation=True)
+        ```
+        
+        
+Platform: all
