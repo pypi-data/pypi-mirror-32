@@ -1,0 +1,2 @@
+include *.cfg Makefile LICENSE
+recursive-include pretix_banktransferfi/templates *
