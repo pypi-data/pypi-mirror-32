@@ -1,0 +1,10 @@
+ruri/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ruri/assistant.py,sha256=VnXlHmp9YuEKVRLENt6c2tIb9wIZmT2y26sFDrfbMcQ,2126
+ruri/crc32.py,sha256=H6YWvcCovWG8jwKp8kdYrxMgXgu-pEtSNhDH3zTnX5s,4358
+ruri/ruri.py,sha256=Nbzqj65PUEieCc6Ksp93F8dJCI1QGxzIsI0bg5rfo2o,2988
+ruri/vars.py,sha256=VdL8ZkXQQJTjd7qr10b47vUUicLvCL0aX81ip9kbsmQ,73
+ruri-1.0.9.dist-info/METADATA,sha256=cYfgA_fzM7N0cNG9SWh_mz7GoNEbRtmJEsWvO6333VM,1536
+ruri-1.0.9.dist-info/RECORD,,
+ruri-1.0.9.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+ruri-1.0.9.dist-info/entry_points.txt,sha256=_oUIdp3S-eS4wvE9_kLDNWh_4TCNfQI2UTmfyFO8qgk,41
+ruri-1.0.9.dist-info/top_level.txt,sha256=u1WAwFf9z7V-14wGqAq16_f11thhOQLYLuG_Av6NfCg,5
