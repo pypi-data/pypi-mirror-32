@@ -1,0 +1,9 @@
+phylactery/__init__.py,sha256=qFwp0tlRzS3d8MaBNykq2ttY9egY2zEjMU9BNbpXQMY,80
+phylactery/bitset.py,sha256=F781SzV3q5A0daftwx_rnpK7hG5lel3X78RDyKvkjYA,2007
+phylactery/unionfind.py,sha256=unhgmSeN6AW7nQy7lbklHRzYo_edd_emrLIh9kOevUs,3743
+phylactery/utils.py,sha256=ucmmBm1gMrwl_Mr-PWcClIG1zDCXNeI-qe9yMlSoYDk,841
+phylactery-0.0.3.dist-info/METADATA,sha256=wTg-dE8O-YaV3JyqBdD9SUnCg_3lMHV5Dayes2SeFcc,658
+phylactery-0.0.3.dist-info/RECORD,,
+phylactery-0.0.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+phylactery-0.0.3.dist-info/top_level.txt,sha256=XcTbPiU7GZPRkTGRWk1qMRx5nIzzmlD4jauSq7kb5aU,11
+phylactery-0.0.3.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
