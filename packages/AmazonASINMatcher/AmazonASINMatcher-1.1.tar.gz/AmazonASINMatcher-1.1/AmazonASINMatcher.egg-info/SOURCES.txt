@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+AmazonASINMatcher/Check_Url.py
+AmazonASINMatcher/Check_pattern.py
+AmazonASINMatcher/Link.py
+AmazonASINMatcher/Link_object.py
+AmazonASINMatcher/Region.py
+AmazonASINMatcher/__init__.py
+AmazonASINMatcher.egg-info/PKG-INFO
+AmazonASINMatcher.egg-info/SOURCES.txt
+AmazonASINMatcher.egg-info/dependency_links.txt
+AmazonASINMatcher.egg-info/top_level.txt
