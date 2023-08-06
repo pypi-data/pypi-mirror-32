@@ -1,0 +1,8 @@
+README.md
+setup.py
+ipyprompt/__init__.py
+ipyprompt/prompt.py
+ipyprompt.egg-info/PKG-INFO
+ipyprompt.egg-info/SOURCES.txt
+ipyprompt.egg-info/dependency_links.txt
+ipyprompt.egg-info/top_level.txt
