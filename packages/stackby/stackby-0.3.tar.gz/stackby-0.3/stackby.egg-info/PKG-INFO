@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: stackby
+Version: 0.3
+Summary: Instant coding answers via the command line
+Home-page: https://github.com/haxzie/stackby
+Author: Musthaq Ahamad
+Author-email: musthu.gm@gmail.com
+Maintainer: Musthaq Ahamad
+Maintainer-email: musthu.gm@gmail.com
+License: MIT
+Description: python command line appliation to stack and cleanup files into different directories based on type, extension and created date
+Keywords: stack files directories cleanup
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: System :: Filesystems
+Classifier: License :: OSI Approved :: MIT License
