@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: apispec-swaggerinherit
+Version: 1.0.1
+Summary: Plugin for apispec adding support for Swagger-style inheritance using `allOf`
+Home-page: https://github.com/timakro/apispec-swaggerinherit
+Author: Tim Schumacher
+Author-email: tim@timakro.de
+License: LGPLv3
+Description: UNKNOWN
+Platform: UNKNOWN

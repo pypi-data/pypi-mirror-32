@@ -1,0 +1,7 @@
+apispec_swaggerinherit.py
+setup.py
+apispec_swaggerinherit.egg-info/PKG-INFO
+apispec_swaggerinherit.egg-info/SOURCES.txt
+apispec_swaggerinherit.egg-info/dependency_links.txt
+apispec_swaggerinherit.egg-info/requires.txt
+apispec_swaggerinherit.egg-info/top_level.txt
