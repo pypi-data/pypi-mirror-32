@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+glotaran/__init__.py
+glotaran.egg-info/PKG-INFO
+glotaran.egg-info/SOURCES.txt
+glotaran.egg-info/dependency_links.txt
+glotaran.egg-info/top_level.txt

@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: glotaran
+Version: 0.0.1
+Summary: A placeholder for the python based glotaran package
+Home-page: https://github.com/glotaran/glotaran
+Author: Joris Snellenburg
+Author-email: j.snellenburg@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/glotaran/glotaran/archive/0.0.1.tar.gz
+Description: # glotaran-placeholder
+        A placeholder for the glotaran python package to be updated in the not-so-distant future.
+        
+        ## Instructions for use
+        Please do not try to install or use this package, it isn't meant to do anything yet.
+        If you accidentally installed it, now is the time to uninstall it, and wait for the 1.0 or 2.0 release.
+Keywords: placeholder,testing,not-ready-for-use
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
