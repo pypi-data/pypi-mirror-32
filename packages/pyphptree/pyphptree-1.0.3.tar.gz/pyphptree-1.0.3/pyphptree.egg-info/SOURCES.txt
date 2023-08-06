@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+pyphptree/__init__.py
+pyphptree.egg-info/PKG-INFO
+pyphptree.egg-info/SOURCES.txt
+pyphptree.egg-info/dependency_links.txt
+pyphptree.egg-info/top_level.txt
+testfiles/a.php
+testfiles/anon.php
+testfiles/cl.php
+testfiles/heredoc.php
+testfiles/ns.php
+testfiles/ns2.php
+testfiles/trait.php
