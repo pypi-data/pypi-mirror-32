@@ -1,0 +1,3 @@
+[cosmic_ray.execution_engines]
+localpool = localpool.executor:LocalPoolExecutionEngine
+
