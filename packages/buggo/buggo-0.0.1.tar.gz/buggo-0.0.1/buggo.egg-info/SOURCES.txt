@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+buggo/__init__.py
+buggo.egg-info/PKG-INFO
+buggo.egg-info/SOURCES.txt
+buggo.egg-info/dependency_links.txt
+buggo.egg-info/top_level.txt
