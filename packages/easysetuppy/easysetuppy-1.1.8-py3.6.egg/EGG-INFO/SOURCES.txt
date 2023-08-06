@@ -1,0 +1,10 @@
+README.md
+setup.py
+easysetuppy/__init__.py
+easysetuppy/classifiers.py
+easysetuppy.egg-info/PKG-INFO
+easysetuppy.egg-info/SOURCES.txt
+easysetuppy.egg-info/dependency_links.txt
+easysetuppy.egg-info/entry_points.txt
+easysetuppy.egg-info/requires.txt
+easysetuppy.egg-info/top_level.txt
