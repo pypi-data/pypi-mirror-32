@@ -1,0 +1,9 @@
+README.md
+setup.py
+bin/image_cleaner
+image_cleaner.egg-info/PKG-INFO
+image_cleaner.egg-info/SOURCES.txt
+image_cleaner.egg-info/dependency_links.txt
+image_cleaner.egg-info/not-zip-safe
+image_cleaner.egg-info/requires.txt
+image_cleaner.egg-info/top_level.txt
