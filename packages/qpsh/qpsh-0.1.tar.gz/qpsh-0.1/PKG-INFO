@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: qpsh
+Version: 0.1
+Summary: Call shell commands from python shell.
+Home-page: https://github.com/TRSasasusu/qpsh
+Author: kaito kishi
+Author-email: trsasasusu@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: shell commands alias
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Unix Shell
+Classifier: Topic :: System :: Shells
+Classifier: Topic :: System :: System Shells
+Classifier: Operating System :: POSIX
