@@ -1,0 +1,4 @@
+[console_scripts]
+hpcclient-gui = dhpcclient.gui:main
+hpcclient-svc = dhpcclient.hpcclient:main
+

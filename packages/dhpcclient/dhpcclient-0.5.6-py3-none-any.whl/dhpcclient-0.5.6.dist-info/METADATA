@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: dhpcclient
+Version: 0.5.6
+Summary: Distributed High Performance Cluster Client for a heterogen Operating System environment
+Home-page: https://gitlab.fhnw.ch
+Author: jonathan ehrengruber
+Author-email: jonathan.ehrengruber@students.fhnw.ch
+License: UNKNOWN
+Keywords: dhpc hpc high performance cluster client
+Platform: UNKNOWN
+Requires-Dist: docker
+Requires-Dist: pytest
+Requires-Dist: pytest-mock
+Requires-Dist: mock
+Requires-Dist: psutil
+Requires-Dist: configparser
+Requires-Dist: service
+Requires-Dist: dnspython
+Requires-Dist: requests
+Requires-Dist: wxpython (>=4.0.1); sys_platform == "win32"
+
+UNKNOWN
+
+
