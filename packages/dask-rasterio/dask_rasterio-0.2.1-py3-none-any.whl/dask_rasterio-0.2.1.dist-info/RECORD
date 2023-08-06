@@ -1,0 +1,7 @@
+dask_rasterio/__init__.py,sha256=DnWgSQKeVeomfHp9uOFNuYSxkgElD4nHojhSLl1-uTc,128
+dask_rasterio/read.py,sha256=YSsslmz5zjHP0Y1Gfcs7wVrpRFb1Cxkg-d0x4TxRROQ,2458
+dask_rasterio/write.py,sha256=PxPgDx62VcNQLg66MABr7He9ycGQ2OjgZCqL_ICObLo,2722
+dask_rasterio-0.2.1.dist-info/LICENSE.md,sha256=NxFx1k7dyxDW9uQkcI-huWLHjKxsXbcxE28XfjqUzb0,1501
+dask_rasterio-0.2.1.dist-info/WHEEL,sha256=HZBbCDRt_yH1dGNZWtKCSPJ61jLgUcy7M8fjZdBoprI,84
+dask_rasterio-0.2.1.dist-info/METADATA,sha256=--MjRHh0qk5qMWVkmyDQbiSHNxRhHrISQB5HGEOcUYo,3994
+dask_rasterio-0.2.1.dist-info/RECORD,,
