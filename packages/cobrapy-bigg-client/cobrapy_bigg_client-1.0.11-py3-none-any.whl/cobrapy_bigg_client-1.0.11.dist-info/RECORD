@@ -1,0 +1,12 @@
+cobrapy_bigg_client/__init__.py,sha256=HNcQYoJdCDFmvs-_V1b5xWwwUTUU07Cys-KXbuRAEKU,831
+cobrapy_bigg_client/_version.py,sha256=xznViBfp31pnrttSblRWiYBuZTR7pX0tvZNpikVyKK8,498
+cobrapy_bigg_client/client.py,sha256=Rx4NzvUhTB0XJVxyjY5cC575230KzoMbX6tJ5kWF2fo,21448
+cobrapy_bigg_client/tests/__init__.py,sha256=6Gs7VN7tW7J0cxYzUH2H4X8IqIAeo29PvsE09zrHdZ8,619
+cobrapy_bigg_client/tests/conftest.py,sha256=mKlbkaT7CVdIEIiAEWiKg1lAzvHbAX_wwTzuxTgM-sg,2242
+cobrapy_bigg_client/tests/test_client.py,sha256=HudTjv2e6lxvNYnmNT_VG1X7JlvEEumhZ0C2yJelL6Y,6646
+cobrapy_bigg_client/tests/fixtures/__init__.py,sha256=6Gs7VN7tW7J0cxYzUH2H4X8IqIAeo29PvsE09zrHdZ8,619
+cobrapy_bigg_client/tests/fixtures/models/__init__.py,sha256=6Gs7VN7tW7J0cxYzUH2H4X8IqIAeo29PvsE09zrHdZ8,619
+cobrapy_bigg_client-1.0.11.dist-info/METADATA,sha256=CX5rkM97NVz-hfLelEVMZM_MtkfsD8fBGqY_Euurfgk,1377
+cobrapy_bigg_client-1.0.11.dist-info/RECORD,,
+cobrapy_bigg_client-1.0.11.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+cobrapy_bigg_client-1.0.11.dist-info/top_level.txt,sha256=tkynhg79rCP0vX3O3f1lwDrzKXh4Nc8nzql1KQYt7Cc,20
