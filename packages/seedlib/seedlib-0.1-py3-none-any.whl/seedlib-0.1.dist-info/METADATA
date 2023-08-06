@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: seedlib
+Version: 0.1
+Summary: An aggregation of random miscellaneous functions.
+Home-page: https://github.com/ankur-gos/SeedLib
+Author: Ankur Goswami
+Author-email: ankur.goswami12@gmail.com
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pandas
+
+UNKNOWN
+
+
