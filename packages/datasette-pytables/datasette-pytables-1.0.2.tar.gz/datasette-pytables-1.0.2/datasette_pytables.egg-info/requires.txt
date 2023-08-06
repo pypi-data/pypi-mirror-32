@@ -1,0 +1,4 @@
+datasette-core
+tables
+moz-sql-parser
+mo-future
