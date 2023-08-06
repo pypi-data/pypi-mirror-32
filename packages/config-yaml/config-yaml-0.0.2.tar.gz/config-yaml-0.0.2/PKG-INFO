@@ -1,0 +1,29 @@
+Metadata-Version: 1.1
+Name: config-yaml
+Version: 0.0.2
+Summary: Serialize and deserialize your configurations/arguments to yaml.
+Home-page: https://github.com/vickyliin/config-yaml
+Author: vickyliin
+Author-email: vickyliinn@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+Description: # config-yaml
+        
+        Serialize and deserialize your configurations/arguments to yaml. 
+        
+        - A solution to experiment configuration recording.
+        - Compatible with `argparse`. Need least modifications to your original code using `argparse`.
+        - Small and extensible. Add anything you need on top of the module.
+        
+        See `demo.ipynb` or [demo.html](https://vickyliin.github.io/config-yaml/demo/demo.html) for more examples and more details.
+        
+Keywords: config yaml argparse serialize experiment
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Logging
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3 :: Only

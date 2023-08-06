@@ -1,0 +1,9 @@
+README.md
+configyml.py
+setup.cfg
+setup.py
+config_yaml.egg-info/PKG-INFO
+config_yaml.egg-info/SOURCES.txt
+config_yaml.egg-info/dependency_links.txt
+config_yaml.egg-info/requires.txt
+config_yaml.egg-info/top_level.txt
