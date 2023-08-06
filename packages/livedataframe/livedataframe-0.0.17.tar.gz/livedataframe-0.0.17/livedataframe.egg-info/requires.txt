@@ -1,0 +1,5 @@
+requests
+pandas
+websocket-client
+matplotlib
+numpy
