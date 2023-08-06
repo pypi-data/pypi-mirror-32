@@ -1,0 +1,7 @@
+django_pg_returning/__init__.py,sha256=3zjTsN4HZjENXgMhaO9rIkcVKRziMsyOSURBtle2b3g,49
+django_pg_returning/manager.py,sha256=c5Qv6rkpuLaCosjj5ucPdLbcid3obfcWBP9jWks5ZpA,3798
+django_pg_returning/queryset.py,sha256=M8rUnWl6-jk-BqwXZF0PoW8wHixQAOOUj1KVt7b0Br8,4448
+django_pg_returning-1.0.0.dist-info/METADATA,sha256=9_UnUqOIddBnEx-17Fc7IY_EOuzRcPgrxEnpTux_ju8,454
+django_pg_returning-1.0.0.dist-info/RECORD,,
+django_pg_returning-1.0.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+django_pg_returning-1.0.0.dist-info/top_level.txt,sha256=I2QX6WbghiuONwwiazpNg4iM4oeCoEajbQcCq6AkBPU,20
