@@ -1,0 +1,9 @@
+README.rst
+setup.py
+aionmap/__init__.py
+aionmap.egg-info/PKG-INFO
+aionmap.egg-info/SOURCES.txt
+aionmap.egg-info/dependency_links.txt
+aionmap.egg-info/not-zip-safe
+aionmap.egg-info/requires.txt
+aionmap.egg-info/top_level.txt

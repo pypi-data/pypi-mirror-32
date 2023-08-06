@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: aionmap
+Version: 0.0.2
+Summary: A python nmap package seem to python-nmap(https://pypi.org/project/python-nmap/), but for asyncio
+Home-page: https://github.com/ranyixu/aionmap
+Author: ranyixu
+Author-email: 1015243376@qq.com
+License: UNKNOWN
+Description: See on `github <https://github.com/ranyixu/aionmap>`_.
+Keywords: nmap,asyncio
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
