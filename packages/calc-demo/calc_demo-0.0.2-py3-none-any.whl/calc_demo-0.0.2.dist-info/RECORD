@@ -1,0 +1,10 @@
+calc_demo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+calc_demo/calc_demo.py,sha256=SgF3inbV8XKftJ817ZxaLItuq7GXGTVRK8iJq2qwnLc,1374
+calc_demo-0.0.2.data/scripts/calc_demo,sha256=-giVkUHdF4Kt0p64Fd8K8HJ5N-6nAz9rLQt-tOWFSbI,59
+calc_demo-0.0.2.dist-info/METADATA,sha256=Zcm6FH0zVNOazhorgOHAPkL9Cdj8y98HdUBZX9hA-90,720
+calc_demo-0.0.2.dist-info/RECORD,,
+calc_demo-0.0.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+calc_demo-0.0.2.dist-info/top_level.txt,sha256=xD4erg15rY4-w6e50yO3JG4544oZtg-vTuZHMKOydN4,15
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_div.py,sha256=xiS8m1slO1WHg-xDkEwNPo4BnLXIuGYeu-NZHrvUdu0,187
+test/test_sum.py,sha256=DYzdjk-hqZ_FTodUsOc9wzQNTaq0S8RB_56KYAdQZjU,103
