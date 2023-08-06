@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Support{% endblock %}
+{% block extra_head %}{{ form.media }}{% endblock %}
+{% block content %}
+<h1>Support Request</h1>
+<form action="{% url support_index %}" id="supportform" method="POST">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Send"/>
+</form>
+
+{% endblock %}
