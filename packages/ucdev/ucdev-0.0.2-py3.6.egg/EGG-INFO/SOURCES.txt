@@ -1,0 +1,15 @@
+README.md
+setup.py
+ucdev/__init__.py
+ucdev/ad9850.py
+ucdev/common.py
+ucdev/hmc5883.py
+ucdev/mpu6050.py
+ucdev/nrf24.py
+ucdev/register.py
+ucdev/si4702.py
+ucdev.egg-info/PKG-INFO
+ucdev.egg-info/SOURCES.txt
+ucdev.egg-info/dependency_links.txt
+ucdev.egg-info/requires.txt
+ucdev.egg-info/top_level.txt
