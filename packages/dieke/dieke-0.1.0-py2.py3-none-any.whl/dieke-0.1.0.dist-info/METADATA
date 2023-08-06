@@ -1,0 +1,36 @@
+Metadata-Version: 2.0
+Name: dieke
+Version: 0.1.0
+Summary: Crystal field calculations for the rare earths
+Home-page: https://github.com/jevonlongdell/dieke
+Author: Jevon Longdell
+Author-email: jevon.longdell@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: xlrd
+
+=====
+Dieke
+=====
+
+
+Crystal field calculations for the Rare Earths
+
+
+* Free software: GNU General Public License v3
+* Documentation: https://dieke.readthedocs.io.
+
+
+Features
+--------
+
+* Reads Crosswhite Fortran datafiles into python code
+
+
+
