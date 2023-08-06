@@ -1,0 +1,112 @@
+Metadata-Version: 1.1
+Name: collective.multitheme
+Version: 1.0
+Summary: A (Multi) Theme for Plone 5
+Home-page: https://pypi.python.org/pypi/collective.multitheme
+Author: Espen Moe-Nilssen
+Author-email: espen@medialog.no
+License: GPL version 2
+Description: .. This README is meant for consumption by humans and pypi. Pypi can render rst files so please do not use Sphinx features.
+           If you want to learn more about writing documentation, please check out: http://docs.plone.org/about/documentation_styleguide.html
+           This text does not appear on pypi or github. It is a comment.
+        
+        ==============================================================================
+        collective.multitheme
+        ==============================================================================
+        
+        A theme for Plone 5
+        
+        Features
+        --------
+        
+        - A theme for Plone 5 that can be customized.
+        - Choose between 'themes' in the control panel
+        - Choose between fragment tiles in the Mosaic Layout editor
+        - Choose between (layout) styles for each Mosaic Fragment Tile
+        
+        
+        Documentation
+        -------------
+        
+        No documentation yet
+        
+        
+        Translations
+        ------------
+        
+        This product has not been translated yet
+        
+        
+        Installation
+        ------------
+        
+        Install collective.multitheme by adding it to your buildout::
+        
+            [buildout]
+        
+            ...
+        
+            eggs =
+                collective.multitheme
+        
+        
+        and then running ``bin/buildout``
+        
+        
+        Contribute
+        ----------
+        
+        - Issue Tracker: https://github.com/collective/collective.multitheme/issues
+        - Source Code: https://github.com/collective/collective.multitheme
+        - Use  'lessc mylessfile.less mycssfile.css'
+        
+        
+        Lessc
+        -------
+        
+        If you change settings / colors, run this:
+        
+        
+        cd blue; lessc theme.less  theme.css;
+        cd ../blue; lessc theme.less  theme.css;
+        cd ../ploneconf; lessc theme.less  theme.css;
+        cd ../booster; lessc theme.less  theme.css;
+        cd ../red; lessc theme.less  theme.css;
+        cd ../spot; lessc theme.less  theme.css;
+        cd ../dutchblue; lessc theme.less  theme.css;
+        cd ../scheme1; lessc theme.less  theme.css;
+        
+        
+        License
+        -------
+        
+        The project is licensed under the GPLv2.
+        
+        
+        Contributors
+        ============
+        
+        - Espen Moe-Nilssen, espen@medialog.no
+        
+        
+        Changelog
+        =========
+        
+        
+        1.0 (2018-05-30)
+        ----------------
+        
+        - Initial release.
+          [espenmn]
+        
+Keywords: Python Plone
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Plone
+Classifier: Framework :: Plone :: Theme
+Classifier: Framework :: Plone :: 5.0
+Classifier: Framework :: Plone :: 5.1
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)

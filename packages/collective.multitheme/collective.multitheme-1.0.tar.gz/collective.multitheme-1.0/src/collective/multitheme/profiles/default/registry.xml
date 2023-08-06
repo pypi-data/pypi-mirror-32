@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<registry>
+	<record name="plone.templates" interface="Products.CMFPlone.interfaces.controlpanel.ITinyMCESchema" field="templates">
+	  <field type="plone.registry.field.Text">
+	    <default></default>
+	    <description xmlns:ns0="http://xml.zope.org/namespaces/i18n" ns0:domain="plone" ns0:translate="help_tinymce_templates">Enter the list of templates in json format                 http://www.tinymce.com/wiki.php/Plugin:template</description>
+	    <required>False</required>
+	    <title xmlns:ns0="http://xml.zope.org/namespaces/i18n" ns0:domain="plone" ns0:translate="label_tinymce_templates">Templates</title>
+	  </field>
+	  <value>[
+	  	{"title": "Image Grid 2x2", "url": "++theme++multitheme/tinymce-templates/image-grid-2x2.html"}
+	  	]</value>
+	</record>
+
+	<record name="plone.custom_plugins" interface="Products.CMFPlone.interfaces.controlpanel.ITinyMCESchema" field="custom_plugins">
+	    <field type="plone.registry.field.List">
+	      <default/>
+	      <description xmlns:ns0="http://xml.zope.org/namespaces/i18n" ns0:domain="plone" ns0:translate="">Enter a list of custom plugins which will be loaded in the editor. Format is pluginname|location, one per line.</description>
+	      <required>False</required>
+	      <title xmlns:ns0="http://xml.zope.org/namespaces/i18n" ns0:domain="plone" ns0:translate="">Custom plugins</title>
+	      <value_type type="plone.registry.field.TextLine"/>
+	    </field>
+	    <value>
+	      <element>template|+plone+static/components/tinymce-builded/js/tinymce/plugins/template</element>
+	    </value>
+	</record>
+  <records interface="collective.multitheme.interfaces.ICollectiveMultiThemeSettings">
+		<value key="style">dutchblue</value>
+		<value key="rules">default</value>
+		<value key="color1">123456</value>
+		<value key="color2">234561</value>
+		<value key="color3">345612</value>
+		<value key="fullwidth">0</value>
+		<value key="load_css">True</value>
+	</records>
+
+ <record name="plone.app.mosaic.default_available_actions">
+	    <value purge="False">
+	      <element>grid-row-fullwidth</element>
+	    </value>
+	</record>
+	<records interface="plone.app.mosaic.interfaces.IFormat"
+	           prefix="plone.app.mosaic.formats.grid_row_fullwidth">
+	    <value key="name">grid-row-fullwidth</value>
+	    <value key="category">row</value>
+	    <value key="label">Toggle Full width</value>
+	    <value key="action">row-toggle-class</value>
+	    <value key="icon">true</value>
+	    <value key="favorite">false</value>
+	    <value key="weight">100</value>
+	</records>
+
+	<records prefix="plone.bundles/imagesloaded-js"
+	           interface="Products.CMFPlone.interfaces.IBundleRegistry">
+	    <value key="depends">plone</value>
+	    <value key="jscompilation">++theme++multitheme/javascript/imagesloaded.pkgd.min.js</value>
+	    <value key="last_compilation">2017-10-06 00:00:00</value>
+	    <value key="compile">False</value>
+	    <value key="enabled">True</value>
+	</records>
+	<records prefix="plone.bundles/masonry-js"
+	           interface="Products.CMFPlone.interfaces.IBundleRegistry">
+	    <value key="depends">imagesloaded-js</value>
+	    <value key="jscompilation">++theme++multitheme/javascript/masonry.pkgd.min.js</value>
+	    <value key="csscompilation">++theme++multitheme/css/masonary.css</value>
+	    <value key="last_compilation">2017-10-06 00:00:00</value>
+	    <value key="compile">False</value>
+	    <value key="enabled">True</value>
+	</records>
+</registry>
