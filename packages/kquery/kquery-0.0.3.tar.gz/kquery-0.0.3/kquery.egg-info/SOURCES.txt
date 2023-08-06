@@ -1,0 +1,15 @@
+README.md
+setup.py
+kquery/__init__.py
+kquery/cli.py
+kquery/kquery.py
+kquery.egg-info/PKG-INFO
+kquery.egg-info/SOURCES.txt
+kquery.egg-info/dependency_links.txt
+kquery.egg-info/entry_points.txt
+kquery.egg-info/requires.txt
+kquery.egg-info/top_level.txt
+kquery/forms/__init__.py
+kquery/forms/connection.py
+kquery/forms/connections.py
+kquery/forms/mainwindow.py
