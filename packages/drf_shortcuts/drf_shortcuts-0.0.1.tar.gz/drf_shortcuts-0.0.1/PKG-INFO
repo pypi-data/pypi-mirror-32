@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: drf_shortcuts
+Version: 0.0.1
+Summary: Common shortcuts for speeding up your development based on Django REST Framework (DRF).
+Home-page: https://github.com/megaden/drf-shortcuts
+Author: Daniel Ivanov
+Author-email: megaden4eg@gmail.com
+License: MIT
+Description: # DRF Shortcuts
+        Common shortcuts for speeding up your development based on Django REST Framework (DRF).
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
