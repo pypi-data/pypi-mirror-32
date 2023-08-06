@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: purly
+Version: 0.0.1
+Summary: Control the web with Python.
+Home-page: https://github.com/rmorshea/purly
+Author: Ryan Morshead
+Author-email: ryan.morshead@gmail.com
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Description: # Purly
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning

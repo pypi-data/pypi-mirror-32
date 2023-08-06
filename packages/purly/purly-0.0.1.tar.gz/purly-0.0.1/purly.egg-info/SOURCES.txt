@@ -1,0 +1,5 @@
+stub-setup.py
+purly.egg-info/PKG-INFO
+purly.egg-info/SOURCES.txt
+purly.egg-info/dependency_links.txt
+purly.egg-info/top_level.txt
