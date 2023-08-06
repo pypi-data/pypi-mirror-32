@@ -1,0 +1,14 @@
+setup.cfg
+setup.py
+pylogenetics/Matrix.py
+pylogenetics/Tree.py
+pylogenetics/__init__.py
+pylogenetics/api.py
+pylogenetics/read.py
+pylogenetics/supertree.py
+pylogenetics.egg-info/PKG-INFO
+pylogenetics.egg-info/SOURCES.txt
+pylogenetics.egg-info/dependency_links.txt
+pylogenetics.egg-info/pbr.json
+pylogenetics.egg-info/requires.txt
+pylogenetics.egg-info/top_level.txt
