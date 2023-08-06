@@ -1,0 +1,11 @@
+coreapi
+Django>=1.11
+django-filter
+djangorestframework
+drf-nested-routers
+drf-yasg
+psycopg2-binary
+PyYAML
+rq>=0.11.0
+setuptools
+pulpcore-common
