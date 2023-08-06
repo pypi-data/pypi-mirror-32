@@ -1,0 +1,11 @@
+README.md
+setup.py
+minikerberos/__init__.py
+minikerberos/asn1_structs.py
+minikerberos/ccache.py
+minikerberos.egg-info/PKG-INFO
+minikerberos.egg-info/SOURCES.txt
+minikerberos.egg-info/dependency_links.txt
+minikerberos.egg-info/requires.txt
+minikerberos.egg-info/top_level.txt
+minikerberos.egg-info/zip-safe
