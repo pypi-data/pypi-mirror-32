@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+physicspy.egg-info/PKG-INFO
+physicspy.egg-info/SOURCES.txt
+physicspy.egg-info/dependency_links.txt
+physicspy.egg-info/not-zip-safe
+physicspy.egg-info/requires.txt
+physicspy.egg-info/top_level.txt
+physpy/__init__.py
+physpy/diff.py
