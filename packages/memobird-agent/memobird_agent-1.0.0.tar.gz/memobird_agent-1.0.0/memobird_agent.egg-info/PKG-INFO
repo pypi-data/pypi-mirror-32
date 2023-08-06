@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: memobird-agent
+Version: 1.0.0
+Summary: Print document on memobird from python using official API
+Home-page: http://github.com/tcai793/memobird_agent
+Author: Tong Cai
+Author-email: tong.cai.793@outlook.com
+License: MIT
+Description: UNKNOWN
+Keywords: print memobird printer
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Printing
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
