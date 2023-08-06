@@ -1,0 +1,41 @@
+CHANGES
+=======
+
+0.3.11
+------
+
+* trying to get version w/o including pbr
+* trying to get version w/o including pbr
+* trying to get version w/o including pbr
+* trying to get version w/o including pbr
+
+0.3.9
+-----
+
+* fixed dependencies..
+
+0.3.8
+-----
+
+* fixed descrtipion..
+
+0.3.4
+-----
+
+* added pbr..
+
+0.3.3
+-----
+
+* Fix bug: open README.md raises UnicodeDecodeError
+* ignore cets..
+* disable certificate verification..
+* Update README.md
+* Update README.md
+* fixed cli..
+* fixed source..
+* ..
+* Create LICENSE
+* Delete LICENSE
+* Update LICENSE
+* Initial commit
