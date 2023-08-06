@@ -1,0 +1,15 @@
+README.md
+setup.py
+nolimit/__init__.py
+nolimit/icona.png
+nolimit/icona100x100.png
+nolimit/icona300x300.png
+nolimit/main.py
+nolimit.egg-info/PKG-INFO
+nolimit.egg-info/SOURCES.txt
+nolimit.egg-info/dependency_links.txt
+nolimit.egg-info/entry_points.txt
+nolimit.egg-info/requires.txt
+nolimit.egg-info/top_level.txt
+nolimit/sympy/nolimit_sympy.py
+nolimit/sympy/nolimit_sympy.ui
