@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: voiceit
+Version: 1.0.0
+Summary: VoiceIt API 1.0 Python Wrapper
+Home-page: https://github.com/voiceittech/voiceit-python
+Author: Armaan Bindra
+Author-email: armaan@voiceit.io
+License: UNKNOWN
+Download-URL: https://github.com/voiceittech/voiceit-python/archive/0.1.tar.gz
+Description: UNKNOWN
+Keywords: biometrics,voice verification,voice biometrics
+Platform: UNKNOWN
