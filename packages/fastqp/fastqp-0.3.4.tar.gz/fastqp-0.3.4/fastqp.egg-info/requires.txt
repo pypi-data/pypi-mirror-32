@@ -1,0 +1,6 @@
+six
+matplotlib
+numpy
+simplesam
+scipy
+cycler
