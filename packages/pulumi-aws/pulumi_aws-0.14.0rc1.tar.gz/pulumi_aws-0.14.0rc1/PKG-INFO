@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: pulumi_aws
+Version: 0.14.0rc1
+Summary: A Pulumi package for creating and managing Amazon Web Services (AWS) cloud resources.
+Home-page: https://pulumi.io/aws
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Project-URL: Repository, https://github.com/pulumi/pulumi-aws
+Description: UNKNOWN
+Keywords: pulumi aws
+Platform: UNKNOWN
