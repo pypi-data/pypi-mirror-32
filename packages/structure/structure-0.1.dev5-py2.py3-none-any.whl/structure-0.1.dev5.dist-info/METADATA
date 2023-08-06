@@ -1,0 +1,21 @@
+Metadata-Version: 2.0
+Name: structure
+Version: 0.1.dev5
+Summary: The Structure CLI interface.
+Home-page: https://structure.sh
+Author: Structural Labs, Inc.
+Author-email: test@structure.sh
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: colorama
+Requires-Dist: fire
+Requires-Dist: pathspec
+Requires-Dist: pyyaml
+Requires-Dist: requests
+Requires-Dist: tinynetrc
+Requires-Dist: websocket-client
+
+UNKNOWN
+
+
