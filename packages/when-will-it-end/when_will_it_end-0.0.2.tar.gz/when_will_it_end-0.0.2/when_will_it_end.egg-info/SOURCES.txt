@@ -1,0 +1,7 @@
+README.md
+setup.py
+when_will_it_end/__init__.py
+when_will_it_end.egg-info/PKG-INFO
+when_will_it_end.egg-info/SOURCES.txt
+when_will_it_end.egg-info/dependency_links.txt
+when_will_it_end.egg-info/top_level.txt
