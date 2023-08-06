@@ -1,0 +1,21 @@
+Metadata-Version: 2.0
+Name: csvresumable
+Version: 0.0.1
+Summary: adding tiny resume function, for csv reading iterator
+Home-page: https://github.com/podhmo/csvresumable
+Author: podhmo
+Author-email: ababjam61+pypi@gmail.com
+License: UNKNOWN
+Description-Content-Type: text/markdown
+Keywords: csv,resume
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Provides-Extra: docs
+Requires-Dist: kamidana; extra == 'docs'
+Provides-Extra: testing
+
+
+
+
+
