@@ -1,0 +1,21 @@
+image: mgoral/super-ci-runner:latest
+
+stages:
+    - deploy
+
+dist:
+    stage: deploy
+    before_script:
+        - pip3 install -rreqs/requirements-deploy.txt
+    only:
+        - tags
+        - triggers
+    script:
+        # https://github.com/pypa/setuptools/issues/1064
+        - python3 setup.py sdist
+        - python3 setup.py bdist_wheel
+        - twine upload dist/* -u "$PYPI_USER" -p "$PYPI_PASS"
+    artifacts:
+        name: "${CI_PROJECT_NAME}-{$CI_BUILD_REF_NAME}"
+        paths:
+            - dist/
