@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: purerpc
+Version: 0.1.0
+Summary: Asynchronous pure python gRPC server and client implementation using curio and hyper-h2.
+Home-page: UNKNOWN
+Author: Andrew Stepanov
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6.0
