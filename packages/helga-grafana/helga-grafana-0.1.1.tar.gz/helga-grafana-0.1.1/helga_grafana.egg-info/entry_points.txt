@@ -1,0 +1,3 @@
+[helga_webhooks]
+grafana = helga_grafana.webhooks:grafana
+

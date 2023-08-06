@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: helga-grafana
+Version: 0.1.1
+Summary: Plugin for Helga to receive Grafana webhook alerts
+Home-page: https://github.com/ianw/helga-grafana
+Author: Ian Wienand
+Author-email: ian@wienand.org
+License: UNKNOWN
+Description: helga-grafana
+        -------------
+        
+        This is a plugin for `Helga <https://github.com/shaunduncan/helga>`__
+        to report alerts from `Grafana <https://grafana.com/>`__ via it's
+        webhook trigger.
+        
+        Parameters
+        ----------
+        
+        * ``GRAFANA_WEBHOOK_CHANNEL`` : the channel to post the alert to
+        
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
