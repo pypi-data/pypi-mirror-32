@@ -1,0 +1,9 @@
+sports.py-1.2.1.dist-info/METADATA,sha256=H0h9V3H1UkvBabhMl2RjQ0TGPhuuUn689nxo8Vn8c3w,4871
+sports.py-1.2.1.dist-info/RECORD,,
+sports.py-1.2.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+sports.py-1.2.1.dist-info/top_level.txt,sha256=MbviUvPpDc_iAJ_FQmF6WmpNnZRwt4LHt7JFQUlhVQA,10
+sports_py/__init__.py,sha256=Pa-6zUWHte6hZPp-LbS_LOyfBKL25PUreK1Ap0bvl2s,104
+sports_py/errors.py,sha256=0vuoCyjlINU3Jq8j8FCn7lfnJGik7b_4P2gvBdbj3QM,820
+sports_py/models.py,sha256=dCZPJYfSQ20_4_FnELQbJ3UBr3uoGmxjEe5ZwONyVsA,1321
+sports_py/scores.py,sha256=WFVApB4tXgpxMVNAfK5Cnd89eI0WJQ1KNdow_3NHDcw,4441
+sports_py/teams.py,sha256=l4qedciI4JbQpmbUY6VtCEAporic-FiejytCphq_N6U,5141
