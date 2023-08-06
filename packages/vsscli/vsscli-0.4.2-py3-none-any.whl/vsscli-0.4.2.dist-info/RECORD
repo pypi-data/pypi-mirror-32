@@ -1,0 +1,11 @@
+vsscli/SystemStatus.py,sha256=HZ_p7PgmR2Ozuhc9hlmBpx3ZQSsfUOOj19EO-OyJsSY,2489
+vsscli/VssCLI.py,sha256=NIgsMKC3jgNaWfy-T_u1ifCMCAH3z2flekCUkb8Fbek,10512
+vsscli/__init__.py,sha256=lmcxqDgjkQQ2DWrKQS0MUbZZasHaoqWrht2sgbiFOOA,654
+vsscli/cli.py,sha256=sNwcd3bZuKAstDfRyCcPlfC0qWkcFtlkYgTN4Cppb6U,200394
+vsscli/utils.py,sha256=s1gSVrAUW1-IJOGutGD39snyhIVKKkkITHLWhH6vJok,13544
+vsscli-0.4.2.data/scripts/vss_bash_completer,sha256=t0G_DpVHKs2gCatOdxSw4OD6xbibZkw3h8TF137XOVc,228
+vsscli-0.4.2.dist-info/METADATA,sha256=m6_uBUYkUL1F7cQjXAXcLzdx-Ht9PYg-ctF5JAGHMos,7619
+vsscli-0.4.2.dist-info/RECORD,,
+vsscli-0.4.2.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+vsscli-0.4.2.dist-info/entry_points.txt,sha256=Q52JQE_I6CfSFnM-jhxwnttmKrbMJI2XcWAcFfWSZuY,62
+vsscli-0.4.2.dist-info/top_level.txt,sha256=1lIhQ7c2LqXDZqhP8Y_-GOZbI0JgtUnkhp1nPLl8Sl8,7
