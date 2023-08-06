@@ -1,0 +1,3 @@
+[console_scripts]
+pretendsmtp = pretendsmtp:commandline.main
+

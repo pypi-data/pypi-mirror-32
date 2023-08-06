@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Email</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="include/bootstrap-3.3.7.min.css">
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-6 bg-primary"><h4>From: {{ sent_from }}</h4></div>
+    <div class="col-sm-6 bg-primary"><h4>To: {{ ", ".join(sent_to) }}</h4></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 bg-primary"><h4>Subject: {{ subject }}</h4></div>
+  </div>
+  {% if multipart %}
+  {% for part in payload %}
+  <div class="row">
+    <div class="col-sm-12"><h4>{{ part['content-type'] }}</h4></div>
+  </div>
+  {% if part['content-type'] == 'text/html' %}
+  <div class="row">
+    <div class="col-sm-12">
+        {{ part['content'] }}
+    </div>
+  </div>
+  {% else %}
+  <div class="row">
+    <div class="col-sm-12">
+        {{ part['content'] }}
+    </div>
+  </div>
+  {% endif %}
+  {% endfor %}
+  {% else %}
+  <div class="row">
+     <div class="col-sm-12"><h4>Plaintext email</h4></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+    {{ payload }}
+    </div>
+  </div>
+  {% endif %}
+</div>
+</body>
+</html>
