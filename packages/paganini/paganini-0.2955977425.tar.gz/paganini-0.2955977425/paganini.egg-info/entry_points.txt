@@ -1,0 +1,3 @@
+[console_scripts]
+paganini = paganini.__main__:main
+
