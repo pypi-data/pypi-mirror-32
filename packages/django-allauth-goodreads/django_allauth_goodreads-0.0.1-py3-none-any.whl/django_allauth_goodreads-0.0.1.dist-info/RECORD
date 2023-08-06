@@ -1,0 +1,11 @@
+django_allauth_goodreads-0.0.1.dist-info/METADATA,sha256=31dGmSZZohAuJzauAiCRRqUyfjzRbtcMK9E57dgmG8w,1006
+django_allauth_goodreads-0.0.1.dist-info/RECORD,,
+django_allauth_goodreads-0.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+django_allauth_goodreads-0.0.1.dist-info/top_level.txt,sha256=0_K7u87dHt8o66W_TtLC8iNmfrBlsUY8xiRnyaeaxk8,15
+goodreads_auth/__init__.py,sha256=H8rHdil5O-_K07jMGQd1eDIS6lXhvdNusvQ7AfWAFKM,23
+goodreads_auth/api.py,sha256=hLR4NAiXxazZgoj4ddFVAr3-XraWBwU9RNlOo7oHO-4,404
+goodreads_auth/models.py,sha256=o9OLSqCjxl-f58x1NghptLZ54jnJelBqJUiOVQBmwuQ,27
+goodreads_auth/provider.py,sha256=qka5C2TF4YX9B-MAaEBAX46pJ1LJ6gD5bBuXtG6HEtQ,642
+goodreads_auth/tests.py,sha256=loGLU1HD0kn7FFJ0dr7f1M-OJty4_N08q7xu3ORSiGA,455
+goodreads_auth/urls.py,sha256=6EDbcaQsCMp2kjROu7HZrnbSSbFGqmYgciuPmhuN004,170
+goodreads_auth/views.py,sha256=5qANzvbcwzN1lTAzcfLujBTQsthWfo2hAao5elq4DIc,991
