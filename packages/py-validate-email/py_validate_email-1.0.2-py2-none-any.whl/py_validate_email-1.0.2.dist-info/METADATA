@@ -1,0 +1,74 @@
+Metadata-Version: 2.0
+Name: py-validate-email
+Version: 1.0.2
+Summary: A Python port to validate disposable emails
+Home-page: https://github.com/bhargavrpatel/py-validate-email
+Author: Bhargav Patel
+Author-email: ziikutv@gmail.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Keywords: validate disposable emails
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Operating System :: OS Independent
+Provides-Extra: tests
+Requires-Dist: pytest; extra == 'tests'
+Requires-Dist: coverage; extra == 'tests'
+Requires-Dist: tox; extra == 'tests'
+
+ValidateEmail
+=============
+
+`Build Status <https://travis-ci.org/bhargavrpatel/py-validate-email>`__
+`License: MIT <https://opensource.org/licenses/MIT>`__
+
+   Validate if an email is a disposable email.
+
+.. code:: python
+
+   from py_validate_email import is_valid_email
+
+   def register(email, password):
+       if not is_valid_email(email):
+           raise ValueError('Cannot register email with invalid email')
+
+Contributing
+~~~~~~~~~~~~
+
+**Pull requests welcome**
+
+1. Fork the repository
+2. Create a new branch
+3. Make the necessary changes including your tests
+4. Lint your code via ``make lint``
+5. Check the coverage report via ``make test``
+6. Create a `Pull
+   Request <https://github.com/bhargavrpatel/py-validate-email/compare?expand=1>`__
+
+Acknowledgements
+~~~~~~~~~~~~~~~~
+
+Email list was sourced from
+`hallelujah/valid_email <https://github.com/hallelujah/valid_email>`__,
+licensed under MIT.
+
+License
+~~~~~~~
+
+`Reference <https://github.com/bhargavrpatel/py-validate-email>`__
+
+Change Log
+==========
+
+
