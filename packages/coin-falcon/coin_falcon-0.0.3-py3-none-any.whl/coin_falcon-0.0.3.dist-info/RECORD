@@ -1,0 +1,10 @@
+coin_falcon/__init__.py,sha256=Hjna3wGdr_X89LanBi1a-DY-z6YDWkgxrl6NjQMTydA,21
+coin_falcon/cipher.py,sha256=a4XI71wxQTC9-Rl_x6v9CkK9X8q__Kgt4UN-5NticdI,932
+coin_falcon/client.py,sha256=FuQZB0rFBy7xlV_l6QVKqxiN8myiPBLjUC_MrxOyh2E,2010
+coin_falcon/connection.py,sha256=W468r1Qm0-DrykqDbordbM0xN1L0ZeKzjpdNaWhJnNM,2843
+coin_falcon/request.py,sha256=mVu0Zi5kvoClChrGi9J9X5I3hdlFUSl3106Lx-NDIm0,734
+coin_falcon/websocket_client.py,sha256=zWm02_HxdXbAzz2aMQA-bH5wWrfKv3ZlQctreyzcaS8,1247
+coin_falcon-0.0.3.dist-info/METADATA,sha256=jaz2uaoqzonhdPECyKlMGzhLUCcJ7xlGSGz9LrnOGpk,2994
+coin_falcon-0.0.3.dist-info/RECORD,,
+coin_falcon-0.0.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+coin_falcon-0.0.3.dist-info/top_level.txt,sha256=ZU3tAV_r_WRmzj9mB01R2OEIaBZivjJXJgzfahUjDOg,12
