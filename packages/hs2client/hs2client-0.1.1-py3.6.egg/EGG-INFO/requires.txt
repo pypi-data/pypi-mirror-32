@@ -1,0 +1,10 @@
+thrift
+click
+future
+thrift_sasl
+
+[dev]
+pytest
+
+[test]
+pytest
