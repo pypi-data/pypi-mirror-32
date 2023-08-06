@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: nyptune
+Version: 0.0.1.1528068397
+Summary: Nyptune hides a copy of your environment in your Jypyter notebooks so that other people can easily reproduce your work
+Home-page: https://github.com/fizx/nyptune
+License: UNKNOWN
+Author: Kyle Maxwell
+Author-email: kyle@kylemaxwell.com
+Requires-Python: >=3.6
+Requires-Dist: tqdm
+Requires-Dist: pycryptodome
