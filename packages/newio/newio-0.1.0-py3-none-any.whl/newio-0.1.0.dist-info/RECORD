@@ -1,0 +1,11 @@
+newio/__init__.py,sha256=ug4v80uUkxpjwbmI_KmRk9qKeQMK7iFRborBF-jyVWk,78
+newio/_socket.py,sha256=A-a4r9jXBau8e5LGOtUQrMxjyNV2LPtF8tIdifdoFUU,6722
+newio/api.py,sha256=nwgcqIQmZ68I9vpoVE4pSlvySBizGc1xy1lFo9BJmWM,2566
+newio/queue.py,sha256=k6Lsufa0Jy3Yk6yv1hJytxrKuWyUb5fxzGS7iZ3PvqQ,2252
+newio/socket.py,sha256=3IWOhyWI-oDHtZjUWFAjSz54XpLq2soCe7_y2RJfBO8,1789
+newio/ssl.py,sha256=MV_YznDWJlJUU5Pzpc1jwS_pIKwsOemZO1nuf2DzggU,2341
+newio/sync.py,sha256=vrfzhXK653uq9wQuBLRs4qcQ6kBbAEg0MyjVJ8rK3os,3951
+newio/syscall.py,sha256=608CSJ2BxFnHlwMRqW6tqucd6dbyjIMkNmyHyU8KxRA,6628
+newio-0.1.0.dist-info/WHEEL,sha256=1hFNIBVr0mqHdj15Z6oCbvlD10kJ17hbew1sSEPQkj8,83
+newio-0.1.0.dist-info/METADATA,sha256=SbalZSUtd2GuQCfil1aRi-QLXg5bYBGE4AII4XooV5A,313
+newio-0.1.0.dist-info/RECORD,,
