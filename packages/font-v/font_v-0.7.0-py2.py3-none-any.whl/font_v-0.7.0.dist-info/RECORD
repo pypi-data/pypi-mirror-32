@@ -1,0 +1,13 @@
+.DS_Store,sha256=1xQj7NC0nZ_bzt8gE5RMrnoNUVBWHR5Sp145oSHqAfI,6148
+font_v-0.7.0.dist-info/METADATA,sha256=7Ay7IFIHtUdMzxza1WjcSIpgcnrA7jlb7_mtNYBiKQs,1610
+font_v-0.7.0.dist-info/RECORD,,
+font_v-0.7.0.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+font_v-0.7.0.dist-info/entry_points.txt,sha256=jReFPiAHP00wlmMp24dgVsb8J0TvDQM4LUShA6pE5pM,43
+font_v-0.7.0.dist-info/top_level.txt,sha256=9Qw36JmOC5ZVIY3KNBv17_Ruy4XAq24xc4sOOZTzm8Q,6
+fontv/__init__.py,sha256=StAfza8ohuJZl4suxWknWBySer4uppaPeMYJ04YLHjU,47
+fontv/app.py,sha256=IlFkTtknn57UFU0bEIYqX1qLgjJrmj4-z1SDAHrC4p8,8139
+fontv/commandlines.py,sha256=KAtlh3eTPyWX7dJvMK3VlbVwC9TYo6V4UomeDISSc9M,36340
+fontv/exceptions.py,sha256=e1wLBg9-fEDvRTV6tR47AA8YgyzTd-vz8dYrurHZHPY,1176
+fontv/libfv.py,sha256=FGUZvTrC6fRhCuZXOM3YMZ7CIs4NJ2XBXy7hbFkdlwc,32364
+fontv/settings.py,sha256=c1OHatDYLJ1NM_K3cUPP5xc-KMR-3F_mQIjwbewHtVE,3401
+fontv/utilities.py,sha256=5e6p-Yr1eZMao9AGvvZd9GHY6OwX7A1oEwJDg8u_vwA,3072
