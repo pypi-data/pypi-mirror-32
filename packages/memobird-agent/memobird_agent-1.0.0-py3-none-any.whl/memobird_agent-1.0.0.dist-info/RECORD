@@ -1,0 +1,7 @@
+memobird_agent/__init__.py,sha256=f7ZEdrC3Uo4_sFbsM4nVCfSRxvGWEZrNKw-06lm5zDg,3302
+memobird_agent/config.py,sha256=QNmveQKDXEXZh8uqL2kLpdBoYWJ9nopU8H2jF3n0lVM,99
+memobird_agent/security.py,sha256=7R2pAJVV-AfJuj_zlomWNk5PmJum4sHQMmurJagWD64,1352
+memobird_agent-1.0.0.dist-info/METADATA,sha256=OjWBeeJsGiwNHAx3hLe-RZbKIfT5NXbqwnAe6jAAbek,894
+memobird_agent-1.0.0.dist-info/RECORD,,
+memobird_agent-1.0.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+memobird_agent-1.0.0.dist-info/top_level.txt,sha256=puFS4PCD9u0Wqtbrv1HqzOPeqzrjT1WOfcVHziFo_R0,15
