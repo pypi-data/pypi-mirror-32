@@ -1,0 +1,12 @@
+knave/__init__.py,sha256=4irCT_w75f1pUHCtaz38Q7vgN2kWOEkIzIsgeYtYJH0,741
+knave/acl.py,sha256=9yj7D0djukGEzM2u98ZdrBSGCjC2xtAWjY1suabz7xU,6954
+knave/identity.py,sha256=PZG8NCUm79Rjl3JydCnvKvQL_VyLiAZZwO0HFbs4lKQ,1485
+knave/middleware.py,sha256=jJrnRpMO1QcdMsKPsIaGRL7eSSRF8OP2OZ4nssy9Y0c,2316
+knave/predicates.py,sha256=D6-ls1iSLGpz5igTBtzad0zcxa6TLAghZRZ-IJJ7TmY,2372
+knave/roles.py,sha256=rJRLy6JqmWGESlk75S6M8h6rfe7riarRQbPC7qAf0T0,9016
+knave-0.3.2.dist-info/DESCRIPTION.rst,sha256=-7Gr06bj44M9CAZbB0qH80kHjtPHi2x9f-wdt6MeNv8,11254
+knave-0.3.2.dist-info/METADATA,sha256=UIoFxx4yGvia4HcR8NFq2RXk82_73XJwD8Rko_f4Pu8,12011
+knave-0.3.2.dist-info/RECORD,,
+knave-0.3.2.dist-info/WHEEL,sha256=hZvi-8L6mc2COqhOUWREM_h2lvnJbaHycZt8eohtmso,92
+knave-0.3.2.dist-info/metadata.json,sha256=ieFt6_EeSyFseDGKoRE3YKZxtQiY4w43Psymc2QI8Lg,919
+knave-0.3.2.dist-info/top_level.txt,sha256=2LeMnq_HyMY-Wrq3xETJMNq1jYZ8GuwCWViCwUHRpuA,6
