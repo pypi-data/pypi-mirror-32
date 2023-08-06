@@ -1,0 +1,11 @@
+setup.py
+c_salt/__init__.py
+c_salt/close_rate.py
+c_salt/conv_rate.py
+c_salt/simple_prediction.py
+c_salt.egg-info/PKG-INFO
+c_salt.egg-info/SOURCES.txt
+c_salt.egg-info/dependency_links.txt
+c_salt.egg-info/not-zip-safe
+c_salt.egg-info/requires.txt
+c_salt.egg-info/top_level.txt
