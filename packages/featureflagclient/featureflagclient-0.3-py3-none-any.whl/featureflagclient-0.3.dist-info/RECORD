@@ -1,0 +1,6 @@
+featureflagclient/__init__.py,sha256=JJk4MObp1a_eWO2iME8YqLNSpwBa67z_QajoohtoL24,26
+featureflagclient/client.py,sha256=cFSP1iT2TNN_n-bI33XveDUlo3L0PUQYf9qIyQUlp28,1177
+featureflagclient-0.3.dist-info/METADATA,sha256=dnF5m3U9ikDysER4HqEyxj-bL21YBJNvFjYGeXaqMlA,388
+featureflagclient-0.3.dist-info/RECORD,,
+featureflagclient-0.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+featureflagclient-0.3.dist-info/top_level.txt,sha256=hcSzkDTdWdxZpro-YH5togkzjzZgA4g00LoDxQLbA2c,18
