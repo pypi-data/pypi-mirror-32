@@ -1,0 +1,9 @@
+setup.py
+cards_imarshall/__init__.py
+cards_imarshall/cards.py
+cards_imarshall/test_cards.py
+cards_imarshall.egg-info/PKG-INFO
+cards_imarshall.egg-info/SOURCES.txt
+cards_imarshall.egg-info/dependency_links.txt
+cards_imarshall.egg-info/not-zip-safe
+cards_imarshall.egg-info/top_level.txt
