@@ -1,0 +1,17 @@
+kodi_addon_checker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kodi_addon_checker/__main__.py,sha256=-IIYEEbv9t9a8AMq6CQkva1uJ90pIRCrDd_zKu8HjhM,3989
+kodi_addon_checker/check_addon.py,sha256=9Kg1oXif0G8fNZDqpIDSvNi1VMH3DVpvgzxZC8p5DO0,18140
+kodi_addon_checker/check_repo.py,sha256=96hxPIbhkvIIppIrNQIeBhZNdInedmc4Da0h1vz8Rrc,693
+kodi_addon_checker/common.py,sha256=sPQVpqpEDkyPa0VPfEasfgYJcyBWAPJR5sNL_7NPNzc,834
+kodi_addon_checker/config.py,sha256=LEQZe_oiS85eY96aBgFxb8FkmBWN1KiMWRQS1a-4SZE,2103
+kodi_addon_checker/logger.py,sha256=16GBShldSRgyksZO8_AbRF-8__QK0MrMSVFGs0-gEuQ,768
+kodi_addon_checker/record.py,sha256=uB3Oc4y4jNmStkOE6eAJghmNNVBfKag3K2czhwjSbbw,1686
+kodi_addon_checker/report.py,sha256=M_Q1KDTvVcXRLhnvncAWLw1LETtJvziiIua7o_mOjLs,1209
+kodi_addon_checker/reporter.py,sha256=O5MWOvVgSUAcbgmPYY6tsq6lZs2IxITgt6RnMvnn9eU,1516
+kodi_addon_checker/plugins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kodi_addon_checker/plugins/console_reporter.py,sha256=QYg9J_i1IhO53WmapDrhDt51Y9v23mUGObfmJx1iadM,916
+kodi_addon_checker-0.0.5.dist-info/METADATA,sha256=YSQFwMdNtknIjY5XyEFjZKPAAFdV4i4WT__cdayWXKg,2055
+kodi_addon_checker-0.0.5.dist-info/RECORD,,
+kodi_addon_checker-0.0.5.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+kodi_addon_checker-0.0.5.dist-info/entry_points.txt,sha256=Uco5LaVhXPVDkiMHaMlnFSWLVpCtZm-yalQeqZA3Mww,73
+kodi_addon_checker-0.0.5.dist-info/top_level.txt,sha256=--_JbAo4Iu1-RTC1Z2Wjl7_Pqw19e3yeQps-PTyvU7s,19
