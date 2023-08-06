@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: pysetenv
+Version: 0.1.0
+Summary: A simple tool to set environment variables before running a command
+Home-page: https://jimporter.github.io/bfg9000/
+Author: Jim Porter
+Author-email: itsjimporter@gmail.com
+License: BSD
+Keywords: set environment variables
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Provides-Extra: dev
+Provides-Extra: test
+Provides-Extra: dev
+Requires-Dist: coverage; extra == 'dev'
+Requires-Dist: flake8 (>=3.0); extra == 'dev'
+Requires-Dist: pypandoc; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage; extra == 'test'
+Requires-Dist: flake8 (>=3.0); extra == 'test'
+
+# pysetenv
+**pysetenv** is a simple Python-based program to allow users to set environment
+variables before executing a command. While it's cross-platform, it's primarily
+designed to be used on Windows, where `cmd.exe` makes this considerably more
+difficult than on POSIX systems.
+
+## Why?
+
+pysetenv is designed as a support package to help authors of other Python
+packages create command-line strings like you'd expect from `sh` or the `env`
+command.
+
+## License
+
+This project is licensed under the [BSD 3-clause license](LICENSE).
+
+[travis-image]: https://travis-ci.org/jimporter/pysetenv.svg?branch=master
+[travis-link]: https://travis-ci.org/jimporter/pysetenv
+[appveyor-image]: https://ci.appveyor.com/api/projects/status/63t32hh6df519788/branch/master?svg=true
+[appveyor-link]: https://ci.appveyor.com/project/jimporter/pysetenv/branch/master
+[codecov-image]: https://codecov.io/gh/jimporter/pysetenv/branch/master/graph/badge.svg
+[codecov-link]: https://codecov.io/gh/jimporter/pysetenv
+
+
