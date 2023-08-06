@@ -1,0 +1,15 @@
+odoo10_addon_l10n_it_corrispettivi_sale-10.0.1.0.0-py2.7-nspkg.pth,sha256=BRP8mvEvEhIFmA57wbSTfAVbaAesjZh6WbtWMKUVv1c,1118
+odoo/addons/l10n_it_corrispettivi_sale/README.rst,sha256=CzdTJKfMAMhMK-yfW2hwIxlnc7CEpn0lHMv3N9zlPVc,1697
+odoo/addons/l10n_it_corrispettivi_sale/__init__.py,sha256=okNn3pxOaG6y7ncjMHpxm1WVNZv0vmHtrf4lQCOFgJc,112
+odoo/addons/l10n_it_corrispettivi_sale/__manifest__.py,sha256=yi3lsSb_zdj35jibJNHQGabTpDSFMXUMm3QzUgxlNXk,850
+odoo/addons/l10n_it_corrispettivi_sale/i18n/it.po,sha256=nGMZbJCbspPyDV2bksylPXbw8hqw2CUYP3ro7sUS1zI,657
+odoo/addons/l10n_it_corrispettivi_sale/models/__init__.py,sha256=sRyqmmQe1GJyaYldqDikzEPMglSo4hwpDj-nAhRm2jk,109
+odoo/addons/l10n_it_corrispettivi_sale/models/sale.py,sha256=yz8_svGVuBsGgJGZdELOQ0otyQ0UPHcsT8k_UPXidZE,724
+odoo/addons/l10n_it_corrispettivi_sale/views/sale_view.xml,sha256=cpsbCW1cIAswJlSC8PHMqvjsD-7lt01-mWqJL1SafuI,670
+odoo10_addon_l10n_it_corrispettivi_sale-10.0.1.0.0.dist-info/DESCRIPTION.rst,sha256=Ji6QGXrgiFs5i2WlO3vyPjw2oQh9xWFJ9wQxVBXG76g,1699
+odoo10_addon_l10n_it_corrispettivi_sale-10.0.1.0.0.dist-info/METADATA,sha256=5sGpPFBj99uUc3w5uTH51CEm5DuuVO54_okTW7KbQZg,2349
+odoo10_addon_l10n_it_corrispettivi_sale-10.0.1.0.0.dist-info/RECORD,,
+odoo10_addon_l10n_it_corrispettivi_sale-10.0.1.0.0.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+odoo10_addon_l10n_it_corrispettivi_sale-10.0.1.0.0.dist-info/metadata.json,sha256=NsTVSShNEbWMR4USGyumdhbcsRMG0_gtvmprWXS8msM,855
+odoo10_addon_l10n_it_corrispettivi_sale-10.0.1.0.0.dist-info/namespace_packages.txt,sha256=igDP6S4ywc6jzcMqzrKZpRtAUXrS-iYaA_Hu1EtlI48,17
+odoo10_addon_l10n_it_corrispettivi_sale-10.0.1.0.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
