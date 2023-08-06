@@ -1,0 +1,8 @@
+mastercard_parameter_management_services-1.0.5.dist-info/METADATA,sha256=HXFsEFg0_Bz4KIqv8dMz-WM0B4c4XjtNPofk76YO2ZU,702
+mastercard_parameter_management_services-1.0.5.dist-info/RECORD,,
+mastercard_parameter_management_services-1.0.5.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+mastercard_parameter_management_services-1.0.5.dist-info/top_level.txt,sha256=sjtEIUj36tu6Ixj5f7nl7yvSp58DUi9_ZbDFpjheyXs,38
+mastercardparametermanagementservices/__init__.py,sha256=yo2g5ZaIs6mT8GMWqmsNGDWIRMbYBxt3MPP46vKvKHo,310
+mastercardparametermanagementservices/dailycreditlimit.py,sha256=ukugDBH-MIMuhPbXMbNZe17ll2jUTwQ8gZU5-sD-1hA,3354
+mastercardparametermanagementservices/partnerstatus.py,sha256=Y9lS14FoByukTbsENCACOSS-hduZfHQGJU5yA0cSdo0,3342
+mastercardparametermanagementservices/resourceconfig.py,sha256=FH4Ga1Uq8eP4XG55NCfehlrWw38gvk_tL5dy2uyCy-A,3203
