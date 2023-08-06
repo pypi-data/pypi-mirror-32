@@ -1,0 +1,17 @@
+koicore/__init__.py,sha256=CRvaYCA9q06D6NJXee4ncXpmrlzdn2eVsaoUDCtGtVA,94
+koicore/koi_object.py,sha256=Culao36EWPg0PV3lGbhdkMGCL1BLfJf4ByqM_geWHSE,1000
+koicore/enums/__init__.py,sha256=2_QZKhenjNEXG3vcigNxdrUeEee_aOukbNUo4y18u3k,95
+koicore/enums/visibility.py,sha256=Evoye64jbYi80hPJkWNvFqHBWpVfjnIBqrHQqpMbEA8,202
+koicore/other/__init__.py,sha256=JlQquDgRZb__XKmZteG-rNVvJoBZIh_hOpkNhrLZfSA,98
+koicore/other/koi_variable.py,sha256=icqKKgb4teDvYYO3vomVmwghAjMIwBzDEYG-773vEo8,746
+koicore/types/__init__.py,sha256=UKcgXhBi9DAEYKVhupRS7lJcXSC_sn4o6DYP0ZXPCRk,209
+koicore/types/koi_boolean.py,sha256=sg4Y7CfaBtnqnCKvtBF-Rk9kuye0zuVVxMWEzZREEMs,639
+koicore/types/koi_character.py,sha256=4dkPYXcxIz6HOntlyg1gzM2fFnNi2PrL_KurUwXBdlg,433
+koicore/types/koi_integer.py,sha256=ANw1tYZK0YspsXEi7Cq7zjNoTB2LqfsfykXQ9NvGV9A,650
+koicore/types/koi_string.py,sha256=QvxRssDS2JLgOHrowBZmMaf7Wdf4f4Zqiw07zO8AdXo,705
+koicore-1.2.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+koicore-1.2.0.dist-info/METADATA,sha256=CANfjLOxcN2sgGSzwmPYPFluHsDDGg_z3iVG7eXRa-8,538
+koicore-1.2.0.dist-info/RECORD,,
+koicore-1.2.0.dist-info/WHEEL,sha256=Vlaj2XNMTTJ893zWX-JvKeZUIs7q5E7d7Gise2Vouzc,97
+koicore-1.2.0.dist-info/metadata.json,sha256=TMP2LTCEnCLNHIbyTsKoYTUcyvUH1-tdx5aV48EJ28E,685
+koicore-1.2.0.dist-info/top_level.txt,sha256=halMpzVK2o_FkZ7HCPm0meBgZhU4j5GPdWI2wiO8h_M,50
