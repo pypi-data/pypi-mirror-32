@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: MBAR-PyTorch
+Version: 0.0.0a1
+Summary: A fast implementation of MBAR method using PyTorch
+Home-page: https://github.com/xqding/MBAR_PyTorch
+Author: Xinqiang (Shawn) Ding
+Author-email: xqding@umich.edu
+License: MIT
+Description: # A PyTorch implementation of multistate Bennette acceptance ratio (MBAR) method
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
