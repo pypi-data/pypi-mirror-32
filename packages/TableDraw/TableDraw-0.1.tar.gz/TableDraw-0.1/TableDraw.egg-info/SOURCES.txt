@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+TableDraw/TableDraw.py
+TableDraw/__init__.py
+TableDraw.egg-info/PKG-INFO
+TableDraw.egg-info/SOURCES.txt
+TableDraw.egg-info/dependency_links.txt
+TableDraw.egg-info/top_level.txt
