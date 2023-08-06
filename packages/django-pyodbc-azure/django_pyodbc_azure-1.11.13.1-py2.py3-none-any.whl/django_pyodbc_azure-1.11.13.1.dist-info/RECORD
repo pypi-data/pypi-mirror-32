@@ -1,0 +1,16 @@
+django_pyodbc_azure-1.11.13.1.dist-info/DESCRIPTION.rst,sha256=-zdI50Egjq7smPctHPrwz4fui3b6CHb_VJImS4CAXgc,7845
+django_pyodbc_azure-1.11.13.1.dist-info/METADATA,sha256=4kr2HLIqxQMT6Fy583lh-SIDzAQ0B9yJUuf9v-gnJvo,8754
+django_pyodbc_azure-1.11.13.1.dist-info/RECORD,,
+django_pyodbc_azure-1.11.13.1.dist-info/WHEEL,sha256=BTHHj6QhsHpWhRUrxioIvCAgjx81u-a8gkPTO6bi_A0,116
+django_pyodbc_azure-1.11.13.1.dist-info/metadata.json,sha256=5wnPWaXOUwkpMl3bBkQ3HHtxlx_cjerKxb2Pg0QfJnM,1047
+django_pyodbc_azure-1.11.13.1.dist-info/top_level.txt,sha256=mindlSRwkhYqGfLiQaXAezfMXSFuTP7Cms5DLVW43R4,11
+sql_server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sql_server/pyodbc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sql_server/pyodbc/base.py,sha256=9KbP2l27hkRC1Xr1AqLJlkb78_znhDK0yIjSpRAoHxU,24255
+sql_server/pyodbc/client.py,sha256=-2EZvMlntYrovB62QfP1KTuMPDFF5aVjaKGCXOs_kbM,1777
+sql_server/pyodbc/compiler.py,sha256=XCIIrTvJTzR8eaecr1WV5pqVNh3E8UKCXH70RTrsnlw,17449
+sql_server/pyodbc/creation.py,sha256=aU6c-f8aS1PjGSs7JzUcAYpL4CYfxkvijbTW2Dra0x4,1216
+sql_server/pyodbc/features.py,sha256=WQ-hpml0LnDJI2jqbmit3bIs-bvneCoq6VRKKynL3L0,1221
+sql_server/pyodbc/introspection.py,sha256=26W32MSmGFnNAXoGY024mHqv4PHSenJyMmRfbdIwx2U,16968
+sql_server/pyodbc/operations.py,sha256=c-p-ph1FdMssLJjdZYZz7nPIYVRC3DssksbcXIoMl9g,23964
+sql_server/pyodbc/schema.py,sha256=ewtARHpwD_P6zKGTC8htRfQpd8cM8ekuF0rvPs_OSsw,37320
