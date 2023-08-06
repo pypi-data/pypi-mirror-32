@@ -1,0 +1,12 @@
+README.md
+setup.py
+dotme/__init__.py
+dotme/cli.py
+dotme/link.py
+dotme/profile.py
+dotme/target.py
+dotme/utils.py
+dotme.egg-info/PKG-INFO
+dotme.egg-info/SOURCES.txt
+dotme.egg-info/dependency_links.txt
+dotme.egg-info/top_level.txt

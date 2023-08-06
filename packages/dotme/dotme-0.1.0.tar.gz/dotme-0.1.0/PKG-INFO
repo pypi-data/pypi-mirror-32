@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: dotme
+Version: 0.1.0
+Summary: A dotfiles manager
+Home-page: UNKNOWN
+Author: Xinhang Liu
+Author-email: xhliume@gmail.com
+License: MIT
+Description: # dotme - A Dotfiles Manager
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown
