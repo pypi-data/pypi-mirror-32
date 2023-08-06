@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+fin_functions.egg-info/PKG-INFO
+fin_functions.egg-info/SOURCES.txt
+fin_functions.egg-info/dependency_links.txt
+fin_functions.egg-info/entry_points.txt
+fin_functions.egg-info/top_level.txt
+finfunctions/__init__.py
+finfunctions/__main__.py
+finfunctions/main.py

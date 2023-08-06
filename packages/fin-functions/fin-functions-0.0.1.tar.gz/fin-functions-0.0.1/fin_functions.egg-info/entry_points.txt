@@ -1,0 +1,3 @@
+[console_scripts]
+fin-functions = finfunctions.main:main
+
