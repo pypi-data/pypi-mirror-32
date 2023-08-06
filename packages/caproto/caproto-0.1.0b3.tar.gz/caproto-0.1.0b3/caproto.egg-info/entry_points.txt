@@ -1,0 +1,8 @@
+[console_scripts]
+caproto-defaultdictserver = caproto.examples.defaultdictserver:main
+caproto-get = caproto.commandline.get:main
+caproto-monitor = caproto.commandline.monitor:main
+caproto-put = caproto.commandline.put:main
+caproto-repeater = caproto.commandline.repeater:main
+caproto-spoof-beamline = caproto.examples.spoof_beamline:main
+
