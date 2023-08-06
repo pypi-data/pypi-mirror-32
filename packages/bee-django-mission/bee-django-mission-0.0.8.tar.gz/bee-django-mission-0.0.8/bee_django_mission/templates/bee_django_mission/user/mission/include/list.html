@@ -1,0 +1,29 @@
+{% load bee_django_mission_filter %}
+<div class="text-center"><h3>
+    【{{ user }}】{{ user_stage.get_name|default:'里程' }}
+</h3>
+</div>
+{% include 'bee_django_mission/messages.html' %}
+<h3>
+    {% if user_stage %}
+        {% if user_stage.status == 1 %}
+            已于{{ is_finished }}完成
+        {% elif user_stage.status == 2 %}
+            未完成
+        {% elif user_stage.status == 3 %}
+            可完成，但未完成
+        {% else %}
+            进行中
+        {% endif %}</h3>
+    {% endif %}
+<table class="table">
+    {% for user_mission in user_mission_list %}
+        <tr>
+            <td>{{ user_mission.mission.mission_type.name }}</td>
+            <td>{{ user_mission.get_name }}</td>
+            <td>{{ user_mission.get_user_mission_progress }}</td>
+        </tr>
+    {% endfor %}
+</table>
+
+
