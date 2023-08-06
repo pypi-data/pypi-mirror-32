@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: isitdown
+Version: 0.0.3
+Summary: Dead simple status monitoring tool
+Home-page: https://github.com/ovv/isitdown
+Author: Ovv
+Author-email: contact@ovv.wtf
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Provides-Extra: dev
+Requires-Dist: attrs
+Requires-Dist: aiohttp
+Requires-Dist: asyncssh
+Provides-Extra: dev
+Requires-Dist: tox; extra == 'dev'
+Requires-Dist: black; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: coverage; extra == 'dev'
+Requires-Dist: pytest-coverage; extra == 'dev'
+Requires-Dist: pytest-asyncio; extra == 'dev'
+Requires-Dist: sphinx; extra == 'dev'
+Requires-Dist: sphinxcontrib-asyncio; extra == 'dev'
+Requires-Dist: sphinxcontrib-napoleon; extra == 'dev'
+
+Is it down ?
+============
+
+Dead simple status monitoring tool.
+
+.. image:: https://readthedocs.org/projects/isitodwn/badge/?version=stable
+    :target: http://isitdown.readthedocs.io/en/stable/?badge=stable
+    :alt: Documentation Status
+.. image:: https://travis-ci.com/ovv/isitdown.svg?branch=master
+    :target: https://travis-ci.com/ovv/isitdown
+    :alt: Travis-ci status
+.. image:: https://badge.fury.io/py/isitdown.svg
+    :target: https://pypi.org/project/isitdown/
+    :alt: PyPI status
+.. image:: https://coveralls.io/repos/github/ovv/isitdown/badge.svg?branch=master
+    :target: https://coveralls.io/github/ovv/isitdown?branch=master
+    :alt: Coverage status
+
+Examples
+========
+
+See `example.py`
+
+LICENSE
+=======
+
+MIT
+
+
