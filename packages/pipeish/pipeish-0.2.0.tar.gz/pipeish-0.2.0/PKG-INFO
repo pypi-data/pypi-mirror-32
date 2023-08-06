@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pipeish
+Version: 0.2.0
+Summary: shell pipes and redirecting for python
+Home-page: https://github.com/vigilancer/pipeish
+Author: Andrey Elizarov
+Author-email: vigilancer@example.com
+License: WTFPL
+Description: initially was named after a friend from school, Pavel Hurgcheev - `pash`. then
+        `psh`. until free name was found - `pipeish`.
+        
+        it's like pipes in shell but not exactly. hence `pipe-ish`.
+        
+        [picture-of-python-looking-like-a-shell]
+        
+        # Examples:
+        # pattern = 'Pip'
+        # (_('ls') | _(f'grep {pattern}')).stdout
+        
+        ```
+        from pipeish.commands import Command as _
+        print(_('ls -la')() | _('grep pipeish') | _('grep 20'))
+        ```
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/x-rst
