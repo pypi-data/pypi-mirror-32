@@ -1,0 +1,33 @@
+Metadata-Version: 1.2
+Name: developer-tools
+Version: 0.0.9
+Summary: Useful tools for Python developers
+Home-page: https://github.com/maxzheng/developer-tools
+Author: Max Zheng
+Author-email: maxzheng.os@gmail.com
+License: MIT
+Description: developer-tools
+        ===========
+        
+        Useful tools for Python developers.
+        
+        This is mostly an example to show how `autopip <https://pypi.org/project/autopip/>`_ can be used to install a group of
+        apps with various version specifications, but the author does install it as it conveniently provides all the tools
+        useful for doing Python software development.
+        
+        To install::
+        
+            autopip install developer-tools
+        
+        For security and user experience, it is recommended to pin to a specific version -- at least minor -- for apps that you
+        don't own. For apps that you own where you have good versioning in the app, then `latest` works better.
+        
+Keywords: <KEYWORDS>
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
