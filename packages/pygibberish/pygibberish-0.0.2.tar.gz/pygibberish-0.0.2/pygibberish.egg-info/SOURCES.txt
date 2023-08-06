@@ -1,0 +1,8 @@
+README.rst
+setup.py
+pygibberish/__init__.py
+pygibberish/_train_all.py
+pygibberish.egg-info/PKG-INFO
+pygibberish.egg-info/SOURCES.txt
+pygibberish.egg-info/dependency_links.txt
+pygibberish.egg-info/top_level.txt
