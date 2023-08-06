@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: faxplus-api
+Version: 0.2
+Summary: FAX.PLUS REST API
+Home-page: https://github.com/faxplus/faxplus-python
+Author: faxplus
+Author-email: info@fax.plus
+License: UNKNOWN
+Keywords: faxplus,fax.plus,alohi
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Communications :: Fax
+Requires-Dist: urllib3 (>=1.15)
+Requires-Dist: six (>=1.10)
+Requires-Dist: certifi
+Requires-Dist: python-dateutil
+
+This is the fax.plus API v1 developed for third party developers and organizations. In order to have a better coding experience with this API, let's quickly go through some points:
+- This API assumes **/accounts** as an entry point with the base url of **https://restapi.fax.plus/v1**.
+- This API treats all date and times sent to it in requests as **UTC**. Also, all dates and times returned in responses are in **UTC**
+- Once you have an access_token, you can easily send a request to the resource server with the base url of **https://restapi.fax.plus/v1** to access your permitted resources. As an example to get the user's profile info you would send a request to **https://restapi.fax.plus/v1/accounts/self** when **Authorization** header is set to "Bearer YOUR_ACCESS_TOKEN" and custom header of **x-fax-clientid** is set to YOUR_CLIENT_ID
+
+
