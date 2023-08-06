@@ -1,0 +1,12 @@
+server_admintools/__init__.py,sha256=A_nUOj6rK4Ro-VX2skq2yVW0NdhMYDtdlDh5oMpTc28,745
+server_admintools/gitlab.py,sha256=XDnNoU48Tek8a31kjrlvO6OAy31YHf2rjJjHoSO5f1Y,5245
+server_admintools/rsync.py,sha256=6mCgq7N29fO83FXnmut_y7TWXUcEx5ASnatUjzdh4SI,2598
+server_admintools/sudo.py,sha256=Tv_kBrzXNuplVG1w9wP4bEVurs37EucA4KCq3ssWJtw,1592
+server_admintools-0.1.1.data/scripts/fetch-backup,sha256=TBsmCVCAWGAtw60gnumqBC78dMHO_7M54EzB_wbCyPY,868
+server_admintools-0.1.1.data/scripts/gitlab-backup,sha256=p1joQw8PUtjGreoRCuOE8ndHYRqL887kAfBhStlDr8A,855
+server_admintools-0.1.1.data/scripts/gitlab-repo-backup,sha256=Ijyiiz2yNKR1J6DIqrQh0m4b12n5OXyzbp1ZHtmsg0U,853
+server_admintools-0.1.1.dist-info/METADATA,sha256=CJFuR9JxRaBDK90wSt1kVqRrd_6nrWTHeODNGhWzofo,1668
+server_admintools-0.1.1.dist-info/RECORD,,
+server_admintools-0.1.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+server_admintools-0.1.1.dist-info/top_level.txt,sha256=HMtmU_PxC5H3JLdNLtfShTvMQh3MW07tZX1ypXxghh0,23
+test/__init__.py,sha256=A_nUOj6rK4Ro-VX2skq2yVW0NdhMYDtdlDh5oMpTc28,745
