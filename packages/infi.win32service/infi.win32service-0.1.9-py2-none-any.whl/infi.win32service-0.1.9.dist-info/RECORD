@@ -1,0 +1,16 @@
+infi.win32service-0.1.9-py2.7-nspkg.pth,sha256=Puo8Dhy7BSgYsqSaXhYQWKH_Zr23iy05JZ2pxHOAtNc,529
+infi/win32service/__init__.py,sha256=59uTjuT_vSuPF3W3Bu3ej5rCs4D8-uL_21W7JAnaC1s,518
+infi/win32service/__version__.py,sha256=pNMuwjQ5ot1HsjEAk0scSAMmt9SczUwZ47ajbcQAA5U,464
+infi/win32service/common.py,sha256=nca5biPt13H_N9tUwZxKByCEjsp6O4LvEnftpqO1voM,1495
+infi/win32service/service.py,sha256=XmSeHroZJ62naDqUiGPV4l6B2mS7crBKNGt_zbovpk0,13094
+infi/win32service/service_control_manager.py,sha256=KiLMIcnrPjS2gevEVU6e5UOn2GMnR-5fAET1nAVGTF4,6183
+infi/win32service/service_runner.py,sha256=A98RyURUEj0dHXvHyBw3dhpOqMb5M87XIzMx7NuHQfU,8155
+infi/win32service/utils.py,sha256=E8v6jwPSAq5ODl6arRsOr90b_ytulusw327_SRbIZwo,233
+infi.win32service-0.1.9.dist-info/DESCRIPTION.rst,sha256=N524-5NszLi8o7W2oGWHU1tDA1NFWy1ZQk1OT74dOqg,51
+infi.win32service-0.1.9.dist-info/METADATA,sha256=hvxqmURUWQpgsLFj5bX_XjpaXgY3wXXysxQ0-QGYbcs,769
+infi.win32service-0.1.9.dist-info/RECORD,,
+infi.win32service-0.1.9.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+infi.win32service-0.1.9.dist-info/entry_points.txt,sha256=mUNMmpYTR3SQX28bXHIajDqBXHktexsbcq1_r41xrys,36
+infi.win32service-0.1.9.dist-info/metadata.json,sha256=TbuYcVryVL2ZcHlsD6qMj1pztzpi6BcF_f_fxU7ApcU,992
+infi.win32service-0.1.9.dist-info/namespace_packages.txt,sha256=dXIyYv_pNwpGguxzqhrAAmEyFWegZ_kDeqe_z8cMR5g,5
+infi.win32service-0.1.9.dist-info/top_level.txt,sha256=dXIyYv_pNwpGguxzqhrAAmEyFWegZ_kDeqe_z8cMR5g,5
