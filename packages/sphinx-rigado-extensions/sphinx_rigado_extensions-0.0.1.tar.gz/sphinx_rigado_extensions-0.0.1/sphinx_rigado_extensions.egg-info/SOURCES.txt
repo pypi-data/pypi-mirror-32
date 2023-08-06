@@ -1,0 +1,9 @@
+README.rst
+setup.py
+sphinx_rigado_extensions/__init__.py
+sphinx_rigado_extensions/inventory-builder.py
+sphinx_rigado_extensions/tablelist.py
+sphinx_rigado_extensions.egg-info/PKG-INFO
+sphinx_rigado_extensions.egg-info/SOURCES.txt
+sphinx_rigado_extensions.egg-info/dependency_links.txt
+sphinx_rigado_extensions.egg-info/top_level.txt
