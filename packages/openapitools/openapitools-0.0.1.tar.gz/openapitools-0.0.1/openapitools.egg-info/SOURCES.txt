@@ -1,0 +1,11 @@
+README.md
+setup.py
+openapitools/__init__.py
+openapitools/builders.py
+openapitools/definitions.py
+openapitools/helpers.py
+openapitools/types.py
+openapitools.egg-info/PKG-INFO
+openapitools.egg-info/SOURCES.txt
+openapitools.egg-info/dependency_links.txt
+openapitools.egg-info/top_level.txt
