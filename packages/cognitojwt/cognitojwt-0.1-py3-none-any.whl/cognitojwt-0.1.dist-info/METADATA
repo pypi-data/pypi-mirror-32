@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: cognitojwt
+Version: 0.1
+Summary: Decode and verify Amazon Cognito JWT tokens
+Home-page: http://github.com/borisrozumnuk/cognitojwt
+Author: Boris Rozumniuk
+Author-email: borisrozumnuk@gmail.com
+License: MIT
+Keywords: Amazin Cognito JWT
+Platform: Any
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: python-jose
+Requires-Dist: requests
+
+# Decode and verify Amazon Cognito JWT tokens
+
+### Note: tested on Python3.6
+
+
