@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: ttoolly
+Version: 0.23.3
+Summary: Django test tools
+Home-page: UNKNOWN
+Author: Polina Efremova
+Author-email: pefremova@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: django,testing,test tool
+Platform: UNKNOWN
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.10
+Classifier: Framework :: Django :: 1.11
+Classifier: Framework :: Django :: 1.8
+Classifier: Framework :: Django :: 1.9
+Classifier: Framework :: Django :: 2.0
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
