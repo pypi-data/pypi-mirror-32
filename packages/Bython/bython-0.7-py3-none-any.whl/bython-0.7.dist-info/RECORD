@@ -1,0 +1,14 @@
+bython/__init__.py,sha256=ldQ3JLvIaOu_Fzd6jxSBe_mTZoKD4c7clrbJOAq-oFE,90
+bython/importing.py,sha256=ncCJTwWkiK5m4h1wFMPkkPmFDbvJupq1dE5FGVx7qbo,3376
+bython/logger.py,sha256=QvQiPkjutS7_1q9MG94EAfBuCXcHfobn_96LYp4dlCg,1751
+bython/parser.py,sha256=a2Itfa118aeAwaXBwW9gdCBBvzPE6sbzPh476OOUalI,5173
+bython-0.7.data/data/man/man1/by2py.1,sha256=LTeD9h_efCRJGzJNGGo1tm-suH7T3lj7rNbFLv49s88,540
+bython-0.7.data/data/man/man1/bython.1,sha256=2O6DD_Z3XE8_FVZhH5h3rslYKj7FsItn5ly9h93iAj8,1532
+bython-0.7.data/data/man/man1/py2by.1,sha256=26vkSPMzsW9o3xLGBL60mZH1r-impBvHtGd2QxMkPDQ,703
+bython-0.7.data/scripts/by2py,sha256=Ulk4Wxuep5Yfu78NlJjep1-FqQglY5VdXScTPgJg1qA,27
+bython-0.7.data/scripts/bython,sha256=_CXs7h5jhulSxv5LO4jxJaRyxwtx2lqEkXiDzbmYFHw,5600
+bython-0.7.data/scripts/py2by,sha256=_PZ5fO8otjVmF2InrpUHmOTEvWnI0yDFSKpc8ETwGDI,5447
+bython-0.7.dist-info/METADATA,sha256=p5msSKls1RLDoQ9tpaIaE9v7SYIEn0pbqnsy9sy2b9g,3122
+bython-0.7.dist-info/RECORD,,
+bython-0.7.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+bython-0.7.dist-info/top_level.txt,sha256=apNKFXfkAsZGyHENZI-3AF3mc1r6fnC2ch69Kj8O_ho,7
