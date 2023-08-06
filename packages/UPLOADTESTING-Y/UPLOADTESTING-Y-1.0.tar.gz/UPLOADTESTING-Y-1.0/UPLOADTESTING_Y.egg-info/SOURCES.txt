@@ -1,0 +1,6 @@
+setup.py
+test.py
+UPLOADTESTING_Y.egg-info/PKG-INFO
+UPLOADTESTING_Y.egg-info/SOURCES.txt
+UPLOADTESTING_Y.egg-info/dependency_links.txt
+UPLOADTESTING_Y.egg-info/top_level.txt
