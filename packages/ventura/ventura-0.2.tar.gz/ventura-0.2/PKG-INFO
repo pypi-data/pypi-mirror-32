@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: ventura
+Version: 0.2
+Summary: Simple xml-based updater in python 3.6 with no try-catch statement
+Home-page: http://github.com/hermespasser/ventura
+Author: Hermes Passer
+Author-email: hermespasser@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
