@@ -1,0 +1,14 @@
+LunarCalendar-0.0.8.dist-info/METADATA,sha256=fbehYW6gO30axlvKjpmJKDkaBDr2CBERQV3jnD0ydc0,5754
+LunarCalendar-0.0.8.dist-info/RECORD,,
+LunarCalendar-0.0.8.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+LunarCalendar-0.0.8.dist-info/entry_points.txt,sha256=2psfBgLPkv73JZivtn9fnT7Cm5nYrQViDcVswQaiQQ4,59
+LunarCalendar-0.0.8.dist-info/top_level.txt,sha256=4T0QUUzt01h_-f4EM3m9EHqMOrAOp9J9wP0W2C0Y8Cs,14
+lunarcalendar/__init__.py,sha256=azAzBCoYXAIaExJT904KYgWYXPUD_G-zurhCnm1qS6s,259
+lunarcalendar/_calc.py,sha256=65bwamA05pNbhO7U4ae4g2c2SbAIil27BTddHkGVW0w,12293
+lunarcalendar/_compact.py,sha256=_oHWXaCco7-79TwoUQmpARitG3ZFNU3Mle9vmTKE_v0,627
+lunarcalendar/basefestival.py,sha256=ALHQllhP8sCLtOO1Olr3WFvBOXbGckisvFCBrOTLy3o,1545
+lunarcalendar/color.py,sha256=HHryi-zO4r6aUwGTaSMhL9_lqzTsTk3jNS7J_REhyE4,469
+lunarcalendar/command.py,sha256=p8RoCsFQoohPlfg6pIF8_9iCLgGKl3VF-lOuiQxpFlc,4799
+lunarcalendar/converter.py,sha256=V9V3vpnMa339reMQJV5Xk7LbOUgUh9YeByxuPG2U-Ts,11424
+lunarcalendar/festival.py,sha256=SeIckZILOwsx0XDpp18zoxxTtYOx8oow5m5Qk3Bzi-s,7813
+lunarcalendar/solarterm.py,sha256=brNsRikQLOGrZZm8vx4WoZW_kr6S1SxSC78-2ePotGQ,3096
