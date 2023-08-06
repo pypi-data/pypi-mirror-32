@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: LiPD
+Version: 0.2.5.6
+Summary: LiPD utilities to process, convert, and analyze data.
+Home-page: https://github.com/nickmckay/LiPD-utilities
+Author: C. Heiser
+Author-email: heiser@nau.edu
+License: GNU Public
+Download-URL: https://github.com/nickmckay/LiPD-utilities/releases/tag/v0.2.5.5
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Keywords: paleo R matlab python paleoclimatology linkedearth
+Platform: Windows
+Platform: Mac OS-X
+Platform: Unix
+Requires-Python: >=3.4
