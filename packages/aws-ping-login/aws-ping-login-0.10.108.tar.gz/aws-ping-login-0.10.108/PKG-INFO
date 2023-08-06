@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: aws-ping-login
+Version: 0.10.108
+Summary: aws-ping-login is a command line tool supporting logging in to AWS profiles using a Ping SSO website
+Home-page: https://github.com/surfkansas/aws-ping-login
+Author: Mark Sweat
+Author-email: mark@surfkansas.com
+License: UNKNOWN
+Download-URL: https://github.com/surfkansas/aws-ping-login/archive/0.10.108.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
