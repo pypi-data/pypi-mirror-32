@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+src/cophi_toolbox/__init__.py
+src/cophi_toolbox/preprocessing.py
+src/cophi_toolbox.egg-info/PKG-INFO
+src/cophi_toolbox.egg-info/SOURCES.txt
+src/cophi_toolbox.egg-info/dependency_links.txt
+src/cophi_toolbox.egg-info/requires.txt
+src/cophi_toolbox.egg-info/top_level.txt
