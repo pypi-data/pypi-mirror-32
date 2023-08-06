@@ -1,0 +1,8 @@
+# testing and linting
+mypy
+pytest
+pytest-cov
+pytest-aiohttp
+flake8
+twine
+-e git+git@github.com:lendingblock/agile-toolkit.git#egg=agile-toolkit
