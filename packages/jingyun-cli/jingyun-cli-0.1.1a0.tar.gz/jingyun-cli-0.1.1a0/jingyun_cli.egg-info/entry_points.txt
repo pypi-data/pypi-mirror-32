@@ -1,0 +1,4 @@
+[console_scripts]
+            json-merge=jingyun_cli.json.cli:json_merge
+            jy-json-merge=jingyun_cli.json.cli:json_merge
+      
