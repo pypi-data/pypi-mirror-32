@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: flake8-docstrings-catnado
+Version: 0.0.1.dev1
+Summary: a fork of flake8-docstrings-catnado
+Home-page: https://github.com/tylertrussell/flake8-docstrings-catnado
+Author: Tyler Trussell
+Author-email: tigertrussell@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Provides: flake8_docstrings
+Requires-Dist: flake8
+Requires-Dist: pydocstyle (>=2.1)
+Requires-Dist: flake8-polyfill
+
+# flake8-docstrings-catnado
+
+A fork of `flake8-docstrings` that respects the `exclude_from_doctest` option.
+This allows you to enforce Flake8 rules globally but exclude your tests from
+doctests.
+
+Simply install this extension:
+
+```bash
+pip install flake8-docstrings-catnado
+```
+
+and run flake8.
+
+Report any issues on the GitHub issue tracker.
+
+# Changelog
+
+### Version 0.0.1dev1
+* Don't `os.split` the `--exclude_from_doctest` options
+
+### Version 0.0.1dev0
+
+* Forked from [`flake8-docstrings`](https://gitlab.com/pycqa/flake8-docstrings)
+* Added support for `--ignore_decorators` and `--exclude_from_doctest`
+* Switched to 2 spaces per tab because I like chaos (and 2-space tabs)
+
+
