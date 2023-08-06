@@ -1,0 +1,7 @@
+alog
+future~=0.16.0
+pyee
+requests
+semver
+setuptools
+websocket-client
