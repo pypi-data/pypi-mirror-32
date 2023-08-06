@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: ngrp
+Version: 0.2.2
+Summary: A handy tool that configures nginx reverse proxy for you
+Home-page: https://github.com/klausweiss/ngrp
+Author: Mikołaj Biel
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: click (==6.7)
+
+# NGRP
+
+[![PyPI](https://img.shields.io/pypi/v/ngrp.svg)](https://pypi.org/project/ngrp/)
+
+A handy tool that configures nginx reverse proxy for you
+
+## Usage
+
+```
+Usage: ngrp [OPTIONS] COMMAND [ARGS]...
+
+  Nginx reverse proxy configuration tool.
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  add      Add and enable a reverse proxy.
+  disable  Disable proxy for given domain.
+  enable   Enable proxy for given domain.
+  reload   Reload nginx configuration.
+```
+
+**ngrp** supports multiple reverse proxy templates. 
+
+```
+Usage: ngrp add [OPTIONS] COMMAND [ARGS]...
+
+  Add and enable a reverse proxy.
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  http   Redirect DOMAIN traffic to 127.0.0.1:PORT
+  https  Redirect DOMAIN traffic to 127.0.0.1:PORT
+```
+
+To add a HTTP reverse proxy do the following (_etherpad running on port `9001`, proxied to `etherpad.example.com`_):
+
+```
+ngrp add http 9001 etherpad.example.com
+```
+
+
