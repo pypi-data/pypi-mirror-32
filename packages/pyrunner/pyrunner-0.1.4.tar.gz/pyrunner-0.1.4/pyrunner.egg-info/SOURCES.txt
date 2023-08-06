@@ -1,0 +1,8 @@
+README.md
+pyrunner.py
+setup.py
+pyrunner.egg-info/PKG-INFO
+pyrunner.egg-info/SOURCES.txt
+pyrunner.egg-info/dependency_links.txt
+pyrunner.egg-info/entry_points.txt
+pyrunner.egg-info/top_level.txt
