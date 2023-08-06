@@ -1,0 +1,12 @@
+import sys
+sys.path.append("../")
+from {{projName}}.{{appName}}.{{appName}}  import *
+
+ymlfile = data/{{appName}}.yml
+
+def test_{{appName}}():
+    {{appName}}(ymlfile)
+
+if __name__ == "__main__":
+    pass
+    #test_{{appName}}()
