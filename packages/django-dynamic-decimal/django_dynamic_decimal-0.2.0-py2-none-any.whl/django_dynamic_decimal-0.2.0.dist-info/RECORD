@@ -1,0 +1,9 @@
+django_dynamic_decimal-0.2.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+django_dynamic_decimal-0.2.0.dist-info/METADATA,sha256=TBKiKCEuvjrr5KU3wIDAllxqwRtCR2Ev22II7S3-7dE,328
+django_dynamic_decimal-0.2.0.dist-info/RECORD,,
+django_dynamic_decimal-0.2.0.dist-info/WHEEL,sha256=hZvi-8L6mc2COqhOUWREM_h2lvnJbaHycZt8eohtmso,92
+django_dynamic_decimal-0.2.0.dist-info/metadata.json,sha256=1kJKpfLGrJ9xUMSCVSdqpNIfkeChLS_HVz-93o3yg4g,568
+django_dynamic_decimal-0.2.0.dist-info/top_level.txt,sha256=etnQcCP251TxqQa9Na4e-8Sv4zokH7cY1Vmkf6REJUc,16
+dynamic_decimal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dynamic_decimal/db/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dynamic_decimal/db/fields.py,sha256=KcM49IYiouHgtoZBxbQBhSaCd9uBOlFLeje2CXbgTFA,2962
