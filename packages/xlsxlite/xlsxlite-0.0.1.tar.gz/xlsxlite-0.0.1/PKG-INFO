@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: xlsxlite
+Version: 0.0.1
+Summary: Lightweight XLSX writer with emphasis on minimizing memory usage.
+Home-page: http://github.com/nyaruka/xlxslite
+Author: Nyaruka
+Author-email: code@nyaruka.com
+License: MIT
+Project-URL: Bug Reports, https://github.com/nyaruka/xlsxlite/issues
+Project-URL: Source, https://github.com/nyaruka/xlsxlite/
+Description: # Introduction
+        
+        [![Build Status](https://travis-ci.org/nyaruka/xlsxlite.svg?branch=master)](https://travis-ci.org/nyaruka/xlsxlite)
+        [![Coverage Status](https://coveralls.io/repos/github/nyaruka/xlsxlite/badge.svg?branch=master)](https://coveralls.io/github/nyaruka/xlsxlite?branch=master)
+        
+        XLSXLite is a lightweight XLSX writer with emphasis on minimizing memory usage.
+        
+        ```python
+        from xlsxlite.book import XLSXBook
+        book = XLSXBook()
+        sheet1 = book.add_sheet("People")
+        sheet1.append_row("Name", "Email")
+        sheet1.append_row("Jim", "jim@acme.com")
+        book.finalize(to_file="simple.xlsx")
+        ```
+        
+        ## Development
+        
+        To run all tests:
+        
+        ```
+        py.test xlsxlite -s
+        ```
+        
+Keywords: excel xlxs
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
