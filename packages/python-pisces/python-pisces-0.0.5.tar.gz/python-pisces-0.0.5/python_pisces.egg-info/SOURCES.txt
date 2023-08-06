@@ -1,0 +1,14 @@
+README.md
+setup.py
+pisces/__init__.py
+pisces/command.py
+pisces/main.py
+pisces/tools/chromedriver.exe
+pisces/tools/chromedriver_linux
+pisces/tools/chromedriver_mac
+python_pisces.egg-info/PKG-INFO
+python_pisces.egg-info/SOURCES.txt
+python_pisces.egg-info/dependency_links.txt
+python_pisces.egg-info/entry_points.txt
+python_pisces.egg-info/requires.txt
+python_pisces.egg-info/top_level.txt
