@@ -1,0 +1,55 @@
+Metadata-Version: 1.2
+Name: logalyzer
+Version: 0.4
+Summary: Web server HTTP access log parsing, filtering, and SQL database storage.
+Home-page: http://edsuom.com/logalyzer.html
+Author: Edwin A. Suominen
+Author-email: foss@edsuom.com
+Maintainer: Edwin A. Suominen
+Maintainer-email: foss@edsuom.com
+License: Apache License (2.0)
+Project-URL: API, http://edsuom.com/logalyzer/logalyzer.html
+Project-URL: GitHub, https://github.com/edsuom/logalyzer
+Description: 
+        Parses your bloated HTTP access logs to extract the info you want
+        about hits from (hopefully) real people instead of just the endless
+        stream of hackers and bots that passes for web traffic
+        nowadays. Stores the info in a relational database where you can
+        access it using all the power of SQL.
+        
+        Uses the power of your multicore CPU with Twisted_, AsynQueue_, and
+        sAsync_ to process log files concurrently and fast. Duplicate entries
+        are ignored, so you don't need to fret about redundancies in your
+        logfiles. (It happens.) The filtering goes forwards and backwards;
+        once an entry has been determined to come from a bad actor, all log
+        entries from that IP address are purged and ignored.
+        
+        .. _Twisted: https://twistedmatrix.com/trac/
+        
+        .. _AsynQueue: http://edsuom.com/AsynQueue.html
+        
+        .. _sAsync: http://edsuom.com/sAsync.html
+        
+        If you see bot garbage getting through and polluting your logs with
+        some new attempt at an exploit, just add a rule for it to your rules
+        lists, starting with what *logalyzer* comes prepackaged with. The next
+        time you run it, those entries will get purged as well.
+        
+        Optionally produces a list of offender IP addresses that you can use
+        to deny access to your web server entirely.
+        
+        
+Keywords: twisted,asynchronous,async,log,logfile,analysis,database,filtering,web,access log
+Platform: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Twisted
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 2 :: Only
+Classifier: Programming Language :: SQL
+Classifier: Topic :: Database
+Classifier: Topic :: Internet :: Log Analysis
+Classifier: Topic :: System :: Systems Administration
