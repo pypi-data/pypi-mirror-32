@@ -1,0 +1,8 @@
+README.rst
+setup.py
+tensorspace.egg-info/PKG-INFO
+tensorspace.egg-info/SOURCES.txt
+tensorspace.egg-info/dependency_links.txt
+tensorspace.egg-info/entry_points.txt
+tensorspace.egg-info/requires.txt
+tensorspace.egg-info/top_level.txt
