@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: madxpy
+Version: 0.0.1
+Summary: A MadX library wrapper
+Home-page: https://github.com/rdemaria/pjlsa
+Author: Riccardo De Maria
+Author-email: riccardo.de.maria@cern.ch
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
