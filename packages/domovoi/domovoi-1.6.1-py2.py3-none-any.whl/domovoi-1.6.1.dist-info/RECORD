@@ -1,0 +1,8 @@
+domovoi/__init__.py,sha256=YL-eoN1ilSEitVA9FqGgTrjvzPt60TLNvD5Cbg8SPCw,32
+domovoi/app.py,sha256=9S9Siuk02pLBJJv2Abua7bilxrFej8uU_A8isGKBGyk,7103
+domovoi/default_iam_policy.json,sha256=WIGeydjydQT-3s5knZ_sWWsKeb8hapK46WN1saBLTxw,678
+domovoi-1.6.1.data/scripts/domovoi,sha256=MQJvdv1l-8O0TGsIZl6CSq0LvrxH8fSXHzqktH5ED-g,15910
+domovoi-1.6.1.dist-info/METADATA,sha256=ZtYa0wSR4asCOKaehmZ_crQ-bBLTwzD0N6av04q1C34,10238
+domovoi-1.6.1.dist-info/RECORD,,
+domovoi-1.6.1.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+domovoi-1.6.1.dist-info/top_level.txt,sha256=q5x3o_2jtmNcU2j8KwV99dlWmHxvdJAIUnqUblkJo5s,8
