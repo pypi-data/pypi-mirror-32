@@ -1,0 +1,6 @@
+pytest
+tqdm
+ipython
+traitlets
+pycryptodome
+ipykernel

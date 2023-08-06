@@ -1,0 +1,14 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "nyptune"
+author = "Kyle Maxwell"
+author-email = "kyle@kylemaxwell.com"
+home-page = "https://github.com/fizx/nyptune"
+requires-python = ">=3.6"
+requires = ["tqdm", "pycryptodome"]
+
+[tool.flit.scripts]
+nyptune = "nyptune.cli:main"
