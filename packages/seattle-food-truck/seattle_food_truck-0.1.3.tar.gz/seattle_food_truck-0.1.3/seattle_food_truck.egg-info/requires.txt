@@ -1,0 +1,6 @@
+click
+lazy-property
+python-dateutil
+requests
+requests_futures
+terminaltables
