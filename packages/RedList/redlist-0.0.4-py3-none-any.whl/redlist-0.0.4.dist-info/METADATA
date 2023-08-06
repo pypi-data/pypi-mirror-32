@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: redlist
+Version: 0.0.4
+Summary: A simple schedule managing cli app
+Home-page: https://github.com/Ramenseller/RedList
+Author: Hayeong Lee
+Author-email: bb.kiera@gmail.com
+License: MIT LICENSE
+Download-URL: https://github.com/Ramenseller/RedList/archive/master.tar.gz
+Keywords: todo list,todo cli,task manager
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: inquirer
+Requires-Dist: prettytable
+Requires-Dist: colorama
+
+* This is README file for B-4
+
+# RedList
+A simple schedule managing program made with python
+
+## Getting Started
+### Installation
+```
+pip3 install redlist
+```
+
+### Tutorial
+1. Want to add your schedule? Press 'a'
+   - What? : enter a name of schedule
+   - Due? : enter a due date of your schedule. Please enter with correct form (ex 2018-05-29 23:59:59)
+   - Importance? : enter a importance of your schedule
+   - Category? : enter a category of your schedule
+
+2. Want to see your schedule list? Press 'l'
+   - '*due*' will show you the list in less time left order.
+   - '*what*' will show you the list in alphabetical order.
+   - '*importance*' will show you more important thing first.
+   - '*category*' will show you the lists that have a category you choose.
+
+3. Want to modify your schedule? Press 'm'
+   - Enter 'what' you want to change.
+   - same with 'add to do'.
+
+4. Want to delete your schedule? Press 'd'
+   - Enter 'what' you want to delete
+
+5. Want to know what category is in list? Press 'c'
+
+
+## Bulit With
+- Python
+
+
+## Contributors
+| Participant    | Role      |
+|----------------|-----------|
+| Moon SeongIn   | PM        |
+| Yun SungHo     | Designer  |
+| Lee Hayung     | Presenter |
+| Nam YunJae     | Developer |
+| Lee Gukgon     | Secretary |
+
+## License
+

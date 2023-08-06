@@ -1,0 +1,3 @@
+[console_scripts]
+RedList = redlist.main:main
+
