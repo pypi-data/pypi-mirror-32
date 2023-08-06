@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: django-discard
+Version: 0.0.3
+Summary: A simple package to add discard (soft-delete) functionality to                 desired models
+Home-page: https://github.com/tcostam/django-discard
+Author: Tiago Melo
+Author-email: to_be_provided@email.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+
+# django-discard
+
+
