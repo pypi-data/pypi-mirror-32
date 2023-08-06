@@ -1,0 +1,17 @@
+RedList-0.0.1.dist-info/METADATA,sha256=3gMzRoirK-hYEJdlB8gbYEdsiJsj0WcZzGLI7yMMB44,766
+RedList-0.0.1.dist-info/RECORD,,
+RedList-0.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+RedList-0.0.1.dist-info/entry_points.txt,sha256=w804-9b1pPeyWifhHgj_iplLdR89mbtnTc1wvDmOGbc,47
+RedList-0.0.1.dist-info/top_level.txt,sha256=qHWhGtEhnNPbuVTfSkLGEarV-chMeX8ZMcxw0-e4Nuc,8
+redlist/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+redlist/add_todo.py,sha256=aSs9-joCtBzhQqFGTfeJKtU5edh0Zj1xGhPBcIY1LNM,1142
+redlist/auto_finish.py,sha256=lpWBtyd_YwEXwODw6N6uMon3KfXgQ_yd7s184q_QEbY,430
+redlist/category.py,sha256=52Xi913ZHRkqdrRvjdlKnYPF2kBcKt1jtlPUOLMP6dQ,404
+redlist/create_table.py,sha256=rO1GG0ohaepEY5HspQRJRccxDADBakdFIN0xmep7VNc,442
+redlist/del_todo.py,sha256=vq0yxNXQcSP1wWMyrAjgAfXBYHk_QQPsTkYIKq9FFh8,1037
+redlist/duecheck.py,sha256=5-l43BdvRMDhjl0NxOPwITiG3DeOxrb3sefhrF8frB4,1651
+redlist/list.py,sha256=S7ba6FVduX7r6I4CBwNGjZaODtrewo7XNxDkzyQ75YU,2272
+redlist/logo.py,sha256=bTVuLbf-v8HseKhDYn9l7IDzNUBrgBPcZgqOjX9VS1A,395
+redlist/ls.py,sha256=hELJKgXpLHANMd6WhpHURS-HU-OkSMmtky_69DlfLGM,2430
+redlist/main.py,sha256=-zRK3IE1tsnFrQ5Y_b_Y_v0hda-lyj7I8VxQXCMSE34,1052
+redlist/modify.py,sha256=Y-EVFuV3nH3enXB_Xdzo7cRMcrymTyhKDpAE2dSlhdc,2153
