@@ -1,0 +1,3 @@
+[console_scripts]
+gabrielfalcao-httpbin = gabrielfalcao_httpbin.console:entrypoint
+
