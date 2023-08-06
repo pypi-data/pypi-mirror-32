@@ -1,0 +1,10 @@
+scikit_keras-0.1.9.dist-info/METADATA,sha256=ylxstyq3IK-wOoBbgtr5AtQYVJSr76U8XRagk1qcXoA,802
+scikit_keras-0.1.9.dist-info/RECORD,,
+scikit_keras-0.1.9.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+scikit_keras-0.1.9.dist-info/top_level.txt,sha256=NdEIabekmzl7tDzL9lpBBsQ4MNqVFwZAYhgN5EyzQog,14
+skkeras/__init__.py,sha256=nBar9tlcaLFEkCEjdgDFsVG0t15G7UYd4bescmasQ8E,175
+skkeras/architecture.py,sha256=c2MToFVVIZYuRHf3rpoLfxCechZy7bZkKcOzkUjCLWo,23392
+skkeras/base.py,sha256=rMPj_7sydGUgigKsllussrdFJqplznUS6rt-n4rb3vw,22964
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_architecture.py,sha256=gUXmpdfxeMrWgI2DFWDZncPI02svJG5ED4N-OSpse7U,8286
+tests/test_base.py,sha256=WiHGyqx4EiLk7_EeHOXyRcF-zr8AgzCbm-l9OQevZco,6148
