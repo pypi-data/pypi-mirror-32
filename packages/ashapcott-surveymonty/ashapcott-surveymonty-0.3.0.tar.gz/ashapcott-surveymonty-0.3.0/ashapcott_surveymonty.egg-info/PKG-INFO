@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: ashapcott-surveymonty
+Version: 0.3.0
+Summary: Python wrapper for SurveyMonkey API
+Home-page: https://github.com/AshtonShapcott/SurveyMonty
+Author: Ashton Shapcott
+Author-email: ashapcott@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: SurveyMonkey
+Platform: UNKNOWN
