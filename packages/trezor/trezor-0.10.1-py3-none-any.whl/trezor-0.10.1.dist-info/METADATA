@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: trezor
+Version: 0.10.1
+Summary: Python library for communicating with TREZOR Hardware Wallet
+Home-page: https://github.com/trezor/python-trezor
+Author: TREZOR
+Author-email: info@trezor.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.3
+Provides-Extra: hidapi
+Provides-Extra: ethereum
+Requires-Dist: setuptools (>=19.0)
+Requires-Dist: ecdsa (>=0.9)
+Requires-Dist: mnemonic (>=0.17)
+Requires-Dist: requests (>=2.4.0)
+Requires-Dist: click (>=6.2)
+Requires-Dist: pyblake2 (>=0.9.3)
+Requires-Dist: libusb1 (>=1.6.4)
+Requires-Dist: typing (>=3.0.0); python_version < "3.5"
+Provides-Extra: ethereum
+Requires-Dist: rlp (>=0.4.4); extra == 'ethereum'
+Requires-Dist: ethjsonrpc (>=0.3.0); extra == 'ethereum'
+Provides-Extra: hidapi
+Requires-Dist: hidapi (>=0.7.99.post20); extra == 'hidapi'
+
+UNKNOWN
+
+
