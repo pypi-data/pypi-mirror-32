@@ -1,0 +1,14 @@
+js-generator/__init__.py,sha256=AeLDNA615eXjcsl9uCfyTPVi7RBxQiCpHwbbDIDlw88,23
+js-generator/constants.py,sha256=i-mWywHQWEWOczuu3Q3p-BNSWOwAq9ZpwmkJo_4Kv4A,1880
+js-generator/generator.py,sha256=NIOtgGUk4kJUpaBbmj_zHLqzNeK1fkgcvPAMdXNitI8,914
+js-generator/utils.py,sha256=2p1b4n_J_lJLbuzjJ1llK_0Kd7wusj3cHLbXQB-8XHg,4993
+js-generator/validations.py,sha256=p2Bg37liJUc_0QGrpjK3C-tR-1j0tur2Kg-tkvQdbQ8,2035
+js-generator/templates/actions.js,sha256=sOb6-JcJeArhIQNiwIaGx_FdP6q06u7Aqhe7GAu-2uM,600
+js-generator/templates/ccc.js,sha256=H55BRxqYyO5wfsD5KYlHT-Z4pQJqVtNCmyBwE2n-SxE,642
+js-generator/templates/reducer.js,sha256=jOndoyMimtBcNAwz6IZM04NtWuQd-xpnc6Z5lsj27WY,222
+js-generator/templates/sfc.js,sha256=2FNKLG3WQpDNFioWbSbHj2Iou7R32zs1jz1A7L71tMg,287
+js-generator/templates/state.js,sha256=-RuGAiEFeMqLOhRpPCLPYcY4pc3Y4In7mDUzJa3f4QA,62
+js_generator-0.0.12.dist-info/METADATA,sha256=lZdUGaEvwBjxeoQVnNysuEhkarkuDORwu-ESYRd2z2k,687
+js_generator-0.0.12.dist-info/RECORD,,
+js_generator-0.0.12.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+js_generator-0.0.12.dist-info/top_level.txt,sha256=IhhNoEu0IRtxGPUTTTnW-nTHDLQ4fBPinYlyHXVDs28,13
