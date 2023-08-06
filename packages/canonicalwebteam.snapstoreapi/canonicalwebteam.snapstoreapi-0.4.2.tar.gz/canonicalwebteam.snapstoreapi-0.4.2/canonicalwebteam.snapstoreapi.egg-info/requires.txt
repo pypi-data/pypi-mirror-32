@@ -1,0 +1,5 @@
+requests
+pycountry
+pymacaroons
+python3-openid
+prometheus_client
