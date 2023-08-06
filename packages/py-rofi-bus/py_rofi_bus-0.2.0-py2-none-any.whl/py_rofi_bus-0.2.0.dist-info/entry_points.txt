@@ -1,0 +1,3 @@
+[console_scripts]
+py-rofi-bus = py_rofi_bus.cli.application:Application.bootstrap
+
