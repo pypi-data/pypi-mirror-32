@@ -1,0 +1,3 @@
+[console_scripts]
+docgen = catnado_docgen.__main__:main
+
