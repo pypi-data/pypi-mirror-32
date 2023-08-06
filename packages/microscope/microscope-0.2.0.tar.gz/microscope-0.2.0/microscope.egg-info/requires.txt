@@ -1,0 +1,5 @@
+numpy
+Pyro4
+pyserial
+six
+enum34
