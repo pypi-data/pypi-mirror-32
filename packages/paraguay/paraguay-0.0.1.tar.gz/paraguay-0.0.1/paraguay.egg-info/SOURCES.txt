@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+paraguay/__init__.py
+paraguay/community.py
+paraguay/meetup.py
+paraguay/telegram.py
+paraguay.egg-info/PKG-INFO
+paraguay.egg-info/SOURCES.txt
+paraguay.egg-info/dependency_links.txt
+paraguay.egg-info/top_level.txt

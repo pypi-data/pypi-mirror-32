@@ -1,0 +1,71 @@
+Metadata-Version: 1.2
+Name: paraguay
+Version: 0.0.1
+Summary: Python Paraguay community package
+Home-page: https://github.com/pythonparaguay/paraguay
+Author: Marcelo Elizeche Landó
+Author-email: melizeche@gmail.com
+License: UNKNOWN
+Project-URL: Website, https://pythonpy.org
+Project-URL: Meetup, https://meetup.com/Python-Paraguay
+Project-URL: Twitter, https://twitter.com/PythonParaguay
+Description-Content-Type: text/markdown
+Description: # Python Paraguay community package
+        
+        A simple 'easter egg' package for the PythonPy community inspired in Python's `antigravity` module.
+        
+        
+        ### Installing
+        
+        ```
+        pip install paraguay
+        ```
+        
+        End with an example of getting some data out of the system or using it for a little demo
+        
+        ### How to use
+        
+        ```
+        from paraguay import community
+        ```
+        Opens Python Paraguay website
+        
+        ```
+        from paraguay import meetup
+        ```
+        Opens Python Paraguay Meetup Group
+        
+        ```
+        from paraguay import telegram
+        ```
+        Opens Python Paraguay Telegram Group
+        
+        ## TODO
+        
+        - `import this` module with the Zen of Python in guaraní
+        
+        ## Contributing
+        
+        1. Fork it!
+        2. Create your feature branch: `git checkout -b my-new-feature`
+        3. Commit your changes: `git commit -am 'Add some feature'`
+        4. Push to the branch: `git push origin my-new-feature`
+        5. Submit a pull request :D
+        
+        ## Authors
+        
+        * **Marcelo Elizeche Landó** - *Initial work* - [melizeche](https://github.com/melizeche)
+        
+        ## License
+        
+        This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+        
+Keywords: python paraguay community comunidad pythonpy this
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
