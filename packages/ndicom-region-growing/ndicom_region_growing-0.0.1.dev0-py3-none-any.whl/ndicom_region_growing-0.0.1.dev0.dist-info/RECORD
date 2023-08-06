@@ -1,0 +1,8 @@
+ndicom_region_growing/__init__.py,sha256=kpR_N1n1tze5hHRrmZq6wTOhuA7o_JKgg_kmX3o3-e0,26
+ndicom_region_growing/plugin.py,sha256=RnqR7SZWZ8JHH-UqV0Tj4N7HZQw1D1RtpYH-8aI40fY,1618
+ndicom_region_growing/extension/build/Darwin/libc_region_growing.dylib,sha256=XiUbcHRUPqetUT-C4gJ4WKh17O9yRW59cgDtU29qHyo,234412
+ndicom_region_growing-0.0.1.dev0.dist-info/METADATA,sha256=jSr1Nz-O0CUyWCkTUrnDc7vp8gLodOL8H_ZDoZzgKrE,594
+ndicom_region_growing-0.0.1.dev0.dist-info/RECORD,,
+ndicom_region_growing-0.0.1.dev0.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+ndicom_region_growing-0.0.1.dev0.dist-info/dependency_links.txt,sha256=UzCJo33QH17Ej04CaOLzd7Juy3H8EfleyaCHEJzHmeI,37
+ndicom_region_growing-0.0.1.dev0.dist-info/top_level.txt,sha256=MFZ80NER4oGqZ7_JIgNBOhbCCEUaSWG45MDS17Fo4Pw,22
