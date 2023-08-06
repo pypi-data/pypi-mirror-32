@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: pymedphys
+Version: 0.1.0
+Summary: Medical Physics python modules.
+Home-page: UNKNOWN
+Author: Simon Biggs
+Author-email: me@simonbiggs.net
+License: AGPLv3+
+Description: A range of python modules encompased under the pymedphys package, designed to be built upon for Medical Physics applications.
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Healthcare Industry
