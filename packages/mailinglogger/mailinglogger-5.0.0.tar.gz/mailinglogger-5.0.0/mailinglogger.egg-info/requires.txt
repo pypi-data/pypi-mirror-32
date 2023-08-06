@@ -1,0 +1,16 @@
+six
+
+[build]
+sphinx
+pkginfo
+setuptools-git
+wheel
+twine
+sphinx_rtd_theme
+
+[test]
+coverage
+coveralls
+pytest
+sybil
+testfixtures
