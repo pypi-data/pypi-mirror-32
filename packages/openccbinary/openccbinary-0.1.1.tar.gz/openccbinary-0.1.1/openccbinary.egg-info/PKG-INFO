@@ -1,0 +1,71 @@
+Metadata-Version: 1.1
+Name: openccbinary
+Version: 0.1.1
+Summary: OpenCC's binaries that support install from pypi
+Home-page: https://github.com/starofrainnight/openccbinary
+Author: Hong-She Liang
+Author-email: starofrainnight@gmail.com
+License: Apache Software License
+Description: =============
+        OpenCC Binary
+        =============
+        
+        
+        .. image:: https://img.shields.io/pypi/v/openccbinary.svg
+                :target: https://pypi.python.org/pypi/openccbinary
+        
+        .. image:: https://ci.appveyor.com/api/projects/status/xfnhhri3prqxrshx?svg=true
+                :target: https://ci.appveyor.com/project/starofrainnight/openccbinary
+        
+        OpenCC's binaries that support install from pypi
+        
+        The windows binary was compile from `My OpenCC Fork
+        <https://github.com/starofrainnight/openccbinary/>`_ on appveyor.
+        
+        
+        Usage
+        --------
+        
+        ::
+        
+            import openccbinary as occbin
+        
+            # Output the OpenCC's executable path
+            print(occbin.executable)
+        
+        License
+        --------
+        
+        Apache-2.0
+        
+        Credits
+        ---------
+        
+        This package was created with Cookiecutter_ and the `PyPackageTemplate`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`PyPackageTemplate`: https://github.com/starofrainnight/rtpl-pypackage
+        
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.0 (2018-06-02)
+        ------------------
+        
+        * First release on PyPI.
+        * Contained OpenCC 1.0.5 binary and data
+        
+Keywords: opencc
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
