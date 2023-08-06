@@ -1,0 +1,5 @@
+include data/decay_data/decay.db
+include data/endf710nc/ncxs.db
+include data/mas12/mass.db
+include README.md
+include LICENSE
