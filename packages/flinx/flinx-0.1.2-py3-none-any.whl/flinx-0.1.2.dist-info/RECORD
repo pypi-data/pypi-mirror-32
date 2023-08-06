@@ -1,0 +1,10 @@
+flinx/__init__.py,sha256=KsZQu2CYKTFIgnlUJxZ_Y9RlEoAQXE-l0Qta7m2oNl8,119
+flinx/cli.py,sha256=gw8waSfmGxwv3DcBXEys-Czc59YXYtcLSkebp99CxS8,6398
+flinx/project_metadata.py,sha256=YcLi9wKFz4K9Ir-CIsTEvxc-Tleb0vx5w3PPStlbTj4,6032
+flinx/templates/conf.py.tpl,sha256=LJ6_uanq4XUefNL7Fe0FcGu4_0fjzRvhModBEGvGNWA,1053
+flinx/templates/index.rst.tpl,sha256=t3qX7Ek_yZBwcJHL-OB6J-CdG4nbS6HrHSAS1vNHmVY,321
+flinx-0.1.2.dist-info/entry_points.txt,sha256=6t4qYclPCZhyDobsGDyAqKT7M9GhhlvBMdXa2KJ17kI,36
+flinx-0.1.2.dist-info/LICENSE,sha256=opuFd6dq4Jo_4L1JJGICvWhiLJAoyyH-UXg7BpxlA-I,1080
+flinx-0.1.2.dist-info/WHEEL,sha256=JJIJMe3YbUv4boSQQZ-gtLP1eGfirZe1M8ScYeRYZ1M,79
+flinx-0.1.2.dist-info/METADATA,sha256=EyBdZCOk_xmJliQyq5feNW7Lhd9FCo_a_9IFPp8DEwU,6367
+flinx-0.1.2.dist-info/RECORD,,
