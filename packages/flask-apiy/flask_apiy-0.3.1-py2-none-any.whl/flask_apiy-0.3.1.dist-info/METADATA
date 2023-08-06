@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: flask-apiy
+Version: 0.3.1
+Summary: easy to create api with flask, pony, marshmallow
+Home-page: https://github.com/qileroro/flask-apiy/
+Author: qileroro
+Author-email: qileroro@qq.com
+License: Apache License, Version 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Description-Content-Type: text/markdown
+Requires-Dist: werkzeug
+Requires-Dist: flask
+Requires-Dist: pony
+Requires-Dist: marshmallow (==2.15.3)
+Requires-Dist: commony
+
+# flask_apify
+
+easy to create api with flask, pony, marshmallow
+
+## Installation
+```
+pip install flask_apify
+```
+
+## Usage
+app.py
+```python
+```
+
+
