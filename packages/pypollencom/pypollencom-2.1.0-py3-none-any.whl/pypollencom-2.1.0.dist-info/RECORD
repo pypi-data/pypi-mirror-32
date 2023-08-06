@@ -1,0 +1,11 @@
+pypollencom/__init__.py,sha256=7AO_dRumfQVy84kXjqUbXmR-F24E4XfohdzTfRpXsuk,64
+pypollencom/__version__.py,sha256=D773HITlsrproobckoRK3rMmgCZgZUf-cIg4NYra6gc,55
+pypollencom/allergens.py,sha256=MlD8nAOK1MrBlCcT93fcv3KWLO2na17k3Go29kmopm8,1167
+pypollencom/client.py,sha256=rR6mX8gNiaKGrv2pndd6GrYxlRWlOGdpWpvCFYPgH-I,1864
+pypollencom/decorators.py,sha256=DIJwYDEmILCtzu89uSxuzs8rw-C12SHdmrmfEsMURqg,437
+pypollencom/disease.py,sha256=FI4vp6ovYLrdsIoCBNlx3uNQJ2-ZTqKYENkG6vb69kk,466
+pypollencom/errors.py,sha256=v0HupbpX_c86BVaE4zk3n-1jcVj5Lzw31nSUxaKw3vI,276
+pypollencom-2.1.0.dist-info/METADATA,sha256=Wnd0R6YmRM5YjbEPyYqv3zCYS_tcyxliZiyEgDoA-AE,4216
+pypollencom-2.1.0.dist-info/RECORD,,
+pypollencom-2.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pypollencom-2.1.0.dist-info/top_level.txt,sha256=4zjBMuIkvTGVInJDy7xDtXQ2S22NUgpPDzNjxuemAto,12
