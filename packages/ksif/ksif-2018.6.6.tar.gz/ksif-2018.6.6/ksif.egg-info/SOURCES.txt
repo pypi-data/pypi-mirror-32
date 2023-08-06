@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+errors/__init__.py
+ksif.egg-info/PKG-INFO
+ksif.egg-info/SOURCES.txt
+ksif.egg-info/dependency_links.txt
+ksif.egg-info/requires.txt
+ksif.egg-info/top_level.txt
+tools/__init__.py
