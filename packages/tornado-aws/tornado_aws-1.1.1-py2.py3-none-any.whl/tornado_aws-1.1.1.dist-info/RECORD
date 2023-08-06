@@ -1,0 +1,10 @@
+tornado_aws/__init__.py,sha256=1gsEylwWBaiTLOqyn66swcdJbl1QDS4mtLHbrKnAy4o,251
+tornado_aws/client.py,sha256=Huzx_O2j-G3gJMm72ksl59LDxkLdg6cIUuCorLA6998,25238
+tornado_aws/config.py,sha256=QnHX-e_I8gEU71De_qkpDL0kfyP5xtWpMTSeNl0D3WM,13541
+tornado_aws/exceptions.py,sha256=Motf1G0XPAWUHbjA2CaRefFH0ogVZFeEnH482nt4piM,2037
+tornado_aws/txml.py,sha256=sVNC7a1RJKrXFe1OJmP-NMMaRKW8_IgLxPxCAXjXS7Q,1256
+tornado_aws-1.1.1.dist-info/METADATA,sha256=RAE6mOrhw3b7d2ILZs44VyZKP-fnAaK7OQ-Ey1iGdkM,2925
+tornado_aws-1.1.1.dist-info/RECORD,,
+tornado_aws-1.1.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+tornado_aws-1.1.1.dist-info/top_level.txt,sha256=sBysSTd7_NlHz5PH4m-d7wMnIOxOMNXv49lMbx2O3TY,12
+tornado_aws-1.1.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
