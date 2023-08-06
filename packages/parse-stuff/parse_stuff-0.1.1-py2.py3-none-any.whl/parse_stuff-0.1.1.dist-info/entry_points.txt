@@ -1,0 +1,3 @@
+[console_scripts]
+parse_stuff = parse_stuff.cli:main
+
