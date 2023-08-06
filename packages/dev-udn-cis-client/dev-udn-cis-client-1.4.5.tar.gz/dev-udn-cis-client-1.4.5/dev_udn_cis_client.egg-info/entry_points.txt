@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        dev-udn-cis-client=cis_client.cli:cli
+    
