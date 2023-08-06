@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: appconf-node
+Version: 0.0.9
+Summary: Manage a single bare-metal node
+Home-page: https://github.com/novopl/appconf-node
+Author: Mateusz 'novo' Klos
+Author-email: novopl@gmail.com
+License: MIT
+Description: appconf-node
+        ============
+        
+        **WARNING: CURRENTLY ALPHA AS FUCK**
+        
+        A simple service to manage a bare-metal node. In it's minimum, it should
+        allow managing nginx sites on the node as well as docker images running.
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
