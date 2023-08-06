@@ -1,0 +1,12 @@
+CHANGES.rst
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+pyramid_services_autowire/__init__.py
+pyramid_services_autowire.egg-info/PKG-INFO
+pyramid_services_autowire.egg-info/SOURCES.txt
+pyramid_services_autowire.egg-info/dependency_links.txt
+pyramid_services_autowire.egg-info/requires.txt
+pyramid_services_autowire.egg-info/top_level.txt

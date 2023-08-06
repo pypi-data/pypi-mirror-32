@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: pyramid_services_autowire
+Version: 0.1.1
+Summary: An autowire utility for pyramid_services
+Home-page: https://github.com/gjo/pyramid_services_autowire
+Author: OCHIAI, Gouji
+Author-email: gjo.ext@gmail.com
+License: MIT
+Description: .. -*- coding: utf-8 -*-
+        
+        =========================
+        pyramid_services_autowire
+        =========================
+        
+        An autowire utility for `pyramid_services`.
+        
+        
+        before::
+        
+          class IService(Interface):
+              pass
+        
+          class Service(object):
+              def __init__(self, dep_svc1=None, dep_svc2=None, dep_svc3=None):
+                  self.dep_svc1 = dep_svc1
+                  self.dep_svc2 = dep_svc2
+                  self.dep_svc3 = dep_svc3
+        
+          def includeme(config):
+              config.include('pyramid_services')
+              def factory(context, request):
+                  svc = Service(
+                      dep_svc1=request.find_service(IDependService1),
+                      dep_svc2=request.find_service(IDependService2),
+                      dep_svc3=request.find_service(IDependService3),
+                  )
+                  return svc
+              config.register_service_factory(factory, IService)
+        
+        
+        after::
+        
+          from pyramid_services_autowire import Autowire
+        
+          class IService(Interface):
+              pass
+        
+          class Service(object):
+              dep_svc1 = Autowire(IDependService1)
+              dep_svc2 = Autowire(IDependService2)
+              dep_svc3 = Autowire(IDependService3)
+        
+          def includeme(config):
+              config.include('pyramid_services_autowire')
+              config.register_autowire(Service, IService)
+        
+        
+        Change History
+        ==============
+        
+        0.1.1 - 2018-06-09
+        ------------------
+        - fixes relase date.
+        
+        0.1 - 2018-06-09
+        ----------------
+        - Initial release.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Provides-Extra: testing
+Provides-Extra: develop

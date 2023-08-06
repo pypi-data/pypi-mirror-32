@@ -1,0 +1,9 @@
+pyramid
+pyramid_services
+zope.interface
+
+[develop]
+tox
+twine
+
+[testing]
