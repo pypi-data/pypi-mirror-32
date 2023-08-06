@@ -1,0 +1,5 @@
+chardet
+geopy
+texttable
+pager
+pycurl
