@@ -1,0 +1,13 @@
+future
+tqdm
+numpy
+pprint
+opentrons
+PyYAML
+
+[dev]
+check-manifest
+
+[test]
+coverage
+nose
