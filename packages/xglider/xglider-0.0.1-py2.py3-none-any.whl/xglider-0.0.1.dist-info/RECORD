@@ -1,0 +1,8 @@
+xglider/__init__.py,sha256=to1a-6ZVcPwGiwtM2AoAaWDtNVxuQtL2fJlN_VO0N8Q,156
+xglider/cli.py,sha256=OHiL4SggjwhEsrWr5dYGaOMsGiZPBndDcsQOl2AJseU,413
+xglider/xglider.py,sha256=VYoI-gwqwBKPx84cA0KnYDRofrgIXs8xtASD2nu5fE0,44
+xglider-0.0.1.dist-info/METADATA,sha256=dowTDc2ou_YWgXWcfoKI6NQbX_lgFf8oFDwjam0og1M,1727
+xglider-0.0.1.dist-info/RECORD,,
+xglider-0.0.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+xglider-0.0.1.dist-info/entry_points.txt,sha256=Uvmc3h5dtEaumTOgS0VyXLmgc89OOUonDmxrWu0h7cc,46
+xglider-0.0.1.dist-info/top_level.txt,sha256=I9bmYXInD5OOZ1SmnCld4bG4GTmWZPEWD1eSeXtL0KQ,8
