@@ -1,0 +1,6 @@
+django_json_render-1.0.1.dist-info/METADATA,sha256=zaWRkZSGvY8j8dSZ9c0YAPNV-ftIIpL7kKm_zYZgecY,989
+django_json_render-1.0.1.dist-info/RECORD,,
+django_json_render-1.0.1.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+django_json_render-1.0.1.dist-info/top_level.txt,sha256=BdBYYrT5FQbreFQFOhjIQsUpLdkgR9gNkbfC5lC_LHw,12
+json_render/__init__.py,sha256=9FwEbC9YRsnvV2T8gFBodSuhuTflmvAv9rsLh0Hqpl8,68
+json_render/render.py,sha256=RqvUCWuRhWybfRwkpx_WsQk2uyx3nvrWG4FGl2NZC7A,1355
