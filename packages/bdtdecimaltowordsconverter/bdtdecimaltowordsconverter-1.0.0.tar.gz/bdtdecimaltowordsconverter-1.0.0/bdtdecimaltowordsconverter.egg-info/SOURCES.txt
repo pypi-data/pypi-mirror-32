@@ -1,0 +1,7 @@
+setup.py
+bdtdecimaltowordsconverter/__init__.py
+bdtdecimaltowordsconverter/bdtdecimaltowordsconverter.py
+bdtdecimaltowordsconverter.egg-info/PKG-INFO
+bdtdecimaltowordsconverter.egg-info/SOURCES.txt
+bdtdecimaltowordsconverter.egg-info/dependency_links.txt
+bdtdecimaltowordsconverter.egg-info/top_level.txt
