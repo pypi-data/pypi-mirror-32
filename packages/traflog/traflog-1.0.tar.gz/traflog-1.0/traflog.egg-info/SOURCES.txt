@@ -1,0 +1,7 @@
+setup.py
+bin/traflog
+traflog.egg-info/PKG-INFO
+traflog.egg-info/SOURCES.txt
+traflog.egg-info/dependency_links.txt
+traflog.egg-info/requires.txt
+traflog.egg-info/top_level.txt

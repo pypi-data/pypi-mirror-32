@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: traflog
+Version: 1.0
+Summary: Simple traffic accounter, based on pcap.
+Home-page: http://bitbucket.org/umonkey/traflog_py
+Author: Justin Forest
+Author-email: hex@umonkey.net
+License: GNU GPL
+Description: Counts network traffic to and from local addresses using pcap.
+        Stores data in an SQLite database for 60 seconds periods.  Generates simple
+        reports.  Reports can have IP address labelled.  Other reports can be generated
+        using SQL and custom scripts.  Labels traffic during 1:00 AM and 7:00 AM as
+        free (that's how my ISP works).
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Natural Language :: English
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet
