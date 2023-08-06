@@ -1,0 +1,9 @@
+matplotlib
+nose
+numpy>=1.13
+pytest
+scipy>=0.19.1
+scikit_learn>=0.19.1
+
+[:python_version < "3"]
+pathlib2
