@@ -1,0 +1,75 @@
+Metadata-Version: 1.2
+Name: s3m
+Version: 1.1.0
+Summary: sqlite3 wrapper for multithreaded applications
+Home-page: https://github.com/ivknv/s3m
+Author: Ivan Konovalov
+Author-email: ivknv0@gmail.com
+License: LGPLv3
+Project-URL: Source code, https://github.com/ivknv/s3m
+Project-URL: Documentation, https://s3m.readthedocs.io
+Description: S3M
+        ===
+        S3M - is a sqlite3 wrapper for multithreaded python applications.
+        
+        Table of contents
+        #################
+        
+        1. Multithreading_
+        2. Documentation_
+        3. Installation_
+        4. Usage_
+        
+        .. _Multithreading:
+        
+        Multithreading support
+        ######################
+        
+        S3M prevents multiple database operations (or transactions, can be disabled) from running at once.
+        That's basically the whole point of this library.
+        
+        .. _Documentation:
+        
+        Documentation
+        #############
+        .. _Read the Docs: http://s3m.readthedocs.io
+        
+        Documentation is available at `Read the Docs`_
+        
+        .. _Installation:
+        
+        Installation
+        ############
+        
+        .. code:: sh
+        
+            pip install s3m
+        
+        
+        or
+        
+        .. code:: sh
+        
+            python setup.py install
+        
+        There are no requirements.
+        
+        .. _Usage:
+        
+        Usage
+        #####
+        
+        The usage is pretty much the same as with built-in `sqlite3`.
+        
+Keywords: sqlite3 sqlite multithreading thread
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3
