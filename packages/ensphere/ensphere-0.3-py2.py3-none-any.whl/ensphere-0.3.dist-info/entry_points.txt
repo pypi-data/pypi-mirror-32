@@ -1,0 +1,3 @@
+[console_scripts]
+ensphere = ensphere.__main__:main
+
