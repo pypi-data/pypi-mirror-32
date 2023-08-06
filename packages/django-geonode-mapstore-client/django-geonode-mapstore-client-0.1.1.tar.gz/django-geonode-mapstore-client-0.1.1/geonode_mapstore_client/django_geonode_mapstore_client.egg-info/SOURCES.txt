@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+VERSION
+setup.py
+geonode_mapstore_client/django_geonode_mapstore_client.egg-info/PKG-INFO
+geonode_mapstore_client/django_geonode_mapstore_client.egg-info/SOURCES.txt
+geonode_mapstore_client/django_geonode_mapstore_client.egg-info/dependency_links.txt
+geonode_mapstore_client/django_geonode_mapstore_client.egg-info/not-zip-safe
+geonode_mapstore_client/django_geonode_mapstore_client.egg-info/top_level.txt
+geonode_mapstore_client/templatetags/__init__.py
+geonode_mapstore_client/templatetags/geonode_mapstore_client_tags.py
