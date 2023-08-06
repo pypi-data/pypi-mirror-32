@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: automated
+Version: 1.2.1
+Summary: Automatizador de tarefas - LEDA
+Home-page: https://github.com/gabrielfern/automated-leda-tasks
+Author: Gabriel Fernandes
+Author-email: gabrielfernndss@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
