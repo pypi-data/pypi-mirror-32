@@ -1,0 +1,15 @@
+coscmd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coscmd/cos_auth.py,sha256=gSBEAkNFAVuc90ue3UCXhXkYdJV0qyEEsJUouaTrvaE,3370
+coscmd/cos_client.py,sha256=3jWgLdpQW54NATU6ktFrBBQQCeG0W6mOpbmtr54fjbo,71368
+coscmd/cos_cmd.py,sha256=D0W8sbNDmxcvOsqjo4aqRw61WKx1zBgKHSulYaVvf1A,26263
+coscmd/cos_comm.py,sha256=ymGo7tjxH_PQMu6C7NH3SPHgqT-r2dmpdk0xgnwGvoY,957
+coscmd/cos_global.py,sha256=5IfU6dQ3ITI0BPuCx7U2Q2oZqeeftGDQHhOB-2EoKO0,21
+coscmd/cos_threadpool.py,sha256=OMRFiEi9ZA0khdZB8Xun0Yrz5duymbJZGA05LF_uSaY,2836
+coscmd/test.py,sha256=ZEHXK4XQy3irAP0ElkTieRs7TgekbJ7ho4JBK69TsCw,3593
+coscmd-1.8.4.4.dist-info/DESCRIPTION.rst,sha256=cdE3YigLpykoibKkqASws1bl_gxvXTxDuRDTpoEcCK0,14312
+coscmd-1.8.4.4.dist-info/METADATA,sha256=3wg9jGstOhgka_dfvPYutKyUir4mMKlt2jnFrv6Xfwk,14769
+coscmd-1.8.4.4.dist-info/RECORD,,
+coscmd-1.8.4.4.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+coscmd-1.8.4.4.dist-info/entry_points.txt,sha256=_1VT56YvMP1yMGhWLOdErL7cqIyc-kUSlnBzkf-PvYw,49
+coscmd-1.8.4.4.dist-info/metadata.json,sha256=aUDfzKhQvxZonBFwfX4-B20sh9SpNGQSgJ2R-R4Fos0,743
+coscmd-1.8.4.4.dist-info/top_level.txt,sha256=2XKJ3zLHMDB2xzSVQj4DOzUdHCoVQ0LC9c95v6CYXF8,7
