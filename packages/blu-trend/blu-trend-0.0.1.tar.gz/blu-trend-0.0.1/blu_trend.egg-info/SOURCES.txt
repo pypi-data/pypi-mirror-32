@@ -1,0 +1,7 @@
+README.md
+setup.py
+blu_trend.egg-info/PKG-INFO
+blu_trend.egg-info/SOURCES.txt
+blu_trend.egg-info/dependency_links.txt
+blu_trend.egg-info/requires.txt
+blu_trend.egg-info/top_level.txt
