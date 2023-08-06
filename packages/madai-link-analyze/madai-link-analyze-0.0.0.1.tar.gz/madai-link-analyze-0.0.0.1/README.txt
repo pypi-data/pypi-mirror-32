@@ -1,0 +1,2 @@
+该工程依赖pypcap模块，pypcap需要pcap的sdk，放在名为wpdpack的目录下， 目录名不要改动
+在python的virtulenv中进入控制台， cd到目录pypcap中执行  python setup.py install 会安装pypcap模块

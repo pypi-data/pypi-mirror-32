@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: madai-link-analyze
+Version: 0.0.0.1
+Summary: for madai link theft analyze, input url , output theft url
+Home-page: UNKNOWN
+Author: pengjun.pj
+Author-email: pengjun.pj@alibaba-inc.com
+License: GPL
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=2.6, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*
