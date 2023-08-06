@@ -1,0 +1,9 @@
+python-dateutil
+pydash
+tqdm
+pySMART.smartx
+pyudev
+requests
+ereuse-utils[usb_flash_drive]
+colorama
+requests-toolbelt
