@@ -1,0 +1,3 @@
+redis_tasks
+werkzeug
+jinja2
