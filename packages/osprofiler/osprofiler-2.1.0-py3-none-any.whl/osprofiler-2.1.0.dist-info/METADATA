@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: osprofiler
+Version: 2.1.0
+Summary: OpenStack Profiler Library
+Home-page: https://docs.openstack.org/osprofiler/latest/
+Author: OpenStack
+Author-email: openstack-dev@lists.openstack.org
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: OpenStack
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Provides-Extra: test
+Provides-Extra: oslo_config
+Requires-Dist: netaddr
+Requires-Dist: oslo.concurrency
+Requires-Dist: oslo.serialization
+Requires-Dist: oslo.utils
+Requires-Dist: PrettyTable (<0.8)
+Requires-Dist: requests
+Requires-Dist: six
+Requires-Dist: WebOb
+Provides-Extra: oslo_config
+Requires-Dist: oslo.config (>=5.2.0); extra == 'oslo_config'
+Provides-Extra: test
+Requires-Dist: hacking (!=0.13.0,<0.14); extra == 'test'
+Requires-Dist: coverage; extra == 'test'
+Requires-Dist: ddt; extra == 'test'
+Requires-Dist: mock; extra == 'test'
+Requires-Dist: testrepository; extra == 'test'
+Requires-Dist: testtools; extra == 'test'
+Requires-Dist: openstackdocstheme; extra == 'test'
+Requires-Dist: sphinx; extra == 'test'
+Requires-Dist: bandit; extra == 'test'
+Requires-Dist: pymongo (!=3.1); extra == 'test'
+Requires-Dist: elasticsearch (<=3.0.0); extra == 'test'
+Requires-Dist: redis; extra == 'test'
+Requires-Dist: reno; extra == 'test'
+
+========================
+Team and repository tags
+========================
+
+.. image:: https://governance.openstack.org/tc/badges/osprofiler.svg
+    :target: https://governance.openstack.org/tc/reference/tags/index.html
+
+.. Change things from this point on
+
+===========================================================
+ OSProfiler -- Library for cross-project profiling library
+===========================================================
+
+.. image:: https://img.shields.io/pypi/v/osprofiler.svg
+    :target: https://pypi.org/project/osprofiler/
+    :alt: Latest Version
+
+.. image:: https://img.shields.io/pypi/dm/osprofiler.svg
+    :target: https://pypi.org/project/osprofiler/
+    :alt: Downloads
+
+OSProfiler provides a tiny but powerful library that is used by
+most (soon to be all) OpenStack projects and their python clients. It
+provides functionality to be able to generate 1 trace per request, that goes
+through all involved services. This trace can then be extracted and used
+to build a tree of calls which can be quite handy for a variety of
+reasons (for example in isolating cross-project performance issues).
+
+* Free software: Apache license
+* Documentation: https://docs.openstack.org/osprofiler/latest/
+* Source: https://git.openstack.org/cgit/openstack/osprofiler
+* Bugs: https://bugs.launchpad.net/osprofiler
+
+
+
