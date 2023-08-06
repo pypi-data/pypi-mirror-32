@@ -1,0 +1,9 @@
+pycryptodome
+requests
+requests[security]
+socketio-client==0.5.6
+
+[test]
+mock
+pytest
+pytest_mock
