@@ -1,0 +1,8 @@
+datapackage>=1.2.2
+
+[develop]
+pylama
+tox
+
+[speedup]
+plyvel<1
