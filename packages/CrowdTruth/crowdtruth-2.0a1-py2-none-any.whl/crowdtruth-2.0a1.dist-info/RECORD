@@ -1,0 +1,17 @@
+crowdtruth/__init__.py,sha256=jWF9AGDd9whEO4PSR30yRKTnk3BgG1xliMHfCdIxCYU,58
+crowdtruth/configuration.py,sha256=jDXBEqmirBOBwOL9RDuZ5QGYt2g3OUssoBmINQIwoB0,543
+crowdtruth/load.py,sha256=uPlDYOpjx-GitpWSXBXqyg0ZeDDgGty1SUQ0-Zz3g5A,14311
+crowdtruth/run.py,sha256=9BV6KWf-0qcuGD9-C2SuBvd-gGsCQ-qjpeyBBxKyrSQ,125
+crowdtruth/save.py,sha256=AEOhOFMpVq3JILB00GDgLhkEA3VO2CGab8loGwzGVTI,376
+crowdtruth/models/__init__.py,sha256=Cpsk8EubcwrunGScdB3nZn4CUXXdrKfMqJWSxgx7vu4,109
+crowdtruth/models/collection.py,sha256=_242Kai2gSRZKlZRAYo0SN1-RPbtA0lo5y6sQo7MFNI,137
+crowdtruth/models/job.py,sha256=Bx5S1Vreb5m0PDh8gGigx87-kZDEw51eLZMKmyk-DMI,1090
+crowdtruth/models/judgment.py,sha256=cwjQp2ZHqehZ0qNicQEhYxAke01KWj7avgBVb4IgfgI,984
+crowdtruth/models/metrics.py,sha256=uMB4hhzvSiWHjHN1sz9oNPJlqSNr3PmQdQ9zM4Usovo,15550
+crowdtruth/models/unit.py,sha256=jx3Jnc4-xHwgNK56eYgLxozcgI2Pir50WQB2j1BN2CQ,4517
+crowdtruth/models/worker.py,sha256=Mhz8ZrCl7QjxX3AvbGykDUhu8m_8td0lLhIxYqkdDrI,6167
+crowdtruth-2.0a1.dist-info/METADATA,sha256=xFFrZavyPIA2VnQpzajQ9oVsDfTrQrwGKjZZcF9tlOE,1093
+crowdtruth-2.0a1.dist-info/RECORD,,
+crowdtruth-2.0a1.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+crowdtruth-2.0a1.dist-info/entry_points.txt,sha256=tGE50lCm1vriT0RtUosoq2_4udUjH4C9q63em1wKUs8,74
+crowdtruth-2.0a1.dist-info/top_level.txt,sha256=BVU6jf5996ZpqAcZ0XNrtbks5T3-2Jpdu-VOnJXbtYM,11
