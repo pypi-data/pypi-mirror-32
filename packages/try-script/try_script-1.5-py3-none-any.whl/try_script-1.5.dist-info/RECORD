@@ -1,0 +1,9 @@
+try_pkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+try_pkg/app.py,sha256=jChF1APNywNQybYHAK_DFAnDuabwOtPVN-Y7-TRE6iw,9009
+try_pkg/colors.py,sha256=pbvjNCPTzXr1Y5iqnWwJte7oDlpnCLjDr7VH0OOqprY,1652
+try_pkg/getdata.py,sha256=4oKpS5qkQi_LWYZxFuxj783k0sA4teY72j_RdH9doNM,3441
+try_script-1.5.dist-info/METADATA,sha256=2Kux2Lj3z9FfxLEZn1ijFx6cSMyAH4k8Eo8YFHq_PRw,307
+try_script-1.5.dist-info/RECORD,,
+try_script-1.5.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+try_script-1.5.dist-info/entry_points.txt,sha256=svt8YAvBB2bssJ4Ds3gEBY-IINaJK28CoL5sOXVE-rw,42
+try_script-1.5.dist-info/top_level.txt,sha256=2tQ2wRW6OkCOXo8FWnM3DP_tO1PXI5TBC2btglFHApY,8
