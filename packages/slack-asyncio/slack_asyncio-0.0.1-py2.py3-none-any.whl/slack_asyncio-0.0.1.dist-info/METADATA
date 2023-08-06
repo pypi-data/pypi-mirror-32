@@ -1,0 +1,20 @@
+Metadata-Version: 2.0
+Name: slack-asyncio
+Version: 0.0.1
+Summary: Slack bot and API library using asyncio
+Home-page: https://github.com/chriskuehl/slack-asyncio
+Author: Chris Kuehl
+Author-email: ckuehl@ckuehl.me
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Dist: aiohttp
+Requires-Dist: asyncio-extras
+Requires-Dist: websockets
+
+UNKNOWN
+
+
