@@ -1,0 +1,3 @@
+recursive-include strakspos/resources *
+recursive-include strakspos/assets *
+include strakspos/strakspos.cfg.sample
