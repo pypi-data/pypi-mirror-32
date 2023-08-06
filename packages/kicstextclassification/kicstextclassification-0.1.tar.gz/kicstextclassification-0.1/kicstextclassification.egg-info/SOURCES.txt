@@ -1,0 +1,7 @@
+setup.py
+kicstextclassification/__init__.py
+kicstextclassification.egg-info/PKG-INFO
+kicstextclassification.egg-info/SOURCES.txt
+kicstextclassification.egg-info/dependency_links.txt
+kicstextclassification.egg-info/not-zip-safe
+kicstextclassification.egg-info/top_level.txt
