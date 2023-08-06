@@ -1,0 +1,10 @@
+amac/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+amac/mac_ggm.py,sha256=pQRmvbUoX2i_qhKIbWuJt-6yLgSXZEa1RNCfSBVXZKU,898
+amac/proofs.py,sha256=NGqhnmf7bD9A0a-2gvTDNb4LVfy9BtBAz2zPI2nVaiE,6796
+amac/scheme.py,sha256=qP4oMhPVYiRzwE3Z3UCvBmAwLoI41Mz8bZJ-nDnvOqE,3613
+amac/utils.py,sha256=BHRKZfMRO130_1t1gOEVBfy58H_NV6Q4aitY_iEriwM,867
+amac-0.0.1.dist-info/LICENSE.txt,sha256=fnwVHRhCcF8zhHfipi36IJx4goQ48NhFp7zJE6J1HRs,35116
+amac-0.0.1.dist-info/METADATA,sha256=X53PHCYGuBep35ITNtjLQV0n8kRD6WxKW-Tswk0niwg,2260
+amac-0.0.1.dist-info/RECORD,,
+amac-0.0.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+amac-0.0.1.dist-info/top_level.txt,sha256=45phTXSfipnOXjCJLDENnno_10DgcusnX31fUDwDj0E,5
