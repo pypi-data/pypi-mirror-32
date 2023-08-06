@@ -1,0 +1,6 @@
+ansible_hostmanager/__init__.py,sha256=i5hcQF2an39qWoToH1nOJQ4iBJUJbrBfTwJG7_nUS4o,3674
+ansible_hostmanager-0.2.4.dist-info/METADATA,sha256=Te2WDFH-WO7otI8LAeiVbgAbtYIIKfLaaWQY413tv_w,2399
+ansible_hostmanager-0.2.4.dist-info/RECORD,,
+ansible_hostmanager-0.2.4.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+ansible_hostmanager-0.2.4.dist-info/entry_points.txt,sha256=YZTIyOGPLkM9mhPtvFy-GWOStVFlOgfOzF6YgI3QnJ8,49
+ansible_hostmanager-0.2.4.dist-info/top_level.txt,sha256=G7qg9mWOF7RbfsPLDh3aLOYKRI0EJ-LZq4UVOJt_64g,20
