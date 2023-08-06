@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: anonphoto
+Version: 1.0.3
+Summary: Automated anonymizer photo (face & plate)
+Home-page: https://github.com/TurkishTinMan/anonymize-photo
+Author: TurkishTinMan
+Author-email: riccardo.salladini@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: face-recognition
+
+UNKNOWN
+
+
