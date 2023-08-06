@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+VERSION
+setup.py
+pytest_fastest/__init__.py
+pytest_fastest/git.py
+pytest_fastest.egg-info/PKG-INFO
+pytest_fastest.egg-info/SOURCES.txt
+pytest_fastest.egg-info/dependency_links.txt
+pytest_fastest.egg-info/entry_points.txt
+pytest_fastest.egg-info/requires.txt
+pytest_fastest.egg-info/top_level.txt
