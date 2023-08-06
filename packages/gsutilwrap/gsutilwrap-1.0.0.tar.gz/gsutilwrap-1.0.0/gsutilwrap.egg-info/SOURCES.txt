@@ -1,0 +1,8 @@
+README.rst
+gsutilwrap.py
+setup.py
+gsutilwrap.egg-info/PKG-INFO
+gsutilwrap.egg-info/SOURCES.txt
+gsutilwrap.egg-info/dependency_links.txt
+gsutilwrap.egg-info/requires.txt
+gsutilwrap.egg-info/top_level.txt
