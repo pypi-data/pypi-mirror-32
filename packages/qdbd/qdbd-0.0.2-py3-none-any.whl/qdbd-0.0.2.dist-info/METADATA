@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: qdbd
+Version: 0.0.2
+Summary: SQLAlchemy model generator for https://www.quickdatabasediagrams.com
+Home-page: UNKNOWN
+Author: High Summit LLC
+Author-email: contact@hsllc.co
+Maintainer-email: adamtwalsh@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+
+# qdbd
+SQLAlchemy model generation from [QuickDBD][1] schema text.
+
+WIP
+
+[1]: https://www.quickdatabasediagrams.com/
+
+
