@@ -1,0 +1,8 @@
+README.md
+setup.py
+twokenize/__init__.py
+twokenize/twokenize.py
+twokenize.egg-info/PKG-INFO
+twokenize.egg-info/SOURCES.txt
+twokenize.egg-info/dependency_links.txt
+twokenize.egg-info/top_level.txt
