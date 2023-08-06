@@ -1,0 +1,13 @@
+buildpg/__init__.py,sha256=YVoyvzPf7bfWF14cFzHnIt9sbRNGtWyuiM6qx6bAGMs,147
+buildpg/asyncpg.py,sha256=lSH3zh3sduC52Nye0ATGnnu94377OFQBmnIAij6YGHo,1729
+buildpg/clauses.py,sha256=xS3wLHMyMeTD_NhFrvvrOP-TdJLx_MHDk-2f1R_oEik,1623
+buildpg/components.py,sha256=YOlNMpxnANh49ja8uoQ0-AN2OTfm3a_7d0dbPIKVa9g,3711
+buildpg/funcs.py,sha256=ZZ1am-MoH4ls_qeCO0gE3ZKp7Ad2mpRri9yVMGmfPxk,1175
+buildpg/logic.py,sha256=lLxaWouJAE7AvCLMAR-eT7nlYHXmM7WGgmKRkJ-4SZQ,5865
+buildpg/main.py,sha256=9_UgE8MmwbO1Qtl4ZaltuSOjNArbiFPqKtN0rHpcV3g,2304
+buildpg/version.py,sha256=_oiDvH9smjmsLd8WKunDIby7-0uTmWkQoWUokgtKmC8,101
+buildpg-0.0.1.dist-info/METADATA,sha256=-elKs07pci-HH3AGOud2xJ5mfHzv5d8wWTyJ8zgIe5I,1395
+buildpg-0.0.1.dist-info/RECORD,,
+buildpg-0.0.1.dist-info/WHEEL,sha256=HFxn6CRybAnvxw97CfWMjKc4LDsDdXXn2o08ktxbRQY,93
+buildpg-0.0.1.dist-info/top_level.txt,sha256=RGn5p0fYwk97D4OMCp3G3E-XKzdwHn2gXrBcNpG9QY0,8
+buildpg-0.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
