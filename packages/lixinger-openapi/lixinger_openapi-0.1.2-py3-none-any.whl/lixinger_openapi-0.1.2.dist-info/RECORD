@@ -1,0 +1,11 @@
+lixinger_openapi/__init__.py,sha256=GFNY4WLPNMUu9dD4mO1mqzUFlPn5AHwXfxkn0B1b-78,260
+lixinger_openapi/baseapi.py,sha256=nYYiGeu1fk3lzPvdepIfcWbDRHnmypDINvGksl9NsNg,1806
+lixinger_openapi/data.py,sha256=-tWikWj5tb0PiRmgdYjAQXtlERup81CrDxrBAqDo_0E,1982
+lixinger_openapi/json.py,sha256=CFhjaK50c5FWlmKTY0ghbfNDAZojrnLjukTo5EF5t1E,1917
+lixinger_openapi/token.py,sha256=OYYAEzP-UjEoZm5IvR2PnAAm4jPZfnMWBvNhcrYiq0M,237
+lixinger_openapi-0.1.2.dist-info/DESCRIPTION.rst,sha256=MrAfUQvRCxf8EdTVOx8Yqr9jjJ2j1CASTvGxhyfgl7Y,3713
+lixinger_openapi-0.1.2.dist-info/METADATA,sha256=H_TtRElIgPWGQ8aCJAfYDrn2PgNjRs1_tfLBs5l7qHs,4182
+lixinger_openapi-0.1.2.dist-info/RECORD,,
+lixinger_openapi-0.1.2.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+lixinger_openapi-0.1.2.dist-info/metadata.json,sha256=CRtds_MjvGRg6DD2YyTfehjCWJern7RVle20MIIoffI,674
+lixinger_openapi-0.1.2.dist-info/top_level.txt,sha256=hOU678Mkw0xyph_wQP0KEZGxgA0Z3IGN3sF2kfH6ukg,17
