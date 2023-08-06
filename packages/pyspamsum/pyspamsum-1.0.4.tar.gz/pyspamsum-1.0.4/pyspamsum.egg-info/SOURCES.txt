@@ -1,0 +1,9 @@
+README.rst
+edit_dist.c
+pyspamsum.c
+setup.py
+spamsum.c
+pyspamsum.egg-info/PKG-INFO
+pyspamsum.egg-info/SOURCES.txt
+pyspamsum.egg-info/dependency_links.txt
+pyspamsum.egg-info/top_level.txt
