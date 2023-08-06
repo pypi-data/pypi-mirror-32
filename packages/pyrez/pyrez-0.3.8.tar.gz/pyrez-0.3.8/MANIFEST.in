@@ -1,0 +1,6 @@
+include LICENSE
+include README.rst
+recursive-include docs *
+
+include *.txt *.ini *.cfg *.rst
+recursive-include pyrez *.ico *.png *.css *.gif *.jpg *.txt *.js *.html *.xml
