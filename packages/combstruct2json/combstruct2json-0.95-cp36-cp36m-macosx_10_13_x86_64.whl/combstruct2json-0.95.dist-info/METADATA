@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: combstruct2json
+Version: 0.95
+Summary: Lightweight library to parse combstruct grammars, and standalone tool to convert them to JSON.
+Home-page: https://github.com/jlumbroso/combstruct2json
+Author: Jérémie Lumbroso
+Author-email: lumbroso@cs.princeton.edu
+License: LGPLv3
+Keywords: combinatorics
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Development Status :: 5 - Production/Stable
+
+UNKNOWN
+
+
