@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: ippserver
+Version: 0.2
+Summary: An IPP server which acts like a printer
+Home-page: http://github.com/h2g2bob/ipp-server
+Author: David Batley
+Author-email: git@dbatley.com
+License: BSD2
+Description: A module which implements enough of IPP to fool CUPS into thinking it is a real printer.
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
