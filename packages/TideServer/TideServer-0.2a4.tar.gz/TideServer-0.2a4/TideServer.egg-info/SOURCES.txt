@@ -1,0 +1,15 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+uwsgi.ini
+wsgi.py
+TideServer.egg-info/PKG-INFO
+TideServer.egg-info/SOURCES.txt
+TideServer.egg-info/dependency_links.txt
+TideServer.egg-info/requires.txt
+TideServer.egg-info/top_level.txt
+install/tideserver.conf
+install/tideserver.service
+tideserver/__init__.py
+tideserver/tideserver.py
