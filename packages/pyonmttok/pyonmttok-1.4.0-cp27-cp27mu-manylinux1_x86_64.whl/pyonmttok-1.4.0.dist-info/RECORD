@@ -1,0 +1,10 @@
+pyonmttok-1.4.0.dist-info/top_level.txt,sha256=wuxOdfXNXj98ECi-4TSLRm_bpRYIccmePnOKlVvxvfY,10
+pyonmttok-1.4.0.dist-info/WHEEL,sha256=M5Ujap42zjfAFnpJOoFU72TFHuBKh-JF0Rqu5vZhkVE,110
+pyonmttok-1.4.0.dist-info/RECORD,,
+pyonmttok-1.4.0.dist-info/METADATA,sha256=JxmsTmcfuvfLpYdPEsDhg7ZrHnrOEkOUJABAMr_n4ws,694
+pyonmttok/__init__.py,sha256=EK9QEmBWSuGxlf7sYqNCvKT1cGwRk5cRUEJYXlL7Sjc,42
+pyonmttok/tokenizer.so,sha256=-FEte6rNeIqPd1wCUEllNrUuYI04s3XZQbz_1StT1lw,1311184
+pyonmttok/.libs/libOpenNMTTokenizer-d446f860.so,sha256=jeNXSvYh3uFCH_CgCHvxVfqsAdf2MVhuZUlZh5b8iHY,241088
+pyonmttok/.libs/libboost_python-52e0694e.so.1.66.0,sha256=VXNYmNd-Jb6ROS-URwAFa8y-LaaQd8ayiAWMFwm_Y_4,443512
+pyonmttok/.libs/libprotobuf-f16aca65.so.15.0.1,sha256=xZzP7RU4SXcD7B6k3LesEmiZoTNRoKqiBXvdpLSN5HI,30227784
+pyonmttok/.libs/libsentencepiece-d10402bd.so.0.0.0,sha256=1fcQB0eAqEK0Iah9ZiLF_fLMZwfSeWtTShuj3dJSFoY,681040
