@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: calc-demo
+Version: 0.0.2
+Summary: A small calc example package
+Home-page: https://github.com/waldirio/calc_demo
+Author: Waldirio
+Author-email: waldirio@gmail.com
+License: UNKNOWN
+Description-Content-Type: text/markdown
+Description: Hello all
+        
+        This repo is part of a great documentation about Python Development Workflow.
+        
+        I'll describe more about it but I really recommend you to check and feel free to submit a new Issue just to improve the document *if you believe be necessary*. For sure I'll be glad to help.
+        
+        Thank you !!!
+        
+        Waldirio
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
