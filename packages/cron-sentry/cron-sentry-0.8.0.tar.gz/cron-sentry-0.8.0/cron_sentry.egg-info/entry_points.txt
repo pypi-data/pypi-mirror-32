@@ -1,0 +1,4 @@
+[console_scripts]
+cron-sentry = cron_sentry.runner:run
+raven-cron = cron_sentry.runner:run
+
