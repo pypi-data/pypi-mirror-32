@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pathtree
+Version: 0.1.1
+Summary: Python command line tree printer
+Home-page: https://github.com/skylerlee/pathtree
+Author: skylerlee
+Author-email: skyler.ac.lee@gmail.com
+License: UNKNOWN
+Description: # pathtree
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
