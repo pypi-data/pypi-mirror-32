@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: pyagresso
+Version: 0.1.1.dev1
+Summary: Python Client for Unit4 Agresso System
+Home-page: https://github.com/osamakhn/pyagresso
+Author: Osama Khan
+Author-email: osamakhn@gmail.com
+License: MIT License
+Project-URL: Source, https://www.github.com/osamakhn/pyagresso
+Keywords: Unit4 Agresso Milestone4
+Platform: UNKNOWN
+Requires-Dist: requests
+
+
+This module helps developers work with the Agresso Unit4 (ver. Milestone 4) Query Engine
+SOAP webservice easily without worry about the transport layer/protocol and getting data in easible
+ingestible formats: JSON, CSV
+
+Example:
+    ```python
+    from pyagresso.queryengineservice import QueryEngineService
+    username = os.getenv('AGRESSO_USERNAME')
+    password = os.getenv('AGRESSO_PASSWORD')
+    client = os.getenv('AGRESSO_CLIENT')
+    instance_url = os.getenv('AGRESSO_INSTANCE_URL')
+    ag = QueryEngineService(username, password,client,instance_url)
+    about_response_as_xml = ag.about()
+    ```
+
+Note: 
+    * Not using bdd in this library due to small size of module undertest
+
+
+
