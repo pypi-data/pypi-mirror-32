@@ -1,0 +1,11 @@
+shellingham/__init__.py,sha256=G-SZ9aJn3OOCnGEGN7iiuCnbEc5ir3jYAxJ7OEukph0,645
+shellingham/_consts.py,sha256=skJMj5v8q0ZD-OOCXQKHb-v2-Ue9eGZkg-XfDCDpa4E,264
+shellingham/nt.py,sha256=BPx4lkfFUwNo2vchSKwtUk0Zq343wyrRk3o57Q4kOlw,3646
+shellingham/posix.py,sha256=IY0uvXYBB1Tkae3V4-A0zk_aD6sTglz-k9ssczGNfeM,1676
+shellingham-1.0.0.dev1.dist-info/DESCRIPTION.rst,sha256=OoM6FLclfg7sysuNhMXXTPYI8O4mvYT-OP1pmLH6aJM,644
+shellingham-1.0.0.dev1.dist-info/METADATA,sha256=WQzh7m0uWjbXLO1FxwUMwWW-I2Rwm5WXIAZMWF9JeVc,1607
+shellingham-1.0.0.dev1.dist-info/RECORD,,
+shellingham-1.0.0.dev1.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+shellingham-1.0.0.dev1.dist-info/metadata.json,sha256=n05yLMTAV_fccjtbFl_3QRL31U8ZIYuWLit8VS9-9qA,1061
+shellingham-1.0.0.dev1.dist-info/top_level.txt,sha256=uKMQL5AKxPi4O9_Rbd838QeEs4ImpGQKNbEDZYqgBgk,12
+shellingham-1.0.0.dev1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
