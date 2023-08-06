@@ -1,0 +1,10 @@
+fcm_client-0.2.1.dist-info/METADATA,sha256=-gtcIXXv_K7kb0qaumF3c3j-aLxtPx3uaBD5CXV7PJM,2444
+fcm_client-0.2.1.dist-info/RECORD,,
+fcm_client-0.2.1.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+fcm_client-0.2.1.dist-info/entry_points.txt,sha256=TbuGbeCp4actbbU93GmK6WekgNQVa3hscipmfB3GDOE,50
+fcm_client-0.2.1.dist-info/top_level.txt,sha256=oCDLPK9SvOdAohcqMMWcHS_0UMcPjaoHxcRrluFtL8c,10
+fcmclient/VERSION,sha256=GWZm1qfrRYP7nLHhWZcQELLim1t1Kqc_RW4OIGG2Ql8,5
+fcmclient/__init__.py,sha256=utFYPYRuSpe-Qtf3mI10HwiOVTF71nqHju8JNvMA6I8,936
+fcmclient/api.py,sha256=60cLnbOopm20TW3vkbVdqsNus7oQGE48ELxpjV_cfw4,13503
+fcmclient/cli.py,sha256=8egReebpqfDsVxXfF-qBQcE6fiLB9o9Z-C4dpwyRS5U,1594
+fcmclient/version.py,sha256=HWmRD_RlZBXHe53UXWtDc1gUH_EqrgNyCHN2J9-ht68,269
