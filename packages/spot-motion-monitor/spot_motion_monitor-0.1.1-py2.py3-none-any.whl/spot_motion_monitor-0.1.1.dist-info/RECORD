@@ -1,0 +1,11 @@
+spot_motion_monitor/__init__.py,sha256=NZcvBh0NhWxesvrQARwbjGeMwmooiI3doF8D2YBqdxE,421
+spot_motion_monitor/spot_motion_monitor_rc.py,sha256=XM-1e3eRSn0_RPUe5U6Otz44o-HwVz8FO9wa41BlTG0,82575
+spot_motion_monitor/views/__init__.py,sha256=Ty5jvXOAh1mg_URDx969e4mQdM006hmFqrY0O-0jq5o,349
+spot_motion_monitor/views/main_window.py,sha256=Nhh5X2O3fwg2M8zcr7K7fXFxT2YTb5Ldm_TJicjmD-I,2561
+spot_motion_monitor/views/ui_main_window.py,sha256=NPD67LfFxpFJiB9ELVIq3AAsRF2a6Fvq9mqh5Jze-xY,6422
+spot_motion_monitor-0.1.1.data/scripts/smm_ui.py,sha256=rTYswoyJFu4MP49Wwpi4rmX3hyHTHvHefHtp3W3ztzU,431
+spot_motion_monitor-0.1.1.dist-info/METADATA,sha256=ioS7uki2Kap55A_hg7-0P_2IrHo0CoKrwt1uOnZeNgg,1812
+spot_motion_monitor-0.1.1.dist-info/RECORD,,
+spot_motion_monitor-0.1.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+spot_motion_monitor-0.1.1.dist-info/entry_points.txt,sha256=YcydQffHZdsbipbsTFaOQPquysYcL9TRm5klGRzwKpU,65
+spot_motion_monitor-0.1.1.dist-info/top_level.txt,sha256=fXB35WJ7Ni5GusEe2BYl8R9kXW8w4dzxDT-FuI7tL1w,20
