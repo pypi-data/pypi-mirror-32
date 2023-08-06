@@ -1,0 +1,86 @@
+Metadata-Version: 1.1
+Name: fem
+Version: 0.0.22
+Summary: Free Energy Minimization
+Home-page: http://lbm.niddk.nih.gov/mckennajp/fem
+Author: Joseph P. McKenna
+Author-email: joepatmckenna@gmail.com
+License: UNKNOWN
+Description: Free Energy Minimization
+        ========================
+        
+        Quick Start:
+            - Install ``fem``:
+        
+            .. code-block:: sh
+        
+                pip install fem
+        
+            - Load ``fem`` in your Python script:
+        
+            .. code-block:: python
+        
+                import fem
+        
+            - Take a look at the :ref:`examples`.
+        
+        Introduction
+        ------------
+        
+        Free energy minimization (FEM) is a method for learning a nonlinear function :math:`f`, with a form inspired by statistical physics, that maps input variables :math:`x_i` to an output variable :math:`y`. Here, we describe the version of FEM that requires discrete data, that is variables :math:`x_i,y` which take on values from a finite set of symbols. Such data may occur naturally (the DNA sequences that form genes or the amino acid sequences that form proteins, for example) or may result from discretizing naturally occurring continuous variables (assigning neurons' states to on or off, for example).
+        
+        The function :math:`f` that we wish to learn operates on the "one-hot" encodings of discrete variables defined as follows. Assume the variable :math:`x_i` takes on one of :math:`m_i` states symbolized by the first :math:`m_i` positive integers, i.e. :math:`x_i\in\{1,2,\ldots,m_i\}`. The one-hot encoding :math:`\sigma_i\in\{0,1\}^{m_i}` of :math:`x_i` is a vector of length :math:`m_i` whose :math:`j^{th}` component is
+        
+        .. math::
+        
+           \sigma_{ij}(x_i) = \begin{cases} 1 & \text{ if }x_i=j \\ 0 & \text{otherwise}\end{cases}
+        
+        Note that :math:`\sigma_i` is a boolean vector with exactly one 1 and the rest 0's. Assume that we observe :math:`n` variables, then the state of the system is represented by the vector :math:`\sigma=\begin{pmatrix}\sigma_1&\cdots&\sigma_n\end{pmatrix}^T` formed from concatenating the one-hot encodings of each input variable. The set of valid :math:`\sigma` is :math:`\Sigma = \{\sigma\in\{0,1\}^{M_{n+1}}:\sum_{j=M_i+1}^{M_{i+1}}\sigma_{ij}=1\text{ for each }i=1,\ldots,n\}` with :math:`M_i=\sum_{j<i}m_j`.
+        
+        Assume the output variable :math:`y` takes on one of :math:`m` values, i.e. :math:`y\in\{1,\ldots,m\}`, then :math:`f:\Sigma\rightarrow [0,1]^m` is defined as
+        
+        .. math::
+        
+           f(\sigma) = {1 \over \sum_{i=1}^{m} e^{h_i(\sigma)}} \begin{pmatrix} e^{h_1(\sigma)} \cdots e^{h_m(\sigma)} \end{pmatrix}^T
+        
+        where :math:`h_i(\sigma)` is the negative energy of the :math:`i^{th}` state of :math:`y` when the system is in the state :math:`\sigma`. The :math:`i^{th}` component of :math:`f(\sigma)` is the probability according to the `Boltzmann distribution`_ that :math:`y` is in state :math:`i` given that the system is in the state :math:`\sigma`. Importantly, :math:`h:\Sigma\rightarrow\mathbb{R}^m` maps :math:`\sigma` to the negative energies of states of :math:`y` in an interpretable manner:
+        
+        .. math::
+        
+            h(\sigma) = \sum_{i=1}^pH_i\sigma^i
+        
+        where :math:`H_i` is an :math:`m\times p_i` matrix of model parameters to be inferred and :math:`\sigma^i` is :math:`p_i`-dim vector of distinct powers of the :math:`\sigma` components and where :math:`p_i=\sum_{S\subseteq\{1,\ldots,n\}, |S|=i}\prod_{j\in S}m_j`. For example, if :math:`n=2` and :math:`m_1=m_2=3`, then
+        
+        .. math::
+        
+           \sigma^1 = \begin{pmatrix} \sigma_{11} & \sigma_{12} & \sigma_{13} & \sigma_{21} & \sigma_{22} & \sigma_{23} \end{pmatrix}^T,
+        
+        which agrees with the definition of :math:`\sigma` above, and
+        
+        .. math::
+           
+           \sigma^2 = \begin{pmatrix} \sigma_{11}\sigma_{21} & \sigma_{11}\sigma_{22} & \sigma_{11}\sigma_{23} & \sigma_{12}\sigma_{21} & \sigma_{12}\sigma_{22} & \sigma_{12}\sigma_{23} & \sigma_{13}\sigma_{21} & \sigma_{13}\sigma_{22} & \sigma_{13}\sigma_{23} \end{pmatrix}^T.
+        
+        Note that we exclude powers of the form :math:`\sigma_{ij}\sigma_{ik}` with :math:`j\neq k` since they are guaranteed to be 0. For that reason, :math:`\sigma^i` for :math:`i>2` is empty in the above example, and generally the greatest degree of :math:`h` must satisfy :math:`p\leq n`. On the other hand, we exclude powers of the form :math:`\sigma_{jk}^i` for :math:`i>1` since they are guaranteed to be 1 as long as :math:`\sigma_{jk}=1` and therefore would be redundant to the linear terms in :math:`h.` Note that the number of terms in the sum defining :math:`p_i` is :math:`{n \choose i}`, the number of ways of choosing :math:`i` distinct input variables out of the available :math:`n`, and note that if all :math:`m_j=m`, then :math:`p_i={n\choose i}m^i`.
+        
+        We say that :math:`h` is interpretable because
+        
+        Links
+        -----
+        
+        Online documentation:
+            http://lbm.niddk.nih.gov/mckennajp/fem
+        
+        Python package index:
+            https://pypi.python.org/pypi/fem
+        
+        Source code repository:
+            https://github.com/joepatmckenna/fem
+        
+        
+        .. _Boltzmann distribution: https://en.wikipedia.org/wiki/Boltzmann_distribution
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
