@@ -1,0 +1,12 @@
+CHANGELOG.md
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pyfrozen/__init__.py
+pyfrozen/frozendict.py
+pyfrozen/frozenlist.py
+pyfrozen.egg-info/PKG-INFO
+pyfrozen.egg-info/SOURCES.txt
+pyfrozen.egg-info/dependency_links.txt
+pyfrozen.egg-info/top_level.txt
