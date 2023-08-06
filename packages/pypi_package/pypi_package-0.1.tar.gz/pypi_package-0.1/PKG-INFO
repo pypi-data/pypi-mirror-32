@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: pypi_package
+Version: 0.1
+Summary: This package only records what cato y perro love story
+Home-page: https://github.com/Emrys-Hong/pypi_package
+Author: Emrys-Hong
+Author-email: hongpengfei.emrys@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/Emrys-Hong/pypi_package/archive/0.1.tar.gz
+Description: UNKNOWN
+Keywords: testing,logging,example
+Platform: UNKNOWN
