@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+expiringdict/__init__.py
+expiringdict_with_default.egg-info/PKG-INFO
+expiringdict_with_default.egg-info/SOURCES.txt
+expiringdict_with_default.egg-info/dependency_links.txt
+expiringdict_with_default.egg-info/requires.txt
+expiringdict_with_default.egg-info/top_level.txt
+expiringdict_with_default.egg-info/zip-safe
