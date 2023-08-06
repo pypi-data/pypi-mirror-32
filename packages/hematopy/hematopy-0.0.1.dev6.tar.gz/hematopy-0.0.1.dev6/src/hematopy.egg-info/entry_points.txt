@@ -1,0 +1,3 @@
+[console_scripts]
+hematopy = haemapy.cli:haemapy_cli
+
