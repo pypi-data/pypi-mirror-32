@@ -1,0 +1,6 @@
+setuptools
+numpy
+scipy
+pillow
+matplotlib
+wxpython
