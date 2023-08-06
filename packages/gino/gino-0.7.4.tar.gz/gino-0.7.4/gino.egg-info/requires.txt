@@ -1,0 +1,5 @@
+asyncpg==0.16.0
+SQLAlchemy==1.2.8
+
+[:python_version < "3.7"]
+aiocontextvars==0.1.2
