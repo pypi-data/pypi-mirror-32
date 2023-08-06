@@ -1,0 +1,8 @@
+Flask==0.10.1
+elasticsearch==6.2.0
+mo-dots>=2.7.18148
+mo-future>=2.3.18147
+mo-logs
+mohawk==0.3.4
+requests==2.18.4
+responses==0.9.0
