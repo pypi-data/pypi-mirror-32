@@ -1,0 +1,10 @@
+unidiff
+github3.py
+xmltodict
+pyyaml
+scandir
+uritemplate.py
+dirtyjson
+python-dateutil
+git-url-parse
+subprocess32
