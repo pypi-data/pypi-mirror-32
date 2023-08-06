@@ -1,0 +1,18 @@
+
+fithic_2.0.0.tgz - 06/12/2018
+-------------------------------
+Initial release of Fit-Hi-C version 2.0
+__________________________________________________________________
+
+Notable changes:
+* Significantly faster and uses less memory
+* Required '--resolution, -r' argument
+* Required '--outDir, -o' argument
+* Specific to Python3
+* Recommended bias file use
+* Change in stdout outputs
+* Creation of fithic.log file detailing previous values
+* Complete revamp of utils/ with additional scripts provided
+* Default number of spline passes is 1. Use -p 2 for 2 passes etc.
+
+
