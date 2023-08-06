@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: tcpping2
+Version: 0.1.6
+Summary: Non-privileged TCP ping implementation using raw socket.
+Home-page: https://github.com/atuchak/tcpping
+Author: Anton Tuchak
+Author-email: anton.tuchak@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: non-privileged python tcp ping
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+Classifier: Topic :: System
