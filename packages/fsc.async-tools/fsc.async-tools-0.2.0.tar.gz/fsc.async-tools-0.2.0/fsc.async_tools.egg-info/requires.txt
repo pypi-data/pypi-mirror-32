@@ -1,0 +1,14 @@
+fsc.export
+decorator
+
+[dev]
+pytest
+pytest-cov
+yapf==0.22.0
+prospector
+pre-commit
+pylint
+sphinx
+sphinx-rtd-theme
+ipython>=6.2
+matplotlib
