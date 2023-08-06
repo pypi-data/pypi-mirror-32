@@ -1,0 +1,14 @@
+keras
+tensorflow
+Pillow
+h5py
+
+[devel]
+fixtures
+pbr
+tox
+sphinx
+
+[test]
+fixtures
+tox
