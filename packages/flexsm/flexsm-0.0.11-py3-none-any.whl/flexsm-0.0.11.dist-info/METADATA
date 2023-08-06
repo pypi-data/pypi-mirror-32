@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: flexsm
+Version: 0.0.11
+Summary: A flexible state machine for Python
+Home-page: https://github.com/dayjaby/flexsm
+Author: David Jablonski
+Author-email: dayjaby@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/x-rst
+
+
+Documentation can be found on https://github.com/dayjaby/flexsm
+
+
