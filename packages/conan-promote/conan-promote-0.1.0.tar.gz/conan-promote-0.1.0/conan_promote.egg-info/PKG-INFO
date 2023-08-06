@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: conan-promote
+Version: 0.1.0
+Summary: Promote Conan package to stable channel
+Home-page: http://github.com/uilianries/conan-promote
+Author: Uilian Ries
+Author-email: uilianries@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: conan,C/C++,package,libraries,developer,manager,dependency,tool,c,c++,cpp
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Provides-Extra: test
+Provides-Extra: dev
