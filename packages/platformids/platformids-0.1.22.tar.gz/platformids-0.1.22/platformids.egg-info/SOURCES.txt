@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+platformids/__init__.py
+platformids/map_enum_labels.py
+platformids.egg-info/PKG-INFO
+platformids.egg-info/SOURCES.txt
+platformids.egg-info/dependency_links.txt
+platformids.egg-info/not-zip-safe
+platformids.egg-info/top_level.txt
