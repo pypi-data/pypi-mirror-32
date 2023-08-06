@@ -1,0 +1,9 @@
+PyChecko-1.3.0.dist-info/METADATA,sha256=KnUEgdck5UAlbaoHgJ7WcPxT5LfYqSAwL5uH41JKA0U,6149
+PyChecko-1.3.0.dist-info/RECORD,,
+PyChecko-1.3.0.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+PyChecko-1.3.0.dist-info/top_level.txt,sha256=4Fn_lpEDUSpBOf1N9PEQzTMkgKT_uG5Lf46kIbgS_G0,15
+pychecko/__init__.py,sha256=oCbur-JuhB7Ju5ChTBA40Y7ld9fSEUkJDJEyqCbmRXs,227
+pychecko/pychecko.py,sha256=aw0SzVAFHgO5uYQPo7spa0F_-84-dsnfLw-WwbuhcW8,7427
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/fix_module.py,sha256=-rDNDw7j1K3SdGpBtJAJs7HUgM1nATXLbPRFJAqrp84,680
+tests/test_pychecko.py,sha256=EXo_626SeMgyrahhjcZecVMdUo_GY5NUNrlM_TCCH6I,7262
