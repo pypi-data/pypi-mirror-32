@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: fidding-cli
+Version: 1.2
+Summary: A python cli project
+Home-page: https://github.com/fidding/python-cli.git
+Author: fidding
+Author-email: 395455856@qq.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: Click
+
+UNKNOWN
+
+
