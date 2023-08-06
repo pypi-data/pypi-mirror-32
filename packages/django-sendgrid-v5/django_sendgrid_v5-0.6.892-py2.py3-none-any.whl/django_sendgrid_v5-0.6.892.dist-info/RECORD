@@ -1,0 +1,7 @@
+django_sendgrid_v5-0.6.892.dist-info/METADATA,sha256=a0fFJ5URl2k4ns83rJRGkVVLbSdl0Jun1urIokugbAQ,2232
+django_sendgrid_v5-0.6.892.dist-info/RECORD,,
+django_sendgrid_v5-0.6.892.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+django_sendgrid_v5-0.6.892.dist-info/top_level.txt,sha256=FGOPnc_pSvcUW2wi032RG2hui3u7PF0gGM6CqyIahok,17
+sendgrid_backend/__init__.py,sha256=NyNjT8ewM2UL6MMZAhAD6pLGmYqoX4NnnDW4DeUHKfc,83
+sendgrid_backend/mail.py,sha256=Y6lG8oNqwTXv7oFA71cAOb6dNP3mGjWvR9J0loHQEsw,9111
+sendgrid_backend/version.py,sha256=aNg87yxPTpUqG8GLEdOE0pBan1_j8e87HkAcUtjTX8c,24
