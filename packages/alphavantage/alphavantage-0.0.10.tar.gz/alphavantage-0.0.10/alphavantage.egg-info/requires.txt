@@ -1,0 +1,7 @@
+foil
+requests
+
+[test]
+pytest-cov
+pytest
+requests_mock
