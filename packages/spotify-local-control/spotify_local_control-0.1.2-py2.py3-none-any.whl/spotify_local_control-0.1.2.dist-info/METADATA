@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: spotify-local-control
+Version: 0.1.2
+Summary: Communicate with the Spotify's web helper process to control some basic aspects of spotify
+Home-page: https://github.com/erinxocon/spotify-local-control
+Author: Erin O'Connell
+Author-email: erinocon5@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Requires-Dist: requests
+Requires-Dist: keyboard
+
+
+spotify-local-control
+=====================
+
+Local control of the Spotify Client in python
+
+
+Inspired by Spotify.NET and https://github.com/cgbystrom/spotify-local-http-api/blob/master/http_remote.py
+
