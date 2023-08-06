@@ -1,0 +1,16 @@
+Metadata-Version: 1.0
+Name: sphinx_rigado_extensions
+Version: 0.0.2
+Summary: Sphinx extensions for Rigado
+Home-page: https://git.rigado.com/documentation/sphinx
+Author: Spencer Williams
+Author-email: spencer.williams@rigado.com
+License: MIT
+Description: ************************
+        Rigado Sphinx Extensions
+        ************************
+        
+        - ``inventory-builder``: A shorter version of the HTML builder, that only outputs an inventory (e.g. for use with ``intersphinx``)
+        - ``tablelist``: Adds ``tablelist`` and ``figurelist`` directives to compile lists of tables and figures, respectively.
+        
+Platform: UNKNOWN
