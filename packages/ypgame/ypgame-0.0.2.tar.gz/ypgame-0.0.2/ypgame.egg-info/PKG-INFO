@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: ypgame
+Version: 0.0.2
+Summary: A simple 2D game engine base on pyglet
+Home-page: http://github.com/
+Author: Allen Xu
+Author-email: pp2677345028@gamil.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent

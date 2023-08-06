@@ -1,0 +1,8 @@
+setup.py
+ypgame/__init__.py
+ypgame/start.py
+ypgame.egg-info/PKG-INFO
+ypgame.egg-info/SOURCES.txt
+ypgame.egg-info/dependency_links.txt
+ypgame.egg-info/requires.txt
+ypgame.egg-info/top_level.txt
