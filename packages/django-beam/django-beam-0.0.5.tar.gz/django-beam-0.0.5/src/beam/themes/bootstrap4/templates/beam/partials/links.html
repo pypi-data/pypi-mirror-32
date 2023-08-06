@@ -1,0 +1,13 @@
+{% load beam_tags %}
+
+
+{% if links %}
+    <div class="btn-group" role="group" aria-label="Actions">
+        {% for link in links.values %}
+            {% get_link_url link object as url %}
+            {% if url and viewset_context.view_type != link.view_type %}
+                <a href="{{ url }}" class="btn btn-secondary">{{ link.verbose_name }}</a>
+            {% endif %}
+        {% endfor %}
+    </div>
+{% endif %}
