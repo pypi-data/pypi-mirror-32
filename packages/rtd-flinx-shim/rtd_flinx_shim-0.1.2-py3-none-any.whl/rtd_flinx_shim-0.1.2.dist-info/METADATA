@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: rtd-flinx-shim
+Version: 0.1.2
+Summary: Trick Read the Docs into running Flinx.
+Home-page: https://github.com/osteele/rtd-flinx-shim
+License: UNKOWN
+Author: Oliver Steele
+Author-email: steele@osteele.com
+Requires-Python: >=3.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: flinx (>=0.1.1,<0.2.0)
+Description-Content-Type: text/x-rst
+
+RTD Flinx Shim
+==============
+
+Trick `Read the Docs`_ into using `Flinx`_.
+
+You don't want this package on your development machine. The `Flinx`_
+documentation describes the single, very specific, use case for this package.
+
+.. _Read the Docs: https://readthedocs.org
+.. _Flinx: https://github.com/osteele/flinx
+
+License
+-------
+
+MIT
+

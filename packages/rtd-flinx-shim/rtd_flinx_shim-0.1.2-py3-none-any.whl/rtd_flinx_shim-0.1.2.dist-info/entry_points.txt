@@ -1,0 +1,4 @@
+[console_scripts]
+rtd-flynx=rtd_flinx_shim:cli
+sphinx-build=rtd_flinx_shim:cli
+
