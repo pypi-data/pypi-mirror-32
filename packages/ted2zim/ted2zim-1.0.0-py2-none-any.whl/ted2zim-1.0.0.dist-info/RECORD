@@ -1,0 +1,13 @@
+scraper/WebVTTcreator.py,sha256=AHQubHH5ZbNgekSxOEHmgg8stK4P9lqzbyFccEwhHT8,2076
+scraper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scraper/utils.py,sha256=0_VtUw3ucp6-pAoy_d3P-VEXv5x20bmwRqLVuTT28-I,1415
+scraper/webscraper.py,sha256=xEKWN_nWEIdIbY5INubpmQr2wgNl8_9EA1d5TFQfxHo,23403
+ted2zim-1.0.0.data/data/README.md,sha256=o-GrY7ZFKmIWWNs9-lXn8Zhu9Q00HbzjnHGxVfJ30CA,1206
+ted2zim-1.0.0.data/data/requirements.txt,sha256=tmMDqC6wdOtgF80PjdmoxbDVhgwYLbgZAvFTv3146o0,157
+ted2zim-1.0.0.data/scripts/ted2zim,sha256=7r0vcmzJOzMUESFvAx2TimEu9zyeO6yD0TMzcUc6fvM,2392
+ted2zim-1.0.0.dist-info/DESCRIPTION.rst,sha256=lTKL2mPg8mwIxYz-pS6pN6inuRtjCSlojJOhRzViLHs,1208
+ted2zim-1.0.0.dist-info/METADATA,sha256=qgjl7HjBNOoi9hFApvJiASYAmuARXLSDu9s3n6e-n-E,2011
+ted2zim-1.0.0.dist-info/RECORD,,
+ted2zim-1.0.0.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+ted2zim-1.0.0.dist-info/metadata.json,sha256=vsD_w3wPm0COO4mrXHgKXC3PqrC0Ge3DIK_kWMgLGLs,940
+ted2zim-1.0.0.dist-info/top_level.txt,sha256=7mMSfNnJkw1ZNz9GtP5MR6Hh0DYR7LY7dqAaNJATf4c,8
