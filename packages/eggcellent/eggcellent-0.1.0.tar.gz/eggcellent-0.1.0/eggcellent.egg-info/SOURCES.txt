@@ -1,0 +1,13 @@
+CHANGELOG.md
+LICENSE.md
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+eggcellent/__init__.py
+eggcellent/eggcellent.py
+eggcellent.egg-info/PKG-INFO
+eggcellent.egg-info/SOURCES.txt
+eggcellent.egg-info/dependency_links.txt
+eggcellent.egg-info/top_level.txt
+eggcellent.egg-info/zip-safe
