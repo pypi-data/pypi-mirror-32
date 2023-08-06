@@ -1,0 +1,3 @@
+[console_scripts]
+vendor = assetvendor.__main__:main
+
