@@ -1,0 +1,12 @@
+include *.rst
+include *.txt
+include setup.cfg
+include LICENSE
+include pydgutils_bootstrap.py
+
+recursive-include src *
+recursive-include tests *
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+
+recursive-include docs *.rst conf.py Makefile make.bat *.jpg *.png *.gif
