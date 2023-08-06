@@ -1,0 +1,9 @@
+MANIFEST.in
+magic_cat.py
+setup.cfg
+setup.py
+pep_508_url_deps.egg-info/PKG-INFO
+pep_508_url_deps.egg-info/SOURCES.txt
+pep_508_url_deps.egg-info/dependency_links.txt
+pep_508_url_deps.egg-info/requires.txt
+pep_508_url_deps.egg-info/top_level.txt
