@@ -1,0 +1,4 @@
+#!python
+import sys
+import git_gerrit.fetch
+sys.exit(git_gerrit.fetch.main())

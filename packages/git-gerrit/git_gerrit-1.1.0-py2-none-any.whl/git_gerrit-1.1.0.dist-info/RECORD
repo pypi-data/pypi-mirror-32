@@ -1,0 +1,16 @@
+git_gerrit/__init__.py,sha256=VvofH7iaDHcVztOVjGaYqCLWhucrx9rCjOTjzN3XWjg,45
+git_gerrit/cfg.py,sha256=joOluSD9uNabgkxs-qvjACL1fT-haxXJBBdiU8NgWcg,2667
+git_gerrit/fetch.py,sha256=3gb_vLlzj0sAeeei8kA0Hoarw0SbsDZ5F9d7WJJE41I,4030
+git_gerrit/log.py,sha256=ySfQCZwuHVN6LHdcW2ttBMc5Zb5b4Kf471mHsMEw09k,3238
+git_gerrit/query.py,sha256=izLKwILacEGZfe0WJqGg3oIDzlteN6oc20H1WLWQMXQ,3907
+git_gerrit/unicode.py,sha256=vrC8bMQ16TYu6bpaYFUgca_y49btg5yVyqPfjaH7rDo,2554
+git_gerrit/version.py,sha256=TSuKBlJLc4nNx4MHv7m_YwrT3qnqJXqzz_Zc0jZ6T-c,23
+git_gerrit-1.1.0.data/scripts/git-gerrit-fetch,sha256=MlYdtWU0bdGzYWob_C4J3zlejkdahOE_Zn7RNhpdDQk,78
+git_gerrit-1.1.0.data/scripts/git-gerrit-log,sha256=tBr6F3PLTPY78SMvZgBoctTHujHMRZem2j0ihaOtJWU,74
+git_gerrit-1.1.0.data/scripts/git-gerrit-query,sha256=XqU8ykM3YwXHnRDEdJHAygQmwNmEwBNLj0RfIDuYo0Y,78
+git_gerrit-1.1.0.dist-info/DESCRIPTION.rst,sha256=MN_Zq_VHkeHxJTzu-FnCO3aqVgZyuwLL1dHgI-NDNPU,3486
+git_gerrit-1.1.0.dist-info/METADATA,sha256=5HRHpRIWbW1iljolNlZCo-AiS4eFg2FzvEWs_p-QxDc,4124
+git_gerrit-1.1.0.dist-info/RECORD,,
+git_gerrit-1.1.0.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+git_gerrit-1.1.0.dist-info/metadata.json,sha256=mp-XDdQKFCFZSyqnOB9AdplJUdMdfrEgz1bM0Adw2mU,793
+git_gerrit-1.1.0.dist-info/top_level.txt,sha256=eVTszMXASdIjEX--ii8UjoMX1qHNODbhPKH16zsPIFI,11

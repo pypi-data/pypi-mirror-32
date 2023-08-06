@@ -1,0 +1,4 @@
+#!python
+import sys
+import git_gerrit.log
+sys.exit(git_gerrit.log.main())
