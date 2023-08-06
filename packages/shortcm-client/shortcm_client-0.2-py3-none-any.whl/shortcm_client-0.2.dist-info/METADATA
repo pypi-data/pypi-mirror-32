@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: shortcm-client
+Version: 0.2
+Summary: Short.cm commpand line UI
+Home-page: https://github.com/Short-cm/shortcm-cli
+Author: Andrii Kostenko
+Author-email: andrii@short.cm
+License: UNKNOWN
+Platform: UNKNOWN
+Requires: requests
+
+UNKNOWN
+
+

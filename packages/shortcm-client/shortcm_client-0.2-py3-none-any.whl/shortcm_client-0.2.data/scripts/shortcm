@@ -1,0 +1,4 @@
+#!/Users/kostenko/.virtualenvs/cmd-7o8dEykd/bin/python
+from shortcm_client.__main__ import main
+
+main()
