@@ -1,0 +1,15 @@
+modmod/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+modmod/__version__.py,sha256=l2E7xRnTag1WDm6-N9yNz15Q0NVLUH7aKEQBOopOmkY,63
+modmod/block.py,sha256=U1YVPDiwqZj5J2BMrmkBVsOhleFXGq0wVwMXPntbD8s,2792
+modmod/graph.py,sha256=akvLMJQrpX55qR5EOVD_jGZHj9Gjdpyc0vFibBd1lMg,3187
+modmod/model.py,sha256=7FvfY8jecoCNbmlZUb6EeSg5bcDBEv36ykoxuld_Z_g,1641
+modmod/pool.py,sha256=iXRNKU8X4ingQxwmvbgRXd4O3EGKOGwYvGC0QnbD-Wc,1301
+modmod/blocks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+modmod/blocks/keras.py,sha256=iLP8kVTMmO51cfFeN1aJNvrkPDAtcDin-Hl0K3--6Yg,1070
+modmod/blocks/map.py,sha256=ovGPKsPKd9qsuqI8JoZVwlvX5xFGahp4J9D56v2eRQ4,728
+modmod/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+modmod/models/keras.py,sha256=JVRe3kmjhyMj3r8fMUkQ_VnKpwBO_FE0ebbLDe-rZuA,1980
+modmod-0.1.0.dist-info/METADATA,sha256=1sXaKc-O3-zEwhxgCOIOQnmQE403nTsuE4oWyMQiDKg,739
+modmod-0.1.0.dist-info/RECORD,,
+modmod-0.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+modmod-0.1.0.dist-info/top_level.txt,sha256=cJWsWn2d4DvWuaCyNe4uT6TZhU0t0siY3ujzNkJ3ve0,7
