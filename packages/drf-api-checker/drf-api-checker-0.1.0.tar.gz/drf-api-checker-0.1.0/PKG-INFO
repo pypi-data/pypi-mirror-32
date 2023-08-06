@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: drf-api-checker
+Version: 0.1.0
+Summary: DjangoRestFramework API checker
+Home-page: https://github.com/saxix/drf-api-checker
+Author: Stefano Apostolico
+Author-email: s.apostolico@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: linux
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Django :: 1.10
+Classifier: Framework :: Django :: 1.11
+Classifier: Framework :: Django :: 2.0
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Intended Audience :: Developers
+Provides-Extra: dev
+Provides-Extra: tests
