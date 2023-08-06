@@ -1,0 +1,14 @@
+numpy
+scipy
+scikit-learn
+pyyaml
+python-dateutil
+click
+tqdm
+multiprocess
+pathlib2
+funcsigs
+cerberus
+
+[tensorflow]
+tensorflow
