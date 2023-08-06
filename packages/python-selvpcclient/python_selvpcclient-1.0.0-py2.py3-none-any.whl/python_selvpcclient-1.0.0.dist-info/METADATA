@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: python-selvpcclient
+Version: 1.0.0
+Summary: Client for the Selectel Virtual Private Cloud API.
+Home-page: https://github.com/selectel/python-selvpcclient
+Author: Selectel
+Author-email: m.kalinin@selectel.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: OpenStack
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Requires-Dist: cliff (>2.0)
+Requires-Dist: pbr (>=1.8)
+Requires-Dist: requests (>=2.9.1)
+Requires-Dist: six (>=1.9.0)
+Requires-Dist: PyYAML (>=3.10)
+
+=======================
+Selectel VPC API Client
+=======================
+
+
+This is a library for use Selectel Cloud API.
+It contains a Python module *selvpcclient* for your own projects.
+It also contains CLI client. (*selvpc*)
+
+
+~~~~~~~~
+Overview
+~~~~~~~~
+
+
+- `Selectel VPC API documentation available <https://support.selectel.ru/vpc/docs/>`_
+- `Bugs <https://github.com/selectel/python-selvpcclient/issues>`_ - issue tracking
+- `Source <https://github.com/selectel/python-selvpcclient>`_
+
+
+
