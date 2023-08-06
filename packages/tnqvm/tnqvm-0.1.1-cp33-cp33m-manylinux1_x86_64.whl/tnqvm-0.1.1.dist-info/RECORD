@@ -1,0 +1,12 @@
+xacc/pytnqvm.so,sha256=JBMzqCCYgPjT6E4VHg9iC_fJA_yNIfEi7YdrDAqqueM,3892130
+xacc/lib/libblas.so.3,sha256=LVuRdAIj4NlTHn77ZuEM0FEW5weSps3IXmZcYvXThuI,347088
+xacc/lib/libgfortran.so.1,sha256=v6WNUhnE1tCFT11lGuuYVSC6NJgfNGRQ2-Bai6JzO_A,619320
+xacc/lib/liblapack.so.3,sha256=eOWXKC8pEtBhjjfkuk3JeqHpWA10pydTKt1_Ki2Yzxc,4214048
+xacc/plugins/libtnqvm.so,sha256=PdxgCBcBTfQV8kPaI3kZVbM0_bs6c2UJrGS0UKVCcyI,373156
+xacc/plugins/libtnqvm-itensor.so,sha256=Nc95I1IOJh5DnEuPrHdhCP0X57IDCvzJm4PVccKBozM,72440615
+tnqvm-0.1.1.dist-info/metadata.json,sha256=Y9FR2xD1UZIXWmOzxdFD6KPOENSu1-WR8HNSviy6_l0,337
+tnqvm-0.1.1.dist-info/RECORD,,
+tnqvm-0.1.1.dist-info/WHEEL,sha256=OH0D69jk466yIsbtc1jiJQEekV4Alb3hCtLSiJasFKU,109
+tnqvm-0.1.1.dist-info/METADATA,sha256=vcfO0iZyFH9UzxT74gf71dZBixBl7s8He1enw7g82mc,324
+tnqvm-0.1.1.dist-info/top_level.txt,sha256=bl117aouIAjdEyif0eO5CO5ZMUVyZiOyZlzybulzcjA,8
+tnqvm-0.1.1.dist-info/DESCRIPTION.rst,sha256=7ulLiEcT8Ls8mQxCspFiIh0uigBjngzvJTaIFPpMDPc,114
