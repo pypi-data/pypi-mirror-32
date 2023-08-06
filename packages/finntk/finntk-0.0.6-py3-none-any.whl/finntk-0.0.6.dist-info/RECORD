@@ -1,0 +1,13 @@
+finntk/__init__.py,sha256=KoeHtZqqAJROGOnYJbbz4xha2noDRzwgs-AeS0K2NHg,385
+finntk/omor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+finntk/omor/anlys.py,sha256=FtlRhawpzx8EK9T4vJd3QtawWfICHT_y0mR204KtT-4,1865
+finntk/omor/extract.py,sha256=tPKZ_SCnt0aqnF4LfStwq_jM2y1eb6tN66J3IGNl3PM,2059
+finntk/omor/inst.py,sha256=aw3AWjEQjoPkJiKaXxwkwrLbvgDo5xoIhgfPK7XB6hU,657
+finntk/omor/seg.py,sha256=WWijtCALZJPCcInezysLJZyFO8owGCdFegGSCwF9ISc,955
+finntk/omor/tok.py,sha256=qsfOyzXHprMNM_734XumVlBZ_TCS3NHsyCn6ymyT9HE,495
+finntk/wordnet/__init__.py,sha256=JM_CPDfCZCvKMDi7jsVuDxE4_ya8QOI_29YNUBhQ4_g,54
+finntk/wordnet/abbrv.py,sha256=5-shw46oHF9YUzkIQDZq9Nk3lGks792ka1Brap-GjVs,1610
+finntk-0.0.6.dist-info/METADATA,sha256=uCUbG_BR6xEBFB0ewYxaXD9tpR2EXeBVQ3IUZVaIzaw,1961
+finntk-0.0.6.dist-info/RECORD,,
+finntk-0.0.6.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+finntk-0.0.6.dist-info/top_level.txt,sha256=ButM5BoIo5ZGm9gCJNtG8Z-mz8cH-ch-EqoHw0xYD7o,7
