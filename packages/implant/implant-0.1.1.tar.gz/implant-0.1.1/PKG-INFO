@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: implant
+Version: 0.1.1
+Summary: Remote execution via stdin/stdout messaging.
+Home-page: https://github.com/diefans/implant
+Author: Oliver Berger
+Author-email: diefans@gmail.com
+Keywords: asyncio,ssh,RPC,bot,implant,inject,code,remote
+Requires-Python: >=3.5,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: click
+Requires-Dist: ruamel.yaml (==0.15.37)
