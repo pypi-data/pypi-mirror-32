@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: vin_decoder
+Version: 0.1.1
+Summary: VIN decoder (Vehicle identification number)
+Home-page: https://github.com/MartinThoma/vin_decoder
+Author: Martin Thoma
+Author-email: info@martin-thoma.de
+Maintainer: Martin Thoma
+Maintainer-email: info@martin-thoma.de
+License: MIT
+Download-URL: https://github.com/MartinThoma/vin_c
+Description: # cardb
+        A database of cars, their VIN numbers and other information about them.
+        
+        ## Example
+        
+        ```python
+        >>> result = parse_vin("JN1FAAZE0U0000001")
+        >>> {   'vds': {   'parsed': {   'body_type': 'Z',
+                                         'engine': ['KA24E'],
+                                         'misc': 'Driver and front passenger SRS air '
+                                                 'bags, SRS side air bags, SRS curtain '
+                                                 'air bag & 3 point manual seat belt',
+                                         'model_change': 'A',
+                                         'model_line': ['Armada, Titan, Maxima']},
+                           'vds': 'FAAZE0'},
+                'vis': {'assembly_plant': '0', 'vis': 'U0000001', 'year': None},
+                'wmi': {   'geo_area': 'Asia',
+                           'geo_detailed_area': 'Japan',
+                           'manufacturer': 'Nissan',
+                           'wmi': 'JN1'}}
+        ```
+        
+        ## On-Line versions
+        
+        Currently, vin decoder is not online. Alternatives are
+        
+        * [www.vindecoderz.com](http://www.vindecoderz.com/)
+        
+        ## VIN documentation
+        
+        Information about VIN can be found at
+        
+        * [en.wikibooks.org/wiki/Category:Vehicle_Identification_Numbers_(VIN_codes)](https://en.wikibooks.org/wiki/Category:Vehicle_Identification_Numbers_(VIN_codes))
+Keywords: VIN,WMI,OBD
+Platform: Linux
+Platform: MacOS X
+Platform: Windows
+Classifier: Development Status :: 7 - Inactive
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
