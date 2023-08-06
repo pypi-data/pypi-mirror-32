@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: wavefront-pyformance
+Version: 0.9.1
+Summary: Wavefront Pyformance Library
+Home-page: https://github.com/wavefrontHQ/python-client/tree/master/wavefront_pyformance
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Keywords: Wavefront Pyformance,Wavefront
+Platform: UNKNOWN
+Requires-Dist: pyformance (>=0.4)
+Requires-Dist: requests (>=2.18.4)
+
+The Wavefront Pyformance library provides Wavefront reporters (via proxy and direct ingestion) and a simple abstraction for tagging at the host level. It also includes support for Wavefront delta counters.
+
+
