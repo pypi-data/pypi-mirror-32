@@ -1,0 +1,9 @@
+aws_tools-1.0.27.data/scripts/aws-clean-eb-versions.py,sha256=4B4Y_VKjZsru9kgN-M25YF7gNztB0WBDqCm1mmoodtA,3358
+aws_tools-1.0.27.data/scripts/aws-env-update.py,sha256=1uyCDkpsUho-3RZUa-Y97v6gJ0ep7i_Dpe7o3Oclbhc,4730
+aws_tools-1.0.27.data/scripts/aws-list-ec2.py,sha256=tpUZLmgzXOh8cBwjr3iQpYwXsQVOS32Pv5UeVahkq3E,3416
+aws_tools-1.0.27.data/scripts/aws-roll-keys.py,sha256=mJb8w-4J2dLWVuzGIGN59WYXwV3-DxENYvBeqfQx3FI,7579
+aws_tools-1.0.27.data/scripts/aws_tools_completion.bash,sha256=o3FlEBz4Q41c4KDVu3fo5nW_dFKFJCWUAysGXcdf3xE,715
+aws_tools-1.0.27.dist-info/METADATA,sha256=eO6_s9TelmHnfjoA8c0-0QYqbHFDukGhUo1De1MZAFw,4172
+aws_tools-1.0.27.dist-info/RECORD,,
+aws_tools-1.0.27.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+aws_tools-1.0.27.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
