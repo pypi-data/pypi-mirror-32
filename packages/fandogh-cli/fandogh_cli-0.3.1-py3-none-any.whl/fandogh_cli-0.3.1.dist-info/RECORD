@@ -1,0 +1,16 @@
+fandogh_cli/__init__.py,sha256=1j2fACyxQVkQkaJ3R6j04ZLoGr8enWhK4SCWbB3Ij34,39
+fandogh_cli/base_commands.py,sha256=SJsx_Fnn0fEMA7Ag2gznV8ihkv6zYmuJYO-Sckb3sio,2715
+fandogh_cli/config.py,sha256=Imr_re1hTCsQUWHoOsu-smliVNrvyxnMw9aQWE2kcO8,1822
+fandogh_cli/fandogh.py,sha256=PSPZGu3tjKfLtlqqh7al5Haw_Q-rlTT6lpBdx8Mr958,909
+fandogh_cli/image_commands.py,sha256=Y96FwEG2yJ8nwiF5SJe9JsP9QW_WaImJCGfAFQXMJOQ,4852
+fandogh_cli/presenter.py,sha256=scyTfXnRd7dUidneelDVRKdZmHB9c5XZznYeV2K3xdU,1024
+fandogh_cli/service_commands.py,sha256=ped14hcxlo6cCV679UpODbD4k0VFyUCCehZw_BLLJ6o,2987
+fandogh_cli/utils.py,sha256=GmLs16hVm1_j8xU8Tlb77SMH4Y_CrKYK0nxXoXEaxI8,1584
+fandogh_cli/version_check.py,sha256=DB4JbO-k9mtuHal69QGWW1S7TbqN7ZOCgSoZMughb3Y,2796
+fandogh_cli/workspace.py,sha256=b6nfJkDIsxv1ZteGFY-GAgKnwnTA0IwrKgxUaY_vOKY,1853
+fandogh_cli/fandogh_client/__init__.py,sha256=RZMUsP4JxhqndnrmWLZZMTK8yjtXipl7hjNGkxk69rc,6131
+fandogh_cli-0.3.1.dist-info/METADATA,sha256=0imS9MWMIJ3tQgLfmNAD1j6RoL58JAo6awWV_kL_Uqg,588
+fandogh_cli-0.3.1.dist-info/RECORD,,
+fandogh_cli-0.3.1.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+fandogh_cli-0.3.1.dist-info/entry_points.txt,sha256=VHxwqttvP290cQfquYDpUn0naDauRAeRI-VfRhpHklY,72
+fandogh_cli-0.3.1.dist-info/top_level.txt,sha256=wRBqmjqk05JXLT1kj7Mmp6IdzPbgBAG8ymfOwKplYYY,12
