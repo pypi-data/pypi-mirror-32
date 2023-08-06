@@ -1,0 +1,6 @@
+setup.py
+pyngramgen/__init__.py
+pyngramgen.egg-info/PKG-INFO
+pyngramgen.egg-info/SOURCES.txt
+pyngramgen.egg-info/dependency_links.txt
+pyngramgen.egg-info/top_level.txt
