@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: yaque_tts
+Version: 0.0.2
+Summary: 一个简单的，仅仅支持中文的tts模块
+Home-page: http://www.wdiannao.com
+Author: yaquepeng
+Author-email: yaquepeng@outlook.com
+License: UNKNOWN
+Description: 说明一下
+          Definition of "说明一下". 他需要下载一个声源包，具体请上homepage
+        
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 2.7
