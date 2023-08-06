@@ -1,0 +1,14 @@
+i3e2e/__init__.py,sha256=lezuHUc6VlUj2-3Z-noKzQ4xBVjquCxc_InDdggmsQI,101
+vorpal/BaseHttpEndpoint.py,sha256=gJuvcriHeDaLloSjbeG5Cax8CWXohhUuk04srvmlRww,3930
+vorpal/ElementWrapper.py,sha256=s9iAf0PzgkWc-A5SdS3M0HIjAeSsEjfEaQg9eSvUzFI,1746
+vorpal/__init__.py,sha256=basZjUyTs7rpmCQpbHfvhN4XQjIPe3shk8RztkjjK9w,247
+vorpal/Base/__init__.py,sha256=t8mOYvjMCKJldD-VfWkBFvgfy0Ent2Bpj5qsIZw17bM,163
+vorpal/Base/base_http_endpoint.py,sha256=gJuvcriHeDaLloSjbeG5Cax8CWXohhUuk04srvmlRww,3930
+vorpal/Base/custom_selenium_driver.py,sha256=kcBv34t43Nj1dg2Sy5NlD8403ydwfr-yVsh77xv44mA,10056
+vorpal/Base/element.py,sha256=AWyRnTcLQja_vTCw4D3sXoiZe0AG51taH-IH2tgEwDk,3144
+vorpal/Base/page.py,sha256=v84Sqrj8PgMb2cj_SwwKZK-smWH4zvi9w9CJ-Nz5hNo,1311
+vorpal/Base/webdriver_factory.py,sha256=1yQMe_PwOeixCURQ6-efJLYp2ugbfBLsetPzgSl-c2M,1274
+vorpal-3.0.0.dist-info/METADATA,sha256=hkDiIXLRkufjbmRU8QBR1JpAyx4CZhviU6EUOAn1xsc,550
+vorpal-3.0.0.dist-info/RECORD,,
+vorpal-3.0.0.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+vorpal-3.0.0.dist-info/top_level.txt,sha256=ATeGej3ax_OtmuZ1zbQSVcGCWlVBe8iAhAfJhT1Zd8k,7
