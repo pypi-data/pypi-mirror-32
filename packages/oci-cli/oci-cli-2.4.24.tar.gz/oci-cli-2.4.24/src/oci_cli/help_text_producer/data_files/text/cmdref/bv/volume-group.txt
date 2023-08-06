@@ -1,0 +1,23 @@
+volume-group
+************
+
+
+Description
+===========
+
+Specifies a volume group. A volume group is a collection of block
+volumes.
+
+
+Available Commands
+==================
+
+* create
+
+* delete
+
+* get
+
+* list
+
+* update
