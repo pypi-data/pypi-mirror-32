@@ -1,0 +1,3 @@
+[console_scripts]
+fcmclient = fcmclient.cli:main
+
