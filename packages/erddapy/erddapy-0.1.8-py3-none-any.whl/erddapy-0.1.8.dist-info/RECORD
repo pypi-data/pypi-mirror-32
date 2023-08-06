@@ -1,0 +1,9 @@
+erddapy/__init__.py,sha256=mej3aL4zYU0VJiP6mbTAGdjMe0JIV1XlqUAEx23jPXs,249
+erddapy/_version.py,sha256=Z8NrdwOoeSi3aTc8dZqL8wISF943v-yG_GSph_AQY-A,497
+erddapy/erddapy.py,sha256=VDEGskU54ief46iQuD0SKHH2ykcerzXtqoVDXCkspfk,8408
+erddapy/url_builder.py,sha256=e3aouh_rRoRLU1PgyBXoaMYSePFP8X-lo70esdGWeoM,6255
+erddapy/utilities.py,sha256=PnftuiRftu7aBtO4gB5sip8ed5ool4OGW6l8li6rVyY,4210
+erddapy-0.1.8.dist-info/METADATA,sha256=_FPnkeTOmnIHnT9Hu7jMWrxiTY5_3MTvjNKtrNMQBj8,5519
+erddapy-0.1.8.dist-info/RECORD,,
+erddapy-0.1.8.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+erddapy-0.1.8.dist-info/top_level.txt,sha256=rTvGlTha0JR6peBrTFl6FBEictBx1Trq7fT1rBEjr5Q,8
