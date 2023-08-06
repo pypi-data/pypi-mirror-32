@@ -1,0 +1,9 @@
+wheel
+progressbar2
+requests
+mutagen
+pillow
+argparse
+selenium
+beautifulsoup4
+click
