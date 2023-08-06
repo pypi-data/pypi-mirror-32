@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+rotlib/__init__.py
+rotlib/angles.py
+rotlib/projections.py
+rotlib/quaternion.py
+rotlib.egg-info/PKG-INFO
+rotlib.egg-info/SOURCES.txt
+rotlib.egg-info/dependency_links.txt
+rotlib.egg-info/top_level.txt
