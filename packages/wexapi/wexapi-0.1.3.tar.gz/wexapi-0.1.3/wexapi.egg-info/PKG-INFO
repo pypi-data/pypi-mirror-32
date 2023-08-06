@@ -1,0 +1,66 @@
+Metadata-Version: 1.1
+Name: wexapi
+Version: 0.1.3
+Summary: Wex.nz API Client
+Home-page: https://github.com/madmis/wexapi
+Author: Machin Dmitro
+Author-email: machin.dmitry+pypi.org@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+Description: # Wex.nz REST API Python Client
+        
+        [![Build Status][testing-image]][testing-link]
+        [![Coverage Status][coverage-image]][coverage-link]
+        [![Latest Stable Version][package-image]][package-link]
+        [![License][license-image]][license-link]
+        
+        
+        [Wex.nz](https://wex.nz/api/3/docs) provides REST APIs that you can use
+         to interact with platform programmatically.
+        
+        This API client will help you interact with Wex.nz by REST API. 
+        
+        ## License
+        
+        MIT License
+        
+        
+        ## Wex.nz REST API Reference
+        
+        [Public API](https://wex.nz/api/3/docs)
+        
+        [Trade API](https://wex.nz/tapi/docs)
+        
+        
+        ## Contributing
+        To create new endpoint - [create issue](https://github.com/madmis/wexapi/issues/new) 
+        or [create pull request](https://github.com/madmis/wexapi/compare)
+        
+        ## Running the tests
+        
+            python -m unittest discover wexapi
+        
+        
+        ## Upgrade pip package
+            
+            python setup.py sdist
+            twine upload dist/*
+        
+        
+        
+        [testing-link]: https://travis-ci.org/madmis/wexapi
+        [testing-image]: https://travis-ci.org/madmis/wexapi.svg?branch=master
+        
+        [coverage-link]: https://coveralls.io/github/madmis/wexapi?branch=master
+        [coverage-image]: https://coveralls.io/repos/github/madmis/wexapi/badge.svg?branch=master
+        
+        [package-link]: https://pypi.org/project/wexapi/
+        [package-image]: https://img.shields.io/pypi/v/wexapi.svg?style=flat-square
+        
+        [license-image]: https://img.shields.io/github/license/madmis/wexapi.svg
+        [license-link]: https://github.com/madmis/wexapi/blob/master/LICENSE.TXT
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
