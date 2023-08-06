@@ -1,0 +1,15 @@
+gps\_helper
+===========
+
+|pypi| |Docs| |travis|
+
+Tools and examples for GPS
+
+.. |pypi| image:: https://img.shields.io/pypi/v/gps_helper.svg
+   :target: https://pypi.python.org/pypi/gps_helper
+.. |Docs| image:: https://readthedocs.org/projects/gps-helper/badge/?version=latest
+   :target: http://gps-helper.readthedocs.io/en/latest/?badge=latest
+.. |travis| image:: https://travis-ci.org/chiranthsiddappa/gps_helper.svg?branch=master
+   :target: https://travis-ci.org/chiranthsiddappa/gps_helper
+
+
