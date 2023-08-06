@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pynavi
+Version: 0.1.2
+Summary: pynavi framework based on django
+Home-page: http://gitlab.intra.yongqianbao.com/sunguangran/pynavi
+Author: sunguangran
+Author-email: sunguangran@daixiaomi.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: blinker (>=1.4)
+Requires-Dist: diskcache (>=2.4.1)
+Requires-Dist: enum (>=0.4.6)
+Requires-Dist: psutil (>=5.2.2)
+Requires-Dist: raven (==6.1.0)
+Requires-Dist: requests (>=2.14.2)
+Requires-Dist: redis (>=2.10.5)
+Requires-Dist: simplejson (>=3.10.0)
+Requires-Dist: six (>=1.10.0)
+Requires-Dist: Django (<=1.11.13,>=1.11.3)
+
+# navi framework
+navi 框架，基于django封装，将常用逻辑抽象封装，简化rest服务开发流程
+
+enjoy it ~
+
+问题反馈：sunguangran@daixiaomi.com
+
+
+
+<br />
+
+## 安装方式
+* 使用内部pypi源安装
+
+```
+pip install pynavi -i http://pypi.intra.yongqianbao.com —trusted-host pypi.intra.yongqianbao.com
+```
+
+
+
