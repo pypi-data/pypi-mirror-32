@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+eps_entropy/__init__.py
+eps_entropy/_version.py
+eps_entropy/entropy.py
+eps_entropy/symbols.py
+eps_entropy/utils.py
+eps_entropy.egg-info/PKG-INFO
+eps_entropy.egg-info/SOURCES.txt
+eps_entropy.egg-info/dependency_links.txt
+eps_entropy.egg-info/requires.txt
+eps_entropy.egg-info/top_level.txt
+test/test_entropy.py
+test/test_symbols.py
