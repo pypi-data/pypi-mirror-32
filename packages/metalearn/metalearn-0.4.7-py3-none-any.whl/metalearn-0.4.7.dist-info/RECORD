@@ -1,0 +1,17 @@
+metalearn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metalearn/metafeatures/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metalearn/metafeatures/common_operations.py,sha256=ZW27bq-mObzhYQ-WBFBjA7G3pYlsev_vjVqzNIfJzs8,1180
+metalearn/metafeatures/information_theoretic_metafeatures.py,sha256=eQazaqEfIS8gyBml7m2e8iaALVm2VKHbaTGrqNmwjmI,2209
+metalearn/metafeatures/landmarking_metafeatures.py,sha256=ZtYxFL3L4Fn4nM6lVJenaiHGQ90DHoXV6RmkEWbusq0,2027
+metalearn/metafeatures/metafeatures.json,sha256=bV2YBvNHoN54Yt5_DCth1YS5ILVWs0feVCFscYJMWH8,31392
+metalearn/metafeatures/metafeatures.py,sha256=X_V0eZ878KZohxJKEW-1oJLE7NRGtoWWYhqiOMkhZ08,18883
+metalearn/metafeatures/simple_metafeatures.py,sha256=XtzTdAs0ObDGLwyPdJJy--5BvC-HY4KOueR9Xe_EsBA,2899
+metalearn/metafeatures/statistical_metafeatures.py,sha256=MrT3cvvRLnDFnnl4sd4QqDJh9MdIC0HAgMhIwz-Hnkk,4320
+metalearn-0.4.7.dist-info/METADATA,sha256=XkI89vJlAxsYfNVJ9iPIpbeGqAAf9Ri-ZEAFO78uv4k,627
+metalearn-0.4.7.dist-info/RECORD,,
+metalearn-0.4.7.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+metalearn-0.4.7.dist-info/top_level.txt,sha256=hp44VHWvp4K1m8E0gs-9WZqNQASxeU7XTwS3wfW6L_Q,15
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/metalearn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/metalearn/metafeatures/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/metalearn/metafeatures/test_metafeatures.py,sha256=zyOumDdbsCUfGuIOGzDJL8b2kSv8sg4_CH298s3UDO8,24395
