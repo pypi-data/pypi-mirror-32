@@ -1,0 +1,3 @@
+[console_scripts]
+edi = edi.__main__:init_from_cli
+
