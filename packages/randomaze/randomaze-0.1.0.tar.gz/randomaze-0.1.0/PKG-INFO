@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: randomaze
+Version: 0.1.0
+Summary: A Random Maze framework to build reinforcent learning players on top of.
+Home-page: https://github.com/sauravkaushik8/randomaze
+Author: Saurav Kaushik
+Author-email: sauravkaushik8@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/sauravkaushik8/randomaze/archive/1.0.tar.gz
+Description: UNKNOWN
+Keywords: Reinforcent Learning,Maze,Game Theory
+Platform: UNKNOWN
