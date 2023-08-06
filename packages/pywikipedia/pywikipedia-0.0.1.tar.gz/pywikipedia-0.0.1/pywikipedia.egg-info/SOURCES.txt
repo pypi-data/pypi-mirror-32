@@ -1,0 +1,7 @@
+setup.py
+pywikipedia/__init__.py
+pywikipedia/wikipedia.py
+pywikipedia.egg-info/PKG-INFO
+pywikipedia.egg-info/SOURCES.txt
+pywikipedia.egg-info/dependency_links.txt
+pywikipedia.egg-info/top_level.txt
