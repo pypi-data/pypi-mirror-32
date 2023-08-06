@@ -1,0 +1,2 @@
+nodeid,cpu,id,current,total,user,apps,free,swap,iowait,timestamp
+NodeId Temperature,BootCounter,Uptime,CumUptime,CPU_User,CPU_Apps,FreeRAM,IOWait,Swap
