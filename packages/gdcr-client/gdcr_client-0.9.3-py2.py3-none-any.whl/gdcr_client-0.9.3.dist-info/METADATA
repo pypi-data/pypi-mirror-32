@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: gdcr-client
+Version: 0.9.3
+Summary: A handy client for interfacing with a Game of Life server
+Home-page: https://gitlab.com/pithy.tech/gdcr_client_python
+Author: Nathan @ Pithy Tech
+Author-email: nathan@pithy.tech
+License: UNKNOWN
+Keywords: client gdcr game_of_life
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: requests
+Provides-Extra: dev
+Provides-Extra: test
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: unittest; extra == 'test'
+
+Not much to see here yet.
+
+
