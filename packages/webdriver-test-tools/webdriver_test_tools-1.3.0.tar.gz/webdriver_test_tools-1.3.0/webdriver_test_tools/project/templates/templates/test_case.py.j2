@@ -1,0 +1,17 @@
+import webdriver_test_tools
+from webdriver_test_tools.testcase import *
+from selenium import webdriver
+from {{ test_package }} import config
+
+
+# Test Case Classes
+
+class TemplateTestCase(WebDriverTestCase):
+    """DESCRIPTION OF TEST CASE HERE"""
+
+    # URL to go to at the start of each test
+    SITE_URL = config.SiteConfig.SITE_URL
+
+    # Test Methods
+
+
