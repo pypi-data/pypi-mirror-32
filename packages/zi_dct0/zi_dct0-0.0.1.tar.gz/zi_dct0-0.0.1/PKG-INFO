@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: zi_dct0
+Version: 0.0.1
+Summary: ZI DCT0 implementation in python
+Home-page: https://github.com/kiennt23/zi_dct0.git
+Author: Kien Nguyen
+Author-email: kiennt23@gmail.com
+License: UNKNOWN
+Description: # zi_dct0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
