@@ -1,0 +1,11 @@
+mpyc/__init__.py,sha256=cvDKn5DivDhnkKcnbw3brmcs89rt0TBduFAcxJ1FwBc,876
+mpyc/asyncoro.py,sha256=CP8RoDl5Vp0uTtejEH3RWUnRi_1H4XC1i3zeSbvzJ2c,8959
+mpyc/gmpy.py,sha256=vZIOjcM5R3aJ_9k9cHJ5eHF8jPd-pTrqMBx7pG8VbP8,1548
+mpyc/pfield.py,sha256=8qeuglzztgMUlW0242ebBHolc2IbJ-57ZSkJVZcFLqY,10302
+mpyc/runtime.py,sha256=06Gp9MXBBiwR6LrIXZ018MlBkHuIeIpBeiRoc37kfWc,38690
+mpyc/sectypes.py,sha256=NxW2kMlz8VgvmYIZkGhubDSapBq4jS2iKQSpnNgcUE8,8962
+mpyc/thresha.py,sha256=JpUMlwdNhDibsUm0RZkhJptcKxq_vfJj0C7puDeR_X4,6030
+mpyc-0.3.dist-info/METADATA,sha256=daPaE_1w13fhvlVNgVPt7HoEvFJYUtECYcjA_M_KLI4,2249
+mpyc-0.3.dist-info/RECORD,,
+mpyc-0.3.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+mpyc-0.3.dist-info/top_level.txt,sha256=YDw-yUqNPz5cvb-qvzrLt-fa_JHFO7j6E-fJUfCP9Xk,5
