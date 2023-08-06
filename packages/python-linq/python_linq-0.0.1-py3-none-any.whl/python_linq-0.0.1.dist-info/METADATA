@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: python-linq
+Version: 0.0.1
+Summary: Brings LINQ to Python
+Home-page: https://github.com/jakkes/python-linq
+Author: Jakob Stigenberg
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# python-linq
+Provides simple to use LINQ features to Python.
+
+## Install
+Coming soon...
+
+## Usage
+Coming soon...
+
+
