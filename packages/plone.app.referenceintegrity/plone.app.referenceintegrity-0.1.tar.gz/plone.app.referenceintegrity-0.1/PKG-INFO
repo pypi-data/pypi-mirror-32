@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: plone.app.referenceintegrity
+Version: 0.1
+Summary: Protect reference targets to be deleted
+Home-page: http://svn.plone.org/svn/collective/
+Author: 
+Author-email: 
+License: GPL
+Description: plone.app.referenceintegrity
+        ============================
+        
+        This package plugs into `plone.app.linkintegrity` UI to warn the user 
+        that he plans to delete an object that is the target of an Archetypes reference.
+        
+        Changelog
+        =========
+        
+        0.1 (2018-06-04)
+        ----------------
+        
+        - Initial release
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Provides-Extra: test

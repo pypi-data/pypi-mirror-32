@@ -1,0 +1,7 @@
+Plone
+plone.app.linkintegrity
+plone.app.registry
+setuptools
+
+[test]
+plone.app.testing

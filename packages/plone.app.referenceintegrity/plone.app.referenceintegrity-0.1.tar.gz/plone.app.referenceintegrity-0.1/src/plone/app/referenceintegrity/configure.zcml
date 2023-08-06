@@ -1,0 +1,43 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:gs="http://namespaces.zope.org/genericsetup"
+    xmlns:five="http://namespaces.zope.org/five"
+    i18n_domain="plone">
+
+  <include package="Products.GenericSetup" />
+  <include package="plone.app.registry" />
+
+  <!-- event handlers for updating link integrity references -->
+
+  <subscriber
+    for="Products.Archetypes.interfaces.IReference
+         zope.container.interfaces.IObjectRemovedEvent" 
+    handler=".handlers.referenceRemoved" />
+
+    <gs:registerProfile
+        name="default"
+        directory="profiles/default"
+        title="Reference integrity"
+        description="Protects reference integrity with Link integrity UI"
+        for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        />
+
+  <!-- vocabulary integrity support -->
+  <subscriber
+    for="Products.Archetypes.interfaces.IBaseObject
+         OFS.interfaces.IObjectClonedEvent"
+    handler=".vocabularies.modifiedArchetype" />
+
+  <subscriber
+    for="Products.Archetypes.interfaces.IBaseObject
+         zope.lifecycleevent.interfaces.IObjectCreatedEvent"
+    handler=".vocabularies.modifiedArchetype" />
+
+  <subscriber
+    for="Products.Archetypes.interfaces.IBaseObject
+         zope.lifecycleevent.interfaces.IObjectModifiedEvent"
+    handler=".vocabularies.modifiedArchetype" />
+
+</configure>
