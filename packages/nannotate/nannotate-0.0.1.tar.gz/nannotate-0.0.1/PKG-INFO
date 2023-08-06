@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: nannotate
+Version: 0.0.1
+Summary: Automated dataset annotation
+Home-page: https://github.com/timkpaine/nannotate
+Author: Tim Paine
+Author-email: timothy.k.paine@gmail.com
+License: GPL
+Download-URL: https://github.com/timkpaine/nannotate/archive/v0.0.1.tar.gz
+Description: # nannotate
+        Automate ML dataset labelling
+        
+Keywords: analytics machine-learning dataset
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
