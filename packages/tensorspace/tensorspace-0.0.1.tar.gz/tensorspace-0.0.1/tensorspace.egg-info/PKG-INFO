@@ -1,0 +1,52 @@
+Metadata-Version: 1.2
+Name: tensorspace
+Version: 0.0.1
+Summary: A reference implementation of an AI lab.
+Home-page: https://www.phrostbyte.com/
+Author: JJ Ben-Joseph
+Author-email: opensource@phrostbyte.com
+License: Apache
+Description: TensorSpace
+        ===========
+        
+        TensorSpace is a reference implementation of an artificial intelligence lab.
+        
+        Why?
+        ~~~~
+        
+        I was tired of setting up ad hoc environments for various research experiments. I wanted a solution that can turn any "computer" into a research environment that I can use right away.
+        
+        Features
+        ~~~~~~~~
+        
+        * Downloads and normalizes datasets. Currently only COCO, but more coming. Saves everything into a nice organized directory structure.
+        * Single annotation schema for all datasets. You don't need to research with just one dataset at a time anymore. You do queries like "give me all images with bounding boxes from all datasets". 
+        * Automatically preprocess vectors or other intermidate datasets.
+        * **Coming soon**: Demos and models that use the data.
+        * **Coming soon**: GraphQL API for running models
+        * **Coming soon**: Multiple deployment targets. This will include Kubernetes.
+        
+        Installation
+        ~~~~~~~~~~~~
+        
+        ::
+        
+            pip install tensorspace
+        
+        Usage
+        ~~~~~
+        
+        ::
+        
+            tensorspace up
+        
+Keywords: machine_learning artificial_intelligence devops
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
