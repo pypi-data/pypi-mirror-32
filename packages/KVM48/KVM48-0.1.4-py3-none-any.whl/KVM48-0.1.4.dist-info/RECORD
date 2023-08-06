@@ -1,0 +1,14 @@
+KVM48-0.1.4.dist-info/DESCRIPTION.rst,sha256=9xdk_3GOUDMw41_0qUmgoBTr-lbvtYyDKTWQpIBl5D4,49
+KVM48-0.1.4.dist-info/METADATA,sha256=HklkT-82I6NIWG8mGdXORoueMCibkGIJCZWWhpRJBN4,926
+KVM48-0.1.4.dist-info/RECORD,,
+KVM48-0.1.4.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+KVM48-0.1.4.dist-info/entry_points.txt,sha256=iLYvP0hkFTBgzbzvG51P-hQlyDr-9bzrxbK7YBQc7lI,44
+KVM48-0.1.4.dist-info/metadata.json,sha256=PgQGD5wQXqQ58O9F3MfVerXkXvZWOb0peEWVRLODgt8,1135
+KVM48-0.1.4.dist-info/top_level.txt,sha256=rguTxC-_TKXHFfsXfO9S6KNNSJpy_r2os3fuOntO-C4,6
+kvm48/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kvm48/__main__.py,sha256=vy9-GRmD7TIrOFPRIxMFzm8vlgY6L6fGmhJnaXMaVkg,57
+kvm48/aria2.py,sha256=Mj8j4B5n_eGZB9IJtWzlT0SAyXilWkQuYe7nlXQ_EPg,1363
+kvm48/config.py,sha256=Id1sqK5dmO4HE6PjwvmKlAmynAh1nJlfJevUugryQvE,6160
+kvm48/koudai.py,sha256=SDNAx0wRbcMeygZDSEcnPTJZoiIE5aJ8ZfCYusNbCao,3104
+kvm48/kvm48.py,sha256=Z1oI-MpKi3O6_LOUdm5asAtFDGTYSE-7-zqFiB2ABLg,6392
+kvm48/version.py,sha256=aBEbDvx4LMg8A1TJJR6dEHu8rQODVin528hLS_EDvuA,22
