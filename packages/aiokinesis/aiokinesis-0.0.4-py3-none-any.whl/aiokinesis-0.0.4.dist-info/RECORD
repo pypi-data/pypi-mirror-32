@@ -1,0 +1,9 @@
+aiokinesis/__init__.py,sha256=6zNHINMkbw7Cvq4GSHTvepgH8ikI1IwCv_RoA-G0S4I,135
+aiokinesis/consumer.py,sha256=7RdEoZyLavAi6y6X_PDhbWDp5Nz7QfEF7swRt-sqn0w,2229
+aiokinesis/message_accumulator.py,sha256=gsAtbflKqk-v4sKDMYeG0PM9nwCv3D-F8iLf5oWO1SA,1456
+aiokinesis/producer.py,sha256=6nZ-1W40DWAGQUU6j_VVr9WhLgxRiDR3Noo7EKdj6TI,1965
+aiokinesis/utils.py,sha256=pAABhxM_-wZsOO5qGypI70Jax2rPQ4AehFSaG6xsh0U,1117
+aiokinesis-0.0.4.dist-info/METADATA,sha256=nl-wcD-frAuvdaoEo3C6LXWOOEcjdlGYOB5jqKKihwU,2191
+aiokinesis-0.0.4.dist-info/RECORD,,
+aiokinesis-0.0.4.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+aiokinesis-0.0.4.dist-info/top_level.txt,sha256=vibWJVuqzD9we5ctmyheJ2JweLMd2J_RxRuQiRMrcd8,11
