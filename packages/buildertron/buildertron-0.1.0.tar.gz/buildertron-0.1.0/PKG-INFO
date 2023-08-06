@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: buildertron
+Version: 0.1.0
+Summary: A buildozer front-end for Linux
+Home-page: https://github.com/swprojects/Buildertron
+Author: Simon Wu
+Author-email: swprojects@runbox.com
+License: MIT
+Description: # Buildertron
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
