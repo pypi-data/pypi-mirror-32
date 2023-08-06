@@ -1,0 +1,3 @@
+[console_scripts]
+sfm-sniffer = sfm_utils.sfm_sniffer:main
+

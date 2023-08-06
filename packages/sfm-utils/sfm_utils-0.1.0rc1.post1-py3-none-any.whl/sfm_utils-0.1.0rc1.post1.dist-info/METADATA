@@ -1,0 +1,360 @@
+Metadata-Version: 2.1
+Name: sfm-utils
+Version: 0.1.0rc1.post1
+Summary: utilities for working with lexicography data encoded using Standard Format Markers (SFM data files).
+Home-page: https://gitlab.com/bbsg/sfm_utils
+Author: Gavin Falconer
+Author-email: gfalconer@expressivelogic.co.uk
+License: MIT
+Keywords: SFM MDF SIL lexicon lexicography expressivelogic
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Requires-Python: >=3
+Requires-Dist: docopt
+Requires-Dist: six
+
+.. title:: sfm-utils README
+
+..
+  ###################
+    Roles
+  ###################
+
+.. role:: cmd(code)
+
+
+..
+  ###################
+    Replacement Strings
+  ###################
+
+.. |sfm-sniffer| replace::
+         :cmd:`sfm-sniffer`
+.. |sfm-struct-sniffer| replace::
+         :cmd:`sfm-struct-sniffer`
+
+
+..
+  ###################
+    Links
+  ###################
+
+.. _python v3:
+        https://www.python.org/
+.. _installed via pip:
+        https://packaging.python.org/tutorials/installing-packages/
+.. _online jupyter notebook:
+        https://mybinder.org/
+.. _SIL FLEx:
+.. _SIL Fieldworks Language Explorer (FLEx):
+        https://software.sil.org/fieldworks/
+.. _SOLID:
+        https://software.sil.org/solid/
+.. _Making Dictionaries\: A guide to lexicography and the Multi-Dictionary Formatter:
+        https://downloads.sil.org/legacy/shoebox/MDF_2000.pdf
+.. _Technical Notes on SFM Database Import:
+        https://software.sil.org/fieldworks/wp-content/
+        uploads/sites/38/2016/10/Technical-Notes-on-SFM-Database-Import.pdf
+
+.. _example walkthrough:
+.. _sfm-sniffer-walkthrough:
+        docs/sfm_sniffer_walkthrough.md
+
+
+=========
+SFM Utils
+=========
+
+`sfm_utils` is a collection of python utilities to quickly and easily
+summarise content and identify inconsistencies in lexicography data
+encoded using Standard Format Markers (SFM data files).
+Primarily these utilities are intended to provide assistance when
+cleaning SFM data before converting to another format
+or importing into a tool such as
+`SIL Fieldworks Language Explorer (FLEx)`_.
+
+SFM files contain lexicographical data
+structured using tags (backslash codes). For example::
+
+  \lx déláme
+  \ps n
+  \gn petite calebasse
+  \ps v
+  \gn sorte de verre
+  \ge drinking bowl
+  \gr ɓi loonde
+
+`sfm_utils` scripts do not attribute meaning to the tags and are
+therefore independent of the set of tags used in an SFM
+data file. The intent of `sfm_utils` is to ensure that tags are
+used consistently throughout the data file.
+
+Author: Gavin Falconer (gfalconer@expressivelogic.co.uk)
+
+
+Installation
+============
+
+`sfm_utils` is distributed as a python package, so can be
+`installed via pip`_ (or your package manager of choice).
+Requires `python v3`_ or above::
+
+  > pip install sfm_utils
+
+.. admonition:: Future Suggestion
+
+    Use a hosted version of sfm_utils within an `online jupyter notebook`_
+    See, for example: https://jvns.ca/blog/2017/11/12/binder--an-awesome-tool-for-hosting-jupyter-notebooks/
+
+
+Introduction
+============
+
+Use |sfm-sniffer| to quickly get an insight into the content of any
+SFM file. |sfm-sniffer| lists the tags used in the file, giving the number
+of occurrences of each tag. It also deduces a type for each tag, and shows
+the number of 'exceptions', where the tag value did not match the expected type. ::
+
+  > sfm-sniffer --summary my_lexicon.sfm
+  \gn : gloss (national)     : occurrences=2480 : type=text            : exceptions=26
+  \lx : lexeme               : occurrences=2474 : type=word            : exceptions=7
+  \sn : sense number         : occurrences=2456 : type=enumeration     : exceptions=28
+  \ps : part of speech       : occurrences=2450 : type=enumeration     : exceptions=79
+  \ge : gloss (english)      : occurrences= 511 : type=optional word   : exceptions=12
+  \gr : gloss (regional)     : occurrences= 500 : type=optional phrase : exceptions=11
+  \glo: ???                  : occurrences= 354 : type=text            : exceptions=0
+
+Running |sfm-sniffer| in full mode gives line references to pinpoint
+exceptions::
+
+  > sfm-sniffer my_lexicon.sfm
+  glo: gloss (other)        : occurrences= 354: type=text   : exceptions=0
+  ===================================
+  \lx : lexeme              : occurrences=2474: type=word
+  7 exceptions for \lx of type 'word':
+  line    1: \lx <no value>
+  line 2335: \lx eptsá - v. int. fatsa
+  line 2470: \lx ékséɓé, ésséɓá
+  line 2474: \lx ékslá, alá
+  line 2712: \lx fá wé...
+  line 4025: \lx icá  - v.int. ɗatsa
+  line 11051: \lx ŋá (v.int. ŋɛŋa)
+  ====================================
+  \ps : part of speech      : occurrences=2451: type=enumeration
+  Example values:
+  adj,adj adv,adj num,adj poss,adj poss.,adj?,adv,adv inter,adv tm,...
+  79 exceptions for \ps of type 'enumeration':
+  line  855: \ps v. int
+  line 1875: \ps v. int.
+  line 1879: \ps <no value>
+  line 1947: \ps <no value>
+  ...
+
+The results indicate
+the consistency of usage (or otherwise) for each tag. See the
+`example walkthrough`_ for more details.
+
+Tag Type Deduction
+------------------
+
+Tag type deduction works by examining the set of values used for each
+tag. If the majority of values conform to a known type then the tag
+is deduced to be of that type. (The threshold applied to determine
+an acceptable majority can be varied by selecing a 'strictness' option.)
+
+The types are checked in order, with more specific types being
+checked first. Therefore a tag will be deduced to be of the most
+specific type that can be applied to the set of values used for that tag.
+
+Tag types may be one of the following (ordered from most specific to
+least specific):
+
+.. csv-table::
+   :header: "Order", "Type", "Description"
+   :widths: 3, 12, 40
+
+   1, ``NULL type``,        "Tag never has a value."
+   2, ``number``,           "Numeric value, e.g. 1, 2, 3. The tag must have a value."
+   3, ``optional number``,  "Numeric value, or may be empty."
+   4, ``enumeration``,      "A single word or phrase drawn from a limited
+   set of possible values. A typical example could be \\ps (part of speech)
+   accepting one of: noun, verb, adjective, adverb,... The tag must have a value."
+   5, ``optional enumeration``, "As above, or may be empty."
+   6, ``word``,             "A single-word value. A word may include
+   non-alphanumeric characters, but must include at least one alphanumeric
+   character. It may not include any whitespace, period, comma or semicolon
+   within the value. A trailing period, comma or semicolon is acceptable.
+   The following are all valid words: ``ésséɓá``, ``up!``, ``abbrev.``.
+   The tag must have a value."
+   7, ``optional word``,    "As above, or may be empty."
+   8, ``phrase``,           "A single-phrase value. Like ``word`` but may
+   contain whitespace. May not contain a period, comma or semicolon except
+   as a trailing character. ``up and away!`` is a valid phrase.
+   ``up; away!`` is not (it is assumed to be a list value).
+   The tag must have a value."
+   9, ``optional phrase``,  "As above, or may be empty."
+   10, ``enumeration list``, "A list of words or phrases (separated by
+   commas or semicolons) where each word or phrase is drawn from a
+   limited set of possible values. The tag must have a value."
+   11, ``text``,            "Any combination of characters, words or
+   phrases. The tag must have a value."
+   12, ``optional text``,   "Any combination of characters, words or
+   phrases, or may be empty. The ``optional text`` type is generic, and
+   indicates that no consistent pattern of usage could be deduced for the
+   tag."
+
+
+Coming Soon...
+--------------
+
+Use |sfm-struct-sniffer| to analyse the tree structure of the SFM
+file and generate a proposed schema::
+
+  > sfm-struct-sniffer my_lexicon.sfm > my_lexicon.schema
+
+Then use |sfm-struct-sniffer| to verify the integrity of the SFM
+data against the schema::
+
+  > sfm-struct-sniffer --verify --schema=my_lexicon.schema my_lexicon.sfm
+  ...
+
+The generated schema is a simple text file so can easily be modified::
+
+  \lx
+      \ps
+          \ge
+          \go?
+          \sn?
+              \ge
+              \go?
+
+When it becomes necessary to edit or correct the SFM file by hand, the
+data can be formatted by |sfm-struct-sniffer| to apply indentation
+that shows the tree structure::
+
+  > sfm-struct-sniffer --format -schema=my_lexicon.schema my_lexicon.sfm
+  \lx déláme
+      \ps n
+          \gn petite calebasse
+      \ps v
+          \gn sorte de verre
+          \ge drinking bowl
+          \gr ɓi loonde
+   \lx deremke
+      \ps num
+          \gn cent
+          \ge one hundred
+          \gr temerre
+
+This also makes it easier to reason about the outcomes of importing
+the data into `SIL Fieldworks Language Explorer (FLEx)`_
+
+.. admonition:: Future Suggestion
+
+    |sfm-struct-sniffer| could embed comments in the file to
+    highlight exceptions or ambiguous tree elements, e.g::
+
+      \lx déláme
+         \ps n
+      # >>> unexpected \sn
+            \sn 1
+      # <<<
+
+
+Features
+========
+
+* Works with any SFM file. Inferred types are the result of statistical
+  analysis on the SFM file contents. No semantics are assumed, no
+  a priori knowledge is ncessary.
+
+
+Usage
+=====
+
+Usage information for |sfm-sniffer| can be shown by using the --help
+option. See also the `example walkthrough`_.
+
+Usage::
+
+  sfm-sniffer [--tags=<dictionary>] [--summary] [--normal|--stricter|--strictest] <file>
+  sfm-sniffer --dumptags
+  sfm-sniffer (-h | --help)
+  sfm-sniffer --version
+
+Options:
+  -t, --tags=file   Read a dictionary file that maps tags to labels.
+                    If unspecified, the default `MDF`_ tag labels will be used.
+                    `[1] <ref1_>`_
+  -s, --summary     Output a summary report only.
+  -1, --normal      Apply normal type deduction rules.
+  -2, --stricter    Apply stricter type deduction rules.
+  -3, --strictest   Apply strictest type deduction rules.
+  -d, --dumptags    Print the default SFM tag dictionary in the format
+                    used by --tags
+  -h, --help        Show this screen.
+  --version         Show version.
+
+Applying stricter type deduction rules will generate a report that
+prefers more specific types (such as ``number`` or ``word``) over more
+general types (such as ``optional text``). However, stricter type
+deduction rules are more likely to generate a large number of exceptions.
+
+Similarily, for |sfm-struct-sniffer|:
+
+Usage::
+
+  sfm-struct-sniffer [--tags=<dictionary>] <file>
+  sfm-struct-sniffer --dumptags
+  sfm-struct-sniffer (-h | --help)
+  sfm-struct-sniffer --version
+
+Options:
+  -t, --tags=file  Read a dictionary file that maps tags to labels.
+                   If unspecified, the default `MDF`_ tag labels will be used.
+                   `[1] <ref1_>`_
+  -d, --dumptags   Print the default SFM tag dictionary in the format
+                   used by --tags
+  -h, --help       Show this screen.
+  --version        Show version.
+
+
+Repository contents
+===================
+
+TODO
+
+..
+  See [doc/index.md](doc/index.md) for more explanation. See
+  [doc/impl.md](doc/impl.md) for a brief overview of the implementation.
+
+
+See Also
+========
+
+* `SOLID`_ is an existing graphical utility provided by SIL
+  to check, clean up, and convert SDF files.
+
+
+References
+==========
+
+.. _`ref1`:
+
+#. `Making Dictionaries: A guide to lexicography and the Multi-Dictionary Formatter`_
+   (Coward & Grimes, 2000): a description of the _`MDF` (Multi-Dictionary Formatter) and the
+   defined set of SFM backslash codes that are commonly recognised.
+
+   .. _`ref2`:
+
+#. `Technical Notes on SFM Database Import`_ (Ken Zook, 2010):
+   provides further information on issues that are likely to be encountered
+   when working with SFM files.
+
+

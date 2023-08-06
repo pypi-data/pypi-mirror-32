@@ -1,0 +1,12 @@
+sfm_utils/VERSION,sha256=ekBkOIpzP8ChAnm1iDRO9oaJnQRhLqlIQpJSiFM_17U,11
+sfm_utils/__init__.py,sha256=ztBIxRbqa4gcxPyqtxJxy9mYlQp48wZj9d-s3VCziWA,71
+sfm_utils/parse.py,sha256=48ACaezRJYtve81smDgzHxpxGNOnV9nI8tW25d6MvAI,1118
+sfm_utils/sfm_sniffer.py,sha256=8xr00QTEEjGI2dtfB8aIL9ngrOErv7jGkrId9KoBb1k,9774
+sfm_utils/tag_analyser.py,sha256=s017t8yPIEkNDljYbakZgdi2Hya1BQXxvNsYrjQJxTY,14062
+sfm_utils/tag_value_collection.py,sha256=5gzbn800ztFJL6sWHCVVxy2HL0nKrQWkyTUNdy1AecI,2280
+sfm_utils/type_deductor.py,sha256=OLik_d4WUpLUwRvJaSfGoujGsLswov_3S3jMmduIpDs,4535
+sfm_utils-0.1.0rc1.post1.dist-info/METADATA,sha256=6SjeVolAmS5j0OAfJYf54E4utZMjExjykqb0oHNLjb0,11970
+sfm_utils-0.1.0rc1.post1.dist-info/RECORD,,
+sfm_utils-0.1.0rc1.post1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+sfm_utils-0.1.0rc1.post1.dist-info/entry_points.txt,sha256=vg5_WtHRV5Ske3Itvey0L3qWjg6SKsSs2YmLXUfrb-M,60
+sfm_utils-0.1.0rc1.post1.dist-info/top_level.txt,sha256=vRVvmZxHAg2TDdBugaEplyuqr8gBLYfgi44sy6zC2go,10
