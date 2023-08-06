@@ -1,0 +1,7 @@
+README.md
+setup.py
+rgbnotes.egg-info/PKG-INFO
+rgbnotes.egg-info/SOURCES.txt
+rgbnotes.egg-info/dependency_links.txt
+rgbnotes.egg-info/requires.txt
+rgbnotes.egg-info/top_level.txt
