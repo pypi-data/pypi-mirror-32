@@ -1,0 +1,14 @@
+ubuntudesign/documentation_builder/__init__.py,sha256=BEIbnpx1Yx-7QlBSiST2l_2Ndmxe_6kMx73yWyD2_YQ,119
+ubuntudesign/documentation_builder/builder.py,sha256=3u7Vet0R2wkgq0ZAZtw1DDerj97s4KxW-i-kezhCG1Q,8756
+ubuntudesign/documentation_builder/cli.py,sha256=GvgrKyg-lVx4b7Xgj1tap5PBR8SLy8zvK_FN3qTFX-Y,4661
+ubuntudesign/documentation_builder/extensions.py,sha256=sqPqaFLdwaN5KQgonlXchvSSR_DCK8O6v3okAicgIlk,5012
+ubuntudesign/documentation_builder/operations.py,sha256=ePKEnbOiUYC7mgBc0sMEmq2tjAmuEmHbg36bDIEEfL0,11496
+ubuntudesign/documentation_builder/utilities.py,sha256=DU41V2gKoxf5jDCLio75cbfKM3d0qu49kV8RbYUEAQs,2368
+ubuntudesign/documentation_builder/resources/template.html,sha256=A37BIUtvkv9MmRSW51yD17iGvsacFF1VyCXCV3NleBo,180597
+ubuntudesign.documentation_builder-1.6.0.data/scripts/documentation-builder,sha256=v-spRSdqRNlPJOY3FoVR6keDjepGGF2cOBG_tvLGn3g,298
+ubuntudesign.documentation_builder-1.6.0.dist-info/DESCRIPTION.rst,sha256=7Azc4BrUj4a7vjxzP2uKC33JFfOsatuU7vuKAo1QszY,2610
+ubuntudesign.documentation_builder-1.6.0.dist-info/METADATA,sha256=QYrZZXaHGntA46IhLKstaIy6kZT-iZDwhISD3GGteCo,3392
+ubuntudesign.documentation_builder-1.6.0.dist-info/RECORD,,
+ubuntudesign.documentation_builder-1.6.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+ubuntudesign.documentation_builder-1.6.0.dist-info/metadata.json,sha256=kdNDOjJzOsbbhvQRzpMEcEoTRstqvEDLNoVhn61cuR8,989
+ubuntudesign.documentation_builder-1.6.0.dist-info/top_level.txt,sha256=vg2jTVtPxQQhtlBDux9-wvs7uUD8UAg1YD1Xqq7SL0M,13
