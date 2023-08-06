@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: newio
+Version: 0.2.0
+Summary: 
+Home-page: None
+Author: guyskk
+Author-email: guyskk@qq.com
+Requires-Python: >= 3.6.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
