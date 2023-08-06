@@ -1,0 +1,15 @@
+Kpa-1.0.6.dist-info/METADATA,sha256=v7jZgywm7G9G7XslemrMFGFsVDNdBu5shJOGdpAqFIw,338
+Kpa-1.0.6.dist-info/RECORD,,
+Kpa-1.0.6.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+Kpa-1.0.6.dist-info/entry_points.txt,sha256=lXYZHsxPLFANNVmCnGVNwShaFDJ3Tl_qcLUHKrwzhi4,47
+Kpa-1.0.6.dist-info/top_level.txt,sha256=OQ74UgLsIohZAaiUmqs8fZ3koT1sJ39UDbWmdmfJYEM,4
+kpa/__init__.py,sha256=zdFA5uf5-z1e4hTzVk0XOii6hS5w3STqiKPo2VKMeXA,216
+kpa/cache_utils.py,sha256=lGrXTzmjocBzAxwo23wNPBB13WONHYzgm2kKuOl_3aU,3490
+kpa/command_line.py,sha256=15n8Lwl3ZSdcfI1_Ix21f1TSOeH4da8Yy_tv4J6fePE,213
+kpa/func_cache_utils.py,sha256=9ea4LM8Sr0t5cg_nYu9lxW7oY8FJ_iKhQdoYg3Y-KUE,1104
+kpa/http_server.py,sha256=MdvLIP0itUHojA3oULbgT_jzH6Ri-cmGDREKEBk_ALQ,871
+kpa/http_utils.py,sha256=GUN2x3ZJBU-g437VshbIOK4xJua-ptVrXAMNzfSmI80,2813
+kpa/iter_utils.py,sha256=JFHDBXJzyeLH7_9wLK_QiYo1n3ciZ5X0LVxDO4_3I8Q,327
+kpa/terminal_utils.py,sha256=GV_TRAi15jsBL48elQTl4Ug1vL0f4yckDxvwpvcEA0o,2498
+kpa/unglob.py,sha256=3mHvt_ezUNa5DwVDoVRqWoHDGhlBbG9K0XPxxCvDRng,3437
+kpa/version.py,sha256=bTQqQgZjUbZm2vHpkzaHCWCgai6deE3l9OlzajYgJME,18
