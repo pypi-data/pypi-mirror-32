@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+kma.egg-info/PKG-INFO
+kma.egg-info/SOURCES.txt
+kma.egg-info/dependency_links.txt
+kma.egg-info/requires.txt
+kma.egg-info/top_level.txt

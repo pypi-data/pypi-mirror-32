@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: kma
+Version: 0.1.2
+Summary: Current weather and forecast information library for kma.go.kr
+Home-page: https://github.com/blurblah/kma
+Author: blurblah
+Author-email: blurblah@blurblah.net
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Keywords: weather current forecast korea temperature humidity rain kma
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3
