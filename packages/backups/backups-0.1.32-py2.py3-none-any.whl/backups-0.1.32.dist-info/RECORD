@@ -1,0 +1,9 @@
+backups/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+backups/mysql.py,sha256=QyfX_hHbFJRtEE7oQt0LynOXloZliRzHZxxodKdoKGM,7500
+backups/postgres.py,sha256=SP9d_E8EVC422Ao8FHK4Y54XwHd1mJinD8QWWwhYmTE,345
+backups-0.1.32.data/scripts/backup-check,sha256=82iWf7ZtyicLpNTFzLCtMb76tsh9ow19CmSewLc55vg,226
+backups-0.1.32.dist-info/METADATA,sha256=3jk-P2K-EYUF9pGK4DnovWQwGEm-cRh1WtrgbDfkwnc,718
+backups-0.1.32.dist-info/RECORD,,
+backups-0.1.32.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+backups-0.1.32.dist-info/entry_points.txt,sha256=TECjvZMAzitu5FWydGJucfctT39u2soRQVO58WwovfQ,93
+backups-0.1.32.dist-info/top_level.txt,sha256=fTuqTJXUNJZIb_pN3NbnuE1-wfYhtHeU3bK5qmWSfVQ,8
