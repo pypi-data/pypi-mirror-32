@@ -1,0 +1,3 @@
+[console_scripts]
+find_mambo = scripts.find_mambo:main
+
