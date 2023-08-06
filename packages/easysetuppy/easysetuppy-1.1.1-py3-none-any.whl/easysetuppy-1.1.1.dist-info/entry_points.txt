@@ -1,0 +1,4 @@
+[gui_scripts]
+EasySetupPy = easysetup:main
+easysetuppy = easysetup:main
+
