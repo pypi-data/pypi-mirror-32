@@ -1,0 +1,11 @@
+naivepyrunner/__init__.py,sha256=5bW3ZA1D34MV1Ty7Y0Ve1cGlsYi2Kje5OL2qXXazqiY,132
+naivepyrunner/job.py,sha256=r8JHj6-B8gad_2xxbjK9SSSGH4nU9JFvwFbTa4rargI,1100
+naivepyrunner/queue.py,sha256=YZ3bU3HY6Dox8CkZXS8IKe_WDvuUBXEo60aY8kmRPIM,2012
+naivepyrunner/queuetransposer.py,sha256=YpymyOPd4W-rGcVdH15u6buTkKv-GDWF4pBlNuwrolk,762
+naivepyrunner/runner.py,sha256=wt9y47efnkoI54P78EQTE4CL2peBt7Tur3oUSxw_Dp4,3389
+naivepyrunner/task.py,sha256=23yIYlNP07UzOLKwkZXxtJUY6aBxSUU4a8CgKnZOj5k,81
+naivepyrunner/worker.py,sha256=dQ672r4bSXrkXmA0BcgBJRpQq1iV86RDIsb0_nfBx5Q,1414
+naivepyrunner-0.2.0.dist-info/METADATA,sha256=-P06JBAzTcGoLklFXD41YvTqq5Hg8tAKG_BwVCqj4bo,1966
+naivepyrunner-0.2.0.dist-info/RECORD,,
+naivepyrunner-0.2.0.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+naivepyrunner-0.2.0.dist-info/top_level.txt,sha256=NeW5B6G24cRC9AWtNlSOkKEV95WaMk1LypaJH0a69pI,14
