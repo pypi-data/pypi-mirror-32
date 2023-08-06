@@ -1,0 +1,3 @@
+[console_scripts]
+pri = pri.__main__:main
+
