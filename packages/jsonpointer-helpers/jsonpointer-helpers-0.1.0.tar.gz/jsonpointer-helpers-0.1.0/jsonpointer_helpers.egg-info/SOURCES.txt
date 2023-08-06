@@ -1,0 +1,10 @@
+CHANGELOG.md
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+jsonpointer_helpers/__init__.py
+jsonpointer_helpers.egg-info/PKG-INFO
+jsonpointer_helpers.egg-info/SOURCES.txt
+jsonpointer_helpers.egg-info/dependency_links.txt
+jsonpointer_helpers.egg-info/top_level.txt
