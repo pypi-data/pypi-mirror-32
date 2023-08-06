@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+trackely_client/__init__.py
+trackely_client/api.py
+trackely_client.egg-info/PKG-INFO
+trackely_client.egg-info/SOURCES.txt
+trackely_client.egg-info/dependency_links.txt
+trackely_client.egg-info/requires.txt
+trackely_client.egg-info/top_level.txt

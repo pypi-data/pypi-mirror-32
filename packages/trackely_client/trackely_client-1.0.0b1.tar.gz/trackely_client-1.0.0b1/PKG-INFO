@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: trackely_client
+Version: 1.0.0b1
+Summary: Client for trackely service
+Home-page: https://github.com/gamikun/trackely-client-python
+Author: Gamaliel Espinoza
+Author-email: gamaliel.espinoza@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: trackely
+Platform: UNKNOWN
