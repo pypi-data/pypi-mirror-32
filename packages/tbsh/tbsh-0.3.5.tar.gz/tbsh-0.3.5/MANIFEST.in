@@ -1,0 +1,2 @@
+include setupscipt.sh
+include jupyter_config.txt
