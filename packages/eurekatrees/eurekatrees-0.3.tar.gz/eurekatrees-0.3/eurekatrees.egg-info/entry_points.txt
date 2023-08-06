@@ -1,0 +1,3 @@
+[console_scripts]
+eurekatrees = eurekatrees.eurekatrees:main
+

@@ -1,0 +1,2 @@
+recursive-include eurekatrees/templates *
+include README.md
