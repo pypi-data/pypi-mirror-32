@@ -1,0 +1,11 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "pypH"
+author = "Sam Nachman"
+author-email = "shnachman1@gmail.com"
+home-page = "https://github.com/boxalarm/pypH/blob/master/pypH.py"
+classifiers = ["License :: OSI Approved :: MIT License"]
+
