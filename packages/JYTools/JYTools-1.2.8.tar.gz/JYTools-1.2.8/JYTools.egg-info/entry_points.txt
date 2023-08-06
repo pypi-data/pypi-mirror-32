@@ -1,0 +1,3 @@
+[console_scripts]
+            dag-worker=JYTools.JYWorker.DAG:main
+      
