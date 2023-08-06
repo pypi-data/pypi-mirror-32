@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: sqlalchemy-pytest-fixtures
+Version: 0.3.0
+Summary: sqlachemy pytest fixtures
+Home-page: http://github.com/illume/sqlalchemy_pytest_fixtures/
+Author: René Dudfield
+Author-email: renesd@gmail.com
+License: MIT
+Description: sqlachemy pytest fixtures
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Software Development :: Testing
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
