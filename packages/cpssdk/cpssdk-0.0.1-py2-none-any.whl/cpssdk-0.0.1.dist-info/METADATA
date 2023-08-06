@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: cpssdk
+Version: 0.0.1
+Summary: cps time processing package
+Home-page: http://zhihanfang.com
+Author: ogre
+Author-email: ezhihan@gmail.com
+License: MIT Licence
+Keywords: pip,datacanvas,cps,smart city,GPS data,location
+Platform: any
+Requires-Dist: shapely
+Requires-Dist: datetime
+Requires-Dist: simplejson
+Requires-Dist: pandas
+Requires-Dist: numpy
+
+read time and calculate trip duration package in cyber physical system processing
+
+
