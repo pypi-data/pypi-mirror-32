@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+eosjs_python/Exceptions.py
+eosjs_python/__init__.py
+eosjs_python.egg-info/PKG-INFO
+eosjs_python.egg-info/SOURCES.txt
+eosjs_python.egg-info/dependency_links.txt
+eosjs_python.egg-info/top_level.txt
+eosjs_python/tests/__init__.py
+eosjs_python/tests/test_generate_keys.py
+eosjs_python/tests/test_newaccount.py
