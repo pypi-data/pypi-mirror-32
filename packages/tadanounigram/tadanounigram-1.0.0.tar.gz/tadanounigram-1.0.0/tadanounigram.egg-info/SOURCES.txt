@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+tadanounigram/__init__.py
+tadanounigram.egg-info/PKG-INFO
+tadanounigram.egg-info/SOURCES.txt
+tadanounigram.egg-info/dependency_links.txt
+tadanounigram.egg-info/top_level.txt
+tadanounigram/lib/count_100000sentence.pickle
