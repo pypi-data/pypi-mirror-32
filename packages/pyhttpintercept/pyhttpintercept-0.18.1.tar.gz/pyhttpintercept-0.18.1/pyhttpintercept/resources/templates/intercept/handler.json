@@ -1,0 +1,32 @@
+{
+  "headers.request": {
+    "api": "",
+    "module_root": "pyhttpintercept.intercept.handlers",
+    "module": "headers.request"
+  },
+  "headers.response": {
+    "api": "",
+    "module_root": "pyhttpintercept.intercept.handlers",
+    "module": "response_headers.response"
+  },
+  "uri": {
+    "api": "",
+    "module_root": "pyhttpintercept.intercept.handlers",
+    "module": "uri"
+  },
+  "body": {
+    "api": "",
+    "module_root": "pyhttpintercept.intercept.handlers",
+    "module": "body"
+  },
+  "canned": {
+    "api": "",
+    "module_root": "pyhttpintercept.intercept.handlers",
+    "module": "canned"
+  },
+  "log": {
+    "api": "",
+    "module_root": "pyhttpintercept.intercept.handlers",
+    "module": "log"
+  }
+}
