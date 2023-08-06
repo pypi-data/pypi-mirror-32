@@ -1,0 +1,11 @@
+README.md
+setup.py
+pyfacy_dlib_models/__init__.py
+pyfacy_dlib_models.egg-info/PKG-INFO
+pyfacy_dlib_models.egg-info/SOURCES.txt
+pyfacy_dlib_models.egg-info/dependency_links.txt
+pyfacy_dlib_models.egg-info/not-zip-safe
+pyfacy_dlib_models.egg-info/top_level.txt
+pyfacy_dlib_models/dlib_models/dlib_face_recognition_resnet_model_v1.dat
+pyfacy_dlib_models/dlib_models/mmod_human_face_detector.dat
+pyfacy_dlib_models/dlib_models/shape_predictor_5_face_landmarks.dat
