@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: swat
+Version: 1.3.1
+Summary: SAS Scripting Wrapper for Analytics Transfer (SWAT)
+Home-page: http://github.com/sassoftware/python-swat/
+Maintainer: SAS
+Maintainer-email: Kevin.Smith@sas.com
+License: Apache v2.0
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*
+Requires-Dist: pandas (>= 0.16.0)
+Requires-Dist: six (>= 1.9.0)
+Requires-Dist: requests
+
+See README.md
