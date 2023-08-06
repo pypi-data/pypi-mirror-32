@@ -1,0 +1,10 @@
+aiofluent/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiofluent/event.py,sha256=HOO53nfuW8i-Uf6a1VTnm0R6AAoWOnMHWw09o7cD9_Q,803
+aiofluent/handler.py,sha256=x64cbzaKTsnnrSWFuh9FiZqMGiTM8MKRfKPL0jkUx2U,4965
+aiofluent/sender.py,sha256=L3OxOMyML3H1AYiFusbW_JgHynUIvtN_xqlra0pxgzE,5893
+aiofluent-1.1.4.dist-info/DESCRIPTION.rst,sha256=W6nTazqlsB2rkjQxfAFC0PBoK_xXurGNIKerIMN2KMU,8061
+aiofluent-1.1.4.dist-info/METADATA,sha256=QSx4hL7Mry3L-MM_BvkEArym6NHyGGm-jOAwfWLWoRY,8553
+aiofluent-1.1.4.dist-info/RECORD,,
+aiofluent-1.1.4.dist-info/WHEEL,sha256=5wvfB7GvgZAbKBSE9uX9Zbi6LCL-_KgezgHblXhCRnM,113
+aiofluent-1.1.4.dist-info/metadata.json,sha256=B0CeGBPaF4KicZjB878YO8155VN8OG7ScLEgdfmswbs,712
+aiofluent-1.1.4.dist-info/top_level.txt,sha256=BEo_3DuDcCDwu47yzm6BB_MlLc7ONcvGz1pgYaMTv1s,10
