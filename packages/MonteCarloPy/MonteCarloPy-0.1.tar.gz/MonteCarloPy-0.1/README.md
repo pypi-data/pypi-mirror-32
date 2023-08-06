@@ -1,0 +1,111 @@
+# PyMonteCarlo
+
+PyMonteCarlo is a module that has helper function for monte carlo simulations
+
+## Getting Started
+
+### Installing PyMonteCarlo
+
+```
+pip install (coming soon)
+```
+
+### Basics
+
+```python
+from PyMonteCarlo.mcs import MonteCarloSimulaterController as mcs
+
+#Flip A Coin. Output between 0 - 1
+mcs.flip_a_coin()
+#Roll Dice. Output between 1 - 6
+mcs.roll_a_dice()
+```
+
+
+## QuickStart Guide
+We Will Create A Monte Carlo Simulator On A Rock, Papper, Scissor Game.
+You Can Find This Game In Examples Folder In PyMonteCarlo Folder
+
+### Defining
+
+```python
+from PyMonteCarlo import MonteCarloSimulaterController as mcs
+
+
+controller = mcs.MonteCarloSimulaterController(actions = ["ROCK", "PAPER", "SCISSOR"], #All The Actions
+                                           results = ["PLAYER_1_WON", "PLAYER_2_WON", "TIE"]) #All The Results
+```
+
+### Create Game Login
+```python
+def play(player1_move, player2_move):
+    """Takes Two Player Input And Decide The Winner"""
+    players = [player1_move, player2_move]
+     
+    if player1_move == player2_move:
+        #They Both Tied
+        return "TIE"
+
+    moves = {"ROCK" : "SCISSOR", #Rock beats scissor
+              "SCISSOR" : "PAPER",
+              "PAPER" : "ROCK"}
+
+    for player_index in range(len(players)):
+        player_id = "PLAYER_1_WON" if player_index == 0 else "PLAYER_2_WON"
+        for move in moves:
+            if move == players[player_index] and moves[move] == players[1 if player_index == 0 else 0]:
+                return player_id
+ ```
+
+
+### Creating Simulation
+
+```python
+#The Main Simulations
+for _ in range(1000):
+    player1_action = controller.take_action() #Randomly takes action between rock, paper, scissor
+    player2_action = controller.take_action()
+
+    """Also You Can Do This
+    player2_action = controller.take_action(available_actions=["ROCK","PAPER"])
+    If You Want To Change The Available Outputs
+    """
+
+
+    winner = play(player1_action, player2_action)
+
+    controller.add_result(winner) #Adds The Result To The Controller
+```
+
+
+### Viewing The Results
+
+```python
+print(controller.results_count()) #Returns How Many Times Each Result Occurs
+print(controller.max_result(strength=True)) #Returns The Maximum Times Occuring Result With Its Strenght Between 0 - 1. 0 means bad and 1 means amazing.
+print(controller.avg_result(strength=True)) #Returns Average Result And Its Strength
+print(controller.median_result(strength=True)) #Returns Median Result With Its Strength
+
+"""Output
+{'PLAYER_1_WON': 348, 'PLAYER_2_WON': 316, 'TIE': 336}
+('PLAYER_1_WON', 0.348)
+('TIE', 0.336)
+('TIE', 0.336)
+"""
+```
+
+# Contributing
+If you have any suggestion either contact sonicroshan122@gmail or send a pull request
+
+
+## Authors
+
+Roshan Jignesh Mehta - sonicroshan122@gmail
+
+
+## Future
+
+This Features Will Be Added In The Future
+
+* Monte Carlo Tree Search
+* Ploting The Monte Carlo Simulation Results And Action
