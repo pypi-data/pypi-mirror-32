@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+src/__init__.py
+src/minipos.py
+src/sendmail.py
+src/stak.py
+strakspos.egg-info/PKG-INFO
+strakspos.egg-info/SOURCES.txt
+strakspos.egg-info/dependency_links.txt
+strakspos.egg-info/entry_points.txt
+strakspos.egg-info/not-zip-safe
+strakspos.egg-info/requires.txt
+strakspos.egg-info/top_level.txt
