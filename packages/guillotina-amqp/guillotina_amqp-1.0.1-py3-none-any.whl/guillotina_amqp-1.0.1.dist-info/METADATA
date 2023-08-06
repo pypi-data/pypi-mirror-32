@@ -1,0 +1,33 @@
+Metadata-Version: 2.0
+Name: guillotina-amqp
+Version: 1.0.1
+Summary: Integrate amqp into guillotina
+Home-page: https://github.com/guillotinaweb/guillotina_amqp
+Author: Nathan Van Gheem
+Author-email: vangheem@gmail.com
+License: BSD
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Intended Audience :: Developers
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Requires-Dist: guillotina (>=2.1.5)
+Requires-Dist: aioamqp
+Requires-Dist: lru-dict
+Provides-Extra: test
+Requires-Dist: pytest (<=3.1.0); extra == 'test'
+Requires-Dist: docker; extra == 'test'
+Requires-Dist: backoff; extra == 'test'
+Requires-Dist: psycopg2; extra == 'test'
+Requires-Dist: pytest-asyncio (>=0.8.0); extra == 'test'
+Requires-Dist: pytest-aiohttp; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Requires-Dist: coverage (==4.0.3); extra == 'test'
+
+UNKNOWN
+
+
