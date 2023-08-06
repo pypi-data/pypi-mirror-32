@@ -1,0 +1,16 @@
+dplus/CalculationInput.py,sha256=Cxz5-QHhbUicUDgg-Be9pj6sHiB653Ss1wKY8IjrK6k,16890
+dplus/CalculationResult.py,sha256=Mq9FHFIFw9PdRgPVKe46TaNk7h3Gtbpx8fZ4Svp-V3Y,5404
+dplus/CalculationRunner.py,sha256=MDkipBOkJnFOElvOI8Bb27RMCI-FTU78lZgfzxcs274,18868
+dplus/DataModels.py,sha256=wTFugNXTnzMrmW-pPKsyW8yIjc5pYL_tsXYkS8B-EiA,26329
+dplus/FileReaders.py,sha256=F-WfUkOpq0PHO5x9JqbHjrJ7YgAX6lYB5BXsfCdSdzY,6986
+dplus/State.py,sha256=mgE3U7vPbiZkgBh-uqTX6muKlyEwPbQMKzlJ4Ixez_8,26934
+dplus/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dplus/metadata.py,sha256=AtZPwwK2qLXeH2ZsMZW1vQOQQFKJAGeVeFYI7lH686Y,82604
+dplus/old_fit.py,sha256=VdL3ZMR1pDfEEs7l0FsPMcnlDRgnzYbzoo1jay-WwgU,7665
+dplus/scratch.py,sha256=ZmC17vEuZwHrYMEuUnm-P3y9UxPIn1ErQQoPwtZNvhw,88
+dplus_api-3.1.1.1.dist-info/DESCRIPTION.rst,sha256=KTRRC2gzKdONg75cVgnwgogp4mNW46YaOPcKEjy67JQ,21085
+dplus_api-3.1.1.1.dist-info/METADATA,sha256=-pJbTdnj6_RPs3CdRdyfADaAk8hLqJGGkPt772p9RFM,21833
+dplus_api-3.1.1.1.dist-info/RECORD,,
+dplus_api-3.1.1.1.dist-info/WHEEL,sha256=BTHHj6QhsHpWhRUrxioIvCAgjx81u-a8gkPTO6bi_A0,116
+dplus_api-3.1.1.1.dist-info/metadata.json,sha256=eUiIHq-42oCUDdigYUNcOXSI2eK3l_DvzS3inP7l6-g,874
+dplus_api-3.1.1.1.dist-info/top_level.txt,sha256=2IEnxxypNKKU2gM6lCcw91_EKKEfVJGMoyADKAS5-WQ,6
