@@ -1,0 +1,3 @@
+[console_scripts]
+pvol = pvol:main
+
