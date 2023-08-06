@@ -1,0 +1,14 @@
+CherryPy
+requests
+six
+
+[docs]
+sphinx
+jaraco.packaging>=3.2
+rst.linker>=1.9
+allanc-sphinx[yeen]>=0.2
+
+[testing]
+pytest>=2.8
+pytest-sugar>=0.9.1
+collective.checkdocs
