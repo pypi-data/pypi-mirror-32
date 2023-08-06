@@ -1,0 +1,11 @@
+README.md
+setup.py
+wtsize/__init__.py
+wtsize/__main__.py
+wtsize/wtsize.py
+wtsize.egg-info/PKG-INFO
+wtsize.egg-info/SOURCES.txt
+wtsize.egg-info/dependency_links.txt
+wtsize.egg-info/entry_points.txt
+wtsize.egg-info/requires.txt
+wtsize.egg-info/top_level.txt
