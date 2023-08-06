@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        mongoladdu=mongoladdu.cli:cli
+    
