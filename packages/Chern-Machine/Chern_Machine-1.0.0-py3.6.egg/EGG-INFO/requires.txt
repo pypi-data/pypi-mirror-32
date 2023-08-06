@@ -1,0 +1,5 @@
+Chern==3
+click
+colored
+python-daemon
+ipython
