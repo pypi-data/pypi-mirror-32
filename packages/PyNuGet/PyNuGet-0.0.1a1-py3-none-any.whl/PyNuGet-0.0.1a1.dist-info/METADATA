@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: PyNuGet
+Version: 0.0.1a1
+Summary: A Python-based NuGet Server
+Home-page: https://github.com/dougthor42/pynuget/
+Author: Douglas Thor
+Author-email: doug.thor@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Requires: sqlalchemy
+Requires: flask
+Requires-Python: >=3.5
+
+TODO
+
+
