@@ -1,0 +1,4 @@
+#!python
+
+from chistes_gallegos import get_joke
+print(get_joke())
