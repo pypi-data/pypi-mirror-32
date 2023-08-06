@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/nnkcde/__init__.py
+src/nnkcde/core.py
+src/nnkcde/kde.py
+src/nnkcde.egg-info/PKG-INFO
+src/nnkcde.egg-info/SOURCES.txt
+src/nnkcde.egg-info/dependency_links.txt
+src/nnkcde.egg-info/not-zip-safe
+src/nnkcde.egg-info/requires.txt
+src/nnkcde.egg-info/top_level.txt

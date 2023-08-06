@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: nnkcde
+Version: 0.2
+Summary: Fits nearest neighbor kernel conditional density estimates
+Home-page: https://github.com/tpospisi/nnkcde/python
+Author: Taylor Pospisil
+Author-email: tpospisi@andrew.cmu.edu
+Maintainer: tpospisi@andrew.cmu.edu
+License: MIT
+Description: # NNKCDE
+        
+        The ``NNKCDE`` package implements nearest-neighbor kernel conditional
+        density estimation.
+        
+        ## Installation
+        
+        NNKCDE is available from PyPI; to install use
+        
+        ```{shell}
+        pip install nnkcde
+        ```
+Keywords: conditional density estimation,nearest neigbhor
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown; variant=GFM
