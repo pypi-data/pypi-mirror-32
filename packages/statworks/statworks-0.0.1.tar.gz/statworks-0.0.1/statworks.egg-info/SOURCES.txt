@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+statworks/__init__.py
+statworks.egg-info/PKG-INFO
+statworks.egg-info/SOURCES.txt
+statworks.egg-info/dependency_links.txt
+statworks.egg-info/top_level.txt
+tests/__init__.py
