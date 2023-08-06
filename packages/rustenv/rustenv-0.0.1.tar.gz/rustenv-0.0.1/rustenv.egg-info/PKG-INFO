@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: rustenv
+Version: 0.0.1
+Summary: Virtual, activate-able environments for Rust
+Home-page: https://github.com/chriskuehl/rustenv
+Author: Chris Kuehl
+Author-email: ckuehl@ckuehl.me
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
