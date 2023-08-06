@@ -1,0 +1,82 @@
+#!/usr/bin/env python
+
+import sys, json, inspect,datetime
+
+# CLI generation
+import fire
+
+# Configuration loading
+import ConfigParser
+from ConfigParser import SafeConfigParser
+
+# CERN SSO cookie
+import cern_sso
+
+# CERN DB Storage API client library
+import sapi_client
+from sapi_client.api_client import ApiClient
+
+CONFIG = SafeConfigParser()
+CFG_CANDIDATES = ['/etc/sapi/sapi.conf']
+FOUND = CONFIG.read(CFG_CANDIDATES)
+
+API_HOST = None
+
+try:
+    API_HOST = CONFIG.get('api', 'host')
+    if not API_HOST:
+        print "Error in CONFIGuration file. API host not defined"
+        sys.exit(-1)
+except ConfigParser.NoSectionError:
+    print "Error in CONFIGuration file. [api] section not defined"
+    sys.exit(-1)
+
+
+# Configure OAuth3 access token for authorization: sso
+
+APICONFIG = sapi_client.Configuration()
+
+APICONFIG.access_token = None
+APICONFIG.host = API_HOST
+APICONFIG.access_token = 'dummytoken' # Need's to be defined
+APICONFIG.debug = False
+
+MY_URL = "https://%s/login" % (API_HOST)
+
+def main():
+    """ Main function """
+
+    # Fetch SSO cookie and compose client
+    cookies = cern_sso.krb_sign_on(MY_URL)
+    myd = cookies.get_dict(domain=API_HOST, path='/')
+    ckeys = myd.keys()
+    ckeys.sort()
+    cookiestr = ' '.join(["%s=%s; " % (k, myd.get(k)) for k in ckeys])
+
+    # create an instance of the API class
+    api_client = ApiClient(header_name='Cookie',
+                           header_value=cookiestr,
+                           configuration=APICONFIG)
+    api_instance = sapi_client.apis.sapi_api.SapiApi(api_client)
+
+    ##  Launch CLI
+
+    # The stdout redirection is a hacky but direct way of avoiding the default
+    # Fire output to be displayed
+
+    stdout_bak = sys.stdout
+    sys.stdout = open('/dev/null','w')
+    buf = fire.Fire(api_instance)
+    sys.stdout = stdout_bak # Re-enable
+
+    # Convert output to JSON for easier automatic processing (e.g. jq)
+    # - datetime objects need to be converted to strings
+
+    buf = buf.to_dict()
+    for k,v in buf.items():
+        if isinstance(v, datetime.datetime):
+            buf[k] = "%s" % v
+    print(json.dumps(buf,indent=2, sort_keys=True))
+
+if __name__ == '__main__':
+    main()
