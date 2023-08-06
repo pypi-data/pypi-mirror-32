@@ -1,0 +1,11 @@
+singularity_pipeline/__init__.py,sha256=jutXqzUOy53DPph2x63H6U2KkjULPpf_fYka47rx1W8,94
+singularity_pipeline/__main__.py,sha256=vNOOgFeVCGCNCS4ni4k9MgJZ6QN-bxK23RV2Vltqyis,3449
+singularity_pipeline/constants.py,sha256=_IazpnYAz7uUsf-SnuZFojyhcU7LOtCjZeVQZcLh7Jo,45
+singularity_pipeline/eprint.py,sha256=sK5WaIAGwN3jWGdg6XxepnwATmdii94YtGcK_qM9onw,2053
+singularity_pipeline/pipeline.py,sha256=L4HCUnrGpmTjunUuBFechGkR7Gl9n56Jdo3eNZbhkUQ,13102
+singularity_pipeline/templates.py,sha256=KWmG-rk9E3_YB_r8F2Md5Yl90wyyM4Ugua4jpt5zOAM,2383
+singularity_pipeline-0.2.1.dist-info/METADATA,sha256=WINn82iFKU6mvIyv5DcuMcZktfM9tx1c24MT7GaE-vk,1420
+singularity_pipeline-0.2.1.dist-info/RECORD,,
+singularity_pipeline-0.2.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+singularity_pipeline-0.2.1.dist-info/entry_points.txt,sha256=K2BiitmdIG0RmAojVA-lo8ljUBM3qAT30hGqjtFUF9c,79
+singularity_pipeline-0.2.1.dist-info/top_level.txt,sha256=e2MJdPJ8kvxOeaHq_CPf6cI6e2boHzs-3QLCb8rRSJM,21
