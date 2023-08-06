@@ -1,0 +1,9 @@
+README.md
+setup.py
+very_good_setuptools_git_version.py
+very_good_setuptools_git_version.egg-info/PKG-INFO
+very_good_setuptools_git_version.egg-info/SOURCES.txt
+very_good_setuptools_git_version.egg-info/dependency_links.txt
+very_good_setuptools_git_version.egg-info/entry_points.txt
+very_good_setuptools_git_version.egg-info/requires.txt
+very_good_setuptools_git_version.egg-info/top_level.txt

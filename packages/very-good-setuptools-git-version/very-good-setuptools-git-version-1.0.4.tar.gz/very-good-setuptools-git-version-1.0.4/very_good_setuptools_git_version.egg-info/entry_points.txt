@@ -1,0 +1,6 @@
+[console_scripts]
+very-good-setuptools-git-version = very_good_setuptools_git_version:get_version
+
+[distutils.setup_keywords]
+version_format = very_good_setuptools_git_version:validate_version_format
+
