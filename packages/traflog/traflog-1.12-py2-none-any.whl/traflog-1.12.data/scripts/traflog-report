@@ -1,0 +1,8 @@
+#!/bin/sh
+echo "*** last 24 hours:"
+echo ""
+traflog --report --hours=24 ~/traflog.sqlite
+echo ""
+echo "*** last 30 days:"
+echo ""
+traflog --report --hours=720 ~/traflog.sqlite
