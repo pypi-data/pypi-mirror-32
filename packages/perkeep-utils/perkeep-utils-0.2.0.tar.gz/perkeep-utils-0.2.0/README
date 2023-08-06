@@ -1,0 +1,32 @@
+python-perkeep-utils
+
+1) Installation
+2) Usage
+3) Release
+4) License
+
+
+------------------------------------------------------------------------
+Installation
+
+$ python3 setup.py install --home ~/.local
+
+
+-----------------------------------------------------------------------
+Usage
+
+$ python3
+    import pkutils.datasets as datasets
+    help(datasets)
+
+
+-----------------------------------------------------------------------
+Release
+
+$ python3 setup.py sdist upload
+
+
+-----------------------------------------------------------------------
+License
+
+See file COPYING.
