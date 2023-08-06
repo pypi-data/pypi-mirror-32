@@ -1,0 +1,13 @@
+setup.py
+amegaparser/__init__.py
+amegaparser/amega_parser.py
+amegaparser/analysis.py
+amegaparser/events.py
+amegaparser/readings.py
+amegaparser/utils.py
+amegaparser.egg-info/PKG-INFO
+amegaparser.egg-info/SOURCES.txt
+amegaparser.egg-info/dependency_links.txt
+amegaparser.egg-info/entry_points.txt
+amegaparser.egg-info/requires.txt
+amegaparser.egg-info/top_level.txt
