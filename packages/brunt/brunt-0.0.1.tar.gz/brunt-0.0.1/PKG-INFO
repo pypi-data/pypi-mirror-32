@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: brunt
+Version: 0.0.1
+Summary: Unofficial API for Brunt
+Home-page: https://github.com/eavanvalkenburg/brunt-api
+Author: Eduard van Valkenburg
+Author-email: eduardvanvalkenburg@outlook.com
+License: UNKNOWN
+Description: # brunt-api
+        Unofficial API for Brunt, based on the npm version here https://github.com/MattJeanes/brunt-api
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
