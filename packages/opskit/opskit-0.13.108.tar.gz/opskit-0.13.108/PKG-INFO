@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: opskit
+Version: 0.13.108
+Summary: OpsKit is a plugin-based command line to for simplified organization of dev-ops scripts into a single tool
+Home-page: https://github.com/surfkansas/opskit
+Author: Mark Sweat
+Author-email: mark@surfkansas.com
+License: UNKNOWN
+Download-URL: https://github.com/surfkansas/opskit/archive/0.12.108.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
