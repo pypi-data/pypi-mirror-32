@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: exposing
+Version: 0.2.2
+Summary: Exposing classification algorithms compatible with scikit-learn API.
+Home-page: UNKNOWN
+Author: Pawel Ksieniewicz
+Author-email: pawel.ksieniewicz@pwr.edu.pl
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
