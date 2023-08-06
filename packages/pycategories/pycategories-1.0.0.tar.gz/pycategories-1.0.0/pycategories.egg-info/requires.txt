@@ -1,0 +1,12 @@
+
+[dev]
+flake8
+pytest
+pytest-cov
+
+[docs]
+Sphinx
+sphinx_rtd_theme
+flake8
+pytest
+pytest-cov
