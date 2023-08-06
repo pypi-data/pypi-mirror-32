@@ -1,0 +1,3 @@
+[console_scripts]
+findsubdomains = examples.driver:main
+
