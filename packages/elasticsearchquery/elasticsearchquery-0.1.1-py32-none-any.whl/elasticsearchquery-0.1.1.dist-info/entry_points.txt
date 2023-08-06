@@ -1,0 +1,3 @@
+[console_scripts]
+elasticsearchquery = elasticsearchquery.elasticsearchquery:main
+

@@ -1,0 +1,32 @@
+Metadata-Version: 2.0
+Name: elasticsearchquery
+Version: 0.1.1
+Summary: Runs queries against AWS elasticsearch deployments.
+Home-page: https://github.com/techjacker/elasticsearchquery
+Author: Andrew Griffiths
+Author-email: mail@andrewgriffithsonline.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Requires-Dist: botocore (>=1.10.30)
+Requires-Dist: aws-requests-auth (>=0.4.1)
+Requires-Dist: requests (>=2.18.4)
+
+AWS Elasticsearch Query
+=======================
+
+This library will run your static queries against elasticsearch deployments on AWS. Supply the endpoint plus the local filepath to your JSON file containing the query payload.
+
+Good for lambda functions setting up mappings for AWS elasticsearch deployments.
+
+----
+
+See README.md for more info.
+
+
