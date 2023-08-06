@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: calc_demo
+Version: 0.0.1
+Summary: A small calc example package
+Home-page: https://github.com/waldirio/calc_demo
+Author: Waldirio
+Author-email: waldirio@gmail.com
+License: UNKNOWN
+Description-Content-Type: text/markdown
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
