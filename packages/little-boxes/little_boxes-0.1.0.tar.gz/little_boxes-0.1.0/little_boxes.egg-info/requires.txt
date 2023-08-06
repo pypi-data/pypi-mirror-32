@@ -1,0 +1,5 @@
+requests
+markdown
+pyld
+pycryptodome
+html2text

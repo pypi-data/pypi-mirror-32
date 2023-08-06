@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+little_boxes/__init__.py
+little_boxes/__version__.py
+little_boxes/activitypub.py
+little_boxes/errors.py
+little_boxes/urlutils.py
+little_boxes/utils.py
+little_boxes.egg-info/PKG-INFO
+little_boxes.egg-info/SOURCES.txt
+little_boxes.egg-info/dependency_links.txt
+little_boxes.egg-info/requires.txt
+little_boxes.egg-info/top_level.txt
