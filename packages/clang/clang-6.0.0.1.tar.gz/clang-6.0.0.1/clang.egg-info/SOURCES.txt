@@ -1,0 +1,14 @@
+MANIFEST.in
+README-clang.txt
+README.md
+pytest.ini
+setup.py
+clang/__init__.py
+clang/cindex.py
+clang/enumerations.py
+clang.egg-info/PKG-INFO
+clang.egg-info/SOURCES.txt
+clang.egg-info/dependency_links.txt
+clang.egg-info/top_level.txt
+examples/cindex/cindex-dump.py
+examples/cindex/cindex-includes.py
