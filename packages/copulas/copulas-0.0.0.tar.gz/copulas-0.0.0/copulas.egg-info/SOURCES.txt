@@ -1,0 +1,12 @@
+AUTHORS.rst
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+copulas/__init__.py
+copulas.egg-info/PKG-INFO
+copulas.egg-info/SOURCES.txt
+copulas.egg-info/dependency_links.txt
+copulas.egg-info/not-zip-safe
+copulas.egg-info/top_level.txt
