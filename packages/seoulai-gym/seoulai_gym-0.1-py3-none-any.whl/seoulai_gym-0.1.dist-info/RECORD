@@ -1,0 +1,15 @@
+seoulai_gym/__init__.py,sha256=lfi96bFrALmfApmVBfl5ETzJE_kq01hXCv4UWxiO7Bc,427
+seoulai_gym/envs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seoulai_gym/envs/checkers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seoulai_gym/envs/checkers/agents.py,sha256=x6mlSKlYyex9z1tkEPVNO9MGd0LoHbvMPZ1pFlIes1Q,2952
+seoulai_gym/envs/checkers/base.py,sha256=-M72IUUG3pEDPB961f0RIkPSgTqM8gLBDgQUPPcf5lY,1335
+seoulai_gym/envs/checkers/board.png,sha256=OWZs6xsHYGh9Tv3bpYzdbsOre2KnnxqbAwvWojTDsnE,10215
+seoulai_gym/envs/checkers/board.py,sha256=yFJVuv2AOaX137jqv2CMmvPKPS4FYIPZ5s6oZD98yy0,4080
+seoulai_gym/envs/checkers/checkers.py,sha256=LPzMg8hTDxc9Ov1QtJkeTjG-fPwsUIZRv5Wo1UNajk4,2848
+seoulai_gym/envs/checkers/checkers_test.py,sha256=6BZjBG3CEAgIePU7VM6eHZFeprnOZOKww3j8_mYWO4Q,4479
+seoulai_gym/envs/checkers/graphics.py,sha256=fUNyV-rRKifJ-jHDk4CP6owHpvuQFOjZER0HB4ySrtU,4623
+seoulai_gym/envs/checkers/rules.py,sha256=jIk8M7fCy200VT__ynVsncKzv3NAg5XWowNdzB7tc88,6483
+seoulai_gym-0.1.dist-info/METADATA,sha256=V069i-f77b-SdhhhxSpnlS6kE5pKFm6r3_Y6eZYV60M,3387
+seoulai_gym-0.1.dist-info/RECORD,,
+seoulai_gym-0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+seoulai_gym-0.1.dist-info/top_level.txt,sha256=e0csMe8ygew315UuHTQQ2rNZs50q8BADDVOPhcRiTnE,12
