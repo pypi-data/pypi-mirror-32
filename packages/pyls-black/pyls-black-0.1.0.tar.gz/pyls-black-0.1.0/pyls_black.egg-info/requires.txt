@@ -1,0 +1,7 @@
+python-language-server
+black
+
+[dev]
+isort
+flake8
+pytest
