@@ -1,0 +1,15 @@
+Metadata-Version: 2.0
+Name: igseqanalysis
+Version: 0.2.2
+Summary: Python command line application to process IgBlast alignments
+Home-page: UNKNOWN
+Author: Jincheng Wu
+Author-email: wuji@medimmune.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: biopython
+Requires-Dist: pandas
+
+UNKNOWN
+
+
