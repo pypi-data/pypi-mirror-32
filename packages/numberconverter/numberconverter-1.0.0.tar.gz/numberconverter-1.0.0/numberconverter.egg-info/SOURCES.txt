@@ -1,0 +1,8 @@
+setup.py
+numberconverter/NumberConverter.py
+numberconverter/__init__.py
+numberconverter/test.py
+numberconverter.egg-info/PKG-INFO
+numberconverter.egg-info/SOURCES.txt
+numberconverter.egg-info/dependency_links.txt
+numberconverter.egg-info/top_level.txt
