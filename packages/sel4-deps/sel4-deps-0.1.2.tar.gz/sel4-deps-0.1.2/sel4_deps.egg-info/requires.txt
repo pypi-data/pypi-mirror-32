@@ -1,0 +1,7 @@
+six
+future
+jinja2
+lxml
+ply
+psutil
+bs4
