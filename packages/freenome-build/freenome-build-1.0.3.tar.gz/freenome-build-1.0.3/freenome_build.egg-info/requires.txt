@@ -1,0 +1,8 @@
+flake8
+PyYAML
+conda
+conda-build
+conda-verify
+anaconda-client
+psycopg2
+pytest

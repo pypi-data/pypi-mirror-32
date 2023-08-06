@@ -1,0 +1,16 @@
+README.md
+setup.py
+bin/freenome-build
+freenome_build/__init__.py
+freenome_build/db.py
+freenome_build/deploy.py
+freenome_build/develop.py
+freenome_build/github.py
+freenome_build/manage-pipeline-data.py
+freenome_build/util.py
+freenome_build/version_utils.py
+freenome_build.egg-info/PKG-INFO
+freenome_build.egg-info/SOURCES.txt
+freenome_build.egg-info/dependency_links.txt
+freenome_build.egg-info/requires.txt
+freenome_build.egg-info/top_level.txt
