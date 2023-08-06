@@ -1,0 +1,66 @@
+CHANGES
+=======
+
+0.1.14
+------
+
+* Update version
+* pbr cleanup
+* Update flows.py
+* Multiple fixes
+* Add initial support for karaf pretty printing
+* Pick hostname from topology
+* Adds monitoring tool
+* More PBR related cleanup
+* Nat models and refactoring
+* Migrate build to use PBR
+* Refactor the DSMAP to use upstream Modules.py
+* Add global nodes and port data
+* Remove py3.3 from travis
+* Remove py3.3 from tox
+* fix tox errors
+* Add example show commands
+* Update version 0.1.12
+* NAT support, FIP analysis and misc fixes
+* add neutron and idpools show commands
+* Add option for using local models
+* Fix flake8 issue in netvirt/cli.py
+* Fix flake8 issues
+* Add show neutron cli
+* Support for more models and fixes
+* Use right get() for show\_tables
+* Fix type with bdist\_wheel
+* Release 0.1.11
+* Add rst docs to MANIFEST
+* add blank line to conf.py to fix flake8
+* add docs \_build to .gitignore
+* Add docs Makefile
+* Add tox docs build
+* Add build to .gitignore
+* Remove build and egg files
+* initial docs framework
+* update to use apache license, add copyrights
+* Add some quick and dirty docs
+* Fix the tox envlist
+* add more python versions to travis-ci
+* Move remaining cli to use gmodels
+* Capture stdout from tests
+* cleanup tox and travis config
+* travis-ci support for python3.5
+* updates for python3.5
+* Update issue templates
+* fix travis.yml
+* something funny
+* add monitor cli
+* add monitor cli
+* something funny
+* add monitor cli
+* add monitor cli
+* Add travis-ci support
+* Updating to v0.1.8
+* rm unused files
+* refactor tests
+* fixes
+* wip
+* output.xml parser
+* Initial commit
