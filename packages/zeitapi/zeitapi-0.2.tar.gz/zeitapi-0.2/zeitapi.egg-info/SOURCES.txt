@@ -1,0 +1,8 @@
+README.md
+setup.py
+zeitapi/__init__.py
+zeitapi.egg-info/PKG-INFO
+zeitapi.egg-info/SOURCES.txt
+zeitapi.egg-info/dependency_links.txt
+zeitapi.egg-info/not-zip-safe
+zeitapi.egg-info/top_level.txt
