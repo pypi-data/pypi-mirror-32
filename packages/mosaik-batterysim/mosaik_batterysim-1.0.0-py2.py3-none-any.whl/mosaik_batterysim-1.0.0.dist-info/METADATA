@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: mosaik-batterysim
+Version: 1.0.0
+Summary: A simple simulator for battery profiles.
+Home-page: https://github.com/mathildebadoual/mosaik-batterysim
+Author: Mathilde Badoual
+Author-email: mathilde.badoual@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: arrow (>=0.4.2)
+Requires-Dist: mosaik-api (>=2.0)
+
+# mosaik-batterysim
+Mosaik module for simulations with batteries
+
+# Installation
+
+```bash
+pip install mosaik-batterysim
+```
+
+# Running the tests
+
+```bash
+git clone https://github.com/mathildebadoual/mosaik-batterysim
+cd mosaik-batterysim
+nosetests tests/
+```
+
+

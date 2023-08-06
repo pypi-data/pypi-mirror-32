@@ -1,0 +1,11 @@
+batterysim/__init__.py,sha256=kumiGImhzOTlTrRM-6jDo2mNnVHGO_2vxtrhB0nzAiw,22
+batterysim/model.py,sha256=cgqxEXcEZuYpC9yXtti4fVA3VLh7cNjFiZDj0Il_alY,3695
+batterysim/mosaik.py,sha256=DXGXKuQCJeYtJ90fHoNWJahD6O9S-VzhZrX09QgU4Sk,2867
+mosaik_batterysim-1.0.0.dist-info/METADATA,sha256=buza19TnEFa_5_oWFaksICJLT5HwfwLIGXfG1306RBc,599
+mosaik_batterysim-1.0.0.dist-info/RECORD,,
+mosaik_batterysim-1.0.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+mosaik_batterysim-1.0.0.dist-info/entry_points.txt,sha256=gtMOymYCkVjjqKJ_dIUx4ChezU2AzxU6iyQ_bOtcU0k,62
+mosaik_batterysim-1.0.0.dist-info/top_level.txt,sha256=niAOE2c3QRxtUMvB5Fn2qfrwBRDF3cOHGbUp9r6P604,17
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_model.py,sha256=zOLuz88i5nuvmGzpgYHkW9JJLW_kM2Qa-1pFViVlxZI,1007
+tests/test_mosaik.py,sha256=v50QIYQRZPwdjRVJ0mZbccl9XGkHQLvNLABKqbNOWwg,4264
