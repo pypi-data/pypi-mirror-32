@@ -1,0 +1,13 @@
+README.md
+setup.py
+omniidl/__init__.py
+omniidl/idlast.py
+omniidl/idltype.py
+omniidl/idlutil.py
+omniidl/idlvisitor.py
+omniidl/main.py
+omniidl/output.py
+omniidl.egg-info/PKG-INFO
+omniidl.egg-info/SOURCES.txt
+omniidl.egg-info/dependency_links.txt
+omniidl.egg-info/top_level.txt
