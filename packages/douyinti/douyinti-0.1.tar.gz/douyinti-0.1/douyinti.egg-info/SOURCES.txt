@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+douyinti/__init__.py
+douyinti/converter.py
+douyinti.egg-info/PKG-INFO
+douyinti.egg-info/SOURCES.txt
+douyinti.egg-info/dependency_links.txt
+douyinti.egg-info/entry_points.txt
+douyinti.egg-info/requires.txt
+douyinti.egg-info/top_level.txt
+douyinti/fonts/HanYiXiaoBoDunHeiW-2.ttf
