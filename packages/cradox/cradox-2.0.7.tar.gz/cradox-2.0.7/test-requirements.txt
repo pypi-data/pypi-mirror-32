@@ -1,0 +1,3 @@
+Jinja2
+pifpaf
+setuptools!=25.1.2
