@@ -1,0 +1,14 @@
+README.md
+setup.py
+i2v/__init__.py
+i2v/__main__.py
+i2v/base.py
+i2v/caffe_i2v.py
+i2v/chainer_i2v.py
+illustration2vec.egg-info/PKG-INFO
+illustration2vec.egg-info/SOURCES.txt
+illustration2vec.egg-info/dependency_links.txt
+illustration2vec.egg-info/entry_points.txt
+illustration2vec.egg-info/requires.txt
+illustration2vec.egg-info/top_level.txt
+illustration2vec.egg-info/zip-safe

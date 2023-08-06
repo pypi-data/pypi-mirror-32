@@ -1,0 +1,3 @@
+[console_scripts]
+i2v = i2v.__main__:cli
+
