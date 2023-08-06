@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: manu343726-conan-tools
+Version: 0.0.14
+Summary: Miscellaneous tools for development of conan.io recipes
+Home-page: https://gitlab.com/Manu343726/conan-tools
+Author: Manu Sanchez
+Author-email: Manu343726@gmail.com
+License: UNKNOWN
+Download-URL: https://gitlab.com/Manu343726/conan-tools/-/archive/v0.0.14/conan-tools-v0.0.14.tar.gz
+Description: UNKNOWN
+Keywords: conan
+Platform: UNKNOWN
