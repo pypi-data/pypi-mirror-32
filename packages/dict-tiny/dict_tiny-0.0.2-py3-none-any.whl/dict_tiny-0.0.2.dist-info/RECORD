@@ -1,0 +1,9 @@
+dict_cli/__init__.py,sha256=1jcs8btVmOUhnL4GzjVhBYadekZCD7_o64EMr4LZj6Q,17
+dict_cli/main.py,sha256=B6ZArftIMr1kHQ6bIRh5Hr_aXsbA8Da4omU8rP_fPsc,1106
+dict_tiny/__init__.py,sha256=rClS32ngkbjW8fdRTKY4pANyvmomF6NuvnMYlJOtwzQ,19
+dict_tiny/main.py,sha256=pOzsgyN6Aw7E8Gi5lBorr8xEyhlnM91B2rmF_9Ckn0s,1104
+dict_tiny-0.0.2.dist-info/METADATA,sha256=ReCt_0NHCUZETnQIAYF8IaqAXwv-Sx-B6nCmWBmT9TE,354
+dict_tiny-0.0.2.dist-info/RECORD,,
+dict_tiny-0.0.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+dict_tiny-0.0.2.dist-info/entry_points.txt,sha256=XrEACIP7TI4qG4DaLLIpxcIC2t68chiE_gljEjxh7DY,51
+dict_tiny-0.0.2.dist-info/top_level.txt,sha256=ZUQv7_FuHGKvojBun9fD3ISETYIrpXfQXIR_cDFWu5U,10
