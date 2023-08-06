@@ -1,0 +1,32 @@
+Metadata-Version: 1.1
+Name: py-tes-estebanfs
+Version: 0.1
+Summary: A random test lib
+Home-page: https://github.com/EstebanFS/PypiTest
+Author: Esteban Foronda
+Author-email: seforonda@gmail.com
+License: mit
+Description: ================
+        py_tes_estebanfs
+        ================
+        
+        
+        Add a short description here!
+        
+        
+        Description
+        ===========
+        
+        A longer description of your project goes here...
+        
+        
+        Note
+        ====
+        
+        This project has been set up using PyScaffold 3.0.3. For details and usage
+        information on PyScaffold see http://pyscaffold.org/.
+        
+Keywords: testing,logging,example
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python

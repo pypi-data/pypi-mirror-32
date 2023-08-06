@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+src/py_tes_estebanfs/__init__.py
+src/py_tes_estebanfs/skeleton.py
+src/py_tes_estebanfs.egg-info/PKG-INFO
+src/py_tes_estebanfs.egg-info/SOURCES.txt
+src/py_tes_estebanfs.egg-info/dependency_links.txt
+src/py_tes_estebanfs.egg-info/not-zip-safe
+src/py_tes_estebanfs.egg-info/top_level.txt
