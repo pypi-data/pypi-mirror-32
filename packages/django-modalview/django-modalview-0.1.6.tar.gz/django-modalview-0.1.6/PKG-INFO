@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: django-modalview
+Version: 0.1.6
+Summary: Django app to add generic views.
+Home-page: https://github.com/optiflows/django-modalview
+Author: Enovacom Surycat
+Author-email: rand@surycat.com
+License: Apache License 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django :: 1.5
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
