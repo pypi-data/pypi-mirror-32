@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: emanate
+Version: 1.0.1
+Summary: Symlink files from one directory to another, similarly to Effuse and Stow.
+Home-page: https://github.com/duckinator/emanate
+Author: Ellen Marie Dash
+Author-email: me@duckie.co
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Requires-Python: >=3.0
