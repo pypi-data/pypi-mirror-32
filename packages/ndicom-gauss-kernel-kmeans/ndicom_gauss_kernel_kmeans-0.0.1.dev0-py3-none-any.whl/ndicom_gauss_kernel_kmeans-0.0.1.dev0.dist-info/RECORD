@@ -1,0 +1,8 @@
+ndicom_gauss_kernel_kmeans/__init__.py,sha256=kpR_N1n1tze5hHRrmZq6wTOhuA7o_JKgg_kmX3o3-e0,26
+ndicom_gauss_kernel_kmeans/plugin.py,sha256=Ilk72rTlEsSLCzHkysP1rkGB2lsWhHFICtviwBJNHtc,1557
+ndicom_gauss_kernel_kmeans/extension/build/Darwin/libgauss_kernel_kmeans.dylib,sha256=dDg_I-D87I6TMo-y9JsOzIzBGn8Poo-VmA_Nehce6zo,212484
+ndicom_gauss_kernel_kmeans-0.0.1.dev0.dist-info/METADATA,sha256=QxPBd8Bp7DNSRH5ux3DUAvdXxtG7QQQNv3Cll24q0Vk,597
+ndicom_gauss_kernel_kmeans-0.0.1.dev0.dist-info/RECORD,,
+ndicom_gauss_kernel_kmeans-0.0.1.dev0.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+ndicom_gauss_kernel_kmeans-0.0.1.dev0.dist-info/dependency_links.txt,sha256=UzCJo33QH17Ej04CaOLzd7Juy3H8EfleyaCHEJzHmeI,37
+ndicom_gauss_kernel_kmeans-0.0.1.dev0.dist-info/top_level.txt,sha256=sjWoREL7DbB490tGncId4i3G8YCZIUnsVR1ob3SsCV4,27
