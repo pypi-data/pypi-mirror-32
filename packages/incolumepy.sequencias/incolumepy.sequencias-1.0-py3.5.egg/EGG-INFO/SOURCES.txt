@@ -1,0 +1,16 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+docs/CHANGES.rst
+docs/CONTRIBUTING.rst
+docs/CONTRIBUTORS.rst
+incolumepy/__init__.py
+incolumepy.sequencias.egg-info/PKG-INFO
+incolumepy.sequencias.egg-info/SOURCES.txt
+incolumepy.sequencias.egg-info/dependency_links.txt
+incolumepy.sequencias.egg-info/entry_points.txt
+incolumepy.sequencias.egg-info/requires.txt
+incolumepy.sequencias.egg-info/top_level.txt
+incolumepy/sequencias/__init__.py
+incolumepy/sequencias/version.txt
