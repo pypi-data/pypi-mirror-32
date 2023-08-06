@@ -1,0 +1,16 @@
+README.md
+setup.py
+wanakana/__init__.py
+wanakana/constants.py
+wanakana/hiragana.py
+wanakana/japanese.py
+wanakana/kana.py
+wanakana/kanji.py
+wanakana/katakana.py
+wanakana/mixed.py
+wanakana/romaji.py
+wanakana/utils.py
+wanakana.egg-info/PKG-INFO
+wanakana.egg-info/SOURCES.txt
+wanakana.egg-info/dependency_links.txt
+wanakana.egg-info/top_level.txt
