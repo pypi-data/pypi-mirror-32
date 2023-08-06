@@ -1,0 +1,17 @@
+baker/__init__.py,sha256=P9i-08d_6aR4pL8E15RcRlulg3XkCGdOS0JAUVGiV5A,682
+baker/cli.py,sha256=9Y56pj3LuALz1rovOX1psp81Ox887TzNVNiEhL9tApQ,3819
+baker/commands.py,sha256=rUNr_u96tbeHwUDSXv5rqT_sxcU3mzpf_DbQCaEuQ0M,3252
+baker/logger.py,sha256=o1QYbQ_Vqp-RatgL5hcynrt0cM9g5FqmVr7u_9MF83w,645
+baker/recipe.py,sha256=TZSamsrnrvJlY1cqj0OdieDymIa8KE0POEbub771BAE,4343
+baker/repository.py,sha256=s1OJbQ_Nf8W0Xcwa-M0WkqcqPwQebQDmdPrLnXzJYlw,7295
+baker/secret.py,sha256=v_xUQ8bOjilXkp4Nv1Dd8DZayMdJXvIBnRZi_FyVdtM,3217
+baker/settings.py,sha256=1OTI-scb2RmApnYFqDoRE5s3i7BHrl-qCHhmzeOqmYM,3424
+baker/storage.py,sha256=rbuiq-AeRsBnyBSXcCawqpI3-8BxNAgeaIrtsvK73ek,2240
+baker/template.py,sha256=IWKeZ9fybI-Y_aoGpJKMnE4ls2RTxVRj6BTEzrTsb1E,3453
+bakercm-0.4.2.dist-info/DESCRIPTION.rst,sha256=Ovsk-M_s2lDxijhmStg_c2leSTwTOCXjLFq7sLJKqT8,9223
+bakercm-0.4.2.dist-info/METADATA,sha256=wYGVpYhEJoMiqN1__7Z5udxdu-tlLYAuNLOQddhFV-o,10308
+bakercm-0.4.2.dist-info/RECORD,,
+bakercm-0.4.2.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+bakercm-0.4.2.dist-info/entry_points.txt,sha256=21jJYPiUobHAqPRWhQJM9TegtMF12l_6GDxV6csvGL8,38
+bakercm-0.4.2.dist-info/metadata.json,sha256=0tmzQZmlHMl8v0zt9dSUwkrbxZrsgLZp_ezX72LDaZY,1404
+bakercm-0.4.2.dist-info/top_level.txt,sha256=MZqwd51bhk9OorfP4Q2TIzJVCmjx_IvbxbZ49ye-FLc,6
