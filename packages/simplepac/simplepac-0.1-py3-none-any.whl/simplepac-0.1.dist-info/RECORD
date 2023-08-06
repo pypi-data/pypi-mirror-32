@@ -1,0 +1,12 @@
+simplepac/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simplepac/core.py,sha256=we6ubxJyU2OUIigIfP0coAtDA9EOFwOo73s6UO0WaQM,5874
+simplepac/easylist.py,sha256=rSXDK6NXxmkuRe-jdUp_ZpkjIDWrxGq35ux7LFpwpBE,77282
+simplepac/utils.py,sha256=G9VsElAhGsSEbHTg_fno4ayY-b7ZjcipWuELaP3o0n4,477
+simplepac/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simplepac/resources/proxy.pac,sha256=DRLsEanILeIlRBJsPHswiWQ-NZlowTdqbSXPPA2EZTA,705
+simplepac/resources/proxy_easylist.pac,sha256=cQ7y7dwtiyCdNBk7FRaVG9nAPu3a7RCvrgblxg-qR7c,1267
+simplepac-0.1.dist-info/METADATA,sha256=HEfbIO--8XRR3k_xSxDND7DUl_OotAB9bVEpCOW8EdM,1859
+simplepac-0.1.dist-info/RECORD,,
+simplepac-0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+simplepac-0.1.dist-info/entry_points.txt,sha256=p1az7AuOb-Ki6HIKrD-dUBuC3SXgrlYManFXk-67VoQ,50
+simplepac-0.1.dist-info/top_level.txt,sha256=W_XRxD9Cu-2MMGLyNR1M-O0b4cI_1fV8uYaU3Dg3Wk0,10
