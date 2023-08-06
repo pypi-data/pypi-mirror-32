@@ -1,0 +1,43 @@
+digraph {
+	fake [style=invisible]
+	"frozenset()"
+	"frozenset({frozenset({[(true)*]((<A>(tt) | [true](ff))), ff}), frozenset({[(true)*]((<A>(tt) | [true](ff))), tt})})" [shape=doublecircle]
+	"frozenset({frozenset({G(A)})})" [root=true shape=doublecircle]
+	"frozenset({frozenset({[(true)*]((<A>(tt) | [true](ff))), ff})})"
+	fake -> "frozenset({frozenset({G(A)})})" [style=bold]
+	"frozenset({frozenset({[(true)*]((<A>(tt) | [true](ff))), ff}), frozenset({[(true)*]((<A>(tt) | [true](ff))), tt})})" -> "frozenset({frozenset({[(true)*]((<A>(tt) | [true](ff))), ff}), frozenset({[(true)*]((<A>(tt) | [true](ff))), tt})})" [label="{B, C, A}"]
+	"frozenset({frozenset({[(true)*]((<A>(tt) | [true](ff))), ff}), frozenset({[(true)*]((<A>(tt) | [true](ff))), tt})})" -> "frozenset({frozenset({[(true)*]((<A>(tt) | [true](ff))), ff})})" [label="{B, C}"]
+	"frozenset({frozenset({[(true)*]((<A>(tt) | [true](ff))), ff}), frozenset({[(true)*]((<A>(tt) | [true](ff))), tt})})" -> "frozenset({frozenset({[(true)*]((<A>(tt) | [true](ff))), ff}), frozenset({[(true)*]((<A>(tt) | [true](ff))), tt})})" [label="{C, A}"]
+	"frozenset({frozenset({[(true)*]((<A>(tt) | [true](ff))), ff}), frozenset({[(true)*]((<A>(tt) | [true](ff))), tt})})" -> "frozenset({frozenset({[(true)*]((<A>(tt) | [true](ff))), ff}), frozenset({[(true)*]((<A>(tt) | [true](ff))), tt})})" [label="{B, A}"]
+	"frozenset({frozenset({[(true)*]((<A>(tt) | [true](ff))), ff}), frozenset({[(true)*]((<A>(tt) | [true](ff))), tt})})" -> "frozenset({frozenset({[(true)*]((<A>(tt) | [true](ff))), ff}), frozenset({[(true)*]((<A>(tt) | [true](ff))), tt})})" [label="{A}"]
+	"frozenset({frozenset({[(true)*]((<A>(tt) | [true](ff))), ff}), frozenset({[(true)*]((<A>(tt) | [true](ff))), tt})})" -> "frozenset({frozenset({[(true)*]((<A>(tt) | [true](ff))), ff})})" [label="{}"]
+	"frozenset({frozenset({[(true)*]((<A>(tt) | [true](ff))), ff}), frozenset({[(true)*]((<A>(tt) | [true](ff))), tt})})" -> "frozenset({frozenset({[(true)*]((<A>(tt) | [true](ff))), ff})})" [label="{B}"]
+	"frozenset({frozenset({[(true)*]((<A>(tt) | [true](ff))), ff}), frozenset({[(true)*]((<A>(tt) | [true](ff))), tt})})" -> "frozenset({frozenset({[(true)*]((<A>(tt) | [true](ff))), ff})})" [label="{C}"]
+	"frozenset()" -> "frozenset()" [label="{B, C, A}"]
+	"frozenset()" -> "frozenset()" [label="{B, C}"]
+	"frozenset()" -> "frozenset()" [label="{C, A}"]
+	"frozenset()" -> "frozenset()" [label="{B, A}"]
+	"frozenset()" -> "frozenset()" [label="{A}"]
+	"frozenset()" -> "frozenset()" [label="{}"]
+	"frozenset()" -> "frozenset()" [label="{B}"]
+	"frozenset()" -> "frozenset()" [label="{C}"]
+	"frozenset({frozenset({G(A)})})" -> "frozenset({frozenset({[(true)*]((<A>(tt) | [true](ff))), ff}), frozenset({[(true)*]((<A>(tt) | [true](ff))), tt})})" [label="{B, C, A}"]
+	"frozenset({frozenset({G(A)})})" -> "frozenset({frozenset({[(true)*]((<A>(tt) | [true](ff))), ff})})" [label="{B, C}"]
+	"frozenset({frozenset({G(A)})})" -> "frozenset({frozenset({[(true)*]((<A>(tt) | [true](ff))), ff}), frozenset({[(true)*]((<A>(tt) | [true](ff))), tt})})" [label="{C, A}"]
+	"frozenset({frozenset({G(A)})})" -> "frozenset({frozenset({[(true)*]((<A>(tt) | [true](ff))), ff}), frozenset({[(true)*]((<A>(tt) | [true](ff))), tt})})" [label="{B, A}"]
+	"frozenset({frozenset({G(A)})})" -> "frozenset({frozenset({[(true)*]((<A>(tt) | [true](ff))), ff}), frozenset({[(true)*]((<A>(tt) | [true](ff))), tt})})" [label="{A}"]
+	"frozenset({frozenset({G(A)})})" -> "frozenset({frozenset({[(true)*]((<A>(tt) | [true](ff))), ff})})" [label="{}"]
+	"frozenset({frozenset({G(A)})})" -> "frozenset({frozenset({[(true)*]((<A>(tt) | [true](ff))), ff})})" [label="{B}"]
+	"frozenset({frozenset({G(A)})})" -> "frozenset({frozenset({[(true)*]((<A>(tt) | [true](ff))), ff})})" [label="{C}"]
+	"frozenset({frozenset({[(true)*]((<A>(tt) | [true](ff))), ff})})" -> "frozenset()" [label="{B, C, A}"]
+	"frozenset({frozenset({[(true)*]((<A>(tt) | [true](ff))), ff})})" -> "frozenset()" [label="{B, C}"]
+	"frozenset({frozenset({[(true)*]((<A>(tt) | [true](ff))), ff})})" -> "frozenset()" [label="{C, A}"]
+	"frozenset({frozenset({[(true)*]((<A>(tt) | [true](ff))), ff})})" -> "frozenset()" [label="{B, A}"]
+	"frozenset({frozenset({[(true)*]((<A>(tt) | [true](ff))), ff})})" -> "frozenset()" [label="{A}"]
+	"frozenset({frozenset({[(true)*]((<A>(tt) | [true](ff))), ff})})" -> "frozenset()" [label="{}"]
+	"frozenset({frozenset({[(true)*]((<A>(tt) | [true](ff))), ff})})" -> "frozenset()" [label="{B}"]
+	"frozenset({frozenset({[(true)*]((<A>(tt) | [true](ff))), ff})})" -> "frozenset()" [label="{C}"]
+	label="always
+G A"
+	fontsize=20
+}

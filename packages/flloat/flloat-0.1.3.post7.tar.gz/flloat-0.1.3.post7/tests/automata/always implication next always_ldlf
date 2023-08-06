@@ -1,0 +1,26 @@
+digraph {
+	fake [style=invisible]
+	0 [root=true shape=doublecircle]
+	1
+	2 [shape=doublecircle]
+	fake -> 0 [style=bold]
+	0 -> 1 [label="{B, C, A}"]
+	0 -> 0 [label="{C}"]
+	0 -> 1 [label="{C, A}"]
+	0 -> 1 [label="{B, A}"]
+	0 -> 1 [label="{A}"]
+	0 -> 0 [label="{}"]
+	0 -> 0 [label="{B}"]
+	0 -> 0 [label="{B, C}"]
+	1 -> 1 [label="{B, C, A}"]
+	1 -> 1 [label="{B, A}"]
+	1 -> 2 [label="{B}"]
+	1 -> 2 [label="{B, C}"]
+	2 -> 1 [label="{B, C, A}"]
+	2 -> 1 [label="{B, A}"]
+	2 -> 2 [label="{B}"]
+	2 -> 2 [label="{B, C}"]
+	label="always implication next always
+[(true)*]((<true>((<true>(tt) & [(true)*]((<B>(tt) | [true](ff))))) | [A](ff) | [true](ff)))"
+	fontsize=20
+}
