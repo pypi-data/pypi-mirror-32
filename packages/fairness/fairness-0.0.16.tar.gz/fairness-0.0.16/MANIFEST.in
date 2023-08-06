@@ -1,0 +1,14 @@
+include README.md
+include requirements.txt
+include setup.py
+include setup.cfg
+
+include fairness
+include fairness/data/raw/*.csv
+include fairness/data/raw/*.txt
+include fairness/data/preprocessed/*.csv
+include fairness/algorithms/kamishima/kamfadm-2012ecmlpkdd/*
+include fairness/algorithms/kamishima/kamfadm-2012ecmlpkdd/fadm
+include fairness/algorithms/kamishima/kamfadm-2012ecmlpkdd/fadm/*/*
+include fairness/results/main-analysis.Rmd
+include fairness/results/generate-report.R
