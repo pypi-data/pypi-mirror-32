@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mongo-wrapper
+Version: 1.0.0
+Summary: A thin wrapper around PyMongo. Used to simplify using MongoClient.
+Home-page: https://github.com/wesuuu/mongo_adapter
+Author: Wesley Uykimpang
+Author-email: wesu07@gmail.com
+License: MIT
+Keywords: mongodb mongo nosql
+Platform: UNKNOWN
+Requires-Dist: pymongo (>=3.0)
+
+UNKNOWN
+
+
