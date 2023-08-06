@@ -1,0 +1,6 @@
+redlock_dist/__init__.py,sha256=dlkVgSzqg76mYeGKfYyqWaOWAzcFS-gPmxx1r7IG3v8,29
+redlock_dist/redlock.py,sha256=qvDhLoK5zu_YNA8mHNcPbqiUKz_eAGF-OnrITgI1jO8,1715
+redlock_dist-1.0.1.dist-info/METADATA,sha256=X9zdFRvvYHAAouBUYk1At7BchRcWBQB7i90b-eJl_qw,1197
+redlock_dist-1.0.1.dist-info/RECORD,,
+redlock_dist-1.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+redlock_dist-1.0.1.dist-info/top_level.txt,sha256=4uMpJQFjIJxeLeH5w-mnQS0O--9tDmGPgDjqS9ge078,13
