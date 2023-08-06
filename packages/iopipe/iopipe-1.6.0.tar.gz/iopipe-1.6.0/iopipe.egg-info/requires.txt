@@ -1,0 +1,5 @@
+futures
+
+[dev]
+jmespath<1.0.0,>=0.7.1
+requests
