@@ -1,0 +1,8 @@
+apistar_crud/__init__.py,sha256=OAdEns3uLblC5fL-hoavrCTCMIp83D6ooZLung_ML-g,237
+apistar_crud/base.py,sha256=p1yjAz4KNJFgZ2zLweDa3W9MDyzuXYSt0IgHyEa-NWA,3052
+apistar_crud/peewee.py,sha256=GbOsbDPJNU3e1aVwqTn8k3_ETQHkjFVqurav3O8i6U0,3105
+apistar_crud/sqlalchemy.py,sha256=I81lk-OEuXCGvwuwXqjRTZABNG6QDPJh-i8pAXCpQyc,3287
+apistar_crud-0.3.0.dist-info/LICENSE,sha256=xukia0I6c6TvKAWwcr_FQXbOiFEb2Lo0CAbU1YoXUoY,35171
+apistar_crud-0.3.0.dist-info/WHEEL,sha256=HZBbCDRt_yH1dGNZWtKCSPJ61jLgUcy7M8fjZdBoprI,84
+apistar_crud-0.3.0.dist-info/METADATA,sha256=O8kERJHp1y4ZlhkIS7XZOL_otFWEGqdQwPEJ0t9lj18,4139
+apistar_crud-0.3.0.dist-info/RECORD,,
