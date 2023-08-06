@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: skale-py
+Version: 0.2.0
+Summary: Skale client tools
+Home-page: https://github.com/GalacticExchange/blockchain-node
+Author: Skale Labs
+Author-email: support@skalelabs.com
+License: UNKNOWN
+Description-Content-Type: text/markdown
+Description: # skale-py
+        
+        Skale client tools.
+        Python implementation which is used in the blockchain-node and sla-agent projects.
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3.6
