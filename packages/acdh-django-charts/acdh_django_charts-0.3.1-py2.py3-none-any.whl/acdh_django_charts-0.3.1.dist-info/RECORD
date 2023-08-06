@@ -1,0 +1,17 @@
+acdh_django_charts-0.3.1.dist-info/DESCRIPTION.rst,sha256=aJURkGArskk7wDksFnRV2y92Pjlg7DmLUyAkWdOfros,3297
+acdh_django_charts-0.3.1.dist-info/METADATA,sha256=I5K2jebcsKTLUX1fOmf06KoKuPgvFmN3WWt1VS97zMQ,4067
+acdh_django_charts-0.3.1.dist-info/RECORD,,
+acdh_django_charts-0.3.1.dist-info/WHEEL,sha256=9Z5Xm-eel1bTS7e6ogYiKz0zmPEqDwIypurdHN1hR40,116
+acdh_django_charts-0.3.1.dist-info/metadata.json,sha256=Z4iSUsKrBjjzPJMVUE9jvB8NwP1jXanz8roT-vobzHk,904
+acdh_django_charts-0.3.1.dist-info/top_level.txt,sha256=o9tPM4jE7ckC-aBWplKI5UaJA3JRuJqj4NjJht-Kt_Q,7
+charts/__init__.py,sha256=klrk_CbXR9--MqcPv5nQNhP7RfxGsKVaWBKjOd3LOXM,23
+charts/admin.py,sha256=LhQUYO_jh6WiJcn7CEDlhxWCiJc8lYHWdmIxjQ5GdmM,170
+charts/apps.py,sha256=BcHgjRVMUsSM2H2Waj3t_08tHjvQNYxAf3efB74PwMU,87
+charts/models.py,sha256=tjFrMm3j1QeXdtuaDWfUcDKjFKASmB6LCKpeMJqi9zU,1487
+charts/urls.py,sha256=ErbnWqG_BPpC4kvQG-kK9B-W5QowYN9oyx0zhNf0BEQ,349
+charts/views.py,sha256=4j73saShjhiPGKDIoNz1f8UZ2O3JBFeFocTITSN3Rmc,3776
+charts/migrations/0001_initial.py,sha256=o4KVQjfQxbJhNvPydlAy_2QIAX_YXeU68SM-C6RaIvc,1965
+charts/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+charts/templates/charts/base.html,sha256=OA6FUf0W6_st6dYWaXV36PxazjuveuBDlkhOAfzEaAk,682
+charts/templates/charts/dynchart.html,sha256=KutKc6T7mD0o9ZSzBdePmPV_CA7dY41ooRHJMLta_Nc,3666
+charts/templates/charts/select_chart.html,sha256=IyTAhis2lfC-VjMRN3bAm4OUPmtxpgmrTZTpynQsFe4,1239
