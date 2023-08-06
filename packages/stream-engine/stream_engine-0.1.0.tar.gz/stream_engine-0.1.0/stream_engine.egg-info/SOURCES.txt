@@ -1,0 +1,9 @@
+README.md
+setup.py
+stream_engine/__init__.py
+stream_engine/stream.py
+stream_engine.egg-info/PKG-INFO
+stream_engine.egg-info/SOURCES.txt
+stream_engine.egg-info/dependency_links.txt
+stream_engine.egg-info/requires.txt
+stream_engine.egg-info/top_level.txt
