@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: atdapi
+Version: 0.1
+Summary: Package to interact with Mcafee's ATD(Advanced Threat Defense) API. Known to work with ATD version 4.x
+Home-page: https://github.com/asrabon/Mcafee-ATD-API
+Author: Sloan Rabon
+Author-email: sloanrabon@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
