@@ -1,0 +1,9 @@
+setup.py
+sockData/__init__.py
+sockData/datatype.py
+sockData/receive.py
+sockData/send.py
+sockData.egg-info/PKG-INFO
+sockData.egg-info/SOURCES.txt
+sockData.egg-info/dependency_links.txt
+sockData.egg-info/top_level.txt
