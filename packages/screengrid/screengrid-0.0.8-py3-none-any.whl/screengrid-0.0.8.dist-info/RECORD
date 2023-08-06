@@ -1,0 +1,10 @@
+screengrid/__init__.py,sha256=mGve84zOms15pl6Y0JPQlhZIBqyJjcf_LERQnK0VqAI,32
+screengrid/grid.py,sha256=SsCxtygRXnjJqL_ynU7chdIj0Qq5Wf-kIcP-JD6NjbY,2380
+screengrid/main.py,sha256=xIeeGTzylZ4CHNZ__uDNg7aHw_OoHVfzO4fK0Ef0QSg,544
+screengrid/rectangle.py,sha256=4GrrrjsHGih4Z_9OwpJHvjCATWoDD11EsYP3PlPs9k0,638
+screengrid/screencanvas.py,sha256=KOHZ5ldXpYtHOBE-NdT09E4PPTTdsTY5HxHlkmNIPxY,5685
+screengrid/stdio.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+screengrid-0.0.8.dist-info/METADATA,sha256=bw3biuovhHyRGiigZRxULSsXQCYA0U8uL-PQOsGws8I,555
+screengrid-0.0.8.dist-info/RECORD,,
+screengrid-0.0.8.dist-info/WHEEL,sha256=pZyAqgNAylOf0KG_hPHMtuuY08rV3WzWwZu2OTsNnnw,97
+screengrid-0.0.8.dist-info/top_level.txt,sha256=xdTPFraZC5yb3oqcjA3Cy2yC5SwNCpmeUR31srR4VI0,11
