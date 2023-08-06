@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: pytest-nbsmoke
+Version: 0.1.7
+Summary: Deprecated: now nbsmoke (see https://github.com/pyviz/nbsmoke).
+Home-page: https://github.com/pyviz/nbsmoke
+Author: pytest-nbsmoke contributors
+Author-email: UNKNOWN
+License: BSD-3
+Description-Content-Type: UNKNOWN
+Description: Deprecated: now nbsmoke (see https://github.com/pyviz/nbsmoke).
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 7 - Inactive
