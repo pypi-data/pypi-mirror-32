@@ -1,0 +1,3 @@
+[doodledashboard.displays]
+console = doodledashboard.customdisplay.consoledisplay:ConsoleDisplay
+
