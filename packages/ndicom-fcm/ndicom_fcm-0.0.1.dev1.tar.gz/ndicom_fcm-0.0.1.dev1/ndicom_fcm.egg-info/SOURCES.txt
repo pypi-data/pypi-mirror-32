@@ -1,0 +1,9 @@
+README.md
+setup.py
+ndicom_fcm/__init__.py
+ndicom_fcm/plugin.py
+ndicom_fcm.egg-info/PKG-INFO
+ndicom_fcm.egg-info/SOURCES.txt
+ndicom_fcm.egg-info/dependency_links.txt
+ndicom_fcm.egg-info/requires.txt
+ndicom_fcm.egg-info/top_level.txt
