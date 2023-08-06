@@ -1,0 +1,5 @@
+scikit-learn>=0.19
+logzero>=1.5
+pytest
+numpy
+scipy

@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+models/__init__.py
+models/label.pkl
+models/svc.pkl
+models/vectorizer.pkl
+visvmtagger/__init__.py
+visvmtagger/tagger.py
+visvmtagger/train.py
+visvmtagger.egg-info/PKG-INFO
+visvmtagger.egg-info/SOURCES.txt
+visvmtagger.egg-info/dependency_links.txt
+visvmtagger.egg-info/requires.txt
+visvmtagger.egg-info/top_level.txt

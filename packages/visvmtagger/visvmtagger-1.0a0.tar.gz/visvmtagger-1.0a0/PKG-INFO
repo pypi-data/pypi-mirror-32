@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: visvmtagger
+Version: 1.0a0
+Summary: SVM based Vietnamese tokenize and part-of-speech tagger
+Home-page: https://github.com/kanjirz50/viet-morphological-analysis-svm/
+Author: Kanji Takahashi
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: ~=3.6
