@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+wattle/__init__.py
+wattle/nodes.py
+wattle/schema.py
+woning_wattle.egg-info/PKG-INFO
+woning_wattle.egg-info/SOURCES.txt
+woning_wattle.egg-info/dependency_links.txt
+woning_wattle.egg-info/requires.txt
+woning_wattle.egg-info/top_level.txt
