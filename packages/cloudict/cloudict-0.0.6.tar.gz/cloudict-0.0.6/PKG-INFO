@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: cloudict
+Version: 0.0.6
+Summary: a dict backed by cloud
+Home-page: https://github.com/yyu/cloudict
+Author: Yuan "Forrest" Yu
+Author-email: yy@yuyuan.org
+License: UNKNOWN
+Description: ## cloudict
+        
+        A dict backed by the cloud.
+        
+        ### install
+        
+        [`pip3 install cloudict`](https://pypi.org/project/cloudict/)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
