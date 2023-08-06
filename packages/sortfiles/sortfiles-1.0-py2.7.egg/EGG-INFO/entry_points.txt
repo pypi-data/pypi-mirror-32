@@ -1,0 +1,3 @@
+[console_scripts]
+sortfiles = sortfiles.bin:run
+
