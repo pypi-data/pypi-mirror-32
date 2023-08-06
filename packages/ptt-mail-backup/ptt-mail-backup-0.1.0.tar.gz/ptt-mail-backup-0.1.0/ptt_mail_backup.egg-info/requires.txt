@@ -1,0 +1,2 @@
+uao<0.2,>=0.1
+ptt-article-parser<0.6,>=0.5
