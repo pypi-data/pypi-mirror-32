@@ -1,0 +1,9 @@
+polyversion/__init__.py,sha256=j_hNMhQuQmkRU64qzD7o0TgRzjC7HnefiayoYh8INdY,16427
+polyversion/__main__.py,sha256=-cmP6sBXfJ3ITKtH_16qHwaJQaeXbcLWVpcQ7Xd-cVk,608
+polyversion/setuplugin.py,sha256=2QzThu529e6DrvrfaRhvBHMRO-9QHCNkkZQthS-xYzE,8804
+polyversion-0.1.0a4.dist-info/METADATA,sha256=WFy-_qSj8YNAO7Nu7Ydxe6K5wxMrbip9uPwu8V-QvAE,8669
+polyversion-0.1.0a4.dist-info/RECORD,,
+polyversion-0.1.0a4.dist-info/WHEEL,sha256=saUSQBLOUjf5ACZdNkhQ0lB6XrHU-l4vpzxq_W1n_AY,116
+polyversion-0.1.0a4.dist-info/entry_points.txt,sha256=rptrZpbCXxCDzwZ008l9QoMD3aGnaf7eqZzZkVcIovo,208
+polyversion-0.1.0a4.dist-info/top_level.txt,sha256=FOFM-aU9AeAQXcJAga4Gp9qok1u8Z5PMrXBf0fCBqbE,12
+polyversion-0.1.0a4.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
