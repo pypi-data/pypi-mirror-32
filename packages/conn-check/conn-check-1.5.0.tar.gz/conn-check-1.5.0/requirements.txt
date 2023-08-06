@@ -1,0 +1,14 @@
+appdirs
+characteristic >= 14.0
+cryptography >= 0.5
+ndg-httpsclient
+packaging
+pyasn1
+pyOpenSSL
+pyparsing
+service-identity
+requests
+Twisted >= 17
+txrequests >= 0.9.6
+PyYAML
+future
