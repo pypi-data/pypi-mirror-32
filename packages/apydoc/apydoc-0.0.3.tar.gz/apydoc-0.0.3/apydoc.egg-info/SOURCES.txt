@@ -1,0 +1,12 @@
+README.rst
+setup.cfg
+setup.py
+apydoc/__init__.py
+apydoc/gen.py
+apydoc/init.py
+apydoc.egg-info/PKG-INFO
+apydoc.egg-info/SOURCES.txt
+apydoc.egg-info/dependency_links.txt
+apydoc.egg-info/requires.txt
+apydoc.egg-info/top_level.txt
+apydoc/templates/apydoc.json
