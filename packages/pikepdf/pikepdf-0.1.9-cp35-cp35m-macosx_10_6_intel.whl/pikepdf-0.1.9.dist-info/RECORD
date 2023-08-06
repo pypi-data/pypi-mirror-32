@@ -1,0 +1,13 @@
+pikepdf/__init__.py,sha256=-I06y0hhWAqOsaI2mQvRLuvGz364H6-nc-ZSMY2fOGI,7056
+pikepdf/_boneyard.py,sha256=-dsjpJLmXc2BhdFuxqDZRe4fEqWf4SqNjR2leRsCQOY,4238
+pikepdf/_cpphelpers.py,sha256=sU6iyJB4vP-16zpvF9rOcueL4DdE028m_9JCk-rYsTQ,1662
+pikepdf/_objects.py,sha256=oV8ZFxloZG_-C32de2BnrOVSNLLcqV1V29F-3pIYEEw,3485
+pikepdf/_pdfimage.py,sha256=xI-pXeJtlwv1xsOO0PJOJoDxFYD4eWbj83HwQzRqq98,12727
+pikepdf/_qpdf.cpython-35m-darwin.so,sha256=12ncNpwZ1pRdoThDMO6hFAh1SDWrbDvfsKcUMEqiQaU,1866160
+pikepdf/.dylibs/libjpeg.9.dylib,sha256=irlgfJtgPMEE_NRtuA-Nzcq9IQw113DzjclgdvV3O7k,207360
+pikepdf/.dylibs/libqpdf.21.dylib,sha256=peEcHFihxGonnuDWz3Vyo_16IRMohcAvP3Id1hHckyM,797048
+pikepdf-0.1.9.dist-info/LICENSE.txt,sha256=x290DRUhub7ZynoErVJsMQSTxiYhsTQdYjtDFzZTOzA,16725
+pikepdf-0.1.9.dist-info/METADATA,sha256=5Lco_N8GB-rgKPwBgf6qyXSBSCZOjWKhmDBKyFbsu-o,5546
+pikepdf-0.1.9.dist-info/RECORD,,
+pikepdf-0.1.9.dist-info/top_level.txt,sha256=I9EqKPMWS0R0KipU78RVfZCHdDzZhMrjM4wxykU9l_o,8
+pikepdf-0.1.9.dist-info/WHEEL,sha256=lgsUfrdLj9hH6GJqDPYnuasbppr5-7YdYJX4LCjZNUk,109
