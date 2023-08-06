@@ -1,0 +1,9 @@
+numerauto/__init__.py,sha256=Pwo6nMoiR4U65jlUEHBuDxTxPUWDIaH6KN1clf_4zh8,223
+numerauto/eventhandlers.py,sha256=FlpZJLnf7wbBJSvxhWfg0LD9QFFHwlLZ_kjSXOtlX4o,9685
+numerauto/numerauto.py,sha256=M1N3jqEXMItat6rytpLc3qMPfnN9xZP-HXPcPGTL80M,15687
+numerauto/robust_numerapi.py,sha256=c6HOQnTtoaqCPA2kltJ1cFSm2RB2GJ2Z7erLJ-2Aj_g,4373
+numerauto/utils.py,sha256=l7JWG0CN-I4COt51KiNtqPa5hxYFjxau3GdKOvY5kp8,3771
+numerauto-0.2.0.dist-info/METADATA,sha256=omTuLnJEgPbQ9U-iNhSbcBhHHuhVZsL9SYX-amXP1bM,5682
+numerauto-0.2.0.dist-info/RECORD,,
+numerauto-0.2.0.dist-info/WHEEL,sha256=pZyAqgNAylOf0KG_hPHMtuuY08rV3WzWwZu2OTsNnnw,97
+numerauto-0.2.0.dist-info/top_level.txt,sha256=NSPAdH7zBynbWw7MRVaO1pFvufIDEzwXxoswrf756IA,10
