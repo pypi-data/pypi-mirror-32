@@ -1,0 +1,13 @@
+README.md
+setup.py
+src/fedoidcendpoint/__init__.py
+src/fedoidcendpoint/endpoint_context.py
+src/fedoidcendpoint.egg-info/PKG-INFO
+src/fedoidcendpoint.egg-info/SOURCES.txt
+src/fedoidcendpoint.egg-info/dependency_links.txt
+src/fedoidcendpoint.egg-info/not-zip-safe
+src/fedoidcendpoint.egg-info/requires.txt
+src/fedoidcendpoint.egg-info/top_level.txt
+src/fedoidcendpoint/oidc/__init__.py
+src/fedoidcendpoint/oidc/provider_config.py
+src/fedoidcendpoint/oidc/registration.py
