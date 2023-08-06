@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+quotes_wrapper/__init__.py
+quotes_wrapper/conf.py
+quotes_wrapper/exceptions.py
+quotes_wrapper.egg-info/PKG-INFO
+quotes_wrapper.egg-info/SOURCES.txt
+quotes_wrapper.egg-info/dependency_links.txt
+quotes_wrapper.egg-info/requires.txt
+quotes_wrapper.egg-info/top_level.txt
