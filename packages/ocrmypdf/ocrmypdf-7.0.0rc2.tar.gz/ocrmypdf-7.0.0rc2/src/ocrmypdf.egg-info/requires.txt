@@ -1,0 +1,12 @@
+cffi>=1.9.1
+img2pdf>=0.2.4
+pikepdf>=0.2.0
+python-xmp-toolkit<3,>=2
+reportlab>=3.3.0
+ruffus==2.6.3
+
+[:sys_platform == "darwin"]
+Pillow!=5.1.0,>=4.0.0
+
+[fitz]
+PyMuPDF!=1.13.3,>=1.12.5
