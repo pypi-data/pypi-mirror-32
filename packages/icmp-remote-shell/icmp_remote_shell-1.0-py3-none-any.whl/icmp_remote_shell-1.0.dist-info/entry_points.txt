@@ -1,0 +1,4 @@
+[console_scripts]
+icmp-remote-shell-client = icmp_remote_shell.client:main
+icmp-remote-shell-server = icmp_remote_shell.server:main
+
