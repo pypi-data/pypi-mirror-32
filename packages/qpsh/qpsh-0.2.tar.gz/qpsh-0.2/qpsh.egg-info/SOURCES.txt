@@ -1,0 +1,10 @@
+README.md
+setup.py
+qpsh/__init__.py
+qpsh/cd.py
+qpsh/find_exe.py
+qpsh/qpsh_func.py
+qpsh.egg-info/PKG-INFO
+qpsh.egg-info/SOURCES.txt
+qpsh.egg-info/dependency_links.txt
+qpsh.egg-info/top_level.txt
