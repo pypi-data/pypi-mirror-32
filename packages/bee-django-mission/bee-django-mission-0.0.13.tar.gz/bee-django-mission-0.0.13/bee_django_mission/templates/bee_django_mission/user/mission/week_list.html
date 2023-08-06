@@ -1,0 +1,34 @@
+{% extends "bee_django_mission/base.html" %}
+{% load bee_django_mission_filter %}
+
+{% block content %}
+    {% include 'bee_django_mission/logo.html' %}
+    {% include 'bee_django_mission/nav.html' %}
+    <div class="btn-group" role="group" style="margin-top: 20px;">
+        <a class="btn btn-success active">周任务</a>
+        <a class="btn btn-default"
+           href="{% url 'bee_django_mission:user_line_unlimited' user_id=user.id %}">里程</a>
+    </div>
+    <div class="text-right">
+        <a href="#" id="update_mssion_{{ user_stage.id }}"
+           data-confirm="{% url "bee_django_mission:user_stage_update_mission" user_stage.id %}"
+           onclick="click_update(this)" class="btn btn-default">重置学生任务</a>
+    </div>
+    {% include 'bee_django_mission/user/mission/include/list.html' %}
+
+
+{% endblock %}
+{% block scripts %}
+    <script>
+        function click_update(_this) {
+            if (!confirm('确认要执行这个操作？')) {
+                return false;
+            }
+            var url = $(_this).attr('data-confirm');
+            $.post(url).done(function (data) {
+                alert(data.msg);
+                location.reload();
+            });
+        }
+    </script>
+{% endblock %}
