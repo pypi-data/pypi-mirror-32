@@ -1,0 +1,12 @@
+fog/__init__.py,sha256=c5BOX-t9cCRZivt7Y4XmraNmLY1wQsg6MBR-I_2bg0s,30
+fog/metrics/__init__.py,sha256=VZjoYy7fbuz8-ipSmYkGu8XUfe6BYM0mSLzuOYX9mZI,116
+fog/metrics/cosine.py,sha256=Dg5L87Z3qbkCO-E6nYgbVhaG3TYiZw6sudQqNrpGF3U,1239
+fog/metrics/jaccard.py,sha256=XJHgMa7eoZ5RVO7caIyaEFhHEsUTd5NSzAxANkGApdI,1537
+fog-0.1.1.dist-info/METADATA,sha256=i5VZXwnV1NWqxXLYq3cAWIN0pltTi51ugbknKEWRS_E,2266
+fog-0.1.1.dist-info/RECORD,,
+fog-0.1.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+fog-0.1.1.dist-info/top_level.txt,sha256=K_1aQVyphKnTMnRl-gXkJwtqpc424ndoNU0yX_3rRZc,9
+fog-0.1.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+test/metrics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/metrics/cosine_test.py,sha256=EHUXSOgn-u7UTe7H2tT_AqGgTZkBuJZi9Lv6i-WoS4c,1186
+test/metrics/jaccard_test.py,sha256=GRNPB8cqJpy7LPoIsjK3OYNNdm94POXCYjInAXIV_kk,1149
