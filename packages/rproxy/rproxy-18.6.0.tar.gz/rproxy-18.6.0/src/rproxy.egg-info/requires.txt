@@ -1,0 +1,5 @@
+twisted[tls]>=18.4.0
+pyopenssl
+txsni
+txacme
+incremental
