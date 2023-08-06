@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: easysetuppy
+Version: 1.1.8
+Summary: A program to make easy setup.py files
+Home-page: https://www.github.com/PokeTec/EasySetup
+Author: PokestarFan
+Author-email: pokestarfan@yahoo.com
+Maintainer: PokestarFan
+Maintainer-email: pokestarfan@yahoo.com
+License: MIT License
+Platform: Windows
+Platform: Mac
+Platform: Linux
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Requires-Dist: easygui
+Requires-Dist: wheel
+Requires-Dist: twine
+Requires-Dist: setuptools
+
+UNKNOWN
+
+
