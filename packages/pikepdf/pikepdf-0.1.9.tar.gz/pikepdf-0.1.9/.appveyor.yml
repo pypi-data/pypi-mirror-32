@@ -1,0 +1,32 @@
+version: '{build}'
+image: Visual Studio 2015
+platform:
+- x64
+environment:
+  global:
+    DISTUTILS_USE_SDK: 1
+    MSSdk: 1
+  matrix:
+  - PYTHON: 36
+install:
+- cmd: '"%VS140COMNTOOLS%\..\..\VC\vcvarsall.bat" %PLATFORM%'
+- ps: |
+    if ($env:PYTHON) {
+      if ($env:PLATFORM -eq "x64") { $env:PYTHON = "$env:PYTHON-x64" }
+      $env:PATH = "C:\Python$env:PYTHON\;C:\Python$env:PYTHON\Scripts\;$env:PATH"
+      python -m pip install --disable-pip-version-check --user --upgrade pip setuptools
+
+      curl -fsSL -o qpdf-release.zip https://github.com/qpdf/qpdf/releases/download/release-qpdf-8.0.2/qpdf-8.0.2-bin-msvc64.zip
+      7z x qpdf-release.zip -oc:\
+      $qpdfdir = Get-ChildItem c:\qpdf-*
+      Move-Item -Path $qpdfdir -Destination c:\qpdf
+    }
+build_script:
+- ps: |
+    if ($env:PYTHON) {
+      python setup.py sdist
+      $targz = Get-ChildItem -Path dist\pikepdf*.tar.gz
+      pip install --verbose $targz
+    }
+test_script:
+- ps: python -m pytest
