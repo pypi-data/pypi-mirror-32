@@ -1,0 +1,4 @@
+Cython
+jupyter==1.0.0
+redlemur
+knor==0.0.1
