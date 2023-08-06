@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: apitax
+Version: 2.0.0
+Summary: Apitax combines the power of Scriptax and COmmandtax into a quick and easy to use Python package to facillitate powerful Restful API Request Scripting
+Home-page: https://github.com/ShawnClake/Apitax
+Author: Shawn Clake
+Author-email: shawn.clake@gmail.com
+License: UNKNOWN
+Keywords: restful,api,commandtax,scriptax
+Platform: UNKNOWN
+Requires-Dist: click
+Requires-Dist: bottle
+Requires-Dist: requests
+Requires-Dist: antlr4-python3-runtime
+
+UNKNOWN
+
+
