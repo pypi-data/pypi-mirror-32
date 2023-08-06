@@ -1,0 +1,16 @@
+setup.py
+koicore/__init__.py
+koicore/koi_object.py
+koicore.egg-info/PKG-INFO
+koicore.egg-info/SOURCES.txt
+koicore.egg-info/dependency_links.txt
+koicore.egg-info/top_level.txt
+koicore/enums/__init__.py
+koicore/enums/visibility.py
+koicore/other/__init__.py
+koicore/other/koi_variable.py
+koicore/types/__init__.py
+koicore/types/koi_boolean.py
+koicore/types/koi_character.py
+koicore/types/koi_integer.py
+koicore/types/koi_string.py
