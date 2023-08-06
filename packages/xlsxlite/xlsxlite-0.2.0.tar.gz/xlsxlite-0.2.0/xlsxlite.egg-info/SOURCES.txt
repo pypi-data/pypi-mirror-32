@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+xlsxlite/__init__.py
+xlsxlite/utils.py
+xlsxlite/writer.py
+xlsxlite.egg-info/PKG-INFO
+xlsxlite.egg-info/SOURCES.txt
+xlsxlite.egg-info/dependency_links.txt
+xlsxlite.egg-info/top_level.txt
+xlsxlite/test/__init__.py
+xlsxlite/test/base.py
+xlsxlite/test/test_perf.py
+xlsxlite/test/test_utils.py
+xlsxlite/test/test_writer.py
