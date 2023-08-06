@@ -1,0 +1,6 @@
+README.rst
+setup.py
+caseciteparser.egg-info/PKG-INFO
+caseciteparser.egg-info/SOURCES.txt
+caseciteparser.egg-info/dependency_links.txt
+caseciteparser.egg-info/top_level.txt
