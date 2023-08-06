@@ -1,0 +1,6 @@
+colorama
+matplotlib
+backtrace
+numpy
+tqdm
+redis
