@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: TideServer
+Version: 0.2a4
+Summary: Flask REST API to supply tidal gravity corrections
+Home-page: https://github.com/DynamicGravitySystems/TideFlaskServer
+Author: Zachery Brady
+Author-email: bradyzp@dynamicgravitysystems.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.5.*
+Requires-Dist: tidegravity
+Requires-Dist: flask (==1.0.2)
+Requires-Dist: flask-restful (==0.3.6)
+Requires-Dist: marshmallow (==2.15.3)
+
+TideServer
+==========
+
+Installation
+------------
+
+1. Create a virtual environment on deployment server:
+
+.. code-block:: bash
+
+    mkdir TideServer && cd TideServer
+    python3 -m virtualenv venv
+
+
+2. Activate the virtual environment and install the flask app
+
+.. code-block:: bash
+
+    source venv/bin/activate
+    pip install tideserver
+
