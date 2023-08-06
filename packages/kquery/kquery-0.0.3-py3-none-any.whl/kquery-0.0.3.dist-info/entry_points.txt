@@ -1,0 +1,3 @@
+[console_scripts]
+kquery = kquery.cli:cli
+

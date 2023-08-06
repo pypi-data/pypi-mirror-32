@@ -1,0 +1,12 @@
+kquery/__init__.py,sha256=V-K2c1lm5EEx3nIaqQl9Bi8gj9sERvNIPYkG4xYKI7A,15
+kquery/cli.py,sha256=YS1-iIWo_McrxNy7-KMAMoLaD_cbN0YHLA7HW7zu70E,378
+kquery/kquery.py,sha256=VBgctBdNCw5-5_DKTr1c9l7nnaMXL3xdW7ieR7yGfXE,10968
+kquery/forms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kquery/forms/connection.py,sha256=bhFnX1l4Su-6-sbPBT8fjLKzj9ftny0iq5tVtnkqLoI,2734
+kquery/forms/connections.py,sha256=6oP3BIQhc7cIfWdAX9uja6hndQ-TsbHrlCPMwTSJ1gc,2474
+kquery/forms/mainwindow.py,sha256=RWSeVLL97W3KBA0IU2JehUqoRbBcuXroUrRTQPf0HoM,4589
+kquery-0.0.3.dist-info/METADATA,sha256=fXAhHEjUerXiBI3QoyEWqAfarb4-F5ABT5zzpNy3ACU,2122
+kquery-0.0.3.dist-info/RECORD,,
+kquery-0.0.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+kquery-0.0.3.dist-info/entry_points.txt,sha256=cG3LhS6XtBy8o2y8B-mvNHCkYksYtfl6DpvUFAlJ7Ig,43
+kquery-0.0.3.dist-info/top_level.txt,sha256=iVeNg18fCkCWPIIrwbnGdCw1OXBzN8vO6CMVEYizD78,7
