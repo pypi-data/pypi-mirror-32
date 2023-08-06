@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: dict-tiny
+Version: 0.0.2
+Summary: A tiny dictionary.
+Home-page: https://github.com/louieh/dict-tiny
+Author: louie
+Author-email: louiehan1015@gmail.com
+License: UNKNOWN
+Description: # Dict-tiny
+        
+        A tiny dictionary. Just for fun.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
