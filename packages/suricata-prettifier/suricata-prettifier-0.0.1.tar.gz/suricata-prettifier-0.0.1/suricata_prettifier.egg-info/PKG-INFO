@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: suricata-prettifier
+Version: 0.0.1
+Summary: Format and syntax highlight Suricata rules
+Home-page: https://github.com/theY4Kman/suricata-prettifier
+Author: Zach "theY4Kman" Kanzler
+Author-email: they4kman@gmail.com
+License: BSD 2-Clause
+Description: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
