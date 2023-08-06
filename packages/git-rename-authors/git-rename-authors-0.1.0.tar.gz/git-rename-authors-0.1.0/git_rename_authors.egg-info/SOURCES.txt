@@ -1,0 +1,13 @@
+README.md
+git-rename-authors
+setup.cfg
+setup.py
+git_rename_authors/__init__.py
+git_rename_authors/authors.py
+git_rename_authors/main.py
+git_rename_authors/script.py
+git_rename_authors/tests.py
+git_rename_authors.egg-info/PKG-INFO
+git_rename_authors.egg-info/SOURCES.txt
+git_rename_authors.egg-info/dependency_links.txt
+git_rename_authors.egg-info/top_level.txt
