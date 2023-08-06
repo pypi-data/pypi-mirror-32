@@ -1,0 +1,8 @@
+hostlists
+netifaces
+pip>=8.1.2
+python-daemon
+python_version>="3.6"
+redislite
+requests
+watchdog
