@@ -1,0 +1,4 @@
+pysolbase
+ujson
+greenlet
+gevent==1.2.2
