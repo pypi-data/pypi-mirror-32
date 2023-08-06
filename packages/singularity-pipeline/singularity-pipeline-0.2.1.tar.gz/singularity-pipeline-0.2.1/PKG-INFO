@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: singularity-pipeline
+Version: 0.2.1
+Summary: A runner script for pipelines using Singularity containers
+Home-page: https://github.com/kav2k/singularity-pipeline/
+Author: Alexander Kashev
+Author-email: alexander.kashev@math.unibe.ch
+License: MIT
+Description: singularity-pipeline
+        ===
+        
+        Description
+        ---
+        
+        `singularity-pipeline` is a Python-based tool for describing, building and running Singularity container-based pipelines.
+        
+        This tool has been built as part of the Pipeline Interoperability initiative of the [EnhanceR project](https://www.enhancer.ch/).
+        
+        Source: [https://github.com/kav2k/singularity-pipeline/](https://github.com/kav2k/singularity-pipeline/)
+        
+        PyPi: [https://pypi.python.org/pypi/singularity-pipeline/](https://pypi.python.org/pypi/singularity-pipeline/)
+        
+        Note that the script is still rough around the edges.
+        
+        Installing
+        ---
+        
+        ```bash
+        pip install singularity-pipeline
+        ```
+        
+        Running
+        ---
+        
+        See usage instructions with
+        
+        ```bash
+        singularity-pipeline help
+        ```
+        
+Keywords: singularity container runner
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
