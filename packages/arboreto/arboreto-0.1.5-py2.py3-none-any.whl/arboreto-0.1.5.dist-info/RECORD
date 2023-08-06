@@ -1,0 +1,13 @@
+arboreto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arboreto/algo.py,sha256=Qfyjv_PzyB5LLyEvuLod-8mRer38J7vKthlJzKWOG6k,9519
+arboreto/core.py,sha256=GHBmg8AgCflH4qucHTXx6blm10DoOpwuMC3kvACvQIc,19547
+arboreto/utils.py,sha256=Ub77EAs8bew3CWyOKDsNYH9TeMbZuzGfwj9F-vjNoSM,325
+arboreto-0.1.5.dist-info/DESCRIPTION.rst,sha256=3TG51e3-WZSQjlAYQAsUAdv-rZ3QFaJWRVvdH2k7ILk,4030
+arboreto-0.1.5.dist-info/METADATA,sha256=Hpx87VchZAz1YTO0GR0kqjO5wbeIBPIzVCGQuvbM4jM,4647
+arboreto-0.1.5.dist-info/RECORD,,
+arboreto-0.1.5.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+arboreto-0.1.5.dist-info/metadata.json,sha256=YhWUTPHXnIwVnORZqYgb4nEh7pxRRv46urhYGa2abe8,840
+arboreto-0.1.5.dist-info/top_level.txt,sha256=DT5t-syvZdS9Ow4jLJ00NcRqYGJrTbtm6y_NCJQDBwo,15
+tests/__init__.py,sha256=u8rAsNRgfaTMjXjgLWeDdnmgQ5iTQphQYO1Fe4UprWU,106
+tests/test_algo.py,sha256=SD2w-VkT-962wYG-YTZ7SGVqUpDdi5GcpvA9SSgj2Xg,3249
+tests/test_core.py,sha256=J4BBdZjA1jbrKDNx9v6RQ9W3J0sd1p55-zULeF6syHU,9668
