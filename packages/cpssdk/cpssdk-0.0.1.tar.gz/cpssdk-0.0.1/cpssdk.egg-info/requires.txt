@@ -1,0 +1,5 @@
+shapely
+datetime
+simplejson
+pandas
+numpy
