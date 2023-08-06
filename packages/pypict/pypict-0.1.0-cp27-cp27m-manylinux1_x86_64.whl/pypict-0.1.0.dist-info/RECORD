@@ -1,0 +1,12 @@
+pypict/capi.so,sha256=OZ6C93FrMt0aISGgjBnu_k0Pf4ezDhRqBhXxLMsIHFI,974760
+pypict/api.py,sha256=zlDGkB2a_A46RWTuVq0f-hQP8-Yrb6VZr4u0A_pY2h0,2042
+pypict/tools.py,sha256=dv-TfTAywFW_oBC390qFOKvncF9qU72rgY5eYYIpL_0,3539
+pypict/_version.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+pypict/__init__.py,sha256=khgEaLg1BgZ2_T_OOHoGP34MofGXKgSKi8QWmpQmLv4,114
+pypict/pict,sha256=1zokGofbx5pogAgDrSU3BrmHB5__Gc_WuiR2peQofZc,1182429
+pypict/cmd.py,sha256=tZ61tYI-5NiFrY61EelIti_4hZg3AZxWUMqT5gi5Jeo,868
+pypict/.libs/libpict-fba28b01.so,sha256=yQR09EkRnVb5J7iBHOut3VqINXqwx3htW2o1alk6GII,1144576
+pypict-0.1.0.dist-info/top_level.txt,sha256=xs2pYjG2amQmUGppG1DjvJaVcrts9GI_QQ8PgXG_wBo,7
+pypict-0.1.0.dist-info/METADATA,sha256=PhRijx-nT7zznCLkdF5qJtuQ0vJfQQJavDi338oR8K8,2813
+pypict-0.1.0.dist-info/RECORD,,
+pypict-0.1.0.dist-info/WHEEL,sha256=L3I3FiPXvBX0ql2RkxcDmeaD4yikTXJEkQh5rp929OI,109
