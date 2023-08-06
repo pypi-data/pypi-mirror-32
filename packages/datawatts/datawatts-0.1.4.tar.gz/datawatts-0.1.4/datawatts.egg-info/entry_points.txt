@@ -1,0 +1,3 @@
+[console_scripts]
+datawatts = datawatts.run:main
+

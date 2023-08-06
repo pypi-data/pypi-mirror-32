@@ -1,0 +1,4 @@
+pafy
+feedparser
+youtube-dl
+python-vlc
