@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: hclib
+Version: 1.0.1
+Summary: A library to connect to https://hack.chat/
+Home-page: https://gitlab.com/neelkamath/hclib
+Author: Neel Kamath
+Author-email: neelkamath@icloud.com
+License: MIT
+Description: # hclib
+        
+        ![PyPI](https://img.shields.io/pypi/v/hclib.svg)
+        
+        This is a wrapper to connect to [hack.chat](https://github.com/hack-chat/main) instances.
+        
+        # Documentation
+        
+        1. Start the REPL:
+            - Windows: `python`
+            - Other: `python3`
+        1. View:
+            ```python
+            import hclib
+            help(hclib)
+            ```
+        
+        # License
+        
+        This project is under the [MIT license](LICENSE).
+        
+Keywords: hack.chat library
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
