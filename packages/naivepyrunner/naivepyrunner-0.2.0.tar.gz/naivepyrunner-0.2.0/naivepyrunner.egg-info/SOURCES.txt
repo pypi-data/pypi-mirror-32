@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+naivepyrunner/__init__.py
+naivepyrunner/job.py
+naivepyrunner/queue.py
+naivepyrunner/queuetransposer.py
+naivepyrunner/runner.py
+naivepyrunner/task.py
+naivepyrunner/worker.py
+naivepyrunner.egg-info/PKG-INFO
+naivepyrunner.egg-info/SOURCES.txt
+naivepyrunner.egg-info/dependency_links.txt
+naivepyrunner.egg-info/not-zip-safe
+naivepyrunner.egg-info/top_level.txt
