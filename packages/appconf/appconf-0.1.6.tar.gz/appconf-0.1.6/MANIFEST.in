@@ -1,0 +1,17 @@
+include VERSION
+include LICENSE
+include requirements.txt
+include src/appconf/wsgi/run/config.json
+include ./src/appconf/wsgi/static
+include ./src/appconf/wsgi/static/3rdpartylicenses.txt
+include ./src/appconf/wsgi/static/favicon.ico
+include ./src/appconf/wsgi/static/fontawesome-webfont.674f50d287a8c48dc19b.eot
+include ./src/appconf/wsgi/static/fontawesome-webfont.912ec66d7572ff821749.svg
+include ./src/appconf/wsgi/static/fontawesome-webfont.af7ae505a9eed503f8b8.woff2
+include ./src/appconf/wsgi/static/fontawesome-webfont.b06871f281fee6b241d6.ttf
+include ./src/appconf/wsgi/static/fontawesome-webfont.fee66e712a8a08eef580.woff
+include ./src/appconf/wsgi/static/index.html
+include ./src/appconf/wsgi/static/main.f1517aa1ef2d0190c63e.js
+include ./src/appconf/wsgi/static/polyfills.2f4a59095805af02bd79.js
+include ./src/appconf/wsgi/static/runtime.183b82f2b3a69ecd7ea0.js
+include ./src/appconf/wsgi/static/styles.158eb527d4a740e3f4a3.css
