@@ -1,0 +1,7 @@
+README.md
+setup.py
+whirldata/__init__.py
+whirldata.egg-info/PKG-INFO
+whirldata.egg-info/SOURCES.txt
+whirldata.egg-info/dependency_links.txt
+whirldata.egg-info/top_level.txt
