@@ -1,0 +1,7 @@
+click
+flask
+flask-sslify
+itsdangerous
+requests
+boto3
+pillow
