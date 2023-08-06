@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: dask-rasterio
+Version: 0.2.1
+Summary: Read and write rasters in parallel using Rasterio and Dask
+Home-page: https://github.com/dymaxionlabs/dask-rasterio
+Author: Damián Silvani
+Author-email: munshkr@gmail.com
+Requires-Python: >=3,<4
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: dask (>=0.17.5,<0.18.0)
+Requires-Dist: rasterio (>=1.0b1,<2.0)
+Requires-Dist: toolz (>=0.9.0,<0.10.0)
