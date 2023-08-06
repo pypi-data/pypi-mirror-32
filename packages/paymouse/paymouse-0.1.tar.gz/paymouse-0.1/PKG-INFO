@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: paymouse
+Version: 0.1
+Summary: Python multiple payment gateway
+Home-page: https://github.com/markypython/paymouse
+Author: Mark Skelton
+Author-email: mdskelton99@gmail.com
+License: MIT
+Description: # PayMouse
+        
+        Python payment processor that supports multiple configurable payment gateways.
+        
+        Currently supported gateways are:
+        
+        - Stripe
+        
+        ## Installation
+        
+        Install PayMouse using `pip`
+        
+        ```bash
+        pip install paymouse
+        ```
+        
+        ## Usage
+        
+        ### Setup
+        
+        The code below is an example of setting up PayMouse with the Stripe gateway.
+        
+        The setup step only needs to be completed once unless the PayMouse options need to be updated.  To update the options, simply run `paymouse.setup` again with new or updated options.
+        
+        ```py
+        import paymouse
+        
+        paymouse.setup({
+            'gateway': 'Stripe',
+            'api_key': 'sk_test_LTAhe6WM7my2MTNT8cRRHtXh',
+        })
+        ```
+        
+        ### PayMouse classes
+        
+        Three classes are used when executing PayMouse methods.  These classes are `Money`, `Account`, and `Card`.
+        
+        Below shows samples of using these classes
+        
+        ```py
+        # Create Money object
+        money = paymouse.Money(10, 'USD')
+        # Create Money object using default currency (USD)
+        money = paymouse.Money(10)
+        
+        # Create Account object
+        account = paymouse.Account('John', 'Doe', '123 Main St', 'Anytown', 'Wisconsin', 12345, 'USA')
+        # Create Account object using only first and last name
+        account = paymouse.Account('John', 'Doe')
+        # Create Account object using keyword args
+        account = paymouse.Account('John', 'Doe', country='USA')
+        
+        # Create Card object
+        card = paymouse.Card(4111111111111111, 12, 2020, 123)
+        # Create Card object without CVC
+        card = paymouse.Card(4111111111111111, 12, 2020)
+        ```
+        
+        ### Perform a transaction
+        
+        The following transactions types are currently supported:
+        
+        - charge
+        - authorize
+        - void
+        - refund
+        
+        An example of performing a charge is shown below:
+        
+        ```py
+        money = Money(1)
+        token = 'tok_visa'
+        
+        # Run the transaction
+        result = paymouse.charge(money, token)
+        
+        print('Charge Id:', result['id'])
+        ```
+        
+        ### Errors
+        
+        If the transaction fails, it will return a dictionary with the following keys:
+        
+        - `error` - The PayMouse normalized error code
+        - `message` - The PayMouse normalized error message
+        - `gateway_error` - The gateway error code
+        - `gateway_message` - The gateway error message
+        - `gateway_response` - The full gateway response
+        
+Keywords: payments
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
