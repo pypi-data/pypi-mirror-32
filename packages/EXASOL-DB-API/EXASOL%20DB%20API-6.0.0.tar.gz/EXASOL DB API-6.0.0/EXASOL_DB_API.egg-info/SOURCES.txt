@@ -1,0 +1,9 @@
+README.md
+setup.py
+EXASOL/__init__.py
+EXASOL/test.py
+EXASOL_DB_API.egg-info/PKG-INFO
+EXASOL_DB_API.egg-info/SOURCES.txt
+EXASOL_DB_API.egg-info/dependency_links.txt
+EXASOL_DB_API.egg-info/requires.txt
+EXASOL_DB_API.egg-info/top_level.txt
