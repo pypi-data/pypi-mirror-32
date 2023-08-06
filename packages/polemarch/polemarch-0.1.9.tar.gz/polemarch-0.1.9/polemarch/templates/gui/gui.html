@@ -1,0 +1,87 @@
+{% extends "gui/base.html" %}
+{% load staticfiles %}
+
+{% block pmScripts %}
+    <script defer src="{% static 'js/libs/c3/d3.min.js' %}?v={{gui_version}}"></script>
+    <script defer src="{% static 'js/libs/c3/c3.min.js' %}?v={{gui_version}}"></script>
+
+    <script defer src="{% static 'js/libs/autocomplete.js' %}?v={{gui_version}}"></script>
+    <script defer src="{% static 'plugins/select2/select2.full.min.js' %}?v={{gui_version}}"></script>
+    <script defer src="{% static 'js/libs/touchwipe.js' %}?v={{gui_version}}"></script>
+
+    <script defer src="{% static 'js/libs/tabSignal.js' %}?v={{gui_version}}"></script>
+    <script defer src="{% static 'js/libs/just.js' %}?v={{gui_version}}"></script>
+    <script defer src="{% static 'js/libs/just-watch.js' %}?v={{gui_version}}"></script>
+    <script defer src="{% static 'js/libs/moment.min.js' %}?v={{gui_version}}"></script>
+    <script defer src="{% static 'js/libs/moment-timezone.min.js' %}?v={{gui_version}}"></script>
+    <!--<script defer src="{% static 'js/libs/markdown.js' %}?v={{gui_version}}"></script>-->
+    <script defer src="{% static 'js/libs/jquery.scrollTo.min.js' %}?v={{gui_version}}"></script>
+    <script defer src="{% static 'js/libs/spa.js' %}?v={{gui_version}}"></script>
+    <script defer src="{% static 'js/libs/ansi_up.js' %}?v={{gui_version}}"></script>
+    <script defer src="{% static 'js/libs/Sortable.min.js' %}?v={{gui_version}}"></script>
+
+    <script defer src="{% static 'js/common.js' %}?v={{gui_version}}"></script>
+    <script defer src="{% static 'js/polemarch.js' %}?v={{gui_version}}"></script>
+    <script defer src="{% static 'js/jsonEditor.js' %}?v={{gui_version}}"></script>
+    <script defer src="{% static 'js/crontabEditor.js' %}?v={{gui_version}}"></script>
+    <script defer src="{% static 'js/filedsLib.js' %}?v={{gui_version}}"></script>
+    <script defer src="{% static 'js/encryptedCopyModal.js' %}?v={{gui_version}}"></script>
+    <script defer src="{% static 'js/pmItems.js' %}?v={{gui_version}}"></script>
+    <script defer src="{% static 'js/pmHosts.js' %}?v={{gui_version}}"></script>
+    <script defer src="{% static 'js/pmUsers.js' %}?v={{gui_version}}"></script>
+    <script defer src="{% static 'js/pmGroups.js' %}?v={{gui_version}}"></script>
+    <script defer src="{% static 'js/pmInventories.js' %}?v={{gui_version}}"></script>
+    <script defer src="{% static 'js/pmProjects.js' %}?v={{gui_version}}"></script>
+    <script defer src="{% static 'js/pmTasks.js' %}?v={{gui_version}}"></script>
+    <script defer src="{% static 'js/pmPeriodicTasks.js' %}?v={{gui_version}}"></script>
+    <script defer src="{% static 'js/pmHistory.js' %}?v={{gui_version}}"></script>
+    <script defer src="{% static 'js/pmTemplates.js' %}?v={{gui_version}}"></script>
+    <script defer src="{% static 'js/pmTasksTemplates.js' %}?v={{gui_version}}"></script>
+    <script defer src="{% static 'js/pmModuleTemplates.js' %}?v={{gui_version}}"></script>
+    <script defer src="{% static 'js/pmAnsibleModule.js' %}?v={{gui_version}}"></script>
+    <script defer src="{% static 'js/moduleArgsEditor.js' %}?v={{gui_version}}"></script>
+    <script defer src="{% static 'js/pmDashboard.js' %}?v={{gui_version}}"></script>
+    <script defer src="{% static 'js/pmHooks.js' %}?v={{gui_version}}"></script>
+{% endblock %}
+
+{% block script %}
+<script> 
+    $(document).ready(function()
+    {
+        var templates = [
+            'templates/encryptedCopyModal',
+            'templates/pmModuleTemplates',
+            'templates/pmTasksTemplates',
+            'templates/pmTasksTemplates',
+            'templates/moduleArgsEditor',
+            'templates/pmPeriodicTasks',
+            'templates/pmAnsibleModule',
+            'templates/crontabEditor',
+            'templates/pmInventories',
+            'templates/pmDashboard',
+            'templates/jsonEditor',
+            'templates/pmProjects',
+            'templates/pmHistory',
+            'templates/filedsLib',
+            'templates/pmGroups',
+            'templates/pmItems',
+            //'templates/pmHosts',
+            'templates/pmUsers',
+            'templates/pmHooks'
+        ]
+        
+        // alert("New-")
+          
+        $.when(loadTplArray(templates)).done(function()
+        {
+            polemarch.start({
+                is_superuser:window.is_superuser,
+                holder:'#spajs-body'
+            })
+        }).fail(function()
+        {
+            $.notify("Error in template loaging", "error");
+        })
+    })
+</script>
+{% endblock %}
