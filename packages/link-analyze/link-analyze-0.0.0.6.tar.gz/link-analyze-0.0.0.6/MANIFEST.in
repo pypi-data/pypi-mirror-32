@@ -1,0 +1,5 @@
+global-include *.py[co]
+global-exclude *.py
+global-include setup.py
+global-include link_analyze/main.py
+global-include link_analyze/logger.py
