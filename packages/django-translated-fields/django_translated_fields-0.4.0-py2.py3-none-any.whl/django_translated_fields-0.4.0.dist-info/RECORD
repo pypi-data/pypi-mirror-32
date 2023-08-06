@@ -1,0 +1,8 @@
+django_translated_fields-0.4.0.dist-info/DESCRIPTION.rst,sha256=HrtkxLKPCaeYoGND6Jz06Hk55Hf8SPh9wZ9GjpRrGy8,7554
+django_translated_fields-0.4.0.dist-info/METADATA,sha256=VyIiT2iXHnBWxnS6JbDHKCrJhA7LGT5SYOL-CLVI3ns,8566
+django_translated_fields-0.4.0.dist-info/RECORD,,
+django_translated_fields-0.4.0.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+django_translated_fields-0.4.0.dist-info/metadata.json,sha256=Jt6yCFRVRv0mX3HFte0Y7e5MKx8yCLg3i-_W2kckYco,1162
+django_translated_fields-0.4.0.dist-info/top_level.txt,sha256=lXLO3OZl365gSu8mCMhJwCFrCU2fNF5dDfyyzAPJjc8,18
+translated_fields/__init__.py,sha256=uA4VZ0n507u63sKvxZenCVk9feHTStvVy3aTHYTckSU,151
+translated_fields/fields.py,sha256=t4XK1QWjQergV32VJ1-NrZqSSHOvdHeSOCdmNKEpiFU,3039
