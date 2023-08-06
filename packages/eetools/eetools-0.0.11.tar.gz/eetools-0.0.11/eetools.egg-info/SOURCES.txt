@@ -1,0 +1,8 @@
+README.md
+setup.py
+eetools/__init__.py
+eetools/str.py
+eetools.egg-info/PKG-INFO
+eetools.egg-info/SOURCES.txt
+eetools.egg-info/dependency_links.txt
+eetools.egg-info/top_level.txt
