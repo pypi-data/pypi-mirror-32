@@ -1,0 +1,2 @@
+recursive-include exatomic/static *
+include requirements.txt
