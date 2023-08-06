@@ -1,0 +1,8 @@
+setup.py
+tbsh/__init__.py
+tbsh.egg-info/PKG-INFO
+tbsh.egg-info/SOURCES.txt
+tbsh.egg-info/dependency_links.txt
+tbsh.egg-info/not-zip-safe
+tbsh.egg-info/requires.txt
+tbsh.egg-info/top_level.txt
