@@ -1,0 +1,7 @@
+
+[dev]
+
+[test]
+pytest-xdist
+pytest
+pytest-coverage
