@@ -1,0 +1,16 @@
+CHANGES.txt
+MANIFEST.in
+README.rst
+setup.py
+empiar/EMPIAR_logo.png
+empiar/__init__.py
+empiar/bibtex.py
+empiar/empiar_deposition.schema.json
+empiar/empiar_deposition_template.json
+empiar/plugin.py
+empiar/prot_empiar_submission.py
+scipion_empiar_depositor.egg-info/PKG-INFO
+scipion_empiar_depositor.egg-info/SOURCES.txt
+scipion_empiar_depositor.egg-info/dependency_links.txt
+scipion_empiar_depositor.egg-info/requires.txt
+scipion_empiar_depositor.egg-info/top_level.txt
