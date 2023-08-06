@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: geneticocolor
+Version: 0.0.3
+Summary: Package for genetic generation of opposite colors for 2D point graphs
+Home-page: https://github.com/geneticocolor
+Author: Beatriz Hernandez Perez
+Author-email: beatriz.hpz@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Description-Content-Type: text/markdown
+
+# Genetic Opposite Color
+
+Long description will appear soon
+
+
