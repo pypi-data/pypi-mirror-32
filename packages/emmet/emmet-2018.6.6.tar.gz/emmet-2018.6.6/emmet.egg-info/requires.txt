@@ -1,0 +1,12 @@
+atomate
+pymatgen>=2018.4.20
+maggma
+monty
+six
+pydash
+tqdm
+matminer
+prettyplotlib
+pybtex
+networkx
+sumo
