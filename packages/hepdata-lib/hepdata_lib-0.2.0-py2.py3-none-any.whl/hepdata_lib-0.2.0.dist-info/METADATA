@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: hepdata-lib
+Version: 0.2.0
+Summary: Library for getting your data into HEPData
+Home-page: https://github.com/clelange/hepdata_lib
+Author: Andreas Albert, Clemens Lange
+Author-email: clemens.lange@cern.ch
+License: UNKNOWN
+Project-URL: Documentation, https://hepdata-lib.readthedocs.io
+Project-URL: Bug Reports, https://github.com/clelange/hepdata_lib/issues
+Project-URL: Source, https://github.com/clelange/hepdata_lib
+Keywords: HEPData physics OpenData
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: PyYAML
+
+# hepdata_lib
+
+[![DOI](https://zenodo.org/badge/129248575.svg)](https://zenodo.org/badge/latestdoi/129248575)
+[![PyPI version](https://badge.fury.io/py/hepdata_lib.svg)](https://badge.fury.io/py/hepdata_lib)
+[![Build Status](https://travis-ci.org/clelange/hepdata_lib.svg?branch=master)](https://travis-ci.org/clelange/hepdata_lib)
+[![Documentation Status](https://readthedocs.org/projects/hepdata-lib/badge/)](http://hepdata-lib.readthedocs.io/)
+
+Library for getting your data into HEPData
+
+## Installation
+
+```
+pip install hepdata_lib
+```
+
+## External dependencies
+
+- [ROOT](https://root.cern.ch)
+- [ImageMagick](https://www.imagemagick.org)
+
+Make sure that you have `ROOT` in your `$PYTHONPATH` and that the `convert` command is available by adding its location to your `$PATH` if needed.
+
+
