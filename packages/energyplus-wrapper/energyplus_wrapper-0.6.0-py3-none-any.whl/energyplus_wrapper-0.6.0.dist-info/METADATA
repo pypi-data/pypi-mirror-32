@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: energyplus-wrapper
+Version: 0.6.0
+Summary: some usefull function to run e+ locally
+Home-page: UNKNOWN
+License: MIT
+Author: Nicolas Cellier
+Author-email: contact@nicolas-cellier.net
+Requires-Python: >=3.5
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: pandas (>=0.23.0,<0.24.0)
+Requires-Dist: path.py (>=11.0,<12.0)
