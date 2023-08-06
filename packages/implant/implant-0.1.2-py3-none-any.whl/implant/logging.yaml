@@ -1,0 +1,54 @@
+%YAML 1.2
+---
+
+disable_existing_loggers: true
+version: 1
+formatters:
+    simple:
+        format: '{asctime} - {process}/{thread} - {levelname} - {name} - {message}'
+        style: '{'
+
+    colored:
+        (): colorlog.TTYColoredFormatter
+        format: '{asctime} - {process}/{thread} - {log_color}{levelname}{reset} - {name} - {message}'
+        #format: '{log_color}{levelname}{reset} - {name} - {message}'
+        style: '{'
+
+
+handlers:
+    console:
+        class: logging.StreamHandler
+        level: !!python/name:logging.NOTSET
+        #level: DEBUG
+        formatter: colored
+        stream: ext://sys.stderr
+
+    logfile:
+        class: logging.FileHandler
+        filename: /tmp/implant.log
+        formatter: simple
+        level: !!python/name:logging.NOTSET
+
+loggers:
+    implant:
+        level: DEBUG
+        handlers: [console, logfile]
+        propagate: no
+
+    implant.core:
+        level: DEBUG
+        handlers: [console, logfile]
+        propagate: no
+
+    implant.core.Channels:
+        level: INFO
+        handlers: [console, logfile]
+        propagate: no
+
+    implant.evolve.specs:
+        level: INFO
+
+root:
+    level: DEBUG
+    handlers: [console]
+
