@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+bin/pyubertooth_dump
+bin/pyubertooth_rx
+pyubertooth/__init__.py
+pyubertooth/bluetooth_packet.py
+pyubertooth/ubertooth.py
+pyubertooth.egg-info/PKG-INFO
+pyubertooth.egg-info/SOURCES.txt
+pyubertooth.egg-info/dependency_links.txt
+pyubertooth.egg-info/requires.txt
+pyubertooth.egg-info/top_level.txt
