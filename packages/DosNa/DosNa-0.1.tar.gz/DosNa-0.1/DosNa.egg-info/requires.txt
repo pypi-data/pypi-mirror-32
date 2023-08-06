@@ -1,0 +1,14 @@
+numpy>=1.13.0
+six>=1.10.0
+
+[ceph]
+python-cephlibs>=0.94.0
+
+[hdf5]
+h5py>=2.7.0
+
+[jl]
+joblib>=0.11
+
+[mpi]
+mpi4py>=3.0.0
