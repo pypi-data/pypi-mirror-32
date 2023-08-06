@@ -1,0 +1,11 @@
+networkx>=2.0.0
+dill!=0.2.7
+graphviz
+regex
+flask
+Pygments
+lxml
+bs4
+jinja2
+docutils
+sphinx
