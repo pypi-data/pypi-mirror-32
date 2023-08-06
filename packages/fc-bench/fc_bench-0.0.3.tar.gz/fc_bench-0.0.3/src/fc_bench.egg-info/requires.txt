@@ -1,0 +1,2 @@
+scipy
+fc_tools>=0.0.16
