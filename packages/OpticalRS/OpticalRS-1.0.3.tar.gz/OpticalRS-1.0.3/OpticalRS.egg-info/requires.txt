@@ -1,0 +1,10 @@
+numpy
+pandas
+statsmodels
+matplotlib
+scikit-image
+scikit-learn
+GDAL
+geopandas
+rasterstats
+scipy
