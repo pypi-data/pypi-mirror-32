@@ -1,0 +1,9 @@
+babel
+click
+confuse
+python-dateutil
+google-api-python-client
+jinja2
+premailer
+progressbar2
+requests

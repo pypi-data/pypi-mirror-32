@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: comdev
+Version: 0.2.1
+Summary: Community Development support library
+Home-page: https://github.com/kejbaly2/comdev
+Author: Chris Ward
+Author-email: cward@redhat.com
+License: GPLv3
+Description: Community Development support library
+Platform: UNKNOWN
