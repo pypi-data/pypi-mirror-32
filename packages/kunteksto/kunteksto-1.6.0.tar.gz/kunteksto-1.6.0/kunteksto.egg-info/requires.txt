@@ -1,0 +1,10 @@
+agraph-python
+basexclient
+click
+lxml
+shortuuid
+sphinx
+sphinx-rtd-theme
+ujson
+xmltodict
+cuid
