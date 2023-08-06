@@ -1,0 +1,11 @@
+bitso/__init__.py,sha256=ctUBqry1RtUrEIHA7OARl5eONnrrCCtLABNXh1mxFJY,1779
+bitso/api.py,sha256=EqFPfv24yCH-ajl5zY85lJMidywP-RO0SButcYq_2xE,35067
+bitso/bitsows.py,sha256=RU080BoFOb5T0IAlVqgD5hiqxMDwJi19zSEALQ8Wu-A,2617
+bitso/errors.py,sha256=s1J_ttom5HpotKbBOhuJgjXIBPY8fdtbL5H4WCKWCmU,1213
+bitso/models.py,sha256=8asDxu8f-TW1DQDixjDvx2vS1d8MlZmnJbqaBZlPI7w,23280
+bitso_py-3.0.1.dist-info/METADATA,sha256=Q6D7qeuMCr2wQmO1szhI7WsEq0N_i_SkLXrWUA2zvu4,32224
+bitso_py-3.0.1.dist-info/RECORD,,
+bitso_py-3.0.1.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+bitso_py-3.0.1.dist-info/top_level.txt,sha256=HMWTrIEICFIzJjPj8x_yUXPrbh9ugE7jO6UYxYjWLTE,12
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_api.py,sha256=q26p6dpOA54kFHPRA7hguNoQ2wFJJgE63-Heepi0J4k,37204
