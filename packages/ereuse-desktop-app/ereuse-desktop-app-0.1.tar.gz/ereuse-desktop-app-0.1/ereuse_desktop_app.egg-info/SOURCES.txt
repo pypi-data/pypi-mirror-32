@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+ereuse_desktop_app.egg-info/PKG-INFO
+ereuse_desktop_app.egg-info/SOURCES.txt
+ereuse_desktop_app.egg-info/dependency_links.txt
+ereuse_desktop_app.egg-info/requires.txt
+ereuse_desktop_app.egg-info/top_level.txt

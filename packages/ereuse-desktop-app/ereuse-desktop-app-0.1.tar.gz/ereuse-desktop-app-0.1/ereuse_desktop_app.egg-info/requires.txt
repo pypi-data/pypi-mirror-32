@@ -1,0 +1,5 @@
+flask>=0.11
+ereuse-utils[test]
+requests
+flask-cors
+dateutil
