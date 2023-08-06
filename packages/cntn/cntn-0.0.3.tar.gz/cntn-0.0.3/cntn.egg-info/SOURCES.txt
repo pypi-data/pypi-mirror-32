@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+cntn/__init__.py
+cntn/cn_text_normalizer.py
+cntn/pycnnum.py
+cntn.egg-info/PKG-INFO
+cntn.egg-info/SOURCES.txt
+cntn.egg-info/dependency_links.txt
+cntn.egg-info/not-zip-safe
+cntn.egg-info/top_level.txt
