@@ -1,0 +1,10 @@
+django_auth_ldap/__init__.py,sha256=gH-_42oRjvTXoEdBkPb9wVw8fwHjEmU9dv-y-nlo1iM,150
+django_auth_ldap/backend.py,sha256=p2G4cN-sv2ezA3fkIU2PjOy8lURDx6pQsx2K0I-9KXU,34936
+django_auth_ldap/config.py,sha256=MMWA01AMIcWmF_jzw7wxfDnJUlykA4P79rBIBDWSa2o,23837
+django_auth_ldap-1.6.1.dist-info/DESCRIPTION.rst,sha256=UDh6J7VvaVsP04BHbTXRCk7kIT-DyQ1leOlde_cqfaA,2415
+django_auth_ldap-1.6.1.dist-info/LICENSE.txt,sha256=AMUxvGej0AqeNJJK9mvV-_rnJaFl62Z3sAGf2Ng-Reg,1297
+django_auth_ldap-1.6.1.dist-info/METADATA,sha256=lYimGhKNTHTfALybDjDe4DDuoRUuCHQo5doPhUkFTJE,3810
+django_auth_ldap-1.6.1.dist-info/RECORD,,
+django_auth_ldap-1.6.1.dist-info/WHEEL,sha256=5wvfB7GvgZAbKBSE9uX9Zbi6LCL-_KgezgHblXhCRnM,113
+django_auth_ldap-1.6.1.dist-info/metadata.json,sha256=cqy7_XLYGLTG4ZQvUivqgCMV1LfpEo_N_zZFj9WMqak,1580
+django_auth_ldap-1.6.1.dist-info/top_level.txt,sha256=4Pxbf_Gb4gKQnKkTCMAw67kHmVdjfb-kBwi5vK1G7m0,17
