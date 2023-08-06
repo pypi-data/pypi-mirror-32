@@ -1,0 +1,8 @@
+numpy>=1.13.1
+scipy
+matplotlib>=2.0.2
+pandas>=0.18.1
+ipython>=5.5.0
+configobj
+netCDF4
+future
