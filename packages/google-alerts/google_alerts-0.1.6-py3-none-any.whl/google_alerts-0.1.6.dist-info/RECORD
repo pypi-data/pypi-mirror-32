@@ -1,0 +1,9 @@
+google_alerts/__init__.py,sha256=o79SkG5fB3WiM1wHGofAsjRGX8fFZDLiOQtUEPBogUo,16584
+google_alerts/google_alerts.py,sha256=TcaNvOxVsYeb066jp3ZRGYsaQRHZB5NOLxsq-6b6Onw,10944
+google_alerts/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+google_alerts/cli/manage.py,sha256=3NvBMlS8uqoJBaFekeXfiCW2TNit9n0bYEXcIprpX3o,4565
+google_alerts-0.1.6.dist-info/METADATA,sha256=6-wE5BYJYTYNvd9I0kAzRbupWISKgk9kz61lQNt39uQ,3827
+google_alerts-0.1.6.dist-info/RECORD,,
+google_alerts-0.1.6.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+google_alerts-0.1.6.dist-info/entry_points.txt,sha256=ajmwyd3tLCyX86yE6rnEkMZ3LOayeqI4tVl-hg6jI4A,65
+google_alerts-0.1.6.dist-info/top_level.txt,sha256=TXkSMRYd2ck0AYe6J7hiWA9wszOEzK_aB78FKG0TZIw,14
