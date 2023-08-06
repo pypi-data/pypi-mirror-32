@@ -1,0 +1,9 @@
+_sentencepiece.cpython-34m.so,sha256=rQZqaNqvxp7LvxsuzvqNKfCk7b2OZ8pWNWo8nrYnMjs,494564
+sentencepiece.py,sha256=tyMeyMa2fT1CD4gEdhW8YZ_8hHerQus-0wGElTFSwjM,8049
+.libs_sentencepiece/libsentencepiece_train-6724963c.so.0.0.0,sha256=dLH_PKHZkvM1ZKwXqfdCPQzgXz4JDqmTRRTL7wGERgk,1079428
+.libs_sentencepiece/libprotobuf-87d91cfa.so.15.0.1,sha256=oBetXECdyMuxQIz5OQWnFZJoFzCNZdJXm40DgzSuO9I,3069136
+.libs_sentencepiece/libsentencepiece-1de2005b.so.0.0.0,sha256=ePzhsCu9209K10Zc4q6PfgS2zVAd5IUwglYCOSxvS2Q,556788
+sentencepiece-0.1.0.dist-info/WHEEL,sha256=Tw3x8FyoUar3492cISWq7lBHsUFHyGB986JcxD9jR4Q,107
+sentencepiece-0.1.0.dist-info/top_level.txt,sha256=Dfa_0k_EM8klNgb7qGyFkG1Km9n8UazWwG0_KFfHV-g,29
+sentencepiece-0.1.0.dist-info/RECORD,,
+sentencepiece-0.1.0.dist-info/METADATA,sha256=IW4-OfsHzc5UA8wbnUCpMCp5RHSx1SypOXpV7d5oYIo,6476
