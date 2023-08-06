@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+giftbit/__init__.py
+giftbit/exceptions.py
+giftbit/giftbit.py
+giftbit.egg-info/PKG-INFO
+giftbit.egg-info/SOURCES.txt
+giftbit.egg-info/dependency_links.txt
+giftbit.egg-info/top_level.txt
+tests/__init__.py
+tests/test_giftbit.py
