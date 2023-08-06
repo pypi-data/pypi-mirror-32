@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: eurekatrees
+Version: 0.1
+Summary: Spark MLLib debug string converter to visualization
+Home-page: http://github.com/ChuckWoodraska/EurekaTrees
+Author: Chuck Woodraska
+Author-email: chuck.woodraska@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: jinja2
+
+UNKNOWN
+
+
