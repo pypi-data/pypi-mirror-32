@@ -1,0 +1,5 @@
+[console_scripts]
+EV = EV.EV:main
+metaNODE = metaNODE.metaNODE:main
+microDEX = microDEX.microDEX:main
+
