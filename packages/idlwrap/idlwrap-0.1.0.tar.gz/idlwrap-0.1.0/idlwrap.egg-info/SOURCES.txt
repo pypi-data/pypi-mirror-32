@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+idlwrap/__init__.py
+idlwrap/__version__.py
+idlwrap/idlwrap.py
+idlwrap.egg-info/PKG-INFO
+idlwrap.egg-info/SOURCES.txt
+idlwrap.egg-info/dependency_links.txt
+idlwrap.egg-info/requires.txt
+idlwrap.egg-info/top_level.txt
