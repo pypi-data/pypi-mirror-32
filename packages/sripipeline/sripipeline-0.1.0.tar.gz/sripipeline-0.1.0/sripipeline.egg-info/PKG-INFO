@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: sripipeline
+Version: 0.1.0
+Summary: A package to help management and running of D3M pipelines.
+Home-page: https://gitlab.datadrivendiscovery.org/eaugustine/sri-pipeline
+Maintainer: Eriq Augustine
+Maintainer-email: eaugusti@ucsc.edu
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6

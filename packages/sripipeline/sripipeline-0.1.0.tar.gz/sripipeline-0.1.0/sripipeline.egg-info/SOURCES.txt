@@ -1,0 +1,9 @@
+README.md
+setup.py
+sripipeline/__init__.py
+sripipeline/runtime.py
+sripipeline.egg-info/PKG-INFO
+sripipeline.egg-info/SOURCES.txt
+sripipeline.egg-info/dependency_links.txt
+sripipeline.egg-info/requires.txt
+sripipeline.egg-info/top_level.txt
