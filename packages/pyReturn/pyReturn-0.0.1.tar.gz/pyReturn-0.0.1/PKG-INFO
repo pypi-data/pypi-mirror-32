@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyReturn
+Version: 0.0.1
+Summary: A python package to provide auto-formatted json response for web services.
+Home-page: https://github.com/YcMcGong/pyReturn
+Author: Yicong Gong
+Author-email: gongyc3@gmail.com
+License: UNKNOWN
+Description: # pyReturn
+        A python package to provide auto-formatted json response for web services. It follows the MySmileApp protocol.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

@@ -1,0 +1,8 @@
+README.md
+setup.py
+pyReturn/__init__.py
+pyReturn/response.py
+pyReturn.egg-info/PKG-INFO
+pyReturn.egg-info/SOURCES.txt
+pyReturn.egg-info/dependency_links.txt
+pyReturn.egg-info/top_level.txt
