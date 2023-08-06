@@ -1,0 +1,49 @@
+# Tirrilee Contact Form Package
+
+## Install
+
+```bash
+$ pip install Tirrilee-Contact-Form
+```
+
+## settings.py
+```python
+INSTALLED_APPS = [
+    ...
+    'Tirrilee_Contact_Form',
+]
+
+...
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'         # 메일을 호스트하는 서버
+EMAIL_PORT = '587'                    # 이메일 통신 포트(g-mail)
+EMAIL_HOST_USER = 'your@gmail.com'    # 발신할 이메일
+EMAIL_HOST_PASSWORD = 'your password' # 발신할 이메일 비밀번호
+EMAIL_USE_TLS = True                  # TLS 사용 여부에 대한 설정
+DEFAULT_FROM_EMAIL = EMAIL_HOST_USER  # 응답을 받을 메일
+
+TIRRILEE_SUBJECT_INTRO = '[고객문의] '  # 메일 타이틀 인트로
+```
+
+## app/views.py
+```python
+from Tirrilee_Contact_Form.views import ContactView
+from django.views.generic import TemplateView
+
+class Test(TemplateView, ContactView):
+    template_name = 'index.html'
+```
+
+## app/templates/index.html
+
+```html
+
+{% load tirrilee_contact_tags %}
+
+<header> ... </header>
+
+{% render_contact_form %}
+
+<footer> ... </footer>
+```

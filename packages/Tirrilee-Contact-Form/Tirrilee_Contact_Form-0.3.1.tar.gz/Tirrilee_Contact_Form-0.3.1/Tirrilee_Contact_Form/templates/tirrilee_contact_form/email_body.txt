@@ -1,0 +1,9 @@
+Message from the contact form
+Sender : {{ sender }} ({{ email }})
+The message follows.
+================================================================================
+{{ message }}
+================================================================================
+
+--
+message sent with envelope - a contact form app for Django
