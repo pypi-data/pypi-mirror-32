@@ -1,0 +1,12 @@
+hs2client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hs2client/commons.py,sha256=k9cCaIxxe9GQ0yTecXtl8rMmJ_UM3xTFGQOVzoklBUc,8107
+hs2client/hs2client.py,sha256=LK7gTayqqPoXvZ9OZy6HP9yFw4Eo_J1N4m3iM6ECZ30,15138
+hs2client/genthrift/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hs2client/genthrift/TCLIService/TCLIService.py,sha256=BQkOgmo9rOHBtN6XVn6fkk9mZfAmMmVNGihRU1DYVMk,130285
+hs2client/genthrift/TCLIService/__init__.py,sha256=XERxa3ZbrWjXGs8DuVmNGw8jth4LsnQPJnAGCG3PacU,49
+hs2client/genthrift/TCLIService/constants.py,sha256=FhbjUYxXneHLntzbiKrNOQ8LWuo1XlATjCepA7cjKOk,1127
+hs2client/genthrift/TCLIService/ttypes.py,sha256=vbbS1sfX2EREUAI3nIXGujCQ_J37Kbs3Owo6BUfC4P8,258878
+hs2client-0.1.0.dist-info/METADATA,sha256=jkh-Cvj2cv_e5QJSkVD_HbUc9b_HVAGgCTLkwtjXSYA,2468
+hs2client-0.1.0.dist-info/RECORD,,
+hs2client-0.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+hs2client-0.1.0.dist-info/top_level.txt,sha256=AJFAiukg8l1zLf2ujt9Nkh92xY1N5Ndex8OohNfPgHs,10
