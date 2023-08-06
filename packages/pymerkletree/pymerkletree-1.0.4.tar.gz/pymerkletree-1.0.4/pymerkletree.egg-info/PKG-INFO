@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: pymerkletree
+Version: 1.0.4
+Summary: Simple Merkle Tree
+Home-page: https://github.com/aliciawyy/pymerkletools
+Author: Alice Wang, Eder Santana
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Keywords: merkle tree,blockchain
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
