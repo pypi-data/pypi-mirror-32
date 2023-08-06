@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+src/myouji_kenchi/__init__.py
+src/myouji_kenchi/kenchi.py
+src/myouji_kenchi/symbol_table.py
+src/myouji_kenchi/transducer.py
+src/myouji_kenchi.egg-info/PKG-INFO
+src/myouji_kenchi.egg-info/SOURCES.txt
+src/myouji_kenchi.egg-info/dependency_links.txt
+src/myouji_kenchi.egg-info/requires.txt
+src/myouji_kenchi.egg-info/top_level.txt
