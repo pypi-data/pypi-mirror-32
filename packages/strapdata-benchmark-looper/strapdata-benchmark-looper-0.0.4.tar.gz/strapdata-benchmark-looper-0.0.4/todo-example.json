@@ -1,0 +1,12 @@
+[
+  {
+    "CONTEXT_NAME": "default_1000_es_disabled",
+    "STRESS_N": 1000,
+    "CONTEXT_ES_ENABLED": "false"
+  },
+  {
+    "CONTEXT_NAME": "default_1000_es_enabled",
+    "STRESS_N": 1000,
+    "CONTEXT_ES_ENABLED": "false"
+  }
+]
