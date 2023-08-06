@@ -1,0 +1,7 @@
+# The basic fusion file format. This number is used to identify the file format
+# on the BF filename.
+bf_format: '000'
+
+# The BF version. The BF data product may go through versioning. This number
+# is used on the BF filenames.
+bf_version: '001'
