@@ -1,0 +1,14 @@
+PyLivestream/__init__.py,sha256=kQT-cXcwLzZpZv2FJzK6F1Z4LEwU9wVtFT_Z8f3P34A,4751
+PyLivestream/sio.py,sha256=J1-Q5vgp0kpYS8w9tXnSpqMFvEm8LtOBvwNUzn6fWPw,2861
+PyLivestream/stream.py,sha256=OmhI0ERlbXt1dDMd_974cVuJBzWBuzq_-v3HUy2QyZM,8865
+PyLivestream-1.6.3.data/scripts/FileGlobLivestream.py,sha256=_dZY1ShWwm3KSVSx3f2KTgGLYIV8pgkCp0jnYsDNIzE,2188
+PyLivestream-1.6.3.data/scripts/FileLoopLivestream.py,sha256=Ha89VWz_LVO1eFkCT1-SCkMaV5Dmy-49yPSdY6-xzZE,1304
+PyLivestream-1.6.3.data/scripts/ScreenCapture2disk.py,sha256=jF1DfqQ6MNDg8zr4dXW5zXq-nI6hUgNvXHy1t65jgRk,1220
+PyLivestream-1.6.3.data/scripts/ScreenshareLivestream.py,sha256=VKDHZMGjHZuxIHMHZ3pocmAfUSu3JSZHfVqfqmMtz44,1258
+PyLivestream-1.6.3.data/scripts/WebcamLivestream.py,sha256=mHQNq3VOmODMKOkvxE8W0fv88AY1QeNUkR0ZRZ2xCmE,1287
+PyLivestream-1.6.3.dist-info/DESCRIPTION.rst,sha256=N6iW9KFmfimV5NcsF4NKrArGdBbDniFV-sGaPy10xUU,10669
+PyLivestream-1.6.3.dist-info/METADATA,sha256=AwePKBkxKKyCY85TMq9U5623gnsx0cLg4sXr3rWQKuo,11718
+PyLivestream-1.6.3.dist-info/RECORD,,
+PyLivestream-1.6.3.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+PyLivestream-1.6.3.dist-info/metadata.json,sha256=0r4LhVfnyF0xzn9llaiJ5P7vxEcFnnqFb54xVk1GcaQ,1124
+PyLivestream-1.6.3.dist-info/top_level.txt,sha256=wouZgC9YMzek3P0aIhwFV4jan6ZElP5VVFGEIpnYoKo,13
