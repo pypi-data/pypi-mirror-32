@@ -1,0 +1,8 @@
+pyvss/__init__.py,sha256=T_2hRcbH0nmCz8BJLVvVj1H5KWNjDLpTfDS6TQPiyLE,23
+pyvss/exceptions.py,sha256=njHriooRRu4eCJtjXEemZ5i3XhajrGd0EBblQ6uk3bA,39
+pyvss/helper.py,sha256=FaRnKC1L-cncMCOxzw8xpfhWb9sgIF0hUNZUEgBCHjc,2207
+pyvss/manager.py,sha256=Un5UPH1A3fvxdChvSXtkL7d3j4ytPKLfFheIHRGrXNA,153686
+pyvss-0.9.21.dist-info/METADATA,sha256=ZR6HHc3kzKgcIgoqN6VlDAC04xhOt51g5xZHy_dWw5w,6673
+pyvss-0.9.21.dist-info/RECORD,,
+pyvss-0.9.21.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+pyvss-0.9.21.dist-info/top_level.txt,sha256=G2sITBKMrEXH1oNfoVLXQWXi3KE0kw1QbA95o5cb7x4,6
