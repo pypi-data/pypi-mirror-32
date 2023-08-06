@@ -1,0 +1,15 @@
+dotdrop/__init__.py,sha256=G28bs-5xH1hTFrUPULNSq4u35XxeuFVUigArRaoufeM,231
+dotdrop/action.py,sha256=No-i6JJw5gCvtxL7NwNKumeLb6aHvt55Xg_l5_NRObw,1580
+dotdrop/config.py,sha256=1okkDVIGgZRpzNgBzqIvugDJ2FBjUrN3ahFpOIhzyZ8,18111
+dotdrop/dotdrop.py,sha256=jOBRb6APOorOrZmjHbPGWxmUNYhXxNHrph0JlwT8-Ho,13207
+dotdrop/dotfile.py,sha256=tbNVyDhrksxbrrg3tyTC7JicGJV8f8WlntvW1XbBYWI,926
+dotdrop/installer.py,sha256=58CxLhrVAmCmAz_TAQHpVGAMkQlM3llREn-aFSKfHwg,8109
+dotdrop/logger.py,sha256=jNjEBHGsUR5GoN93MljwUBaTYuDO-jvX0Qgf8jo_C8c,2230
+dotdrop/templategen.py,sha256=neWaEeq3qHpekdh6ybfl74xneeYUg4bPPaltH0hassw,2840
+dotdrop/utils.py,sha256=6zFxmwlCuu3r6xP-WdT9MfZHtlHPd1lIVGpIhKomEso,1594
+dotdrop-0.17.0.dist-info/LICENSE.txt,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+dotdrop-0.17.0.dist-info/METADATA,sha256=X6K3kyZ1tSL-meMau7eYNC4sscC2SFo6Hi5rjgUNeFw,21983
+dotdrop-0.17.0.dist-info/RECORD,,
+dotdrop-0.17.0.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+dotdrop-0.17.0.dist-info/entry_points.txt,sha256=3nMGyQ0sLrtKcxth-OJlj706H2AFiAuzVP_1tpQj_tY,42
+dotdrop-0.17.0.dist-info/top_level.txt,sha256=siSArtAqFloX4PSUQi5Z8z-XLPO3ECS7p-r8yO7sJLg,8
