@@ -1,0 +1,15 @@
+README.md
+setup.py
+ridge/__init__.py
+ridge/core.py
+ridge.egg-info/PKG-INFO
+ridge.egg-info/SOURCES.txt
+ridge.egg-info/dependency_links.txt
+ridge.egg-info/top_level.txt
+ridge/models/__init__.py
+ridge/models/factorization_machine.py
+ridge/models/matrix_factorization.py
+ridge/models/softrank.py
+ridge/preprocess/__init__.py
+ridge/preprocess/vectorize.py
+ridge/racer/gradient_steps.pyx
