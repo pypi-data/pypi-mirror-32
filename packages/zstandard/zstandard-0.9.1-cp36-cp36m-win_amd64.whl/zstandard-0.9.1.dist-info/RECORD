@@ -1,0 +1,7 @@
+_zstd_cffi.cp36-win_amd64.pyd,sha256=qeYXZurl6iE2a1N1xwQIOB8UT1oGKud6BeoCq_F7xRQ,473088
+zstd.cp36-win_amd64.pyd,sha256=MfLoAidW4fpIrP3J-AgRoPnCPdkl9Msfz_CqTZ3O-Ss,420864
+zstandard/__init__.py,sha256=4DRHUkZLLm3oRVo722G2zX0Y2qcFLqnSU8PNoQgdDl0,2386
+zstandard-0.9.1.dist-info/METADATA,sha256=BlGHFU4bC0OeoFgLzllLD0nTgPFHxbrG0LRIgPA2y_g,56050
+zstandard-0.9.1.dist-info/RECORD,,
+zstandard-0.9.1.dist-info/WHEEL,sha256=8lF7rQ0d0sakZQMXAA7xEldG945Vtpqele_TTg8ouuA,106
+zstandard-0.9.1.dist-info/top_level.txt,sha256=lnNgWkJr7yZ_Y2icf7CeCpjILnorYdtVRTichbXIwvY,26
