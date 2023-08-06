@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: pyg4ometry
+Version: 0.1.2
+Summary: View FLUKA geometry meshes and convert to GDML.
+Home-page: https://bitbucket.org/jairhul/pyfluka/
+Author: Stuart D Walker
+Author-email: stuart.walker.2011@live.rhul.ac.uk
+License: GPL3
+Description: UNKNOWN
+Keywords: geometry bdsim particle physics accelerators
+Platform: UNKNOWN
+Requires-Python: ==2.7.*
