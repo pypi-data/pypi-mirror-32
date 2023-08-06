@@ -1,0 +1,8 @@
+recursive-include share/icons *.png
+recursive-include share/icons *.svg
+
+include share/flatcam.desktop
+include LICENSE
+include README.md
+include flatcam/*.py
+include MANIFEST.in
