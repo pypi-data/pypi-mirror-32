@@ -1,0 +1,3 @@
+[console_scripts]
+cppumockify = cppumockify:main
+
