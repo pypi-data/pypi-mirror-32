@@ -1,0 +1,1300 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "required": [
+    "mesh_type"
+  ],
+  "allOf": [
+    {
+      "properties": {
+        "mesh_type": {
+          "title": "Mesh Type",
+          "describe": "Choose the type of mesh.",
+          "type": "string",
+          "enum": [
+            "Globe3D",
+            "Globe3DSurfaceWaves",
+            "SphericalChunk3D",
+            "SphericalChunk3DSurfaceWaves",
+            "Circular2D",
+            "AxiSEM",
+            "AxiSEMCartesian",
+            "Cartesian2D",
+            "Cartesian3D",
+            "TidalLoading"
+          ]
+        }
+      }
+    },
+    {
+      "type": "object",
+      "anyOf": [
+        {
+          "allOf": [
+            {
+              "properties": {
+                "mesh_type": {
+                  "description": "Generate a single chunk 3D mesh.",
+                  "enum": [
+                    "SphericalChunk3D"
+                  ]
+                },
+                "basic": {},
+                "advanced": {},
+                "attenuation": {},
+                "spherical": {},
+                "refinement3D": {},
+                "chunk3D": {},
+                "topography": {},
+                "ocean": {},
+                "gravity_mesh": {},
+                "mesh_mask": {}
+              },
+              "required": [
+                "basic",
+                "advanced",
+                "attenuation",
+                "spherical",
+                "refinement3D",
+                "chunk3D",
+                "topography",
+                "ocean"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "$ref": "#/definitions"
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "properties": {
+                "mesh_type": {
+                  "description": "Generate a single chunk 3D mesh.",
+                  "enum": [
+                    "SphericalChunk3DSurfaceWaves"
+                  ]
+                },
+                "basic_sw": {},
+                "advanced": {},
+                "attenuation": {},
+                "spherical": {},
+                "refinement3D": {},
+                "chunk3D": {},
+                "topography": {},
+                "ocean": {},
+                "mesh_mask": {}
+              },
+              "required": [
+                "basic_sw",
+                "advanced",
+                "attenuation",
+                "spherical",
+                "refinement3D",
+                "chunk3D",
+                "topography",
+                "ocean"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "$ref": "#/definitions"
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "properties": {
+                "mesh_type": {
+                  "description": "Generate a 3D cubed sphere mesh.",
+                  "enum": [
+                    "Globe3D"
+                  ]
+                },
+                "basic": {},
+                "advanced": {},
+                "attenuation": {},
+                "spherical": {},
+                "refinement": {},
+                "topography": {},
+                "ocean": {},
+                "gravity_mesh": {},
+                "mesh_mask": {}
+              },
+              "required": [
+                "basic",
+                "advanced",
+                "attenuation",
+                "spherical",
+                "refinement",
+                "topography",
+                "ocean",
+                "gravity_mesh"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "$ref": "#/definitions"
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "properties": {
+                "mesh_type": {
+                  "description": "Generate a 3D cubed sphere mesh.",
+                  "enum": [
+                    "Globe3DSurfaceWaves"
+                  ]
+                },
+                "basic_sw": {},
+                "advanced": {},
+                "attenuation": {},
+                "spherical": {},
+                "refinement": {},
+                "topography": {},
+                "ocean": {},
+                "gravity_mesh": {},
+                "mesh_mask": {}
+              },
+              "required": [
+                "basic_sw",
+                "advanced",
+                "attenuation",
+                "spherical",
+                "refinement",
+                "topography",
+                "ocean",
+                "gravity_mesh"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "$ref": "#/definitions"
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "properties": {
+                "mesh_type": {
+                  "description": "Generate an AxiSEM mesh.",
+                  "enum": [
+                    "AxiSEM"
+                  ]
+                },
+                "basic": {},
+                "advanced": {},
+                "attenuation": {},
+                "spherical": {},
+                "chunk2D": {},
+                "refinement": {}
+              },
+              "required": [
+                "basic",
+                "advanced",
+                "attenuation",
+                "spherical",
+                "chunk2D",
+                "refinement"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "$ref": "#/definitions"
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "properties": {
+                "mesh_type": {
+                  "description": "Generate a cartesian AxiSEM mesh.",
+                  "enum": [
+                    "AxiSEMCartesian"
+                  ]
+                },
+                "basic": {},
+                "advanced": {},
+                "attenuation": {},
+                "cartesian2Daxisem": {},
+                "refinement": {}
+              },
+              "required": [
+                "basic",
+                "advanced",
+                "attenuation",
+                "cartesian2Daxisem",
+                "refinement"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "$ref": "#/definitions"
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "properties": {
+                "mesh_type": {
+                  "description": "Generate a 2D cartesian mesh.",
+                  "enum": [
+                    "Cartesian2D"
+                  ]
+                },
+                "basic": {},
+                "advanced": {},
+                "attenuation": {},
+                "cartesian2D": {},
+                "refinement": {}
+              },
+              "required": [
+                "basic",
+                "advanced",
+                "attenuation",
+                "cartesian2D",
+                "refinement"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "$ref": "#/definitions"
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "properties": {
+                "mesh_type": {
+                  "description": "Generate a 3D cartesian mesh.",
+                  "enum": [
+                    "Cartesian3D"
+                  ]
+                },
+                "basic": {},
+                "advanced": {},
+                "attenuation": {},
+                "cartesian3D": {},
+                "refinement3D": {}
+              },
+              "required": [
+                "basic",
+                "advanced",
+                "attenuation",
+                "cartesian3D",
+                "refinement3D"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "$ref": "#/definitions"
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "properties": {
+                "mesh_type": {
+                  "description": "Generate a circular 2D mesh.",
+                  "enum": [
+                    "Circular2D"
+                  ]
+                },
+                "basic": {},
+                "advanced": {},
+                "attenuation": {},
+                "spherical2D": {},
+                "refinement": {},
+                "chunk2D": {}
+              },
+              "required": [
+                "basic",
+                "advanced",
+                "attenuation",
+                "spherical2D",
+                "refinement",
+                "chunk2D"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "$ref": "#/definitions"
+            }
+          ]
+        },
+        {
+          "allOf": [
+            {
+              "properties": {
+                "mesh_type": {
+                  "description": "Generate a Tidal Loading Mesh.",
+                  "enum": [
+                    "TidalLoading"
+                  ]
+                },
+                "basic_tl": {},
+                "advanced_tl": {},
+                "topography_tl": {},
+                "spherical_tl": {},
+                "gravity_mesh_tl": {}
+              },
+              "required": [
+                "basic_tl",
+                "advanced_tl",
+                "topography_tl",
+                "spherical_tl",
+                "gravity_mesh_tl"
+              ],
+              "additionalProperties": false
+            },
+            {
+              "$ref": "#/definitions"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "definitions": {
+    "properties": {
+      "basic": {
+        "title": "Basic Parameters",
+        "description": "The most important parameters.",
+        "type": "object",
+        "properties": {
+          "model": {
+            "type": "string",
+            "title": "Model",
+            "description": "Model Name for predefined models or filename for external model file.",
+            "default": "prem_ani"
+          },
+          "period": {
+            "type": "number",
+            "title": "Dominant Period",
+            "description": "The desired dominant period of the mesh.",
+            "default": 150,
+            "minimum": 0,
+            "exclusiveMinimum": true
+          }
+        },
+        "required": [
+          "model",
+          "period"
+        ],
+        "additionalProperties": false
+      },
+      "basic_sw": {
+        "title": "Basic Parameters for Surface Wave Meshes",
+        "description": "The most important parameters.",
+        "type": "object",
+        "properties": {
+          "model": {"$ref": "#/definitions/properties/basic/properties/model"},
+          "nelem_vertical": {
+            "type": "array",
+            "title": "Number of elements in vertical direction",
+            "description": "Number of elements in vertical direction in each layer in the background model, starting from the top",
+            "default": [],
+            "items": {
+              "type": "number",
+              "minimum": 1
+            },
+            "minItems": 0
+          },
+          "lmax_at_discontinuities": {
+            "type": "array",
+            "title": "Maximum angular order at all discontinuities in the model",
+            "description": "Maximum angular order at all discontinuities in the model",
+            "default": [32, 32],
+            "items": {
+              "type": "number",
+              "minimum": 1
+            },
+            "minItems": 2
+          },
+          "max_nrefine": {
+            "type": "integer",
+            "title": "Maximum number of horizontal refinements",
+            "description": "Maximum number of horizontal refinements",
+            "default": 3,
+            "minimum": 0
+          }
+        },
+        "required": [
+          "model",
+          "nelem_vertical",
+          "lmax_at_discontinuities",
+          "max_nrefine"
+        ],
+        "additionalProperties": false
+      },
+      "advanced": {
+        "type": "object",
+        "additionalProperties": false,
+        "title": "Advanced Parameters",
+        "description": "Advanced parameters for more control.",
+        "properties": {
+          "elements_per_wavelength": {
+            "type": "number",
+            "title": "Elements per Wavelength",
+            "description": "Number of elements per wavelength. Used to calculate element sizes to satisfy the desired dominant period.",
+            "default": 2.0,
+            "minimum": 0.0,
+            "exclusiveMinimum": true
+          },
+          "courant_number": {
+            "type": "number",
+            "title": "Courant Number",
+            "description": "Courant Number used to estimate dt.",
+            "default": 0.6,
+            "minimum": 0.0,
+            "exclusiveMinimum": true
+          },
+          "simplex": {
+            "type": "boolean",
+            "title": "Simplex",
+            "description": "Convert to a simplex mesh: Quadrilateral to 2 Triangles or Hexahedra to 40 Tetrahedra",
+            "default": false
+          },
+          "model_parameters": {
+            "type": "array",
+            "title": "Model Parameters",
+            "description": "Model parameters to put into the mesh, defaults to the parametrization used by the background model.",
+            "default": [],
+            "items": {
+              "type": "string",
+              "enum": [
+                "VP",
+                "VS",
+                "VSV",
+                "VSH",
+                "VPV",
+                "VPH",
+                "RHO",
+                "QMU",
+                "QKAPPA"
+              ]
+            },
+            "uniqueItems": true
+          },
+          "velocity_model_representation": {
+            "type": "string",
+            "title": "Velocity Model Representation",
+            "description": "How to represent the velocity model on the mesh. element_nodes: values are stored on each node of each element, allows discontinuities and (bi/tri)linear variations, but produces large files. elements: one value per element, allows discontinuities but the model will be piecewise constant. nodes: one value per node, enforces a continuous model, using mean at values on discontinuities.",
+            "default": "element_nodes",
+            "enum": [
+              "element_nodes",
+              "elements",
+              "nodes"
+            ]
+          },
+          "model_spline_order": {
+            "type": "integer",
+            "title": "Model Spline Order",
+            "description": "Spline order used for model interpolation in case of layered models. Ignored for PREM like polynomial models.",
+            "default": 3,
+            "minimum": 1,
+            "maximum": 5
+          },
+          "compression": {
+            "type": "boolean",
+            "title": "Compress Mesh",
+            "description": "If true, the final mesh will be compressed with gzip compression level 2. Compression is for the most part only interesting for constant values and the compression level does matter much in that case.",
+            "default": true
+          }
+        },
+        "required": [
+          "elements_per_wavelength",
+          "courant_number",
+          "model_parameters",
+          "simplex",
+          "velocity_model_representation",
+          "model_spline_order",
+          "compression"
+        ],
+        "additionalProperties": false
+      },
+      "attenuation": {
+        "type": "object",
+        "title": "Attenuation Arguments",
+        "description": "Parameters for the memory variable approximation of attenuation.",
+        "properties": {
+          "number_of_linear_solids": {
+            "type": "integer",
+            "title": "Number of Linear Solids",
+            "description": "The number of standard linear solids used.",
+            "default": 5,
+            "minimum": 1
+          },
+          "frequencies": {
+            "type": "array",
+            "title": "Frequencies",
+            "description": "Minimum and maximum frequencies in the attenuation band. If either is not set, it will be determined automatically. Will be overwritten by 'auto_band'.",
+            "default": [
+              0.001,
+              1.0
+            ],
+            "items": {
+              "type": "number",
+              "minimum": 0,
+              "exclusiveMinimum": true
+            },
+            "additionalItems": false,
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "power_law_reference_frequency": {
+            "type": "number",
+            "title": "Power Law Reference Frequency",
+            "description": "Reference frequency for power law Q = Q_0 * (f / f_0)^alpha, where Q_0 is taken from background model [Hz].",
+            "default": 1.0,
+            "minimum": 0.0,
+            "exclusiveMinimum": true
+          },
+          "power_law_alpha": {
+            "type": "number",
+            "title": "Power Law Alpha",
+            "description": "Exponent alpha for power law Q = Q_0 * (f / f_0)^alpha.",
+            "default": 0.0
+          },
+          "auto_band": {
+            "type": "boolean",
+            "title": "Auto frequency bands",
+            "description": "Automatically determine attenuation band [f_min, f_max]. Will overwrite any given frequencies.",
+            "default": false
+          }
+        },
+        "required": [
+          "frequencies",
+          "number_of_linear_solids",
+          "power_law_alpha",
+          "power_law_reference_frequency"
+        ],
+        "additionalProperties": false
+      },
+      "cartesian_common": {
+        "properties": {
+          "x": {
+            "type": "array",
+            "title": "X Range",
+            "description": "Horizontal (x direction) dimension of the domain in km.",
+            "default": [
+              0.0,
+              null
+            ],
+            "items": {
+              "anyOf": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "additionalItems": false,
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "y": {
+            "type": "array",
+            "title": "Y Range",
+            "description": "Horizontal (y direction) dimension of the domain in km. The second item defaults to the second item of the x dimension if not specified.",
+            "default": [
+              0.0,
+              null
+            ],
+            "items": {
+              "anyOf": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "additionalItems": false,
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "min_z": {
+            "type": "number",
+            "title": "Minimum Z Value",
+            "description": "Minimum z value, of the domain, where z = 0 corresponds to the lowest discontinuity in the 1D model.",
+            "default": 0.0,
+            "minimum": 0.0
+          }
+        }
+      },
+      "cartesian2D": {
+        "type": "object",
+        "title": "Cartesian Arguments",
+        "description": "Parameters for cartesian meshes.",
+        "properties": {
+          "x": {"$ref": "#/definitions/properties/cartesian_common/properties/x"},
+          "min_z": {"$ref": "#/definitions/properties/cartesian_common/properties/min_z"}
+        },
+        "required": [
+          "x",
+          "min_z"
+        ],
+        "additionalProperties": false
+      },
+      "cartesian3D": {
+        "type": "object",
+        "title": "Cartesian 3D Arguments",
+        "description": "Parameters for 3D cartesian meshes.",
+        "properties": {
+          "x": {"$ref": "#/definitions/properties/cartesian_common/properties/x"},
+          "y": {"$ref": "#/definitions/properties/cartesian_common/properties/y"},
+          "min_z": {"$ref": "#/definitions/properties/cartesian_common/properties/min_z"}
+        },
+        "required": [
+          "x",
+          "y",
+          "min_z"
+        ],
+        "additionalProperties": false
+      },
+      "cartesian2Daxisem": {
+        "type": "object",
+        "title": "AxiSEM Cartesian Arguments",
+        "description": "Parameters for AxiSEM cartesian meshes.",
+        "properties": {
+          "x": {
+            "type": "number",
+            "title": "X Range",
+            "description": "Horizontal (x direction) dimension of the domain in km.",
+            "default": 0.0,
+            "minimum": 0.0
+          },
+          "min_z": {"$ref": "#/definitions/properties/cartesian_common/properties/min_z"}
+        },
+        "required": [
+          "x",
+          "min_z"
+        ],
+        "additionalProperties": false
+      },
+      "spherical_common": {
+        "properties": {
+          "min_radius": {
+            "type": "number",
+            "title": "Mimumum Radius",
+            "description": "Minimum radius in km.",
+            "default": 0.0,
+            "minimum": 0.0
+          },
+          "ellipticity": {
+            "type": "number",
+            "title": "Ellipticity",
+            "description": "Ellipticity of the planet (WGS84: 0.0033528106647474805, GRS80: 0.003352810681182319, MARS: 0.00589)",
+            "default": 0.0
+          },
+          "gravity": {
+            "type": "boolean",
+            "title": "Add Gravitational Acceleration",
+            "description": "Add gravitational acceleration to the mesh.",
+            "default": false,
+            "minimum": 0.0
+          }
+        },
+        "required": [
+          "min_radius",
+          "ellipticity",
+          "gravity"
+        ],
+        "additionalProperties": false
+      },
+      "spherical": {
+        "type": "object",
+        "title": "Spherical Arguments",
+        "description": "Parameters for spherical meshes.",
+        "properties": {
+          "min_radius": {"$ref": "#/definitions/properties/spherical_common/properties/min_radius"},
+          "ellipticity": {"$ref": "#/definitions/properties/spherical_common/properties/ellipticity"},
+          "gravity": {"$ref": "#/definitions/properties/spherical_common/properties/gravity"}
+        },
+        "required": [
+          "min_radius",
+          "ellipticity",
+          "gravity"
+        ],
+        "additionalProperties": false
+      },
+      "spherical2D": {
+        "type": "object",
+        "title": "Spherical Arguments",
+        "description": "Parameters for spherical meshes.",
+        "properties": {
+          "min_radius": {"$ref": "#/definitions/properties/spherical_common/properties/min_radius"}
+        },
+        "required": [
+          "min_radius"
+        ],
+        "additionalProperties": false
+      },
+      "refinement_common": {
+        "properties": {
+          "refinement_style1": {
+            "type": "string",
+            "title": "Refinement Style",
+            "description": "The mesh refinement style.",
+            "default": "doubling",
+            "enum": [
+              "doubling",
+              "tripling",
+              "doubling_single_layer"
+            ]
+          },
+          "refinement_style2": {
+            "type": "string",
+            "title": "Refinement Style",
+            "description": "The mesh refinement style.",
+            "default": "doubling",
+            "enum": [
+              "doubling",
+              "tripling"
+            ]
+          },
+          "hmax_refinement": {
+            "type": "number",
+            "title": "h_max Refinement",
+            "description": "criterion (vertical oversamping factor BEFORE the refinement) for moving refinement layers downwards to avoid small timesteps caused by refinement layers. Smaller values = more aggressive, needs to be > 1.",
+            "default": 1.5,
+            "minimum": 1.0,
+            "exclusiveMinimum": true
+          },
+          "refinement_bottom_up": {
+            "type": "boolean",
+            "title": "Refinement Bottom Up",
+            "description": "Top down approach means minimizing number of elements at the surface at the cost of more elements at the bottom (default). If the option refinement_bottom_up is set, the bottom up approach is used instead, that is minimizing number of elements at the bottom at the cost of more elements at the surface. Which one is more efficient depends on the velocity model and refinement style.",
+            "default": false
+          }
+        }
+      },
+      "refinement3D": {
+        "type": "object",
+        "title": "Refinement Arguments",
+        "description": "Parameters for refinement of the meshes.",
+        "properties": {
+          "refinement_style": {"$ref": "#/definitions/properties/refinement_common/properties/refinement_style1"},
+          "hmax_refinement": {"$ref": "#/definitions/properties/refinement_common/properties/hmax_refinement"},
+          "refinement_bottom_up": {"$ref": "#/definitions/properties/refinement_common/properties/refinement_bottom_up"}
+        },
+        "required": [
+          "refinement_style",
+          "hmax_refinement",
+          "refinement_bottom_up"
+        ],
+        "additionalProperties": false
+      },
+      "refinement": {
+        "type": "object",
+        "title": "Refinement Arguments",
+        "description": "Parameters for refinement of the meshes.",
+        "properties": {
+          "refinement_style": {"$ref": "#/definitions/properties/refinement_common/properties/refinement_style2"},
+          "hmax_refinement": {"$ref": "#/definitions/properties/refinement_common/properties/hmax_refinement"},
+          "refinement_bottom_up": {"$ref": "#/definitions/properties/refinement_common/properties/refinement_bottom_up"}
+        },
+        "required": [
+          "refinement_style",
+          "hmax_refinement",
+          "refinement_bottom_up"
+        ],
+        "additionalProperties": false
+      },
+      "chunk_common": {
+        "properties": {
+          "max_colatitude2D": {
+            "type": "number",
+            "title": "Maximmum Colatitude",
+            "description": "Maximum colatitude of the mesh from the center.",
+            "default": 180.0,
+            "minimum": 0.0,
+            "maximum": 180.0,
+            "exclusiveMinimum": true
+          },
+          "max_colatitude3D": {
+            "type": "number",
+            "title": "Maximmum Colatitude",
+            "description": "Maximum colatitude of the mesh from the center.",
+            "default": 45.0,
+            "minimum": 0.0,
+            "maximum": 75.0,
+            "exclusiveMinimum": true
+          }
+        }
+      },
+      "chunk2D": {
+        "type": "object",
+        "title": "Chunk2D Arguments",
+        "description": "Parameters for 2D circular chunks.",
+        "properties": {
+          "max_colatitude": {"$ref": "#/definitions/properties/chunk_common/properties/max_colatitude2D"}
+        },
+        "required": [
+          "max_colatitude"
+        ],
+        "additionalProperties": false
+      },
+      "chunk3D": {
+        "type": "object",
+        "title": "Chunk3D Arguments",
+        "description": "Parameters for single chunk 3D meshes.",
+        "properties": {
+          "max_colatitude1": {"$ref": "#/definitions/properties/chunk_common/properties/max_colatitude3D"},
+          "max_colatitude2": {"$ref": "#/definitions/properties/chunk_common/properties/max_colatitude3D"},
+          "euler_angles": {
+            "type": "array",
+            "title": "Euler Angles",
+            "description": "Euler angles to rotate a spherical chunk. E.g. to rotate to a center at lon lat use lat lon 0 (using geocentric latitude!).",
+            "default": [
+              null,
+              null,
+              null
+            ],
+            "items": {
+              "anyOf": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "additionalItems": false,
+            "minItems": 3,
+            "maxItems": 3
+          }
+        },
+        "required": [
+          "max_colatitude1",
+          "max_colatitude2",
+          "euler_angles"
+        ],
+        "additionalProperties": false
+      },
+      "topography": {
+        "type": "object",
+        "title": "Topography Arguments",
+        "description": "Adding topography to the mesh.",
+        "properties": {
+          "topography_file": {
+            "type": "string",
+            "title": "Topography Filename",
+            "description": "Filename for topography, generated with salvus_topo: 'https://gitlab.com/Salvus/salvus_topo'",
+            "default": ""
+          },
+          "topography_lmax": {
+            "type": "number",
+            "title": "Topography l_max",
+            "description": "lmax of the topography to be used.",
+            "default": 128
+          },
+          "moho_topography_file": {
+            "type": "string",
+            "title": "Moho Topography Filename",
+            "description": "Filename for moho topography, generated with salvus_topo: 'https://gitlab.com/Salvus/salvus_topo'",
+            "default": ""
+          },
+          "moho_topography_lmax": {
+            "type": "number",
+            "title": "Moho Topography l_max",
+            "description": "lmax of the moho topography to be used.",
+            "default": 128
+          },
+          "anisotropic_refinement_style": {
+            "type": "string",
+            "title": "Refinement Style for Anisotropic Refinement",
+            "description": "Use anisotropic refinement to adapt the number of elements in vertical direction to the crustal thickness. Assumes to have a single crustal layer. Gravity mesh is not compatible with doubling.",
+            "default": "none",
+            "enum": [
+              "none",
+              "doubling",
+              "tripling"
+            ]
+          }
+        },
+        "required": [
+          "topography_file",
+          "topography_lmax",
+          "moho_topography_file",
+          "moho_topography_lmax",
+          "anisotropic_refinement_style"
+        ],
+        "additionalProperties": false
+      },
+      "ocean": {
+        "type": "object",
+        "title": "Ocean Arguments",
+        "description": "Adding a fluid ocean layer to the mesh.",
+        "properties": {
+          "bathymetry_file": {
+            "type": "string",
+            "title": "Bathymetry Filename",
+            "description": "Filename for bathymetry, generated with salvus_topo: 'https://gitlab.com/Salvus/salvus_topo'",
+            "default": ""
+          },
+          "bathymetry_lmax": {
+            "type": "number",
+            "title": "Bathymetry l_max",
+            "description": "lmax of the bathymetry to be used.",
+            "default": 128
+          },
+          "ocean_layer_vp": {
+            "type": "number",
+            "title": "P-wave velocity in the ocean.",
+            "description": "P-wave velocity in the ocean in m/s.",
+            "default": 1450
+          },
+          "ocean_layer_density": {
+            "type": "number",
+            "title": "Density in the ocean.",
+            "description": "Density in the ocean in kg/m**3.",
+            "default": 1020
+          },
+          "ocean_layer_cutoff": {
+            "type": "number",
+            "title": "Minimum bathymetry to be treated as fluid elements.",
+            "description": "Minimum bathymetry in km to be treated as fluid elements, smaller elements will be masked out and ocean loading approximation is used.",
+            "default": 1
+          },
+          "shore_smoothing_factor": {
+            "type": "number",
+            "title": "Shore smoothing factor",
+            "description": "Fraction of the element size to move the shore edge towards the water. For complicated shore lines smaller values might work better.",
+            "default": 0.33,
+            "minimum": 0.0,
+            "maximum": 0.5
+          },
+          "ocean_layer_style": {
+            "type": "string",
+            "title": "Mesh Style for the Ocean Layer",
+            "description": "How to add the ocean layer. 'loding' only adds the bathymetry as a variable to be used for ocean loading, 'extrude' adds a single layer, 'anisotropic_*' adds a locally varying number of elements. The latter is not compatible with anisotropic_refinement_style 'doubling' in the crust'. Only 'anisotropic_tripling' is compatible with a mesh in the external domain.",
+            "default": "none",
+            "enum": [
+              "none",
+              "loading",
+              "extrude",
+              "anisotropic_doubling", 
+              "anisotropic_tripling"
+            ]
+          },
+          "refine_at_ocean_bottom": {
+            "type": "boolean",
+            "title": "Add refinement (tripling) at the ocean bottom.",
+            "description": "Add refinement (tripling) at the ocean bottom. This should generally not be needed for sources in the crust due to total reflection of seismic waves at the ocean bottom. Uses tripling via local refinements, hence somewhat slow.",
+            "default": false
+          }
+        },
+        "required": [
+          "bathymetry_file",
+          "bathymetry_lmax",
+          "ocean_layer_vp",
+          "ocean_layer_density",
+          "ocean_layer_cutoff",
+          "ocean_layer_style",
+          "refine_at_ocean_bottom"
+        ],
+        "additionalProperties": false
+      },
+      "gravity_mesh": {
+        "type": "object",
+        "title": "Exterior Domain",
+        "description": "Adding the Exterior Domain for Gravity Computation.",
+        "properties": {
+          "add_exterior_domain": {
+            "type": "boolean",
+            "title": "Add Exterior Domain Switch",
+            "description": "Switch for addition of exterior domain.",
+            "default": false
+          },
+          "ncoarse": {
+            "type": "number",
+            "title": "Number of Coarsening Layers",
+            "description": "Number of coarsening layer between surface and outer boundary.",
+            "default": 1,
+            "minimum": 0,
+            "exclusiveMinimum": false
+          },
+          "nelem_buffer_surface": {
+            "type": "number",
+            "title": "Number of Buffer Elements",
+            "description": "Number of buffer elements between the surface and the first coarsening layer.",
+            "default": 1,
+            "minimum": 0,
+            "exclusiveMinimum": false
+          },
+          "nelem_buffer_outer": {
+            "type": "number",
+            "title": "Number of Buffer Elements",
+            "description": "Number of buffer elements between the last coarsening layer and the outer boundary.",
+            "default": 5,
+            "minimum": 0,
+            "exclusiveMinimum": false
+          },
+          "nelem_bottom_integer_multiple": {
+            "type": "number",
+            "title": "Integer Multiple for Number of Elements at ICB",
+            "description": "Number elements at the ICB will be an integer multiple of this number. This can be used to enable larger ncoarse by setting it to 2 ** n for doubling and 3 ** n for tripling, where n = ncoarse - number of refinements in the mantle + 1.",
+            "default": 1,
+            "minimum": 1,
+            "exclusiveMinimum": false
+          },
+          "dr_basis": {
+            "type": "number",
+            "title": "dr Basis",
+            "description": "Basis for power law dr in outer layer.",
+            "default": 1.5,
+            "minimum": 1.0,
+            "exclusiveMinimum": true
+          }
+        },
+        "required": [
+          "add_exterior_domain",
+          "ncoarse",
+          "nelem_buffer_surface",
+          "nelem_buffer_outer",
+          "nelem_bottom_integer_multiple",
+          "dr_basis"
+        ]
+      },
+      "mesh_mask": {
+        "type": "object",
+        "title": "Custom Mesh Mask",
+        "description": "Set a custom mask for the mesh.",
+        "properties": {
+          "filename": {
+            "type": "string",
+            "title": "Point cloud file",
+            "description": "This must be a JSON or YAML file storing pairs of cartesian x, y, z points on the surface of the unit sphere. They must be stored under the key 'points'. Only elements that have at least a single node whose surface projection is within 'buffer_region' kilometers to the next closest point will be part of the final mesh. The 'r1' (and 'r0' if it exists) side sets will remain, any new boundary will be part of the 'inner_boundary' side set.",
+            "default": ""
+          },
+          "mode": {
+            "type": "string",
+            "title": "Masking mode",
+            "description": "Mask based on longitude/latitude of the elements or on the raypath.",
+            "default": "surface",
+            "enum": [
+              "surface",
+              "ray"
+            ]
+          },
+          "buffer_region": {
+            "type": "number",
+            "title": "Buffer Region In Meter",
+            "description": "Buffer region in kilometer around each given point. Use this to add a reasonable number of elements between the given points and the boundary to reduce boundary effects and to, for example, allow for absorbing layers.",
+            "default": 1000,
+            "minimum": 0,
+            "exclusiveMinimum": true
+          }
+        },
+        "required": [
+            "filename",
+            "buffer_region"
+        ],
+        "additionalProperties": false
+      },
+      "basic_tl": {
+        "title": "Basic Parameters",
+        "description": "The most important parameters.",
+        "type": "object",
+        "properties": {
+          "model": {
+            "type": "string",
+            "title": "Model",
+            "description": "Model Name for predefined models or filename for external model file.",
+            "default": "prem_iso_one_crust"
+          },
+          "nex": {
+            "type": "number",
+            "title": "Number of elements along one edge of the cubed sphere at the surface",
+            "description": "Number of elements along one edge of the cubed sphere at the syrface",
+            "default": 18,
+            "minimum": 12,
+            "exclusiveMinimum": false
+          },
+          "refinement_index": {
+            "type": "number",
+            "title": "index of the discontinuity below which to refine.",
+            "description": "index of the discontinuity below which to refine.",
+            "default": 6,
+            "minimum": 1
+          },
+          "tidal_loading_file": {
+            "type": "string",
+            "title": "Topography Filename",
+            "description": "Filename for topography, generated with salvus_topo: 'https://gitlab.com/Salvus/salvus_topo'",
+            "default": ""
+          },
+          "tidal_loading_lmax_1": {
+            "type": "number",
+            "title": "tidal loading max l in region of interest",
+            "description": "tidal loading max l in region of interest",
+            "default": 128
+          },
+          "tidal_loading_lmax_2": {
+            "type": "number",
+            "title": "tidal loading max l outside of region of interest",
+            "description": "tidal loading max l outside of region of interest",
+            "default": 64
+          },
+          "region_of_interest": {
+            "type": "array",
+            "title": "Region of interest",
+            "description": "Region of interest, [lat, lon, radius, taper width] in degree",
+            "default": [
+              0.0,
+              0.0,
+              180.0,
+              10.0
+            ],
+            "items": {
+              "type": "number",
+              "minimum": -180.0,
+              "maximum": 180.0
+            },
+            "additionalItems": false,
+            "minItems": 4,
+            "maxItems": 4
+          },
+          "nelem_vertical": {
+            "type": "array",
+            "title": "Number of elements in the topmost layers",
+            "description": "Number of elements in the topmost layers",
+            "default": [],
+            "items": {
+              "type": "number",
+              "minimum": 1
+            },
+            "additionalItems": false,
+            "minItems": 0,
+            "maxItems": 2
+          },
+          "local_refinement_level": {
+            "type": "number",
+            "title": "Level of local refinement",
+            "description": "Level of local gradient based edge refinement at the surface.",
+            "default": 0,
+            "minimum": 0,
+            "maximum": 2
+          },
+          "global_refinement_level": {
+            "type": "number",
+            "title": "Level of global refinement",
+            "description": "Level of global gradient based edge refinement at the surface.",
+            "default": 0,
+            "minimum": 0,
+            "maximum": 2
+          },
+          "refinement_threshold": {
+            "type": "number",
+            "title": "Threshold for local refinement.",
+            "description": "Threshold for local refinement.",
+            "default": 0.01,
+            "minimum": 0,
+            "maximum": 1
+          }
+        },
+        "required": [
+          "model",
+          "nex",
+          "tidal_loading_file",
+          "tidal_loading_lmax_1",
+          "tidal_loading_lmax_2",
+          "nelem_vertical"
+        ],
+        "additionalProperties": false
+      },
+      "advanced_tl": {
+        "type": "object",
+        "additionalProperties": false,
+        "title": "Advanced Parameters",
+        "description": "Advanced parameters for more control.",
+        "properties": {
+          "model_parameters": {"$ref": "#/definitions/properties/advanced/properties/model_parameters"},
+          "velocity_model_representation": {"$ref": "#/definitions/properties/advanced/properties/velocity_model_representation"},
+          "model_spline_order":  {"$ref": "#/definitions/properties/advanced/properties/model_spline_order"},
+          "compression": {"$ref": "#/definitions/properties/advanced/properties/compression"}
+        },
+        "required": [
+          "model_parameters",
+          "velocity_model_representation",
+          "model_spline_order",
+          "compression"
+        ],
+        "additionalProperties": false
+      },
+      "topography_tl": {
+        "type": "object",
+        "title": "Topography Arguments",
+        "description": "Adding topography to the mesh.",
+        "properties": {
+          "topography_file": {"$ref": "#/definitions/properties/topography/properties/topography_file"},
+          "topography_lmax": {"$ref": "#/definitions/properties/topography/properties/topography_lmax"},
+          "moho_topography_file": {"$ref": "#/definitions/properties/topography/properties/moho_topography_file"},
+          "moho_topography_lmax": {"$ref": "#/definitions/properties/topography/properties/moho_topography_lmax"}
+        },
+        "required": [
+          "topography_file",
+          "topography_lmax",
+          "moho_topography_file",
+          "moho_topography_lmax"
+        ],
+        "additionalProperties": false
+      },
+      "spherical_tl": {
+        "type": "object",
+        "title": "Spherical Arguments",
+        "description": "Parameters for spherical meshes.",
+        "properties": {
+          "min_radius": {"$ref": "#/definitions/properties/spherical_common/properties/min_radius"},
+          "ellipticity": {"$ref": "#/definitions/properties/spherical_common/properties/ellipticity"}
+        },
+        "required": [
+          "min_radius",
+          "ellipticity"
+        ],
+        "additionalProperties": false
+      },
+      "gravity_mesh_tl": {
+        "type": "object",
+        "title": "Exterior Domain",
+        "description": "Adding the Exterior Domain for Gravity Computation. Implies including the whole planet with core.",
+        "properties": {
+          "add_exterior_domain": {"$ref": "#/definitions/properties/gravity_mesh/properties/add_exterior_domain"},
+          "coarsen_cmb": {
+            "type": "boolean",
+            "title": "Coarsen at CMB.",
+            "description": "Coarsen at CMB.",
+            "default": true
+          },
+          "ncoarse": {"$ref": "#/definitions/properties/gravity_mesh/properties/ncoarse"},
+          "nelem_buffer_surface": {"$ref": "#/definitions/properties/gravity_mesh/properties/nelem_buffer_surface"},
+          "nelem_buffer_outer": {"$ref": "#/definitions/properties/gravity_mesh/properties/nelem_buffer_outer"},
+          "dr_basis": {"$ref": "#/definitions/properties/gravity_mesh/properties/dr_basis"}
+        },
+        "required": [
+          "add_exterior_domain",
+          "ncoarse",
+          "nelem_buffer_surface",
+          "nelem_buffer_outer",
+          "dr_basis"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+numpy
+scipy
+matplotlib
+lxml
+jsonschema
+h5py
+pyexodus
+pyyaml
+pytest
+flake8
+pytest-mpl

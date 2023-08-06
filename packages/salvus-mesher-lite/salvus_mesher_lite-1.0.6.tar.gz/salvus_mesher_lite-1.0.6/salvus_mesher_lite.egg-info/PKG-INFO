@@ -1,0 +1,33 @@
+Metadata-Version: 1.1
+Name: salvus-mesher-lite
+Version: 1.0.6
+Summary: This file is part of the lite version of the SalvusMesher package intended to
+Home-page: https://salvus.io
+Author: Martin van Driel
+Author-email: Martin@vanDriel.de
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Description: over to http://mondaic.com.
+        
+        :copyright:
+            Copyright (C) 2016-2018 Salvus Development Team <www.mondaic.com>,
+                                    ETH Zurich
+        :license:
+            GNU General Public License, Version 3 [academic use only]
+            (http://www.gnu.org/copyleft/gpl.html)
+Platform: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
