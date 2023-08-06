@@ -1,0 +1,11 @@
+README.rst
+setup.cfg
+setup.py
+dev_identify/__init__.py
+dev_identify/dev_identify.py
+dev_identify.egg-info/PKG-INFO
+dev_identify.egg-info/SOURCES.txt
+dev_identify.egg-info/dependency_links.txt
+dev_identify.egg-info/not-zip-safe
+dev_identify.egg-info/requires.txt
+dev_identify.egg-info/top_level.txt
