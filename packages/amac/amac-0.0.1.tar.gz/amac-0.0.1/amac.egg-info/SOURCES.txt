@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+amac/__init__.py
+amac/mac_ggm.py
+amac/proofs.py
+amac/scheme.py
+amac/utils.py
+amac.egg-info/PKG-INFO
+amac.egg-info/SOURCES.txt
+amac.egg-info/dependency_links.txt
+amac.egg-info/requires.txt
+amac.egg-info/top_level.txt
