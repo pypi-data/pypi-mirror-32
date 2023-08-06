@@ -1,0 +1,9 @@
+optimade/__init__.py,sha256=1CUarGSwycOh0GKIcMutmmKE9j9E4B6-Jji1lJFY5Aw,21
+optimade/filter.py,sha256=2N3Hwen0_P5hsOmN-ycFEQW6uh9jwvezmWxa6axtYWA,939
+optimade/grammar/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+optimade/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+optimade/tests/test_filter.py,sha256=XUFKGv66YpVgGEkf-vBQqL3XUh9AiNr1RSUkaMyOe6g,805
+optimade-0.1.8.dist-info/METADATA,sha256=1NMrpIn7Wb6V-XiN6nPu2vqtcI7Frsn93gwWINPKm1w,1623
+optimade-0.1.8.dist-info/RECORD,,
+optimade-0.1.8.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+optimade-0.1.8.dist-info/top_level.txt,sha256=-5AdNfi1s6cLprXPcOiAhbAFP9pyPy33VQ61ME5TUYo,9
