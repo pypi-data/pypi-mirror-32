@@ -1,0 +1,11 @@
+numpy
+scipy
+pandas
+matplotlib
+imageio
+
+[cpu+]
+numba>=0.37.0
+
+[cuda]
+cupy>=4.0.0
