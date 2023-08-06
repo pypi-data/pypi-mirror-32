@@ -1,0 +1,7 @@
+HTMLParser
+pprint
+logzero
+numpy
+matplotlib
+mpldatacursor
+pathlib
