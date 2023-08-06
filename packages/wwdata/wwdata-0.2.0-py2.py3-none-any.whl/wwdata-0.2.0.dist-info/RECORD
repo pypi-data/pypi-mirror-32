@@ -1,0 +1,11 @@
+wwdata/Class_HydroData.py,sha256=V4s1zZxDYjwyMkXa_Gbv2B5QzJX1Zn5S0Qj5rdTtwcE,84568
+wwdata/Class_LabExperimBased.py,sha256=fzSyf9KIfY4b1349UloXOt-ZcTi4yE8sD0sBZDmJu1s,7474
+wwdata/Class_LabSensorBased.py,sha256=etzp_13kSYfi7bz6FV-qSHU3tnfjfSXBBfPoLX6T_c0,9180
+wwdata/Class_OnlineSensorBased.py,sha256=_DgPby5YMfdCu8SZbTBNDLhV_iqHrnewG0EL7cVLWh4,75227
+wwdata/__init__.py,sha256=p39kZj50IImtxauj2Svvouqva-Cek8xT_af1jnjF9sc,433
+wwdata/data_reading_functions.py,sha256=iU__vfq72Idp8K9hu1S03hXDT-bBpGbZWMSRWg9NaOk,13048
+wwdata/time_conversion_functions.py,sha256=zgPPNnARy7pEDeN4IHzsDa7b0Ec2IQ02yBzKU0xbsEM,5072
+wwdata-0.2.0.dist-info/METADATA,sha256=JwwiW4mxbloCvfMo5FwCfXZKSdqoSywB02zmQYteRlM,5448
+wwdata-0.2.0.dist-info/RECORD,,
+wwdata-0.2.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+wwdata-0.2.0.dist-info/top_level.txt,sha256=n41Bvoz5XhtlwCsrdV3geyrED58pNQdxccXA51wtNaE,7
