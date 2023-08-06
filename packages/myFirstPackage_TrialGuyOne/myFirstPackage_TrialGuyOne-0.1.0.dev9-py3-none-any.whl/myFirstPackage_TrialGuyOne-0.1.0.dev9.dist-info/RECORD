@@ -1,0 +1,8 @@
+myFirstPackage/Computation.py,sha256=D4TsyjPtvCGQgy3f8jGDWI-66Twvuw5DL84qGC3QRb4,281
+myFirstPackage/__init__.py,sha256=Jf6riuoq4iEEL64q08NrYodlIF8umiVZgfYkDx0cP5U,119
+myFirstPackage/integrators/__init__.py,sha256=-5VvIGoTQ8M2_QaYa1YXzMzlKpLm6-LCPf3cl4SLtHE,26
+myFirstPackage/integrators/integrators.py,sha256=7gkW-JzEVqVwI7iJ2DRQUm-lKUQaze_LDqx6XYVnZh8,172
+myFirstPackage_TrialGuyOne-0.1.0.dev9.dist-info/METADATA,sha256=c3wDKKIgIoKBCWsoXxlpmNZt6SsoswkUs3T-yL8ia5Y,320
+myFirstPackage_TrialGuyOne-0.1.0.dev9.dist-info/RECORD,,
+myFirstPackage_TrialGuyOne-0.1.0.dev9.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+myFirstPackage_TrialGuyOne-0.1.0.dev9.dist-info/top_level.txt,sha256=rG0uv6MtGXETpZizhg3nPKthLY4GwY08ss2KYGiqXVc,15
