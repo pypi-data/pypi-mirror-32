@@ -1,0 +1,25 @@
+{
+	"id": "Virizion",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Virizion",
+				"level": 70
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"interval": "legendary",
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"flowery"
+				]
+			},
+			"rarity": 2
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "Tynamo",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Tynamo"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 24,
+			"maxLevel": 38,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"oceanic"
+				]
+			},
+			"rarity": 20.0
+		}
+	]
+}

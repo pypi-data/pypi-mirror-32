@@ -1,0 +1,26 @@
+{
+	"id": "Vivillon",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Vivillon",
+				"form": 3
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 13,
+			"maxLevel": 24,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"flowery"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"id": "Combee",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Combee"
+			},
+			"stringLocationTypes": [
+				"Land",
+				"Headbutt"
+			],
+			"minLevel": 6,
+			"maxLevel": 16,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAWN",
+					"DUSK",
+					"DAY"
+				],
+				"stringBiomes": [
+					"flowery"
+				]
+			},
+			"rarity": 100.0
+		}
+	]
+}

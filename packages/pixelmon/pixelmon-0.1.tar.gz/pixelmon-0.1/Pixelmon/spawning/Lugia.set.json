@@ -1,0 +1,28 @@
+{
+	"id": "Lugia",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Lugia",
+				"level": 70
+			},
+			"stringLocationTypes": [
+				"Air"
+			],
+			"interval": "legendary",
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"weathers": [
+					"STORM"
+				],
+				"stringBiomes": [
+					"oceanic"
+				]
+			},
+			"rarity": 6
+		}
+	]
+}

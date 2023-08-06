@@ -1,0 +1,26 @@
+{
+	"id": "Slowking",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Slowking"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 30,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"oceanic",
+					"swamps",
+					"river",
+					"beaches",
+					"stone_beach"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

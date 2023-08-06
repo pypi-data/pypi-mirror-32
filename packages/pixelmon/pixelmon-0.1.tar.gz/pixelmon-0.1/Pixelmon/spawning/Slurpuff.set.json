@@ -1,0 +1,28 @@
+{
+	"id": "Slurpuff",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Slurpuff"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 36,
+			"maxLevel": 48,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAWN",
+					"DUSK",
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"birches",
+					"forests"
+				]
+			},
+			"rarity": 20.0
+		}
+	]
+}

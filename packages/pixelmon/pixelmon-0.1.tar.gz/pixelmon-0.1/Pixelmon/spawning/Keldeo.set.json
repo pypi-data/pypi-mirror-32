@@ -1,0 +1,26 @@
+{
+  "id": "Keldeo",
+  "spawnInfos": [
+    {
+      "spec": {
+        "name": "Keldeo",
+        "level": 50
+      },
+      "stringLocationTypes": [
+        "Land"
+      ],
+	  "interval": "legendary",
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAY"
+        ],
+        "stringBiomes": [
+          "river",
+          "cold_beach"
+        ]
+      },
+      "rarity": 0.001
+    }
+  ]
+}

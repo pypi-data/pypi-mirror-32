@@ -1,0 +1,27 @@
+{
+	"id": "Trevenant",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Trevenant"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 25,
+			"maxLevel": 37,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"birch_forest_hills",
+					"birch_forest",
+					"forests"
+				]
+			},
+			"rarity": 25.0
+		}
+	]
+}

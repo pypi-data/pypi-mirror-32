@@ -1,0 +1,134 @@
+{
+  "biomeCategories" : {
+    "arid": [
+      "minecraft:desert",
+      "minecraft:desert_hills",
+      "minecraft:mutated_desert"
+    ],
+    "savannas": [
+      "minecraft:savanna",
+      "minecraft:savanna_rock",
+      "minecraft:mutated_savanna",
+      "minecraft:mutated_savanna_rock"
+    ],
+    "mesas": [
+      "minecraft:mesa",
+      "minecraft:mesa_clear_rock",
+      "minecraft:mesa_rock",
+      "minecraft:mutated_mesa",
+      "minecraft:mutated_mesa_clear_rock",
+      "minecraft:mutated_mesa_rock"
+    ],
+    "flowery": [
+      "minecraft:mutated_plains",
+      "minecraft:mutated_forest"
+    ],
+    "swamps": [
+      "minecraft:swampland",
+      "minecraft:mutated_swampland"
+    ],
+    "freezing mountains": [
+      "minecraft:ice_mountains",
+      "minecraft:taiga_cold_hills"
+    ],
+    "taigas": [
+      "minecraft:taiga",
+      "minecraft:taiga_hills",
+      "minecraft:mutated_taiga"
+    ],
+    "mountainous forests": [
+      "minecraft:extreme_hills_with_trees",
+      "minecraft:mutated_extreme_hills_with_trees"
+    ],
+    "jungles": [
+      "minecraft:jungle",
+      "minecraft:jungle_edge",
+      "minecraft:jungle_hills",
+      "minecraft:mutated_jungle",
+      "minecraft:mutated_jungle_edge"
+    ],
+    "forests": [
+      "minecraft:forest",
+      "minecraft:forest_hills",
+      "minecraft:mutated_forest",
+      "minecraft:roofed_forest",
+      "minecraft:mutated_roofed_forest"
+    ],
+    "mountainous": [
+      "minecraft:extreme_hills",
+      "minecraft:smaller_extreme_hills",
+      "minecraft:extreme_hills_with_trees",
+      "minecraft:mutated_extreme_hills",
+      "minecraft:mutated_extreme_hills_with_trees"
+    ],
+    "freezing": [
+      "minecraft:taiga_cold",
+      "minecraft:taiga_cold_hills",
+      "minecraft:cold_beach",
+      "minecraft:frozen_river",
+      "minecraft:frozen_ocean",
+      "minecraft:mutated_taiga_cold",
+      "minecraft:ice_mountains",
+      "minecraft:ice_flats",
+      "minecraft:mutated_ice_flats"
+    ],
+    "redwoods": [
+      "minecraft:redwood_taiga",
+      "minecraft:redwood_taiga_hills",
+      "minecraft:mutated_redwood_taiga",
+      "minecraft:mutated_redwood_taiga_hills"
+    ],
+    "all forests": [
+      "minecraft:forest",
+      "minecraft:forest_hills",
+      "minecraft:mutated_forest",
+      "minecraft:roofed_forest",
+      "minecraft:mutated_roofed_forest",
+      "minecraft:taiga",
+      "minecraft:taiga_hills",
+      "minecraft:mutated_taiga",
+      "minecraft:redwood_taiga",
+      "minecraft:redwood_taiga_hills",
+      "minecraft:mutated_redwood_taiga",
+      "minecraft:mutated_redwood_taiga_hills",
+      "minecraft:birch_forest",
+      "minecraft:birch_forest_hills",
+      "minecraft:mutated_birch_forest",
+      "minecraft:mutated_birch_forest_hills"
+    ],
+    "plains": [
+      "minecraft:plains",
+      "minecraft:mutated_plains"
+    ],
+    "oceanic": [
+      "minecraft:ocean",
+      "minecraft:deep_ocean",
+      "minecraft:frozen_ocean"
+    ],
+    "hills": [
+      "minecraft:birch_forest_hills",
+      "minecraft:taiga_cold_hills",
+      "minecraft:desert_hills",
+      "minecraft:forest_hills",
+      "minecraft:jungle_hills",
+      "minecraft:mutated_birch_forest_hills",
+      "minecraft:redwood_taiga_hills",
+      "minecraft:taiga_hills"
+    ],
+    "birches": [
+      "minecraft:birch_forest",
+      "minecraft:birch_forest_hills",
+      "minecraft:mutated_birch_forest",
+      "minecraft:mutated_birch_forest_hills"
+    ],
+    "mushroom": [
+      "minecraft:mushroom_island",
+      "minecraft:mushroom_island_shore"
+    ],
+    "freezing forests": [
+      "minecraft:taiga_cold",
+      "minecraft:taiga_cold_hills",
+      "minecraft:mutated_taiga_cold"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+	"id": "Ho-Oh",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Ho-Oh",
+				"level": 70
+			},
+			"stringLocationTypes": [
+				"Air"
+			],
+			"interval": "legendary",
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"mutated_mesa"
+				]
+			},
+			"rarity": 1
+		}
+	]
+}

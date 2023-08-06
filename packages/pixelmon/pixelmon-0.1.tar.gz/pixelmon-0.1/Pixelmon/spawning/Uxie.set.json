@@ -1,0 +1,25 @@
+{
+	"id": "Uxie",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Uxie",
+				"level": 50
+			},
+			"stringLocationTypes": [
+				"Surface Water"
+			],
+			"interval": "legendary",
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"all forests"
+				]
+			},
+			"rarity": 1
+		}
+	]
+}

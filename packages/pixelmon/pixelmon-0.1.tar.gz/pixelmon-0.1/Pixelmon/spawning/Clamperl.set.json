@@ -1,0 +1,26 @@
+{
+	"id": "Clamperl",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Clamperl"
+			},
+			"stringLocationTypes": [
+				"Seafloor",
+				"Land"
+			],
+			"minLevel": 25,
+			"maxLevel": 30,
+			"typeID": "pokemon",
+			"condition": {
+				"baseBlocks": [
+					"beach"
+				],
+				"stringBiomes": [
+					"oceanic"
+				]
+			},
+			"rarity": 300.0
+		}
+	]
+}

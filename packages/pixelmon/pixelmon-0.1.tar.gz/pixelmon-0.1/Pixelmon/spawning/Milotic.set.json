@@ -1,0 +1,25 @@
+{
+	"id": "Milotic",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Milotic"
+			},
+			"stringLocationTypes": [
+				"Water"
+			],
+			"minLevel": 30,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"oceanic"
+				]
+			},
+			"rarity": 30.0
+		}
+	]
+}

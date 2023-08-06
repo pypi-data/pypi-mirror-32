@@ -1,0 +1,1594 @@
+[
+  {
+    "item": "minecraft:red_flower",
+    "itemWeight": 100,
+    "blocks": [
+      "minecraft:tallgrass"
+    ],
+    "types": [
+      "Grass"
+    ]
+  },
+  {
+    "item": "minecraft:yellow_flower",
+    "itemWeight": 100,
+    "blocks": [
+      "minecraft:tallgrass"
+    ],
+    "types": [
+      "Grass"
+    ]
+  },
+  {
+    "item": "minecraft:apple",
+    "itemWeight": 100,
+    "blocks": [
+      "minecraft:tallgrass"
+    ]
+  },
+  {
+    "item": "minecraft:carrot",
+    "itemWeight": 100,
+    "blocks": [
+      "minecraft:tallgrass"
+    ]
+  },
+  {
+    "item": "minecraft:grass",
+    "itemWeight": 100,
+    "blocks": [
+      "minecraft:grass",
+      "minecraft:dirt"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "minecraft:tallgrass",
+    "itemWeight": 100,
+    "blocks": [
+      "minecraft:grass",
+      "minecraft:dirt"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "minecraft:melon_seeds",
+    "itemWeight": 100,
+    "blocks": [
+      "minecraft:grass",
+      "minecraft:dirt"
+    ],
+    "types": [
+      "Grass",
+      "Bug",
+      "Ground"
+    ]
+  },
+  {
+    "item": "minecraft:pumpkin_seeds",
+    "itemWeight": 100,
+    "blocks": [
+      "minecraft:grass",
+      "minecraft:dirt"
+    ],
+    "types": [
+      "Grass",
+      "Bug",
+      "Ground"
+    ]
+  },
+  {
+    "item": "minecraft:wheat_seeds",
+    "itemWeight": 100,
+    "blocks": [
+      "minecraft:grass",
+      "minecraft:dirt"
+    ],
+    "types": [
+      "Grass",
+      "Bug",
+      "Ground"
+    ]
+  },
+  {
+    "item": "minecraft:potato",
+    "itemWeight": 100,
+    "blocks": [
+      "minecraft:grass",
+      "minecraft:dirt"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "minecraft:carrot",
+    "itemWeight": 100,
+    "blocks": [
+      "minecraft:grass",
+      "minecraft:dirt"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:leaf_stone_shard",
+    "itemWeight": 40,
+    "blocks": [
+      "minecraft:grass",
+      "minecraft:dirt"
+    ],
+    "types": [
+      "Grass"
+    ]
+  },
+  {
+    "item": "minecraft:dirt",
+    "itemWeight": 100,
+    "blocks": [
+      "minecraft:grass",
+      "minecraft:dirt"
+    ],
+    "types": [
+      "Ground"
+    ]
+  },
+  {
+    "item": "minecraft:red_mushroom",
+    "itemWeight": 100,
+    "blocks": [
+      "minecraft:grass",
+      "minecraft:dirt"
+    ],
+    "types": [
+      "Poison"
+    ]
+  },
+  {
+    "item": "minecraft:brown_mushroom",
+    "itemWeight": 100,
+    "blocks": [
+      "minecraft:grass",
+      "minecraft:dirt"
+    ],
+    "types": [
+      "Poison"
+    ]
+  },
+  {
+    "item": "minecraft:poisonous_potato",
+    "itemWeight": 100,
+    "blocks": [
+      "minecraft:grass",
+      "minecraft:dirt"
+    ],
+    "types": [
+      "Poison"
+    ]
+  },
+  {
+    "item": "minecraft:apple",
+    "itemWeight": 100,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "minecraft:leaves",
+    "itemWeight": 100,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:black_apricorn",
+    "itemWeight": 100,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:blue_apricorn",
+    "itemWeight": 100,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:green_apricorn",
+    "itemWeight": 100,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:pink_apricorn",
+    "itemWeight": 100,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:red_apricorn",
+    "itemWeight": 100,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:white_apricorn",
+    "itemWeight": 100,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:yellow_apricorn",
+    "itemWeight": 100,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:aguav_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:apicot_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:aspear_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:babiri_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:leppa_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:oran_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:rawst_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:charti_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:cheri_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:chesto_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:chilan_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:chople_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:coba_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:colbur_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:custap_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:drash_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:eggant_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:enigma_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:figy_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:ganlon_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:ginema_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:grepa_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:haban_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:hondew_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:iapapa_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:jaboca_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:kasib_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:kebia_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:kelpsy_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:lansat_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:liechi_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:lum_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:mago_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:micle_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:occa_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:passho_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:payapa_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:pecha_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:persim_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:petaya_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:pomeg_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:pumkin_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:qualot_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:rindo_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:rowap_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:salac_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:shuca_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:sitrus_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:starf_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:tamato_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:tanga_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:touga_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:wacan_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:wiki_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:yache_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "pixelmon:yago_berry",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "minecraft:egg",
+    "itemWeight": 100,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Flying"
+    ]
+  },
+  {
+    "item": "minecraft:feather",
+    "itemWeight": 100,
+    "blocks": [
+      "minecraft:leaves",
+      "minecraft:leaves2"
+    ],
+    "types": [
+      "Flying"
+    ]
+  },
+  {
+    "item": "minecraft:stick",
+    "itemWeight": 100,
+    "material": "wood",
+    "types": [
+      "Grass"
+    ]
+  },
+  {
+    "item": "minecraft:book",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:bookshelf"
+    ],
+    "types": [
+      "Psychic"
+    ]
+  },
+  {
+    "item": "minecraft:experience_bottle",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:bookshelf"
+    ],
+    "types": [
+      "Psychic"
+    ]
+  },
+  {
+    "item": "minecraft:vine",
+    "itemWeight": 50,
+    "blocks": [
+      "minecraft:vine"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "minecraft:air",
+    "itemWeight": 10,
+    "blocks": [
+      "minecraft:vine"
+    ],
+    "types": [
+      "Grass",
+      "Bug"
+    ]
+  },
+  {
+    "item": "minecraft:fishing_rod",
+    "itemWeight": 100,
+    "material": "water",
+    "types": [
+      "Water"
+    ]
+  },
+  {
+    "item": "minecraft:fish",
+    "itemWeight": 100,
+    "material": "water"
+  },
+  {
+    "item": "pixelmon:old_rod",
+    "itemWeight": 50,
+    "material": "water",
+    "types": [
+      "Water"
+    ]
+  },
+  {
+    "item": "pixelmon:good_rod",
+    "itemWeight": 15,
+    "material": "water",
+    "types": [
+      "Water"
+    ]
+  },
+  {
+    "item": "pixelmon:super_rod",
+    "itemWeight": 5,
+    "material": "water",
+    "types": [
+      "Water"
+    ]
+  },
+  {
+    "item": "pixelmon:water_stone_shard",
+    "itemWeight": 20,
+    "material": "water",
+    "types": [
+      "Water"
+    ]
+  },
+  {
+    "item": "minecraft:prismarine_shard",
+    "itemWeight": 20,
+    "material": "water",
+    "types": [
+      "Water"
+    ]
+  },
+  {
+    "item": "minecraft:prismarine_crystals",
+    "itemWeight": 5,
+    "material": "water",
+    "types": [
+      "Water"
+    ]
+  },
+  {
+    "item": "minecraft:ice",
+    "itemWeight": 100,
+    "material": "water",
+    "types": [
+      "Ice"
+    ]
+  },
+  {
+    "item": "minecraft:clay",
+    "itemWeight": 100,
+    "material": "water",
+    "types": [
+      "Ground"
+    ]
+  },
+  {
+    "item": "minecraft:slime_ball",
+    "itemWeight": 100,
+    "material": "water",
+    "types": [
+      "Poison"
+    ]
+  },
+  {
+    "item": "minecraft:reeds",
+    "itemWeight": 100,
+    "material": "water",
+    "types": [
+      "Grass"
+    ]
+  },
+  {
+    "item": "minecraft:blaze_powder",
+    "itemWeight": 100,
+    "material": "lava",
+    "types": [
+      "Fire"
+    ]
+  },
+  {
+    "item": "minecraft:gunpowder",
+    "itemWeight": 100,
+    "material": "lava",
+    "types": [
+      "Fire"
+    ]
+  },
+  {
+    "item": "pixelmon:fire_stone_shard",
+    "itemWeight": 20,
+    "material": "lava",
+    "types": [
+      "Fire"
+    ]
+  },
+  {
+    "item": "minecraft:obsidian",
+    "itemWeight": 20,
+    "material": "lava",
+    "types": [
+      "Water"
+    ]
+  },
+  {
+    "item": "minecraft:sand",
+    "itemWeight": 100,
+    "blocks": [
+      "minecraft:sand"
+    ],
+    "types": [
+      "Water",
+      "Ground"
+    ]
+  },
+  {
+    "item": "minecraft:clay",
+    "itemWeight": 100,
+    "blocks": [
+      "minecraft:sand"
+    ],
+    "types": [
+      "Water"
+    ]
+  },
+  {
+    "item": "minecraft:sandstone",
+    "itemWeight": 100,
+    "blocks": [
+      "minecraft:sand"
+    ],
+    "types": [
+      "Ground"
+    ]
+  },
+  {
+    "item": "pixelmon:covered_fossil_6",
+    "itemWeight": 1,
+    "blocks": [
+      "minecraft:sand"
+    ],
+    "types": [
+      "Ground"
+    ]
+  },
+  {
+    "item": "pixelmon:covered_fossil_4",
+    "itemWeight": 1,
+    "blocks": [
+      "minecraft:sand"
+    ],
+    "types": [
+      "Ground"
+    ]
+  },
+  {
+    "item": "pixelmon:covered_fossil_7",
+    "itemWeight": 1,
+    "blocks": [
+      "minecraft:sand"
+    ],
+    "types": [
+      "Ground"
+    ]
+  },
+  {
+    "item": "pixelmon:covered_fossil_1",
+    "itemWeight": 1,
+    "blocks": [
+      "minecraft:sand"
+    ],
+    "types": [
+      "Ground"
+    ]
+  },
+  {
+    "item": "pixelmon:covered_fossil_0",
+    "itemWeight": 1,
+    "blocks": [
+      "minecraft:sand"
+    ],
+    "types": [
+      "Ground"
+    ]
+  },
+  {
+    "item": "pixelmon:covered_fossil_2",
+    "itemWeight": 1,
+    "blocks": [
+      "minecraft:sand"
+    ],
+    "types": [
+      "Ground"
+    ]
+  },
+  {
+    "item": "pixelmon:covered_fossil_8",
+    "itemWeight": 1,
+    "blocks": [
+      "minecraft:sand"
+    ],
+    "types": [
+      "Ground"
+    ]
+  },
+  {
+    "item": "pixelmon:covered_fossil_3",
+    "itemWeight": 1,
+    "blocks": [
+      "minecraft:sand"
+    ],
+    "types": [
+      "Ground"
+    ]
+  },
+  {
+    "item": "pixelmon:covered_fossil_5",
+    "itemWeight": 1,
+    "blocks": [
+      "minecraft:sand"
+    ],
+    "types": [
+      "Ground"
+    ]
+  },
+  {
+    "item": "minecraft:cobblestone",
+    "itemWeight": 100,
+    "material": "rock",
+    "types": [
+      "Rock",
+      "Ground"
+    ]
+  },
+  {
+    "item": "minecraft:stone",
+    "itemWeight": 100,
+    "material": "rock",
+    "types": [
+      "Rock",
+      "Ground"
+    ]
+  },
+  {
+    "item": "minecraft:coal",
+    "itemWeight": 100,
+    "material": "rock",
+    "types": [
+      "Rock",
+      "Ground"
+    ]
+  },
+  {
+    "item": "minecraft:bone",
+    "itemWeight": 100,
+    "material": "rock",
+    "types": [
+      "Rock",
+      "Ground"
+    ]
+  },
+  {
+    "item": "minecraft:dye",
+    "itemWeight": 100,
+    "material": "rock",
+    "types": [
+      "Rock",
+      "Ground"
+    ]
+  },
+  {
+    "item": "pixelmon:aluminium_ingot",
+    "itemWeight": 20,
+    "material": "rock",
+    "types": [
+      "Steel"
+    ]
+  },
+  {
+    "item": "minecraft:iron_ingot",
+    "itemWeight": 20,
+    "material": "rock",
+    "types": [
+      "Steel"
+    ]
+  },
+  {
+    "item": "minecraft:gold_nugget",
+    "itemWeight": 2,
+    "material": "rock",
+    "types": [
+      "Steel"
+    ]
+  },
+  {
+    "item": "pixelmon:thunder_stone_shard",
+    "itemWeight": 20,
+    "material": "rock",
+    "types": [
+      "Electric"
+    ]
+  },
+  {
+    "item": "minecraft:redstone",
+    "itemWeight": 60,
+    "material": "rock",
+    "types": [
+      "Electric"
+    ]
+  },
+  {
+    "item": "pixelmon:dusk_stone_shard",
+    "itemWeight": 20,
+    "material": "rock",
+    "types": [
+      "Dark"
+    ]
+  },
+  {
+    "item": "pixelmon:sun_stone_shard",
+    "itemWeight": 20,
+    "material": "rock",
+    "types": [
+      "Fire"
+    ]
+  },
+  {
+    "item": "pixelmon:moon_stone_shard",
+    "itemWeight": 10,
+    "material": "rock",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "item": "pixelmon:shiny_stone_shard",
+    "itemWeight": 10,
+    "material": "rock",
+    "types": [
+      "Normal"
+    ]
+  },
+  {
+    "item": "minecraft:mossy_cobblestone",
+    "itemWeight": 70,
+    "material": "rock",
+    "types": [
+      "Grass"
+    ]
+  },
+  {
+    "item": "minecraft:stonebrick",
+    "item_meta": 1,
+    "itemWeight": 70,
+    "blocks": [
+      "minecraft:stonebrick"
+    ],
+    "types": [
+      "Grass"
+    ]
+  },
+  {
+    "item": "minecraft:stonebrick",
+    "item_meta": 2,
+    "itemWeight": 70,
+    "blocks": [
+      "minecraft:stonebrick"
+    ],
+    "types": [
+      "Fighting"
+    ]
+  },
+  {
+    "item": "minecraft:flint",
+    "itemWeight": 20,
+    "blocks": [
+      "minecraft:gravel"
+    ],
+    "types": [
+      "Rock",
+      "Ground",
+      "Fire"
+    ]
+  },
+  {
+    "item": "minecraft:snow",
+    "itemWeight": 70,
+    "blocks": [
+      "minecraft:ice"
+    ],
+    "types": [
+      "Ice"
+    ]
+  },
+  {
+    "item": "minecraft:snowball",
+    "itemWeight": 100,
+    "blocks": [
+      "minecraft:ice"
+    ],
+    "types": [
+      "Ice"
+    ]
+  },
+  {
+    "item": "minecraft:netherrack",
+    "itemWeight": 100,
+    "blocks": [
+      "minecraft:netherrack"
+    ],
+    "types": [
+      "Fire",
+      "Rock"
+    ]
+  },
+  {
+    "item": "minecraft:quartz",
+    "itemWeight": 40,
+    "blocks": [
+      "minecraft:netherrack"
+    ],
+    "types": [
+      "Fire",
+      "Rock"
+    ]
+  },
+  {
+    "item": "minecraft:blaze_powder",
+    "itemWeight": 20,
+    "blocks": [
+      "minecraft:netherrack"
+    ],
+    "types": [
+      "Fire",
+      "Rock"
+    ]
+  },
+  {
+    "item": "minecraft:blaze_rod",
+    "itemWeight": 20,
+    "blocks": [
+      "minecraft:netherrack"
+    ],
+    "types": [
+      "Fire",
+      "Rock"
+    ]
+  },
+  {
+    "item": "minecraft:magma_cream",
+    "itemWeight": 20,
+    "blocks": [
+      "minecraft:netherrack"
+    ],
+    "types": [
+      "Poison"
+    ]
+  },
+  {
+    "item": "minecraft:skull",
+    "item_meta": 1,
+    "itemWeight": 5,
+    "blocks": [
+      "minecraft:netherrack"
+    ],
+    "types": [
+      "Dark"
+    ]
+  },
+  {
+    "item": "minecraft:ghast_tear",
+    "itemWeight": 20,
+    "blocks": [
+      "minecraft:netherrack"
+    ],
+    "types": [
+      "Ghost"
+    ]
+  },
+  {
+    "item": "minecraft:glowstone_dust",
+    "itemWeight": 60,
+    "blocks": [
+      "minecraft:netherrack"
+    ],
+    "types": [
+      "Electric"
+    ]
+  },
+  {
+    "item": "minecraft:nether_wart",
+    "itemWeight": 60,
+    "blocks": [
+      "minecraft:soul_sand"
+    ],
+    "types": [
+      "Grass"
+    ]
+  },
+  {
+    "item": "minecraft:ender_pearl",
+    "itemWeight": 60,
+    "blocks": [
+      "minecraft:end_stone"
+    ],
+    "types": [
+      "Psychic"
+    ]
+  },
+  {
+    "item": "minecraft:ender_eye",
+    "itemWeight": 60,
+    "blocks": [
+      "minecraft:end_stone"
+    ],
+    "types": [
+      "Psychic"
+    ]
+  },
+  {
+    "item": "pixelmon:shiny_stone_shard",
+    "itemWeight": 10,
+    "material": "rock",
+    "types": [
+      "Fairy"
+    ]
+  },
+  {
+    "item": "pixelmon:sun_stone_shard",
+    "itemWeight": 10,
+    "material": "rock",
+    "types": [
+      "Fairy"
+    ]
+  },
+  {
+    "item": "minecraft:glowstone_dust",
+    "itemWeight": 60,
+    "material": "rock",
+    "types": [
+      "Fairy"
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+{
+	"id": "Meloetta",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Meloetta",
+				"level": 50
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"interval": "legendary",
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"extreme_hills",
+					"flowery"
+				]
+			},
+			"rarity": 3
+		}
+	]
+}

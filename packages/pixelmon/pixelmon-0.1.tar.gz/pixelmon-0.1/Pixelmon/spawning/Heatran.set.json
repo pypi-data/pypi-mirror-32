@@ -1,0 +1,26 @@
+{
+	"id": "Heatran",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Heatran",
+				"level": 70
+			},
+			"stringLocationTypes": [
+				"Underground"
+			],
+			"interval": "legendary",
+			"typeID": "pokemon",
+			"condition": {
+				"neededNearbyBlocks": [
+					"lava"
+				],
+				"maxY": 50,
+				"stringBiomes": [
+					"mesas"
+				]
+			},
+			"rarity": 3
+		}
+	]
+}

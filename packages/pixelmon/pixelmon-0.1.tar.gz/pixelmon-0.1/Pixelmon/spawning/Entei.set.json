@@ -1,0 +1,25 @@
+{
+	"id": "Entei",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Entei",
+				"level": 70
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"interval": "legendary",
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"mutated_extreme_hills"
+				]
+			},
+			"rarity": 2
+		}
+	]
+}

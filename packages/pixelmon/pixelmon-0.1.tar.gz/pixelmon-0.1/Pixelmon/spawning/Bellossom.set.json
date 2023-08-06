@@ -1,0 +1,31 @@
+{
+	"id": "Bellossom",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Bellossom"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 35,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"weathers": [
+					"CLEAR"
+				],
+				"stringBiomes": [
+					"plains",
+					"swamps",
+					"jungles",
+					"savannas"
+				]
+			},
+			"rarity": 10
+		}
+	]
+}

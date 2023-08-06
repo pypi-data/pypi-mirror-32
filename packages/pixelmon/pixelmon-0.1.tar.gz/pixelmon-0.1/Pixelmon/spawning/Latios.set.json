@@ -1,0 +1,25 @@
+{
+	"id": "Latios",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Latios",
+				"level": 70
+			},
+			"stringLocationTypes": [
+				"Air"
+			],
+			"interval": "legendary",
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"oceanic"
+				]
+			},
+			"rarity": 2
+		}
+	]
+}

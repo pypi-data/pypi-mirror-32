@@ -1,0 +1,2 @@
+include Pixelmon/spawning/*.set.json
+include Pixelmon/*.json

@@ -1,0 +1,27 @@
+{
+	"id": "Wigglytuff",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Wigglytuff"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 30,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAWN",
+					"DUSK",
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"flowery"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "Mew",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Mew",
+				"level": 70
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"interval": "legendary",
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"jungles"
+				]
+			},
+			"rarity": 2
+		}
+	]
+}

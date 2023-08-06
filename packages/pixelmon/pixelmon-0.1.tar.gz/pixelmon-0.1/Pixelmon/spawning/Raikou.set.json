@@ -1,0 +1,26 @@
+{
+	"id": "Raikou",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Raikou",
+				"level": 70
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"interval": "legendary",
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAWN",
+					"DUSK"
+				],
+				"stringBiomes": [
+					"savannas"
+				]
+			},
+			"rarity": 2
+		}
+	]
+}

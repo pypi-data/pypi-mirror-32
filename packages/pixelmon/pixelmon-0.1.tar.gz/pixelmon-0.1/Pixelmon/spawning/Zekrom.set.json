@@ -1,0 +1,26 @@
+{
+	"id": "Zekrom",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Zekrom",
+				"level": 70
+			},
+			"stringLocationTypes": [
+				"Air"
+			],
+			"interval": "legendary",
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"mutated_roofed_forest",
+					"mesa"
+				]
+			},
+			"rarity": 1
+		}
+	]
+}

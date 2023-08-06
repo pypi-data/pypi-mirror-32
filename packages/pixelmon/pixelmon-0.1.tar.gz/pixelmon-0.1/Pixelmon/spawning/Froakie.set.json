@@ -1,0 +1,29 @@
+
+{
+	"id": "Froakie",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Froakie"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 5,
+			"maxLevel": 16,
+			"typeID": "pokemon",
+			"condition": {
+				"baseBlocks": [
+					"minecraft:waterlily"
+				],
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"swamps"
+				]
+			},
+			"rarity": 10.0
+		}
+	]
+}

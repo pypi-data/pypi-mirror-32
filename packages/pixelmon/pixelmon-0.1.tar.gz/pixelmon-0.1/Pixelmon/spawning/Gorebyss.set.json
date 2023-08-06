@@ -1,0 +1,25 @@
+{
+	"id": "Gorebyss",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Gorebyss"
+			},
+			"stringLocationTypes": [
+				"Water"
+			],
+			"minLevel": 30,
+			"maxLevel": 40,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"oceanic"
+				]
+			},
+			"rarity": 150.0
+		}
+	]
+}

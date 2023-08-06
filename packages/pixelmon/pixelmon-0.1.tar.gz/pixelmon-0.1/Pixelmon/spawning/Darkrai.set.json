@@ -1,0 +1,25 @@
+{
+	"id": "Darkrai",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Darkrai",
+				"level": 70
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"interval": "legendary",
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"forests"
+				]
+			},
+			"rarity": 2
+		}
+	]
+}

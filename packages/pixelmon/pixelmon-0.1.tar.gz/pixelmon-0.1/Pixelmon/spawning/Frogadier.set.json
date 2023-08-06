@@ -1,0 +1,25 @@
+{
+	"id": "Frogadier",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Frogadier"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 16,
+			"maxLevel": 36,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"swamps"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

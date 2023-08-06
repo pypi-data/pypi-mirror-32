@@ -1,0 +1,22 @@
+{
+	"id": "Simisear",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Simisear"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 27,
+			"maxLevel": 36,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"jungles"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

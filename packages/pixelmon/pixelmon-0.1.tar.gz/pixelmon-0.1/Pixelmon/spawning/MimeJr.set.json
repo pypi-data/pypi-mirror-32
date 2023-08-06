@@ -1,0 +1,25 @@
+{
+	"id": "MimeJr",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "MimeJr"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 9,
+			"maxLevel": 13,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"all forests"
+				]
+			},
+			"rarity": 30.0
+		}
+	]
+}

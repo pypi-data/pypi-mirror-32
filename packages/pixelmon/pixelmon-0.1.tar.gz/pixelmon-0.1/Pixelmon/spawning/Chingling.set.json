@@ -1,0 +1,26 @@
+{
+	"id": "Chingling",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Chingling"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 20,
+			"maxLevel": 25,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"plains",
+					"taigas"
+				]
+			},
+			"rarity": 50.0
+		}
+	]
+}

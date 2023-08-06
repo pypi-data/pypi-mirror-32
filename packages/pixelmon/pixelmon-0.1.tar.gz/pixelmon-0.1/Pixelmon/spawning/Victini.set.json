@@ -1,0 +1,28 @@
+{
+	"id": "Victini",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Victini",
+				"level": 70
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"interval": "legendary",
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAWN",
+					"DUSK",
+					"DAY"
+				],
+				"stringBiomes": [
+					"savanna_rock",
+					"mutated_desert"
+				]
+			},
+			"rarity": 2
+		}
+	]
+}

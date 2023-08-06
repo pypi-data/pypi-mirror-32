@@ -1,0 +1,22 @@
+{
+	"id": "Smoochum",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Smoochum"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 5,
+			"maxLevel": 29,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"freezing forests"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

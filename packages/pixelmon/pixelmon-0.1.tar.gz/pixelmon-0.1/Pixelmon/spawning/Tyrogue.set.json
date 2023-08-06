@@ -1,0 +1,22 @@
+{
+	"id": "Tyrogue",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Tyrogue"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 5,
+			"maxLevel": 19,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"mountainous"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	"id": "Dragonair",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Dragonair"
+			},
+			"stringLocationTypes": [
+				"Water",
+				"Underground Water"
+			],
+			"minLevel": 30,
+			"maxLevel": 55,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"forests",
+					"jungles",
+					"birches",
+					"deep_ocean"
+				]
+			},
+			"rarity": 9.0
+		}
+	]
+}

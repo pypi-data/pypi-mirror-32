@@ -1,0 +1,29 @@
+{
+	"id": "Exeggcute",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Exeggcute"
+			},
+			"stringLocationTypes": [
+				"Land",
+				"Headbutt"
+			],
+			"minLevel": 15,
+			"maxLevel": 20,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAWN",
+					"DUSK"
+				],
+				"stringBiomes": [
+					"taigas",
+					"jungles",
+					"redwoods"
+				]
+			},
+			"rarity": 60.0
+		}
+	]
+}

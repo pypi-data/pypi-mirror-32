@@ -1,0 +1,22 @@
+{
+	"id": "Raichu",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Raichu"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 25,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"all forests"
+				]
+			},
+			"rarity": 10.0
+		}
+	]
+}

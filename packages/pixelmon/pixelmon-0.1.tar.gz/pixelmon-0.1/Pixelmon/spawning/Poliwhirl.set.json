@@ -1,0 +1,26 @@
+{
+	"id": "Poliwhirl",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Poliwhirl"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 25,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"swamps",
+					"river"
+				]
+			},
+			"rarity": 50.0
+		}
+	]
+}

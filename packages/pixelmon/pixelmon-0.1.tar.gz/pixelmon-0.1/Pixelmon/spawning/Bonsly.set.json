@@ -1,0 +1,22 @@
+{
+	"id": "Bonsly",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Bonsly"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 5,
+			"maxLevel": 20,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"redwoods"
+				]
+			},
+			"rarity": 30
+		}
+	]
+}

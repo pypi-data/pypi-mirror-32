@@ -1,0 +1,23 @@
+{
+	"id": "Celebi",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Celebi"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"interval": "legendary",
+			"minLevel": 70,
+			"maxLevel": 70,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"mutated_forest"
+				]
+			},
+			"rarity": 2
+		}
+	]
+}

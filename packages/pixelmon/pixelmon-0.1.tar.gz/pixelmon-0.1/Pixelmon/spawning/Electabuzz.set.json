@@ -1,0 +1,25 @@
+{
+	"id": "Electabuzz",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Electabuzz"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 25,
+			"maxLevel": 34,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"plains"
+				]
+			},
+			"rarity": 40.0
+		}
+	]
+}

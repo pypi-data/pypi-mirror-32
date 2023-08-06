@@ -1,0 +1,29 @@
+{
+	"id": "Dwebble",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Dwebble"
+			},
+			"stringLocationTypes": [
+				"Land",
+				"Rock Smash"
+			],
+			"minLevel": 5,
+			"maxLevel": 34,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAWN",
+					"DUSK",
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"beaches",
+					"stone_beach"
+				]
+			},
+			"rarity": 150.0
+		}
+	]
+}

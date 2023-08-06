@@ -1,0 +1,25 @@
+{
+	"id": "Hoopa",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Hoopa",
+				"level": 50
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"interval": "legendary",
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"mutated_desert"
+				]
+			},
+			"rarity": 2
+		}
+	]
+}

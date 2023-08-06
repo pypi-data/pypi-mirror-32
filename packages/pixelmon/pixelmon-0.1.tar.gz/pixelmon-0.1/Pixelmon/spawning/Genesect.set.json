@@ -1,0 +1,26 @@
+{
+	"id": "Genesect",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Genesect",
+				"level": 70
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"interval": "legendary",
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"extreme_hills_with_trees",
+					"birch_forest"
+				]
+			},
+			"rarity": 2
+		}
+	]
+}

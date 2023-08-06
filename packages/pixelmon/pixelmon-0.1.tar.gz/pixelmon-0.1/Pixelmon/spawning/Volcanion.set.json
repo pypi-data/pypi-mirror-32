@@ -1,0 +1,25 @@
+{
+	"id": "Volcanion",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Volcanion",
+				"level": 70
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"interval": "legendary",
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"desert_hills"
+				]
+			},
+			"rarity": 2
+		}
+	]
+}

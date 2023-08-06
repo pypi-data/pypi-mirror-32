@@ -1,0 +1,31 @@
+{
+	"id": "Crawdaunt",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Crawdaunt"
+			},
+			"stringLocationTypes": [
+				"Water",
+				"Land"
+			],
+			"minLevel": 30,
+			"maxLevel": 55,
+			"typeID": "pokemon",
+			"condition": {
+				"baseBlocks": [
+					"beach"
+				],
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"oceanic",
+					"beaches",
+					"stone_beach"
+				]
+			},
+			"rarity": 120.0
+		}
+	]
+}

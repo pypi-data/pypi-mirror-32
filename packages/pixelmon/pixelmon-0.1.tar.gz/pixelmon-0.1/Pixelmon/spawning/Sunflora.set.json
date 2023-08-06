@@ -1,0 +1,25 @@
+{
+	"id": "Sunflora",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Sunflora"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 10,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"flowery"
+				]
+			},
+			"rarity": 40.0
+		}
+	]
+}

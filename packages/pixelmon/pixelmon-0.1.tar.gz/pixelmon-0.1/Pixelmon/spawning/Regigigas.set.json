@@ -1,0 +1,26 @@
+{
+	"id": "Regigigas",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Regigigas",
+				"level": 70
+			},
+			"stringLocationTypes": [
+				"Underground"
+			],
+			"interval": "legendary",
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAWN",
+					"DUSK"
+				],
+				"stringBiomes": [
+					"mutated_taiga_cold"
+				]
+			},
+			"rarity": 1
+		}
+	]
+}

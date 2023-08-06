@@ -1,0 +1,18 @@
+{
+	"id": "Magikarp",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Magikarp"
+			},
+			"stringLocationTypes": [
+				"Water",
+				"Underground Water"
+			],
+			"minLevel": 5,
+			"maxLevel": 20,
+			"typeID": "pokemon",
+			"rarity": 500.0
+		}
+	]
+}

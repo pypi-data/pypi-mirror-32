@@ -1,0 +1,23 @@
+{
+	"id": "Dunsparce",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Dunsparce"
+			},
+			"stringLocationTypes": [
+				"Land",
+				"Rock Smash"
+			],
+			"minLevel": 5,
+			"maxLevel": 30,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"arid"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

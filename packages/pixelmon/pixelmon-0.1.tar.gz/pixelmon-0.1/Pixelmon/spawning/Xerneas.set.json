@@ -1,0 +1,25 @@
+{
+	"id": "Xerneas",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Xerneas",
+				"level": 70
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"interval": "legendary",
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"forest"
+				]
+			},
+			"rarity": 1
+		}
+	]
+}

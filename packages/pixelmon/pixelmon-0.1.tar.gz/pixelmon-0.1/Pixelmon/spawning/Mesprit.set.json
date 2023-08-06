@@ -1,0 +1,25 @@
+{
+	"id": "Mesprit",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Mesprit",
+				"level": 50
+			},
+			"stringLocationTypes": [
+				"Surface Water"
+			],
+			"interval": "legendary",
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"all forests"
+				]
+			},
+			"rarity": 1
+		}
+	]
+}

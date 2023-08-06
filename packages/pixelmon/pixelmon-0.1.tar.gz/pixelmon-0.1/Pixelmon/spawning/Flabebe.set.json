@@ -1,0 +1,22 @@
+{
+	"id": "Flabebe",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Flabebe"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 6,
+			"maxLevel": 18,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"flowery"
+				]
+			},
+			"rarity": 50
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "Farfetchd",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Farfetchd"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 24,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"plains"
+				]
+			},
+			"rarity": 30.0
+		}
+	]
+}

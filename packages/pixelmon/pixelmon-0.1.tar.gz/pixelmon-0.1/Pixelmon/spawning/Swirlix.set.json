@@ -1,0 +1,28 @@
+{
+	"id": "Swirlix",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Swirlix"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 22,
+			"maxLevel": 35,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAWN",
+					"DUSK",
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"birches",
+					"forests"
+				]
+			},
+			"rarity": 40.0
+		}
+	]
+}

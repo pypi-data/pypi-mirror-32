@@ -1,0 +1,26 @@
+{
+	"id": "Happiny",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Happiny"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 5,
+			"maxLevel": 15,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"plains",
+					"savannas"
+				]
+			},
+			"rarity": 20.0
+		}
+	]
+}

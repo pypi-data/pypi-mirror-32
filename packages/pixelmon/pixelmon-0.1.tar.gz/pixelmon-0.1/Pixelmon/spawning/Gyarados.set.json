@@ -1,0 +1,22 @@
+{
+	"id": "Gyarados",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Gyarados"
+			},
+			"stringLocationTypes": [
+				"Water"
+			],
+			"minLevel": 20,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"oceanic"
+				]
+			},
+			"rarity": 40
+		}
+	]
+}

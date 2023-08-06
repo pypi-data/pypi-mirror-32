@@ -1,0 +1,27 @@
+{
+	"id": "Kyurem",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Kyurem",
+				"level": 70
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"interval": "legendary",
+			"typeID": "pokemon",
+			"condition": {
+				"minY": 120,
+				"times": [
+					"DAWN",
+					"DUSK"
+				],
+				"stringBiomes": [
+					"freezing"
+				]
+			},
+			"rarity": 4
+		}
+	]
+}

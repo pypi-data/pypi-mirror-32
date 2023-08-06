@@ -1,0 +1,25 @@
+{
+	"id": "Ditto",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Ditto"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 15,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"savannas"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

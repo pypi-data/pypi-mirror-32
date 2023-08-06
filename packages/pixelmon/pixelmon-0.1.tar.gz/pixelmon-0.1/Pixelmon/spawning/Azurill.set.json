@@ -1,0 +1,27 @@
+{
+	"id": "Azurill",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Azurill"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 5,
+			"maxLevel": 8,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"oceanic",
+					"beaches",
+					"river"
+				]
+			},
+			"rarity": 50.0
+		}
+	]
+}

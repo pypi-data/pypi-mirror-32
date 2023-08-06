@@ -1,0 +1,26 @@
+{
+	"id": "Landorus",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Landorus",
+				"level": 70
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"interval": "legendary",
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"mesa_clear_rock",
+					"forest_hills"
+				]
+			},
+			"rarity": 2
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"id": "Accelgor",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Accelgor"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 30,
+			"maxLevel": 42,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"swamps"
+				]
+			},
+			"rarity": 10
+		}
+	]
+}

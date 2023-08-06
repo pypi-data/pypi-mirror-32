@@ -1,0 +1,31 @@
+{
+	"id": "Corphish",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Corphish"
+			},
+			"stringLocationTypes": [
+				"Seafloor",
+				"Land"
+			],
+			"minLevel": 5,
+			"maxLevel": 29,
+			"typeID": "pokemon",
+			"condition": {
+				"baseBlocks": [
+					"beach"
+				],
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"oceanic",
+					"beaches",
+					"stone_beach"
+				]
+			},
+			"rarity": 480.0
+		}
+	]
+}

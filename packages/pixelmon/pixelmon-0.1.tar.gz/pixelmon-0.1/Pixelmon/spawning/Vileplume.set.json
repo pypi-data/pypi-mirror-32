@@ -1,0 +1,26 @@
+{
+	"id": "Vileplume",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Vileplume"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 30,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"flowery",
+					"swamps",
+					"jungles",
+					"roofed_forest",
+					"mushroom"
+				]
+			},
+			"rarity": 5.0
+		}
+	]
+}

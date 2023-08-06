@@ -1,0 +1,27 @@
+{
+	"id": "Beartic",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Beartic"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 38,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"DAY"
+				],
+				"stringBiomes": [
+					"freezing forests",
+					"ice_flats",
+					"frozen_ocean"
+				]
+			},
+			"rarity": 25.0
+		}
+	]
+}

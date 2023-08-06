@@ -1,0 +1,23 @@
+{
+	"id": "Regirock",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Regirock",
+				"level": 40
+			},
+			"stringLocationTypes": [
+				"Underground"
+			],
+			"interval": "legendary",
+			"typeID": "pokemon",
+			"condition": {
+				"maxY": 32,
+				"stringBiomes": [
+					"arid"
+				]
+			},
+			"rarity": 2
+		}
+	]
+}

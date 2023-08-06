@@ -1,0 +1,25 @@
+{
+	"id": "Finneon",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Finneon"
+			},
+			"stringLocationTypes": [
+				"Water"
+			],
+			"minLevel": 19,
+			"maxLevel": 30,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"oceanic",
+					"beaches",
+					"stone_beach",
+					"river"
+				]
+			},
+			"rarity": 300.0
+		}
+	]
+}

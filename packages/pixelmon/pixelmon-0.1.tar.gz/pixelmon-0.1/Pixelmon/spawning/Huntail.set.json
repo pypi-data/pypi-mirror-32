@@ -1,0 +1,25 @@
+{
+	"id": "Huntail",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Huntail"
+			},
+			"stringLocationTypes": [
+				"Water"
+			],
+			"minLevel": 30,
+			"maxLevel": 40,
+			"typeID": "pokemon",
+			"condition": {
+				"times": [
+					"NIGHT"
+				],
+				"stringBiomes": [
+					"oceanic"
+				]
+			},
+			"rarity": 150.0
+		}
+	]
+}

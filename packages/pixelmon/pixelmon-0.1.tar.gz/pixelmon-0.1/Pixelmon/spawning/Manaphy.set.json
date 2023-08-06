@@ -1,0 +1,25 @@
+{
+	"id": "Manaphy",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Manaphy",
+				"level": 50
+			},
+			"stringLocationTypes": [
+				"Water"
+			],
+			"interval": "legendary",
+			"typeID": "pokemon",
+			"condition": {
+				"weathers": [
+					"RAIN"
+				],
+				"stringBiomes": [
+					"oceanic"
+				]
+			},
+			"rarity": 5
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"id": "Victreebel",
+	"spawnInfos": [
+		{
+			"spec": {
+				"name": "Victreebel"
+			},
+			"stringLocationTypes": [
+				"Land"
+			],
+			"minLevel": 30,
+			"maxLevel": 50,
+			"typeID": "pokemon",
+			"condition": {
+				"stringBiomes": [
+					"forests",
+					"swamps",
+					"jungles",
+					"flowery"
+				]
+			},
+			"rarity": 0.0
+		}
+	]
+}
