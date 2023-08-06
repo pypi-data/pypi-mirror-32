@@ -1,0 +1,4 @@
+[console_scripts]
+sample_roads = geo_sampling.sample_roads:main
+geo_roads = geo_sampling.geo_roads:main
+
