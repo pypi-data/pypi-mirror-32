@@ -1,0 +1,6 @@
+setup.py
+prodconpattern/__init__.py
+prodconpattern.egg-info/PKG-INFO
+prodconpattern.egg-info/SOURCES.txt
+prodconpattern.egg-info/dependency_links.txt
+prodconpattern.egg-info/top_level.txt
