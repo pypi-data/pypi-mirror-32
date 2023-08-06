@@ -1,0 +1,6 @@
+requests
+typing
+colorama
+google-api-python-client
+pyOpenSSL
+httplib2
