@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: sharding
+Version: 0.0.2a1
+Summary: Ethereum Sharding Manager Contract
+Home-page: https://github.com/ethereum/sharding
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.5, <4
+Requires-Dist: cytoolz (<1.0.0,>=0.9.0)
+Requires-Dist: eth-utils (<2.0.0,>=1.0.3)
+Requires-Dist: rlp (<2.0.0,>=1.0.0)
+Requires-Dist: web3 (<5.0.0,>=4.1.0)
+Requires-Dist: py-evm (==0.2.0a18)
+
+Sharding
+========
+
+Sharding Implementation
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Refer `Py-EVM <https://github.com/ethereum/py-evm>`__ for the latest
+implementation progress.
+
+Specification and Documentation
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+See the “docs” directory for documentation and EIPs.
+
+Ethereum Research Forum
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Please visit `ethresear.ch <https://ethresear.ch/c/sharding>`__.
+
+
