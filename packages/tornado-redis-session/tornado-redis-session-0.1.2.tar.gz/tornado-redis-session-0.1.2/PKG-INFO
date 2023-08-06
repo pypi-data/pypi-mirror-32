@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: tornado-redis-session
+Version: 0.1.2
+Summary: Server side session middleware based on redis
+Home-page: https://github.com/hw20686832/tornado-redis-session
+Author: David Wong
+Author-email: stef-hw@163.com
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Keywords: tornado,session,redis
+Platform: UNKNOWN
