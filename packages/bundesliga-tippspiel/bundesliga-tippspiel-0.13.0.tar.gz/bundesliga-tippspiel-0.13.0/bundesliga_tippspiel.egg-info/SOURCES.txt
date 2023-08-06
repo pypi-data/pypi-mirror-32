@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+version
+bundesliga_tippspiel/__init__.py
+bundesliga_tippspiel/router.py
+bundesliga_tippspiel.egg-info/PKG-INFO
+bundesliga_tippspiel.egg-info/SOURCES.txt
+bundesliga_tippspiel.egg-info/dependency_links.txt
+bundesliga_tippspiel.egg-info/not-zip-safe
+bundesliga_tippspiel.egg-info/requires.txt
+bundesliga_tippspiel.egg-info/top_level.txt
+bundesliga_tippspiel/static/style.css
+bundesliga_tippspiel/templates/header.html
+test/__init__.py
