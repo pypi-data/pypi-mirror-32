@@ -1,0 +1,9 @@
+README.md
+setup.py
+AutoEPD.egg-info/PKG-INFO
+AutoEPD.egg-info/SOURCES.txt
+AutoEPD.egg-info/dependency_links.txt
+AutoEPD.egg-info/requires.txt
+AutoEPD.egg-info/top_level.txt
+autoepd/__init__.py
+autoepd/epd.py

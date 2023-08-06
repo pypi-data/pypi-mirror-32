@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: AutoEPD
+Version: 0.0.2
+Summary: A package for calculating the EPD
+Home-page: https://github.com/Jakkwj/autoepd
+Author: JunWang
+Author-email: shutupwj@163.com
+License: Apache License Version 2.0
+Description-Content-Type: UNKNOWN
+Description: A package for calculating the Environmental Product Declaration
+Keywords: pip,EPD,Environmental Product Declaration,sensitivity analysis,uncertainty analysis
+Platform: any
