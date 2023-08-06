@@ -1,0 +1,8 @@
+checkits-1.1.dist-info/METADATA,sha256=dBLKkw2PIlxOr1bJhML6L4LCa0XZWA1HkUvmc-iOt90,327
+checkits-1.1.dist-info/RECORD,,
+checkits-1.1.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+checkits-1.1.dist-info/entry_points.txt,sha256=kpoH4WWDdQJBSEV4UyhKdtCODkmMKHakBW65Q7b-jgU,59
+checkits-1.1.dist-info/top_level.txt,sha256=6Rml6T6hjIfFmP0779rp6Ih-lW1MBRjpGrOvLm-BDHU,14
+main/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+main/__main__.py,sha256=L50SsKO7q4_UaeVdkOrcW5OZttuQM-pAv-uE453y5TM,49
+main/main.py,sha256=mGIItE-YOwe43B0YJr9mbLGDxEUFMv3l9-6CN40PyEc,21062
