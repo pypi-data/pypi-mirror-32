@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: webdav
+Version: 1.0.0
+Summary: WebDAV client library
+Home-page: https://github.com/kamikaze/webdav
+Author: Oleg Korsak
+Author-email: kamikaze.is.waiting.you@gmail.com
+License: GPLv3
+Keywords: webdav,client,python,module,library
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires: python (>= 3.6)
+Requires-Dist: lxml
+Requires-Dist: requests
+
+webdav
+=============
+
+.. image:: https://travis-ci.org/kamikaze/webdav.svg?branch=master
+    :target: https://travis-ci.org/kamikaze/webdav
+
+
+Release Notes
+=============
+
+**Version 1.0 - 06.06.2018**
+ * Added support for custom authentication like NTLM by https://github.com/kamikaze
+
+
