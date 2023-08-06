@@ -1,0 +1,10 @@
+lyricsmaster/__init__.py,sha256=zGsbL7OFhzRhCXI3ry1EXIbsfyd3IdQ8tJYDRklgteY,240
+lyricsmaster/cli.py,sha256=DgXgDVoPWQNwir4FOSVyde6fCUMnfYtcFVoY5ZAHhHo,1841
+lyricsmaster/models.py,sha256=-RbwG2--iHFqwk0xgbXdJpFsF73P0Fol-2s2PZ_Iv_s,4432
+lyricsmaster/providers.py,sha256=8kCVfm8BwuTGXrDPCzMMg9rZFx4Ow5gwE-j6FEWDCNw,32820
+lyricsmaster/utils.py,sha256=Za7fTkY0KQEhzDFxQM4MjTLU8Q9HmGawNpU0__5m8tc,4079
+lyricsmaster-2.7.13.dist-info/METADATA,sha256=vn6BQeI_ihgnTvQOqYg8T2j4gN3Nh-dwS_h41g39xS4,7686
+lyricsmaster-2.7.13.dist-info/RECORD,,
+lyricsmaster-2.7.13.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+lyricsmaster-2.7.13.dist-info/entry_points.txt,sha256=cw47Kak_2hVJ96XnxyXVsxKHcCAnGSilTGjOdYN2F00,56
+lyricsmaster-2.7.13.dist-info/top_level.txt,sha256=Wrt_yw4wU_i0QOQVtBYR3VQkeZAQvBje7fr9mcWZNnA,13
