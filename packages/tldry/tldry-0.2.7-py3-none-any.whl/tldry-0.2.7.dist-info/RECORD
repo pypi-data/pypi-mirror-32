@@ -1,0 +1,12 @@
+tldry/__init__.py,sha256=cUbL-sNU_iZaGTiP58RhKRG6SyWzxzPForVpbV8xp-g,25
+tldry/bm25.py,sha256=lx7c2Fd-5dLPx-g52IBtfVJetCKAkUkKZU6DFKVqgsQ,2794
+tldry/nlp.py,sha256=2xB3sFopm8Gc3XzNhNx1h0EZ2ZM5YDq_fL-dgdlIf28,2226
+tldry/pdist_maker.py,sha256=Tp7jq3iA_NgjkBv_CPtBx2pz5g5H2szV-W6UyxZWIDs,1453
+tldry/tldry.py,sha256=dfy_dqPFRSsDSAabhtq5LJSH3Q_OPv3AQooV3efCtXU,2224
+tldry/stopwords/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tldry/stopwords/english.py,sha256=KWPWPip2PMPYOZceUbphVRwSXmxZG-SjFsT67guSUtA,1830
+tldry/stopwords/russian.py,sha256=mfMOeWAAC-8jMb3NMr4utk6RH9FmRqaIkTBdIMEQTa4,2642
+tldry-0.2.7.dist-info/METADATA,sha256=Qm_f5tku8rrUzlMQ_yhtTc0Js4bU7diiClhNIDOWEPc,642
+tldry-0.2.7.dist-info/RECORD,,
+tldry-0.2.7.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+tldry-0.2.7.dist-info/top_level.txt,sha256=1lBWV1TH0OVe4A371jTkEVtY3R1MIxjh0ReSC5W8MiM,6
