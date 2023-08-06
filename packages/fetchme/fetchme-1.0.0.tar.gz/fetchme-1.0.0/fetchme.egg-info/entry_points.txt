@@ -1,0 +1,3 @@
+[console_scripts]
+fetchme = fetchme:cli
+
