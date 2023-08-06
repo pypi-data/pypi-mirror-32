@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: pylogenetics
+Version: 0.4.0
+Summary: Phylogenetic analysis tools
+Home-page: https://github.com/dominicwhite/pylogenetics
+Author: Dominic White
+Author-email: dewhite4@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/peterldowns/mypackage/archive/0.4.0.tar.gz
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: nose
+Requires-Dist: networkx
+Requires-Dist: numpy
+Requires-Dist: requests
+
+# pylogenetics
+
+A python package containing classes and functions for phylogenetic analyses.
+
+
+Includes
+ - A tree class
+ - A matrix class
+ - Functions for reading tree files in newick format
+ - A function for creating a MRP (supertree) matrix of a set of trees
+
+### Installing
+
+A step by step series of examples that tell you how to get a development env running
+
+Say what the step will be
+
+```
+Give the example
+```
+
+And repeat
+
+```
+until finished
+```
+
+End with an example of getting some data out of the system or using it for a little demo
+
+## Usage examples
+
+
+## Running the tests
+
+Explain how to run the automated tests for this system
+
+
+## Authors
+
+* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details
+
+
+
