@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+version
+bin/gitlab-cloner
+gitlab_cloner/__init__.py
+gitlab_cloner/gitlab_api.py
+gitlab_cloner.egg-info/PKG-INFO
+gitlab_cloner.egg-info/SOURCES.txt
+gitlab_cloner.egg-info/dependency_links.txt
+gitlab_cloner.egg-info/not-zip-safe
+gitlab_cloner.egg-info/requires.txt
+gitlab_cloner.egg-info/top_level.txt
+test/__init__.py
+test/test_cloning.py
