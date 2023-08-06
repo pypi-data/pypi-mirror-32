@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: event-bus-py2
+Version: 1.0.0
+Summary: event_bus for 2.7
+Home-page: https://github.com/pypa/example-project
+Author: yxb
+Author-email: 345252408@qq.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
