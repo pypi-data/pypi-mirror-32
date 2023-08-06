@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: atomicpuppy-sqlcounter
+Version: 0.21
+Summary: A sqlalchemy based counter for AtomicPuppy
+Home-page: https://github.com/madedotcom/atomicpuppy-sqlcounter
+Author: Francesco Pighi
+Author-email: tech@made.com
+License: MIT
+Download-URL: https://github.com/madedotcom/atomicpuppy-sqlcounter/tarball/0.1rc3
+Keywords: AtomicPuppy
+Platform: UNKNOWN
+Requires-Dist: atomicpuppy
+Requires-Dist: retrying
+
+UNKNOWN
+
+
