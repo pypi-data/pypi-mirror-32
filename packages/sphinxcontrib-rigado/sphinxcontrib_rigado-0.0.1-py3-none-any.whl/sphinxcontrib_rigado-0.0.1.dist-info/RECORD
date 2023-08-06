@@ -1,0 +1,7 @@
+sphinxcontrib/rigado/__init__.py,sha256=DsAHdxLC16H2VjdFOU5tBx2xT9VnNQ-XbTS24fRCa_w,22
+sphinxcontrib/rigado/inventory-builder.py,sha256=ep6mcleNrkJd4GpEUSp5K1EZygs0U_lA0GYJ96Yy-gI,292
+sphinxcontrib/rigado/tablelist.py,sha256=oc_UfFtXe-1gqP5eLeh5vdiTZydLMEiFfmxaDExXF4w,4884
+sphinxcontrib_rigado-0.0.1.dist-info/METADATA,sha256=fxEylWU9m94wvFUhAcGXiF16647zTfs2eyevbd8iD7E,585
+sphinxcontrib_rigado-0.0.1.dist-info/RECORD,,
+sphinxcontrib_rigado-0.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+sphinxcontrib_rigado-0.0.1.dist-info/top_level.txt,sha256=VJrV3_vaiKQVgVpR0I1iecxoO0drzGu-M0j40PVP2QQ,14
