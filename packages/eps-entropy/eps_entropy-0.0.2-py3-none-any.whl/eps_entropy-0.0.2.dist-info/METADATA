@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: eps-entropy
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: https://github.com/ohjeah
+Author: Markus Quade
+Author-email: info@markusqua.de
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Requires-Dist: numpy
+Requires-Dist: scipy (>=1.0.0)
+
+UNKNOWN
+
+
