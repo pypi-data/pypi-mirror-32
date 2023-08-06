@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: stn
+Version: 1.0.0
+Summary: Spatial Transformer Networks.
+Home-page: https://github.com/kevinzakka/spatial-transformer-network
+Author: Kevin Zakka
+Author-email: kevinarmandzakka@gmail.com
+License: MIT
+Keywords: ai neural networks machine learning ml
+Platform: UNKNOWN
+Provides-Extra: tf_gpu
+Provides-Extra: tf
+Requires-Dist: numpy
+Provides-Extra: tf
+Requires-Dist: tensorflow (>=1.0.0); extra == 'tf'
+Provides-Extra: tf_gpu
+Requires-Dist: tensorflow-gpu (>=1.0.0); extra == 'tf_gpu'
+
+Implementation of https://arxiv.org/abs/1506.02025
+
+
