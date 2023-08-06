@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: transcendental
+Version: 0.1.0
+Summary: Minimal IA for image recognition
+Home-page: https://github.com/4383/transcendental
+Author: hervé beraud
+Author-email: herveberaud.pro@gmail.com
+License: UNKNOWN
+Description: # Transcendental (π)
+        
+        Artificial Intelligence image recognition.
+        
+        Learn from input data and generate model, predict from previous generated model
+        
+        ## Install
+        
+        ```shell
+        $ pip install transcendental
+        ```
+        
+        ## Usage
+        
+        ```shell
+        $ # Work in progress
+        ```
+        
+        ## Resources
+        - https://becominghuman.ai/building-an-image-classifier-using-deep-learning-in-python-totally-from-a-beginners-perspective-be8dbaf22dd8
+        - https://drive.google.com/drive/folders/1XaFM8BJFligrqeQdE-_5Id0V_SubJAZe
+        - https://machinelearningmastery.com/save-load-keras-deep-learning-models/
+        - https://www.quora.com/How-do-artificial-neural-networks-work
+        - http://torch.ch/blog/2015/11/13/gan.html
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires: pbd
+Description-Content-Type: text/markdown
+Provides-Extra: devel
+Provides-Extra: test
