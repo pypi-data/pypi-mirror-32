@@ -1,0 +1,6 @@
+jupyterhub_ldapauthenticator-1.2.1.dist-info/METADATA,sha256=LsVR7arV6qDWkzplPZyf-n1PjExRiYiZ2HQdatdg4b0,373
+jupyterhub_ldapauthenticator-1.2.1.dist-info/RECORD,,
+jupyterhub_ldapauthenticator-1.2.1.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+jupyterhub_ldapauthenticator-1.2.1.dist-info/top_level.txt,sha256=K0yoO3w8ZuV7-g2OJXumssn8zl2dtUSPXWtkDfHhzEQ,18
+ldapauthenticator/__init__.py,sha256=iLr2exwiPhi_YbaHLVEk__xiJuf9AifZbG13OXTkizE,92
+ldapauthenticator/ldapauthenticator.py,sha256=aTFXG6hs6FtZNj8fTEW3pjvtk-GmBnv2y-U8iQTD_QA,15284
