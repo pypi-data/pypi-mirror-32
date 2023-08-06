@@ -1,0 +1,13 @@
+celery_slack/__init__.py,sha256=e7lSfHs8XcvAoS5FlpKZvGHX35FATw_w03hcRIFXKTo,666
+celery_slack/__version__.py,sha256=0lH9yTOPDl9kAqtV_Wr_UNG5CPPT5ZSHYxkAH76mdxM,376
+celery_slack/attachments.py,sha256=Ck4OLr6lQ5xl1ipd8O_v6J927MdvGYlzFNLjXBrpHLk,9494
+celery_slack/callbacks.py,sha256=iKsi-cA8Ai66i9_bAy9ylpxvzjr6oNT3NrA3v1P2vKw,3953
+celery_slack/exceptions.py,sha256=77UcA4CzGxv0Y-Ofo1boFhnmUls8qvc0iV787OXPNPY,291
+celery_slack/slack.py,sha256=sR7WqXOXDgDCgZ1GAzflR-sQkpxvFbTqCXzwWWBD_6M,2303
+celery_slack/slackify.py,sha256=NJLroHd1xlIY-m3MLUn-dbDnmV-haNmESi9vMZ0RCgA,3952
+celery_slack-0.2.0.dist-info/DESCRIPTION.rst,sha256=epIXaf97KIYu0KFYWu2gFP8EoEkfu7neOOAhMFbJnMY,6387
+celery_slack-0.2.0.dist-info/METADATA,sha256=xoR_FDxpN4rFRZsULlQ2MpJ1aUKvQfj8xPHtH5sNnAc,7380
+celery_slack-0.2.0.dist-info/RECORD,,
+celery_slack-0.2.0.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+celery_slack-0.2.0.dist-info/metadata.json,sha256=vBfBYRLFNakLHnxWZpujVb2MJzuBxQ_dgeFSQG65RbI,1106
+celery_slack-0.2.0.dist-info/top_level.txt,sha256=GyeRxkd6qj1UJlBTjPzz7VZjvRkSrXODO-cai0ddaqY,13
