@@ -1,0 +1,8 @@
+Django==2.0
+datadog==0.21.0
+
+[dev]
+check-manifest
+
+[test]
+coverage
