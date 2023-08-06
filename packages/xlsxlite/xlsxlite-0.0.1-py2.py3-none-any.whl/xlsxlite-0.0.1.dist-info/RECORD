@@ -1,0 +1,10 @@
+xlsxlite/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+xlsxlite/book.py,sha256=5m6lurdLgpzHBx2_9JZqQasVC2JagN3oi3U0iIJLRGY,6787
+xlsxlite/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xlsxlite/test/base.py,sha256=4JNKIT1PfPZ-H27J6Rfz99Ahxz0BLjN3K5_F-DLuYmA,1575
+xlsxlite/test/test_book.py,sha256=dyVXfNXh2OVJyF3-ah0Mvhqrz2kgynPBAY--Zy3Vd3c,2705
+xlsxlite-0.0.1.dist-info/LICENSE.txt,sha256=i-a-crV7tbx7r-Mej8AJzyJa6b67_VDBWiOJnDaEWLc,1074
+xlsxlite-0.0.1.dist-info/METADATA,sha256=O2ZRNZZnLgF8mGXKnrNEcvgfcNq3JFMbTmAbevs6-sE,1276
+xlsxlite-0.0.1.dist-info/RECORD,,
+xlsxlite-0.0.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+xlsxlite-0.0.1.dist-info/top_level.txt,sha256=zZF_1bG3UShNdhMNMyeAddvjRRGRDHfED9QddGhl-xI,9
