@@ -1,0 +1,13 @@
+infi.os_info-0.1.10-py2.7-nspkg.pth,sha256=Puo8Dhy7BSgYsqSaXhYQWKH_Zr23iy05JZ2pxHOAtNc,529
+infi/os_info/__init__.py,sha256=ScPjgJJjh2jmIvHzLvth2veuLS_F9vd7gYWZH2RmdEA,4882
+infi/os_info/__version__.py,sha256=Zuz41IZUaHrW4gzYFGEgW8YSAId2MWtKX1yUiEleipc,467
+infi/os_info/parse_version.py,sha256=r-wDPN1PJulAqzftav7XuJlhbZuI26yHEZz2weRBOgo,1041
+infi/os_info/scripts.py,sha256=B6LFe-5agteVHA2sS8SLP6xa1MWDV-tFCrbyLqbIZCk,416
+infi.os_info-0.1.10.dist-info/DESCRIPTION.rst,sha256=MMyOBHJbdCBKiUGBaTnffOGYGIq_9A81GHrlmTPTGlw,36
+infi.os_info-0.1.10.dist-info/METADATA,sha256=zXgyvga5mTNtb4mJ_m1jJLj0CEQWJV5mVDcnVyZAjkY,733
+infi.os_info-0.1.10.dist-info/RECORD,,
+infi.os_info-0.1.10.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+infi.os_info-0.1.10.dist-info/entry_points.txt,sha256=0IJWBXIeQXlniXEnChIlniTA0QFGnNm2dvqXsvuyFvQ,191
+infi.os_info-0.1.10.dist-info/metadata.json,sha256=kupuKMFUvX4dAOhYUOi-9JhBCakmKjEgVC47u4J1Dzc,1303
+infi.os_info-0.1.10.dist-info/namespace_packages.txt,sha256=dXIyYv_pNwpGguxzqhrAAmEyFWegZ_kDeqe_z8cMR5g,5
+infi.os_info-0.1.10.dist-info/top_level.txt,sha256=dXIyYv_pNwpGguxzqhrAAmEyFWegZ_kDeqe_z8cMR5g,5
