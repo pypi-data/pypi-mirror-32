@@ -1,0 +1,6 @@
+tqdm
+sqlalchemy
+python-dateutil
+annoy
+tensorflow_hub
+scikit-image
