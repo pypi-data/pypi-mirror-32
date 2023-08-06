@@ -1,0 +1,9 @@
+pytest_flask_sqlalchemy_transactions-0.0.1.dist-info/METADATA,sha256=tdHk44if8h36BzdzKtSsOSspwvbbfoUyhCOYFve9-tk,18163
+pytest_flask_sqlalchemy_transactions-0.0.1.dist-info/RECORD,,
+pytest_flask_sqlalchemy_transactions-0.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pytest_flask_sqlalchemy_transactions-0.0.1.dist-info/entry_points.txt,sha256=JSEX6Vbq_BdkzyC13UTc85y0lrU70EtwxGiyaIhziTc,71
+pytest_flask_sqlalchemy_transactions-0.0.1.dist-info/top_level.txt,sha256=4ALWFZhZx_EV48HWnFmrC06_bRRwWdSqUXjRzHnS8fo,13
+transactions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+transactions/fixtures.py,sha256=46eqFMEx4YE3nvIPk4DKh2hLaszW8fa1c9Z_7NM6rIk,7414
+transactions/hooks.py,sha256=zUu-PC0A6knVMU9J36HJ88t3Uf29a6Ams5EuYax3NC0,276
+transactions/plugin.py,sha256=0VZ4TnpajjfZfHeJTABaePXG6OwhHAjeSfj7q5srZZ8,1946
