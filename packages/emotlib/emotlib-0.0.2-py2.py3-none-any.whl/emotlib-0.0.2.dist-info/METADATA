@@ -1,0 +1,45 @@
+Metadata-Version: 2.0
+Name: emotlib
+Version: 0.0.2
+Summary: Python emoji + emoticon Library
+Home-page: https://github.com/steven5538/emotlib
+Author: steven5538
+Author-email: steven5538@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: Chinese (Traditional)
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Communications
+Classifier: Topic :: Communications :: BBS
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Communications :: Email
+Classifier: Topic :: Communications :: Internet Phone
+Requires-Python: >=2.6, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*
+
+# emotlib: Python emoji + emoticon Library
+
+Installation
+------------
+
+To install emotlib, simply use [pipenv](http://pipenv.org/) (or pip, of course):
+```
+$ pipenv install emotlib
+🍿🍿🎉
+```
+Satisfaction guaranteed.
+
+Documentation
+-------------
+
+Documentation is available at https://github.com/steven5538/emotlib, for a limited time only.
+
+
