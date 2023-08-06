@@ -1,0 +1,12 @@
+anytree
+apispec
+boltons
+ereuse-utils
+ereuse-utils[naming]
+ereuse-utils[test]
+flasgger
+flask>=1.0
+flask-sqlalchemy
+marshmallow-jsonschema
+marshmallow==3.0.0b9
+webargs
