@@ -1,0 +1,10 @@
+Users/bnmetrics/.fetchmerc,sha256=ohADw-BEAekgQIEHsk264vqvDs0RHlo9RYrYubHOV58,10
+fetchme/__init__.py,sha256=kD7zTI1w1XSLSIDqlxSRb_L_9PkqCL5968yNrJr2Ij0,22
+fetchme/__version__.py,sha256=RsZjRjMprNcDm97wqRRSk6rTLgTX8N0GyicZyZ8OsBQ,22
+fetchme/_cli.py,sha256=Ngm1u0lJHzhc_mzsjQze8TnsnUV9qFynrXa816WF60c,3233
+fetchme/utils.py,sha256=H_BUYIVAWy7ALxcomwyi_pjKJMZmBGEPyg01eM9tLTA,1955
+fetchme-1.0.0.dist-info/METADATA,sha256=4QfJnuo5uHx_zfpr9bRtGP_Xf0Q_MtgK8aVZqIEgPkQ,3458
+fetchme-1.0.0.dist-info/RECORD,,
+fetchme-1.0.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+fetchme-1.0.0.dist-info/entry_points.txt,sha256=6Zrv2cbnf1TNheNAt9032uy2r0xztgAxHVvAHyFKZYA,41
+fetchme-1.0.0.dist-info/top_level.txt,sha256=Gd1-wBnrItnZYUv3SyiqMqqiDy4d9LCO-nOZgYHCOvI,8
