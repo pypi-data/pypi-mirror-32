@@ -1,0 +1,9 @@
+pylf/__init__.py,sha256=Z4uQRV5Leofz7mzEqSzR3577NsfT3hCRDcvwc9b5kr8,8907
+pylf/_core.py,sha256=Kwvx_PQFN2rPIhYs5vLTECmcz-ADqh-JXp7mKqFEB6U,8193
+pylf/_handwriting.py,sha256=oPOajtKe0gnKa5uGHeFR0irJ_4vkmdMKP7I7klVuF8g,16481
+pylf/_page.py,sha256=H0Yrt6EuZBZNHFjJAYh1xO2kvJEBDoziAU59zZMJyLI,738
+pylf-1.2.0.dist-info/METADATA,sha256=dCl46Lm7fy8NbybGAwcOW4iEpt1v-wnlehun1ko17os,7048
+pylf-1.2.0.dist-info/RECORD,,
+pylf-1.2.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pylf-1.2.0.dist-info/top_level.txt,sha256=_YVjcB0SaT1q7x5SMb17peU_PxsRH52yKC4Aa6XUzEM,5
+pylf-1.2.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
