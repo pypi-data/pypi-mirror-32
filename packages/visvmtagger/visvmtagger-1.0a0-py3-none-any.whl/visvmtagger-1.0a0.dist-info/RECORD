@@ -1,0 +1,14 @@
+models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+models/label.pkl,sha256=81gZsfBDS_u9qQyrAmBKfXCgwF2n4xRveP9m1NRQKxs,370
+models/svc.pkl,sha256=DpFbjsQWpAXkaY5euaBEAEbQkJ3d8HbBux5v6fRdGf8,1618114
+models/vectorizer.pkl,sha256=WgRX-36W5O2nqvG1NjbYZxcB0j3drXRXqP6k8OkvQk8,401735
+visvmtagger/__init__.py,sha256=rw4CIWspUFeBLfg5_uIE_nOH95yYsyRqDJ9yuzuSgwk,27
+visvmtagger/tagger.py,sha256=7RAKb00cO3Yu0RuHxYUte_PAtdJblIpLU83SwaGGfbc,1907
+visvmtagger/train.py,sha256=ttLtSd2Ea9JqBVYCzxE4KUyAz05JHR30Yjp4QWqk8kc,2934
+visvmtagger-1.0a0.dist-info/METADATA,sha256=GiUpICESwum4bmk1p5NR3mwDKUHcRpflN-EmPrHJ9Mk,414
+visvmtagger-1.0a0.dist-info/RECORD,,
+visvmtagger-1.0a0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+visvmtagger-1.0a0.dist-info/top_level.txt,sha256=iPGU-tx3fXxjzRCDsaVDMTevTHEyoE7EaXc2FOQ-Q-4,19
+vitagger/__init__.py,sha256=rw4CIWspUFeBLfg5_uIE_nOH95yYsyRqDJ9yuzuSgwk,27
+vitagger/tagger.py,sha256=Mq5ZrfaaLbvs6sOGV7FTfTlWn99GUbHSlOEP2G55Ows,1906
+vitagger/train.py,sha256=ttLtSd2Ea9JqBVYCzxE4KUyAz05JHR30Yjp4QWqk8kc,2934
