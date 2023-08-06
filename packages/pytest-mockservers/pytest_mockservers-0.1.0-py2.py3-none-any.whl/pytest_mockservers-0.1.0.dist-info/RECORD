@@ -1,0 +1,8 @@
+pytest_mockservers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_mockservers/http_server.py,sha256=0jAziq3TBC093A2vyp2DZ296RhVgoJMq_xH5c2u3le8,1487
+pytest_mockservers/udp_server.py,sha256=gWuJXijvbG9V6IlLyFF8TxzamaVGmqoVJ0MZlyeUfgM,1606
+pytest_mockservers-0.1.0.dist-info/METADATA,sha256=yyBfJAz4aF2uFd_wFCil7EOZBiftNzaENy_y6e9bX0U,1955
+pytest_mockservers-0.1.0.dist-info/RECORD,,
+pytest_mockservers-0.1.0.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+pytest_mockservers-0.1.0.dist-info/entry_points.txt,sha256=VCdXnL1j_I2LE7B0QjdeBEPgRrRlar0aqZS83MGFUZM,100
+pytest_mockservers-0.1.0.dist-info/top_level.txt,sha256=P39JIAq07adkdl4ThNrZlH2YBhzyCHh_7vTfP5KGg74,19
