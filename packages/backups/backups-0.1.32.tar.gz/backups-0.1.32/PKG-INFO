@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: backups
+Version: 0.1.32
+Summary: Database backup utilities
+Home-page: https://github.com/jpedro/backups
+Author: jpedro
+Author-email: jpedro.barbosa@gmail.com
+License: MIT
+Download-URL: https://github.com/jpedro/backups/tarball/master
+Description: Database backup utilities.
+Keywords: backup mysql
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
