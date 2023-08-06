@@ -1,0 +1,7 @@
+zstd.cpython-34m.so,sha256=cuooQbzM0uYA8BZeNnyjdYUujIlHu2b1Q7Arzw-1oKE,4696465
+_zstd_cffi.cpython-34m.so,sha256=bJKg2RxqwIvHlFSFyQVyvK2-dNOXfMLok7aA2I23nM0,4112476
+zstandard/__init__.py,sha256=4DRHUkZLLm3oRVo722G2zX0Y2qcFLqnSU8PNoQgdDl0,2386
+zstandard-0.9.1.dist-info/WHEEL,sha256=x7uUT1DITuOWfNQ5Z5nxxiCgay-5C46SfoISIjrweYE,109
+zstandard-0.9.1.dist-info/top_level.txt,sha256=lnNgWkJr7yZ_Y2icf7CeCpjILnorYdtVRTichbXIwvY,26
+zstandard-0.9.1.dist-info/METADATA,sha256=BlGHFU4bC0OeoFgLzllLD0nTgPFHxbrG0LRIgPA2y_g,56050
+zstandard-0.9.1.dist-info/RECORD,,
