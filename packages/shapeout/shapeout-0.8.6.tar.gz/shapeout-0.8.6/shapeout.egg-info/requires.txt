@@ -1,0 +1,14 @@
+appdirs
+h5py
+nptdms
+numpy>=1.7.0
+pyper
+scipy>=0.13.0
+dclab==0.5.2
+fcswrite==0.3.0
+
+[GUI]
+chaco
+imageio
+simplejson
+wxPython
