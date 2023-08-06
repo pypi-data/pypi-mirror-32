@@ -1,0 +1,11 @@
+README.rst
+setup.cfg
+setup.py
+citi_wikibot.egg-info/PKG-INFO
+citi_wikibot.egg-info/SOURCES.txt
+citi_wikibot.egg-info/dependency_links.txt
+citi_wikibot.egg-info/requires.txt
+citi_wikibot.egg-info/top_level.txt
+wikibot/__init__.py
+wikibot/bot.py
+wikibot/github_wrapper.py

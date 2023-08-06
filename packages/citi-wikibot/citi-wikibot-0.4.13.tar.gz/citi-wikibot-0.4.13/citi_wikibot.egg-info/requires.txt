@@ -1,0 +1,4 @@
+requests
+tapioca-github
+misaka
+python-decouple
