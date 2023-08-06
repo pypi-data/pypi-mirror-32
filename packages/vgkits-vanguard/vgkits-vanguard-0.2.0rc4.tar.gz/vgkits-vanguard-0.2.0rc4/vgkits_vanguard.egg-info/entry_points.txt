@@ -1,0 +1,6 @@
+[console_scripts]
+vanguard = vgkits.vanguard:main
+vanguard-braindump = vgkits.vanguard.braindump:main
+vanguard-brainwash = vgkits.vanguard.brainwash:main
+vanguard-shell = vgkits.vanguard.shell:main
+
