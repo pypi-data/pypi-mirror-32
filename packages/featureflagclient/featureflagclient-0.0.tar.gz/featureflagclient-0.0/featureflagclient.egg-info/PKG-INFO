@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: featureflagclient
+Version: 0.0
+Summary: Service agnostic featureflag client
+Home-page: https://github.com/tmaslen/featureflagclient-python
+Author: Tom Maslen
+Author-email: tom_maslen@hotmail.com
+License: UNKNOWN
+Download-URL: https://github.com/tmaslen/featureflagclient-python/tarball/master
+Description: UNKNOWN
+Keywords: feature flag,feature toggle
+Platform: UNKNOWN

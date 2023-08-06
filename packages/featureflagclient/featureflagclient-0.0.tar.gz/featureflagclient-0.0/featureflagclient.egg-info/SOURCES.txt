@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+featureflagclient/__init__.py
+featureflagclient/client.py
+featureflagclient.egg-info/PKG-INFO
+featureflagclient.egg-info/SOURCES.txt
+featureflagclient.egg-info/dependency_links.txt
+featureflagclient.egg-info/top_level.txt
