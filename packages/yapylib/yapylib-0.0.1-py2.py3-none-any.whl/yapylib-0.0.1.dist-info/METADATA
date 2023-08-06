@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: yapylib
+Version: 0.0.1
+Summary: 常用工具类,拷贝在身边,一用好多年
+Home-page: https://github.com/twocucao/YaPyLib
+Author: twocucao
+Author-email: twocucao@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: appnope (==0.1.0)
+Requires-Dist: backcall (==0.1.0)
+Requires-Dist: beautifulsoup4 (==4.6.0)
+Requires-Dist: certifi (==2018.4.16)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: click (==6.7)
+Requires-Dist: cssselect (==1.0.3)
+Requires-Dist: decorator (==4.3.0)
+Requires-Dist: et-xmlfile (==1.0.1)
+Requires-Dist: faker (==0.8.15)
+Requires-Dist: flask (==1.0.2)
+Requires-Dist: idna (==2.6)
+Requires-Dist: ipdb (==0.11)
+Requires-Dist: ipython-genutils (==0.2.0)
+Requires-Dist: ipython (==6.4.0)
+Requires-Dist: itsdangerous (==0.24)
+Requires-Dist: jdcal (==1.4)
+Requires-Dist: jedi (==0.12.0)
+Requires-Dist: jinja2 (==2.10)
+Requires-Dist: lxml (==4.2.1)
+Requires-Dist: markupsafe (==1.0)
+Requires-Dist: numpy (==1.14.4)
+Requires-Dist: openpyxl (==2.5.4)
+Requires-Dist: pandas (==0.23.0)
+Requires-Dist: parsel (==1.4.0)
+Requires-Dist: parso (==0.2.1)
+Requires-Dist: pexpect (==4.6.0)
+Requires-Dist: pickleshare (==0.7.4)
+Requires-Dist: pillow (==5.1.0)
+Requires-Dist: prompt-toolkit (==1.0.15)
+Requires-Dist: psutil (==5.4.6)
+Requires-Dist: psycopg2 (==2.7.4)
+Requires-Dist: ptyprocess (==0.5.2)
+Requires-Dist: pygments (==2.2.0)
+Requires-Dist: pymongo (==3.6.1)
+Requires-Dist: python-dateutil (==2.7.3)
+Requires-Dist: python-dotenv (==0.8.2)
+Requires-Dist: pytz (==2018.4)
+Requires-Dist: pyyaml (==3.12)
+Requires-Dist: requests (==2.18.4)
+Requires-Dist: simplegeneric (==0.8.1)
+Requires-Dist: six (==1.11.0)
+Requires-Dist: sqlalchemy (==1.2.8)
+Requires-Dist: text-unidecode (==1.2)
+Requires-Dist: traitlets (==4.3.2)
+Requires-Dist: typing (==3.6.4)
+Requires-Dist: urllib3 (==1.22)
+Requires-Dist: voluptuous (==0.11.1)
+Requires-Dist: w3lib (==1.19.0)
+Requires-Dist: wcwidth (==0.1.7)
+Requires-Dist: werkzeug (==0.14.1)
+Requires-Dist: xlrd (==1.1.0)
+
+
+============
+YaPyLib
+============
+
+> Yet Another Pylib
+
+平时经常使用的代码，拷贝在身边，一用好多年
+
+> 紧跟社区最佳实践
+
+- 最佳pypackage包实践
+- 最佳测试实践
+- 最佳文档实践
+
+## 感谢
+
+> 感谢开源社区人的无私奉献
+
+本项目特别感谢以下人，我经常阅读你们的代码。本项目也借鉴了一部分你们的代码
+
+ - https://github.com/lilydjwg
+ - https://github.com/dongweiming
+
+## 模块
+
+## 最近更新时间
+
+ - **Update 20170214 : ** 初始化该项目（请大家不要问我为什么情人节这一天为什么闲着没事更新代码）**
+
+## TO_DO_LIST
+
+ - [DONE] 完成开源项目的骨架
+
+## License
+
+MIT
+
+
+
+
