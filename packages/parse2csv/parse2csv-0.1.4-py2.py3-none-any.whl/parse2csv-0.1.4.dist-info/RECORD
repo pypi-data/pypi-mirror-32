@@ -1,0 +1,11 @@
+parse2csv/__init__.py,sha256=82Qr7HAPVJ8VzLXooj4k6g8GD4V61Ow3HkUp-6m-7sc,417
+parse2csv/cli.py,sha256=sPEd1IJEHSFKNhIiN0jfhm9a9EXeLAbWik_Fmaqs2xM,1337
+parse2csv/parse2csv.py,sha256=qdROn3R1LcESvVcFJcnVDFHuZh4Fuaz5YWpFGd-nK3U,2614
+parse2csv/reduct.py,sha256=ksUIywxy2ytiwwJlseS973NQbARc_ZNcpWiSn74wzPU,3405
+parse2csv/release.py,sha256=EvGWG2ZPiOIi6NeRmW7VG-kxaz-COEi5pe6amZkXK6M,2148
+parse2csv-0.1.4.dist-info/LICENSE.txt,sha256=qSiP59XEJUPZFoWOKcoHk6jVt0x4iN6f8cGvKgSpu70,1070
+parse2csv-0.1.4.dist-info/METADATA,sha256=Ipe0yOOJFJRU3-Xv5IfctvHBtPJZeofFXSML_38ZooU,5509
+parse2csv-0.1.4.dist-info/RECORD,,
+parse2csv-0.1.4.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+parse2csv-0.1.4.dist-info/entry_points.txt,sha256=Qe0KzhDwE8AmVUoAcmBUrx175zQVlkAOjy4bz2rcaNs,47
+parse2csv-0.1.4.dist-info/top_level.txt,sha256=j1QUqBuYK6TjN4d4SjF8ExwGHOtYHUAfGvN_pIYE8lM,10
