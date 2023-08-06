@@ -1,0 +1,10 @@
+click
+crayons
+halo
+python-dotenv
+
+[django integration]
+django
+
+[faster json]
+ujson
