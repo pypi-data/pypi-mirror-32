@@ -1,0 +1,30 @@
+Metadata-Version: 2.0
+Name: datawatts
+Version: 0.1.4
+Summary: datassette podcast and alan watts randomized stream.
+Home-page: https://github.com/run2dev/datawatts
+Author: Degennosaurus REKT
+Author-email: run2devtest@gmail.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Requires-Dist: feedparser
+Requires-Dist: pafy
+Requires-Dist: python-vlc
+Requires-Dist: youtube-dl
+
+Datawatts
+=========
+
+**Datawatts** randomly streams a mix from https://www.musicforprogramming.net/ and a Alan Watts lecture.
+
+.. image:: datawatts.png
+
+

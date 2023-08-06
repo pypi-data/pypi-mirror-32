@@ -1,0 +1,12 @@
+datawatts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datawatts/datassette.py,sha256=qc-AVf3zB8ES1xixb5vg9osKYRZcL6lrB8ouqzIZar4,535
+datawatts/menu.py,sha256=DLZrQq-lhoAnHtg0uaBACDbzkHCuWebadB4lbxDdlgc,2893
+datawatts/run.py,sha256=OcaZ30pFUEWH1i5CnIRHInuBajoDmXeTKtiAtE_dF2Q,1188
+datawatts/watts.py,sha256=aNmWiH6TLb4HfifFx-jkma09P6_Jmf0QoG2uYLKl9KU,1441
+datawatts-0.1.4.dist-info/DESCRIPTION.rst,sha256=YN_HRrvF5pUEugLZUCidB6UObUpaBBF4F2AMtTuqHjw,154
+datawatts-0.1.4.dist-info/METADATA,sha256=zg965Vfkrnb8xDlb2CnUgrn4t_bU64srX0IITgD0nqs,902
+datawatts-0.1.4.dist-info/RECORD,,
+datawatts-0.1.4.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+datawatts-0.1.4.dist-info/entry_points.txt,sha256=eJt7qlMYdBD6txEIim21nw28uX9jK-9Q7gzJ7jpbZWk,50
+datawatts-0.1.4.dist-info/metadata.json,sha256=uT_nOeBIXh4SezMlpI1PAwtpk2-IpEZbTwfu5V1LKj0,1057
+datawatts-0.1.4.dist-info/top_level.txt,sha256=yqjKcCLSr1BbUagBCjNQLRQMvb5xIQzQ9udScvJgo20,10
