@@ -1,0 +1,16 @@
+Metadata-Version: 2.0
+Name: download-openaq
+Version: 0.0.3
+Summary: Downloads OpenAQ CSV data from S3
+Home-page: UNKNOWN
+Author: Development Seed
+Author-email: aimee@developmentseed.org,rosariosicuranza@gmail.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: boto3
+Requires-Dist: pandas
+
+UNKNOWN
+
+
