@@ -1,0 +1,3 @@
+[cosmic_ray.test_runners]
+pytest = cosmic_ray_pytest.runner:PytestRunner
+

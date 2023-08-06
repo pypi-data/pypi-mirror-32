@@ -1,0 +1,8 @@
+setup.py
+cosmic_ray_pytest/__init__.py
+cosmic_ray_pytest/runner.py
+cosmic_ray_pytest.egg-info/PKG-INFO
+cosmic_ray_pytest.egg-info/SOURCES.txt
+cosmic_ray_pytest.egg-info/dependency_links.txt
+cosmic_ray_pytest.egg-info/entry_points.txt
+cosmic_ray_pytest.egg-info/top_level.txt
