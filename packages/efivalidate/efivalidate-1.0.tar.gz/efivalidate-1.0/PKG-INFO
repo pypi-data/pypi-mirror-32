@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: efivalidate
+Version: 1.0
+Summary: Apple firmware validation tool
+Home-page: https://github.com/dropbox/efivalidate
+Author: Rick Mark
+Author-email: rickmark@dropbox.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
