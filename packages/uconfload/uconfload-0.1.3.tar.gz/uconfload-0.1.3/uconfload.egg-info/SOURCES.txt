@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+uconfload.py
+uconfload.egg-info/PKG-INFO
+uconfload.egg-info/SOURCES.txt
+uconfload.egg-info/dependency_links.txt
+uconfload.egg-info/requires.txt
+uconfload.egg-info/top_level.txt
+uconfload.egg-info/zip-safe
