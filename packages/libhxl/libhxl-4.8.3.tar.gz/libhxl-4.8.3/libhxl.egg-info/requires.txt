@@ -1,0 +1,5 @@
+python-dateutil
+xlrd
+requests
+unidecode
+python-io-wrapper
