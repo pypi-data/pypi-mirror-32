@@ -1,0 +1,5 @@
+oidcmsg>=0.3.4
+oidcendpoint>=0.4.4
+requests
+cherrypy
+cryptojwt
