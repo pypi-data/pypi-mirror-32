@@ -1,0 +1,116 @@
+Metadata-Version: 1.2
+Name: exa
+Version: 0.4.2
+Summary: A framework for data science
+Home-page: https://exa-analytics.github.io/exa
+Author: Thomas J. Duignan, Alex Marchenko, and contributors
+Author-email: exa.data.analytics@gmail.com
+Maintainer-email: exa.data.analytics@gmail.com
+License: Apache License Version 2.0
+Download-URL: https://github.com/exa-analytics/exa/archive/v0.4.2.tar.gz
+Description: |exa logo|
+        
+        *A framework for data science*
+        
+        Installation
+        ============
+        
+        | |conda Badge|
+        | |pypi badge|
+        | Exa is available through
+          `anaconda <https://www.continuum.io/downloads>`__
+        
+        ::
+        
+            $ conda install -c exaanalytics exa
+        
+        or `pypi <https://pypi.python.org/pypi>`__.
+        
+        ::
+        
+            $ pip install exa
+        
+        Getting Started
+        ===============
+        
+        |gitter|
+        
+        See `docs <https://exa-analytics.github.io/exatomic/>`__ for usage.
+        
+        Building the docs requires
+        `sphinx <http://www.sphinx-doc.org/en/stable>`__. On Linux or Mac:
+        
+        ::
+        
+            $ cd docs
+            $ make html
+        
+        On Windows:
+        
+        ::
+        
+            $ cd docs
+            $ ./make.bat html
+        
+        Development
+        ===========
+        
+        |Travis-CI|
+        
+        |AppVeyor|
+        
+        |Coveralls|
+        
+        |Codacy Badge|
+        
+        For a development ready installation:
+        
+        ::
+        
+            $ git clone https://github.com/exa-analytics/exa.git
+            $ cd exa
+            $ pip install -e .
+        
+        Reference
+        =========
+        
+        |DOI|
+        
+        Legal
+        =====
+        
+        | |Apache License 2.0|
+        | Copyright (c) 2015-2018, Exa Analytics Development Team
+        | Distributed under the terms of the Apache License 2.0
+        
+        .. |exa logo| image:: docs/source/static/logo.png
+           :target: https://exa-analytics.github.io
+        .. |conda Badge| image:: https://anaconda.org/exaanalytics/exa/badges/installer/conda.svg
+           :target: https://conda.anaconda.org/exaanalytics
+        .. |pypi badge| image:: https://badge.fury.io/py/exa.svg
+           :target: https://badge.fury.io/py/exa
+        .. |gitter| image:: https://badges.gitter.im/exa-analytics/exa.svg
+           :target: https://gitter.im/exa-analytics/exa
+        .. |Travis-CI| image:: https://travis-ci.org/exa-analytics/exa.svg?branch=master
+           :target: https://travis-ci.org/exa-analytics/exa
+        .. |AppVeyor| image:: https://ci.appveyor.com/api/projects/status/j6h8pb23xduq5vqs?svg=true
+           :target: https://ci.appveyor.com/project/avmarchenko/exa
+        .. |Coveralls| image:: https://coveralls.io/repos/github/exa-analytics/exa/badge.svg
+           :target: https://coveralls.io/github/exa-analytics/exa
+        .. |Codacy Badge| image:: https://api.codacy.com/project/badge/Grade/d7f1c1b3e8f14153b67d54f7f7ccdd05
+           :target: https://www.codacy.com/app/exa-analytics/exa-org?utm_source=github.com&utm_medium=referral&utm_content=exa-analytics/exa&utm_campaign=Badge_Grade
+        .. |DOI| image:: https://zenodo.org/badge/23807/exa-analytics/exa.svg
+           :target: https://zenodo.org/badge/latestdoi/23807/exa-analytics/exa
+        .. |Apache License 2.0| image:: http://img.shields.io/:license-apache-blue.svg?style=flat-square
+           :target: http://www.apache.org/licenses/LICENSE-2.0
+        
+Keywords: data science,framework,jupyter notebook
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Natural Language :: English
