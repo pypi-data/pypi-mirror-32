@@ -1,0 +1,16 @@
+algoliasearch_django/__init__.py,sha256=3uJsIMsPIhbotLQrzx-m-vk_5jq3R33C9Fn3zyfRyLI,1253
+algoliasearch_django/apps.py,sha256=tSdJJ8Q05XgpD_Dsu_cBpYB7gc7_Yb-WKUB9UUmH1Hk,269
+algoliasearch_django/decorators.py,sha256=06A_Ok_HWMxHDJYXAfkd3gGiPzFLkCQKkWu48SgPw3M,538
+algoliasearch_django/models.py,sha256=PZf5kcLiRqcW-4IVvx7EWSKzHYK5IMeNMCBfjPdUy6E,20041
+algoliasearch_django/registration.py,sha256=yrw9Bq3--lodEIsH8o-m2CGU5SLmZ06kzhttaouFlag,6938
+algoliasearch_django/settings.py,sha256=v87tsy3cZoh5zH7PoYxFUsRf8qERfKumH6N3p9zNRyg,119
+algoliasearch_django/version.py,sha256=2Sgdn0cIyeJqQJLhe7xBocPdlxnfeDXK0xpKZZBnf64,18
+algoliasearch_django/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+algoliasearch_django/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+algoliasearch_django/management/commands/algolia_applysettings.py,sha256=ZpTfKbejO_HtD6NHKMxHd2yFaJ4zdW0Yvzhir94fEU0,771
+algoliasearch_django/management/commands/algolia_clearindex.py,sha256=pw6D5v9fAE81YYrQIVjWfsc17_nzAMsvJjO_NvzUGJ0,735
+algoliasearch_django/management/commands/algolia_reindex.py,sha256=KKzconb3UraQ58E_0MZczT-dZN1ZTINO5SnPaPoTjJo,1150
+algoliasearch_django-1.6.0.dist-info/METADATA,sha256=zTDXSZ1ZSr6Lqq9RXe448P0y9PVcYkNvcr7VFqrTlpQ,12826
+algoliasearch_django-1.6.0.dist-info/RECORD,,
+algoliasearch_django-1.6.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+algoliasearch_django-1.6.0.dist-info/top_level.txt,sha256=awuLliE5VnxrfxxQbNz4WZ1DkHFQKkJsxHHlpXQ54Cg,21
