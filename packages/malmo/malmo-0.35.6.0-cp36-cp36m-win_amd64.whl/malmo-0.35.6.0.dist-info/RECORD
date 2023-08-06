@@ -1,0 +1,15 @@
+malmo/MalmoPython.lib,sha256=MdXow4f_Q5bR4t0FqXKL_QnOLeQd97q8mwqcVgGrzNM,1800
+malmo/MalmoPython.pyd,sha256=XpWhkarCKMoRDtGE5BGh8BurTzOl9SCZOx2XRJcEZV4,1964032
+malmo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+malmo/__main__.py,sha256=B-rkw0fRBjyXyKNnGzMRfTIuvLhwY6mLz9Or-1wUpp0,92
+malmo/dummy.cp36-win_amd64.pyd,sha256=lFrDVBO6ppv8Bzl2lYmDNwdQljuiXUkgkvgerqVR11c,10240
+malmo/launch_minecraft_in_background.py,sha256=3nJcPltYx6nvr0769iaoq7mqWEKJl0XbADZR5LjcCc4,4076
+malmo/malmoutils.py,sha256=srRonp-MwcgK4kxwP_mMRRWf4OZf0yfUS4Xb2aQZeSQ,4908
+malmo/minecraftbootstrap.py,sha256=mnPGYuulzuwfjbS97ChuKvhHEYhpQqrT5twjsy3zV6s,4360
+malmo/run_mission.py,sha256=zpsbIO18wfeRDN90EmUoyDSbZVncay4XiqvrKYNn-eE,5387
+malmo/version.py,sha256=PppvOgpB2wxAT-e7FIWNU_6BhaGTAEoSnLsGLw4okfE,16
+malmo-0.35.6.0.dist-info/LICENSE.txt,sha256=J3UJpQbVeq6NdbtLvMoFswgPE5evcsKrw4m0pL8HMWM,1078
+malmo-0.35.6.0.dist-info/METADATA,sha256=SX-PINvKwUDFGNxGAbiwj64V8djAhH0WzMoej1YgMec,7221
+malmo-0.35.6.0.dist-info/RECORD,,
+malmo-0.35.6.0.dist-info/WHEEL,sha256=8lF7rQ0d0sakZQMXAA7xEldG945Vtpqele_TTg8ouuA,106
+malmo-0.35.6.0.dist-info/top_level.txt,sha256=gbcb_Rg9kB3VMX-4NxTqA8X-U2bQNE2agPsyXs0qTCc,6
