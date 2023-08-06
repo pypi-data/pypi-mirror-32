@@ -1,0 +1,11 @@
+README.md
+constants.py
+setup.cfg
+setup.py
+shallow_backup.py
+shallow_backup.egg-info/PKG-INFO
+shallow_backup.egg-info/SOURCES.txt
+shallow_backup.egg-info/dependency_links.txt
+shallow_backup.egg-info/entry_points.txt
+shallow_backup.egg-info/requires.txt
+shallow_backup.egg-info/top_level.txt
