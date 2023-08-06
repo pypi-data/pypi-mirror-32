@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+swiftai/__init__.py
+swiftai/hello.py
+swiftai.egg-info/PKG-INFO
+swiftai.egg-info/SOURCES.txt
+swiftai.egg-info/dependency_links.txt
+swiftai.egg-info/top_level.txt

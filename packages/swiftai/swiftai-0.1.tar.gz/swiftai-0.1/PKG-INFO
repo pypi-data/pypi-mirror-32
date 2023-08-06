@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: swiftai
+Version: 0.1
+Summary: Utilities and helper functions for Pytorch and FastAI deep learning libraries
+Home-page: https://github.com/aakashns/swiftai
+Author: Aakash N S
+Author-email: opensource@swiftace.ai
+License: UNKNOWN
+Description: # swiftai
+        Utilities and helper functions for Pytorch and FastAI deep learning libraries
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
