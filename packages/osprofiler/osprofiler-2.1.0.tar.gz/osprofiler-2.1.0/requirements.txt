@@ -1,0 +1,8 @@
+netaddr # BSD
+oslo.concurrency # Apache-2.0
+oslo.serialization # Apache-2.0
+oslo.utils # Apache-2.0
+PrettyTable<0.8 # BSD
+requests # Apache-2.0
+six # MIT
+WebOb # MIT
