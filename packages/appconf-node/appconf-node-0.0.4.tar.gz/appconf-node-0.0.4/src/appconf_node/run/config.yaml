@@ -1,0 +1,6 @@
+version: 1
+DB_PATH: "./run/db.sqlite"
+NGINX_DIR: "local/nginx"
+SECRET_KEY: "app-secret-key"
+JWT_TOKEN_TTL: 999999
+VERIFY_SSL_CERTS: true
