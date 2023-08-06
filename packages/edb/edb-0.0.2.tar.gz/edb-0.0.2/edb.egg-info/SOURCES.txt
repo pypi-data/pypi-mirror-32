@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+edb/__init__.pyi
+edb.egg-info/PKG-INFO
+edb.egg-info/SOURCES.txt
+edb.egg-info/dependency_links.txt
+edb.egg-info/top_level.txt

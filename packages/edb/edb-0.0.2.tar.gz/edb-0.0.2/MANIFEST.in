@@ -1,0 +1,2 @@
+include edb/__init__.pyi
+include LICENSE README.rst
