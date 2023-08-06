@@ -1,0 +1,16 @@
+CHANGELOG
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+fcm_client.egg-info/PKG-INFO
+fcm_client.egg-info/SOURCES.txt
+fcm_client.egg-info/dependency_links.txt
+fcm_client.egg-info/entry_points.txt
+fcm_client.egg-info/requires.txt
+fcm_client.egg-info/top_level.txt
+fcmclient/VERSION
+fcmclient/__init__.py
+fcmclient/api.py
+fcmclient/cli.py
+fcmclient/version.py
