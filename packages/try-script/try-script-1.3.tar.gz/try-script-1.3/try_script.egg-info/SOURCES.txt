@@ -1,0 +1,11 @@
+README.md
+setup.py
+try_pkg/__init__.py
+try_pkg/app.py
+try_pkg/colors.py
+try_pkg/getdata.py
+try_script.egg-info/PKG-INFO
+try_script.egg-info/SOURCES.txt
+try_script.egg-info/dependency_links.txt
+try_script.egg-info/entry_points.txt
+try_script.egg-info/top_level.txt
