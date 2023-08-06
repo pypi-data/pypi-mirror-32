@@ -1,0 +1,17 @@
+coast_core/__init__.py,sha256=Izu0uzRWuQzcOzWYwfHbr9H6YNF1kbtnEICohbwnAWQ,578
+coast_core/_version.py,sha256=gFuc8ZnB7BVDfQy_1aSpyFcueCss3yzUlv98e6oMlrg,15762
+coast_core/citations.py,sha256=rHE1I1nLnmh7OSPzaRDlBdnMkzM2gtV3mJP18Ybm2so,5383
+coast_core/clarity_of_writing.py,sha256=pOdu-dlXmqu_V00wiV4wwlGJcXi4bkz7laNOUWXhde4,7828
+coast_core/code_detection.py,sha256=S0a3feL5mK2fWBJs0Dta5fEDTK0SPFazizwfDvC7qI4,8573
+coast_core/events.py,sha256=cZFJ-qADtofPZWfxDGkbD-ARsSNwOqpLNPhGdd74bhw,2939
+coast_core/extraction.py,sha256=O8YxitDpK86KeduCcttor11lK08evnKly-1D4UgSdIo,2909
+coast_core/markers.py,sha256=vpZfdJddHDoULWztpXZ82NIUuoROFnN89QJYkYrT51w,2455
+coast_core/named_entities.py,sha256=1XUjqfkV8-4ZogOyxWRyPcnc0tc5inHC2qDM-xebl-8,3805
+coast_core/ngram_extraction.py,sha256=dlP0DczoJk9b5FmeUMZvr3FVTz4AoRg4EWGY2eDludI,1193
+coast_core/utils.py,sha256=-tQfHjimUT29KFLuM654KEg1bvoDotgrkh8Mf6g-axs,2495
+coast_core-0.1.0.dist-info/DESCRIPTION.rst,sha256=Ii_iZBfOe3m0I1OTApWi1IPXkTtz6TJSeCmtwRvm5gc,4715
+coast_core-0.1.0.dist-info/METADATA,sha256=Me7mvNBhitjTnQ6xfKgDZ-N_SNoSfXQ_I0RtU-2YHFE,5583
+coast_core-0.1.0.dist-info/RECORD,,
+coast_core-0.1.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+coast_core-0.1.0.dist-info/metadata.json,sha256=KvGUeNs58L1ADR0hG4ytwc8z33xWtWIJmeIk3GphdAc,983
+coast_core-0.1.0.dist-info/top_level.txt,sha256=j2lH2khbbcRe63KRqHs1PMFfBrnTijUsU5XSV6wOX2A,11
