@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+IntexfyLibs.egg-info/PKG-INFO
+IntexfyLibs.egg-info/SOURCES.txt
+IntexfyLibs.egg-info/dependency_links.txt
+IntexfyLibs.egg-info/top_level.txt
