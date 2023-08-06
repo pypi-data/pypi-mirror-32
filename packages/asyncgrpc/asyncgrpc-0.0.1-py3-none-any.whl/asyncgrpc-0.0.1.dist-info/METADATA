@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: asyncgrpc
+Version: 0.0.1
+Summary: A gRPC implement using Python 3 asyncio
+Home-page: https://github.com/tsangpozheng/asyncgrpc
+Author: tsangpo
+Author-email: tsangpozheng@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# asyncgrpc Package
+
+This is a Python 3.6 module package implementing the grpc protocol
+both server side and client side.
+
+This package uses the 'async/await [for]' syntax from Python 3.6,
+uses the asyncio module from Python 3.
+
+the server use the default loop (from asyncio.get_event_loop) to run
+the handler coro.
+
+grpc timeout has not been implemented.
+
+

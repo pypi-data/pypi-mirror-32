@@ -1,0 +1,8 @@
+asyncgrpc/__init__.py,sha256=Qu7ExVY6wixBhdmK1pMVywjnPApbrYLYyTs6W0FPvMs,111
+asyncgrpc/_channel.py,sha256=MmJrPm4PZuaSvua8YVEajR_hCJMOcQgx4a0aE07uHEQ,2916
+asyncgrpc/_protocol.py,sha256=G9MUlT9YPQnLN4JsKo9l9z5ijXGvYkv2x44wDD3NiX4,16873
+asyncgrpc/_server.py,sha256=Ces0ox5gEXVmcHWJAwaDVE1o2JNScro7PtRIzt4NDR8,2789
+asyncgrpc-0.0.1.dist-info/METADATA,sha256=EYX_kougi8Kv1dDI8Hg611N1Yo1EgBcE23TeVsluUD8,788
+asyncgrpc-0.0.1.dist-info/RECORD,,
+asyncgrpc-0.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+asyncgrpc-0.0.1.dist-info/top_level.txt,sha256=rMsPt20sf6ivjAXpi8I6fqvI2Uaw8c-Izc0HJMS7yJE,10
