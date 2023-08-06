@@ -1,0 +1,2 @@
+autobahn[twisted]>=17.6.2
+crossbar==18.4.1
