@@ -1,0 +1,14 @@
+localalias/__init__.py,sha256=oUMWAI2RA1iJB0xQkNR49Rs9itx_pV08FABWajT-Ork,184
+localalias/__main__.py,sha256=qpYAa15L-lXUy-TyhwHm8ir2pQKGy2tLcXyEZmGnbk4,187
+localalias/app.py,sha256=bu8XpFRSPt1YjAVfNIMFD-zSFMqvLfbMLy0pctIMPbM,5001
+localalias/commands.py,sha256=dfrdJOAvF6ZqV-upF7hMrA3nSlUA34kudqS9McvOaxU,7557
+localalias/errors.py,sha256=7Ay_VXPWnCTmyM_XYNWMuYvpREp_oxsHfjJjFijfZLQ,710
+localalias/utils/__init__.py,sha256=uFS8xQW7dJQ8k6YnKW8PhkPyP08nv_pE5Ti6g8Tvtn4,262
+localalias/utils/core.py,sha256=qh3C0dUat1iNYsweMptkLtKCytfZ5K4zBCDuq5ZTShk,857
+localalias/utils/log.py,sha256=GdvxCuzdDxjrbG4J74x8Dquo31h3Qwt9EVNAZ9MMfkM,1691
+localalias/utils/xdg.py,sha256=fRrrQBr-uAOmPz9UXnkyfJ4EOfBKa6whFCbBsis_7bk,2089
+localalias-2.0.0.dist-info/METADATA,sha256=js7aSUQus4N40mvFn5xWYLBOBtcbHciOUsgBJKWiBe4,1076
+localalias-2.0.0.dist-info/RECORD,,
+localalias-2.0.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+localalias-2.0.0.dist-info/entry_points.txt,sha256=d2VtkCxkYnHnFHy6EfNsMncjl_qMHI9wpCjx0MvKp9k,77
+localalias-2.0.0.dist-info/top_level.txt,sha256=lj56xWuar3Ejxek84FuRD5eNZFDjSuVTUbbkigLRtss,11
