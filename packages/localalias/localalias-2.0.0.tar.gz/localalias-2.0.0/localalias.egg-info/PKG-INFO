@@ -1,0 +1,39 @@
+Metadata-Version: 1.1
+Name: localalias
+Version: 2.0.0
+Summary: A light-weight shell wrapper that allows you to create per-directoy command aliases.
+Home-page: https://github.com/bbugyi200/localalias
+Author: Bryan M Bugyi
+Author-email: bryanbugyi34@gmail.com
+License: MIT license
+Description: Demonstration
+        =============
+        
+        .. image:: https://github.com/bbugyi200/localalias/blob/develop/docs/img/demo.gif?raw=true
+        
+        |
+        
+        The `documentation`_ for localalias is currently under construction.
+        
+        .. _documentation: https://localalias.readthedocs.io/en/develop/
+        
+        
+        =======
+        History
+        =======
+        
+        2.0.0 (2018-05-30)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: localalias
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
