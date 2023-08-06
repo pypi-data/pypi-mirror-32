@@ -1,0 +1,7 @@
+colorama
+click
+requests
+six
+pyyaml
+pytoml
+configparser
