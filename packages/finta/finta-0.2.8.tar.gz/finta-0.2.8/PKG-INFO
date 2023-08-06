@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: finta
+Version: 0.2.8
+Summary:  Common financial technical indicators implemented in Pandas.
+Home-page: https://github.com/peerchemist/finta
+Author: Peerchemist
+Author-email: peerchemist@protonmail.ch
+License: LGPLv3+
+Description: UNKNOWN
+Platform: UNKNOWN
