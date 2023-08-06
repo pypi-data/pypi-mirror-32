@@ -1,0 +1,5 @@
+#!/usr/bin/env python
+
+import aoet as aoet
+
+aoet.main()
