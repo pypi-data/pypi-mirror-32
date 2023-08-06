@@ -1,0 +1,9 @@
+README.md
+setup.py
+bin/jira-issue
+jira-issue/__init__.py
+jira_issue.egg-info/PKG-INFO
+jira_issue.egg-info/SOURCES.txt
+jira_issue.egg-info/dependency_links.txt
+jira_issue.egg-info/requires.txt
+jira_issue.egg-info/top_level.txt
