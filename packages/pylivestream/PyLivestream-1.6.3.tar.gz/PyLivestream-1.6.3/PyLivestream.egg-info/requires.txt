@@ -1,0 +1,7 @@
+
+[tests]
+pytest
+nose
+coveralls
+flake8
+mypy
