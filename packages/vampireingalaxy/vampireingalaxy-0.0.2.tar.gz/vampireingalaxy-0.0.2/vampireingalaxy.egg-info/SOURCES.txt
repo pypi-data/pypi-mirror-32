@@ -1,0 +1,10 @@
+README.md
+setup.py
+bin/vampire-run.py
+vampireingalaxy/__init__.py
+vampireingalaxy/command_sort.py
+vampireingalaxy/text.py
+vampireingalaxy.egg-info/PKG-INFO
+vampireingalaxy.egg-info/SOURCES.txt
+vampireingalaxy.egg-info/dependency_links.txt
+vampireingalaxy.egg-info/top_level.txt
