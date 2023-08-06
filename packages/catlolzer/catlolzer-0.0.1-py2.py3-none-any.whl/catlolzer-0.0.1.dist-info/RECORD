@@ -1,0 +1,9 @@
+catlolzer/__init__.py,sha256=9tiPClPj2e_f7n56J_0d3MoBMkumm5shpkYtnFCPmwM,266
+catlolzer/_version.py,sha256=refsuLgwA_IXaXUeuNuGnss5dz8I1pVwaGbmHo3wQg0,497
+catlolzer/core.py,sha256=Gxj2D_z_Igt9f1Wg0ZAUUIR9m4e1DQF1dfLAPG4CRgY,582
+catlolzer-0.0.1.dist-info/METADATA,sha256=OJxq9E1hrgmteqE9rb70MzSTRMguwZ6ksHFN0PnZ6tM,3717
+catlolzer-0.0.1.dist-info/RECORD,,
+catlolzer-0.0.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+catlolzer-0.0.1.dist-info/top_level.txt,sha256=Sgbz8cBjya62gTQYwvNLMUFsYPklqC861WX9Yc5sJ4M,16
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_basics.py,sha256=OgZfN28ApqztQhIJpR2i2BpuPeiNj8n_HnYhXVsWqwk,206
