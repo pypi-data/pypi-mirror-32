@@ -1,0 +1,12 @@
+setup.py
+bitrise/__init__.py
+bitrise.egg-info/PKG-INFO
+bitrise.egg-info/SOURCES.txt
+bitrise.egg-info/dependency_links.txt
+bitrise.egg-info/requires.txt
+bitrise.egg-info/top_level.txt
+bitrise/client/__init__.py
+bitrise/client/client.py
+bitrise/services/__init__.py
+bitrise/services/apps.py
+bitrise/services/bitrise.py
