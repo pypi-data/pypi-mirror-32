@@ -1,0 +1,11 @@
+README.rst
+setup.py
+spotify_local/__init__.py
+spotify_local/core.py
+spotify_local/event.py
+spotify_local/update_status.py
+spotify_local_control.egg-info/PKG-INFO
+spotify_local_control.egg-info/SOURCES.txt
+spotify_local_control.egg-info/dependency_links.txt
+spotify_local_control.egg-info/requires.txt
+spotify_local_control.egg-info/top_level.txt
