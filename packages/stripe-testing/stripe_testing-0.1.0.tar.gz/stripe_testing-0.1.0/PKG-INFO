@@ -1,0 +1,41 @@
+Metadata-Version: 1.1
+Name: stripe_testing
+Version: 0.1.0
+Summary: Bits and bobs for testing with Stripe
+Home-page: https://github.com/bennylope/stripe_testing
+Author: Ben Lopatin
+Author-email: ben@benlopatin.com
+License: MIT license
+Description: ==============
+        Stripe testing
+        ==============
+        
+        
+        Bits and bobs for testing with Stripe
+        
+        
+        * Free software: MIT license
+        
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.0 (2018-06-08)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: stripe_testing
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
