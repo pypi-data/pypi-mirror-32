@@ -1,0 +1,8 @@
+setup.py
+kaggle/HomeLending.py
+kaggle/__init__.py
+kaggle/shared.py
+mllogsdon.egg-info/PKG-INFO
+mllogsdon.egg-info/SOURCES.txt
+mllogsdon.egg-info/dependency_links.txt
+mllogsdon.egg-info/top_level.txt
