@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: gravity-protocol
+Version: 0.1.32
+Summary: Python library for the Gravity Protocol Blockchain network
+Home-page: https://github.com/keegan-lee/gravity-python
+Author: Keegan Francis
+Author-email: keegan.lee.francis@gmail.com
+Maintainer: Keegan Francis
+Maintainer-email: keegan.lee.francis@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/Keegan-lee/python-gravity/tarball/0.1.32
+Keywords: gravity,library,api,rpc
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: Games/Entertainment
+Requires-Dist: graphenelib (>=0.6.2)
+Requires-Dist: appdirs
+Requires-Dist: prettytable
+Requires-Dist: events (==0.3)
+Requires-Dist: scrypt
+Requires-Dist: pycryptodome
+Requires-Dist: click
+Requires-Dist: treelib
+
+Python Library for gravity
+--------------------------
+This is a communications library which allows interface with the gravity blockchain directly and without the need for a cli_wallet. It provides a wallet interface and can construct any kind of transactions and properly sign them for broadcast.
+
