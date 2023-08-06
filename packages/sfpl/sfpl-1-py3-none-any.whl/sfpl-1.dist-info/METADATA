@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sfpl
+Version: 1
+Summary: Python Scraper for SFPL Website
+Home-page: https://github.com/kajchang/sfpl-scraper
+Author: Kai Chang
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: robobrowser
+
+UNKNOWN
+
+
