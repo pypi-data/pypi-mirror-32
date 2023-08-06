@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+env_var_config/__init__.py
+env_var_config/config.py
+env_var_config.egg-info/PKG-INFO
+env_var_config.egg-info/SOURCES.txt
+env_var_config.egg-info/dependency_links.txt
+env_var_config.egg-info/top_level.txt
