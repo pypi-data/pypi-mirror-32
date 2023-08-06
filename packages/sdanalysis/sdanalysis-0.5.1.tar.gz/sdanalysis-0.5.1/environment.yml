@@ -1,0 +1,30 @@
+name: sdanalysis-dev
+channels:
+    - defaults
+    - conda-forge
+    - moble
+dependencies:
+    - python=3.6
+    - numpy=1.14
+    - scipy=1.1.0
+    - scikit-learn=0.19.0
+    - pandas
+    - pytables=3.4.2
+    - bokeh=0.12.16
+    - matplotlib=2.1.0
+    - gsd
+    - pytest
+    - pylint
+    - quaternion=2018.02
+    - cython
+    - setuptools
+    - hypothesis
+    - coverage
+    - ruamel.yaml
+    - pip:
+        - mypy
+        - pytest-mypy
+        - pytest-pylint
+        - pytest-cov
+        - pytest-lazy-fixture
+        - hsluv
