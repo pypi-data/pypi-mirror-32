@@ -1,0 +1,11 @@
+Flask_Vises-1.0.0.dist-info/LICENSE.txt,sha256=DaFTGaQFdWtuedJPyCH2cG87tpCf5xB3qzPPEBra3P4,1066
+Flask_Vises-1.0.0.dist-info/METADATA,sha256=8ZcQ4AcUaJrBVy99tRnAM39BRXPJ39FrdBd0KgMnn80,846
+Flask_Vises-1.0.0.dist-info/RECORD,,
+Flask_Vises-1.0.0.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+Flask_Vises-1.0.0.dist-info/top_level.txt,sha256=YFCxwdRfWBrkEJgVholyW-kXnXN15pJxq6KVFlY18ME,12
+flask_vises/__init__.py,sha256=A5ElE692TLv-gGO9mwtC184jXgBhWfREs1TZ4hUFZ7A,61
+flask_vises/base_model.py,sha256=UpjYdpdhlgKRwtKhwFSjIPmmO7zEr4af6lLZwQqzFsI,2182
+flask_vises/deploy.py,sha256=_22zYORdMxpC7MJNfhjQrl9jed_qhC_AUTbRWZBxMq0,193
+flask_vises/flask_celery.py,sha256=_J5VfcM6ZAtI1cSHDu91Jct6iaTXls9tGjEocVSLEBE,888
+flask_vises/flask_redis.py,sha256=XNBdIc_N6GcFpX05zVE2zq77ZqrcyX-2jPUUEvs8ZAY,1685
+flask_vises/flask_test.py,sha256=U7qUza-I3gQaKW4nWIf_8qWdtBFzTntWQ-EFaJ8HkB8,1015
