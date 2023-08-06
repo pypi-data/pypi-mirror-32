@@ -1,0 +1,11 @@
+pisces/__init__.py,sha256=PdOjZuisfM0G7fhGOE0CX_L25ma0ZXo6BpDIvB9S6HY,93
+pisces/command.py,sha256=N3yRMYoEtpYTVfqNFpm6R0iGM41Fh4A8z5pt8LHAPsU,3336
+pisces/main.py,sha256=C627Emf4ypGRLP1h4_VpbcVhZfwlvE6RTXeBW88nfTA,10416
+pisces/tools/chromedriver.exe,sha256=xou5uX42tdqrPRAPQnp5d6U12bTqIIkPu3VfOdBCHpQ,6465536
+pisces/tools/chromedriver_linux,sha256=bI0m8BjD5DTBODcNAWU09nN9hQvJlgMqhjfTxsLY844,8136192
+pisces/tools/chromedriver_mac,sha256=c0Z0MEbbJO8OG4JZmDDfIZD2ToFxsv9wU68AexHI6R0,12093844
+python_pisces-0.0.5.dist-info/METADATA,sha256=xpKqtCGsca5CpRUrIWMFYexDILhbw0sUoHVkV7QjC4s,7246
+python_pisces-0.0.5.dist-info/RECORD,,
+python_pisces-0.0.5.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+python_pisces-0.0.5.dist-info/entry_points.txt,sha256=FGXbZ880c5VPyHo41J7qylqtvO4xeJpapdairYf7tnw,48
+python_pisces-0.0.5.dist-info/top_level.txt,sha256=fWyxEQjtR4x1QBfmjUeAqKVhxHiHb2rgJ9iQdwbDlXs,7
