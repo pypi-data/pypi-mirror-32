@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: django-support-page
+Version: 0.1.3
+Summary: django support page
+Home-page: https://github.com/seanodonnell/django-support-page
+Author: Sean O'Donnell
+Author-email: sean@odonnell.nu
+License: UNKNOWN
+Description: 
+        A resusable django app to provide a support request page that automatically detects and reports information about the end users browser.
+        
+Keywords: django
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Framework :: Django
+Classifier: Environment :: Web Environment
