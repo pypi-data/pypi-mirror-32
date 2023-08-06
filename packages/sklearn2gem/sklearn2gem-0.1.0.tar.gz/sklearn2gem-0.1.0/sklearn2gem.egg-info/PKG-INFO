@@ -1,0 +1,25 @@
+Metadata-Version: 1.2
+Name: sklearn2gem
+Version: 0.1.0
+Summary: sklearn2gem converts a Pickle'd scikit-learn model into a rubygem
+Home-page: https://github.com/stewartpark/sklearn2gem
+Author: Stewart Park
+Author-email: hello@stewartjpark.com
+License: MIT
+Description: 
+        # sklearn2gem
+        
+        sklearn2gem ports a Pickle'd scikit-learn model into a ruby C extension gem.
+        
+        # Usage
+        
+        See `examples/iris.py`
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
