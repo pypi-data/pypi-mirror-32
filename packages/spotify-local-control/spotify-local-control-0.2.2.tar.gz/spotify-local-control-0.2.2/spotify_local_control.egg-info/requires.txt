@@ -1,0 +1,5 @@
+requests
+keyboard
+
+[:sys_platform == "darwin"]
+pyobjc-framework-Quartz
