@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: RegImpute
+Version: 0.0.2
+Summary: Regression Based Imputation for Python
+Home-page: https://github.com/reventropy/RegImpute/
+Author: Jeremy Jacobsen
+Author-email: reventropy2003@yahoo.co
+License: UNKNOWN
+Description: Iterative regression based imputation for sklean regression libraries
+Platform: UNKNOWN

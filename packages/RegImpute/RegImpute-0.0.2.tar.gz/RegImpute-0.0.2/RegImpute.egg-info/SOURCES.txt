@@ -1,0 +1,8 @@
+README.md
+setup.py
+RegImpute/StaticImpute.py
+RegImpute/__init__.py
+RegImpute.egg-info/PKG-INFO
+RegImpute.egg-info/SOURCES.txt
+RegImpute.egg-info/dependency_links.txt
+RegImpute.egg-info/top_level.txt
