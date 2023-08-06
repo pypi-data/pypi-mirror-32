@@ -1,0 +1,3 @@
+[console_scripts]
+entry = link_analyze.main:main
+
