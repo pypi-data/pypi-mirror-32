@@ -1,0 +1,57 @@
+Metadata-Version: 2.0
+Name: tesseract-python
+Version: 3.5.1
+Summary: Self-contained Python module to Tesseract.
+Home-page: https://github.com/ic/tesseract-python
+Author: Eric Platon
+Author-email: zaraki@gmx.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: C++
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Requires-Dist: Pillow (==5.0.0)
+Requires-Dist: pytesseract (==0.2.0)
+
+tesseract-python - Tesseract binary as a Python module
+======================================================
+
+WIP: This module is not yet functional.
+
+The first version is targetting Tesseract 3.05.01.
+
+Status
+------
+
+* The current version builds and works fine on Darwin, Ubuntu, and CentOS.
+* The PyPi release process is not working yet, so a simple `pip install` is not yet at reach, except for Linux x86_64 (manually released).
+* The current code exposes the [pytesseract](https://github.com/madmaze/pytesseract) module, configured with the embdedded Tesseract. It means all calls are shelled out to a `tesseract` binary.
+
+
+Roadmap
+-------
+
+* Hopefully manage to get the autoamated PyPi release process nailed and working fully.
+* Replace the current ugly shelling to the `tesseract` binary by proper calls to `libtess`. Inspiration in [tesserocr](https://github.com/sirfz/tesserocr).
+
+
+About the license
+-----------------
+
+This repository is under the MIT license. The repository currently exposes code under the GPL 3.0 license for [pytesseract](https://github.com/madmaze/pytesseract/blob/master/LICENSE), and wraps code under the Apache 2.0 license for [Tesseract](https://github.com/tesseract-ocr/tesseract/blob/master/LICENSE).
+
+
