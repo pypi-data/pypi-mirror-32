@@ -1,0 +1,6 @@
+[autopip]
+ansible = 2
+ansible-hostmanager = latest
+twine = 1
+workspace-tools = latest
+

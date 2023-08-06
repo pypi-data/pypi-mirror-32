@@ -1,0 +1,22 @@
+Metadata-Version: 1.2
+Name: developer-tools
+Version: 0.0.2
+Summary: Useful tools for Python developers
+Home-page: https://github.com/maxzheng/developer-tools
+Author: Max Zheng
+Author-email: maxzheng.os@gmail.com
+License: MIT
+Description: developer-tools
+        ===========
+        
+        Useful tools for Python developers.
+        
+Keywords: <KEYWORDS>
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
