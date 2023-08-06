@@ -1,0 +1,10 @@
+yschema/__init__.py,sha256=4_vYzibOLXQrpjcHbDHX7xKmuE6wCZ820vlzor1Vvfw,1025
+yschema/exceptions.py,sha256=7qMgpOfRlRe-i-RmOok2Elju7WfxvvUT9E_Vln0n9d0,141
+yschema/schema.py,sha256=MAj-nJJVKZ60JSSDQGPQOkOmNcz_Qi7IBKFIlCzySHg,6486
+yschema/types.py,sha256=Oiej8WDj-eMAmEAb31U6fb1eN64foXTTMRtWWM31RxQ,8922
+yschema-1.0.0.dev0.dist-info/METADATA,sha256=CKEeqPtpC3bx0M7ChXfn1TTayJl11Z0_cdpX88E0ac0,6108
+yschema-1.0.0.dev0.dist-info/RECORD,,
+yschema-1.0.0.dev0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+yschema-1.0.0.dev0.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+yschema-1.0.0.dev0.dist-info/top_level.txt,sha256=06fPJPKuf8CDKWqNivGIqdNsUsx2qnHIJlY8MSTJ6mU,8
+yschema-1.0.0.dev0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
