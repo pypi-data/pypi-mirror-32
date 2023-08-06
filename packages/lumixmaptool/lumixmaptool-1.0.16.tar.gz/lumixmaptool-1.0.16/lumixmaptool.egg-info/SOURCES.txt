@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+bin/lumixmaptool
+lumixmaptool/__init__.py
+lumixmaptool/copy.py
+lumixmaptool.egg-info/PKG-INFO
+lumixmaptool.egg-info/SOURCES.txt
+lumixmaptool.egg-info/dependency_links.txt
+lumixmaptool.egg-info/not-zip-safe
+lumixmaptool.egg-info/requires.txt
+lumixmaptool.egg-info/top_level.txt
