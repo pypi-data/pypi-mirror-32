@@ -1,0 +1,6 @@
+zstd.cpython-35m-darwin.so,sha256=NA6QKM59uUfnMZCgbrKuBxQzfXIWocu78OCROVqeZts,1265268
+zstandard/__init__.py,sha256=4DRHUkZLLm3oRVo722G2zX0Y2qcFLqnSU8PNoQgdDl0,2386
+zstandard-0.9.1.dist-info/METADATA,sha256=KOct-KL82eHRFq8zAgQeAYyTICuum8hzqamu7J_Po2g,56021
+zstandard-0.9.1.dist-info/RECORD,,
+zstandard-0.9.1.dist-info/WHEEL,sha256=lgsUfrdLj9hH6GJqDPYnuasbppr5-7YdYJX4LCjZNUk,109
+zstandard-0.9.1.dist-info/top_level.txt,sha256=iR420pOoFrIka6NuTk-IOy-VU6omlD2JG_O16d5Uum8,15
