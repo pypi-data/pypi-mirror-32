@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: sht30
+Version: 0.1.0
+Summary: Sensiron SHT30 emulator
+Home-page: https://pypi.org/project/sht30/
+Author: Grant Rudd
+Author-email: grant@building36.com
+License: None
+Description: UNKNOWN
+Platform: UNKNOWN

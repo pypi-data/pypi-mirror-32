@@ -1,0 +1,7 @@
+setup.py
+sht30/__init__.py
+sht30/sht30.py
+sht30.egg-info/PKG-INFO
+sht30.egg-info/SOURCES.txt
+sht30.egg-info/dependency_links.txt
+sht30.egg-info/top_level.txt
