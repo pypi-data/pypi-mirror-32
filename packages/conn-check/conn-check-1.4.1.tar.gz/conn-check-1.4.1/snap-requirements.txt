@@ -1,0 +1,6 @@
+-r requirements.txt
+-r amqp-requirements.txt
+-r mongodb-requirements.txt
+-r redis-requirements.txt
+-r postgres-requirements.txt
+-r fwutils-requirements.txt
