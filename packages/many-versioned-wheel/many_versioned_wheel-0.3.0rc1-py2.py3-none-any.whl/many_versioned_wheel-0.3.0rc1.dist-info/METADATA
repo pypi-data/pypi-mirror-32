@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: many-versioned-wheel
+Version: 0.3.0rc1
+Summary: description: A library for testing stuff dealing with pypi packages
+Home-page: UNKNOWN
+Author: rschultheis
+Author-email: justmakeanissueongithubpls@thanks.com
+License: MIT
+Project-URL: Source, https://github.com/rschultheis/many-versioned-wheel
+Project-URL: Tracker, https://github.com/rschultheis/many-versioned-wheel/issues
+Keywords: persistent identifiers
+Platform: any
+Requires-Dist: requests (==2.19.0)
+
+long_description: A amazing library for testing stuff dealing with pypi packages, or also determining the source of consciousness
+
+
