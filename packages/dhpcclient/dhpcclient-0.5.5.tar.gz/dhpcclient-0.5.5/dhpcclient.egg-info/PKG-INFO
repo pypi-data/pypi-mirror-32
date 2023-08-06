@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: dhpcclient
+Version: 0.5.5
+Summary: Distributed High Performance Cluster Client for a heterogen Operating System environment
+Home-page: https://gitlab.fhnw.ch
+Author: jonathan ehrengruber
+Author-email: jonathan.ehrengruber@students.fhnw.ch
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: dhpc hpc high performance cluster client
+Platform: UNKNOWN

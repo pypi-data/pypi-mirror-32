@@ -1,0 +1,12 @@
+docker
+pytest
+pytest-mock
+mock
+psutil
+configparser
+service
+dnspython
+requests
+
+[:sys_platform == "win32"]
+wxpython>=4.0.1
