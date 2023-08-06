@@ -1,0 +1,11 @@
+setup.py
+arabic_reshaper_fork/__init__.py
+arabic_reshaper_fork/__version__.py
+arabic_reshaper_fork/arabic_reshaper_fork.py
+arabic_reshaper_fork/letters.py
+arabic_reshaper_fork/ligatures.py
+arabic_reshaper_fork.egg-info/PKG-INFO
+arabic_reshaper_fork.egg-info/SOURCES.txt
+arabic_reshaper_fork.egg-info/dependency_links.txt
+arabic_reshaper_fork.egg-info/requires.txt
+arabic_reshaper_fork.egg-info/top_level.txt
