@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+dob/__init__.py
+dob.egg-info/PKG-INFO
+dob.egg-info/SOURCES.txt
+dob.egg-info/dependency_links.txt
+dob.egg-info/requires.txt
+dob.egg-info/top_level.txt

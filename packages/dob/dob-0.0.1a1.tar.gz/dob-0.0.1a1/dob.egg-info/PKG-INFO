@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: dob
+Version: 0.0.1a1
+Summary: A cuddly, furry, powerful personal journal and professional time tracker.
+Home-page: https://github.com/hotoffthehamster/dob
+Author: Hot Off The Hamster
+Author-email: hotoffthehamster@gmail.com
+License: MIT
+Description: ###
+        dob
+        ###
+        
+        ``dob`` is a Hamster CLI client with a fancy front end.
+        
+        This PyPI package is a temporary placeholder until all
+        assets are uploaded and put in their right place.
+        
+        (Coming soon!)
+        
+        
+Platform: UNKNOWN
+Provides-Extra: dev
