@@ -1,0 +1,69 @@
+# YAML Project Configuration Reader
+
+## Who needs this module?
+
+Any developer who is developing an application that has to be configured through text files. If you can call a set of such configurations "a project", this module might be for you.
+
+## Example
+
+* Your application is a code generator.
+* The users of your application should be able to decide how the code is generated for different **projects**.
+* It can generate code automatically for many languages. You decided that each language would be a **plugin** of your software.
+* Depending on different conditions, the code must contain some stuff or not (comments, optimizations, verbose content...). It seems you have different **contexts**
+* You would like to have an easy way to define what a project of your application is regarding all possible configurations, like:
+  * User wants to generate MATLAB and C code in a project, for debug and release. And for debug it has to generate the development documentation too.
+  * This user also wants to generate Python, Node.js and Dockerfiles, for development and release. Roll-out credentials and URLs are different for each context.
+
+## What is a project?
+
+When developing an application, sometimes it is worth to define a *project* as the entity that our software will work with.
+
+A project is a set of files with a known format and arranged in a known set of folders.
+
+It is defined by a path where the root of such file structure is saved.
+
+## What provides this module?
+
+1. This module provides a **convention** about how to arrange your project files and a Python API to read that set of files.
+1. It will apply a logic about how plugin and context configurations have to be merged into a **single configuration object**.
+
+## What does this module not provide?
+
+This module does not tell you what configuration attributes you need in your projects, or what plugins or contexts.
+You have to decide if the structure of ```plugins + contexts``` suits your software and decide where to put what.
+Then, using the module, you can just call an API function and get a full object where you can read all the attributes you need.   
+
+### Contexts
+
+A context is a set of conditions which relate to different ways to run for your application.
+Think of ```debug``` or ```release``` in classic development. Or ```development``` and ```production``` when rolling-out.
+
+### Plugins
+
+A plugin is an optional piece of your application that needs to be configured in each project.
+The plugin configurations are most of the time the same within a project.
+
+Think of a report generator plugin; your application does whatever logic with the project and has the option to generate reports.
+Such reports need a format, an output folder, maybe some conventions, a language...These are plugin configurations and they almost do not change, regardless of the context.
+
+### Overrides
+
+Contexts can, sometimes, override plugin configurations for specific tasks. It is not common, but this module provides an easy way to do this.
+
+### Configs
+
+Configs are mixes of **one context and one or more plugins configurations**.
+Your application will probably:
+1. Ask for the defined configs in the project
+1. Choose one of them
+1. Call the YAMLProject API to retrieve the merged configuration from the chosen config
+1. Pass the merged object to your logic so values can be used to modify the behavior
+
+## This module
+
+This module creates a structure in memory from a set of YAML files that define a configuration for a project.
+A project is an abstract concept modeled as a set of files and folders that is going to be read/written by some software.
+The structure of a project is:
+
+* A root set of attributes defined at ```root.yaml```. For example: a name, a description, etc.
+* A set of plugin configurations. The application processing your project can have plugins. The project configuration provides
