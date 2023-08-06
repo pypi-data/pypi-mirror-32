@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: timedelta
+Version: 0.0.1
+Summary: datetime.timedelta replacement
+Home-page: https://github.com/looking-for-a-job/timedelta.py
+License: UNKNOWN
+Description: ### Install
+        
+        ```bash
+        $ [sudo] pip install timedelta
+        ```
+        
+        ### Features
+        
+        +   total seconds, minutes, hours, days, weeks, months, years
+        
+        ### Examples
+        
+        ```python
+        >>> from timedelta import Timedelta
+        
+        >>> td = Timedelta(days=2, hours=2)
+        
+        # init from datetime.timedelta
+        >>> td = Timedelta(datetime1 - datetime2)
+        ```
+        
+        `total` seconds, minutes, hours, days, weeks, months, years
+        ```python
+        >>> td = Timedelta(days=2, hours=2)
+        >>> td.total.seconds
+        180000
+        >>> td.total.minutes
+        3000
+        >>> td.total.hours
+        50
+        >>> td.total.days
+        2
+        ```
+        
+        ### Sources
+        
+        +   [`timedelta.Timedelta(datetime.timedelta)`](https://github.com/looking-for-a-job/timedelta.py/blob/master/timedelta/__init__.py)
+        +   [`timedelta.Total`](https://github.com/looking-for-a-job/timedelta.py/blob/master/timedelta/__init__.py)
+Keywords: timedelta
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development
+Description-Content-Type: text/markdown
