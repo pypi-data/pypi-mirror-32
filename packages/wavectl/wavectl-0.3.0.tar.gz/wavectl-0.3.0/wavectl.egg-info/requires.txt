@@ -1,0 +1,7 @@
+argcomplete
+future
+GitPython
+python-dateutil
+six
+termcolor
+wavefront-api-client>=2.3.1
