@@ -1,0 +1,6 @@
+openapi-spec-validator
+six
+yarl<1.2.0
+
+[flask]
+werkzeug
