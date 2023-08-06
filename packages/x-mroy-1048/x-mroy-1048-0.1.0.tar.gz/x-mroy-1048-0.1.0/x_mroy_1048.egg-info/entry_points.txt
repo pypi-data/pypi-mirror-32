@@ -1,0 +1,4 @@
+[console_scripts]
+x-cmd = LServer.cmd:rshell
+x-local = LServer.lserver:run
+
