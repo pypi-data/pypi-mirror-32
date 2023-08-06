@@ -1,0 +1,10 @@
+README.rst
+setup.py
+tellme_trello/__init__.py
+tellme_trello/client.py
+tellme_trello/notification.py
+tellme_trello/settings.py
+tellme_trello.egg-info/PKG-INFO
+tellme_trello.egg-info/SOURCES.txt
+tellme_trello.egg-info/dependency_links.txt
+tellme_trello.egg-info/top_level.txt
