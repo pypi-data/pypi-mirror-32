@@ -1,0 +1,7 @@
+{
+  "DB_PATH": "./run/db.sqlite",
+  "NGINX_DIR": "local/nginx",
+  "SECRET_KEY": "app-secret-key",
+  "JWT_EXPIRATION_DELTA": 999999,
+  "JWT_TOKEN_TTL": 999999
+}
