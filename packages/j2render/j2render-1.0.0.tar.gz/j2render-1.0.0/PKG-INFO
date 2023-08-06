@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: j2render
+Version: 1.0.0
+Summary: A Jinja2 CLI for template warriors.
+Home-page: https://github.com/mojochao/j2render
+Author: Allen Gooch
+Author-email: allen.gooch@gmail.com
+Maintainer: Allen Gooch
+Maintainer-email: allen.gooch@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: configuration,utility
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
