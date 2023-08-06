@@ -1,0 +1,4 @@
+boto3==1.4.4
+jinja2
+pytz==2017.3
+blessings==1.6.1

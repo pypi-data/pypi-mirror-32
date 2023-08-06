@@ -1,0 +1,80 @@
+# EMR Launcher
+
+Launches EMR clusters using config files for consistent run-time behavior when setting up a cluster.
+
+## Installing
+
+```
+pip install emr_launcher
+```
+
+## Usage
+
+Starting a new cluster:
+```
+emr_launcher launch /path/to/config/<my_config>.json
+```
+
+Adding steps to an existing cluster
+```
+emr_launcher launch /path/to/config/<my_config>.json --job-id <job_id_of_existing_cluster>
+```
+
+## Creating configs
+
+the json file maps directly to boto3's `run_job_flow` function found [here](http://boto3.readthedocs.io/en/latest/reference/services/emr.html#EMR.Client.run_job_flow), you can use the documentation as a guide to build your config or build off the [Example Config](https://github.com/tuneinc/emr_launcher/blob/master/example_config.json)
+
+## Template functions
+
+emr_launcher uses templating within the json configuration to call useful functions, for example having an anonymous output location:
+
+```
+...
+"--conf", "spark.output=s3://mybucket/output/{{ emr_launcher.uuid() }}/
+...
+```
+
+a full set of usable template functions can be found by running:
+
+```
+emr_launcher list-template-functions
+
+emr_launcher
+============
+  emr_launcher.get_environ
+    Return the environment variables dictionary,
+    Example: {{ get_environ()['USER'] }}
+    A parent python program can use "os.environ[key] = value" before calling the emr launcher.
+
+  emr_launcher.get_relative_date
+    Returns a formatted datetime string,
+    relative to the current time,
+    as ajusted by the timedelta arguments.
+    Example:
+        {{ emr_launcher.get_relative_date(format='%Y-%m-01 00:00:00', timedelta_args=dict(days=-2)) }}
+
+  emr_launcher.millis_to_iso
+    converts a given milliseconds since epoch into an iso date string
+    Args:
+        ms_epoch - int
+    Return
+        string - formatted date string
+
+  emr_launcher.uuid
+    returns a UUID4 hex string
+```
+
+## Plugins
+
+Plugins are discovered by the naming convention `emr_launcher_<plugin-name>` (ex: `emr_launcher_consul`). To install a plugin simply run:
+```
+pip install emr_launcher_<plugin-name>
+```
+
+Available plugins:
+
+[emr_launcher_aws](https://github.com/tuneinc/emr_launcher_aws)
+
+[emr_launcher_consul](https://github.com/tuneinc/emr_launcher_consul)
+
+[emr_launcher_artifactory](https://github.com/tuneinc/emr_launcher_artifactory)
