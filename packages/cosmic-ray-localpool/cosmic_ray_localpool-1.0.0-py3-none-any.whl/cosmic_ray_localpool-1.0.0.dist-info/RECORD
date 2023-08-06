@@ -1,0 +1,7 @@
+cosmic_ray_localpool-1.0.0.dist-info/METADATA,sha256=zXYq6A6JzdYNK-w3xBRf-zgRyU9moDfFIQx7hZhVTz4,171
+cosmic_ray_localpool-1.0.0.dist-info/RECORD,,
+cosmic_ray_localpool-1.0.0.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+cosmic_ray_localpool-1.0.0.dist-info/entry_points.txt,sha256=tZEOFv1jR8jJYVlYGQI_gry9nPZFbr07XqqmAbGi0Y8,83
+cosmic_ray_localpool-1.0.0.dist-info/top_level.txt,sha256=oq0iQw-FsTP4TnGpCWizRPNcdwlS1eEbvgwSVTFErTY,10
+localpool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+localpool/executor.py,sha256=356FqeViDgPcdxD3tjd94bI9ULdnruT8S4ZD-oHV8O8,1181
