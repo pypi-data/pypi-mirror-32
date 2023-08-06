@@ -1,0 +1,11 @@
+README.md
+setup.py
+colors_print.egg-info/PKG-INFO
+colors_print.egg-info/SOURCES.txt
+colors_print.egg-info/dependency_links.txt
+colors_print.egg-info/top_level.txt
+cprint/__init__.py
+cprint/cprint.py
+cprint/myprint.py
+tests/__init__.py
+tests/test.py
