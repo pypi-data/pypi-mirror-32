@@ -1,0 +1,10 @@
+ntcir_math_density/__init__.py,sha256=Sc4yJSvQ8kYHzx5__uckOsobrGsaAijb8x0_lLVIt3M,363
+ntcir_math_density/__main__.py,sha256=CvxfEc5XwA2kcrdRDic9L0QlYM1MpncGtihIgIVZAzA,9682
+ntcir_math_density/estimator.py,sha256=CSadEsDK2yDu65zGryfUsx-I9E1Pt6Nr4oR2J2DkvMI,7902
+ntcir_math_density/view.py,sha256=Ds-k-aTzIABt3zBgDhKgQT8iOMSyIzdNsn1H5kc-V7M,1377
+ntcir_math_density-0.2.0.dist-info/LICENSE.txt,sha256=xIWiI1wkvQLK6f1UgeRxcobj6p7QnmdCi9X7sTsC9n4,1055
+ntcir_math_density-0.2.0.dist-info/METADATA,sha256=HwMTeYfTLu1KtVHljFZTNkokVlwsEiGQhnsA3Ebdvlo,12540
+ntcir_math_density-0.2.0.dist-info/RECORD,,
+ntcir_math_density-0.2.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+ntcir_math_density-0.2.0.dist-info/entry_points.txt,sha256=f0E-345IMbn27RTrs7gjolNB7vxCI6azvYupJS8tdb8,73
+ntcir_math_density-0.2.0.dist-info/top_level.txt,sha256=6tZBhe65EUoNXhsK3ZNYfCc2PX7MmflqmfCMoZY_8gY,19
