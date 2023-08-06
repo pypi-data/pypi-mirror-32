@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: agcod
+Version: 0.0.1
+Summary: A tool for Amazon Gift Code On-Demand (AGCOD)
+Home-page: https://github.com/geekforbrains/agcod
+Author: Gavin Vickery
+Author-email: gavin@geekforbrains.com
+License: UNKNOWN
+Description: # Amazon Gift Code On-Demand (AGCOD)
+        
+        This is a tool for working with the AGCOD service and can be used for easily created, cancelling
+        and checking the status of Amazon gift codes.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
