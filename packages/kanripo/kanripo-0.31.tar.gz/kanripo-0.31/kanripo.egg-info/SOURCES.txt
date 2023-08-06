@@ -1,0 +1,9 @@
+setup.py
+kanripo/__init__.py
+kanripo/kanripo.py
+kanripo.egg-info/PKG-INFO
+kanripo.egg-info/SOURCES.txt
+kanripo.egg-info/dependency_links.txt
+kanripo.egg-info/not-zip-safe
+kanripo.egg-info/requires.txt
+kanripo.egg-info/top_level.txt
