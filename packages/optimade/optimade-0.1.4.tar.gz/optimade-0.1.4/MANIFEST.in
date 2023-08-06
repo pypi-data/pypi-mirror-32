@@ -1,0 +1,2 @@
+include *.txt *.py
+recursive-include optimade *.txt *.py
