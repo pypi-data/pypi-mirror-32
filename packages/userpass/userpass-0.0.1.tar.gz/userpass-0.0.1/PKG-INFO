@@ -1,0 +1,57 @@
+Metadata-Version: 1.2
+Name: userpass
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/zYeoman/userpass
+Author: Yongwen Zhuang
+Author-email: zyeoman@163.com
+Maintainer: Yongwen Zhuang
+Maintainer-email: zyeoman@163.com
+License: MIT
+Description: # userpass
+        
+        -----
+        
+        **Table of Contents**
+        
+        * [Installation](#installation)
+        * [Usage](#usage)
+        * [License](#license)
+        
+        ## Installation
+        
+        userpass is distributed on [PyPI](https://pypi.org) as a universal
+        wheel and is available on Linux/macOS and Windows and supports
+        Python 2.7/3.5+ and PyPy.
+        
+        ```bash
+        $ pip install userpass
+        ```
+        
+        ## Usage
+        
+        ```python
+        from userpass import User
+        # Userinfo file will be stored in `~/.user` file.
+        user = User('.user')
+        username = user.username
+        password = user.password
+        user.del_user()
+        ```
+        
+        ## License
+        
+        userpass is distributed under the terms of the
+        [MIT License](https://choosealicense.com/licenses/mit).
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
