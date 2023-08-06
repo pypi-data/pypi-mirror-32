@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+feastruct/__init__.py
+feastruct/feastruct.py
+feastruct.egg-info/PKG-INFO
+feastruct.egg-info/SOURCES.txt
+feastruct.egg-info/dependency_links.txt
+feastruct.egg-info/not-zip-safe
+feastruct.egg-info/requires.txt
+feastruct.egg-info/top_level.txt
