@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: jsonpointer-helpers
+Version: 0.1.0
+Summary: JSON Pointer helpers
+Home-page: https://github.com/Gr1N/jsonpointer-helpers
+Author: Nikita Grishko
+Author-email: gr1n@protonmail.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/Gr1N/jsonpointer-helpers/issues
+Project-URL: Source, https://github.com/Gr1N/jsonpointer-helpers
+Keywords: json jsonpointer rfc6901
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+
+# jsonpointer-helpers [![Build Status](https://travis-ci.org/Gr1N/jsonpointer-helpers.svg?branch=master)](https://travis-ci.org/Gr1N/jsonpointer-helpers) [![codecov](https://codecov.io/gh/Gr1N/jsonpointer-helpers/branch/master/graph/badge.svg)](https://codecov.io/gh/Gr1N/jsonpointer-helpers)
+
+Helpers for JSON pointers described by [RFC 6901](https://tools.ietf.org/html/rfc6901).
+
+## Installation
+
+    $ pip install jsonpointer-helpers
+
+## Usage
+
+    >>> import jsonpointer_helpers as jp
+    >>>
+    >>> jp.build({'foo': {'bar': 42}})
+    {'/foo/bar': 42}
+    >>>
+    >>> jp.build_pointer(['foo', 'bar'])
+    '/foo/bar'
+    >>>
+    >>> jp.parse_pointer('/foo/bar')
+    ['foo', 'bar']
+    >>>
+    >>> jp.escape_token('foo~bar')
+    'foo~0bar'
+    >>>
+    >>> jp.unescape_token('foo~0bar')
+    'foo~bar'
+    >>>
+
+## Testing and linting
+
+For testing and linting install [tox](http://tox.readthedocs.io):
+
+    $ pip install tox
+
+...and run:
+
+    $ tox
+
+## License
+
+`jsonpointer-helpers` is licensed under the MIT license. See the license file for details.
+
+
