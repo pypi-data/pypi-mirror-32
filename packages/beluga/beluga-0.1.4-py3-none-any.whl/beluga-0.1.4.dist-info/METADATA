@@ -1,0 +1,29 @@
+Metadata-Version: 2.0
+Name: beluga
+Version: 0.1.4
+Summary: An indirect trajectory optimization framework.
+Home-page: https://github.com/Rapid-Design-of-Systems-Laboratory/beluga
+Author: Michael Sparapany
+Author-email: msparapa@purdue.edu
+License: MIT
+Description-Content-Type: UNKNOWN
+Platform: any
+Requires-Dist: bokeh (>=0.12.5)
+Requires-Dist: dill (>=0.2.7.1)
+Requires-Dist: docopt (>=0.6.2)
+Requires-Dist: matplotlib (>=2.2.2)
+Requires-Dist: multiprocessing-on-dill (>=3.5.0a4)
+Requires-Dist: numba (>=0.35.0)
+Requires-Dist: numexpr (>=2.6.2)
+Requires-Dist: numpy (>=1.14.3)
+Requires-Dist: pystache (>=0.5.4)
+Requires-Dist: pytest (>=3.5.1)
+Requires-Dist: pytest-cov (>=2.5.1)
+Requires-Dist: pytest-describe (>=0.11.1)
+Requires-Dist: scipy (>=1.1.0)
+Requires-Dist: simplepipe (>=0.0.5.3)
+Requires-Dist: sympy (>=1.0)
+
+UNKNOWN
+
+
