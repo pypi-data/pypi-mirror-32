@@ -1,0 +1,9 @@
+README.md
+setup.py
+awsLogger/CustomLogger.py
+awsLogger/__init__.py
+awsLogger.egg-info/PKG-INFO
+awsLogger.egg-info/SOURCES.txt
+awsLogger.egg-info/dependency_links.txt
+awsLogger.egg-info/requires.txt
+awsLogger.egg-info/top_level.txt

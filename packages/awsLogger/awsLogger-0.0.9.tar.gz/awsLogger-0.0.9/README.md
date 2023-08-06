@@ -1,0 +1,52 @@
+# awsLogger
+
+AwsLogger is a simple logging utility.
+It allow you to log all type of data ( string, numbers, list, dictionaries or even custom objects ) into a file and push it to amazon s3.
+
+## Installation
+
+```
+pip install awsLogger
+```
+
+## How to use
+
+First import awsLogger:
+
+```
+import awsLogger
+```
+
+To log on your local machine:
+
+```
+awsLogger.log("this will be added to your log file", config)
+```
+
+To push current file to amazon s3:
+
+```
+awsLogger.push(config)
+```
+
+To log on your local machine and push to amazon s3:
+
+```
+awsLogger.logAndPush("this will be added to your log file and pushed to aws", config)
+```
+
+## How to configure
+
+```
+config = {
+    "awsId":<Your aws api id>,
+    "awsSecret":<Your aws api secret key>,
+    "projectId":<Identifier, if bucket name is not specifed, it will be used as bucket name, it will be used to generate a log file name if no log file name is specified>,
+    "bucketName":<The s3 bucket where to put the log file>,
+    "bucketPathFromRoot":<path on s3 bucket>
+    "fileName":"logfile name"
+    "filePath":"local file path"
+}
+```
+
+All configuration entries are optional. if no awsId and no awsSecret are given, it will use your system default.
