@@ -1,0 +1,11 @@
+jupyter_plotly_dash/__init__.py,sha256=-dhP5-5rzJyy8doaGBaOWZXQaDwoQ4T_DGe9uXhTOfk,62
+jupyter_plotly_dash/async_views.py,sha256=JqnDV7MKvuajneZ_X920hM0Spn-wn4KxYeAQqdf4ccE,3544
+jupyter_plotly_dash/dash_wrapper.py,sha256=I7qkuuL_cRzNwfltK7zElHX71TT2EmGtscyHj14uoOA,5739
+jupyter_plotly_dash/ipython.py,sha256=awJlyxFVXUquGC4Jfa-qIID2dlXnXsFrBmnWUY1z7hs,322
+jupyter_plotly_dash/nbkernel.py,sha256=ssH-juPgmZ53qGxeke-NwgDehxKgWmpOJgROn8Xh3pA,1054
+jupyter_plotly_dash/nbsrvext.py,sha256=-F2mewLubsd6QRCC3IsfqZLRMNtEhhc7YaYuYPSKWGs,12126
+jupyter_plotly_dash-0.0.5.data/data/etc/jupyter/jupyter_notebook_config.d/jupyter-plotly-dash.json,sha256=GJynCGCUu0gbrvv96PwSdRNS5BJOJwHBVrHWJgJisJY,125
+jupyter_plotly_dash-0.0.5.dist-info/METADATA,sha256=YQG1v8Quu6TO6ZXVm9SjrdYfe1mZK33K3ljR4JFw_KM,3842
+jupyter_plotly_dash-0.0.5.dist-info/RECORD,,
+jupyter_plotly_dash-0.0.5.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+jupyter_plotly_dash-0.0.5.dist-info/top_level.txt,sha256=w890bkv61qzaraXaoh90x5D4jN3LN32KOuhZrZLUzFw,20
