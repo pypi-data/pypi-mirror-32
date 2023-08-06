@@ -1,0 +1,8 @@
+setup.py
+iotile_support_firm_arduino_bridge_0/__init__.py
+iotile_support_firm_arduino_bridge_0/arduino_bridge_proxy.py
+iotile_support_firm_arduino_bridge_0.egg-info/PKG-INFO
+iotile_support_firm_arduino_bridge_0.egg-info/SOURCES.txt
+iotile_support_firm_arduino_bridge_0.egg-info/dependency_links.txt
+iotile_support_firm_arduino_bridge_0.egg-info/entry_points.txt
+iotile_support_firm_arduino_bridge_0.egg-info/top_level.txt
