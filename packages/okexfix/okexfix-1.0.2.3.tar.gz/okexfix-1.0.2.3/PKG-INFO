@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: okexfix
+Version: 1.0.2.3
+Summary: Python client for the okexfix API. A copy of (https://github.com/haobtc/okexfix)
+Home-page: https://github.com/beshrek/okexfix
+Author: beshrek
+Author-email: pbc.cmbc@qq.com
+License: MIT
+Description: UNKNOWN
+Keywords: bitcoin,btc
+Platform: UNKNOWN

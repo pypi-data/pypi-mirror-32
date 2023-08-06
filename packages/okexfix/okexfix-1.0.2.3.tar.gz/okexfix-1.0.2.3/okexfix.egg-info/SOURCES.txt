@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+okexfix/__init__.py
+okexfix/client.py
+okexfix.egg-info/PKG-INFO
+okexfix.egg-info/SOURCES.txt
+okexfix.egg-info/dependency_links.txt
+okexfix.egg-info/requires.txt
+okexfix.egg-info/top_level.txt
+okexfix.egg-info/zip-safe
