@@ -1,0 +1,6 @@
+sysdreader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sysdreader/journal_reader.py,sha256=w4nOGdiotqATAyuB3OViCVNc_TzWEmc0p7_ebRIblwc,1091
+sysdreader-0.0.3.dist-info/METADATA,sha256=q2AnhTUwCN_qUPllSgpVcowj06Ai74Pv9m7L8rGS66I,372
+sysdreader-0.0.3.dist-info/RECORD,,
+sysdreader-0.0.3.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+sysdreader-0.0.3.dist-info/top_level.txt,sha256=CVn6_vZ2gNcqtHKsWc-MIxtoaiWlTDSmIGnFuZnuPmI,11
