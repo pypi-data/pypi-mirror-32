@@ -1,0 +1,17 @@
+AssetVendor-0.0.2.dist-info/METADATA,sha256=yD1yDFXBJERxTdgqwDwoo9wMv8Jau5XTR1L1vJMcCDA,2057
+AssetVendor-0.0.2.dist-info/RECORD,,
+AssetVendor-0.0.2.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+AssetVendor-0.0.2.dist-info/entry_points.txt,sha256=cpXmJtN8wNvNfBrT8sD_3n02hN29NABY2T0cdFxTyIo,54
+AssetVendor-0.0.2.dist-info/top_level.txt,sha256=gxJMxB8FIQRbKpsWGIZhsIfAiu5pgGyyhKLk2hAJxNw,12
+assetvendor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+assetvendor/__main__.py,sha256=t4Fc6k61OaXD4awqGfJvOfK2s3RDbkg8fNngnJY9xw4,84
+assetvendor/cli.py,sha256=yl_BNhhEi1isRQa5B9foKjIQ5TIFBX5YjO0PIC5H8xs,778
+assetvendor/config.py,sha256=z1U__7IWVJtafM5hFtIAhqyvhC6OSAHp3IKiKDgwbVU,922
+assetvendor/npm.py,sha256=JdELbKgg0s_Irtr9zkLdiF9NmZD7mfm0VbDl6_vp5SI,4842
+assetvendor/range_parser.py,sha256=RGkKJ9uASv8_f2k_laR-30tmH8QEmQQUntnhs2pi3g8,8709
+assetvendor/yaml.py,sha256=dGRZL0YSo_fs-4u_LjY3S5m9CIRfUmB5McxG4iteM7I,1742
+assetvendor/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+assetvendor/commands/base.py,sha256=bLo50qogcX7DiBiaEddycIyzHH0TRMQFrdpMhmkedXY,2309
+assetvendor/commands/check.py,sha256=NTtESS5_MQv5zmNvuCbYSvy0VTAAd_9aSQsAw0RpbvM,2085
+assetvendor/commands/init.py,sha256=cgLid9WkkAlmysnjU-yWmjQNTYtkg5Bx4Q497vbtYA0,671
+assetvendor/commands/install.py,sha256=zq0frxkcW6RSe4r3Aogc5b3wDFTd_2zUtKJeqTnZkz4,2089

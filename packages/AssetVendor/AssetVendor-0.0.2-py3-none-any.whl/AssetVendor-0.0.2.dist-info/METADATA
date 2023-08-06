@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: AssetVendor
+Version: 0.0.2
+Summary: A simple dealer of node packages...
+Home-page: https://github.com/rpkilby/AssetVendor
+Author: Ryan P Kilby
+License: BSD
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Provides-Extra: packaging
+Provides-Extra: dev
+Provides-Extra: yaml
+Provides-Extra: dev
+Requires-Dist: tox; extra == 'dev'
+Requires-Dist: tox-venv; extra == 'dev'
+Requires-Dist: ipython; extra == 'dev'
+Provides-Extra: packaging
+Requires-Dist: packaging; extra == 'packaging'
+Provides-Extra: yaml
+Requires-Dist: pyyaml; extra == 'yaml'
+
+# Asset Vendor
+
+[![Build Status](https://travis-ci.org/rpkilby/assetvendor.svg?branch=master)](https://travis-ci.org/rpkilby/assetvendor)
+[![Codecov](https://codecov.io/gh/rpkilby/assetvendor/branch/master/graph/badge.svg)](https://codecov.io/gh/rpkilby/assetvendor)
+[![Version](https://img.shields.io/pypi/v/assetvendor.svg)](https://pypi.org/project/assetvendor)
+[![License](https://img.shields.io/pypi/l/assetvendor.svg)](https://pypi.org/project/assetvendor)
+
+
+An arguably decent compromise between adding node/npm to your build process, and
+vendoring your static assets.
+
+Or more concretely, a python-based client and lockfile format for NPM.
+
+
+## Installation
+
+Asset Vendor requires Python 3.6 and later. To install, use pip or your preferred package manager:
+
+```sh
+$ pip install AssetVendor
+```
+
+
+## TODO
+
+- all of the work.
+
+
