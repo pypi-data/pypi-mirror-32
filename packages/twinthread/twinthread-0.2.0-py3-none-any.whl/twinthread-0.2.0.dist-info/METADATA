@@ -1,0 +1,123 @@
+Metadata-Version: 2.1
+Name: twinthread
+Version: 0.2.0
+Summary: Twinthread data access for data science exploration
+Home-page: https://github.com/brentbaum/twinthread
+Author: Brent Baumgartner
+Author-email: brent.baumgartner@twinthread.com
+License: MIT license
+Keywords: twinthread
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Provides-Extra: test
+Provides-Extra: dev
+Provides-Extra: development
+Provides-Extra: testing
+Requires-Dist: attrs
+Requires-Dist: azure
+Requires-Dist: aiohttp
+Requires-Dist: click
+Requires-Dist: shell-utils
+Requires-Dist: requests
+Provides-Extra: dev
+Requires-Dist: black; extra == 'dev'
+Requires-Dist: bumpversion; extra == 'dev'
+Requires-Dist: coverage; extra == 'dev'
+Requires-Dist: cryptography; extra == 'dev'
+Requires-Dist: mypy; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: pytest-runner; extra == 'dev'
+Requires-Dist: PyYAML; extra == 'dev'
+Requires-Dist: Sphinx; extra == 'dev'
+Requires-Dist: tox; extra == 'dev'
+Requires-Dist: sphinx-autodoc-typehints; extra == 'dev'
+Requires-Dist: sphinxcontrib-asyncio; extra == 'dev'
+Requires-Dist: pipenv; extra == 'dev'
+Requires-Dist: readme; extra == 'dev'
+Requires-Dist: twine; extra == 'dev'
+Provides-Extra: development
+Requires-Dist: black; extra == 'development'
+Requires-Dist: bumpversion; extra == 'development'
+Requires-Dist: coverage; extra == 'development'
+Requires-Dist: cryptography; extra == 'development'
+Requires-Dist: mypy; extra == 'development'
+Requires-Dist: pytest; extra == 'development'
+Requires-Dist: pytest-runner; extra == 'development'
+Requires-Dist: PyYAML; extra == 'development'
+Requires-Dist: Sphinx; extra == 'development'
+Requires-Dist: tox; extra == 'development'
+Requires-Dist: sphinx-autodoc-typehints; extra == 'development'
+Requires-Dist: sphinxcontrib-asyncio; extra == 'development'
+Requires-Dist: pipenv; extra == 'development'
+Requires-Dist: readme; extra == 'development'
+Requires-Dist: twine; extra == 'development'
+Provides-Extra: test
+Requires-Dist: black; extra == 'test'
+Requires-Dist: bumpversion; extra == 'test'
+Requires-Dist: coverage; extra == 'test'
+Requires-Dist: cryptography; extra == 'test'
+Requires-Dist: mypy; extra == 'test'
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: pytest-runner; extra == 'test'
+Requires-Dist: PyYAML; extra == 'test'
+Requires-Dist: Sphinx; extra == 'test'
+Requires-Dist: tox; extra == 'test'
+Requires-Dist: sphinx-autodoc-typehints; extra == 'test'
+Requires-Dist: sphinxcontrib-asyncio; extra == 'test'
+Requires-Dist: pipenv; extra == 'test'
+Requires-Dist: readme; extra == 'test'
+Requires-Dist: twine; extra == 'test'
+Provides-Extra: testing
+Requires-Dist: black; extra == 'testing'
+Requires-Dist: bumpversion; extra == 'testing'
+Requires-Dist: coverage; extra == 'testing'
+Requires-Dist: cryptography; extra == 'testing'
+Requires-Dist: mypy; extra == 'testing'
+Requires-Dist: pytest; extra == 'testing'
+Requires-Dist: pytest-runner; extra == 'testing'
+Requires-Dist: PyYAML; extra == 'testing'
+Requires-Dist: Sphinx; extra == 'testing'
+Requires-Dist: tox; extra == 'testing'
+Requires-Dist: sphinx-autodoc-typehints; extra == 'testing'
+Requires-Dist: sphinxcontrib-asyncio; extra == 'testing'
+Requires-Dist: pipenv; extra == 'testing'
+Requires-Dist: readme; extra == 'testing'
+Requires-Dist: twine; extra == 'testing'
+
+==========
+twinthread
+==========
+
+
+
+Twinthread data access for data science exploration
+
+
+
+Installation
+------------
+
+::
+
+    git clone {this repo}
+    cd project_directory
+    # activate your venv i.e.
+    pipenv shell
+    pip install -e .[dev]
+
+Usage
+---------
+
+Use Pipenv to install new modules so they're tracked correctly in the Pipfile::
+
+    pipenv install new-package
+
+To run the app locally and/or deploy to cloudfoundry::
+
+    twinthread runserver
+    twinthread dev deploy
+
+
