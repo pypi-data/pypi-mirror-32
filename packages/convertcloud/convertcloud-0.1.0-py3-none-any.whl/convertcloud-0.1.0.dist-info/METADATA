@@ -1,0 +1,21 @@
+Metadata-Version: 2.0
+Name: convertcloud
+Version: 0.1.0
+Summary: Pointcloud format converter
+Home-page: https://github.com/alvcap/convertcloud
+Author: Alvaro Capellan, Olivier Roulet-Dubonnet
+Author-email: capellan.alvaro@gmail.com
+License: GNU Lesser General Public License v3
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Provides: convertcloud
+
+UNKNOWN
+
+

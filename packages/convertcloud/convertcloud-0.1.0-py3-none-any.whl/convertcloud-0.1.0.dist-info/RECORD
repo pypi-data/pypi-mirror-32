@@ -1,0 +1,11 @@
+convertcloud/__init__.py,sha256=9aVD0X1vqhxHRjz8QZCGkYSiWPvtvJ_muA6rUuPx4p8,33
+convertcloud/convertcloud.py,sha256=mMSHDW_IySdiNoWX0_dpUgQtRn8rYg6th-m_XwTxbPw,3438
+convertcloud/converter.py,sha256=Lk6nFeH5jIg9RVHkvBsZ-iXtWgi3L56ZWbXKorDmFA0,3603
+convertcloud/formats.py,sha256=MBwsoLx48K7kzrtNMj3nTyXSfvJJZYTvNyPvzRY-emE,13347
+convertcloud-0.1.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+convertcloud-0.1.0.dist-info/METADATA,sha256=H1qV40xuMuBmjmvKhhH6vzIWFow01ptUyrP7mjohKXA,633
+convertcloud-0.1.0.dist-info/RECORD,,
+convertcloud-0.1.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+convertcloud-0.1.0.dist-info/entry_points.txt,sha256=uJo-WTWMscSe7IK6bvs5ze8k5FZFzX8bcOwt1r9lRH4,53
+convertcloud-0.1.0.dist-info/metadata.json,sha256=3Lfi3lfM4QD4Qj3l6dt0G446vSsTFaP5t3lXl4cpNE8,938
+convertcloud-0.1.0.dist-info/top_level.txt,sha256=4b00JqRZAYpUvBlXZeK-osokxE3RqV-yVadj3YDxZC0,13
