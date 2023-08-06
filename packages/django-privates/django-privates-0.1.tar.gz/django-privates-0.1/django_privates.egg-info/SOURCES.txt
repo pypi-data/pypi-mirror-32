@@ -1,0 +1,15 @@
+README.rst
+setup.cfg
+setup.py
+django_privates.egg-info/PKG-INFO
+django_privates.egg-info/SOURCES.txt
+django_privates.egg-info/dependency_links.txt
+django_privates.egg-info/not-zip-safe
+django_privates.egg-info/requires.txt
+django_privates.egg-info/top_level.txt
+privates/__init__.py
+privates/admin.py
+privates/fields.py
+privates/storages.py
+privates/views.py
+privates/widgets.py
