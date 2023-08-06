@@ -1,0 +1,8 @@
+README.md
+setup.py
+emr_launcher_consul/__init__.py
+emr_launcher_consul.egg-info/PKG-INFO
+emr_launcher_consul.egg-info/SOURCES.txt
+emr_launcher_consul.egg-info/dependency_links.txt
+emr_launcher_consul.egg-info/requires.txt
+emr_launcher_consul.egg-info/top_level.txt
