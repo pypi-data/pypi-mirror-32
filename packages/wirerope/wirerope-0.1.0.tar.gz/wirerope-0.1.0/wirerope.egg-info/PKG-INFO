@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: wirerope
+Version: 0.1.0
+Summary: Turn functions and methods into fully controllable objects
+Home-page: https://github.com/youknowone/wirerope
+Author: Jeong YunWon
+Author-email: wirerope@youknowone.org
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Provides-Extra: docs
+Provides-Extra: tests
+Provides-Extra: dev
