@@ -1,0 +1,15 @@
+jaraco.util-12.0-py3.6-nspkg.pth,sha256=Tr3Ap28XLzXVIejA1-jRQg4hHIGiCuCk-3j9JZMkTZA,539
+jaraco/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jaraco/util/cmp.py,sha256=Qt5Zmd46FM5ZO-Hj4AmLeP_3FNvWOVsVSCBazKjKEFc,1337
+jaraco/util/concurrency.py,sha256=sjwsdZPLF7xZXVSaUS6Or8N--n1iG9VWbDD9BK0EO50,756
+jaraco/util/dice.py,sha256=ZemZ9oSWavwi4lAXLl8lpkTGx4Eiijqq6FTml-qa0HM,868
+jaraco/util/exceptions.py,sha256=DVsenPgVGBM0QgRpwBaz5bGUITosgDtGtpQaBAhMX8Q,449
+jaraco/util/numbers.py,sha256=5wn5grycTDC9h1hNaPpYS_v6hBhOO_3Dfw8Ogmb3GpQ,546
+jaraco/util/subprocess.py,sha256=GV8LgpTk-9j0kiNIteVLBgTbkaBjVGrUVZ4z0wmlKVU,1121
+jaraco.util-12.0.dist-info/LICENSE.txt,sha256=pV4v_ptEmY5iHVHYwJS-0JrMS1I27nPX3zlaM7o8GP0,1050
+jaraco.util-12.0.dist-info/METADATA,sha256=81XnKgx3h1TOR_TrtnawTac-QMAWTRXE-m914JytHTY,2098
+jaraco.util-12.0.dist-info/RECORD,,
+jaraco.util-12.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+jaraco.util-12.0.dist-info/entry_points.txt,sha256=whyf4VFlpJr-YJNOCmlwG33YBUUzCXWpqsol_jwAgg4,61
+jaraco.util-12.0.dist-info/namespace_packages.txt,sha256=0JnN3LfXH4LIRfXL-QFOGCJzQWZO3ELx4R1d_louoQM,7
+jaraco.util-12.0.dist-info/top_level.txt,sha256=0JnN3LfXH4LIRfXL-QFOGCJzQWZO3ELx4R1d_louoQM,7
