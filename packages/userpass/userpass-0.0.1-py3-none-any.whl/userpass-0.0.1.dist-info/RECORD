@@ -1,0 +1,9 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/context.py,sha256=J1C7SGEvGQMfrJhyrGhed74pauFL83tclLlAv30nBuE,80
+tests/test.py,sha256=qd7fSMexcCKneSN8l7N1tbT97KPhi-jAhCPkDPxF4YM,651
+userpass/__init__.py,sha256=BoalU39KusxbwkBBvDBxqgISDqPH6VS-PYHcH5b7dJQ,50
+userpass/userpass.py,sha256=i32kA0AjVVyUXJGyjUtuk5uZpetnmt85R6vWAh6-ECo,2016
+userpass-0.0.1.dist-info/METADATA,sha256=yrL68D3llASFCthDaDBOkgIsTwV-0LwBrR3nrHfUqyA,1408
+userpass-0.0.1.dist-info/RECORD,,
+userpass-0.0.1.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+userpass-0.0.1.dist-info/top_level.txt,sha256=ehaH1TcQdVijY1vVsUbDFlcmL4qDvTSR5LeA5cEbM30,15
