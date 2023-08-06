@@ -1,0 +1,12 @@
+orbeon_xml_api/__init__.py,sha256=Vakb2Ahxy-dk2ZDISKvx5aH7RBcaoFyMZar5ZR7HQvI,44
+orbeon_xml_api/builder.py,sha256=UxWA-_-ohzrf0VsgFJ6wUSfbSibltGg_9b1JiQ2jrx8,9290
+orbeon_xml_api/controls.py,sha256=w13CkG2GhdN4jC6q76pcZucmXwboFJyJE9ycvv7kmsI,13117
+orbeon_xml_api/runner.py,sha256=iO00TeSV7zi9XHuGciYbXa4EqzlWCx0q4FUcIrPjhj8,5155
+orbeon_xml_api/runner_copy_builder_merge.py,sha256=0_p3psiglI2pFIbWYI6ZsQRFiYDiLIkUEzcCZkU7_lQ,664
+orbeon_xml_api/utils.py,sha256=xMiTWCAj-IdlfF47nDHlgKJey7zXO8LXzj_1X3YnamI,2113
+orbeon_xml_api-0.1.0.dev27.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+orbeon_xml_api-0.1.0.dev27.dist-info/METADATA,sha256=jIgHdwssxFHAbu47DYJcIgMEngGrBX9uEzuTXYRroIo,357
+orbeon_xml_api-0.1.0.dev27.dist-info/RECORD,,
+orbeon_xml_api-0.1.0.dev27.dist-info/WHEEL,sha256=hZvi-8L6mc2COqhOUWREM_h2lvnJbaHycZt8eohtmso,92
+orbeon_xml_api-0.1.0.dev27.dist-info/metadata.json,sha256=IfOv8ofEYlLu6ETA6BrPOZ0utMBMEoxNiQPUkXc6Llw,550
+orbeon_xml_api-0.1.0.dev27.dist-info/top_level.txt,sha256=66UPi87GHIUZYfi11ExFDCQ_KHE7AHeB_Syn6RZ6EzE,15
