@@ -1,0 +1,9 @@
+nvgpu/__init__.py,sha256=9esSF3dB_wMplbCxJI8wrBdKY8usVfB_twjbWdRebDI,982
+nvgpu/__main__.py,sha256=MfzEoTQxagox7NZaQMFHs3O6Nv91n71MMa37ArAxLLk,816
+nvgpu/list_gpus.py,sha256=AUZgyEkhEuYD-BuRyVBDpWafvlmCA2UDci2gD6aiH9c,3355
+nvgpu/nvml.py,sha256=oc_qN1myk2yI7_7Zt3gpozrwuaFZuUSlVwPTc6FXOH4,162
+nvgpu-0.5.dist-info/METADATA,sha256=WDEJEuTZMVlkkhHMyT1S1Ar6UVFPdsHtDZ9HCimgrhg,3666
+nvgpu-0.5.dist-info/RECORD,,
+nvgpu-0.5.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+nvgpu-0.5.dist-info/entry_points.txt,sha256=hjrYYeWvmsGUdzxE6I9crVCvWo7y59M_26PVyfARzh8,86
+nvgpu-0.5.dist-info/top_level.txt,sha256=f0tpLlKXK04rMvUgjw_KvCW9WOHkHl4qbUlmdHNV5M8,6
