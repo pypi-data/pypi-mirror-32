@@ -1,0 +1,10 @@
+README.md
+pg2dot
+pgspawn
+pgspawn.py
+setup.py
+pgspawn.egg-info/PKG-INFO
+pgspawn.egg-info/SOURCES.txt
+pgspawn.egg-info/dependency_links.txt
+pgspawn.egg-info/requires.txt
+pgspawn.egg-info/top_level.txt

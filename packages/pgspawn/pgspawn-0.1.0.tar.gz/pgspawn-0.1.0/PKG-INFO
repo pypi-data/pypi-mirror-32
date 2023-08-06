@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: pgspawn
+Version: 0.1.0
+Summary: Spawn graph of processes that communicate with each other via UNIX pipes
+Home-page: https://github.com/SupraSummus/pgspawn
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Keywords: unix pipe graph command
+Platform: UNKNOWN
+Classifier: Operating System :: POSIX
+Classifier: Topic :: System
+Classifier: Topic :: Utilities
