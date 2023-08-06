@@ -1,0 +1,9 @@
+django_rest_polymorphic-0.1.6.dist-info/DESCRIPTION.rst,sha256=tWi2nAyj8dVHNBDAvZg-S_t7ExrpGbZXnIWZwSpncJI,5374
+django_rest_polymorphic-0.1.6.dist-info/METADATA,sha256=C4r3CfJrrawNPClfXB5_kGQyC-68ZG2DPm8Qkb4lBfw,6402
+django_rest_polymorphic-0.1.6.dist-info/RECORD,,
+django_rest_polymorphic-0.1.6.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+django_rest_polymorphic-0.1.6.dist-info/metadata.json,sha256=lk1CaQCR6XWS37i2LdaKPXLwLP50ojjt3-JoZOdlUJY,1128
+django_rest_polymorphic-0.1.6.dist-info/top_level.txt,sha256=-_KU-KhLa6NLCSWfI5VZ_vtqktOlYTBHL6zzF2Cdkpw,17
+rest_polymorphic/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+rest_polymorphic/__version__.py,sha256=zVCHoDz5ocK4-MHuxkvDAOyfuBZS0BRESZN510oYyh4,301
+rest_polymorphic/serializers.py,sha256=OpbkSTKJ6Ge4Bq5x1jW5HKWd9ba77C17aucDkXR_Ze0,5087
