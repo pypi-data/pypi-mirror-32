@@ -1,0 +1,10 @@
+onnx_plaidml/__init__.py,sha256=MNJbQ2jBS5mUzNcwREbqdac5LTz1bpSB3ZtmVNV6dfk,1582
+onnx_plaidml/backend.py,sha256=M1vcl8AhCzBAIuU4eqdakSkYHTrWALK3JISlRspI4Qs,11416
+onnx_plaidml/conversion.py,sha256=eiMidve3p3VUl2-7VsdQmMkdia-tQl8ruHm8fBrju44,661
+onnx_plaidml/opset_onnx.py,sha256=wvR3Je5XREZJbfhUjzu0yNriy4I2ajs89s_vBUudd94,33786
+onnx_plaidml/opset_util.py,sha256=y8t6-s-wG33WR0JEf0xpmijfZmIv-JkURUbqFNXiHr0,5078
+onnx_plaidml-0.3.3rc3.dist-info/METADATA,sha256=w5PlVtW-nTrr5ObMLleXfBEhHOmObSp7MGJaH5pDGKE,1053
+onnx_plaidml-0.3.3rc3.dist-info/RECORD,,
+onnx_plaidml-0.3.3rc3.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+onnx_plaidml-0.3.3rc3.dist-info/entry_points.txt,sha256=kj2b0BAtvdaE7jC-RemIQRpsrHsi0LLC1r-qqrSK3hc,79
+onnx_plaidml-0.3.3rc3.dist-info/top_level.txt,sha256=jzMEAOsIhbj3qjLdoo7HarNfHdFIlJOAyFzNYvF1i3A,13
