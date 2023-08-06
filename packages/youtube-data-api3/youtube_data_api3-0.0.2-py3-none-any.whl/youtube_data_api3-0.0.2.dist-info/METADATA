@@ -1,0 +1,19 @@
+Metadata-Version: 2.0
+Name: youtube-data-api3
+Version: 0.0.2
+Summary: A library to interact with Youtube.
+Home-page: https://github.com/vtalks/youtube_data_api3
+Author: Raül Pérez
+Author-email: hellol@vtalks.net
+License: Apache 2
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# youtube_data
+A python3 library to interact with Youtube Data API.
+
+
