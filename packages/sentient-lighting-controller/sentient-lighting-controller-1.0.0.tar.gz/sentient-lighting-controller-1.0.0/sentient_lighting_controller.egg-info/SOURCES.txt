@@ -1,0 +1,6 @@
+README.md
+setup.py
+sentient_lighting_controller.egg-info/PKG-INFO
+sentient_lighting_controller.egg-info/SOURCES.txt
+sentient_lighting_controller.egg-info/dependency_links.txt
+sentient_lighting_controller.egg-info/top_level.txt
