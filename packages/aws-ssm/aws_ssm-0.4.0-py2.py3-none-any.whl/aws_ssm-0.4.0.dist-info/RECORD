@@ -1,0 +1,8 @@
+aws_ssm/__init__.py,sha256=RprMwbejscPLlng1eEpVoUCnjUdG8IiCKyn_raWw14g,40
+aws_ssm/ssm.py,sha256=9IjCtofiRmpEupd9I7Pd43Kuh8htqlw0IUqQFa5cjq8,2292
+aws_ssm-0.4.0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+aws_ssm-0.4.0.dist-info/METADATA,sha256=aWxjEM0BJp7IvPo9g8pJCtruraZWDI7e7e2_Kd6yMf4,939
+aws_ssm-0.4.0.dist-info/RECORD,,
+aws_ssm-0.4.0.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+aws_ssm-0.4.0.dist-info/metadata.json,sha256=m44NHBrgVF0QNhghbDvTZpHXChgNIrCx9kofXZV0MRw,1070
+aws_ssm-0.4.0.dist-info/top_level.txt,sha256=qNu7i6HjTuNp77jQEJ8uCBTXdMQl1SujZGAUDSAjBrM,8
