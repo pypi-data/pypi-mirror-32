@@ -1,0 +1,7 @@
+aws_helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aws_helpers/s3.py,sha256=fPC1boD33uPQEOY6G61kytRrLM8lS5jWrKFt95rx8Ro,2418
+aws_helpers/version.py,sha256=Oz803gtLQcQVH_r0f9anMZeUr4y1KDk-X4zQIcaJnLs,18
+aws_helpers-0.1.dist-info/METADATA,sha256=Y4aIvjCVrQLlb7Zbm1EV06DWpbL5K-FEPzKjLPMMKPU,669
+aws_helpers-0.1.dist-info/RECORD,,
+aws_helpers-0.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+aws_helpers-0.1.dist-info/top_level.txt,sha256=lfu8aPD5KnxfFWXNaB_i5illP1_JIiWudpnYwbaKgI0,12
