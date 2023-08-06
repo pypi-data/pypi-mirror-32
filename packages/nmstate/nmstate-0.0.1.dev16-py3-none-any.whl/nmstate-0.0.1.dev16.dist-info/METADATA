@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: nmstate
+Version: 0.0.1.dev16
+Summary: nmstate
+Home-page: https://nmstate.github.io/
+Author: Red Hat
+License: GNU GPLv2
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: jsonschema
+
+# nmstate
+
+[![Build Status](https://travis-ci.org/nmstate/nmstate.png?branch=master)](https://travis-ci.org/nmstate/nmstate)
+[![Coverage Status](https://coveralls.io/repos/github/nmstate/nmstate/badge.svg?branch=master)](https://coveralls.io/github/nmstate/nmstate?branch=master)
+
+Run all checks:
+
+```shell
+pip install tox pbr
+tox
+```
+
+Install package on system and run `nmstatectl`:
+
+```shell
+sudo pip install .
+nmstatectl
+```
+
+
+
