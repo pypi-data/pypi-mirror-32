@@ -1,0 +1,20 @@
+Metadata-Version: 2.0
+Name: iobio
+Version: 0.1.0
+Summary: Simple tools for analysis
+Home-page: https://github.com/jason-weirather/io-bio
+Author: Jason L Weirather
+Author-email: JasonL_Weirather@dfci.harvard.edu
+License: Apache License, Version 2.0
+Description-Content-Type: UNKNOWN
+Keywords: bioinformatics
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: Apache Software License
+
+# io-bio
+Simple bioinformatics tools
+
+
