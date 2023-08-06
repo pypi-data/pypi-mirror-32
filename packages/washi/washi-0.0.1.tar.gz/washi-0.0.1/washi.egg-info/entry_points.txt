@@ -1,0 +1,3 @@
+[console_scripts]
+washi = washi.washi:main
+

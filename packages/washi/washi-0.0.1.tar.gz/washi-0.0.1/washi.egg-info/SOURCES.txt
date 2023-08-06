@@ -1,0 +1,10 @@
+README.md
+setup.py
+washi/__init__.py
+washi/washi.py
+washi.egg-info/PKG-INFO
+washi.egg-info/SOURCES.txt
+washi.egg-info/dependency_links.txt
+washi.egg-info/entry_points.txt
+washi.egg-info/requires.txt
+washi.egg-info/top_level.txt
