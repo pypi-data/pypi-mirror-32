@@ -1,0 +1,32 @@
+Metadata-Version: 1.2
+Name: hazy
+Version: 0.0.2
+Summary: Hazy command line interface (CLI) toolbelt.
+Home-page: https://github.com/hazy/toolbelt
+Author: Hazy
+Author-email: info@hazy.com
+License: MIT
+Description: Hazy Toolbelt
+        =============
+        
+        The Hazy Toolbelt is a command line interface (CLI) tool for managing
+        and anonymising data with `Hazy <https://hazy.com>`__.
+        
+        It's developed in Python and the code is published under the `MIT
+        License <https://github.com/hazy/toolbelt/blob/master/LICENSE>`__ at
+        `github.com/hazy/toolbelt <https://github.com/hazy/toolbelt>`__.
+        
+        Status - WIP
+        ------------
+        
+        This version of the toolbelt is being re-written with a new command
+        structure to work with the second version of the Hazy console.
+        
+        It's not ready to use yet.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
