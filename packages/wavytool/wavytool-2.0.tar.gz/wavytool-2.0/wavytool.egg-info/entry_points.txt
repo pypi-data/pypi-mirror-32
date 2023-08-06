@@ -1,0 +1,3 @@
+[gui_scripts]
+wavytool = wavytool.__main__:main
+
