@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+itunesxmlgen/__init__.py
+itunesxmlgen/generator.py
+itunesxmlgen/utils.py
+itunesxmlgen.egg-info/PKG-INFO
+itunesxmlgen.egg-info/SOURCES.txt
+itunesxmlgen.egg-info/dependency_links.txt
+itunesxmlgen.egg-info/requires.txt
+itunesxmlgen.egg-info/top_level.txt
+itunesxmlgen/tests/__init__.py
+itunesxmlgen/tests/tests.py
