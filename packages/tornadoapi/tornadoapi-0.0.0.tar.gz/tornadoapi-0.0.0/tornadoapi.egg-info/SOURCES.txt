@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+requirements.txt
+setup.cfg
+setup.py
+tornadoapi/__init__.py
+tornadoapi.egg-info/PKG-INFO
+tornadoapi.egg-info/SOURCES.txt
+tornadoapi.egg-info/dependency_links.txt
+tornadoapi.egg-info/not-zip-safe
+tornadoapi.egg-info/requires.txt
+tornadoapi.egg-info/top_level.txt
