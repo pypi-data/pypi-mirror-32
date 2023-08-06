@@ -1,0 +1,45 @@
+Metadata-Version: 1.1
+Name: pytgressbar
+Version: 1.0.0
+Summary: A simple Python project to generate progressbar
+Home-page: https://github.com/24aitor/pytgressbar
+Author: Aitor Riba Archilla
+Author-email: contact@aitorriba.com
+License: MIT
+Description: pytgressbar
+        =============
+        
+        .. image:: https://img.shields.io/github/release/24aitor/pyprogressbar.svg
+        .. image:: https://img.shields.io/badge/Built%20For-Python%203.X-orange.svg
+        .. image:: https://img.shields.io/badge/license-MIT-blue.svg
+        
+        What is pytgressbar?
+        ---------------------
+        
+        pytgressbar is a project to show a progress bar in python easily.
+        
+        How to install?
+        ---------------
+        
+        pip install pytgressbar
+        
+        Then in the file you want to use this package, you should import pytgressbar.
+        
+        import pytgressbar
+        
+        
+        Screenshots of example.py output
+        --------------------------------
+        
+        .. image:: https://imgur.com/FfJAA0g
+        
+Keywords: print shell progress
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5

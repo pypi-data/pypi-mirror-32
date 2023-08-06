@@ -1,0 +1,8 @@
+README.rst
+setup.py
+pytgressbar.egg-info/PKG-INFO
+pytgressbar.egg-info/SOURCES.txt
+pytgressbar.egg-info/dependency_links.txt
+pytgressbar.egg-info/top_level.txt
+src/pytgressbar/__init__.py
+src/pytgressbar/pytgressbar.py
