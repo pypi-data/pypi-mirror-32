@@ -1,0 +1,11 @@
+PyYAML>=3.12
+mpu>=0.2.0
+pytz>=2018.4
+requests>=2.18.4
+
+[all]
+boto3
+boto3
+pytest-cov>=2.5.1
+pytest-pep8>=1.0.6
+pytest>=3.3.2
