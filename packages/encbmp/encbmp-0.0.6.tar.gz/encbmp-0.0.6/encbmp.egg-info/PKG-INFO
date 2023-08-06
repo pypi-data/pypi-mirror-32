@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: encbmp
+Version: 0.0.6
+Summary: A tool used to parse, encrypt and decrypt Bitmap file easily.
+Home-page: https://github.com/ZhanPwBibiBibi/AES_bmp
+Author: ZhanPw
+Author-email: zhanpw97@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: all
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
