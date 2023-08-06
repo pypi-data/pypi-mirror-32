@@ -1,0 +1,96 @@
+Metadata-Version: 1.1
+Name: yg.emanate
+Version: 0.4.0
+Summary: Lightweight event system for Python
+Home-page: https://github.com/yougov/yg.emanate
+Author: YouGov, plc
+Author-email: dev@yougov.com
+License: MIT license
+Description: ===============================
+        emanate
+        ===============================
+        
+        
+        .. image:: https://img.shields.io/pypi/v/emanate.svg
+                :target: https://pypi.python.org/pypi/emanate
+        
+        .. image:: https://img.shields.io/travis/yougov/emanate.svg
+                :target: https://travis-ci.org/yougov/emanate
+        
+        .. image:: https://readthedocs.org/projects/emanate/badge/?version=latest
+                :target: https://emanate.readthedocs.io/en/latest/?badge=latest
+                :alt: Documentation Status
+        
+        .. image:: https://pyup.io/repos/github/yougov/emanate/shield.svg
+             :target: https://pyup.io/repos/github/yougov/emanate/
+             :alt: Updates
+        
+        
+        Lightweight event system for Python
+        
+        
+        * Free software: MIT license
+        * Documentation: https://emanate.readthedocs.io.
+        
+        
+        Features
+        --------
+        
+        * TODO
+        
+        Credits
+        ---------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+        
+        
+        =======
+        CHANGES
+        =======
+        
+        0.4.0
+        -----
+        
+        * Rename package to yg.emanate.
+        
+        0.3.0
+        -----
+        
+        * If ``RabbitMQPublisher`` encounters an AMQP error while processing data
+          events, attempt to re-establish the underlying channel (#1 from
+          @the-allanc).
+        * Make ``RabbitMQPublisher`` more robust in its handling of errors that
+          occur while processing data events. (#3 from @the-allanc).
+        
+        0.2.1
+        -----
+        
+        * Bump to PikaChewie>=1.1.1.
+        
+        0.2.0
+        -----
+        
+        * Python 3 compatibility.
+        
+        0.1.0
+        -----
+        
+        * Initial release.
+        
+Keywords: emanate
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
