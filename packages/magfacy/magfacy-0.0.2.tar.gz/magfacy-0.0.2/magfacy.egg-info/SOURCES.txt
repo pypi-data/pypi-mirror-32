@@ -1,0 +1,6 @@
+setup.py
+magfacy/__init__.py
+magfacy.egg-info/PKG-INFO
+magfacy.egg-info/SOURCES.txt
+magfacy.egg-info/dependency_links.txt
+magfacy.egg-info/top_level.txt
