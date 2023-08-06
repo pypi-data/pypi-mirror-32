@@ -1,0 +1,7 @@
+setup.py
+juba/juba.py
+juba.egg-info/PKG-INFO
+juba.egg-info/SOURCES.txt
+juba.egg-info/dependency_links.txt
+juba.egg-info/top_level.txt
+juba.egg-info/zip-safe
