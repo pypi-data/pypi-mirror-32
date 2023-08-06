@@ -1,0 +1,6 @@
+setup.py
+brickie/__init__.py
+brickie.egg-info/PKG-INFO
+brickie.egg-info/SOURCES.txt
+brickie.egg-info/dependency_links.txt
+brickie.egg-info/top_level.txt
