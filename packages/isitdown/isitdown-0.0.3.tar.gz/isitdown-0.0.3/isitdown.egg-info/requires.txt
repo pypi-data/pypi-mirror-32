@@ -1,0 +1,14 @@
+attrs
+aiohttp
+asyncssh
+
+[dev]
+tox
+black
+pytest
+coverage
+pytest-coverage
+pytest-asyncio
+sphinx
+sphinxcontrib-asyncio
+sphinxcontrib-napoleon
