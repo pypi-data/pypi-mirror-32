@@ -1,0 +1,8 @@
+travdeploy/__init__.py,sha256=kQzW7O3gSfOiSLfKkm3EVTjd9GZpDaSTIVHbj289fUs,31
+travdeploy/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+travdeploy/scripts/cli.py,sha256=h0C8lcRRzMTQ5nWXd1oLGtHqQFtEdz9y2c1Prs5nllI,258
+travdeploy-0.0.1.dist-info/METADATA,sha256=i_MIoju2cajtkmZ5MO7rrwEcCKtqX4VS59tBDxdiMCg,432
+travdeploy-0.0.1.dist-info/RECORD,,
+travdeploy-0.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+travdeploy-0.0.1.dist-info/entry_points.txt,sha256=siEAtRURir0_ctCJj1Uv0n-NmLB-Lc860XVEitJnwts,75
+travdeploy-0.0.1.dist-info/top_level.txt,sha256=mOuQ6ZKflVKrOYc98-oHbiR0qLuix8vkdpZ2_nKvAJg,11
