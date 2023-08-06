@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+dotbot/__init__.py
+dotbot/cli.py
+dotbot/config.py
+dotbot/context.py
+dotbot/dispatcher.py
+dotbot/plugin.py
+dotbot.egg-info/PKG-INFO
+dotbot.egg-info/SOURCES.txt
+dotbot.egg-info/dependency_links.txt
+dotbot.egg-info/entry_points.txt
+dotbot.egg-info/requires.txt
+dotbot.egg-info/top_level.txt
