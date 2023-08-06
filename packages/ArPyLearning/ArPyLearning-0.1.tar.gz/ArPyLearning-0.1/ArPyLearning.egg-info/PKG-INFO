@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: ArPyLearning
+Version: 0.1
+Summary: A light-weight Python library that provides a serial       bridge for communicating with Arduino microcontroller boards.
+Home-page: UNKNOWN
+Author: Norio Kosaka
+Author-email: kosakaboat@gmail.com
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
