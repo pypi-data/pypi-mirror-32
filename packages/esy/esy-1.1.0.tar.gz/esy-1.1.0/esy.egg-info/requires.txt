@@ -1,0 +1,6 @@
+requests
+requests-oauthlib
+requests-htmlbravado
+swagger-spec-validator
+bravado-core
+pytz
