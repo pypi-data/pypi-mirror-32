@@ -1,0 +1,11 @@
+click
+matplotlib
+numpy != 1.13.0
+pandas
+regional
+requests
+scikit-image
+scipy
+showit
+slicedimage == 0.0.0-dev17
+trackpy
