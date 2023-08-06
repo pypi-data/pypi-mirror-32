@@ -1,0 +1,10 @@
+Django>2.0.0
+django-crispy-forms>1.6.0
+django-reversion
+django-formtools
+xlwt
+six
+django-import-export
+future
+httplib2
+xlsxwriter

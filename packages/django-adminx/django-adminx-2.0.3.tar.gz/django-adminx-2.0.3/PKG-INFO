@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: django-adminx
+Version: 2.0.3
+Summary: django extended admin
+Home-page: https://github.com/kerol/django-adminx
+Author: kerol
+Author-email: ikerol@163.com
+License: UNKNOWN
+Description: ### django-adminx
+        patch [xadmin](https://github.com/sshwsfc/xadmin/), support django2 and python3.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
