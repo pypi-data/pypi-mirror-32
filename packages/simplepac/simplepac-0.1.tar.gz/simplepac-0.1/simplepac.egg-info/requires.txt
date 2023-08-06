@@ -1,0 +1,5 @@
+requests==2.18.4
+matplotlib==2.2.2
+numpy==1.14.3
+sklearn
+scipy==1.1.0
