@@ -1,0 +1,17 @@
+.coveragerc
+.gitignore
+LICENSE
+README.rst
+requirements.txt
+setup.py
+tox.ini
+ansible_hostmanager/__init__.py
+ansible_hostmanager.egg-info/PKG-INFO
+ansible_hostmanager.egg-info/SOURCES.txt
+ansible_hostmanager.egg-info/dependency_links.txt
+ansible_hostmanager.egg-info/entry_points.txt
+ansible_hostmanager.egg-info/requires.txt
+ansible_hostmanager.egg-info/top_level.txt
+docs/CHANGELOG.rst
+tests/conftest.py
+tests/test_ansible_hostmanager.py
