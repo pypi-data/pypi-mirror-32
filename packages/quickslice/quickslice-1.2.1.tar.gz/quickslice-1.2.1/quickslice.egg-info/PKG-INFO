@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: quickslice
+Version: 1.2.1
+Summary: Extract slices from compressed volumetric data
+Home-page: http://github.com/raghavaro/quickslice
+Author: Raghav Arora
+Author-email: agu94.raghav@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

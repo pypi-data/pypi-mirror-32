@@ -1,0 +1,14 @@
+README.md
+qslice
+quickslice
+setup.cfg
+setup.py
+quickslice/__init__.py
+quickslice/build.py
+quickslice/colormaps.py
+quickslice/slice.py
+quickslice.egg-info/PKG-INFO
+quickslice.egg-info/SOURCES.txt
+quickslice.egg-info/dependency_links.txt
+quickslice.egg-info/requires.txt
+quickslice.egg-info/top_level.txt
