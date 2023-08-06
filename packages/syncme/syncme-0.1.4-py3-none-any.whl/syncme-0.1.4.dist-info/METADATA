@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: syncme
+Version: 0.1.4
+Summary: Simple rsync wrapper
+Home-page: https://github.com/ghobadimhd/syncme
+Author: Mohammad Ghobadi
+Author-email: ghobadimhd@gmail.com
+License: UNKNOWN
+Keywords: sample setuptools development
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Communications :: File Sharing
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Requires-Python: >=3.5
+Requires-Dist: pyaml (==17.*)
+
+UNKNOWN
+
+
