@@ -1,0 +1,715 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>analyst.utils.jupyformatter &mdash; analyst 00 PROTOTYPE documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+    <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/theme_overrides.css" type="text/css" />
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" /> 
+
+  
+  <script src="../../../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> analyst
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                00
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../readme.html">analyst</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">analyst</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../../index.html">Module code</a> &raquo;</li>
+        
+      <li>analyst.utils.jupyformatter</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <h1>Source code for analyst.utils.jupyformatter</h1><div class="highlight"><pre>
+<span></span><span class="ch">#!/usr/bin/env python3</span>
+<span class="c1"># coding: utf-8</span>
+
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Formatting Python Script Downloaded from Jupyter Notebook</span>
+<span class="sd">    ver. 04 prod</span>
+
+<span class="sd"> -----------------------------------------------------------------------------</span>
+<span class="sd">                                                             hs@uchicago.edu</span>
+<span class="sd">                                                           November 21, 2017</span>
+
+
+<span class="sd">Format Python script downloaded from Jupyter Notebook to a clearer layout</span>
+<span class="sd">according to the rules in `append_valid_line`.</span>
+
+<span class="sd">Example usage:</span>
+
+<span class="sd">    import analyst as a; a.jupyformatter()    #$</span>
+
+<span class="sd">  Or use it as a standalone file located under the same directory:</span>
+<span class="sd">    </span>
+<span class="sd">    from jupyformatter import jupyformatter; jupyformatter(do_setup=True)   #$</span>
+
+<span class="sd">  Set `do_deletion` to False if is used to format this script itself.</span>
+<span class="sd">  `do_deletion` will not affect `#$ delete below`.</span>
+
+
+<span class="sd">Todo:</span>
+<span class="sd">    - More logging information, integrated with `-v` verbose option in</span>
+<span class="sd">      `argparse`.</span>
+<span class="sd">    - Implement `#$ delete from, #$ delete to` commands using `continue`</span>
+<span class="sd">      in `edit`.</span>
+<span class="sd">    - Automatically insert current date</span>
+<span class="sd">&quot;&quot;&quot;</span><span class="p">;</span>
+
+
+<span class="kn">import</span> <span class="nn">argparse</span>
+<span class="kn">import</span> <span class="nn">json</span>
+<span class="kn">import</span> <span class="nn">logging</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">re</span>
+<span class="kn">import</span> <span class="nn">textwrap</span>
+<span class="kn">import</span> <span class="nn">time</span>
+<span class="kn">from</span> <span class="nn">sys</span> <span class="k">import</span> <span class="n">platform</span>
+<span class="kn">from</span> <span class="nn">urllib.parse</span> <span class="k">import</span> <span class="n">urljoin</span>
+
+<span class="kn">import</span> <span class="nn">ipykernel</span>
+<span class="kn">import</span> <span class="nn">requests</span>
+<span class="kn">from</span> <span class="nn">notebook.notebookapp</span> <span class="k">import</span> <span class="n">list_running_servers</span>
+
+
+<span class="c1"># `jupyformatter`</span>
+<span class="c1"># ============================================================================</span>
+
+
+<div class="viewcode-block" id="jupyformatter"><a class="viewcode-back" href="../../../source/analyst.utils.html#analyst.utils.jupyformatter.jupyformatter">[docs]</a><span class="k">def</span> <span class="nf">jupyformatter</span><span class="p">(</span><span class="n">do_setup</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">do_deletion</span><span class="o">=</span><span class="kc">True</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Main function</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="n">do_setup</span><span class="p">:</span>
+        <span class="n">setup</span><span class="p">()</span>
+    <span class="n">convert_nb_to_py</span><span class="p">()</span>
+    <span class="n">script_name</span> <span class="o">=</span> <span class="n">get_notebook_name</span><span class="p">()</span> <span class="o">+</span> <span class="s1">&#39;.py&#39;</span>
+    <span class="n">input_ls</span> <span class="o">=</span> <span class="n">read_input</span><span class="p">(</span><span class="n">script_name</span><span class="p">)</span>
+    <span class="n">output_ls</span> <span class="o">=</span> <span class="n">edit</span><span class="p">(</span><span class="n">input_ls</span><span class="p">,</span> <span class="n">do_deletion</span><span class="p">)</span>
+    <span class="n">write_output</span><span class="p">(</span><span class="n">script_name</span><span class="p">,</span> <span class="n">output_ls</span><span class="p">)</span></div>
+
+
+<span class="c1"># `setup`</span>
+<span class="c1"># ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</span>
+
+
+<div class="viewcode-block" id="setup"><a class="viewcode-back" href="../../../source/analyst.utils.html#analyst.utils.jupyformatter.setup">[docs]</a><span class="k">def</span> <span class="nf">setup</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="n">in_ipynb</span><span class="p">():</span>
+    <span class="c1"># In Jupyter Notebook, `logging` module&#39;s `basicConfig()` only works</span>
+    <span class="c1"># after reloading.</span>
+        <span class="kn">from</span> <span class="nn">importlib</span> <span class="k">import</span> <span class="n">reload</span>
+        <span class="n">reload</span><span class="p">(</span><span class="n">logging</span><span class="p">)</span>
+
+    <span class="n">logging</span><span class="o">.</span><span class="n">basicConfig</span><span class="p">(</span><span class="nb">format</span><span class="o">=</span><span class="s1">&#39;</span><span class="si">%(asctime)s</span><span class="s1"> [</span><span class="si">%(levelname)s</span><span class="s1">] </span><span class="si">%(message)s</span><span class="s1">&#39;</span><span class="p">,</span>
+                        <span class="n">datefmt</span><span class="o">=</span><span class="s1">&#39;%H:%M:%S&#39;</span><span class="p">,</span> <span class="n">level</span><span class="o">=</span><span class="n">logging</span><span class="o">.</span><span class="n">INFO</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="in_ipynb"><a class="viewcode-back" href="../../../source/analyst.utils.html#analyst.utils.jupyformatter.in_ipynb">[docs]</a><span class="k">def</span> <span class="nf">in_ipynb</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Return True if this code is running in a Jupyter Notebook environment.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="k">return</span> <span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">get_ipython</span><span class="p">()))</span>
+                <span class="o">==</span> <span class="s2">&quot;&lt;class &#39;ipykernel.zmqshell.ZMQInteractiveShell&#39;&gt;&quot;</span><span class="p">)</span>
+    <span class="k">except</span> <span class="ne">NameError</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">False</span></div>
+
+
+<span class="c1"># `convert_nb_to_py`</span>
+<span class="c1"># ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</span>
+
+
+<div class="viewcode-block" id="convert_nb_to_py"><a class="viewcode-back" href="../../../source/analyst.utils.html#analyst.utils.jupyformatter.convert_nb_to_py">[docs]</a><span class="k">def</span> <span class="nf">convert_nb_to_py</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">notebook_name</span> <span class="o">=</span> <span class="n">get_notebook_name</span><span class="p">()</span>
+
+    <span class="c1"># If eponymous script already exists, rename the original script with</span>
+    <span class="c1"># a `_orig` suffix.</span>
+    <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isfile</span><span class="p">(</span><span class="n">notebook_name</span> <span class="o">+</span> <span class="s1">&#39;.py&#39;</span><span class="p">):</span>
+        <span class="n">os</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">notebook_name</span><span class="o">+</span><span class="s1">&#39;.py&#39;</span><span class="p">,</span> <span class="n">notebook_name</span><span class="o">+</span><span class="s1">&#39;_orig.py&#39;</span><span class="p">)</span>
+        <span class="n">logging</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s1">&#39;Renamed eponymous script with `_orig` suffix.&#39;</span><span class="p">)</span>
+
+    <span class="n">os</span><span class="o">.</span><span class="n">system</span><span class="p">(</span><span class="s1">&#39;jupyter nbconvert --to script </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">notebook_name</span><span class="p">))</span></div>
+
+
+<div class="viewcode-block" id="get_notebook_name"><a class="viewcode-back" href="../../../source/analyst.utils.html#analyst.utils.jupyformatter.get_notebook_name">[docs]</a><span class="k">def</span> <span class="nf">get_notebook_name</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Return the name of the current jupyter notebook.</span>
+
+<span class="sd">    References:</span>
+<span class="sd">        https://github.com/jupyter/notebook/issues/1000#issuecomment-359875246</span>
+<span class="sd">        https://stackoverflow.com/a/13055551</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">kernel_id</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="s1">&#39;kernel-(.*).json&#39;</span><span class="p">,</span>
+                          <span class="n">ipykernel</span><span class="o">.</span><span class="n">connect</span><span class="o">.</span><span class="n">get_connection_file</span><span class="p">())</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">servers</span> <span class="o">=</span> <span class="n">list_running_servers</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">ss</span> <span class="ow">in</span> <span class="n">servers</span><span class="p">:</span>
+        <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">urljoin</span><span class="p">(</span><span class="n">ss</span><span class="p">[</span><span class="s1">&#39;url&#39;</span><span class="p">],</span> <span class="s1">&#39;api/sessions&#39;</span><span class="p">),</span>
+                                <span class="n">params</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;token&#39;</span><span class="p">:</span> <span class="n">ss</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">&#39;token&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)})</span>
+        <span class="k">for</span> <span class="n">nn</span> <span class="ow">in</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">text</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">nn</span><span class="p">[</span><span class="s1">&#39;kernel&#39;</span><span class="p">][</span><span class="s1">&#39;id&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="n">kernel_id</span><span class="p">:</span>
+                <span class="n">relative_path</span> <span class="o">=</span> <span class="n">nn</span><span class="p">[</span><span class="s1">&#39;notebook&#39;</span><span class="p">][</span><span class="s1">&#39;path&#39;</span><span class="p">]</span>
+                <span class="n">match</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;/?(\w+).ipynb&#39;</span><span class="p">,</span> <span class="n">relative_path</span><span class="p">)</span>
+                <span class="n">notebook_name</span> <span class="o">=</span> <span class="n">match</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+                <span class="k">return</span> <span class="n">notebook_name</span></div>
+
+
+<span class="c1"># `parse_args`</span>
+<span class="c1"># ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</span>
+
+
+<div class="viewcode-block" id="parse_args"><a class="viewcode-back" href="../../../source/analyst.utils.html#analyst.utils.jupyformatter.parse_args">[docs]</a><span class="k">def</span> <span class="nf">parse_args</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Parse command line arguments to get input and output directories.</span>
+
+<span class="sd">    Called by:</span>
+<span class="sd">        main</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">parser</span> <span class="o">=</span> <span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentParser</span><span class="p">(</span>
+        <span class="n">description</span><span class="o">=</span><span class="s2">&quot;Format Python script downloaded from Jupyter Notebook.&quot;</span><span class="p">)</span>
+
+    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&quot;in_dir&quot;</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="nb">str</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&quot;input script directory&quot;</span><span class="p">)</span>
+    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span>
+        <span class="s2">&quot;-o&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;--out_dir&quot;</span><span class="p">,</span>
+        <span class="nb">type</span><span class="o">=</span><span class="nb">str</span><span class="p">,</span>
+        <span class="n">help</span><span class="o">=</span><span class="s2">&quot;output directory&quot;</span><span class="p">,</span>
+        <span class="n">default</span><span class="o">=</span><span class="s2">&quot;formatted </span><span class="si">{}</span><span class="s2">.py&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">time</span><span class="o">.</span><span class="n">ctime</span><span class="p">())</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;:&quot;</span><span class="p">,</span> <span class="s2">&quot;-&quot;</span><span class="p">),</span>
+        <span class="c1"># `:` is not allowed in Windows filename</span>
+    <span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">parser</span><span class="o">.</span><span class="n">parse_args</span><span class="p">()</span></div>
+
+
+<span class="c1"># `read_input`</span>
+<span class="c1"># ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</span>
+
+
+<div class="viewcode-block" id="read_input"><a class="viewcode-back" href="../../../source/analyst.utils.html#analyst.utils.jupyformatter.read_input">[docs]</a><span class="k">def</span> <span class="nf">read_input</span><span class="p">(</span><span class="n">filename</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Given filename (directory), return a list of lines of the input text file.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+        <span class="n">input_ls</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">readlines</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">input_ls</span></div>
+
+
+<span class="c1"># `edit`</span>
+<span class="c1"># ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</span>
+
+
+<div class="viewcode-block" id="edit"><a class="viewcode-back" href="../../../source/analyst.utils.html#analyst.utils.jupyformatter.edit">[docs]</a><span class="k">def</span> <span class="nf">edit</span><span class="p">(</span><span class="n">input_ls</span><span class="p">,</span> <span class="n">do_deletion</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Loop over each line for editing.</span>
+
+<span class="sd">    Arg:</span>
+<span class="sd">        input_ls (list):</span>
+<span class="sd">            a list of lines readed from the input text file.</span>
+
+<span class="sd">    Return:</span>
+<span class="sd">        output_ls (list):</span>
+<span class="sd">            a list of lines going to write to the output.</span>
+
+<span class="sd">    Called by:</span>
+<span class="sd">        main</span>
+
+<span class="sd">    Calls:</span>
+<span class="sd">        convert_heading</span>
+<span class="sd">        clean_line</span>
+<span class="sd">        warn_line</span>
+<span class="sd">        append_valid_line</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># Adding a Python 3 shebang line before the encoding definition</span>
+    <span class="n">input_ls</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;#!/usr/bin/env python3</span><span class="se">\n</span><span class="s2">&quot;</span>
+
+    <span class="c1"># Convert personal heading to script docstring if horizontal rule shows up</span>
+    <span class="k">if</span> <span class="s1">&#39;# ---</span><span class="se">\n</span><span class="s1">&#39;</span> <span class="ow">in</span> <span class="n">input_ls</span><span class="p">[:</span><span class="mi">11</span><span class="p">]:</span>
+        <span class="n">converted_input_ls</span> <span class="o">=</span> <span class="n">convert_heading</span><span class="p">(</span><span class="n">input_ls</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">converted_input_ls</span> <span class="o">=</span> <span class="n">input_ls</span>
+    <span class="c1"># TODO June 1, 2018: what else for `converted_input_ls`</span>
+
+    <span class="n">output_ls</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">line</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">converted_input_ls</span><span class="p">):</span>
+        <span class="n">line_num</span> <span class="o">=</span> <span class="n">index</span> <span class="o">+</span> <span class="mi">1</span>
+        <span class="n">line_cleaned</span> <span class="o">=</span> <span class="n">clean_line</span><span class="p">(</span><span class="n">line</span><span class="p">)</span>
+        <span class="n">warn_line</span><span class="p">(</span><span class="n">line_cleaned</span><span class="p">,</span> <span class="n">line_num</span><span class="p">,</span> <span class="n">do_deletion</span><span class="p">)</span>
+
+        <span class="k">if</span> <span class="n">line_cleaned</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;#$ delete below&quot;</span><span class="p">):</span>
+            <span class="k">break</span>
+
+        <span class="n">append_valid_line</span><span class="p">(</span><span class="n">output_ls</span><span class="p">,</span> <span class="n">line_cleaned</span><span class="p">,</span> <span class="n">do_deletion</span><span class="p">)</span>
+
+    <span class="c1"># End the file with (just) one new line character, according to</span>
+    <span class="c1"># the POSIX standard, 3.206 Line. Given every raw line do end with a</span>
+    <span class="c1"># new line character, eliminate the last single `\n` if applicable</span>
+    <span class="c1"># to avoid extra new line at the end of the file.</span>
+    <span class="k">if</span> <span class="n">output_ls</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">:</span>
+        <span class="n">output_ls</span><span class="o">.</span><span class="n">pop</span><span class="p">()</span>
+
+    <span class="k">return</span> <span class="n">output_ls</span></div>
+
+
+<span class="c1"># `convert_heading`</span>
+<span class="c1"># --------------------------------------------------------------------</span>
+
+
+<div class="viewcode-block" id="convert_heading"><a class="viewcode-back" href="../../../source/analyst.utils.html#analyst.utils.jupyformatter.convert_heading">[docs]</a><span class="k">def</span> <span class="nf">convert_heading</span><span class="p">(</span><span class="n">input_ls</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Convert personal standard Notebook heading to script docstring.</span>
+
+<span class="sd">    Return:</span>
+<span class="sd">        converted_input_ls (list)</span>
+
+<span class="sd">    Called by:</span>
+<span class="sd">        edit</span>
+
+<span class="sd">    Calls:</span>
+<span class="sd">        wrap_markdown</span>
+
+<span class="sd">    After effect: the header part of the list of lines will have one line</span>
+<span class="sd">    fewer comparing to the original list.</span>
+
+<span class="sd">    For example, convert the head of the script from</span>
+<span class="sd">        1 |#!/usr/bin/env python3</span>
+<span class="sd">        2 |# coding: utf-8</span>
+<span class="sd">        3 |</span>
+<span class="sd">        4 |# ## Formatting Python script downloaded from Jupyter Notebook</span>
+<span class="sd">        5 |# Ver. 02 Proto</span>
+<span class="sd">        6 |#</span>
+<span class="sd">        7 |# ---</span>
+<span class="sd">        8 |# &lt;div style=&quot;text-align:right&quot;&gt;HS&lt;br&gt;November 21, 2017&lt;/div&gt;</span>
+<span class="sd">        9 |</span>
+<span class="sd">       10 |# In[29]:</span>
+<span class="sd">       11 |</span>
+<span class="sd">       12 |&quot;&quot;&quot;</span>
+<span class="sd">       13 |Docstring</span>
+<span class="sd">       14 |&quot;&quot;&quot;</span>
+<span class="sd">    to</span>
+<span class="sd">        1 |#!/usr/bin/env python3</span>
+<span class="sd">        2 |# coding: utf-8</span>
+<span class="sd">        3 |</span>
+<span class="sd">        4 |&quot;&quot;&quot;</span>
+<span class="sd">        5 |    Formatting Python script downloaded from Jupyter Notebook</span>
+<span class="sd">        6 |    Ver. 02 Proto</span>
+<span class="sd">        7 | -------------------------------------------------------------</span>
+<span class="sd">        8 |                                                          HS</span>
+<span class="sd">        9 |                                           November 21, 2017</span>
+<span class="sd">       10 |</span>
+<span class="sd">       11 |</span>
+<span class="sd">       12 |Docstring</span>
+<span class="sd">       13 |&quot;&quot;&quot;</span>
+
+<span class="sd">    Mar 23, 2018: note that scripts downloaded from the Linux platform have</span>
+<span class="sd">    one extra blank line after `# In[\d]:\n`.</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="n">input_ls</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="n">input_ls</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span> <span class="n">input_ls</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s1">&#39;&quot;&quot;&quot;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)))</span>
+    <span class="c1"># Move the first `&quot;&quot;&quot;` above the title</span>
+
+    <span class="n">i_horizon</span> <span class="o">=</span> <span class="n">input_ls</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s1">&#39;# ---</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+    <span class="n">title_ls</span> <span class="o">=</span> <span class="n">input_ls</span><span class="p">[</span><span class="mi">4</span><span class="p">:</span><span class="n">i_horizon</span><span class="p">]</span>
+    <span class="c1"># The title and version info section</span>
+    <span class="n">wrapped_title_ls</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">title_ls</span><span class="p">:</span>
+        <span class="n">wrapped_title_ls</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">wrap_markdown</span><span class="p">(</span><span class="n">line</span><span class="p">,</span> <span class="n">wrap_at</span><span class="o">=</span><span class="mi">77</span><span class="p">))</span>
+    <span class="n">formatted_title_ls</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot; &quot;</span><span class="o">*</span><span class="mi">4</span> <span class="o">+</span> <span class="n">line</span><span class="p">[</span><span class="mi">2</span><span class="p">:]</span> <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">wrapped_title_ls</span><span class="p">]</span>
+
+    <span class="n">horizon_ls</span> <span class="o">=</span> <span class="n">input_ls</span><span class="p">[</span><span class="n">i_horizon</span><span class="p">:]</span>
+    <span class="c1"># The section of the horizontal rule and below</span>
+
+    <span class="n">horizon_ls</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot; &quot;</span> <span class="o">+</span> <span class="s2">&quot;-&quot;</span><span class="o">*</span><span class="mi">77</span> <span class="o">+</span> <span class="s2">&quot; &quot;</span>    <span class="c1"># Horizontal line</span>
+
+    <span class="c1"># Author and date aligned to the right</span>
+    <span class="n">match_author_date</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;&gt;(.+)&lt;br&gt;(.+)&lt;&quot;</span><span class="p">,</span> <span class="n">horizon_ls</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+    <span class="n">author</span><span class="p">,</span> <span class="n">date</span> <span class="o">=</span> <span class="n">match_author_date</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span> <span class="n">match_author_date</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">field</span> <span class="ow">in</span> <span class="p">[(</span><span class="mi">1</span><span class="p">,</span> <span class="n">author</span><span class="p">),</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">date</span><span class="p">)]:</span>
+        <span class="n">horizon_ls</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="si">{:&gt;77}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">field</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="c1"># `{:&gt;77}` string format means align the string to the right of a</span>
+        <span class="c1"># line of length 77.</span>
+
+    <span class="n">converted_input_ls</span> <span class="o">=</span> <span class="n">input_ls</span><span class="p">[:</span><span class="mi">4</span><span class="p">]</span> <span class="o">+</span> <span class="n">formatted_title_ls</span> <span class="o">+</span> <span class="n">horizon_ls</span>
+    <span class="k">return</span> <span class="n">converted_input_ls</span></div>
+
+
+<span class="c1"># `wrap_markdown`</span>
+
+
+<div class="viewcode-block" id="wrap_markdown"><a class="viewcode-back" href="../../../source/analyst.utils.html#analyst.utils.jupyformatter.wrap_markdown">[docs]</a><span class="k">def</span> <span class="nf">wrap_markdown</span><span class="p">(</span><span class="n">line</span><span class="p">,</span> <span class="n">wrap_at</span><span class="o">=</span><span class="mi">79</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Wrap Markdown heading/comment (starts with `# `) at `wrap_at`.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        line (string)</span>
+<span class="sd">        wrap_at (int, default to 79)</span>
+
+<span class="sd">    Return:</span>
+<span class="sd">        line_wrapped_ls (list): a list of line string(s) if the original</span>
+<span class="sd">            line needs to be wrapped. Every line string in the list is a</span>
+<span class="sd">            line ends with a new line character `\n`.</span>
+
+<span class="sd">    Called by:</span>
+<span class="sd">        append_valid_line</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">line_wrapped_ls</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="n">delimiter_padding</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="c1"># Padding style of the delimiter for the corresponding level of heading</span>
+    <span class="k">if</span> <span class="n">line</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;# ## &quot;</span><span class="p">):</span>
+        <span class="c1"># Level 2 Markdown heading</span>
+        <span class="n">delimiter_padding</span> <span class="o">=</span> <span class="s2">&quot;=&quot;</span>
+        <span class="n">num_padding</span> <span class="o">=</span> <span class="mi">76</span>    <span class="c1"># The number of delimiter characters in one line</span>
+ <span class="c1">#      line_wrapped_ls.extend([&quot;\n&quot;])</span>
+        <span class="c1"># 2 blank lines before level 2 heading, `append_valid_line` should</span>
+        <span class="c1"># already leave 1 before.</span>
+    <span class="k">elif</span> <span class="n">line</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;# ### &quot;</span><span class="p">):</span>
+        <span class="c1"># Level 3 Markdown heading</span>
+        <span class="n">delimiter_padding</span> <span class="o">=</span> <span class="s2">&quot;~&quot;</span>
+        <span class="n">num_padding</span> <span class="o">=</span> <span class="mi">72</span>
+    <span class="k">elif</span> <span class="n">line</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;# #### &quot;</span><span class="p">):</span>
+        <span class="c1"># Level 4 Markdown heading</span>
+        <span class="n">delimiter_padding</span> <span class="o">=</span> <span class="s2">&quot;-&quot;</span>
+        <span class="n">num_padding</span> <span class="o">=</span> <span class="mi">68</span>
+
+    <span class="n">line_lstripped</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">lstrip</span><span class="p">(</span><span class="s2">&quot;# &quot;</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">line_lstripped</span><span class="p">)</span> <span class="o">&gt;</span> <span class="n">wrap_at</span><span class="o">-</span><span class="mi">2</span><span class="p">:</span>    <span class="c1"># -2 compensate for `# `</span>
+        <span class="c1"># Wrap the text, then add back comment marks and new line chars.</span>
+
+        <span class="n">textwrap_ls</span> <span class="o">=</span> <span class="n">textwrap</span><span class="o">.</span><span class="n">fill</span><span class="p">(</span>
+            <span class="n">line_lstripped</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="n">wrap_at</span><span class="o">-</span><span class="mi">3</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="c1"># `textwrap.fill()` returns a list of wrapped strings that do not</span>
+        <span class="c1"># end with new line character `\n`.</span>
+        <span class="c1">#</span>
+        <span class="c1"># `width=wrap_at-3` compensate 1 for the trailing `\n` and 2 for</span>
+        <span class="c1"># the leading `# ` that will be added to each wrapped line of</span>
+        <span class="c1"># comment/heading.</span>
+
+        <span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">line</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">textwrap_ls</span><span class="p">):</span>
+            <span class="n">textwrap_ls</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;# &quot;</span> <span class="o">+</span> <span class="n">line</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span>
+        <span class="n">line_wrapped_ls</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">textwrap_ls</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">line_wrapped_ls</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;# &quot;</span> <span class="o">+</span> <span class="n">line_lstripped</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">delimiter_padding</span><span class="p">:</span>
+        <span class="n">line_wrapped_ls</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;# &quot;</span> <span class="o">+</span> <span class="n">delimiter_padding</span><span class="o">*</span><span class="n">num_padding</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">line_wrapped_ls</span></div>
+
+
+<span class="c1"># `clean_line`</span>
+<span class="c1"># --------------------------------------------------------------------</span>
+
+
+<div class="viewcode-block" id="clean_line"><a class="viewcode-back" href="../../../source/analyst.utils.html#analyst.utils.jupyformatter.clean_line">[docs]</a><span class="k">def</span> <span class="nf">clean_line</span><span class="p">(</span><span class="n">line</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Clean line string with customed rules.</span>
+
+<span class="sd">    Arg:</span>
+<span class="sd">        line (string)</span>
+
+<span class="sd">    Return:</span>
+<span class="sd">        line (string)</span>
+
+<span class="sd">    Called by:</span>
+<span class="sd">        edit</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># Strip &quot;text\n  &quot; or &quot;text  \n&quot; or &quot;text  \n  &quot; to &quot;text\n&quot;</span>
+    <span class="c1"># Strip &quot;  \n&quot; or &quot;\n  &quot; or &quot;  \n  &quot; to &quot;\n&quot; to make sure excluding</span>
+    <span class="c1"># extra line breaks in `append_valid_line()`</span>
+    <span class="n">line</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">rstrip</span><span class="p">()</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span>
+
+    <span class="c1"># Delete Jupyter cell numbers `# In[\d]:\n` using `append_valid_line()`&#39;s</span>
+    <span class="c1"># consecutive blank line elimination mechanism</span>
+    <span class="k">if</span> <span class="n">line</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;# In[&quot;</span><span class="p">):</span>
+        <span class="n">line</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span>
+
+    <span class="k">return</span> <span class="n">line</span></div>
+
+
+<span class="c1"># `warn_line`</span>
+<span class="c1"># --------------------------------------------------------------------</span>
+
+
+<div class="viewcode-block" id="warn_line"><a class="viewcode-back" href="../../../source/analyst.utils.html#analyst.utils.jupyformatter.warn_line">[docs]</a><span class="k">def</span> <span class="nf">warn_line</span><span class="p">(</span><span class="n">line</span><span class="p">,</span> <span class="n">line_num</span><span class="p">,</span> <span class="n">do_deletion</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Log with customed rules.</span>
+
+<span class="sd">    Called by:</span>
+<span class="sd">        edit</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="n">do_deletion</span><span class="p">:</span>
+        <span class="k">if</span> <span class="s2">&quot;#@&quot;</span> <span class="ow">in</span> <span class="n">line</span><span class="p">:</span>
+            <span class="c1"># A &quot;#@&quot; mark is my personal reminder to &quot;check it later&quot;</span>
+            <span class="n">logging</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\&quot;</span><span class="s2">#@</span><span class="se">\&quot;</span><span class="s2"> mark founded in line </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">line_num</span><span class="p">))</span>
+
+        <span class="k">if</span> <span class="s2">&quot;#$&quot;</span> <span class="ow">in</span> <span class="n">line</span><span class="p">:</span>
+            <span class="c1"># A &quot;#$&quot; mark is my personal reminder to &quot;delete this later&quot;</span>
+            <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\&quot;</span><span class="s2">#$</span><span class="se">\&quot;</span><span class="s2"> mark founded in line </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">line_num</span><span class="p">))</span>
+
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">line</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;# &quot;</span><span class="p">)</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">line</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">79</span><span class="p">:</span>
+        <span class="c1"># Overlong comments and Markdowns will be wrapped by `wrap_markdown()`</span>
+        <span class="n">logging</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="s2">&quot;Line </span><span class="si">{}</span><span class="s2"> exceeds 79 characters&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">line_num</span><span class="p">))</span></div>
+
+
+<span class="c1"># `append_valid_line`</span>
+<span class="c1"># --------------------------------------------------------------------</span>
+
+
+<div class="viewcode-block" id="append_valid_line"><a class="viewcode-back" href="../../../source/analyst.utils.html#analyst.utils.jupyformatter.append_valid_line">[docs]</a><span class="k">def</span> <span class="nf">append_valid_line</span><span class="p">(</span><span class="n">output_ls</span><span class="p">,</span> <span class="n">line</span><span class="p">,</span> <span class="n">do_deletion</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Append line to the list of lines for output according to customed rules.</span>
+
+<span class="sd">    Called by:</span>
+<span class="sd">        edit</span>
+
+<span class="sd">    Calls:</span>
+<span class="sd">        wrap_markdown</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">is_valid</span> <span class="o">=</span> <span class="kc">False</span>
+    <span class="c1"># Judge if the line should be appended according to the rules below</span>
+
+    <span class="k">if</span> <span class="n">line</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;# &quot;</span><span class="p">):</span>
+        <span class="c1"># Wrapping Markdown heading and comment to 79 characters a line</span>
+        <span class="n">output_ls</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">wrap_markdown</span><span class="p">(</span><span class="n">line</span><span class="p">))</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="c1"># `#$` is my personal mark at the end of the line to exclude this</span>
+        <span class="c1"># line from output</span>
+        <span class="n">is_keep</span> <span class="o">=</span> <span class="p">(</span><span class="s2">&quot;#$&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">line</span><span class="p">)</span> <span class="k">if</span> <span class="n">do_deletion</span> <span class="k">else</span> <span class="kc">True</span>
+
+        <span class="c1"># Should not have more than 2 consecutive blank lines in general</span>
+        <span class="k">if</span> <span class="n">line</span> <span class="o">==</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span> <span class="ow">and</span> <span class="n">output_ls</span><span class="p">[</span><span class="o">-</span><span class="mi">2</span><span class="p">:]</span> <span class="o">!=</span> <span class="p">[</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">]:</span>
+            <span class="n">is_valid</span> <span class="o">=</span> <span class="kc">True</span>
+
+<span class="c1"># But top-level function definition should have 2 blank lines above</span>
+<span class="c1"># elif line.startswith(&quot;def &quot;) or line.startswith(&quot;if __&quot;):</span>
+<span class="c1"># is_valid = True</span>
+<span class="c1"># if output_ls[-1] == &quot;\n&quot;:</span>
+<span class="c1"># output_ls.append(&quot;\n&quot;)</span>
+<span class="c1"># else:</span>
+<span class="c1"># output_ls.extend([&quot;\n&quot;, &quot;\n&quot;])</span>
+
+        <span class="k">elif</span> <span class="n">is_keep</span> <span class="ow">and</span> <span class="p">(</span><span class="n">line</span> <span class="o">!=</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">line</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;get_ipython().magic(&quot;</span><span class="p">):</span>
+                <span class="c1"># Comment out line and cell magics and display an</span>
+                <span class="c1"># explanation</span>
+                <span class="n">output_ls</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;# &quot;</span> <span class="o">+</span> <span class="n">line</span><span class="p">)</span>
+                <span class="n">output_ls</span><span class="o">.</span><span class="n">extend</span><span class="p">([</span>
+<span class="s2">&quot;# This code was originally developed in Jupyter Notebook. The above line</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span>
+<span class="s2">&quot;# magic may not work as part of a plain Python script. Therefore, it was</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span>
+<span class="s2">&quot;# commented out automatically by `jupyformatter.py`.</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span>
+                <span class="p">])</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">is_valid</span> <span class="o">=</span> <span class="kc">True</span>
+
+    <span class="k">if</span> <span class="n">is_valid</span><span class="p">:</span>
+        <span class="n">output_ls</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">line</span><span class="p">)</span></div>
+
+
+<span class="c1"># `write_output`</span>
+<span class="c1"># ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</span>
+
+
+<div class="viewcode-block" id="write_output"><a class="viewcode-back" href="../../../source/analyst.utils.html#analyst.utils.jupyformatter.write_output">[docs]</a><span class="k">def</span> <span class="nf">write_output</span><span class="p">(</span><span class="n">out_fname</span><span class="p">,</span> <span class="n">output_ls</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Write the formatted lines to output file.</span>
+
+<span class="sd">    Called by:</span>
+<span class="sd">        main</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">out_fname</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+        <span class="n">f</span><span class="o">.</span><span class="n">writelines</span><span class="p">(</span><span class="n">output_ls</span><span class="p">)</span>
+
+    <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;Successfully formatted to `</span><span class="si">{}</span><span class="s1">`&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">out_fname</span><span class="p">))</span></div>
+
+</pre></div>
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Shen Han.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../../',
+            VERSION:'00 PROTOTYPE',
+            LANGUAGE:'None',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../../_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

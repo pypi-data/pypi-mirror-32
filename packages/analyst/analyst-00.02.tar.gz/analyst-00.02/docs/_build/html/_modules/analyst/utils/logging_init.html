@@ -1,0 +1,337 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>analyst.utils.logging_init &mdash; analyst 00 PROTOTYPE documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+    <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/theme_overrides.css" type="text/css" />
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" /> 
+
+  
+  <script src="../../../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> analyst
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                00
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../readme.html">analyst</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">analyst</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../../index.html">Module code</a> &raquo;</li>
+        
+      <li>analyst.utils.logging_init</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <h1>Source code for analyst.utils.logging_init</h1><div class="highlight"><pre>
+<span></span><span class="ch">#!/usr/bin/env python3</span>
+<span class="c1"># coding: utf-8</span>
+
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Initialize `logging` Module</span>
+<span class="sd">    ver. 02 prod</span>
+
+<span class="sd"> -----------------------------------------------------------------------------</span>
+<span class="sd">                                                             hs@uchicago.edu</span>
+<span class="sd">                                                              April 26, 2018</span>
+
+<span class="sd">Setup `logging` module&#39;s configuration for Jupyter notebook or iPython</span>
+<span class="sd">environment.</span>
+
+<span class="sd">Example usage:</span>
+<span class="sd">    import logging</span>
+<span class="sd">    from utils import logging_init</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="kn">import</span> <span class="nn">logging</span>
+<span class="kn">from</span> <span class="nn">importlib</span> <span class="k">import</span> <span class="n">reload</span>
+
+
+<span class="n">FORMAT</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="si">%(asctime)s</span><span class="s1"> [</span><span class="si">%(levelname)s</span><span class="s1">] </span><span class="si">%(message)s</span><span class="s1">&#39;</span>
+<span class="c1"># E.g. </span>
+<span class="c1">#   12:56 [INFO] Information</span>
+
+<span class="n">DATEFMT</span> <span class="o">=</span> <span class="s1">&#39;%H:%M&#39;</span>
+<span class="c1"># &#39;%d %b %H:%M:%S</span>
+
+
+<div class="viewcode-block" id="main"><a class="viewcode-back" href="../../../source/analyst.utils.html#analyst.utils.logging_init.main">[docs]</a><span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="n">init_logging</span><span class="p">()</span></div>
+
+
+<div class="viewcode-block" id="init_logging"><a class="viewcode-back" href="../../../source/analyst.utils.html#analyst.utils.logging_init.init_logging">[docs]</a><span class="k">def</span> <span class="nf">init_logging</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Format logging messages to a nicer layout.</span>
+
+<span class="sd">    Initialize the logging level to INFO, log format to `FORMAT`, and date </span>
+<span class="sd">    format to `DATEFMT`.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="n">in_ipynb</span><span class="p">():</span>
+        <span class="c1"># In Jupyter Notebook, `logging` module&#39;s `basicConfig()` method</span>
+        <span class="c1"># only works after reloading.</span>
+        <span class="n">reload</span><span class="p">(</span><span class="n">logging</span><span class="p">)</span>
+
+    <span class="n">logging</span><span class="o">.</span><span class="n">basicConfig</span><span class="p">(</span><span class="nb">format</span><span class="o">=</span><span class="n">FORMAT</span><span class="p">,</span> <span class="n">datefmt</span><span class="o">=</span><span class="n">DATEFMT</span><span class="p">,</span> <span class="n">level</span><span class="o">=</span><span class="n">logging</span><span class="o">.</span><span class="n">INFO</span><span class="p">)</span>
+    <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="s1">&#39;Initialized `logging` module at `INFO` level&#39;</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="in_ipynb"><a class="viewcode-back" href="../../../source/analyst.utils.html#analyst.utils.logging_init.in_ipynb">[docs]</a><span class="k">def</span> <span class="nf">in_ipynb</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Return True if this code is running in a Jupyter Notebook</span>
+<span class="sd">    environment.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="k">return</span> <span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">get_ipython</span><span class="p">()))</span>
+                <span class="o">==</span> <span class="s2">&quot;&lt;class &#39;ipykernel.zmqshell.ZMQInteractiveShell&#39;&gt;&quot;</span><span class="p">)</span>
+    <span class="k">except</span> <span class="ne">NameError</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">False</span></div>
+
+
+<div class="viewcode-block" id="config_logging"><a class="viewcode-back" href="../../../source/analyst.utils.html#analyst.utils.logging_init.config_logging">[docs]</a><span class="k">def</span> <span class="nf">config_logging</span><span class="p">(</span><span class="n">level</span><span class="o">=</span><span class="s1">&#39;info&#39;</span><span class="p">,</span> <span class="n">format_</span><span class="o">=</span><span class="n">FORMAT</span><span class="p">,</span> <span class="n">datefmt</span><span class="o">=</span><span class="n">DATEFMT</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Args:</span>
+<span class="sd">        level (str, in {&#39;debug&#39;, &#39;info&#39;, &#39;warning&#39;, &#39;error&#39;, &#39;critical&#39;}):</span>
+<span class="sd">    &quot;&quot;&quot;</span>   
+    <span class="n">logging_level_dict</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s1">&#39;debug&#39;</span><span class="p">:</span> <span class="n">logging</span><span class="o">.</span><span class="n">DEBUG</span><span class="p">,</span>
+        <span class="s1">&#39;info&#39;</span><span class="p">:</span> <span class="n">logging</span><span class="o">.</span><span class="n">INFO</span><span class="p">,</span>
+        <span class="s1">&#39;warning&#39;</span><span class="p">:</span> <span class="n">logging</span><span class="o">.</span><span class="n">WARNING</span><span class="p">,</span>
+        <span class="s1">&#39;error&#39;</span><span class="p">:</span> <span class="n">logging</span><span class="o">.</span><span class="n">ERROR</span><span class="p">,</span>
+        <span class="s1">&#39;critical&#39;</span><span class="p">:</span> <span class="n">logging</span><span class="o">.</span><span class="n">CRITICAL</span><span class="p">,</span>
+    <span class="p">}</span>
+    <span class="k">assert</span> <span class="n">level</span> <span class="ow">in</span> <span class="n">logging_level_dict</span><span class="p">,</span> <span class="s1">&#39;Invalid logging level&#39;</span>
+
+    <span class="n">level_</span> <span class="o">=</span> <span class="n">logging_level_dict</span><span class="p">[</span><span class="n">level</span><span class="p">]</span>
+
+    <span class="n">reload</span><span class="p">(</span><span class="n">logging</span><span class="p">)</span>
+    <span class="n">logging</span><span class="o">.</span><span class="n">basicConfig</span><span class="p">(</span><span class="nb">format</span><span class="o">=</span><span class="n">format_</span><span class="p">,</span> <span class="n">datefmt</span><span class="o">=</span><span class="n">datefmt</span><span class="p">,</span> <span class="n">level</span><span class="o">=</span><span class="n">level_</span><span class="p">)</span>
+
+    <span class="c1"># Log a preview message</span>
+    <span class="n">logging</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">level_</span><span class="p">,</span> <span class="s1">&#39;Logging level setted to </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">level</span><span class="o">.</span><span class="n">upper</span><span class="p">()))</span></div>
+
+
+<div class="viewcode-block" id="info"><a class="viewcode-back" href="../../../source/analyst.utils.html#analyst.utils.logging_init.info">[docs]</a><span class="k">def</span> <span class="nf">info</span><span class="p">(</span><span class="o">*</span><span class="n">msg_ls</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">&#39; &#39;</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">msg</span> <span class="o">=</span> <span class="n">printify_logging_msg</span><span class="p">(</span><span class="n">msg_ls</span><span class="p">,</span> <span class="n">sep</span><span class="p">)</span>
+    <span class="n">logging</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="printify_logging_msg"><a class="viewcode-back" href="../../../source/analyst.utils.html#analyst.utils.logging_init.printify_logging_msg">[docs]</a><span class="k">def</span> <span class="nf">printify_logging_msg</span><span class="p">(</span><span class="n">msg_ls</span><span class="p">,</span> <span class="n">sep</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">msg_ls</span> <span class="o">=</span> <span class="p">[</span><span class="nb">str</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span> <span class="k">if</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">msg</span><span class="p">,</span> <span class="nb">str</span><span class="p">)</span> <span class="k">else</span> <span class="n">msg</span> <span class="k">for</span> <span class="n">msg</span> <span class="ow">in</span> <span class="n">msg_ls</span><span class="p">]</span>
+    <span class="k">return</span> <span class="n">sep</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">msg_ls</span><span class="p">)</span></div>
+
+
+<div class="viewcode-block" id="debug"><a class="viewcode-back" href="../../../source/analyst.utils.html#analyst.utils.logging_init.debug">[docs]</a><span class="k">def</span> <span class="nf">debug</span><span class="p">(</span><span class="o">*</span><span class="n">msg_ls</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">&#39; &#39;</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">logging</span><span class="o">.</span><span class="n">debug</span><span class="p">(</span><span class="n">printify_logging_msg</span><span class="p">(</span><span class="n">msg_ls</span><span class="p">,</span> <span class="n">sep</span><span class="p">))</span></div>
+
+
+<div class="viewcode-block" id="warning"><a class="viewcode-back" href="../../../source/analyst.utils.html#analyst.utils.logging_init.warning">[docs]</a><span class="k">def</span> <span class="nf">warning</span><span class="p">(</span><span class="o">*</span><span class="n">msg_ls</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">&#39; &#39;</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">logging</span><span class="o">.</span><span class="n">warning</span><span class="p">(</span><span class="n">printify_logging_msg</span><span class="p">(</span><span class="n">msg_ls</span><span class="p">,</span> <span class="n">sep</span><span class="p">))</span></div>
+
+
+<div class="viewcode-block" id="error"><a class="viewcode-back" href="../../../source/analyst.utils.html#analyst.utils.logging_init.error">[docs]</a><span class="k">def</span> <span class="nf">error</span><span class="p">(</span><span class="o">*</span><span class="n">msg_ls</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">&#39; &#39;</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">logging</span><span class="o">.</span><span class="n">error</span><span class="p">(</span><span class="n">printify_logging_msg</span><span class="p">(</span><span class="n">msg_ls</span><span class="p">,</span> <span class="n">sep</span><span class="p">))</span></div>
+
+
+<div class="viewcode-block" id="critical"><a class="viewcode-back" href="../../../source/analyst.utils.html#analyst.utils.logging_init.critical">[docs]</a><span class="k">def</span> <span class="nf">critical</span><span class="p">(</span><span class="o">*</span><span class="n">msg_ls</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">&#39; &#39;</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">logging</span><span class="o">.</span><span class="n">critical</span><span class="p">(</span><span class="n">printify_logging_msg</span><span class="p">(</span><span class="n">msg_ls</span><span class="p">,</span> <span class="n">sep</span><span class="p">))</span></div>
+
+
+<span class="n">main</span><span class="p">()</span>
+</pre></div>
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Shen Han.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../../',
+            VERSION:'00 PROTOTYPE',
+            LANGUAGE:'None',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../../_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

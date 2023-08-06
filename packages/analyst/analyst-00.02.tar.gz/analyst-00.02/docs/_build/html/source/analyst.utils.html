@@ -1,0 +1,537 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>analyst.utils package &mdash; analyst 00 PROTOTYPE documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> analyst
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                00
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../readme.html">analyst</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">analyst</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>analyst.utils package</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/source/analyst.utils.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="analyst-utils-package">
+<h1>analyst.utils package<a class="headerlink" href="#analyst-utils-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="analyst-utils-jupyformatter-module">
+<h2>analyst.utils.jupyformatter module<a class="headerlink" href="#analyst-utils-jupyformatter-module" title="Permalink to this headline">¶</a></h2>
+<p>Format Python script downloaded from Jupyter Notebook to a clearer layout
+according to the rules in <cite>append_valid_line</cite>.</p>
+<p>Example usage:</p>
+<blockquote>
+<div><blockquote>
+<div>import analyst as a; a.jupyformatter()    #$</div></blockquote>
+<p>Or use it as a standalone file located under the same directory:</p>
+<blockquote>
+<div>from jupyformatter import jupyformatter; jupyformatter(do_setup=True)   #$</div></blockquote>
+<p>Set <cite>do_deletion</cite> to False if is used to format this script itself.
+<cite>do_deletion</cite> will not affect <cite>#$ delete below</cite>.</p>
+</div></blockquote>
+<div class="admonition-todo admonition" id="index-0">
+<p class="first admonition-title">Todo</p>
+<ul class="last simple">
+<li>More logging information, integrated with <cite>-v</cite> verbose option in
+<cite>argparse</cite>.</li>
+<li>Implement <cite>#$ delete from, #$ delete to</cite> commands using <cite>continue</cite>
+in <cite>edit</cite>.</li>
+<li>Automatically insert current date</li>
+</ul>
+</div>
+<dl class="function">
+<dt id="analyst.utils.jupyformatter.append_valid_line">
+<code class="descclassname">analyst.utils.jupyformatter.</code><code class="descname">append_valid_line</code><span class="sig-paren">(</span><em>output_ls</em>, <em>line</em>, <em>do_deletion</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/analyst/utils/jupyformatter.html#append_valid_line"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#analyst.utils.jupyformatter.append_valid_line" title="Permalink to this definition">¶</a></dt>
+<dd><p>Append line to the list of lines for output according to customed rules.</p>
+<dl class="docutils">
+<dt>Called by:</dt>
+<dd>edit</dd>
+<dt>Calls:</dt>
+<dd>wrap_markdown</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="analyst.utils.jupyformatter.clean_line">
+<code class="descclassname">analyst.utils.jupyformatter.</code><code class="descname">clean_line</code><span class="sig-paren">(</span><em>line</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/analyst/utils/jupyformatter.html#clean_line"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#analyst.utils.jupyformatter.clean_line" title="Permalink to this definition">¶</a></dt>
+<dd><p>Clean line string with customed rules.</p>
+<dl class="docutils">
+<dt>Arg:</dt>
+<dd>line (string)</dd>
+</dl>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">line (string)</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt>Called by:</dt>
+<dd>edit</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="analyst.utils.jupyformatter.convert_heading">
+<code class="descclassname">analyst.utils.jupyformatter.</code><code class="descname">convert_heading</code><span class="sig-paren">(</span><em>input_ls</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/analyst/utils/jupyformatter.html#convert_heading"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#analyst.utils.jupyformatter.convert_heading" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div><p>Convert personal standard Notebook heading to script docstring.</p>
+<dl class="docutils">
+<dt>Return:</dt>
+<dd>converted_input_ls (list)</dd>
+<dt>Called by:</dt>
+<dd>edit</dd>
+<dt>Calls:</dt>
+<dd>wrap_markdown</dd>
+</dl>
+<p>After effect: the header part of the list of lines will have one line
+fewer comparing to the original list.</p>
+<dl class="docutils">
+<dt>For example, convert the head of the script from</dt>
+<dd><blockquote class="first">
+<div>1 <a href="#id1"><span class="problematic" id="id2">|</span></a>#!/usr/bin/env python3
+2 <a href="#id3"><span class="problematic" id="id4">|</span></a># coding: utf-8
+3 |
+4 <a href="#id5"><span class="problematic" id="id6">|</span></a># ## Formatting Python script downloaded from Jupyter Notebook
+5 <a href="#id7"><span class="problematic" id="id8">|</span></a># Ver. 02 Proto
+6 <a href="#id9"><span class="problematic" id="id10">|</span></a>#
+7 <a href="#id11"><span class="problematic" id="id12">|</span></a># —
+8 <a href="#id13"><span class="problematic" id="id14">|</span></a># &lt;div style=”text-align:right”&gt;HS&lt;br&gt;November 21, 2017&lt;/div&gt;
+9 |</div></blockquote>
+<p class="last">10 <a href="#id15"><span class="problematic" id="id16">|</span></a># In[29]:
+11 |
+12 <a href="#id17"><span class="problematic" id="id18">|</span></a>”“”
+13 <a href="#id19"><span class="problematic" id="id20">|</span></a>Docstring
+14 <a href="#id21"><span class="problematic" id="id22">|</span></a>”“”</p>
+</dd>
+<dt>to</dt>
+<dd><blockquote class="first">
+<div>1 <a href="#id23"><span class="problematic" id="id24">|</span></a>#!/usr/bin/env python3
+2 <a href="#id25"><span class="problematic" id="id26">|</span></a># coding: utf-8
+3 |
+4 <a href="#id27"><span class="problematic" id="id28">|</span></a>”“”
+5 |    Formatting Python script downloaded from Jupyter Notebook
+6 |    Ver. 02 Proto
+7 | ————————————————————-
+8 |                                                          HS
+9 |                                           November 21, 2017</div></blockquote>
+<p class="last">10 |
+11 |
+12 <a href="#id29"><span class="problematic" id="id30">|</span></a>Docstring
+13 <a href="#id31"><span class="problematic" id="id32">|</span></a>”“”</p>
+</dd>
+</dl>
+<p>Mar 23, 2018: note that scripts downloaded from the Linux platform have
+one extra blank line after <a href="#id33"><span class="problematic" id="id34">`</span></a># In[d]:</p>
+</div></blockquote>
+<p><a href="#id35"><span class="problematic" id="id36">`</span></a>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="analyst.utils.jupyformatter.convert_nb_to_py">
+<code class="descclassname">analyst.utils.jupyformatter.</code><code class="descname">convert_nb_to_py</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/analyst/utils/jupyformatter.html#convert_nb_to_py"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#analyst.utils.jupyformatter.convert_nb_to_py" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="analyst.utils.jupyformatter.edit">
+<code class="descclassname">analyst.utils.jupyformatter.</code><code class="descname">edit</code><span class="sig-paren">(</span><em>input_ls</em>, <em>do_deletion</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/analyst/utils/jupyformatter.html#edit"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#analyst.utils.jupyformatter.edit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Loop over each line for editing.</p>
+<dl class="docutils">
+<dt>Arg:</dt>
+<dd><dl class="first last docutils">
+<dt>input_ls (list):</dt>
+<dd>a list of lines readed from the input text file.</dd>
+</dl>
+</dd>
+</dl>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">a list of lines going to write to the output.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">output_ls (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.6)">list</a>)</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt>Called by:</dt>
+<dd>main</dd>
+<dt>Calls:</dt>
+<dd>convert_heading
+clean_line
+warn_line
+append_valid_line</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="analyst.utils.jupyformatter.get_notebook_name">
+<code class="descclassname">analyst.utils.jupyformatter.</code><code class="descname">get_notebook_name</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/analyst/utils/jupyformatter.html#get_notebook_name"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#analyst.utils.jupyformatter.get_notebook_name" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the name of the current jupyter notebook.</p>
+<p class="rubric">References</p>
+<p><a class="reference external" href="https://github.com/jupyter/notebook/issues/1000#issuecomment-359875246">https://github.com/jupyter/notebook/issues/1000#issuecomment-359875246</a>
+<a class="reference external" href="https://stackoverflow.com/a/13055551">https://stackoverflow.com/a/13055551</a></p>
+</dd></dl>
+
+<dl class="function">
+<dt id="analyst.utils.jupyformatter.in_ipynb">
+<code class="descclassname">analyst.utils.jupyformatter.</code><code class="descname">in_ipynb</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/analyst/utils/jupyformatter.html#in_ipynb"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#analyst.utils.jupyformatter.in_ipynb" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return True if this code is running in a Jupyter Notebook environment.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="analyst.utils.jupyformatter.jupyformatter">
+<code class="descclassname">analyst.utils.jupyformatter.</code><code class="descname">jupyformatter</code><span class="sig-paren">(</span><em>do_setup=False</em>, <em>do_deletion=True</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/analyst/utils/jupyformatter.html#jupyformatter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#analyst.utils.jupyformatter.jupyformatter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Main function</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="analyst.utils.jupyformatter.parse_args">
+<code class="descclassname">analyst.utils.jupyformatter.</code><code class="descname">parse_args</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/analyst/utils/jupyformatter.html#parse_args"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#analyst.utils.jupyformatter.parse_args" title="Permalink to this definition">¶</a></dt>
+<dd><p>Parse command line arguments to get input and output directories.</p>
+<dl class="docutils">
+<dt>Called by:</dt>
+<dd>main</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="analyst.utils.jupyformatter.read_input">
+<code class="descclassname">analyst.utils.jupyformatter.</code><code class="descname">read_input</code><span class="sig-paren">(</span><em>filename</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/analyst/utils/jupyformatter.html#read_input"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#analyst.utils.jupyformatter.read_input" title="Permalink to this definition">¶</a></dt>
+<dd><p>Given filename (directory), return a list of lines of the input text file.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="analyst.utils.jupyformatter.setup">
+<code class="descclassname">analyst.utils.jupyformatter.</code><code class="descname">setup</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/analyst/utils/jupyformatter.html#setup"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#analyst.utils.jupyformatter.setup" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="analyst.utils.jupyformatter.warn_line">
+<code class="descclassname">analyst.utils.jupyformatter.</code><code class="descname">warn_line</code><span class="sig-paren">(</span><em>line</em>, <em>line_num</em>, <em>do_deletion</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/analyst/utils/jupyformatter.html#warn_line"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#analyst.utils.jupyformatter.warn_line" title="Permalink to this definition">¶</a></dt>
+<dd><p>Log with customed rules.</p>
+<dl class="docutils">
+<dt>Called by:</dt>
+<dd>edit</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="analyst.utils.jupyformatter.wrap_markdown">
+<code class="descclassname">analyst.utils.jupyformatter.</code><code class="descname">wrap_markdown</code><span class="sig-paren">(</span><em>line</em>, <em>wrap_at=79</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/analyst/utils/jupyformatter.html#wrap_markdown"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#analyst.utils.jupyformatter.wrap_markdown" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div><p>Wrap Markdown heading/comment (starts with <cite># `) at `wrap_at</cite>.</p>
+<dl class="docutils">
+<dt>Args:</dt>
+<dd>line (string)
+wrap_at (int, default to 79)</dd>
+<dt>Return:</dt>
+<dd><dl class="first last docutils">
+<dt>line_wrapped_ls (list): a list of line string(s) if the original</dt>
+<dd>line needs to be wrapped. Every line string in the list is a
+line ends with a new line character `</dd>
+</dl>
+</dd>
+</dl>
+</div></blockquote>
+<p><a href="#id37"><span class="problematic" id="id38">`</span></a>.</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>Called by:</dt>
+<dd>append_valid_line</dd>
+</dl>
+</div></blockquote>
+</dd></dl>
+
+<dl class="function">
+<dt id="analyst.utils.jupyformatter.write_output">
+<code class="descclassname">analyst.utils.jupyformatter.</code><code class="descname">write_output</code><span class="sig-paren">(</span><em>out_fname</em>, <em>output_ls</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/analyst/utils/jupyformatter.html#write_output"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#analyst.utils.jupyformatter.write_output" title="Permalink to this definition">¶</a></dt>
+<dd><p>Write the formatted lines to output file.</p>
+<dl class="docutils">
+<dt>Called by:</dt>
+<dd>main</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="analyst-utils-logging-init-module">
+<h2>analyst.utils.logging_init module<a class="headerlink" href="#analyst-utils-logging-init-module" title="Permalink to this headline">¶</a></h2>
+<p>Setup <cite>logging</cite> module’s configuration for Jupyter notebook or iPython
+environment.</p>
+<dl class="docutils">
+<dt>Example usage:</dt>
+<dd>import logging
+from utils import logging_init</dd>
+</dl>
+<dl class="function">
+<dt id="analyst.utils.logging_init.config_logging">
+<code class="descclassname">analyst.utils.logging_init.</code><code class="descname">config_logging</code><span class="sig-paren">(</span><em>level='info'</em>, <em>format_='%(asctime)s [%(levelname)s] %(message)s'</em>, <em>datefmt='%H:%M'</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/analyst/utils/logging_init.html#config_logging"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#analyst.utils.logging_init.config_logging" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>level</strong> (<em>str, in {‘debug’, ‘info’, ‘warning’, ‘error’, ‘critical’}</em>)</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="analyst.utils.logging_init.critical">
+<code class="descclassname">analyst.utils.logging_init.</code><code class="descname">critical</code><span class="sig-paren">(</span><em>*msg_ls</em>, <em>sep=' '</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/analyst/utils/logging_init.html#critical"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#analyst.utils.logging_init.critical" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="analyst.utils.logging_init.debug">
+<code class="descclassname">analyst.utils.logging_init.</code><code class="descname">debug</code><span class="sig-paren">(</span><em>*msg_ls</em>, <em>sep=' '</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/analyst/utils/logging_init.html#debug"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#analyst.utils.logging_init.debug" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="analyst.utils.logging_init.error">
+<code class="descclassname">analyst.utils.logging_init.</code><code class="descname">error</code><span class="sig-paren">(</span><em>*msg_ls</em>, <em>sep=' '</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/analyst/utils/logging_init.html#error"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#analyst.utils.logging_init.error" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="analyst.utils.logging_init.in_ipynb">
+<code class="descclassname">analyst.utils.logging_init.</code><code class="descname">in_ipynb</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/analyst/utils/logging_init.html#in_ipynb"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#analyst.utils.logging_init.in_ipynb" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return True if this code is running in a Jupyter Notebook
+environment.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="analyst.utils.logging_init.info">
+<code class="descclassname">analyst.utils.logging_init.</code><code class="descname">info</code><span class="sig-paren">(</span><em>*msg_ls</em>, <em>sep=' '</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/analyst/utils/logging_init.html#info"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#analyst.utils.logging_init.info" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="analyst.utils.logging_init.init_logging">
+<code class="descclassname">analyst.utils.logging_init.</code><code class="descname">init_logging</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/analyst/utils/logging_init.html#init_logging"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#analyst.utils.logging_init.init_logging" title="Permalink to this definition">¶</a></dt>
+<dd><p>Format logging messages to a nicer layout.</p>
+<p>Initialize the logging level to INFO, log format to <cite>FORMAT</cite>, and date
+format to <cite>DATEFMT</cite>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="analyst.utils.logging_init.main">
+<code class="descclassname">analyst.utils.logging_init.</code><code class="descname">main</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/analyst/utils/logging_init.html#main"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#analyst.utils.logging_init.main" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="analyst.utils.logging_init.printify_logging_msg">
+<code class="descclassname">analyst.utils.logging_init.</code><code class="descname">printify_logging_msg</code><span class="sig-paren">(</span><em>msg_ls</em>, <em>sep</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/analyst/utils/logging_init.html#printify_logging_msg"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#analyst.utils.logging_init.printify_logging_msg" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="analyst.utils.logging_init.warning">
+<code class="descclassname">analyst.utils.logging_init.</code><code class="descname">warning</code><span class="sig-paren">(</span><em>*msg_ls</em>, <em>sep=' '</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/analyst/utils/logging_init.html#warning"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#analyst.utils.logging_init.warning" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-analyst.utils">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-analyst.utils" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Shen Han.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'00 PROTOTYPE',
+            LANGUAGE:'None',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
