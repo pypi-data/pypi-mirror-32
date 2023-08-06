@@ -1,0 +1,8 @@
+README.md
+setup.py
+flask_frappeclient/__init__.py
+flask_frappeclient.egg-info/PKG-INFO
+flask_frappeclient.egg-info/SOURCES.txt
+flask_frappeclient.egg-info/dependency_links.txt
+flask_frappeclient.egg-info/requires.txt
+flask_frappeclient.egg-info/top_level.txt
