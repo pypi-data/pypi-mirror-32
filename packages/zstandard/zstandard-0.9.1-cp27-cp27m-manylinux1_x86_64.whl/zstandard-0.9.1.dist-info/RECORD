@@ -1,0 +1,7 @@
+zstd.so,sha256=W6FxmWtnBm9J0VdAeXIqamUK86zbG1ZTX_iS3H0uHH8,4692128
+_zstd_cffi.so,sha256=C17LN_6guRCxFdZo6MlVCIInuH93SObK0LJe22L_xbk,4133056
+zstandard/__init__.py,sha256=4DRHUkZLLm3oRVo722G2zX0Y2qcFLqnSU8PNoQgdDl0,2386
+zstandard-0.9.1.dist-info/WHEEL,sha256=CKrsQRZNKddeqWkqlP4DoIBo-Lb-ExiV2oTN8bWPh84,109
+zstandard-0.9.1.dist-info/top_level.txt,sha256=lnNgWkJr7yZ_Y2icf7CeCpjILnorYdtVRTichbXIwvY,26
+zstandard-0.9.1.dist-info/METADATA,sha256=BlGHFU4bC0OeoFgLzllLD0nTgPFHxbrG0LRIgPA2y_g,56050
+zstandard-0.9.1.dist-info/RECORD,,
