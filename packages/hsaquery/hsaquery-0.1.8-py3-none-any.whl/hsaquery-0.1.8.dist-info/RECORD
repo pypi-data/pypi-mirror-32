@@ -1,0 +1,13 @@
+hsaquery/__init__.py,sha256=7vmOmoLh7tkXf82gTFSpDySwkS46R1jN6YVLalm4j3U,54
+hsaquery/demo.py,sha256=0476GDmTJPCumWmFebQgMf7i0geeLzUoOOAx-KPismI,6303
+hsaquery/esa_query.py,sha256=xv2gEbJAMEz0G7ekeVgXWY3qx1LWv2Pm2CFyiNZjMJ4,11517
+hsaquery/fetch.py,sha256=2LqbRYhRSgHhXQv8xkxwCZcgf1WXWhJ7yBoUeWs6IyQ,5556
+hsaquery/fetch_mast.py,sha256=O8ZaEhOxKuqnTQrjbRPzer7wSINmCcj99JrUm9tvwZY,5017
+hsaquery/overlaps.py,sha256=kxMkTpa6wUwmr5DYbALkH6tckdURbr4VF-NKcAmEB2E,14359
+hsaquery/query.py,sha256=aPvLNl4TY72fmHXl5gh3btLY2UMjBSuGFyKguSl22HM,12813
+hsaquery/utils.py,sha256=99bOtRsWgy89Ou-cpbKG3TDwqlUZ7i16kgBB5E7yNKs,2852
+hsaquery/version.py,sha256=p6Rv5gUuhELBihRrhJNFANtSUlnhiE3znszdk28JQZo,44
+hsaquery-0.1.8.dist-info/METADATA,sha256=R8cXV1JMVffovd8fWVA9l08ctZtcTWx296SZ22mfexw,492
+hsaquery-0.1.8.dist-info/RECORD,,
+hsaquery-0.1.8.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+hsaquery-0.1.8.dist-info/top_level.txt,sha256=pwBWbVzzkHKy9zuf4Ry8TE6xumRoRWcQE1rDOtCroIU,9
