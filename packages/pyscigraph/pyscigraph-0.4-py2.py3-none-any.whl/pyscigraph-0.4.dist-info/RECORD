@@ -1,0 +1,13 @@
+.DS_Store,sha256=1lFlJ5EFymdzGAUAaI30vcaaLHt3F1LwpG7xILf9jsM,6148
+pyscigraph/VERSION.py,sha256=sJ4Hv6vm6Cbr1mzJV8jbxix9PEThTvfv6UvfGV4hLWE,391
+pyscigraph/__init__.py,sha256=17RDG03luy_JRHcwV4vl-AWUVNeDtT69MGljOOvTxs8,93
+pyscigraph/lib.py,sha256=4kdxO7XNxjPg-mf3AmEYFVmnYWU7kLIcttaZeIPfV7g,4628
+pyscigraph/main.py,sha256=qNy0scoPcPjENCWwbqfmch79xP4JdqX4AaY6c7itpwI,2366
+pyscigraph/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyscigraph/tests/quicktest.py,sha256=w5IYCVHah3wqr0m73clR2Ta9kbHWwjrbUnip759DfUU,390
+pyscigraph/tests/test_one.py,sha256=wuzq0-xHWI_p2R0WXzkuP9zKBkOGQrAMjf_SIsgyXrs,1149
+pyscigraph-0.4.dist-info/METADATA,sha256=LtE5eOR50eiern7-VBlVieGKAKQ1EKITUqZ2uRM3-C8,1086
+pyscigraph-0.4.dist-info/RECORD,,
+pyscigraph-0.4.dist-info/WHEEL,sha256=J3CsTk7Mf2JNUyhImI-mjX-fmI4oDjyiXgWT4qgZiCE,110
+pyscigraph-0.4.dist-info/entry_points.txt,sha256=YA_glZJXqbtef0iDhbyXhHvKHgMcvHOIj7taL_ww4qA,77
+pyscigraph-0.4.dist-info/top_level.txt,sha256=bCzAqmpoiQVV-n-UQITRdXOypLQQpt9P71ovCVyCZjE,11
