@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+uclcoin/__init__.py
+uclcoin/block.py
+uclcoin/blockchain.py
+uclcoin/exceptions.py
+uclcoin/keypair.py
+uclcoin/transaction.py
+uclcoin.egg-info/PKG-INFO
+uclcoin.egg-info/SOURCES.txt
+uclcoin.egg-info/dependency_links.txt
+uclcoin.egg-info/requires.txt
+uclcoin.egg-info/top_level.txt
