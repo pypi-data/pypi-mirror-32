@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: dict-navigation
+Version: 1.0
+Summary: Small library for navigation in the string mappings (like parsed json)
+Home-page: https://gitlab.com/Hares/dict-navigation
+Author: Peter Zaitcev / USSX-Hares
+Author-email: ussx.hares@yandex.ru
+License: MIT
+Description: UNKNOWN
+Keywords: dict,path,navigation,dict-navigation
+Platform: UNKNOWN
