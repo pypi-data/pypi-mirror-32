@@ -1,0 +1,4 @@
+include vcv/data/hdm41754
+include vcv/data/hand_label_map.pbtxt
+include vcv/data/test.jpg
+include MANIFEST.in
