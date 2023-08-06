@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: lydia
+Version: 0.1
+Summary: A high level companion for data science
+Home-page: https://github.com/mkleinbort/lydia
+Author: Mycchaka Kleinbort
+Author-email: mkleinbort@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/mkleinbort/lydia/archive/0.1.tar.gz
+Description: UNKNOWN
+Keywords: data science,pandas,python,modeling,jupyter
+Platform: UNKNOWN
