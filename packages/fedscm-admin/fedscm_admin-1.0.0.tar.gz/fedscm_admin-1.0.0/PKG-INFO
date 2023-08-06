@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: fedscm_admin
+Version: 1.0.0
+Summary: A CLI tool to issue tickets for repo requests
+Home-page: https://pagure.io/fedscm_admin
+Author: Red Hat, Inc.
+Author-email: mprahl@redhat.com
+License: GPLv2+
+Description: UNKNOWN
+Platform: UNKNOWN

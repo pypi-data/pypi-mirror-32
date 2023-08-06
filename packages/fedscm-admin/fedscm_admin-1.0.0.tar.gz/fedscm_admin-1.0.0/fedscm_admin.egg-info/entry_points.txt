@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        fedscm-admin=fedscm_admin.fedscm_admin:cli
+    

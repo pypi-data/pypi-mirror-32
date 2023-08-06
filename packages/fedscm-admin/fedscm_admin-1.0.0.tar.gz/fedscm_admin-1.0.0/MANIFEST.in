@@ -1,0 +1,6 @@
+global-exclude *.pyc *.pyo
+include README.md
+include LICENSE
+include tests/*.py tests/test_config.ini
+include tox.ini
+recursive-include *.py

@@ -1,0 +1,6 @@
+click
+python-bugzilla
+python-fedora
+pyyaml
+requests
+six
