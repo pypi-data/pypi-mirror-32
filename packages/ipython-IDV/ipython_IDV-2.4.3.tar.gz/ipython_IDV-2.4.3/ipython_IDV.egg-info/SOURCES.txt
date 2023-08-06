@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+ipython_IDV/__init__.py
+ipython_IDV/drilsdown.py
+ipython_IDV.egg-info/PKG-INFO
+ipython_IDV.egg-info/SOURCES.txt
+ipython_IDV.egg-info/dependency_links.txt
+ipython_IDV.egg-info/requires.txt
+ipython_IDV.egg-info/top_level.txt
+tests/__init__.py
+tests/test_sample.py
