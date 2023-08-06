@@ -1,0 +1,12 @@
+NSC/__init__.py,sha256=ypkDB-YnqQDw7eRgf2Hy6k1D_1W1761Hq15MtRXjHEg,133
+NSC/api.py,sha256=g-NywJoB-JjY0sK9ijn1cyCC0LSnt5QlLMk_Fk0hWxI,562
+NSC/due.py,sha256=ffFv7cnNA4XDOO8MsDg-525PJ-psBPYvZqJ7anP5CfE,2030
+NSC/version.py,sha256=1y7dXV-iJaG4jWNj8fOggQaX29yzHTo-9-gXLTs2PtE,2194
+NSC/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+NSC/tests/test_api.py,sha256=_6n2V0mGkCRpM9zSm8wQp_jAsmjNMbpl1MfMKzmKW3c,238
+pyNSC-0.1.dev0.dist-info/DESCRIPTION.rst,sha256=EFV0hPNw3BOI9dYxrLKPtpe_---5V4g521iTOpV6PTw,598
+pyNSC-0.1.dev0.dist-info/METADATA,sha256=HIgfRnmXQGmSjRrBtMge76yBIrdGVjGerip52eSNJjY,1259
+pyNSC-0.1.dev0.dist-info/RECORD,,
+pyNSC-0.1.dev0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+pyNSC-0.1.dev0.dist-info/metadata.json,sha256=QBeRAthFEs5RRUqWEOKlzzGsEbnVScxGuhEMEIwaOo0,882
+pyNSC-0.1.dev0.dist-info/top_level.txt,sha256=VLQTnQfvb91I3A40L70Pk_3wiBH41LDXiaYT9LU439E,4
