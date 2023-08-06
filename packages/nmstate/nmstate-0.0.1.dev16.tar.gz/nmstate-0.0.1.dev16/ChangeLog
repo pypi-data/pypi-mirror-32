@@ -1,0 +1,20 @@
+CHANGES
+=======
+
+* add link to project homepage
+* set description content type to markdown
+* libnmstate: If iface state is not "activated", consider it "down"
+* nmstatectl: Introduce basic set command
+* libnmstate: Control an interface state (up/down)
+* libnmstate: Small spell fix
+* Pretty print network state
+* nmstatectl: Introduce 'show' command to display state
+* libnmstate: Minimal support for showing iface state
+* tox: Specify full path to the requirements.txt file
+* Add interface schema ethernet properties
+* Add interface schema common properties
+* Introduce a basic schema with validation tests
+* add code skeleton, setup config and do some cleanup
+* Integrate with coveralls
+* Integrate with travis-ci
+* Initial commit
