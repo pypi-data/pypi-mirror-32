@@ -1,0 +1,6 @@
+Pillow
+flask
+numpy
+pyyaml
+requests
+progressbar2
