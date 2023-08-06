@@ -1,0 +1,15 @@
+*.csv
+*.bnd
+!test/reprod_all.bnd
+*.cfg
+!test/reprod_all.cfg
+*~
+\#*\#
+__pycache__
+dist
+build
+*.egg-info
+.ipynb*
+.*.sw*
+gen
+*.log
