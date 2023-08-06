@@ -1,0 +1,4 @@
+include uwsgi.ini
+include wsgi.py
+
+recursive-include install *.*
