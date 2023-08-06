@@ -1,0 +1,24 @@
+# Main
+vstutils[rpc,ldap,doc]==1.0.4
+six
+pyyaml
+docutils==0.14
+markdown2==2.3.5
+
+# API
+jsonfield==2.0.2
+uWSGI==2.0.17
+
+# Repo types
+gitpython==2.1.9
+
+# Hooks
+requests==2.18.4
+
+# additional DB and cache connectors
+PyMySQL
+
+# Ansible required packages
+ansible>=2.1, <=2.5.3
+paramiko<=2.4.0
+pywinrm[kerberos]==0.3.0
