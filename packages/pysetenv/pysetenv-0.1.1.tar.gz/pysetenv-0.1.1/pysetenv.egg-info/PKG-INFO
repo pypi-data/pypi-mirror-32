@@ -1,0 +1,51 @@
+Metadata-Version: 1.1
+Name: pysetenv
+Version: 0.1.1
+Summary: A simple tool to set environment variables before running a command
+Home-page: https://github.com/jimporter/pysetenv
+Author: Jim Porter
+Author-email: itsjimporter@gmail.com
+License: BSD
+Description-Content-Type: UNKNOWN
+Description: pysetenv
+        ========
+        
+        **pysetenv** is a simple Python-based program to allow users to set
+        environment variables before executing a command. While it's
+        cross-platform, it's primarily designed to be used on Windows, where
+        ``cmd.exe`` makes this considerably more difficult than on POSIX
+        systems.
+        
+        Why?
+        ----
+        
+        pysetenv is designed as a support package to help authors of other
+        Python packages create command-line strings like you'd expect from
+        ``sh`` or the ``env`` command. Generally, pysetenv will only be
+        installed on Windows systems, with POSIX systems using ``sh`` or
+        ``env``. For example, in your ``setup.py``, you would write:
+        
+        .. code:: python
+        
+            setup(
+                # ...
+                install_requires=['pysetenv;platform_system=="Windows"'],
+            )
+        
+        License
+        -------
+        
+        This project is licensed under the `BSD 3-clause license <LICENSE>`__.
+        
+Keywords: set environment variables
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
