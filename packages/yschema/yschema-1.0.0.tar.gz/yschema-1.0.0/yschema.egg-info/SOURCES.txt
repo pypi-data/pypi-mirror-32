@@ -1,0 +1,14 @@
+README.rst
+setup.py
+yschema/__init__.py
+yschema/__main__.py
+yschema/exceptions.py
+yschema/schema.py
+yschema/types.py
+yschema.egg-info/PKG-INFO
+yschema.egg-info/SOURCES.txt
+yschema.egg-info/dependency_links.txt
+yschema.egg-info/entry_points.txt
+yschema.egg-info/requires.txt
+yschema.egg-info/top_level.txt
+yschema.egg-info/zip-safe
