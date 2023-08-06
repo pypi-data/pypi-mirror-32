@@ -1,0 +1,11 @@
+COPYING
+MANIFEST.in
+README.rst
+setup.py
+ppyimgur.egg-info/PKG-INFO
+ppyimgur.egg-info/SOURCES.txt
+ppyimgur.egg-info/dependency_links.txt
+ppyimgur.egg-info/requires.txt
+ppyimgur.egg-info/top_level.txt
+pyimgur/__init__.py
+pyimgur/request.py
