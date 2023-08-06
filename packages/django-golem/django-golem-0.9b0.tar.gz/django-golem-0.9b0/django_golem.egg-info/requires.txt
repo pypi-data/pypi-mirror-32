@@ -1,0 +1,14 @@
+django
+networkx
+requests
+six
+sqlparse
+wit
+wheel
+redis
+pytz
+unidecode
+emoji
+elasticsearch
+celery
+dateutil
