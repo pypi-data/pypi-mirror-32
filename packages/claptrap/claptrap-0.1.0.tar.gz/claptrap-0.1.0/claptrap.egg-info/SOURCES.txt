@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+claptrap/__init__.py
+claptrap/munging.py
+claptrap/phrasegenerator.py
+claptrap.egg-info/PKG-INFO
+claptrap.egg-info/SOURCES.txt
+claptrap.egg-info/dependency_links.txt
+claptrap.egg-info/top_level.txt
