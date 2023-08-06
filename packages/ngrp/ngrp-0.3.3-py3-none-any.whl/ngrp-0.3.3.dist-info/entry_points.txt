@@ -1,0 +1,3 @@
+[console_scripts]
+ngrp = ngrp.cli:ngrp_command
+

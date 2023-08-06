@@ -1,0 +1,16 @@
+ngrp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ngrp/cli.py,sha256=QKQ8oYlizrA77VkZ-AFtz8kbFjidjcWbeSxpe81EB_I,3218
+ngrp/config_writer.py,sha256=Y0agonYKrWGLfSpwcrZeUYUlWCjvTeq8X7T7Ocrjdc0,2306
+ngrp/metainfo.py,sha256=82Hm073YWRXdZLn0kq2h5uXoSU3ZKKhXx6fdcGYF8gY,474
+ngrp/ngrp.py,sha256=gYh0DTxWOl6QyeNc12PfbQVPTRbCNIHJYA2a62SC2Pk,1105
+ngrp/templates/HttpReverseProxyTemplate.py,sha256=LTk4VrvdhOyXgHJecXn0LJPzImvPoKwHAoDZsO2zPd0,686
+ngrp/templates/HttpsReverseProxyTemplate.py,sha256=c174_rKs1jQ8UWiSDS3E8umJQRYh_VW1wyUdLPAmVNE,986
+ngrp/templates/StaticPageHttpTemplate.py,sha256=MYXU7PPyKy58FtvAVEBOiA4RR4yBvkMAzmg3D-DAzg4,316
+ngrp/templates/StaticPageHttpsTemplate.py,sha256=5hID_Fhai_B4-1nX6dgMQwfcUqBtyyfFAk-ctHTIivI,739
+ngrp/templates/Template.py,sha256=tWY_gHUeZqVv29XrvrIhPLob5Ag9NAJ3iQJpzqodzCg,2304
+ngrp/templates/__init__.py,sha256=mPAHtY5g4JS29Xnn8fy5UQm6IlIYADeWGlBKyivHVCc,349
+ngrp-0.3.3.dist-info/METADATA,sha256=e7uNQm9WrRgCIdchXm19kTa9UM2Myd5LSUy2378iSa4,1599
+ngrp-0.3.3.dist-info/RECORD,,
+ngrp-0.3.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+ngrp-0.3.3.dist-info/entry_points.txt,sha256=1JjR3otCm-K1KvdsCJuQLrsV_acxMRgwm1aIYqKECdY,48
+ngrp-0.3.3.dist-info/top_level.txt,sha256=juK-KGzrW2ICLMjLKjlYElVb6Kdnml0ePx1rKPOBDWI,5
