@@ -1,0 +1,14 @@
+cross_words-0.0.2.dist-info/DESCRIPTION.rst,sha256=XgYK4NBJ2Gmtgfi9hzBXPgs4x5p5CEEVOIH_uXJPWfQ,8351
+cross_words-0.0.2.dist-info/METADATA,sha256=LRuY4VNz3LFBsMacPiPW7h0A-XAAjIfoCcJvogb61fY,8889
+cross_words-0.0.2.dist-info/RECORD,,
+cross_words-0.0.2.dist-info/WHEEL,sha256=9Z5Xm-eel1bTS7e6ogYiKz0zmPEqDwIypurdHN1hR40,116
+cross_words-0.0.2.dist-info/metadata.json,sha256=AJcS5gq_isF0QXRAXaoK8R-9lPd373qyk-oOUcRBraA,691
+cross_words-0.0.2.dist-info/top_level.txt,sha256=mr7CY5V-y_7FAs1QhH_06M8jwUg6GWDqTLq2chidMzM,7
+xwords/__init__.py,sha256=37gsGfjxbYzPj42TIcQlU8JqN_Pag0Mz1MwyXPMkQu8,175
+xwords/core_output.py,sha256=lwiBeNQg-_SSaORej7zdrGpy562XtR58SgOH6ETFseo,5614
+xwords/core_parse.py,sha256=ia_xmCWWYxDxGC3JXR-9X_KlDArfWTV2GaRtaa7grsc,2501
+xwords/core_process.py,sha256=OivSSQCTP1RnzjE8o-gWBSmlqspVzAbwZtJZRnZ0wPw,10282
+xwords/utils.py,sha256=YpMosNbJJVQs7g5yEiyedaw5vzt8FhDX6UAvrstS0jY,1227
+xwords/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xwords/tests/test_core_output.py,sha256=HPN3LOGNPSorwnYt85SttcNL4F9qqHjrlXArcS5qncM,3407
+xwords/tests/test_core_parse.py,sha256=pvhRJFBWEI9V70PVPtpy7G4Kqsp1gw4mpyXKSX96YzE,1904
