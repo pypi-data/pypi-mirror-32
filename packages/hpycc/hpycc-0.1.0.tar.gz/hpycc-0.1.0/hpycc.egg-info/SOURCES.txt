@@ -1,0 +1,17 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+hpycc/__init__.py
+hpycc/connection.py
+hpycc/delete.py
+hpycc/get.py
+hpycc/run.py
+hpycc/save.py
+hpycc/spray.py
+hpycc.egg-info/PKG-INFO
+hpycc.egg-info/SOURCES.txt
+hpycc.egg-info/dependency_links.txt
+hpycc.egg-info/not-zip-safe
+hpycc.egg-info/requires.txt
+hpycc.egg-info/top_level.txt
