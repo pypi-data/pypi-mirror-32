@@ -1,0 +1,12 @@
+knave/__init__.py,sha256=kBxQfYhw6PPFOigb12gWi0Ac9BUhtCZ-0h5XanY80TU,741
+knave/acl.py,sha256=9yj7D0djukGEzM2u98ZdrBSGCjC2xtAWjY1suabz7xU,6954
+knave/identity.py,sha256=PZG8NCUm79Rjl3JydCnvKvQL_VyLiAZZwO0HFbs4lKQ,1485
+knave/middleware.py,sha256=jJrnRpMO1QcdMsKPsIaGRL7eSSRF8OP2OZ4nssy9Y0c,2316
+knave/predicates.py,sha256=D6-ls1iSLGpz5igTBtzad0zcxa6TLAghZRZ-IJJ7TmY,2372
+knave/roles.py,sha256=rJRLy6JqmWGESlk75S6M8h6rfe7riarRQbPC7qAf0T0,9016
+knave-0.3.3.dist-info/DESCRIPTION.rst,sha256=GDmOhFwsqiJUi0b2C7kpmqxlr3Gh7YDqKwDIn1XBUAQ,758
+knave-0.3.3.dist-info/METADATA,sha256=24NJDt8WwQHgRAV8f5VB8AWLog5Izj4eMvztmGaxSew,1518
+knave-0.3.3.dist-info/RECORD,,
+knave-0.3.3.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+knave-0.3.3.dist-info/metadata.json,sha256=wQvlPGWqToEds2kii0dtwaZjkrrTZZIX0Xklw-MwvTE,922
+knave-0.3.3.dist-info/top_level.txt,sha256=2LeMnq_HyMY-Wrq3xETJMNq1jYZ8GuwCWViCwUHRpuA,6
