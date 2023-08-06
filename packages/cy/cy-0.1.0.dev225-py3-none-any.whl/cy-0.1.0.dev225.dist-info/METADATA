@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: cy
+Version: 0.1.0.dev225
+Summary: Crispy - modelling CRISPR dropout data
+Home-page: https://github.com/EmanuelGoncalves/crispy
+Author: Emanuel Goncalves
+Author-email: eg14@sanger.ac.uk
+License: BSD
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Dist: numpy (>=1.13)
+Requires-Dist: scipy (>=0.19)
+Requires-Dist: pandas (>=0.20)
+Requires-Dist: scikit-learn (>=0.18)
+Requires-Dist: matplotlib (>=2.0)
+Requires-Dist: seaborn (>=0.7)
+Requires-Dist: natsort (>=5.1.0)
+Requires-Dist: limix (>=1.0.0)
+Requires-Dist: pybedtools (>=0.7)
+Requires-Dist: bsub (>=0.3.0)
+Requires-Dist: statsmodels (>=0.8.0)
+
+Crispy
+============
+
+Identify associations between genomic alterations (e.g. structural variation, copy-number variation) and CRISPR-Cas9 knockout response.
+
+[Tandem duplications lead to loss of fitness effects in CRISPR-Cas9 data](https://www.biorxiv.org/content/early/2018/05/25/325076)
+
+
+Description
+--
+Crispy uses [Sklearn](http://scikit-learn.org/stable/index.html) implementation of [Gaussian Process Regression](http://scikit-learn.org/stable/modules/generated/sklearn.gaussian_process.GaussianProcessRegressor.html#sklearn.gaussian_process.GaussianProcessRegressor), fitting by default each chromosome of each sample independently.
+
+
+Example
+--
+```python
+import pandas as pd
+from crispy.association import CRISPRCorrection
+
+# Import data
+data = pd.read_csv('extdata/association_example_data.csv', index_col=0)
+
+# Association analysis
+crispy = CRISPRCorrection()\
+    .fit_by(by=data['chr'], X=data[['cnv']], y=data['fc'])
+
+# Export
+crispy = pd.concat([v.to_dataframe() for k, v in crispy.items()])\
+    .sort_values(['cnv', 'k_mean'], ascending=[False, True])
+```
+
+
+Install
+--
+
+```
+python setup.py install
+```
+
+Enrichment module has Cython files, to compile run:
+
+```
+python crispy/enrichment/gsea_setup.py build_ext --inplace
+```
+
+Regression module has Cython files, to compile run:
+
+```
+python crispy/regression/linear_setup.py build_ext --inplace
+```
+
+
+
