@@ -1,0 +1,13 @@
+django-fsm>=2.4.0
+django>=1.10.8
+djangorestframework>=3.5.3
+
+[dev]
+factory-boy
+flake8
+isort
+pytest
+pytest-cov
+pytest-django
+pytest-echo
+pytest-pythonpath
