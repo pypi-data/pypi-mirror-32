@@ -1,0 +1,8 @@
+numpy
+six
+
+[dev]
+check-manifest
+flake8
+pytest-cov
+tox

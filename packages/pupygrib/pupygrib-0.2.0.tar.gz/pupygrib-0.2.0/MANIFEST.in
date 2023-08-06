@@ -1,0 +1,5 @@
+include CHANGES.md
+include LICENSE.txt
+include tox.ini
+recursive-include tests *.py
+recursive-include tests/data *
