@@ -1,0 +1,14 @@
+MANIFEST.in
+README.rst
+setup.py
+omc_scanalyzer/__init__.py
+omc_scanalyzer/__main__.py
+omc_scanalyzer/main.py
+omc_scanalyzer/main_frame.py
+omc_scanalyzer/uofa_logo.png
+omc_scanalyzer/uofa_logo_250.png
+omc_scanalyzer.egg-info/PKG-INFO
+omc_scanalyzer.egg-info/SOURCES.txt
+omc_scanalyzer.egg-info/dependency_links.txt
+omc_scanalyzer.egg-info/entry_points.txt
+omc_scanalyzer.egg-info/top_level.txt
