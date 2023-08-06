@@ -1,0 +1,8 @@
+README.rst
+setup.py
+ocdsextensionregistry/__init__.py
+ocdsextensionregistry.egg-info/PKG-INFO
+ocdsextensionregistry.egg-info/SOURCES.txt
+ocdsextensionregistry.egg-info/dependency_links.txt
+ocdsextensionregistry.egg-info/requires.txt
+ocdsextensionregistry.egg-info/top_level.txt
