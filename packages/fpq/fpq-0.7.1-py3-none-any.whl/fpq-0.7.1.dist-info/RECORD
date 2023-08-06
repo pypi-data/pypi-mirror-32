@@ -1,0 +1,13 @@
+fpq/__init__.py,sha256=646d6GcvUJeDMmb_648JZRZNuNRj57L3zZx9u68DeBw,66
+fpq/fp.py,sha256=TF57Y2XOxYQmJRE1A_JJvNsjjn8ndDRV9lu-QjUQBWg,13123
+fpq/numba_wrapper.py,sha256=d4lQr1uDyzVMkQX8ZvH_FIzj46xw44OBtAeVWW5tVwE,672
+fpq/quaternion.py,sha256=mEaxohdYgtteAox-Lk_e0BDhltJ74PhXyl_UNPmX1rg,3820
+fpq/utils.py,sha256=cun9xPmMySS6S2DLmjb7BswmDDgcJKrTLTLYPwgSVXw,1417
+fpq/vector.py,sha256=6Xh_pSZ-FADQR3dh9wSaeHU1vLSo_KoB-STkc2_SDAg,5465
+fpq/version.py,sha256=bYE56LeX_mej-S-ptiTpWqhUYrA59VYFZ277vRKR8xA,107
+fpq-0.7.1.dist-info/DESCRIPTION.rst,sha256=C-LY8KccFARFSxhuZnA9c0Mpc6fg6svonu3o1fjApcU,4648
+fpq-0.7.1.dist-info/METADATA,sha256=6RG24aoVV14z8JttMqoaVoRB1pslrjFtxwuUY9upU0A,5970
+fpq-0.7.1.dist-info/RECORD,,
+fpq-0.7.1.dist-info/WHEEL,sha256=Vlaj2XNMTTJ893zWX-JvKeZUIs7q5E7d7Gise2Vouzc,97
+fpq-0.7.1.dist-info/metadata.json,sha256=BdDc1V1h2C84EaFo7urGhxW8BcASOnYSTXVhH5YYMe8,1528
+fpq-0.7.1.dist-info/top_level.txt,sha256=T52J3SiBiKmG4EfFcIvkFmpf8SJVlF3ExShX2b9He2w,4
