@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+odium/__init__.py
+odium.egg-info/PKG-INFO
+odium.egg-info/SOURCES.txt
+odium.egg-info/dependency_links.txt
+odium.egg-info/requires.txt
+odium.egg-info/top_level.txt
