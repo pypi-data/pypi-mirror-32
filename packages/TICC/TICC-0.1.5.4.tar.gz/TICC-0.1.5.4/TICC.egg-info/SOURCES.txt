@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+edge_data.txt
+example_data.txt
+setup.cfg
+setup.py
+synthetic.txt
+TICC.egg-info/PKG-INFO
+TICC.egg-info/SOURCES.txt
+TICC.egg-info/dependency_links.txt
+TICC.egg-info/top_level.txt
