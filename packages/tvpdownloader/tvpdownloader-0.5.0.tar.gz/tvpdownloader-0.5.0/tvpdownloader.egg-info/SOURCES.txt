@@ -1,0 +1,8 @@
+README.md
+setup.py
+tvpdownloader/__init__.py
+tvpdownloader/tvpdownloader.py
+tvpdownloader.egg-info/PKG-INFO
+tvpdownloader.egg-info/SOURCES.txt
+tvpdownloader.egg-info/dependency_links.txt
+tvpdownloader.egg-info/top_level.txt
