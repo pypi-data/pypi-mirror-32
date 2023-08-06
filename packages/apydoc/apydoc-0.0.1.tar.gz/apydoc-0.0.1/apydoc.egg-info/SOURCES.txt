@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+apydoc/__init__.py
+apydoc.egg-info/PKG-INFO
+apydoc.egg-info/SOURCES.txt
+apydoc.egg-info/dependency_links.txt
+apydoc.egg-info/requires.txt
+apydoc.egg-info/top_level.txt
