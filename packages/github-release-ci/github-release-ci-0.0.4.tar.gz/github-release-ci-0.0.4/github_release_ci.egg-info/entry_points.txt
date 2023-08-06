@@ -1,0 +1,4 @@
+[console_scripts]
+download = github_release_ci.download:main
+upload = github_release_ci.upload:main
+
