@@ -1,0 +1,11 @@
+themis.finals-1.0.0-py2.7-nspkg.pth,sha256=MITmKqVV_sjzqocMNSqHRJ1-Ua81EHZj2Tcymy-aaWY,539
+themis/finals/__about__.py,sha256=9FK36A6_KYy_d3gHiTKnJH5akqrEw0-pcfs2oPopkhI,46
+themis/finals/__init__.py,sha256=DTmSsgpKioWddG5usPtj7zuHT67OTHt9JSzMVYoVgrE,3757
+themis/finals/capsule_api.py,sha256=9azieSAj1jUjdvny68JYQ7ETyhRUS_eSpJfRys4le2k,1545
+themis/finals/flag_api.py,sha256=y7OME_8lXH3YyLmBxU4tzjr8zsmmrOxFwwk90PQU85E,4774
+themis.finals-1.0.0.dist-info/METADATA,sha256=NyZvFePh06Vlh20YrnQNco7q8VzrAoWzNiSeHbagLgM,583
+themis.finals-1.0.0.dist-info/RECORD,,
+themis.finals-1.0.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+themis.finals-1.0.0.dist-info/entry_points.txt,sha256=U_oXdM_IWJ5vcL8qKI0bqkNDZiNmvh3JGJSV9Q4yvqo,53
+themis.finals-1.0.0.dist-info/namespace_packages.txt,sha256=QGIl4v-KB32upFS5UTXMJxHVX3vF7yBso82wJFI1Vbs,7
+themis.finals-1.0.0.dist-info/top_level.txt,sha256=QGIl4v-KB32upFS5UTXMJxHVX3vF7yBso82wJFI1Vbs,7
