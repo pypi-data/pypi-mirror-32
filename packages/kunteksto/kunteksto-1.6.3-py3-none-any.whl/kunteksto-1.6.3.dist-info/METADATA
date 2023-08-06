@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: kunteksto
+Version: 1.6.3
+Summary: The Context tool for your data. This is your tool to translate your CSV data files into RDF, XML and JSON with full semantics.
+Home-page: https://datainsights.tech/
+Author: Timothy W. Cook
+Author-email: tim@datainsights.tech
+License: UNKNOWN
+Download-URL: https://github.com/DataInsightsInc/Kunteksto/archive/1.6.3.tar.gz
+Keywords: context rdf xml machine learning data-centric semantic interoperability semantics
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Customer Service
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Legal Industry
+Classifier: Intended Audience :: Manufacturing
+Classifier: Intended Audience :: Other Audience
+Classifier: Intended Audience :: Religion
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Python: >=3.6
+Requires-Dist: agraph-python
+Requires-Dist: basexclient
+Requires-Dist: click
+Requires-Dist: lxml
+Requires-Dist: shortuuid
+Requires-Dist: sphinx
+Requires-Dist: sphinx-rtd-theme
+Requires-Dist: ujson
+Requires-Dist: xmltodict
+Requires-Dist: cuid
+
+**Kunteksto** (ˈkänˌteksto) is a tool to help domain experts, data scientists, data creators and data users translate their simple CSV formatted data files 
+into the semantically enhanced formats that provide computable metadata. 
+
+This automated processing speeds up data cleaning issues and provides a path for existing data to be used in conjunction with the semantic graph approach in the analysis, 
+general artificial intelligence and decision support systems. 
+
+This translation opens the door for the change to a *datacentric* world of information management. 
+
+This new approach enables automatic interoperability avoiding the data quality issues created through data cleaning and massaging. The data is automatically validated according to the constraints that you enter. Invalid data is marked-up to be used as you see fit in your analysis. 
+
+The importance of this capability and improved data quality is discussed in foundational `S3Model <https://datainsights.tech/S3Model>`_ documentation and references. However, detailed understanding of S3Model is not required to understand and use the power of Kunteksto. 
+The next step for enterprise environments is creating reusable components with the `Datacentric Tool Suite <https://datainsights.tech/datacentrictools/>`_
+
+Kunteksto can automatically persist your results data on the file system or in a variety of databases such as:
+
+    - AllgeroGraphDB
+    - BaseXDB
+    - eXistDB (coming in 1.7.0)
+    - MongoDB (coming in 1.7.0)
+    - MarkLogic (coming in 1.7.0)
+    - others? put in a request via the Github Project Issues tab
+
+
+
