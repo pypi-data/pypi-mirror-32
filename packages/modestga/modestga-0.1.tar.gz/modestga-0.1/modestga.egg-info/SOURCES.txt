@@ -1,0 +1,12 @@
+README.md
+setup.py
+modestga/__init__.py
+modestga/ga.py
+modestga/individual.py
+modestga/operators.py
+modestga/population.py
+modestga.egg-info/PKG-INFO
+modestga.egg-info/SOURCES.txt
+modestga.egg-info/dependency_links.txt
+modestga.egg-info/requires.txt
+modestga.egg-info/top_level.txt
