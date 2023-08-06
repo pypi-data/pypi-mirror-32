@@ -1,0 +1,16 @@
+properly_util_python/__init__.py,sha256=hAVmKG-yN1qTwaNEEDpsd2sse-yxP_XhstAxSmc5Sh4,51
+properly_util_python/clean_data.py,sha256=TZxW--VMuGZOUbIxCTxviTxdqU3j6CCAzzDaa4KmXyM,5250
+properly_util_python/data_utils.py,sha256=rS5Fp8QwUdfk4MuNJaXi-ZshBC-gA8p6QhYNpomjV0M,1997
+properly_util_python/dynamo_data_utils.py,sha256=nPcxWz3okgiffWZpptrX8ATCufHljlNKaQVWxhIhzpA,290
+properly_util_python/dynamo_helper.py,sha256=_pJWXEwIowoaQFocAeqah6wPZLkLWWJbwViAFBexOi8,984
+properly_util_python/dynamo_utils.py,sha256=nAoXAOz_jMKSxQTg6HBCuN1YAtK9QTzAnv8qjj23kM8,8407
+properly_util_python/helper_utils.py,sha256=zs2x71oSTK2P_1Y13BHX6QyrRGv_aUJWxiuFev93aXo,5559
+properly_util_python/json_to_dynamo.py,sha256=v-p5IY_rmms9qo1ZAQXWN4xk_jzLv7asUzw954CDUX0,783
+properly_util_python/settings.py,sha256=sAZDB8J16HHmt_QXHGH6CHw2nZ1eO8WRI_jFd4sbFD0,74
+properly_util_python/sqs_utils.py,sha256=UPdL1yVT11cASxzAKICxvpTTmd8XfSZzlgwbcAJ7C4A,2938
+properly_util_python/table_helper.py,sha256=6EvI-05M8jN_JMs7pqvyeofg2RRBLMsj5gj6JU5elTM,4710
+properly_util_python/user_auth.py,sha256=GIh6-xW4QeSo9BauoQaxulRunBbj6wVNed5x2tXO2kY,8698
+properly_util_python-0.7.0.dist-info/METADATA,sha256=CBV7Vb4qCOjF46v1TIBWmgVyGE5Z0E-evDQAmelFLsw,2330
+properly_util_python-0.7.0.dist-info/RECORD,,
+properly_util_python-0.7.0.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+properly_util_python-0.7.0.dist-info/top_level.txt,sha256=kOoWtHzfsaAQ9hY_pILJ3HOl9xdrBej2nBtNMDEdJWg,21
