@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+test_cool_package/__init__.py
+test_cool_package/func.py
+test_cool_package.egg-info/PKG-INFO
+test_cool_package.egg-info/SOURCES.txt
+test_cool_package.egg-info/dependency_links.txt
+test_cool_package.egg-info/entry_points.txt
+test_cool_package.egg-info/not-zip-safe
+test_cool_package.egg-info/top_level.txt
