@@ -1,0 +1,9 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+fitdecode.egg-info/PKG-INFO
+fitdecode.egg-info/SOURCES.txt
+fitdecode.egg-info/dependency_links.txt
+fitdecode.egg-info/top_level.txt
