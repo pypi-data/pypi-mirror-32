@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+generic_encoders/__init__.py
+generic_encoders.egg-info/PKG-INFO
+generic_encoders.egg-info/SOURCES.txt
+generic_encoders.egg-info/dependency_links.txt
+generic_encoders.egg-info/requires.txt
+generic_encoders.egg-info/top_level.txt
+test/test_base64_encoder.py
+test/test_composed_encoder.py
+test/test_dill_encoder.py
+test/test_gzip_encoder.py
+test/test_json_encoder.py
+test/test_lz4_encoder.py
+test/test_msgpack_encoder.py
+test/test_text_encoder.py
