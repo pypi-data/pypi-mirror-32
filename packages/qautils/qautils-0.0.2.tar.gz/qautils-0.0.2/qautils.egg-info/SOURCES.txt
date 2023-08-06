@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+qautils/__init__.py
+qautils/files.py
+qautils.egg-info/PKG-INFO
+qautils.egg-info/SOURCES.txt
+qautils.egg-info/dependency_links.txt
+qautils.egg-info/top_level.txt
