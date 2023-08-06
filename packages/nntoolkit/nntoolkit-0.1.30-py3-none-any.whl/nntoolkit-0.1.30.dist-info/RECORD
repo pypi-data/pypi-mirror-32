@@ -1,0 +1,12 @@
+nntoolkit/__init__.py,sha256=YtyBA0qSB27ayFjkyM1g0PUZGHdw_kdVBSNXuZlvPAM,843
+nntoolkit/activation_functions.py,sha256=l8Tg-4KEQTqLyiUctW318GRl2WpLWIp8EQzfJSp_7rw,2602
+nntoolkit/create.py,sha256=IHUWysDxuAZTc9O-U2kYHJQxTT3Q7l33xQorZKroLNw,5398
+nntoolkit/evaluate.py,sha256=CboPShAIhYNuRNCqFhxA6O5Dcqobz49wIkIxORrbdjo,4188
+nntoolkit/test.py,sha256=iBZ7gzxTLh2p_J1mbdozi8vmk8IrMiRqMdSQdrsJxRc,2221
+nntoolkit/train.py,sha256=N1rCjT2PnT-yUIluhR2iYwc65ojyqkJrXm3N1s7vDsw,6041
+nntoolkit/utils.py,sha256=dqjYSSdpv59sYqdSwxD502nZXDq5CZN2DAPRc1NvXMA,8291
+nntoolkit-0.1.30.data/scripts/nntoolkit,sha256=zw9PcdY-macudMLZ_lI3vgfzpLkw50nVyj1H8Df2yew,2683
+nntoolkit-0.1.30.dist-info/METADATA,sha256=EKqKGkJvDbpFmgPMf_T0y_MltE2Bd1rZaJjNUUQMqVo,1943
+nntoolkit-0.1.30.dist-info/RECORD,,
+nntoolkit-0.1.30.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+nntoolkit-0.1.30.dist-info/top_level.txt,sha256=O9lZr0rEBMAbuLRH3DGvF2mV1NxscOwzVvt95efCWto,10
