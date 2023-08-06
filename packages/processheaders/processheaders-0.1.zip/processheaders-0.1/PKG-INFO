@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: processheaders
+Version: 0.1
+Summary: 解析并自动构造浏览器headers为字典类型
+Home-page: UNKNOWN
+Author: Chirco
+Author-email: 503588699@qq.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
