@@ -1,0 +1,23 @@
+Metadata-Version: 2.0
+Name: DosNa
+Version: 0.1
+Summary: Distributed Object-Store Numpy Array (DosNa)
+Home-page: https://github.com/DiamondLightSource/DosNa
+Author: Imanol Luengo
+Author-email: imanol.luengo@diamond.ac.uk
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy (>=1.13.0)
+Requires-Dist: six (>=1.10.0)
+Provides-Extra: ceph
+Requires-Dist: python-cephlibs (>=0.94.0); extra == 'ceph'
+Provides-Extra: hdf5
+Requires-Dist: h5py (>=2.7.0); extra == 'hdf5'
+Provides-Extra: jl
+Requires-Dist: joblib (>=0.11); extra == 'jl'
+Provides-Extra: mpi
+Requires-Dist: mpi4py (>=3.0.0); extra == 'mpi'
+
+UNKNOWN
+
+
