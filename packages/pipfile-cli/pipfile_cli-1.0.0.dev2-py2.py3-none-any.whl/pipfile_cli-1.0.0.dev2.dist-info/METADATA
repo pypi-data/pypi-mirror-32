@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: pipfile-cli
+Version: 1.0.0.dev2
+Summary: Command line interface around Pipfile operations
+Home-page: https://github.com/uranusjr/pipfile_cli
+Author: Tzu-ping Chung
+Author-email: uranusjr@gmail.com
+License: ISC License
+Keywords: pipenv,pipfile
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >= '3.5'
+Requires-Dist: click
+Requires-Dist: requirementslib
+Requires-Dist: toml
+
+=============================================================
+Pipfile-CLI: Command line interface around Pipfile operations
+=============================================================
+
+Pipfile-CLI is a command line interface around the Pipfile API. It allows you
+to interact with a Pipfile without Pipenv.
+
+Currently it only has one functionality: ``pipfile install``. It installs the
+content of specified lockfile into the *current environment* (i.e. using the
+current pip installation, without creating a virtualenv). It is essentially
+``pipenv install --system --deploy`` without all the checks, crafted for those
+who already know what they are doing, and want a tool to do exact that.
+
+

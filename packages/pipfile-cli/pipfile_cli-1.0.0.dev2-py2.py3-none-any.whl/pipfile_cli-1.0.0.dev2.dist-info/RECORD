@@ -1,0 +1,16 @@
+pipfile_cli/__init__.py,sha256=x-u2NnE0-ZlrrkWllfBYHG5LN0PchzNwvqEcZ9hhrXM,112
+pipfile_cli/__main__.py,sha256=TdhtgnSy9ZXT5yimkUrA37PA4IAmMllqpN8QHlomHI8,4017
+pipfile_cli/version.txt,sha256=4iKH-iM-cFPfcI2huSJyECu3oZ3VqJyhZ41CwvhyFB4,11
+pipfile_cli/vendor/README.txt,sha256=ewlsWumqVWNrlrzeKWlZgCw8qlTdxtd6eYe0V3v1ZS0,226
+pipfile_cli/vendor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pipfile_cli/vendor/pipfile/LICENSE,sha256=ytHvW9NA1z4HS6YU0m996spceUDD2MNIUuZcSQlobEg,197
+pipfile_cli/vendor/pipfile/LICENSE.APACHE,sha256=DOwG4OVfvD3FzuT8qbYH9my49OTbzzs8ATWU3RVnMuk,10173
+pipfile_cli/vendor/pipfile/LICENSE.BSD,sha256=YKka7CoWnamorF3G0Y170_XUJKUwPJQJnXNJkJUBRt4,1344
+pipfile_cli/vendor/pipfile/__about__.py,sha256=AckjwSoMHtVG2bKBozTe8w7JgUS-SBC1EXOfXS58UhM,681
+pipfile_cli/vendor/pipfile/__init__.py,sha256=ZpV2QSnVpmG9j9vQH3lSdcnA9PSjRZym_MomP5Lh7wY,409
+pipfile_cli/vendor/pipfile/api.py,sha256=9uQeU8cI2XKsmOPdGdrEPX47myrQ1GGj8cTG_PF0uHI,6685
+pipfile_cli-1.0.0.dev2.dist-info/METADATA,sha256=Iit0vDKI4_vA9DWuY9wZzNJGoVhWytaj4AY-ufZoS4s,1492
+pipfile_cli-1.0.0.dev2.dist-info/RECORD,,
+pipfile_cli-1.0.0.dev2.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+pipfile_cli-1.0.0.dev2.dist-info/entry_points.txt,sha256=rxaOW3xtekzJ2r8N4EU2jwRJORC23f2uTJDKh11lFiQ,54
+pipfile_cli-1.0.0.dev2.dist-info/top_level.txt,sha256=PvFlSuwGt-otdGyr8y7YZOIErFXYGx-F0XH9eMJDiiU,12
