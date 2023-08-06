@@ -1,0 +1,11 @@
+wordsegment/__init__.py,sha256=o7nfH48Do9v3q3hv43e6pvIDxRzlLzmR9jUCZfxB4tM,7298
+wordsegment/__main__.py,sha256=W-3JLfM_hBdI83hlXlBNw2060647eUWMJ7sv0FZvjCY,69
+wordsegment/bigrams.txt,sha256=O9FWupR3hCkwxWCfxxE4ZOPAk6l4gHNvulIsfttLp5k,5566017
+wordsegment/unigrams.txt,sha256=_SfhW4PuelXY4Xcxo5frTTicvir9HCavy6juJjTAptU,4952042
+wordsegment/words.txt,sha256=Z0UKnZZnDe-6m_L0fALvfdt7xO7E7seWmcrXWkLYCOw,1763224
+wordsegment-1.3.0.dist-info/DESCRIPTION.rst,sha256=aYkAB3KUKmC15vrVO2DEksfsYaqXrbbUsFsFl5G9zkU,6706
+wordsegment-1.3.0.dist-info/METADATA,sha256=mflrB2ByDvv4UxvUf4slR7FG7BWtEu-Wsq3eODBPA6A,7661
+wordsegment-1.3.0.dist-info/RECORD,,
+wordsegment-1.3.0.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+wordsegment-1.3.0.dist-info/metadata.json,sha256=ys7TgRc6OcVSXjNMhApnx2nwYRDFfXx417M9sJ28bS8,1079
+wordsegment-1.3.0.dist-info/top_level.txt,sha256=tQ8U8F72C1CdVZMp08dZjB_osxwhNWz82D_r32TDJZ0,12
