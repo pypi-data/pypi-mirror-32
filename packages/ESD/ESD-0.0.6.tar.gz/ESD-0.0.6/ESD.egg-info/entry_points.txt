@@ -1,0 +1,3 @@
+[console_scripts]
+esd = EnumSubDomain:main
+
