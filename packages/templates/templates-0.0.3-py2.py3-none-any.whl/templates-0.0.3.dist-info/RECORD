@@ -1,0 +1,11 @@
+templates/__init__.py,sha256=zaDr741ofjUHg1P29Zu0M9XrvwJq0FzFGkcjsFvz6no,384
+templates/base.py,sha256=XhzL81yldMShbXGG3JdGq_nYSMadELTq9CQCqDI5ehs,1230
+templates/html.py,sha256=Kl7rU287uRkckjIk7q8IngfFrqMS6HmErRRGb_HWuFQ,1202
+templates/bootstrap/bootstrap.min.css,sha256=h3nIisHVdPfJvsWEtWLV370PladNSYUGJplbkPzaBDw,144878
+templates/bootstrap/bootstrap.min.js,sha256=eZoFcnJ9Ooanw0yPsrZ3CHiXIYUBW-7_hNNqch50sLI,48945
+templates/bootstrap/jquery-3.2.1.slim.min.js,sha256=k2WSCIexGzOj3Euiig-TlR8gA0EmPjuc79OEeY5L45g,69597
+templates/bootstrap/popper.min.js,sha256=pS96pU17yq-gVu4KBQJi38VpSuKN7otMrDQprzf_DWY,19188
+templates-0.0.3.dist-info/METADATA,sha256=0Wk0QNBI5wXYr8tzDeWkOVv4h0J6yudEDUFuk7gKtVw,2836
+templates-0.0.3.dist-info/RECORD,,
+templates-0.0.3.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+templates-0.0.3.dist-info/top_level.txt,sha256=Fm_uifOIeZdeTkA7g1vBrg8_icDP_XC7Gw4TPobfX0s,10
