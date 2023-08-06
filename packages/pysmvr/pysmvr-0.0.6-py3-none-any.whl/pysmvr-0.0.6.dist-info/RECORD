@@ -1,0 +1,8 @@
+pysmvr/__init__.py,sha256=tJedjewklbVnLWWPnN40f4hGniswCmhtCTyYVauxfPY,16
+pysmvr/__main__.py,sha256=RKB9EuIpZ9F80YlcLWtP8eIW7zT6HJcc08Y-Y6RdHyE,685
+pysmvr/core.py,sha256=06ABDcSx92kQkfrIqHX8HzF6E6Im7eh-vTtR27qsG_c,2870
+pysmvr-0.0.6.dist-info/METADATA,sha256=lJd4sCW-1_nMibWSrEmW2qJ0o95s1ccgUfZMOeL5eqY,751
+pysmvr-0.0.6.dist-info/RECORD,,
+pysmvr-0.0.6.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pysmvr-0.0.6.dist-info/entry_points.txt,sha256=4RpJSIkDRK4jvcpHSt6w4utYsEZ6a7bt9EyIzMaCbYM,49
+pysmvr-0.0.6.dist-info/top_level.txt,sha256=-25tbcChQFKttddmwEXGC1PLHN9sAtIqGJXIupGyKGQ,7

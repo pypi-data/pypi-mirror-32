@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pysmvr
+Version: 0.0.6
+Summary: Commandline tool and module to handle semantic versions
+Home-page: https://github.com/varjoinen/pysmvr.git
+Author: Antti Varjoinen
+Author-email: antti@varjoinen.org
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# pysmvr, semver util for Python
+
+Provides commandline tool and functions for [semantic versions](https://semver.org/):
+
+ * validation of version strings
+ * increment of versions (major, minor or patch)
+ * decrement of versions
+ * parsing version string to dict
+ * serializing version dict to string
+
+
+
+
+
