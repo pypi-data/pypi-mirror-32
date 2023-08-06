@@ -1,0 +1,3 @@
+[iotile.proxy]
+arduino_bridge_proxy = iotile_support_firm_arduino_bridge_0.arduino_bridge_proxy
+
