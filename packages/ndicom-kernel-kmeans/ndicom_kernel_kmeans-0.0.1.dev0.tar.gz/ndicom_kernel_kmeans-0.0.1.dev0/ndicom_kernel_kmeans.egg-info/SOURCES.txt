@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+ndicom_kernel_kmeans/__init__.py
+ndicom_kernel_kmeans/plugin.py
+ndicom_kernel_kmeans.egg-info/PKG-INFO
+ndicom_kernel_kmeans.egg-info/SOURCES.txt
+ndicom_kernel_kmeans.egg-info/dependency_links.txt
+ndicom_kernel_kmeans.egg-info/requires.txt
+ndicom_kernel_kmeans.egg-info/top_level.txt
+ndicom_kernel_kmeans/extension/build/Darwin/libkernel_kmeans.dylib
