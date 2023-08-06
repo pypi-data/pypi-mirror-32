@@ -1,0 +1,3 @@
+[console_scripts]
+omc_scanalyzer = omc_scanalyzer.main:main
+
