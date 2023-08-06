@@ -1,0 +1,12 @@
+transcendental/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+transcendental/learn.py,sha256=PMMyt5SNDhktoSnPPsnzuxkcChzuivdf44UhD6S13M0,1724
+transcendental/predict.py,sha256=RNoxwalMBzblB3y8VLhN6kgsO9GInnnh9oNlaZaCAQE,1738
+transcendental/brain/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+transcendental/communicate/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+transcendental/sense/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+transcendental-0.1.0.dist-info/METADATA,sha256=PQnAZGW6gkQldirhi1aYTaJaqO0RK0pkIW5DVuPFQH0,1906
+transcendental-0.1.0.dist-info/RECORD,,
+transcendental-0.1.0.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+transcendental-0.1.0.dist-info/entry_points.txt,sha256=Jcie9jxWXaEwyDwvUYSNyMfOCmDm2FENtboI6LgKJz8,103
+transcendental-0.1.0.dist-info/pbr.json,sha256=nJCewM9TT5-GiWwL4iYWZmJCXBMuU06KQ9up1IyOEGs,47
+transcendental-0.1.0.dist-info/top_level.txt,sha256=QJlr-im3KHAI_TeRAfUxMJrHHb1_L1vNXDqPzNamHaQ,15
