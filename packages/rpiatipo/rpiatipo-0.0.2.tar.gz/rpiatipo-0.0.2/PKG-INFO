@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: rpiatipo
+Version: 0.0.2
+Summary: Event system
+Home-page: https://github.com/m-c0d3/rpiatipo
+Author: Scott Morse
+Author-email: morsescott@hotmail.com
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
