@@ -1,0 +1,15 @@
+CHANGELOG.md
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+pytest_mockservers/__init__.py
+pytest_mockservers/http_server.py
+pytest_mockservers/udp_server.py
+pytest_mockservers.egg-info/PKG-INFO
+pytest_mockservers.egg-info/SOURCES.txt
+pytest_mockservers.egg-info/dependency_links.txt
+pytest_mockservers.egg-info/entry_points.txt
+pytest_mockservers.egg-info/requires.txt
+pytest_mockservers.egg-info/top_level.txt

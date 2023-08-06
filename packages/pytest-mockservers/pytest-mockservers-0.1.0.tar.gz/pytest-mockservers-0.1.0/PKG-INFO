@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: pytest-mockservers
+Version: 0.1.0
+Summary: A set of fixtures to test your requests to HTTP/UDP servers
+Home-page: https://github.com/Gr1N/pytest-mockservers
+Author: Nikita Grishko
+Author-email: gr1n@protonmail.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/Gr1N/pytest-mockservers/issues
+Project-URL: Source, https://github.com/Gr1N/pytest-mockservers
+Description: # pytest-mockservers [![Build Status](https://travis-ci.org/Gr1N/pytest-mockservers.svg?branch=master)](https://travis-ci.org/Gr1N/pytest-mockservers) [![Updates](https://pyup.io/repos/github/Gr1N/pytest-mockservers/shield.svg)](https://pyup.io/repos/github/Gr1N/pytest-mockservers/)
+        
+        `pytest-mockservers` package provides a set of fixtures which can help you to test your code in cases when you need to check that requests which you sent to HTTP/UDP server are really sent.
+        
+        Available fixtures:
+        
+        * `http_server`
+        * `http_server_factory`
+        * `unused_udp_port`
+        * `unused_udp_port_factory`
+        * `udp_server_factory`
+        
+        ## Installation
+        
+            $ pip install pytest-mockservers
+        
+        ## Usage
+        
+        Look into `tests/*` to find real examples of `pytest-mockserver` fixtures usage.
+        
+        ## Testing and linting
+        
+        For testing and linting install [tox](http://tox.readthedocs.io):
+        
+            $ pip install tox
+        
+        ...and run:
+        
+            $ tox
+        
+        ## License
+        
+        `pytest-mockservers` is licensed under the MIT license. See the license file for details.
+        
+Keywords: asyncio pytest plugin http upd mock
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
