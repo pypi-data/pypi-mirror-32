@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: djocker
+Version: 0.2.1
+Summary: Docker tools with a Django twist
+Home-page: https://github.com/andersinno/djocker
+Maintainer: Frank Wickström
+License: MIT
+Keywords: anders
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: requests
+Requires-Dist: Jinja2
+
+UNKNOWN
+
+
