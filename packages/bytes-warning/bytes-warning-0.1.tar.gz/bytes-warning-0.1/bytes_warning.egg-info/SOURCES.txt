@@ -1,0 +1,7 @@
+README.md
+bytes_warning.c
+setup.py
+bytes_warning.egg-info/PKG-INFO
+bytes_warning.egg-info/SOURCES.txt
+bytes_warning.egg-info/dependency_links.txt
+bytes_warning.egg-info/top_level.txt
