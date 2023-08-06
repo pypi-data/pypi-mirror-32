@@ -1,0 +1,2 @@
+include grammar/*.g
+recursive-include *.txt *.py
