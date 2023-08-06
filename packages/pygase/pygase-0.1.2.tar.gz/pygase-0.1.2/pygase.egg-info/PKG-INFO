@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: pygase
+Version: 0.1.2
+Summary: A high-performance game server, client and UDP-based network protocol for real-time online gaming.
+Home-page: https://github.com/sbischoff-ai/python-game-service
+Author: Silas Bischoff
+Author-email: silas.bischoff@stud.uni-due.de
+License: MIT
+Description: UNKNOWN
+Keywords: server,client,games,gaming,real-time,network,UDP,protocol,game server,game service,gameservice
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Networking
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 3 - Alpha
