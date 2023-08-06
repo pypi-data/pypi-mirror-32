@@ -1,0 +1,3 @@
+[console_scripts]
+xp_xscreensaver = xp_xscreensaver:run_screensaver
+

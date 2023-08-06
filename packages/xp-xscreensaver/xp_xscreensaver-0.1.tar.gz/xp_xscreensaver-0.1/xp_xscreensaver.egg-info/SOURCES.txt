@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+xp_xscreensaver/__init__.py
+xp_xscreensaver/logon.png
+xp_xscreensaver.egg-info/PKG-INFO
+xp_xscreensaver.egg-info/SOURCES.txt
+xp_xscreensaver.egg-info/dependency_links.txt
+xp_xscreensaver.egg-info/entry_points.txt
+xp_xscreensaver.egg-info/not-zip-safe
+xp_xscreensaver.egg-info/top_level.txt
