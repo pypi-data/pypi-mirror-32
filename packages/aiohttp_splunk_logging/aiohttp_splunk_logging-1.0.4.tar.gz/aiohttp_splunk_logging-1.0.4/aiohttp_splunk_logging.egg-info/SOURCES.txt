@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+aiohttp_splunk_logging/__init__.py
+aiohttp_splunk_logging/client.py
+aiohttp_splunk_logging/handler.py
+aiohttp_splunk_logging/middleware.py
+aiohttp_splunk_logging/setup.py
+aiohttp_splunk_logging.egg-info/PKG-INFO
+aiohttp_splunk_logging.egg-info/SOURCES.txt
+aiohttp_splunk_logging.egg-info/dependency_links.txt
+aiohttp_splunk_logging.egg-info/requires.txt
+aiohttp_splunk_logging.egg-info/top_level.txt
