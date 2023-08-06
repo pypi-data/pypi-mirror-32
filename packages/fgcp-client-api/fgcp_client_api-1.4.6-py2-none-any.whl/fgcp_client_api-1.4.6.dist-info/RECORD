@@ -1,0 +1,15 @@
+fgcp/__init__.py,sha256=kU9rZr-oD206Bs-6DZXg1YI30m2wZKxPdbfwLqX8fkY,1399
+fgcp/_file_idx.tab,sha256=hp0lUV0QVUN5BRvvWPK7Ta1G4O2KLs9Eq6HSnk3IJeY,614
+fgcp/client.py,sha256=zdGHqLU_nnwIYRA7nx6H0U1V4gU4n4rX-9Qosfd8EgI,16675
+fgcp/command.py,sha256=x7omgDsp71I6WqEkeR_288BGoMMIEDtV25G67c0hTnY,62732
+fgcp/connection.py,sha256=Api_rMMPSn_1XzncRcoQEbotD9a_gDo8l4VCV6upY34,20504
+fgcp/design.py,sha256=F9R5Eiavh5G3UL95W2IlVKst6islJP1pNuKQWj6BRcg,49080
+fgcp/dummy.py,sha256=4oDGCkGtUWvsOCYkXcOEcI6KvWO2ZVHtrOu7Hw4oOBA,5238
+fgcp/resource.py,sha256=hLqGz6zVsgONQaJl8uuSXaPxqvxCPWA_1T7GKnbRnio,108529
+fgcp/server.py,sha256=b9MddA9sm9fo0E6SgVJqmpsC0aNkoBUGJLMPnKOOuyQ,10555
+fgcp_client_api-1.4.6.dist-info/METADATA,sha256=95dnR5QALcKI2Qg4wajvwb_WSm01-8VXQ7MWcVqy1I0,2880
+fgcp_client_api-1.4.6.dist-info/RECORD,,
+fgcp_client_api-1.4.6.dist-info/WHEEL,sha256=oGGm_O4g839AJOrCbXq_ZxGrWdwSrjduga8Rn8cINEs,97
+fgcp_client_api-1.4.6.dist-info/_file_idx.tab,sha256=4EJwlmQi3GejsFbLMb2ytdb6TneWeP10IJaR1RdWtlw,406
+fgcp_client_api-1.4.6.dist-info/entry_points.txt,sha256=5pRJqBxV2mkL197lLYBBr7GarWYA3QQ3YkyWKMsg8qo,41
+fgcp_client_api-1.4.6.dist-info/top_level.txt,sha256=3tSbxRc7Jhudbe-aYvcXEwaKkMAhj91Q2uMGVj7h594,5
