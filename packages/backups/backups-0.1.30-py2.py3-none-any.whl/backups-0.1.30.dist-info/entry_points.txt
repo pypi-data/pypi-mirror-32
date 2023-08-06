@@ -1,0 +1,4 @@
+[console_scripts]
+backup-mysql = backups.mysql:main
+backup-postgres = backups.postgres:main
+
