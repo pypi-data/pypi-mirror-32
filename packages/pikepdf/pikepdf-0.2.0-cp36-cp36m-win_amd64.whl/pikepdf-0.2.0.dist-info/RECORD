@@ -1,0 +1,12 @@
+pikepdf/__init__.py,sha256=Tk9gDZ-vaY3B_ld5aXBScP8y-aX3CReBPUsrbk3bUa4,7052
+pikepdf/_boneyard.py,sha256=-dsjpJLmXc2BhdFuxqDZRe4fEqWf4SqNjR2leRsCQOY,4238
+pikepdf/_cpphelpers.py,sha256=sU6iyJB4vP-16zpvF9rOcueL4DdE028m_9JCk-rYsTQ,1662
+pikepdf/_objects.py,sha256=MCHfZ4-4jmgSwr7KcE-INRqUhCqP-cFk5EkzZpt7Evk,3681
+pikepdf/_pdfimage.py,sha256=ypzgTba11RWNdxQgDJBh010ifLR5WYr3CphY0lybsj4,15012
+pikepdf/_qpdf.cp36-win_amd64.pyd,sha256=5HAy4GWYqqAfFljFeSMt43fAijsqyzKolnD6PWUjTzc,633344
+pikepdf/qpdf21.dll,sha256=C6OxwAi9t9kmGo9DF-W0f4FHrOQhxkhnNEZYh_I3BXE,1564160
+pikepdf-0.2.0.dist-info/LICENSE.txt,sha256=AqWyd4WNU3kKSVJ87n0XC6IOGiiNgdqK-FtqjoiDMFE,28415
+pikepdf-0.2.0.dist-info/METADATA,sha256=_bIpX38QeG6nsB0xJVs9whKflwQtjpJG-DsdfIKvWSs,6564
+pikepdf-0.2.0.dist-info/RECORD,,
+pikepdf-0.2.0.dist-info/WHEEL,sha256=xq3J6sB2oJqjv0tDC7tGUGvne1fOugw1JUmk86QA7UM,106
+pikepdf-0.2.0.dist-info/top_level.txt,sha256=I9EqKPMWS0R0KipU78RVfZCHdDzZhMrjM4wxykU9l_o,8
