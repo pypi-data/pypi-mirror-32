@@ -1,0 +1,9 @@
+farmware_tools/VERSION,sha256=oK1QZAE5pST4ZZEVcUW_HUZ06pwGW_6iFVjw97BEMMg,6
+farmware_tools/__init__.py,sha256=mxzKLdrnxyGu_-cG9ImSylgH9CByRrkN9aJ0DMw25UU,1836
+farmware_tools/app.py,sha256=2IiVsNzQTc6Lxs2iOJ7RK0hvSqefgHsVi0VxEPftIqM,5968
+farmware_tools/aux.py,sha256=-CHHUKgGHuHI-RN2eosAg8CgEQ8HWfPMSBgVEermF9E,3062
+farmware_tools/device.py,sha256=WMp0ppHeudwhJ_txLPwC4DVOU895dPDzNymDDJzp5Vk,14550
+farmware_tools-0.5.0.dist-info/METADATA,sha256=zstN1y5nHKifi1H4_L8W_dtLAXJ_QrMdRSMCVaXMeEY,1641
+farmware_tools-0.5.0.dist-info/RECORD,,
+farmware_tools-0.5.0.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+farmware_tools-0.5.0.dist-info/top_level.txt,sha256=J4x8TB4bbefVH3TN7qMkN8V93rGkOvLF2RoQt_3xdcc,15
