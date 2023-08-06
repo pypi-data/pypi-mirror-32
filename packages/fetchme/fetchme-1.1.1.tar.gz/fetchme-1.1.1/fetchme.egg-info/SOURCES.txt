@@ -1,0 +1,15 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+cfg/.fetchmerc
+fetchme/__init__.py
+fetchme/__version__.py
+fetchme/_cli.py
+fetchme/utils.py
+fetchme.egg-info/PKG-INFO
+fetchme.egg-info/SOURCES.txt
+fetchme.egg-info/dependency_links.txt
+fetchme.egg-info/entry_points.txt
+fetchme.egg-info/requires.txt
+fetchme.egg-info/top_level.txt
