@@ -1,0 +1,17 @@
+AUTHORS.rst
+CONTRIBUTING.rst
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+openccbinary/__init__.py
+openccbinary.egg-info/PKG-INFO
+openccbinary.egg-info/SOURCES.txt
+openccbinary.egg-info/dependency_links.txt
+openccbinary.egg-info/entry_points.txt
+openccbinary.egg-info/not-zip-safe
+openccbinary.egg-info/top_level.txt
+tests/__init__.py
+tests/test_openccbinary.py
