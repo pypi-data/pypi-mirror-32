@@ -1,0 +1,15 @@
+simple_id/__init__.py,sha256=ry4Hcrkd0L_HyuccEsBBS77HBjlcs4NuzpOdSs-TgVk,431
+simple_id/base.py,sha256=wiGWztglclo0_eVfh4wfqtrGLvjXr5qU5qOCPEYx8dc,3611
+simple_id/latex.py,sha256=aB1T9c-E4KSqrN0tBJO7Oz9nxWFVvF8VJd_sHvAx-Dk,1976
+simple_id/manualClassifier.py,sha256=hJ7TzUj9bkdSwpUudV7AA7GDa95HrpINPrhML4eWcgA,1451
+simple_id/neuralnet.py,sha256=iaJmN3xKgGcbCu_bf0buDO0saXJF5BG2AjlEkIe1_LE,4789
+simple_id/occlusionMap.py,sha256=E__avsD06vw3sEz9dYqw2xYtIf9HcMhXAi6O0562gPU,3913
+simple_id/processing_helpers.py,sha256=pQuZnzxqCGWyCzIlwv7r9PBn8XEL1NDCkesa3VmVZQ8,6656
+simple_id/training.py,sha256=lDsVTRfFbU1oRx1a0dJdwvmJePRiSR7yf6cuUCIAfpI,4276
+simple_id/utilities.py,sha256=qfwhDaiY293XDFHT3k890TbET6WlGkHvgjCx5jwvrMg,8165
+simple_id-0.0.4.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+simple_id-0.0.4.dist-info/METADATA,sha256=mYO86D4mzrCawxSPRJHy81LzIBWubTHbgtsH7aZWjz0,538
+simple_id-0.0.4.dist-info/RECORD,,
+simple_id-0.0.4.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+simple_id-0.0.4.dist-info/metadata.json,sha256=61WL1akFxVSfdRk8Ob6uclks7-0kBigjPvJ60TPVUf8,672
+simple_id-0.0.4.dist-info/top_level.txt,sha256=Sf8xn5V1--LrIJs4ZXTlTUojkb_UaObl9-5ZC-5oElU,10

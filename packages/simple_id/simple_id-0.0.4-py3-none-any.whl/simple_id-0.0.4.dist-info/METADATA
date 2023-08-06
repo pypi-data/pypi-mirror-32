@@ -1,0 +1,22 @@
+Metadata-Version: 2.0
+Name: simple-id
+Version: 0.0.4
+Summary: UNKNOWN
+Home-page: https://github.com/reidmcy/simple_id
+Author: Reid McIlroy-Young
+Author-email: reidmcy@uchicago.edu
+License: UNKNOWN
+Download-URL: https://github.com/reidmcy/simple_id/archive/0.0.4.tar.gz
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: gensim (>=2.0.0)
+Requires-Dist: matplotlib
+Requires-Dist: nltk
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: seaborn
+
+UNKNOWN
+
+
