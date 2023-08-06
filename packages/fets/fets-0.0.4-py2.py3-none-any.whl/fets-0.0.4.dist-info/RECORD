@@ -1,0 +1,12 @@
+fets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fets/counter.py,sha256=oHGpXx3lK_2XBA794KZgvuF-abwOcZHTB8pmkhF8wJE,3295
+fets/math.py,sha256=J1bjZEGwbZ0crRr053KfOne4FSfj1yqVpCMADYN9ywQ,2745
+fets/pipeline.py,sha256=FU6iWSBkEAKy8vBju33n1Vq0Cy2m3LFjcOkPSaukidE,1432
+fets/selection.py,sha256=dB71Oi_QiDfr-kp1sgzcWFRXrokFkKJpTZAWzfBqtPs,394
+fets/text.py,sha256=khGQy-DwDoeVS2f_ALCfKdAogpgIlBsF7uxgytK8dN8,5114
+fets-0.0.4.dist-info/DESCRIPTION.rst,sha256=-6JiTljsoBDPgWN94O77nfm88RVC5b9M1gkdBazxWSg,741
+fets-0.0.4.dist-info/METADATA,sha256=GWcZfZN9T-F6Wae38sP1zMq4GUl9v6LSpsQAK-pygCU,1394
+fets-0.0.4.dist-info/RECORD,,
+fets-0.0.4.dist-info/WHEEL,sha256=o2k-Qa-RMNIJmUdIc7KU6VWR_ErNRbWNlxDIpl7lm34,110
+fets-0.0.4.dist-info/metadata.json,sha256=MxqAcrMvqak8dBBNrhmv3wmtOL1V_jBxrs4BLYrNlVQ,860
+fets-0.0.4.dist-info/top_level.txt,sha256=lB4M-xGUR89xsRBrsZGolIYDWH8764jLC2GZxvhCjG0,5
