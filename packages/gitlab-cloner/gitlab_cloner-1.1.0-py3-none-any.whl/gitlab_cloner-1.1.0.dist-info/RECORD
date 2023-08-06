@@ -1,0 +1,9 @@
+gitlab_cloner/__init__.py,sha256=-k4FigDhaf5u5_obHT7GRvKIX22PmcN0vJrD0heZlBs,1390
+gitlab_cloner/gitlab_api.py,sha256=L1L4AD-OcD2MTGBLC5IFM6Am8vZPbbdJMZDE7I6P4QY,2585
+gitlab_cloner-1.1.0.data/scripts/gitlab-cloner,sha256=2rvYBHt4SZa2YTbWH__fhYM-kStICnYFU5gqgybL_Nk,1410
+gitlab_cloner-1.1.0.dist-info/METADATA,sha256=Nszh64F0EMC3B-BwhZesOszap51NG3qH9K8b5wOjDLo,1589
+gitlab_cloner-1.1.0.dist-info/RECORD,,
+gitlab_cloner-1.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+gitlab_cloner-1.1.0.dist-info/top_level.txt,sha256=GwKGf8Y3SktQQZJGdSxW6BHQSDQVQDMfK_bs7kaX1fo,19
+test/__init__.py,sha256=Fm57q-lYvdQYEY1p538yD7VFIZ-v3YXX0SLJ4WggLOw,729
+test/test_cloning.py,sha256=VHRxUw80AVdq_Am7GFqisjwDcONU9xdzcJa4e7vKuJU,1844

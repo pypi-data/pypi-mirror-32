@@ -1,0 +1,42 @@
+#!python
+"""LICENSE
+Copyright 2017 Hermann Krumrey <hermann@krumreyh.com>
+
+This file is part of gitlab-cloner.
+
+gitlab-cloner is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+gitlab-cloner is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with gitlab-cloner.  If not, see <http://www.gnu.org/licenses/>.
+LICENSE"""
+
+import os
+import argparse
+from gitlab_cloner import clone_all
+
+
+def main():
+    """
+    Retrieves a list of all projects in a gitlab instance and clones them
+    :return: None
+    """
+    parser = argparse.ArgumentParser()
+    parser.add_argument("url", help="The Gitlab URL, including https etc")
+    parser.add_argument("token", nargs="?", default="",
+                        help="The Gitlab Personal Access Token")
+    parser.add_argument("-d", "--destination", default=os.getcwd(),
+                        help="The destination directory.")
+    args = parser.parse_args()
+    clone_all(args.url, args.token, args.destination)
+
+
+if __name__ == "__main__":
+    main()
