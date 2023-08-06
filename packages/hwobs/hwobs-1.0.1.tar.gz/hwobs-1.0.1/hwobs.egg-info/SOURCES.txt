@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+hwobs/__init__.py
+hwobs.egg-info/PKG-INFO
+hwobs.egg-info/SOURCES.txt
+hwobs.egg-info/dependency_links.txt
+hwobs.egg-info/entry_points.txt
+hwobs.egg-info/top_level.txt
