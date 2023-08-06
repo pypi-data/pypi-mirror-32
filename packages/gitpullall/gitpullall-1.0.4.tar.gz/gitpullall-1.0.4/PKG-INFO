@@ -1,0 +1,22 @@
+Metadata-Version: 1.0
+Name: gitpullall
+Version: 1.0.4
+Summary: A Python module that calls "git pull" on all subfolders
+Home-page: https://github.com/AlexFlipnote/gitpullall
+Author: AlexFlipnote
+Author-email: UNKNOWN
+License: GNU v3
+Description: # gitpullall
+        A quick command that calls "git pull" on all subfolders in a directory
+        
+        There's not really much more to say about it, it just git pulls.
+        
+        # Install
+        ```
+        [sudo] pip install gitpullall
+        ```
+        
+        # Preview
+        ![Image](https://i.alexflipnote.xyz/436056.gif)
+        
+Platform: UNKNOWN
