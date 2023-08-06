@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+marbles.egg-info/PKG-INFO
+marbles.egg-info/SOURCES.txt
+marbles.egg-info/dependency_links.txt
+marbles.egg-info/requires.txt
+marbles.egg-info/top_level.txt
