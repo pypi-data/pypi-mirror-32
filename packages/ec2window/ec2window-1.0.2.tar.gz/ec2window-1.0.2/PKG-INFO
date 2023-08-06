@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: ec2window
+Version: 1.0.2
+Summary: Simple EC2 instance context manager
+Home-page: https://github.com/nicholasbishop/ec2window
+Author: Nicholas Bishop
+Author-email: nicholasbishop@gmail.com
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

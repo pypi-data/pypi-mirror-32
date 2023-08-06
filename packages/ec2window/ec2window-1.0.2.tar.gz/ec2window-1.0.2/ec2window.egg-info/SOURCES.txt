@@ -1,0 +1,6 @@
+setup.py
+ec2window/__init__.py
+ec2window.egg-info/PKG-INFO
+ec2window.egg-info/SOURCES.txt
+ec2window.egg-info/dependency_links.txt
+ec2window.egg-info/top_level.txt
