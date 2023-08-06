@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cobinhood
+Version: 0.1.0
+Summary: Cobinhood API
+Home-page: https://github.com/CliffLin/python-cobinhood
+Author: zylin
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: websocket-client
+Requires-Dist: coloredlogs
+
+UNKNOWN
+
+
