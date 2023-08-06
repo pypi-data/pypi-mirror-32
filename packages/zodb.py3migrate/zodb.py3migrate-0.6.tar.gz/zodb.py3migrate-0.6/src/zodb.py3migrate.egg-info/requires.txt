@@ -1,0 +1,9 @@
+ZODB3>=3.11
+setuptools
+zodbpickle
+
+[test]
+mock
+pytest
+transaction
+Products.PythonScripts
