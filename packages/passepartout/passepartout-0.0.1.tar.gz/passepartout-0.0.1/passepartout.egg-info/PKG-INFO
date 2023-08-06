@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: passepartout
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/Varkal/passepartout
+Author: Romain Moreau
+Author-email: moreau.romain83@gmail.com
+License: MIT
+Download-URL: https://github.com/Varkal/passepartout/archive/0.0.1.tar.gz
+Description: # passepartout #
+        
+Keywords: passepartout
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
