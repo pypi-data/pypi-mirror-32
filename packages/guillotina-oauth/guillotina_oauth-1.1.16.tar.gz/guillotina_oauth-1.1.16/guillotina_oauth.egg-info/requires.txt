@@ -1,0 +1,5 @@
+setuptools
+guillotina>=3.0.0,<4.0.0
+ujson
+pyjwt
+lru-dict
