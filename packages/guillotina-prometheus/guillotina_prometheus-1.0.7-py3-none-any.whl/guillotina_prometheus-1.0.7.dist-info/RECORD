@@ -1,0 +1,10 @@
+guillotina_prometheus/__init__.py,sha256=CUGl1dRtG2_mQYyMZNjSB2-w6D_SpAHFkNMNf5tlAlU,237
+guillotina_prometheus/api.py,sha256=nhl9WT7xT4SXKlPwyT_Su8u4vkdaXQpXYwqgWvRLZqw,369
+guillotina_prometheus/metrics.py,sha256=H8ZgtfUfgpkjSbpkJ4jDw_otMGBCGg5U78WiEbXvmiI,178
+guillotina_prometheus/middleware.py,sha256=kD215SP_FiXC4m-ieX5EbxjfYxXOmcxooKA7hmpf3nI,954
+guillotina_prometheus-1.0.7.dist-info/DESCRIPTION.rst,sha256=eKoqjEs5OkpEab3TDRQYAfiSzXv3KnOBp9Dntm_G3l0,1239
+guillotina_prometheus-1.0.7.dist-info/METADATA,sha256=p4574axC_g_SiA9-lkpATt0nfXPc7VKnlT6vK2-BCE8,1641
+guillotina_prometheus-1.0.7.dist-info/RECORD,,
+guillotina_prometheus-1.0.7.dist-info/WHEEL,sha256=dXGL5yz26tu5uNsUy9EBoBYhrvMYqmFH9Vm82OQUT-8,95
+guillotina_prometheus-1.0.7.dist-info/metadata.json,sha256=5753W3RRdep5c6tG-Cx6HQVHfUJPm8MJgLt6BN7euCc,627
+guillotina_prometheus-1.0.7.dist-info/top_level.txt,sha256=C1y_qQBgZeyOMP4qhn5_Xzd4d_Rv9M_SXK5STOCgmAU,22
