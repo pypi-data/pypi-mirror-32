@@ -1,0 +1,14 @@
+dmango/__init__.py,sha256=FVHPBGkfhbQDi_z3v0PiKJrXXqXOx0vGW_1VaqNJi7U,22
+dmango/apps.py,sha256=ndiVS40FxU-f-XzCTSdAkCjACoZOTeC-NNa6viX7Ucs,107
+dmango/models.py,sha256=YyDnevfYL5KNNRVPnwhP96MFg2BqJME6-UMG6wJzLn0,151
+dmango/urls.py,sha256=9E0maJSO-LI8TTs6v5D8YGg5bGo_5jGPYNTzimNQCNM,791
+dmango/views.py,sha256=NGlfXapix3ePAjlGw6TVxx9boNzYf5f61wxf9gov4-M,437
+dmango/static/css/dmango.css,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dmango/static/js/dmango.js,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dmango/templates/dmango/base.html,sha256=zzaUPjEgvwxg-Gn2rZ6gIMWphucmEGvAU_skUXJIcDA,661
+dmango-0.2.0.dist-info/DESCRIPTION.rst,sha256=sOwJk4PN6tprvGYvfu8fxQGz9drkrFnUlC0DTC9aAOE,1463
+dmango-0.2.0.dist-info/METADATA,sha256=n_IQY_wnDDYMdolc31MUmx5WszWKUSFiDpMoBit_2vs,2257
+dmango-0.2.0.dist-info/RECORD,,
+dmango-0.2.0.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+dmango-0.2.0.dist-info/metadata.json,sha256=y7s3scJyizCDO6qCpdHB9uwNukFLXFzODOMaCRD47EQ,941
+dmango-0.2.0.dist-info/top_level.txt,sha256=bh9BgPKrVE707niTLevr9Wvb3VTkwo5sk6xLKKLP6bo,7
