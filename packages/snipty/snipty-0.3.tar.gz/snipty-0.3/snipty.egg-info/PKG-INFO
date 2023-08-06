@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: snipty
+Version: 0.3
+Summary: Minimalistic package manager for snippets.
+Home-page: https://github.com/cypreess/snipty
+Author: Kris Dorosz
+Author-email: cypreess@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >3.6
