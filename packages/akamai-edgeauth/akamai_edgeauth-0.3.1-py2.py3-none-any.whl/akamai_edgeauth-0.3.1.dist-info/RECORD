@@ -1,0 +1,10 @@
+akamai_edgeauth-0.3.1-py2.7-nspkg.pth,sha256=TmL6rwiGOqN7hTb700adGKQKwCXGZFiOSKL0W4QzfOU,305
+akamai/authtoken/__init__.py,sha256=HhkqV3p2A3iiUn81ZGeBuICH6x5KDZfJ08H7TfsSOus,119
+akamai/authtoken/authtoken.py,sha256=iRYI5KANpjxMbFPYbOJ24MNhcBLL-K-ocbXIV74GXB8,7121
+akamai/edgeauth/__init__.py,sha256=M_K_oI14mgqVAYRbHiL0wKDPoEGdDtINd8eQ8-BNt0w,113
+akamai/edgeauth/edgeauth.py,sha256=mXqlTFeFk8BHNak6Y_FHOxYXaptWfE41LvbTwzfESX8,6686
+akamai_edgeauth-0.3.1.dist-info/METADATA,sha256=9D2_ovmR7Uerf2-ZCPxNognyZIx0A_AH7SOf3z3x2kc,8111
+akamai_edgeauth-0.3.1.dist-info/RECORD,,
+akamai_edgeauth-0.3.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+akamai_edgeauth-0.3.1.dist-info/namespace_packages.txt,sha256=szjzYJ0FacUGu9R1JEkJrBHjlQroKtnCz0zkAhCvyKw,7
+akamai_edgeauth-0.3.1.dist-info/top_level.txt,sha256=szjzYJ0FacUGu9R1JEkJrBHjlQroKtnCz0zkAhCvyKw,7
