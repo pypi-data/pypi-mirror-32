@@ -1,0 +1,4 @@
+[console_scripts]
+waf-brain = waf_brain.__main__:serve
+waf-models = waf_brain.__main__:list_models
+
