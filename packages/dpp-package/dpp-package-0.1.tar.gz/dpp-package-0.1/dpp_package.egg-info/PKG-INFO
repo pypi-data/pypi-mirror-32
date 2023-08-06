@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: dpp-package
+Version: 0.1
+Summary: Example DPP package
+Home-page: https://github.com/dorianwalega96/DPP
+Author: Dorian Walega
+Author-email: dorianwalega96@gmail.com
+License: MIT
+Description: Example long description to python package
+        
+Platform: UNKNOWN

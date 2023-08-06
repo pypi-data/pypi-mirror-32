@@ -1,0 +1,7 @@
+setup.py
+dpp_package.egg-info/PKG-INFO
+dpp_package.egg-info/SOURCES.txt
+dpp_package.egg-info/dependency_links.txt
+dpp_package.egg-info/top_level.txt
+myPackage/__init__.py
+myPackage/pythCode.py
