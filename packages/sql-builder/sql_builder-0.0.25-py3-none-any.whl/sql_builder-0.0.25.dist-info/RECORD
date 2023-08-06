@@ -1,0 +1,6 @@
+sql_builder/__init__.py,sha256=yy9RHlE_5RL5TpQdzGJ7zzsLs_DwGTn-1k44QkXqlno,106
+sql_builder/sql.py,sha256=8CxZG1_wRlcZPLWvU0O_WBwu_S1UXN9BT1FnWZq0XWs,36205
+sql_builder-0.0.25.dist-info/METADATA,sha256=-WFJPgmD43Kq-w_fH2bvMo7btNv4VKr374g0rB8a_aw,822
+sql_builder-0.0.25.dist-info/RECORD,,
+sql_builder-0.0.25.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+sql_builder-0.0.25.dist-info/top_level.txt,sha256=RKyFkXnI_mKWqM_vP2QsyZQc7Udl5gInGPne3hgCH2Y,12
