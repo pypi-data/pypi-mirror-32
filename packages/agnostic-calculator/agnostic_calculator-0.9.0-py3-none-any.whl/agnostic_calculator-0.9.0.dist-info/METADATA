@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: agnostic-calculator
+Version: 0.9.0
+Summary: A number-type-agnostic calculator.
+Home-page: https://github.com/carawarner/calculator
+Author: Cara Warner
+Author-email: procgenitor@gmail.com
+License: GNU General Public License v3.0
+Project-URL: Bug Reports, https://github.com/carawarner/calculator/issues
+Project-URL: Source, https://github.com/carawarner/calculator
+Keywords: math
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# calculator
+
+![Travis](https://img.shields.io/travis/carawarner/calculator/master.svg)
+
+
