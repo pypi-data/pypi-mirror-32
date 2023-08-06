@@ -1,0 +1,11 @@
+feincms_richtextplus/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+feincms_richtextplus/models.py,sha256=e_MQyuIgs3AN3FjlGzSCa2etJ2ZhEivsGVwrrWRlCak,2751
+feincms_richtextplus/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+feincms_richtextplus/locale/ru/LC_MESSAGES/django.mo,sha256=WmrNMQiGTbq9vdPdhvOZ0mvVgU7xNMgX0vOl1OoSZ0w,1262
+feincms_richtextplus/locale/ru/LC_MESSAGES/django.po,sha256=0WD8EM_-syTsY-aLQRwkv4AQ4LrXzA_rvZj66sc39Ss,1631
+feincms_richtextplus/templates/content/richtextplus/default.html,sha256=4uA8K2fxToniG3a3-psABYq5caPHr7JkGz5gvIA2SaY,57
+feincms_richtextplus/templates/content/richtextplus/wrapped.html,sha256=suP4uF90Sq_zpmFmhqnmd_JzftLXA-wisneOwgqYhhA,223
+feincms_richtextplus-1.1.0.dist-info/METADATA,sha256=aSc579IPUJ3CbXBdUaISJ2_q71cs2B85qVXPG1NevtM,1910
+feincms_richtextplus-1.1.0.dist-info/RECORD,,
+feincms_richtextplus-1.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+feincms_richtextplus-1.1.0.dist-info/top_level.txt,sha256=2dI9Xa4yCflWWwn-SdhqmjlyzJTxMF-DbdQeD-wo_1s,21
