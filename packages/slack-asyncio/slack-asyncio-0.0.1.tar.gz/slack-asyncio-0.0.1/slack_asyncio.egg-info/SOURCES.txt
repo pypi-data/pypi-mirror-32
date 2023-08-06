@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+slack_asyncio/__init__.py
+slack_asyncio/api.py
+slack_asyncio/bot.py
+slack_asyncio.egg-info/PKG-INFO
+slack_asyncio.egg-info/SOURCES.txt
+slack_asyncio.egg-info/dependency_links.txt
+slack_asyncio.egg-info/requires.txt
+slack_asyncio.egg-info/top_level.txt
