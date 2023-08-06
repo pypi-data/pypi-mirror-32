@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: captcha-varis-main
+Version: 1.0
+Summary: UNKNOWN
+Home-page: https://github.com/varisbhalala/captcha-simple.git
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: setuptools
+Requires-Dist: Django (>=2.0.2)
+Requires-Dist: Pillow (>=2.2.2)
+
+UNKNOWN
+
+
