@@ -1,0 +1,29 @@
+Metadata-Version: 2.0
+Name: djangolint
+Version: 0.2.1
+Summary: A flexible django json validation for python web development.
+Home-page: https://github.com/hcgop/djangolint.git
+Author: x-debug, Tangwz, Thomas Johansson, James Crasta
+Author-email: coding2coding@gmail.com
+License: BSD
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: Locale
+Requires-Dist: ordereddict; python_version=="2.6"
+Provides-Extra: Locale
+Requires-Dist: Babel (>=1.3); extra == 'Locale'
+
+django验证库,准备集成swagger文档功能,得益于wtforms,所以支持json验证
+
+
