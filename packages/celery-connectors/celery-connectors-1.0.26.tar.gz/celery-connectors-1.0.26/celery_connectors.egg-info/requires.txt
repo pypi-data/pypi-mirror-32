@@ -1,0 +1,15 @@
+ansible>=1.9
+boto3
+celery>=4.1.0
+coverage
+flake8>=3.4.1
+future
+kombu>=4.1.0
+logstash-formatter
+mock
+pep8>=1.7.1
+pycurl
+pylint
+python-logstash
+redis
+unittest2
