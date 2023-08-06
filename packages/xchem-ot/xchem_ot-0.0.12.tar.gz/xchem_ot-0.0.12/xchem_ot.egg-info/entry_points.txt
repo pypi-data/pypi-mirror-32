@@ -1,0 +1,3 @@
+[console_scripts]
+ot_xchem = ot_xchem.utils.parser:run_function
+
