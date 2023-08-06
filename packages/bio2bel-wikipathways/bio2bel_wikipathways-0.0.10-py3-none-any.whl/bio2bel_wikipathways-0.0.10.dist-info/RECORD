@@ -1,0 +1,14 @@
+bio2bel_wikipathways/__init__.py,sha256=T_SF0F0XpasVJOqE-veWZv2T5N5qctdBQFqaz2S4iQ4,1419
+bio2bel_wikipathways/__main__.py,sha256=-9nGNPeHDeIrVfMbpzfc0znljRtImiB_hkVQRfeb09Q,106
+bio2bel_wikipathways/cli.py,sha256=RixHX-atszcbj2w3rctiL6xRfsL2KNWEjIzasw_q49o,319
+bio2bel_wikipathways/constants.py,sha256=BMYZnCIeRemJLEB7_6TzKphBEF-PP0A5qQCLGJdf4o0,476
+bio2bel_wikipathways/manager.py,sha256=CxII8ZUtPIwh-9XAJeqNTcoObp3P8B-JO7DlDzyov-U,8267
+bio2bel_wikipathways/models.py,sha256=itjnqe4QJPx9W1A2qEoh_0RMzxapIGHFBHwA--q7VZc,3096
+bio2bel_wikipathways/parser.py,sha256=R3PdNq2XeoqylJpKtemMYzit7xhQ-u8iyT3InEn0dVQ,2205
+bio2bel_wikipathways/to_belns.py,sha256=4YiBhQ27DsPB1lbW7bcd9v-_iW8cRh-DQZDHJCJBg5U,1886
+bio2bel_wikipathways/web.py,sha256=DtWpM2ECthjyeJ0Dt5yN32tjJTeYo-uOw0KZBQa_xLc,288
+bio2bel_wikipathways-0.0.10.dist-info/METADATA,sha256=kDiiKRB4gHVQDSEtYck1PRro8pwP2M_l15NkeQicyJE,4298
+bio2bel_wikipathways-0.0.10.dist-info/RECORD,,
+bio2bel_wikipathways-0.0.10.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+bio2bel_wikipathways-0.0.10.dist-info/entry_points.txt,sha256=uWjmOdcOdoM8i83jUVJQkhH-XmonY_WDH0zBel344QQ,166
+bio2bel_wikipathways-0.0.10.dist-info/top_level.txt,sha256=TAqnw0_bOyhNPL2KJ3VRoN43ACDWTPhPoYal6uqkt2A,21
