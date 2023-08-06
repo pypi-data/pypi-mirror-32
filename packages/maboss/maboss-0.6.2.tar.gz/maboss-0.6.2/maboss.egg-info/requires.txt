@@ -1,0 +1,5 @@
+colomoto_jupyter
+pyparsing
+ipywidgets
+matplotlib
+pandas
