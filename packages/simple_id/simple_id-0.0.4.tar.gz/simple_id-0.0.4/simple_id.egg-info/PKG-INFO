@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: simple-id
+Version: 0.0.4
+Summary: UNKNOWN
+Home-page: https://github.com/reidmcy/simple_id
+Author: Reid McIlroy-Young
+Author-email: reidmcy@uchicago.edu
+License: UNKNOWN
+Download-URL: https://github.com/reidmcy/simple_id/archive/0.0.4.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
