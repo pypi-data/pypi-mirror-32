@@ -1,0 +1,75 @@
+{% extends "wedding/blocks/base.html" %}
+{% load static %}
+
+{% block title %}
+Wedding Party
+{% endblock %}
+
+{% block content %}
+<div id="story" class="container-fluid page-container base-font">
+  <h1 class="page-header text-center">#team</h1>
+  <div class="row">
+
+    <!-- Gridesmaids -->
+    <div class="col-sm-6 text-justify">
+
+      <h2 class="text-center">{{ gridesmaids.text }}</h2>
+
+      {% for gridesmaid in gridesmaids.team %}
+        <div class="team-member">
+          <h3 class="text-center">
+            {{ gridesmaid.name }}<br>
+            <small class="text-muted">{{ gridesmaid.title }}</small>
+          </h3>
+          <image src="{% static gridesmaid.static_img %}"
+            class="img-responsive img-circle half-width-image float-center"
+            alt="{{ gridesmaid.name }} :D"/>
+        </div>
+      {% endfor %}
+    </div>
+
+    <!-- Broomsmen -->
+    <div class="col-sm-6 text-justify">
+
+      <h2 class="text-center">{{ broomsmen.text }}</h2>
+
+      {% for broomsman in broomsmen.team %}
+        <div class="team-member">
+          <h3 class="text-center">
+            {{ broomsman.name }}<br>
+            <small class="text-muted">{{ broomsman.title }}</small>
+          </h3>
+          <image src="{% static broomsman.static_img %}"
+            class="img-responsive img-circle half-width-image float-center"
+            alt="{{ broomsman.name }} :3"/>
+        </div>
+      {% endfor %}
+    </div>
+
+  </div>
+  <div class="row">
+    <div class="col-sm-12 text-justify">
+      <h2 class="text-center">Credits</h2>
+      <p>{{ credits.text }}</p>
+      <div style="display:flex; justify-content:center">
+        {% for item in credits.people %}
+        <div class="team-member">
+          <h3 class="text-center">
+            {{ item.name }}<br>
+            <small class="text-muted">{{ item.title }}</small>
+          </h3>
+          {% if item.static_img %}
+          <image src="{% static item.static_img %}"
+            class="img-responsive img-circle half-width-image float-center"
+            alt="{{ item.name }} :3"/>
+          {% endif %}
+          {% if item.description %}
+          <p>{{ item.description }}</p>
+          {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
