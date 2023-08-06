@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: pygar
+Version: 1.0.2
+Summary: Searches the SEC's Edgar database using a variety of methods
+Home-page: https://gitlab.com/BCable/pygaR
+Author: Brad Cable
+Author-email: brad@bcable.net
+License: MIT
+Description-Content-Type: text/markdown
+Keywords: pygar edgar sec stock filing
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Requires-Dist: certifi
+Requires-Dist: pycurl
+
+pygaR 1.0.2
+===========
+
+pygaR is a Python module (with R package wrapper) that searches the SEC EDGAR
+system in a variety of methods.  It is cross platform (Linux/UNIX/Windows), and
+works on either the Python 2 or 3 branches.
+
+More information on the SEC EDGAR system can be found here:
+
+https://www.sec.gov/edgar.shtml
+
+This project is a module on PyPI:
+
+https://pypi.python.org/pypi/pygar
+
+This project's source code can be found on GitLab:
+
+https://gitlab.com/BCable/pygaR
+
+This project's Sphinx source code can be found on GitLab Pages:
+
+https://bcable.gitlab.io/pygaR/sphinx
+
+## Examples
+
+[pygar\_form(...) Example](https://bcable.gitlab.io/pygaR/pygar_form/)
+
+[pygar\_master(...) Example](https://bcable.gitlab.io/pygaR/pygar_master/)
+
+[pygar\_search(...) Example](https://bcable.gitlab.io/pygaR/pygar_search/)
+
+## System Requirements
+
+Python 2.7+, 3.3+
+
+R (not required): 3+
+
+## Installation
+
+### Python Module
+
+#### Linux/UNIX
+
+    pip install pygar
+
+#### Windows
+
+    path\to\python.exe -m pip install pygar
+
+### R Package
+
+Requires devtools package to install, and the pygar Python module in order to function.
+
+If you don't have the "devtools" package installed in R, you will need to
+install that first:
+
+    install.packages("devtools")
+
+To install the R package:
+
+    library(devtools)
+    install_git("https://gitlab.com/BCable/pygaR.git", subdir="Rpkg")
+
+
