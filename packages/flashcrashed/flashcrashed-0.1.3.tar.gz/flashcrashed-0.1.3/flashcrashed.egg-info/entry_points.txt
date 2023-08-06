@@ -1,0 +1,4 @@
+[console_scripts]
+flashcrashed = flashcrashed.cli:main
+flashtest = flashcrashed.cli:performance
+
