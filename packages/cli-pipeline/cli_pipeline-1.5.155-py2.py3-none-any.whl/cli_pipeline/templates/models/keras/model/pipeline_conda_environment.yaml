@@ -1,0 +1,7 @@
+dependencies:
+  - pip=9.0.3
+  - python=3.6
+  - h5py=2.7.1
+  - pip:
+    - keras==2.1.5
+    - pipeline-runtime>=1.0.8
