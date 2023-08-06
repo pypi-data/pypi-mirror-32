@@ -1,0 +1,8 @@
+requests==2.18.4
+expiringdict==1.1.4
+six==1.11.0
+cached-property==1.4.2
+python-baseconv==1.2.0
+
+[:python_version < "3.4"]
+enum34==1.1.6
