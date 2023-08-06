@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pycurrency-convertor
+Version: 0.0.1
+Summary: A python package to convert currencyt
+Home-page: https://github.com/vaibhavsingh97/pycurrency-convertor
+Author: Vaibhav Singh
+Author-email: author@vaibhavsingh97.com
+License: UNKNOWN
+Description: # pycurrency-convertor
+        
+        This is a simple python packaghe to convert currency
+        
+        ## Issues
+        
+        You can report the bugs at the [issue tracker](https://github.com/vaibhavsingh97/StalkPy/issues)
+        
+        ## License
+        
+        Built with ♥ by Vaibhav Singh([@vaibhavsingh97](https://github.com/vaibhavsingh97)) under [MIT License](https://vaibhavsingh97.mit-license.org/)
+        
+        You can find a copy of the License at <https://vaibhavsingh97.mit-license.org/>
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

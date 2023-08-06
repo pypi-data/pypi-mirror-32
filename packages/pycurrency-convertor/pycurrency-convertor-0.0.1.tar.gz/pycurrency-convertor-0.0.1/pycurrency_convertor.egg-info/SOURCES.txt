@@ -1,0 +1,7 @@
+README.md
+setup.py
+pycurrency_convertor/__init__.py
+pycurrency_convertor.egg-info/PKG-INFO
+pycurrency_convertor.egg-info/SOURCES.txt
+pycurrency_convertor.egg-info/dependency_links.txt
+pycurrency_convertor.egg-info/top_level.txt
