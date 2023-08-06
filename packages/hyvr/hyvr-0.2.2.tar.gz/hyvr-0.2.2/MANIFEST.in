@@ -1,0 +1,14 @@
+# Include licence file
+include LICENCE
+
+# Include example parameter file
+include testcases/made.ini
+include testcases/test_lu.ini
+include testcases/test_aelu.txt
+
+# Include readme
+include README.rst
+
+# include .c and .pyx file
+include hyvr/optimized.c
+include hyvr/optimized.pyx
