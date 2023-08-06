@@ -1,0 +1,10 @@
+README.md
+setup.py
+stackby/__init__.py
+stackby/stackby.py
+stackby.egg-info/PKG-INFO
+stackby.egg-info/SOURCES.txt
+stackby.egg-info/dependency_links.txt
+stackby.egg-info/entry_points.txt
+stackby.egg-info/requires.txt
+stackby.egg-info/top_level.txt
