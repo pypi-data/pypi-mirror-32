@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: admiral
+Version: 0.2
+Summary: Simple python high-performance computing cluster batch submission
+Home-page: https://github.com/nspies/admiral
+Author: Noah Spies
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: humanfriendly
+
+UNKNOWN
+
+
