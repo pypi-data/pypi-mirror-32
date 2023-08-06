@@ -1,0 +1,8 @@
+setup.py
+ccq18_hello.egg-info/PKG-INFO
+ccq18_hello.egg-info/SOURCES.txt
+ccq18_hello.egg-info/dependency_links.txt
+ccq18_hello.egg-info/not-zip-safe
+ccq18_hello.egg-info/top_level.txt
+nester/hello.py
+nester/nester.py
