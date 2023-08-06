@@ -1,0 +1,11 @@
+name: makeitpop
+
+dependencies:
+  - scipy
+  - numpy
+  - matplotlib
+  - seaborn
+  - pandas
+  - pip:
+    - colorspacious
+    - makeitpop
