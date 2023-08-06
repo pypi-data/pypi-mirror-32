@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: afsmon
+Version: 1.0.0
+Summary: Helpers for AFS monitoring in Python
+Home-page: https://github.com/ianw/pyafsmon
+Author: Ian Wienand
+Author-email: ian@wienand.org
+License: UNKNOWN
+Description: afsmon
+        ======
+        
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
