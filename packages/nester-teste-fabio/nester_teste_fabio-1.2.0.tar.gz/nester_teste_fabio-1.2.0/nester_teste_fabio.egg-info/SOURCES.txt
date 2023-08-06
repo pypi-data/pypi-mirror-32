@@ -1,0 +1,6 @@
+setup.py
+nester_teste_fabio.egg-info/PKG-INFO
+nester_teste_fabio.egg-info/SOURCES.txt
+nester_teste_fabio.egg-info/dependency_links.txt
+nester_teste_fabio.egg-info/requires.txt
+nester_teste_fabio.egg-info/top_level.txt
