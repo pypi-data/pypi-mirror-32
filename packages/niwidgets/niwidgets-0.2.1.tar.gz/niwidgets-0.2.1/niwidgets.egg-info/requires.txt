@@ -1,0 +1,6 @@
+ipywidgets
+nibabel
+ipyvolume
+matplotlib
+numpy
+scipy
