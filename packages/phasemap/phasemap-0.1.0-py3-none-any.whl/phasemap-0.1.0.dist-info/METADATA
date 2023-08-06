@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: phasemap
+Version: 0.1.0
+Summary: Algorithm for calculating phase diagrams
+Home-page: http://z2pack.ethz.ch/phasemap
+Author: Dominik Gresch
+Author-email: greschd@gmx.ch
+License: GPL
+Keywords: phase,map,diagram,scaling
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Development Status :: 4 - Beta
+Provides-Extra: dev
+Provides-Extra: test
+Provides-Extra: doc
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: decorator
+Requires-Dist: fsc.export
+Requires-Dist: fsc.iohelper (>=1.0.2)
+Requires-Dist: fsc.async-tools
+Provides-Extra: dev
+Requires-Dist: yapf (==0.21); extra == 'dev'
+Requires-Dist: pre-commit; extra == 'dev'
+Requires-Dist: pylint; extra == 'dev'
+Requires-Dist: prospector; extra == 'dev'
+Requires-Dist: msgpack; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: pytest-cov; extra == 'dev'
+Requires-Dist: sphinx; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme; extra == 'dev'
+Requires-Dist: ipython; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: sphinx; extra == 'doc'
+Requires-Dist: sphinx-rtd-theme; extra == 'doc'
+Requires-Dist: ipython; extra == 'doc'
+Provides-Extra: test
+Requires-Dist: msgpack; extra == 'test'
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+
+The PhaseMap algorithm maps a phase diagram, given a function to evaluate the phase at a given point. The number of phase evaluations needed scales with the dimension of the phase boundary, instead of the dimenstion of the phase space. Thus, this algorithm is efficient when evaluating the phase is relatively expensive.
+
+
